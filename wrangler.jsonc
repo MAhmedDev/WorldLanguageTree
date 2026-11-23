@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // A static-assets-only Worker: no server code, so requests are served free from the edge.
+  "name": "world-language-tree",
+  "account_id": "d340193d5e0f1744f667ddd25991caa3",
+  "compatibility_date": "2026-11-15",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [{ "pattern": "languages.thelab.bio", "custom_domain": true }],
+  "workers_dev": false
+}

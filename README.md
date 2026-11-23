@@ -42,3 +42,7 @@ Built with [Solid 2](https://www.solidjs.com), Vite and [MapLibre GL](https://ma
 - **Language write-ups** were researched from the sources cited on each page, many of them [Wikipedia](https://www.wikipedia.org) articles, which are licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The text is written in our own words and each page links its sources. Where Wikipedia wording informs a passage, credit goes to its contributors.
 - **Literary excerpts** are public-domain texts (published before 1931, author died before 1956). Translations are public domain or literal renderings made for this project, and are labelled as such.
 - **Typefaces:** Cormorant Garamond, Inter and the Noto family, all under the SIL Open Font License.
+
+## Deployment
+
+The site is live at **https://languages.thelab.bio**. It runs as a static-assets-only Cloudflare Worker (free tier; no server code), configured in `wrangler.jsonc`. To deploy, run `pnpm deploy`, which runs the strict data check and build, then `wrangler deploy`. Caching rules live in `public/_headers`.

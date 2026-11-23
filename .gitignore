@@ -4,3 +4,4 @@ dist
 data/glottolog/.cache
 *.log
 .DS_Store
+.wrangler
