@@ -1,0 +1,55 @@
+name: Check and deploy
+
+# Every push and pull request runs the full gate. Only a push to main that passes it deploys.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  check-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # Deploys switch on automatically once the CLOUDFLARE_API_TOKEN secret exists; until then CI only checks.
+      HAS_CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # Glottolog table, so every glottocode in the data is checked against it
+      - run: pnpm glotto fetch
+
+      # The gate: every claim verified, types, lint, tests, production build
+      - name: Fact-check gate (every claim must be verified)
+        run: pnpm check:data
+      - run: npx tsc --noEmit -p .
+      - run: pnpm lint
+      - run: pnpm test
+      - run: npx vite build
+
+      - name: Deploy to Cloudflare (languages.thelab.bio)
+        if: env.HAS_CF_TOKEN == 'true' && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: d340193d5e0f1744f667ddd25991caa3
+          command: deploy
