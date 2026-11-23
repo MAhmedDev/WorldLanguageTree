@@ -9,7 +9,7 @@ import { loadDataset } from "./lib.ts";
 const [key, flag] = process.argv.slice(2);
 if (!key) throw new Error("usage: pnpm claims families/<name> [--unverified]");
 const result = validateDataset(loadDataset(), { allowUnverified: true });
-const file = result.families.find(f => f.key === key)?.data ?? result.journeys.find(j => j.key === key)?.data;
+const file = result.families.find(f => f.key === key)?.data ?? result.journeys.find(j => j.key === key)?.data ?? result.stories.find(s => s.key === key)?.data;
 if (!file) throw new Error(`no valid data file "${key}" (run pnpm check:data --allow-unverified for schema errors)`);
 const sources = new Map(file.sources.map(s => [s.id, s]));
 const list = result.claims

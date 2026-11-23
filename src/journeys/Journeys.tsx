@@ -3,23 +3,45 @@ import { useAtlas, type AtlasContextValue } from "../state/atlas.tsx";
 import { tweenYear } from "../lib/tween.ts";
 import { formatYear } from "../lib/years.ts";
 import { ClaimMark } from "../panel/LanguagePanel.tsx";
+import { IconButton } from "../ui/Icon.tsx";
 
-const STEP_SECONDS = 14;
+/** How long the camera and the time river take to travel between steps. */
+const TRAVEL_MS = 2800;
+/** Autoplay dwell: comfortable reading time (180 wpm) plus a pause to look at the map. */
+const readMs = (text: string) => Math.max(12000, (text.split(/\s+/).length / 3) * 1000 + 7000);
 
-/** Moves a journey to `step`: sweeps the year and flies to the languoid. Event-handler / timer context only. */
+let arriveTimer: ReturnType<typeof setTimeout> | undefined;
+
+/**
+ * Move a journey to `step`. Choreographed, not simultaneous: the page closes, the
+ * camera and time travel together, and only once they arrive does the caption
+ * reveal the step. Call from event handlers or timers only.
+ */
 export function goToStep(ctx: AtlasContextValue, journeyId: string, step: number) {
   const j = ctx.atlas.journeys.find(x => x.id === journeyId);
-  if (!j) return;
-  const s = j.steps[step];
-  if (!s) {
+  const s = j?.steps[step];
+  if (!j || !s) {
     ctx.actions.endJourney();
     return;
   }
-  if (step === 0) ctx.actions.startJourney(journeyId);
-  else ctx.actions.journeyStep(step);
-  ctx.actions.play(false);
-  ctx.actions.select(s.languoid, { fly: true });
-  void tweenYear(ctx.state.year, s.year, ctx.actions.setYear, 2400, ctx.reducedMotion);
+  ctx.actions.journeyGo(journeyId, step, s.languoid);
+  const travel = ctx.reducedMotion ? 0 : TRAVEL_MS;
+  void tweenYear(ctx.state.year, s.year, ctx.actions.setYear, travel, ctx.reducedMotion);
+  clearTimeout(arriveTimer);
+  arriveTimer = setTimeout(() => ctx.actions.journeyArrived(journeyId, step), travel + 250);
+}
+
+export function journeyNext(ctx: AtlasContextValue) {
+  const j = ctx.state.journey;
+  const journey = j && ctx.atlas.journeys.find(x => x.id === j.id);
+  if (!j || !journey) return;
+  if (j.step >= journey.steps.length - 1) ctx.actions.endJourney();
+  else goToStep(ctx, j.id, j.step + 1);
+}
+
+export function journeyBack(ctx: AtlasContextValue) {
+  const j = ctx.state.journey;
+  if (j && j.step > 0) goToStep(ctx, j.id, j.step - 1);
 }
 
 export function JourneyList() {
@@ -30,7 +52,7 @@ export function JourneyList() {
       <div class="overlay" onClick={() => actions.openJourneys(false)}>
         <div class="journeys glass" role="dialog" aria-label="Journeys" onClick={e => e.stopPropagation()}>
           <h2>Journeys</h2>
-          <p class="muted">Guided tours through time. Each step is sourced and fact-checked.</p>
+          <p class="muted">Guided tours through time, at your own pace. Each step is sourced and fact-checked.</p>
           <Show when={atlas.journeys.length} fallback={<p class="muted">Journeys are being researched and verified.</p>}>
             <ul class="journey-list">
               <For each={atlas.journeys}>
@@ -62,60 +84,86 @@ export function JourneyCaption() {
     if (!j) return null;
     const journey = atlas.journeys.find(x => x.id === j.id);
     if (!journey) return null;
-    return { journey, step: journey.steps[j.step], index: j.step };
+    const step = journey.steps[j.step];
+    const node = atlas.nodes.get(step.languoid);
+    return { journey, step, index: j.step, arrived: j.arrived, name: node?.l.name ?? step.languoid, last: j.step === journey.steps.length - 1 };
   });
+  const claim = () => {
+    const c = current();
+    return c ? atlas.journeyClaims.get(`${c.journey.id}#step:${c.index}`) : undefined;
+  };
 
-  // auto-advance; any manual navigation resets the timer
+  // Autoplay (off by default): wait for reading time after arrival, then advance.
   onSettled(() => {
-    let last = performance.now();
-    let seenStep = -1;
+    let arrivedAt = 0;
+    let seen = "";
     const timer = setInterval(() => {
       const j = state.journey;
-      if (!j) return;
-      if (j.step !== seenStep) {
-        seenStep = j.step;
-        last = performance.now();
-      } else if (performance.now() - last > STEP_SECONDS * 1000 && !document.hidden) {
-        goToStep(ctx, j.id, j.step + 1);
+      const c = current();
+      if (!j || !c) return;
+      const key = `${j.id}:${j.step}:${j.arrived}`;
+      if (key !== seen) {
+        seen = key;
+        arrivedAt = performance.now();
       }
-    }, 500);
+      const total = readMs(c.step.text);
+      const progress = state.autoplay && j.arrived ? Math.min(1, (performance.now() - arrivedAt) / total) : 0;
+      if (!state.autoplay || !j.arrived || document.hidden) return;
+      if (progress >= 1) {
+        if (c.last) actions.setAutoplay(false);
+        else goToStep(ctx, j.id, j.step + 1);
+      }
+    }, 200);
     return () => clearInterval(timer);
   });
+
+  const next = () => journeyNext(ctx);
+  const back = () => journeyBack(ctx);
+  const learnMore = () => {
+    const c = current();
+    if (!c) return;
+    actions.setAutoplay(false);
+    actions.select(c.step.languoid, { fly: false });
+  };
 
   return (
     <Show when={current()}>
       {c => (
-        <div class="caption glass" role="region" aria-label="Journey" aria-live="polite">
-          <div class="caption-top">
-            <span class="caption-journey">{c().journey.title}</span>
-            <span class="caption-count">
-              {c().index + 1} / {c().journey.steps.length}
-            </span>
-          </div>
-          <h3>
-            {c().step.title}
-            <ClaimMark status={atlas.journeyClaims.get(`${c().journey.id}#step:${c().index}`)?.status} evidence={atlas.journeyClaims.get(`${c().journey.id}#step:${c().index}`)?.evidence.length} />
-          </h3>
-          <p>{c().step.text}</p>
-          <div class="caption-nav">
-            <button disabled={c().index === 0} onClick={() => goToStep(ctx, c().journey.id, c().index - 1)}>
-              ← Back
-            </button>
-            <div class="caption-dots">
+        <div class="caption glass" role="region" aria-label={`Journey: ${c().journey.title}`} aria-live="polite">
+          <Show
+            when={c().arrived}
+            fallback={
+              <div class="caption-travel">
+                <span>Travelling to {formatYear(c().step.year, true)}…</span>
+                <i class="caption-travel-bar" />
+              </div>
+            }
+          >
+            <div class="caption-body">
+              <p class="caption-kicker">
+                {c().journey.title} · {formatYear(c().step.year, true)}
+              </p>
+              <h3>
+                {c().step.title}
+                <ClaimMark status={claim()?.status} evidence={claim()?.evidence.length} />
+              </h3>
+              <p class="caption-text">{c().step.text}</p>
+              <button class="caption-more" onClick={learnMore}>
+                Learn more about {c().name} →
+              </button>
+            </div>
+          </Show>
+
+          <div class="card-nav">
+            <IconButton icon="prev" label="Back" disabled={c().index === 0} onClick={back} />
+            <div class="caption-dots" aria-hidden="true">
               <For each={c().journey.steps}>{(_, i) => <i class={{ on: i() === c().index, past: i() < c().index }} />}</For>
             </div>
-            <Show
-              when={c().index < c().journey.steps.length - 1}
-              fallback={<button onClick={() => actions.endJourney()}>Finish</button>}
-            >
-              <button class="primary" onClick={() => goToStep(ctx, c().journey.id, c().index + 1)}>
-                Next →
-              </button>
-            </Show>
+            <IconButton icon="next" primary label={c().last ? "Finish" : "Next"} onClick={next} />
           </div>
-          <button class="caption-close" aria-label="End journey" onClick={() => actions.endJourney()}>
-            ×
-          </button>
+          <div class="card-close">
+            <IconButton icon="close" label="End journey" onClick={() => actions.endJourney()} />
+          </div>
         </div>
       )}
     </Show>

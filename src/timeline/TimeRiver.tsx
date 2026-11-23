@@ -1,15 +1,17 @@
-import { For, Show, createMemo, onSettled } from "solid-js";
+import { For, Show, createMemo } from "solid-js";
 import { useAtlas } from "../state/atlas.tsx";
+import { storyBack, storyJumpToYear, storyNext, storyPlayPause } from "../story/StoryMode.tsx";
+import { IconButton } from "../ui/Icon.tsx";
 import { ERAS, createTimeScale, eraOf, formatYear } from "../lib/years.ts";
 import { aliveAt } from "../data/model.ts";
 
-/** Seconds to cross the entire river at 1× speed. */
-const CROSSING_SECONDS = 110;
 const SAMPLES = 220;
 const TICKS = [-3000, -2000, -1000, 1, 500, 1000, 1500, 1800, 1900, 2000];
 
 export function TimeRiver() {
-  const { atlas, state, actions } = useAtlas();
+  const ctx = useAtlas();
+  const { atlas, state, actions, epoch } = ctx;
+  const playing = () => !!state.story && state.autoplay;
   const scale = createTimeScale(atlas.minYear);
   let track: HTMLDivElement | undefined;
 
@@ -28,7 +30,8 @@ export function TimeRiver() {
   const pos = createMemo(() => scale.toPos(state.year));
   const aliveCount = createMemo(() => {
     let n = 0;
-    for (const node of atlas.nodes.values()) if (node.l.kind !== "group" && aliveAt(node, state.year)) n++;
+    const y = epoch();
+    for (const node of atlas.nodes.values()) if (node.l.kind !== "group" && aliveAt(node, y)) n++;
     return n;
   });
   const span = createMemo(() => {
@@ -37,34 +40,18 @@ export function TimeRiver() {
     return { a: scale.toPos(n.from), b: scale.toPos(n.to ?? scale.max), color: atlas.colors.get(n.rootId) ?? "#e8c170" };
   });
 
-  // playback loop
-  onSettled(() => {
-    let raf = 0;
-    let last = performance.now();
-    const tick = (t: number) => {
-      const dt = Math.min(0.1, (t - last) / 1000);
-      last = t;
-      if (state.playing) {
-        const p = scale.toPos(state.year) + dt / CROSSING_SECONDS;
-        if (p >= 1) {
-          actions.setYear(scale.max);
-          actions.play(false);
-        } else actions.setYear(scale.toYear(p));
-      }
-      raf = requestAnimationFrame(tick);
-    };
-    raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
-  });
-
   const yearAt = (clientX: number) => {
     const r = track!.getBoundingClientRect();
     return scale.toYear((clientX - r.left) / r.width);
   };
   const onPointerDown = (e: PointerEvent) => {
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
-    actions.play(false);
+    actions.setAutoplay(false);
     actions.setYear(yearAt(e.clientX));
+  };
+  // letting go: if a story is open it catches up with the chosen moment
+  const onPointerUp = (e: PointerEvent) => {
+    if (state.story) storyJumpToYear(ctx, yearAt(e.clientX));
   };
   const onPointerMove = (e: PointerEvent) => {
     if ((e.currentTarget as HTMLElement).hasPointerCapture(e.pointerId)) actions.setYear(yearAt(e.clientX));
@@ -82,18 +69,34 @@ export function TimeRiver() {
   return (
     <section class="river glass" aria-label="Timeline">
       <div class="river-head">
-        <button
-          class="river-play"
-          aria-label={state.playing ? "Pause" : "Play through time"}
-          onClick={() => {
-            if (!state.playing && scale.toPos(state.year) >= 0.999) actions.setYear(-3400);
-            actions.play();
-          }}
-        >
-          <Show when={state.playing} fallback={<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" /></svg>}>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" /></svg>
-          </Show>
-        </button>
+        <div class="transport">
+          <IconButton icon="skip-prev" label="Previous" onClick={() => (state.story ? storyBack(ctx) : storyJumpToYear(ctx, state.year))} />
+          <button class="river-play" aria-label={playing() ? "Pause the story" : "Play the story"} onClick={() => storyPlayPause(ctx)}>
+            <Show when={playing()} fallback={<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" /></svg>}>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" />
+              </svg>
+            </Show>
+          </button>
+          <IconButton icon="skip-next" label="Next" onClick={() => (state.story ? storyNext(ctx) : storyJumpToYear(ctx, state.year))} />
+          <div class="volume">
+            <IconButton
+              icon={state.muted || state.volume === 0 ? "mute" : "sound"}
+              label={state.muted ? "Unmute" : "Mute"}
+              onClick={() => actions.toggleMute()}
+            />
+            <input
+              class="volume-slider"
+              type="range"
+              min="0"
+              max="1"
+              step="0.05"
+              aria-label="Volume"
+              value={state.muted ? 0 : state.volume}
+              onInput={e => actions.setVolume(Number(e.currentTarget.value))}
+            />
+          </div>
+        </div>
         <div class="river-year">
           <span class="river-year-num">{formatYear(state.year)}</span>
           <span class="river-era">
@@ -112,6 +115,7 @@ export function TimeRiver() {
         aria-valuetext={formatYear(state.year)}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
+        onPointerUp={onPointerUp}
         onKeyDown={onKey}
       >
         <svg class="river-density" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true">

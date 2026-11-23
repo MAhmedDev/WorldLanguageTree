@@ -7,10 +7,11 @@ import { Chronicle } from "./timeline/Chronicle.tsx";
 import { LanguageTree } from "./tree/LanguageTree.tsx";
 import { LanguagePanel } from "./panel/LanguagePanel.tsx";
 import { Search } from "./search/Search.tsx";
-import { JourneyCaption, JourneyList, goToStep } from "./journeys/Journeys.tsx";
+import { JourneyCaption, JourneyList, goToStep, journeyBack, journeyNext } from "./journeys/Journeys.tsx";
+import { StoryMode, storyBack, storyGo, storyNext, storyPlayPause } from "./story/StoryMode.tsx";
 import { About } from "./pages/About.tsx";
-import { startAmbient, stopAmbient } from "./lib/sound.ts";
-import { formatYear } from "./lib/years.ts";
+import { Settings } from "./ui/Settings.tsx";
+import { setAmbientVolume, startAmbient, stopAmbient } from "./lib/sound.ts";
 import { tweenYear } from "./lib/tween.ts";
 
 const START_YEAR = -3400;
@@ -75,10 +76,22 @@ function Shell(props: { issues: number }) {
         if (state.aboutOpen) actions.openAbout(false);
         else if (state.journeysOpen) actions.openJourneys(false);
         else if (state.treeExpanded) actions.expandTree(false);
-        else actions.select(null);
-      } else if (typing || e.target instanceof HTMLButtonElement) return;
-      else if (e.key === " ") {
-        actions.play();
+        else if (state.selected) actions.select(null);
+        else if (state.story) actions.endStory();
+        else if (state.journey) actions.endJourney();
+      } else if (typing) return;
+      else if (e.key === " " && e.target instanceof HTMLButtonElement) return; // Space activates the focused button
+      else if (e.target instanceof HTMLElement && e.target.closest(".river-track")) return; // the river handles its own arrows
+      else if (e.key === " " && !state.journey) {
+        // the one operation: play / pause the story
+        storyPlayPause(ctx);
+        e.preventDefault();
+      } else if ((state.story || state.journey) && (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === " ")) {
+        // stepping by hand pauses the story
+        actions.setAutoplay(false);
+        const forward = e.key !== "ArrowLeft";
+        if (state.story) (forward ? storyNext : storyBack)(ctx);
+        else (forward ? journeyNext : journeyBack)(ctx);
         e.preventDefault();
       } else if (e.key.toLowerCase() === "t") actions.toggleTree();
     };
@@ -90,30 +103,22 @@ function Shell(props: { issues: number }) {
     () => state.sound,
     on => (on ? startAmbient() : stopAmbient())
   );
+  createEffect(
+    () => (state.muted ? 0 : state.volume),
+    v => setAmbientVolume(v)
+  );
 
-  const verified = createMemo(() => {
-    let total = 0;
-    let done = 0;
-    for (const n of atlas.nodes.values())
-      for (const c of n.claims.values()) {
-        total++;
-        if (c.status === "verified") done++;
-      }
-    return { total, done };
-  });
 
-  // the oldest dated written record in the atlas, shown on the intro
-  const firstRecord = createMemo(() => {
-    let best: { year: number; approx: boolean; place: string; description: string; language: string } | null = null;
-    for (const n of atlas.nodes.values())
-      for (const a of n.l.attestations)
-        if (!best || a.year < best.year) best = { year: a.year, approx: a.approx, place: a.place, description: a.description, language: n.l.name };
-    return best;
-  });
 
-  const begin = (mode: "play" | "explore" | "journey") => {
+  const guided = createMemo(() => !!(state.story || state.journey));
+
+  const begin = (mode: "story" | "play" | "explore" | "journey") => {
     setIntro(false);
-    if (mode === "play") {
+    if (mode === "story") {
+      storyGo(ctx, 0, -1, 0);
+      actions.setAutoplay(true);
+    }
+    else if (mode === "play") {
       actions.setYear(START_YEAR);
       actions.play(true);
     } else if (mode === "journey") {
@@ -123,32 +128,29 @@ function Shell(props: { issues: number }) {
   };
 
   return (
-    <div class={["app", { "tree-open": state.treeOpen, "tree-expanded": state.treeExpanded, "panel-open": !!state.selected }]}>
+    <div
+      class={[
+        "app",
+        {
+          "tree-open": state.treeOpen,
+          "tree-expanded": state.treeExpanded,
+          "panel-open": !!state.selected,
+          guided: guided(),
+          "at-intro": intro()
+        }
+      ]}
+    >
       <GlobeMap />
       <div class="vignette" aria-hidden="true" />
 
       <header class="topbar">
         <div class="brand">
           <span class="brand-mark" aria-hidden="true" />
-          <div>
-            <h1>World Language Tree</h1>
-            <p>{formatYear(state.year)}</p>
-          </div>
+          <h1>World Language Tree</h1>
         </div>
-        <Search inputRef={el => (searchInput = el)} />
-        <nav class="tools">
-          <button class={{ on: !!state.journey || state.journeysOpen }} onClick={() => actions.openJourneys()}>
-            Journeys
-          </button>
-          <button class={{ on: state.treeOpen }} onClick={() => actions.toggleTree()} title="Toggle tree (T)">
-            Tree
-          </button>
-          <button class={{ on: state.sound }} onClick={() => actions.toggleSound()} aria-label="Ambient sound" title="Ambient sound">
-            <Show when={state.sound} fallback="♪ Off">
-              ♪ On
-            </Show>
-          </button>
-          <button onClick={() => actions.openAbout()}>About</button>
+        <nav class="tools" aria-label="Tools">
+          <Search inputRef={el => (searchInput = el)} />
+          <Settings />
         </nav>
       </header>
 
@@ -166,7 +168,8 @@ function Shell(props: { issues: number }) {
 
       <LanguagePanel />
       <JourneyCaption />
-      <Show when={!intro()}>
+      <StoryMode />
+      <Show when={!intro() && !guided()}>
         <Chronicle />
       </Show>
       <TimeRiver />
@@ -180,31 +183,14 @@ function Shell(props: { issues: number }) {
       <Show when={intro()}>
         <div class="intro">
           <div class="intro-inner">
-            <p class="intro-kicker">An atlas of human speech</p>
-            <h2>World Language Tree</h2>
-            <p class="intro-lede">
-              Follow the world's languages from the first marks pressed into clay to the voices of today: where they began, how they travelled, and
-              what was written in them.
-            </p>
-            <Show when={firstRecord()}>
-              {r => (
-                <blockquote class="intro-record">
-                  <span>{formatYear(r().year, r().approx)} · {r().place}</span>
-                  {r().description} <em>({r().language})</em>
-                </blockquote>
-              )}
-            </Show>
-            <div class="intro-actions">
-              <button class="primary" onClick={() => begin("play")}>
-                Play through time
-              </button>
-              <button onClick={() => begin("journey")}>Take a journey</button>
-              <button onClick={() => begin("explore")}>Explore freely</button>
+            <h2 class="intro-title">World Language Tree</h2>
+            <p class="intro-lede">The story of human speech, across the globe and through time.</p>
+            <button class="intro-begin" onClick={() => begin(atlas.story ? "story" : "play")}>
+              Begin
+            </button>
+            <div class="intro-alt">
+              <button onClick={() => begin("explore")}>or explore on your own</button>
             </div>
-            <p class="intro-foot">
-              {atlas.nodes.size} languages and ancestors · every fact sourced · {verified().done.toLocaleString("en")} of {verified().total.toLocaleString("en")}{" "}
-              independently fact-checked · press <kbd>/</kbd> to search
-            </p>
           </div>
         </div>
       </Show>

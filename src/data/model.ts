@@ -2,8 +2,8 @@
  * Builds the in-memory atlas index from validated family files. Pure, so it is
  * unit-tested and shared by the app.
  */
-import type { FamilyFile, Journey, Languoid, Source, VerificationFile } from "./schema.ts";
-import { languoidClaims, hashClaim, journeyClaims } from "./claims.ts";
+import type { FamilyFile, Journey, Languoid, Source, Story, VerificationFile } from "./schema.ts";
+import { languoidClaims, hashClaim, journeyClaims, storyClaims } from "./claims.ts";
 import { PRESENT } from "../lib/years.ts";
 
 export type ClaimStatus = "verified" | "unverified" | "stale" | "rejected";
@@ -53,6 +53,9 @@ export interface Atlas {
   arcs: Arc[];
   journeys: Journey[];
   journeyClaims: Map<string, { status: ClaimStatus; evidence: string[] }>;
+  story: Story | null;
+  storySources: Map<string, Source>;
+  storyClaims: Map<string, { status: ClaimStatus; evidence: string[] }>;
   minYear: number;
   /** stable colour per family root */
   colors: Map<string, string>;
@@ -82,6 +85,7 @@ const PALETTE = [
 export function buildAtlas(input: {
   families: { key: string; data: FamilyFile }[];
   journeys?: { key: string; data: Journey }[];
+  stories?: { key: string; data: Story }[];
   verifications?: { key: string; data: VerificationFile }[];
   glottolog?: Atlas["glottolog"];
 }): Atlas {
@@ -227,6 +231,19 @@ export function buildAtlas(input: {
     }
   }
 
+  const story = input.stories?.[0]?.data ?? null;
+  const storyClaimMap = new Map<string, { status: ClaimStatus; evidence: string[] }>();
+  for (const st of input.stories ?? []) {
+    const vf = verif.get(st.key);
+    for (const c of storyClaims(st.data)) {
+      const v = vf?.claims[c.id];
+      storyClaimMap.set(c.id, {
+        status: !v ? "unverified" : v.hash !== hashClaim(c) ? "stale" : v.verdict === "rejected" ? "rejected" : "verified",
+        evidence: v?.evidence ?? []
+      });
+    }
+  }
+
   const finite = [...nodes.values()].map(n => n.from).filter(Number.isFinite);
   return {
     nodes,
@@ -235,6 +252,9 @@ export function buildAtlas(input: {
     arcs,
     journeys,
     journeyClaims: journeyClaimMap,
+    story,
+    storySources: new Map((story?.sources ?? []).map(s => [s.id, s])),
+    storyClaims: storyClaimMap,
     minYear: finite.length ? Math.min(...finite) : -3400,
     colors,
     glottolog

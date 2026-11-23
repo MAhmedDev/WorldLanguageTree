@@ -1,4 +1,4 @@
-import { Show, createMemo } from "solid-js";
+import { Show, createMemo, createSignal, onSettled } from "solid-js";
 import { useAtlas } from "../state/atlas.tsx";
 import { formatYear } from "../lib/years.ts";
 
@@ -52,8 +52,24 @@ export function Chronicle() {
     return y - e.year <= window ? e : null;
   });
 
+  // Hold each event long enough to read; then show whatever is current.
+  const DWELL_MS = 4500;
+  const [shown, setShown] = createSignal<ChronicleEvent | null>(null, { ownedWrite: true });
+  onSettled(() => {
+    let shownAt = 0;
+    const timer = setInterval(() => {
+      const next = current();
+      const now = performance.now();
+      if (next !== shown() && (now - shownAt > DWELL_MS || shown() === null || next === null)) {
+        setShown(next);
+        shownAt = now;
+      }
+    }, 250);
+    return () => clearInterval(timer);
+  });
+
   return (
-    <Show when={!state.journey && !state.selected && current()} keyed>
+    <Show when={!state.journey && !state.selected && shown()} keyed>
       {e => (
         <button class="chronicle glass" onClick={() => actions.visit(e.languoid)}>
           <span class="chronicle-year">{formatYear(e.year, e.approx)}</span>

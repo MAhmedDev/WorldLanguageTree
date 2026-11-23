@@ -35,5 +35,6 @@ Generated 2026-11-23 by `pnpm check:data --report`.
 | journeys/indo-european-expansion | 8 | 8 | 0 | 0 | 0 |
 | journeys/latin-to-romance | 7 | 7 | 0 | 0 | 0 |
 | journeys/voices-of-asia | 7 | 7 | 0 | 0 | 0 |
+| story/story-of-language | 68 | 68 | 0 | 0 | 0 |
 
 Corrections and notes from verifiers live in `verification/<kind>/<file>.json` (`note` fields).

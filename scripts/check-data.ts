@@ -22,7 +22,7 @@ const count = (s: string) => result.claims.filter(c => c.status === s).length;
 const languoids = result.families.reduce((n, f) => n + f.data.languoids.length, 0);
 const works = result.families.reduce((n, f) => n + f.data.languoids.reduce((m, l) => m + l.works.length, 0), 0);
 console.log(
-  `\n${result.families.length} family files, ${languoids} languoids, ${works} works, ${result.journeys.length} journeys` +
+  `\n${result.families.length} family files, ${languoids} languoids, ${works} works, ${result.journeys.length} journeys, ${result.stories.length} story` +
     `\nclaims: ${result.claims.length} total · ${count("verified")} verified · ${count("unverified")} unverified · ${count("stale")} stale · ${count("rejected")} rejected` +
     `\n${errors.length} errors, ${warnings.length} warnings${showWarnings ? "" : " (--warnings to list)"}`
 );

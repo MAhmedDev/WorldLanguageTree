@@ -84,7 +84,7 @@ function layoutTree(atlas: Atlas, radius: number) {
 }
 
 export function LanguageTree() {
-  const { atlas, state, actions, reducedMotion } = useAtlas();
+  const { atlas, state, actions, reducedMotion, epoch } = useAtlas();
   const leaves = [...atlas.nodes.values()].filter(n => n.children.length === 0).length;
   const radius = Math.max(260, (leaves * 13) / (2 * Math.PI));
   const tree = layoutTree(atlas, radius);
@@ -143,7 +143,7 @@ export function LanguageTree() {
   );
 
   return (
-    <div class="tree">
+    <div class={["tree", { "has-selection": !!state.selected }]}>
       <svg class="tree-svg" ref={el => (svg = el)} role="img" aria-label="Radial tree of language families over time">
         <g transform={`translate(${transform().x},${transform().y}) scale(${transform().k})`}>
           <For each={tree.rings}>
@@ -161,7 +161,7 @@ export function LanguageTree() {
                 <path
                   d={link.d}
                   stroke={link.color}
-                  class={{ born: link.from <= state.year, lit: highlight().has(link.id) }}
+                  class={{ born: link.from <= epoch(), lit: highlight().has(link.id) }}
                 />
               )}
             </For>
@@ -175,8 +175,8 @@ export function LanguageTree() {
                   <g
                     class={{
                       "tree-node": true,
-                      born: n.from <= state.year,
-                      extinct: n.to !== null && n.to < state.year,
+                      born: n.from <= epoch(),
+                      extinct: n.to !== null && n.to < epoch(),
                       selected: state.selected === n.id,
                       lit: highlight().has(n.id),
                       hovered: state.hovered === n.id,

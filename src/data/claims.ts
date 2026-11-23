@@ -3,7 +3,7 @@
  * a content hash. Editing a claim changes its hash, which invalidates its
  * verification and forces a re-check.
  */
-import type { FamilyFile, Journey, Languoid } from "./schema.ts";
+import type { FamilyFile, Journey, Languoid, Story } from "./schema.ts";
 
 export interface Claim {
   id: string;
@@ -88,4 +88,15 @@ export function journeyClaims(j: Journey): Claim[] {
     const { sources, ...content } = s;
     return { id: `${j.id}#step:${i}`, content, sources };
   });
+}
+
+export function storyClaims(st: Story): Claim[] {
+  return st.chapters.flatMap(ch => [
+    // the age's framing (title + date range) is itself a claim the verifier checks
+    ...ch.intro.map((p, i) => ({ id: `${ch.id}#intro:${i}`, content: { title: ch.title, from: ch.from, to: ch.to, text: p.text }, sources: p.sources })),
+    ...ch.beats.map(b => {
+      const { sources, ...content } = b;
+      return { id: `${ch.id}#beat:${b.id}`, content, sources };
+    })
+  ]);
 }

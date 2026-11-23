@@ -2,9 +2,9 @@
  * Pure validation of the whole dataset. Used by scripts/check-data.ts and tests.
  */
 import * as v from "valibot";
-import { FamilyFile, Journey, VerificationFile } from "./schema.ts";
-import type { FamilyFile as TFamilyFile, Journey as TJourney, Languoid, VerificationFile as TVerificationFile } from "./schema.ts";
-import { familyClaims, hashClaim, journeyClaims, type Claim } from "./claims.ts";
+import { FamilyFile, Journey, Story, VerificationFile } from "./schema.ts";
+import type { FamilyFile as TFamilyFile, Journey as TJourney, Languoid, Story as TStory, VerificationFile as TVerificationFile } from "./schema.ts";
+import { familyClaims, hashClaim, journeyClaims, storyClaims, type Claim } from "./claims.ts";
 
 export interface GlottoEntry {
   name: string;
@@ -17,6 +17,7 @@ export interface GlottoEntry {
 export interface DatasetInput {
   families: { key: string; raw: unknown }[];
   journeys: { key: string; raw: unknown }[];
+  stories?: { key: string; raw: unknown }[];
   /** keyed by the same `key` as the family/journey file */
   verifications: { key: string; raw: unknown }[];
   /** glottocode -> entry; when provided every glottocode must exist */
@@ -33,6 +34,7 @@ export interface ValidationResult {
   issues: Issue[];
   families: { key: string; data: TFamilyFile }[];
   journeys: { key: string; data: TJourney }[];
+  stories: { key: string; data: TStory }[];
   claims: { key: string; claim: Claim; hash: string; status: "verified" | "unverified" | "stale" | "rejected" }[];
 }
 
@@ -63,6 +65,16 @@ export function validateDataset(input: DatasetInput, opts: ValidateOptions = {})
       continue;
     }
     journeys.push({ key: j.key, data: r.output });
+  }
+
+  const stories: ValidationResult["stories"] = [];
+  for (const st of input.stories ?? []) {
+    const r = v.safeParse(Story, st.raw);
+    if (!r.success) {
+      for (const i of r.issues) err(`${st.key}:${v.getDotPath(i) ?? ""}`, i.message);
+      continue;
+    }
+    stories.push({ key: st.key, data: r.output });
   }
 
   // --- sources -----------------------------------------------------------
@@ -160,6 +172,30 @@ export function validateDataset(input: DatasetInput, opts: ValidateOptions = {})
     });
   }
 
+  // --- story ------------------------------------------------------------
+  for (const { key, data } of stories) {
+    const defined = sourceDupes(key, data.sources.map(s => s.id));
+    checkSourceRefs(key, defined, storyClaims(data));
+    let prevTo = -Infinity;
+    for (const ch of data.chapters) {
+      const where = `${key}#${ch.id}`;
+      if (ch.to <= ch.from) err(where, `chapter ends before it starts`);
+      if (ch.from < prevTo) err(where, `chapter overlaps the previous one`);
+      prevTo = ch.to;
+      let prevYear = -Infinity;
+      for (const b of ch.beats) {
+        if (b.year < ch.from || b.year > ch.to) err(`${where}#beat:${b.id}`, `beat year ${b.year} outside chapter ${ch.from}..${ch.to}`);
+        if (b.year < prevYear) err(`${where}#beat:${b.id}`, `beats must be in chronological order`);
+        prevYear = b.year;
+        for (const id of b.languoids) {
+          const n = byId.get(id)?.l;
+          if (!n) err(`${where}#beat:${b.id}`, `languoid "${id}" does not exist`);
+          else if (n.period && b.year < n.period.from) warn(`${where}#beat:${b.id}`, `${id} begins (${n.period.from}) after the beat year ${b.year}`);
+        }
+      }
+    }
+  }
+
   // --- verification -------------------------------------------------------
   const verifs = new Map<string, TVerificationFile>();
   for (const vf of input.verifications) {
@@ -191,6 +227,7 @@ export function validateDataset(input: DatasetInput, opts: ValidateOptions = {})
   };
   for (const { key, data } of families) addClaims(key, familyClaims(data));
   for (const { key, data } of journeys) addClaims(key, journeyClaims(data));
+  for (const { key, data } of stories) addClaims(key, storyClaims(data));
 
-  return { issues, families, journeys, claims };
+  return { issues, families, journeys, stories, claims };
 }

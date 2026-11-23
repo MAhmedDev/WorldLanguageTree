@@ -3,6 +3,7 @@ import { useAtlas } from "../state/atlas.tsx";
 import { search, type SearchItem } from "../lib/search.ts";
 import { formatRange } from "../lib/years.ts";
 import { fontFor } from "../lib/scripts.ts";
+import { Icon } from "../ui/Icon.tsx";
 
 export function Search(props: { inputRef?: (el: HTMLInputElement) => void }) {
   const { atlas, actions } = useAtlas();
@@ -22,16 +23,20 @@ export function Search(props: { inputRef?: (el: HTMLInputElement) => void }) {
     input?.blur();
   };
 
+  let input: HTMLInputElement | undefined;
+  const [focused, setFocused] = createSignal(false);
   return (
-    <div class="search" role="search">
-      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
-        <circle cx="11" cy="11" r="6.5" />
-        <path d="M16 16l4.5 4.5" />
-      </svg>
+    <div class={["search", { open: focused() || !!query() }]} role="search">
+      <button class="icon-btn search-toggle" aria-label="Search languages (/)" data-tip="Search  /" onClick={() => input?.focus()}>
+        <Icon name="search" />
+      </button>
       <input
-        ref={el => props.inputRef?.(el)}
+        ref={el => {
+          input = el;
+          props.inputRef?.(el);
+        }}
         type="search"
-        placeholder="Search languages & works…  /"
+        placeholder="Languages, works…"
         aria-label="Search languages"
         aria-autocomplete="list"
         aria-expanded={open() && results().length > 0 ? "true" : "false"}
@@ -41,8 +46,14 @@ export function Search(props: { inputRef?: (el: HTMLInputElement) => void }) {
           setActive(0);
           setOpen(true);
         }}
-        onFocus={() => setOpen(true)}
-        onBlur={() => setTimeout(() => setOpen(false), 150)}
+        onFocus={() => {
+          setOpen(true);
+          setFocused(true);
+        }}
+        onBlur={() => {
+          setFocused(false);
+          setTimeout(() => setOpen(false), 150);
+        }}
         onKeyDown={e => {
           const list = results();
           if (e.key === "ArrowDown") {

@@ -5,6 +5,12 @@
 let ctx: AudioContext | null = null;
 let master: GainNode | null = null;
 let nodes: AudioScheduledSourceNode[] = [];
+let level = 1;
+
+export function setAmbientVolume(v: number) {
+  level = v;
+  if (ctx && master) master.gain.setTargetAtTime(0.16 * v, ctx.currentTime, 0.2);
+}
 
 export function startAmbient() {
   if (ctx) return;
@@ -12,7 +18,7 @@ export function startAmbient() {
   master = ctx.createGain();
   master.gain.value = 0;
   master.connect(ctx.destination);
-  master.gain.linearRampToValueAtTime(0.16, ctx.currentTime + 4);
+  master.gain.linearRampToValueAtTime(0.16 * level, ctx.currentTime + 4);
 
   // drone: a soft open fifth with gentle detune and slow tremolo
   for (const [freq, gain] of [

@@ -1,0 +1,1231 @@
+{
+  "id": "story-of-language",
+  "title": "The Story of Language",
+  "sources": [
+    {
+      "id": "paa",
+      "title": "Proto-Afroasiatic language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Afroasiatic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "pie",
+      "title": "Proto-Indo-European language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Indo-European_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "sinotib",
+      "title": "Sino-Tibetan languages",
+      "url": "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "pan",
+      "title": "Proto-Austronesian language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Austronesian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "bantu",
+      "title": "Bantu expansion",
+      "url": "https://en.wikipedia.org/wiki/Bantu_expansion",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "psem",
+      "title": "Proto-Semitic language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Semitic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "protohuman",
+      "title": "Proto-Human language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Human_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "cuneiform",
+      "title": "Cuneiform",
+      "url": "https://en.wikipedia.org/wiki/Cuneiform",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "hieroglyphs",
+      "title": "Egyptian hieroglyphs",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ebla",
+      "title": "Ebla tablets",
+      "url": "https://en.wikipedia.org/wiki/Ebla_tablets",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "akkadian",
+      "title": "Akkadian language",
+      "url": "https://en.wikipedia.org/wiki/Akkadian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "middle-egyptian",
+      "title": "Middle Egyptian",
+      "url": "https://en.wikipedia.org/wiki/Middle_Egyptian",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "elamite",
+      "title": "Elamite language",
+      "url": "https://en.wikipedia.org/wiki/Elamite_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "hittite",
+      "title": "Hittite language",
+      "url": "https://en.wikipedia.org/wiki/Hittite_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ugaritic",
+      "title": "Ugaritic",
+      "url": "https://en.wikipedia.org/wiki/Ugaritic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "amarna",
+      "title": "Amarna letters",
+      "url": "https://en.wikipedia.org/wiki/Amarna_letters",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "oracle-bone",
+      "title": "Oracle bone script",
+      "url": "https://en.wikipedia.org/wiki/Oracle_bone_script",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "linear-b",
+      "title": "Linear B",
+      "url": "https://en.wikipedia.org/wiki/Linear_B",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "rigveda",
+      "title": "Rigveda",
+      "url": "https://en.wikipedia.org/wiki/Rigveda",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "avestan",
+      "title": "Avestan",
+      "url": "https://en.wikipedia.org/wiki/Avestan",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "phoenician",
+      "title": "Phoenician alphabet",
+      "url": "https://en.wikipedia.org/wiki/Phoenician_alphabet",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "behistun",
+      "title": "Behistun Inscription",
+      "url": "https://en.wikipedia.org/wiki/Behistun_Inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "imperial-aramaic",
+      "title": "Imperial Aramaic",
+      "url": "https://en.wikipedia.org/wiki/Imperial_Aramaic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "panini",
+      "title": "Pāṇini",
+      "url": "https://en.wikipedia.org/wiki/P%C4%81%E1%B9%87ini",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "koine",
+      "title": "Koine Greek",
+      "url": "https://en.wikipedia.org/wiki/Koine_Greek",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ashoka",
+      "title": "Edicts of Ashoka",
+      "url": "https://en.wikipedia.org/wiki/Edicts_of_Ashoka",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "tamil-brahmi",
+      "title": "Tamil-Brahmi",
+      "url": "https://en.wikipedia.org/wiki/Tamil-Brahmi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "sangam",
+      "title": "Sangam literature",
+      "url": "https://en.wikipedia.org/wiki/Sangam_literature",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "latin",
+      "title": "Latin",
+      "url": "https://en.wikipedia.org/wiki/Latin",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ezana",
+      "title": "Ezana of Axum",
+      "url": "https://en.wikipedia.org/wiki/Ezana_of_Axum",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "gothic",
+      "title": "Gothic language",
+      "url": "https://en.wikipedia.org/wiki/Gothic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "mashtots",
+      "title": "Mesrop Mashtots",
+      "url": "https://en.wikipedia.org/wiki/Mesrop_Mashtots",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "muslim-conquests",
+      "title": "Early Muslim conquests",
+      "url": "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "classical-arabic",
+      "title": "Classical Arabic",
+      "url": "https://en.wikipedia.org/wiki/Classical_Arabic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "kedukan",
+      "title": "Kedukan Bukit Inscription",
+      "url": "https://en.wikipedia.org/wiki/Kedukan_Bukit_Inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "tibetan-script",
+      "title": "Tibetan script",
+      "url": "https://en.wikipedia.org/wiki/Tibetan_script",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "orkhon",
+      "title": "Orkhon inscriptions",
+      "url": "https://en.wikipedia.org/wiki/Orkhon_inscriptions",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "manyoshu",
+      "title": "Man'yōshū",
+      "url": "https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "danelaw",
+      "title": "Danelaw",
+      "url": "https://en.wikipedia.org/wiki/Danelaw",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "polynav",
+      "title": "Polynesian navigation",
+      "url": "https://en.wikipedia.org/wiki/Polynesian_navigation",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "maori",
+      "title": "Māori language",
+      "url": "https://en.wikipedia.org/wiki/M%C4%81ori_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "hawaiian",
+      "title": "Hawaiian language",
+      "url": "https://en.wikipedia.org/wiki/Hawaiian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "printing",
+      "title": "Printing press",
+      "url": "https://en.wikipedia.org/wiki/Printing_press",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "santo-tomas",
+      "title": "Domingo de Santo Tomás",
+      "url": "https://en.wikipedia.org/wiki/Domingo_de_Santo_Tom%C3%A1s",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "florentine",
+      "title": "Florentine Codex",
+      "url": "https://en.wikipedia.org/wiki/Florentine_Codex",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "doctrina",
+      "title": "Doctrina Christiana",
+      "url": "https://en.wikipedia.org/wiki/Doctrina_Christiana",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "kongo",
+      "title": "Kongo language",
+      "url": "https://en.wikipedia.org/wiki/Kongo_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ruiz-montoya",
+      "title": "Antonio Ruiz de Montoya",
+      "url": "https://en.wikipedia.org/wiki/Antonio_Ruiz_de_Montoya",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "eliot-bible",
+      "title": "Eliot Indian Bible",
+      "url": "https://en.wikipedia.org/wiki/Eliot_Indian_Bible",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "utendi",
+      "title": "Utendi wa Tambuka",
+      "url": "https://en.wikipedia.org/wiki/Utendi_wa_Tambuka",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ben-yehuda",
+      "title": "Eliezer Ben-Yehuda",
+      "url": "https://en.wikipedia.org/wiki/Eliezer_Ben-Yehuda",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "hangul",
+      "title": "Hangul",
+      "url": "https://en.wikipedia.org/wiki/Hangul",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "turkish-alphabet",
+      "title": "Turkish alphabet",
+      "url": "https://en.wikipedia.org/wiki/Turkish_alphabet",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "indonesian",
+      "title": "Indonesian language",
+      "url": "https://en.wikipedia.org/wiki/Indonesian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "speakers",
+      "title": "List of languages by total number of speakers",
+      "url": "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "language-death",
+      "title": "Language death",
+      "url": "https://en.wikipedia.org/wiki/Language_death",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "manx",
+      "title": "Manx language",
+      "url": "https://en.wikipedia.org/wiki/Manx_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "csmc-codex",
+      "title": "Florentine Codex (manuscript description)",
+      "url": "https://www.csmc.uni-hamburg.de/publications/aom/mom/35-en.html",
+      "publisher": "Centre for the Study of Manuscript Cultures, University of Hamburg"
+    },
+    {
+      "id": "vierke-swahili",
+      "title": "Writing Songs, Singing Texts (Manuscript Cultures 17)",
+      "url": "https://www.csmc.uni-hamburg.de/publications/mc/files/articles/mc17-vierke.pdf",
+      "publisher": "Centre for the Study of Manuscript Cultures, University of Hamburg"
+    },
+    {
+      "id": "unesco-decade",
+      "title": "UNESCO celebrates the International Decade of Indigenous Languages",
+      "url": "https://www.unesco.at/en/cross-sectional-topics/article/unesco-celebrates-the-international-decade-of-indigenous-languages",
+      "publisher": "UNESCO Austria"
+    },
+    {
+      "id": "polytriangle",
+      "title": "Polynesian Triangle",
+      "url": "https://en.wikipedia.org/wiki/Polynesian_Triangle",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "polylangs",
+      "title": "Polynesian languages",
+      "url": "https://en.wikipedia.org/wiki/Polynesian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "quechuan",
+      "title": "Quechuan languages",
+      "url": "https://en.wikipedia.org/wiki/Quechuan_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "plasencia",
+      "title": "Juan de Plasencia",
+      "url": "https://en.wikipedia.org/wiki/Juan_de_Plasencia",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "before-writing",
+      "title": "Before Writing",
+      "from": -10000,
+      "to": -3400,
+      "intro": [
+        {
+          "text": "No one wrote anything down in this age, so there are no texts to read. What we know comes from comparison. Linguists line up words and sounds in living languages, work backwards, and reconstruct the speech that must have come before. The result is called a proto-language, and it is a careful hypothesis, not a recording.",
+          "sources": [
+            "pie"
+          ]
+        },
+        {
+          "text": "These proto-languages are estimates, and their dates and homelands are argued over. Proto-Indo-European is placed at about 4500 to 2500 BCE, most often on the steppe north of the Black Sea, while Proto-Afroasiatic is dated anywhere from 8000 to 18,000 BCE. Treat every date in this chapter as a range, not as a fixed point.",
+          "sources": [
+            "pie",
+            "paa"
+          ]
+        },
+        {
+          "text": "Nobody has shown that all of the world's languages descend from a single ancestor. A Proto-Human language is hypothetical, and many linguists doubt that comparison can reach back that far. So we follow only the families that can be reconstructed, as their speakers begin to spread across Africa, Asia, Europe and the Pacific.",
+          "sources": [
+            "protohuman"
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "id": "proto-afroasiatic",
+          "year": -10000,
+          "languoids": [
+            "proto-afroasiatic"
+          ],
+          "title": "A language behind many languages",
+          "text": "Scholars estimate that Proto-Afroasiatic was spoken between 8000 and 18,000 BCE, most likely in West Asia or north-east Africa. Its exact homeland is not agreed, and almost nothing of its grammar can be reconstructed with confidence.",
+          "sources": [
+            "paa"
+          ]
+        },
+        {
+          "id": "proto-sino-tibetan",
+          "year": -5000,
+          "languoids": [
+            "proto-sino-tibetan"
+          ],
+          "title": "Rivers of the east",
+          "text": "Proto-Sino-Tibetan has no agreed date or homeland. Estimates for the family's early splits run from about 4,200 to 9,000 years ago. One study points to the Yellow River basin; others propose the Sichuan Basin or the eastern Himalayan foothills. Its distant descendants include Chinese, Tibetan and Burmese.",
+          "sources": [
+            "sinotib"
+          ]
+        },
+        {
+          "id": "proto-indo-european",
+          "year": -4500,
+          "languoids": [
+            "proto-indo-european"
+          ],
+          "title": "The steppe hypothesis",
+          "text": "Proto-Indo-European is hypothesised to have been spoken from about 4500 to 2500 BCE. The most popular view places its speakers on the Pontic-Caspian steppe north of the Black Sea. A rival theory ties its spread to farming from Anatolia.",
+          "sources": [
+            "pie"
+          ]
+        },
+        {
+          "id": "proto-austronesian",
+          "year": -4000,
+          "languoids": [
+            "proto-austronesian"
+          ],
+          "title": "A beginning on Taiwan",
+          "text": "Proto-Austronesian is assumed to have begun to diversify around 4000 to 3500 BCE on the island of Taiwan. Its descendants will eventually include Polynesian languages such as Hawaiian and Māori.",
+          "sources": [
+            "pan"
+          ]
+        },
+        {
+          "id": "proto-bantu",
+          "year": -3800,
+          "languoids": [
+            "proto-bantu"
+          ],
+          "title": "A slow walk across Africa",
+          "text": "Bantuists believe the Bantu expansion began in the highlands between Cameroon and Nigeria. One account dates it from about 4000 BCE to 500 CE, as speakers carried their languages over central, eastern and southern Africa. Routes and dates are still debated.",
+          "sources": [
+            "bantu"
+          ]
+        },
+        {
+          "id": "proto-semitic",
+          "year": -3700,
+          "languoids": [
+            "proto-semitic"
+          ],
+          "title": "The root of Semitic",
+          "text": "Proto-Semitic must be older than Akkadian and Eblaite, the earliest attested Semitic languages, so it belongs to the fourth millennium BCE or earlier. Its homeland is disputed, with the Levant, the Horn of Africa and northern Africa all proposed.",
+          "sources": [
+            "psem"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-scripts",
+      "title": "The First Scripts",
+      "from": -3400,
+      "to": -1500,
+      "intro": [
+        {
+          "text": "Writing appears at the end of the fourth millennium BCE. At Uruk, in southern Mesopotamia, clay tablets with pictographs date from about 3300 BCE. Egyptian hieroglyphs on tags from Abydos are carbon-dated to about 3400 to 3200 BCE. For the first time, the traces of a language survive as objects you can hold.",
+          "sources": [
+            "cuneiform",
+            "hieroglyphs"
+          ]
+        },
+        {
+          "text": "Scribes in Mesopotamia pressed reeds into clay to make wedge-shaped cuneiform, and the script travelled well beyond its first language. Sumerian stayed in scribal use until the first century CE, while Akkadian, Elamite and Hittite scribes all adapted the same signs to write very different tongues.",
+          "sources": [
+            "cuneiform"
+          ]
+        },
+        {
+          "text": "Languages were already moving. Assyrian merchants carried Akkadian into Anatolia, and in their letters appear the earliest attested words of an Indo-European language. By the end of this age, writing has reached Syria, Iran and Anatolia, and a map of the written world begins to take shape.",
+          "sources": [
+            "akkadian",
+            "hittite"
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "id": "uruk-and-abydos",
+          "year": -3200,
+          "languoids": [
+            "sumerian",
+            "archaic-egyptian"
+          ],
+          "title": "Clay tablets and carved tags",
+          "text": "At Uruk in Mesopotamia, scribes press pictographs into clay about 3300 BCE; their language is usually taken to be Sumerian. In Egypt, designs on tags from Abydos are carbon-dated to about 3400 to 3200 BCE. Two regions arrive at writing in the same few centuries.",
+          "sources": [
+            "cuneiform",
+            "hieroglyphs"
+          ]
+        },
+        {
+          "id": "ebla-archive",
+          "year": -2400,
+          "languoids": [
+            "eblaite",
+            "akkadian"
+          ],
+          "title": "The archive at Ebla",
+          "text": "Palace scribes at Ebla, in Syria, keep thousands of clay tablets from about 2500 to 2250 BCE. They use Sumerian signs to write Eblaite, a language unknown until the tablets were unearthed in 1974 and 1975. Akkadian texts appear from the 24th century BCE.",
+          "sources": [
+            "ebla",
+            "cuneiform",
+            "akkadian"
+          ]
+        },
+        {
+          "id": "sargon",
+          "year": -2334,
+          "languoids": [
+            "akkadian",
+            "sumerian"
+          ],
+          "title": "An empire adopts a script",
+          "text": "The empire founded by Sargon of Akkad, dated to about 2334 to 2154 BCE, adopts Sumerian cuneiform to write Akkadian. The language will go on to serve as a lingua franca across much of the ancient Near East.",
+          "sources": [
+            "akkadian",
+            "cuneiform"
+          ]
+        },
+        {
+          "id": "elam",
+          "year": -2200,
+          "languoids": [
+            "elamite"
+          ],
+          "title": "A language with no relatives",
+          "text": "In Elam, in what is now south-western Iran, the earliest known Elamite cuneiform text is a treaty dated to about 2200 BCE. Elamite is usually considered a language isolate, and it is recorded from 2600 BCE to 330 CE.",
+          "sources": [
+            "elamite",
+            "cuneiform"
+          ]
+        },
+        {
+          "id": "middle-kingdom",
+          "year": -2000,
+          "languoids": [
+            "middle-egyptian"
+          ],
+          "title": "The language of the Middle Kingdom",
+          "text": "Middle Egyptian is spoken from about 2000 BCE. Most of it survives carved in monumental hieroglyphs, and it remains Egypt's literary language until Christianisation in the Roman period.",
+          "sources": [
+            "middle-egyptian"
+          ]
+        },
+        {
+          "id": "kanesh",
+          "year": -1900,
+          "languoids": [
+            "hittite",
+            "akkadian"
+          ],
+          "title": "Words in a merchant's letter",
+          "text": "Assyrian merchants at Kanesh in Anatolia write home in Akkadian during the 20th century BCE, and Hittite words and names slip into their letters. This is the earliest attested use of an Indo-European language. Later royal archives at Hattusa preserve more than 30,000 tablets.",
+          "sources": [
+            "hittite",
+            "akkadian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alphabets-and-empires",
+      "title": "Alphabets and Empires",
+      "from": -1500,
+      "to": -500,
+      "intro": [
+        {
+          "text": "Around 1400 BCE the scribes of Ugarit, on the Syrian coast, begin writing with an alphabet of cuneiform letters, thirty in its long form. Later, the Phoenicians' twenty-two letters were carried around the Mediterranean by merchants. The idea was simple: one symbol for one sound.",
+          "sources": [
+            "ugaritic",
+            "phoenician"
+          ]
+        },
+        {
+          "text": "Empires pull languages along with them. Egypt and Babylon write to each other in Akkadian, Darius carves his deeds in three languages, and officials across the Achaemenid empire write in Aramaic. Elsewhere, long poems in Vedic Sanskrit and Avestan are kept alive by memory alone.",
+          "sources": [
+            "amarna",
+            "behistun",
+            "imperial-aramaic",
+            "rigveda",
+            "avestan"
+          ]
+        },
+        {
+          "text": "Writing also begins to appear at the far ends of the map. In China, Shang diviners carve questions on bones and shells, and Mycenaean clerks at Knossos and Pylos keep inventories on clay in Linear B. These are the written voices of ancestors of Chinese and Greek.",
+          "sources": [
+            "oracle-bone",
+            "linear-b"
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "id": "ugarit",
+          "year": -1400,
+          "languoids": [
+            "ugaritic"
+          ],
+          "title": "Thirty wedges, thirty sounds",
+          "text": "At Ugarit, on the Syrian coast, scribes write their own language in an alphabetic script made of cuneiform wedges. The long version has thirty letters. French archaeologists found the tablets at Ras Shamra in 1928.",
+          "sources": [
+            "ugaritic"
+          ]
+        },
+        {
+          "id": "amarna",
+          "year": -1350,
+          "languoids": [
+            "akkadian"
+          ],
+          "title": "Letters from the pharaoh's court",
+          "text": "At Amarna in Egypt, 382 tablets and fragments record the court's correspondence in the 14th century BCE. Pharaohs write to kings of Babylonia, Mitanni and Hatti in Akkadian, the regional language of diplomacy, and Canaanite rulers answer in it, their own speech showing through.",
+          "sources": [
+            "amarna"
+          ]
+        },
+        {
+          "id": "linear-b",
+          "year": -1300,
+          "languoids": [
+            "mycenaean-greek"
+          ],
+          "title": "Wool, sheep and grain",
+          "text": "Linear B tablets, with the earliest examples about 1450 BCE, record wool, sheep and grain for palaces such as Knossos and Pylos. They write Mycenaean Greek, the earliest attested form of Greek. The script vanishes with the Mycenaean collapse about 1200 BCE and was deciphered by Michael Ventris in 1952.",
+          "sources": [
+            "linear-b"
+          ]
+        },
+        {
+          "id": "oracle-bones",
+          "year": -1250,
+          "languoids": [
+            "old-chinese"
+          ],
+          "title": "Questions for the ancestors",
+          "text": "At Yinxu, the last Shang capital near Anyang, diviners heat bones and turtle shells and carve their questions beside the cracks. The inscriptions, from about 1250 BCE, are the oldest attested form of written Chinese, writing Old Chinese.",
+          "sources": [
+            "oracle-bone",
+            "sinotib"
+          ]
+        },
+        {
+          "id": "rigveda-and-gathas",
+          "year": -1000,
+          "languoids": [
+            "vedic-sanskrit",
+            "avestan"
+          ],
+          "title": "Two sacred poems, kept by memory",
+          "text": "The Rigveda, most likely composed between 1500 and 1000 BCE in north-west India, is the oldest known Vedic Sanskrit text and was passed on by memory. Avestan, closely related, carries the Gathas, perhaps composed around 1000 BCE; the Avestan texts were written down only in the fifth or sixth century CE.",
+          "sources": [
+            "rigveda",
+            "avestan"
+          ]
+        },
+        {
+          "id": "alphabet-to-greece",
+          "year": -800,
+          "languoids": [
+            "phoenician",
+            "ancient-greek"
+          ],
+          "title": "The alphabet crosses the sea",
+          "text": "Phoenician merchants spread their twenty-two-letter alphabet around the Mediterranean, and between the ninth and eighth centuries BCE the Greeks adapt it. From the same script descend Aramaic and Hebrew, and through Italic scripts the Latin alphabet.",
+          "sources": [
+            "phoenician"
+          ]
+        },
+        {
+          "id": "behistun",
+          "year": -520,
+          "languoids": [
+            "old-persian",
+            "imperial-aramaic",
+            "elamite"
+          ],
+          "title": "Three languages on a cliff",
+          "text": "On a cliff at Mount Behistun, Darius I has his victories carved in Old Persian, Elamite and Babylonian. Across his empire, from Egypt into Central Asia, Aramaic becomes the imperial standard after 539 BCE for written communication between regions.",
+          "sources": [
+            "behistun",
+            "imperial-aramaic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classical-age",
+      "title": "The Classical Age",
+      "from": -500,
+      "to": 500,
+      "intro": [
+        {
+          "text": "Alexander's armies leave a common Greek behind them, spoken from Ptolemaic Egypt to Seleucid Mesopotamia. Rome, expanding from the Tiber, brings Latin across the Italian peninsula and then through an empire that reaches its peak under Trajan, about 117 CE. Two languages of power now overlap around the Mediterranean.",
+          "sources": [
+            "koine",
+            "latin"
+          ]
+        },
+        {
+          "text": "In India, Ashoka has edicts cut into rock and pillars in the third century BCE, in Prakrit, Greek and Aramaic. Scholars shape language into a subject of study: Pāṇini's rule-based grammar of Sanskrit has about 4,000 rules, and Tamil poets compose the Sangam anthologies. Writing becomes a tool of government and of learning.",
+          "sources": [
+            "ashoka",
+            "panini",
+            "sangam"
+          ]
+        },
+        {
+          "text": "Faith begins to give languages new written forms. Kings and bishops sponsor inscriptions, scripts and translations at the edges of old empires: Ge'ez in Aksum, Gothic among the Goths, and Armenian in the Caucasus. The Gothic and Armenian alphabets were each made with the Bible in view.",
+          "sources": [
+            "ezana",
+            "gothic",
+            "mashtots"
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "id": "panini",
+          "year": -400,
+          "languoids": [
+            "classical-sanskrit"
+          ],
+          "title": "A grammar in four thousand rules",
+          "text": "Pāṇini, said to come from Salatura in Gandhara, composes the Aṣṭādhyāyī, a rule-based grammar of Sanskrit with about 4,000 short rules. Scholars place him anywhere from the seventh to the fourth century BCE.",
+          "sources": [
+            "panini"
+          ]
+        },
+        {
+          "id": "koine",
+          "year": -300,
+          "languoids": [
+            "koine-greek"
+          ],
+          "title": "A common Greek",
+          "text": "After Alexander's death in 323 BCE, a common Greek, based mainly on Attic, spreads with his armies. This Koine is spoken from Ptolemaic Egypt to Seleucid Mesopotamia, and the Septuagint, a Greek translation of the Hebrew Bible, is made in the third century BCE.",
+          "sources": [
+            "koine"
+          ]
+        },
+        {
+          "id": "ashoka",
+          "year": -260,
+          "languoids": [
+            "magadhi-prakrit",
+            "koine-greek"
+          ],
+          "title": "Edicts in three languages",
+          "text": "About 260 BCE at Kandahar, in Afghanistan, Ashoka has an edict cut in Greek and Aramaic. Elsewhere the edicts are in Prakrit, mostly in the Brahmi script. Three languages and four scripts mark an empire at the edge of the Hellenistic world.",
+          "sources": [
+            "ashoka"
+          ]
+        },
+        {
+          "id": "tamil-brahmi",
+          "year": -200,
+          "languoids": [
+            "old-tamil"
+          ],
+          "title": "Tamil in the caves",
+          "text": "In Tamil Nadu, cave entrances and potsherds carry short inscriptions in Tamil-Brahmi, dated between the third century BCE and the first century CE. They write Old Tamil, the language of the Sangam poems: 2,381 poems by 473 poets.",
+          "sources": [
+            "tamil-brahmi",
+            "sangam"
+          ]
+        },
+        {
+          "id": "trajan",
+          "year": 117,
+          "languoids": [
+            "latin",
+            "koine-greek"
+          ],
+          "title": "Two languages of an empire",
+          "text": "Around 117 CE, under Trajan, the Roman Empire reaches its peak. Latin is the language of law and government, though many other languages are spoken. In the east most people speak Greek, Syriac or Coptic, and in time Greek replaces Latin in the surviving state.",
+          "sources": [
+            "latin"
+          ]
+        },
+        {
+          "id": "aksum-and-goths",
+          "year": 360,
+          "languoids": [
+            "geez",
+            "gothic"
+          ],
+          "title": "Scripture for new kingdoms",
+          "text": "King Ezana of Aksum, the first Aksumite king to embrace Christianity, issues a Greek inscription listing his territories, and Ge'ez inscriptions at Meroë are thought to record a fourth-century campaign. Among the Goths, bishop Wulfila commissions a Bible translation from Greek in an alphabet he most likely invented.",
+          "sources": [
+            "ezana",
+            "gothic"
+          ]
+        },
+        {
+          "id": "armenian-alphabet",
+          "year": 405,
+          "languoids": [
+            "classical-armenian"
+          ],
+          "title": "An alphabet for a nation",
+          "text": "About 405 CE the scholar Mesrop Mashtots devises the Armenian alphabet, which began with 36 letters. His students then translate the Scriptures from Greek, and the version is completed around 434.",
+          "sources": [
+            "mashtots"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith-trade-conquest",
+      "title": "Faith, Trade and Conquest",
+      "from": 500,
+      "to": 1500,
+      "intro": [
+        {
+          "text": "Religions now carry languages farther than before. After 622, Arab armies take Egypt (639 to 642), Persia and North Africa, and cross into Iberia in 711. Classical Arabic, the language of the Quran, becomes the learned and liturgical language of a vast region, and by the ninth century mastering it is required to rise in society.",
+          "sources": [
+            "muslim-conquests",
+            "classical-arabic"
+          ]
+        },
+        {
+          "text": "Elsewhere, writing arrives with new faiths and new courts. A Tibetan script is shaped from Indian models, Chinese characters are bent to write Japanese, and the Göktürks of Mongolia carve their own alphabet into stone. Languages that had been spoken for generations are set into writing.",
+          "sources": [
+            "tibetan-script",
+            "manyoshu",
+            "orkhon"
+          ]
+        },
+        {
+          "text": "People on the move carry languages to new shores. Norse settlers cross the North Sea and mix with English speakers in eastern England, and Polynesian voyagers in double-hulled canoes cross the Pacific, reaching islands as remote as Hawaii and New Zealand.",
+          "sources": [
+            "danelaw",
+            "polynav",
+            "maori"
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "id": "arabic-spreads",
+          "year": 650,
+          "languoids": [
+            "classical-arabic",
+            "egyptian-arabic"
+          ],
+          "title": "A language follows the armies",
+          "text": "Arab forces take Egypt between 639 and 642, and within a century the conquests reach Persia, North Africa and Iberia. Classical Arabic, standard since the seventh century, goes with them, while local languages such as Coptic shape the new regional varieties.",
+          "sources": [
+            "muslim-conquests",
+            "classical-arabic"
+          ]
+        },
+        {
+          "id": "tibetan-script",
+          "year": 650,
+          "languoids": [
+            "old-tibetan"
+          ],
+          "title": "A script from India",
+          "text": "Tradition credits the minister Thonmi Sambhota, sent to India by King Songtsen Gampo, with devising the Tibetan script in the seventh century, though his historical existence cannot be confirmed. One scholar argues the script was finalised in the 630s or 640s from late Gupta forms. Its origins remain uncertain.",
+          "sources": [
+            "tibetan-script"
+          ]
+        },
+        {
+          "id": "kedukan-bukit",
+          "year": 683,
+          "languoids": [
+            "old-malay"
+          ],
+          "title": "Malay on a stone",
+          "text": "An inscription found at Kedukan Bukit in South Sumatra is dated to the year 605 of the Saka calendar, which corresponds to 683 CE. It is written in Old Malay in Pallava script and records a journey by Dapunta Hiyang, and it links the language to the kingdom of Srivijaya.",
+          "sources": [
+            "kedukan"
+          ]
+        },
+        {
+          "id": "orkhon",
+          "year": 730,
+          "languoids": [
+            "old-turkic"
+          ],
+          "title": "Stones in the Orkhon valley",
+          "text": "In the Orkhon valley in Mongolia, the Göktürks raise stone steles in the early eighth century to honour the brothers Bilge Qaghan and Kul Tigin. The texts in Old Turkic and Chinese preserve the oldest form of a Turkic language to survive.",
+          "sources": [
+            "orkhon"
+          ]
+        },
+        {
+          "id": "manyoshu",
+          "year": 759,
+          "languoids": [
+            "old-japanese"
+          ],
+          "title": "Poems in borrowed characters",
+          "text": "The Man'yōshū, compiled after 759 and widely thought to be edited by Ōtomo no Yakamochi, gathers more than 4,500 poems in twenty volumes. It uses Chinese characters for their sounds and meanings to write Old Japanese, a system called man'yōgana.",
+          "sources": [
+            "manyoshu"
+          ]
+        },
+        {
+          "id": "danelaw",
+          "year": 886,
+          "languoids": [
+            "old-english",
+            "old-norse"
+          ],
+          "title": "Norse in the English countryside",
+          "text": "Danish Vikings land in East Anglia in 865 and settle across eastern England, and a treaty of about 886 to 890 between Alfred and Guthrum fixes the border. Old Norse leaves its mark in place names ending in -by and in words such as law, sky and window.",
+          "sources": [
+            "danelaw"
+          ]
+        },
+        {
+          "id": "polynesia",
+          "year": 1300,
+          "languoids": [
+            "maori",
+            "hawaiian"
+          ],
+          "title": "The far corners of Polynesia",
+          "text": "Polynesian voyagers in double-hulled canoes reach the far corners of the Polynesian Triangle: Hawaii, New Zealand and Easter Island. The ancestors of the Māori had probably arrived by 1350 at the latest. Māori and Hawaiian both belong to the Central-Eastern Polynesian branch.",
+          "sources": [
+            "polynav",
+            "polytriangle",
+            "polylangs",
+            "maori",
+            "hawaiian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "print-and-empire",
+      "title": "Print and Empire",
+      "from": 1500,
+      "to": 1800,
+      "intro": [
+        {
+          "text": "Around 1440 Johannes Gutenberg combines movable type with the screw press. By 1500 about 270 European cities have print shops, and books increasingly appear in local vernaculars rather than Latin. Printing helps fix their spelling and syntax, and two historians argue it did more than any other factor to build national languages.",
+          "sources": [
+            "printing"
+          ]
+        },
+        {
+          "text": "Ships carry European languages across oceans. Spain and Portugal reach the Americas, Africa and the Philippines, and friars arrive with them. To teach the faith, many learn local languages and write grammars, dictionaries and catechisms, sometimes with the help of local scholars and teachers.",
+          "sources": [
+            "santo-tomas",
+            "florentine",
+            "doctrina",
+            "kongo"
+          ]
+        },
+        {
+          "text": "These books are valuable records of Quechua, Nahuatl, Tagalog, Kongo and Guaraní, though missionaries wrote them with their own aims and they need to be read with care. In the same age, poets on the Swahili coast set their language down in Arabic script.",
+          "sources": [
+            "santo-tomas",
+            "florentine",
+            "doctrina",
+            "kongo",
+            "utendi"
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "id": "quechua-grammar",
+          "year": 1560,
+          "languoids": [
+            "classical-quechua"
+          ],
+          "title": "A grammar of Quechua",
+          "text": "In 1560 the Dominican Domingo de Santo Tomás, working in the Viceroyalty of Peru, publishes a grammar and a dictionary of Quechua. The grammar includes the earliest known written Quechua text, a catechetic appendix.",
+          "sources": [
+            "santo-tomas",
+            "quechuan"
+          ]
+        },
+        {
+          "id": "florentine-codex",
+          "year": 1577,
+          "languoids": [
+            "classical-nahuatl",
+            "spanish"
+          ],
+          "title": "The Nahua tell their own world",
+          "text": "The Franciscan Bernardino de Sahagún worked from 1545 to 1590 with Nahua elders and former students at Tlatelolco. The resulting Florentine Codex, dated 1577, has twelve books, written in Nahuatl with Spanish text and illustrated with more than 2,000 images by Nahua artists.",
+          "sources": [
+            "florentine",
+            "csmc-codex"
+          ]
+        },
+        {
+          "id": "tagalog-doctrina",
+          "year": 1593,
+          "languoids": [
+            "tagalog",
+            "spanish"
+          ],
+          "title": "Two languages, two scripts",
+          "text": "The Doctrina Christiana of 1593, attributed to the Franciscan Juan de Plasencia, appears in Spanish and Tagalog. Each page was printed from one hand-carved woodblock, and the Tagalog is shown in both the Baybayin script and Latin letters.",
+          "sources": [
+            "doctrina",
+            "plasencia"
+          ]
+        },
+        {
+          "id": "kongo-catechism",
+          "year": 1624,
+          "languoids": [
+            "kongo",
+            "portuguese"
+          ],
+          "title": "A catechism in Kikongo",
+          "text": "In 1624 the Portuguese Jesuit Mateus Cardoso publishes a Kongo translation of a Portuguese catechism. According to its preface, Kongo teachers from São Salvador made the translation. Kikongo had been the language of the Kingdom of Kongo before the Portuguese created Angola in 1575.",
+          "sources": [
+            "kongo"
+          ]
+        },
+        {
+          "id": "guarani-tesoro",
+          "year": 1639,
+          "languoids": [
+            "guarani"
+          ],
+          "title": "The treasure of Guaraní",
+          "text": "In Madrid in 1639 the Jesuit Antonio Ruiz de Montoya publishes his Tesoro de la lengua guaraní. The German linguist Georg von der Gabelentz ranked his works on Guaraní among the best resources for studying the language.",
+          "sources": [
+            "ruiz-montoya"
+          ]
+        },
+        {
+          "id": "eliot-bible",
+          "year": 1663,
+          "languoids": [
+            "massachusett",
+            "english"
+          ],
+          "title": "A Bible in Massachusett",
+          "text": "In 1663 at Cambridge, Massachusetts, the Puritan missionary John Eliot, with Algonquian collaborators, prints a Bible in the Natick dialect of Massachusett. It is called the first Bible published in British North America.",
+          "sources": [
+            "eliot-bible"
+          ]
+        },
+        {
+          "id": "utendi",
+          "year": 1728,
+          "languoids": [
+            "swahili"
+          ],
+          "title": "Swahili in Arabic script",
+          "text": "Mwengo bin Athumani's epic Utendi wa Tambuka is traditionally dated to 1728, the date of its oldest manuscript, written at Yunga, a royal palace in Pate on the Swahili coast. Like other Swahili manuscripts of its time, it is in Arabic script. The 1728 date has been questioned by some scholars.",
+          "sources": [
+            "utendi",
+            "vierke-swahili"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern-world",
+      "title": "The Modern World",
+      "from": 1800,
+      "to": 2026,
+      "intro": [
+        {
+          "text": "Languages become tools of states. Governments and movements choose a language, a script and a standard form, and teach them to a whole population. Between the 1880s and 1928 this happens in Jerusalem, Seoul, Istanbul and Jakarta, each time through a different mix of schools, newspapers and law.",
+          "sources": [
+            "ben-yehuda",
+            "hangul",
+            "turkish-alphabet",
+            "indonesian"
+          ]
+        },
+        {
+          "text": "Alongside national languages, one language has spread across borders. English now has the most speakers in total, about 1.5 billion, roughly three quarters of them as a second language, followed by Mandarin at about 1.2 billion and Hindi at about 600 million (Ethnologue, 2026).",
+          "sources": [
+            "speakers"
+          ]
+        },
+        {
+          "text": "The same forces threaten small languages. The United Nations has named 2022 to 2032 the International Decade of Indigenous Languages, because many of them are no longer being passed on. Speakers, schools and governments are working to bring some of them back.",
+          "sources": [
+            "unesco-decade",
+            "language-death"
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "id": "hebrew-revival",
+          "year": 1881,
+          "languoids": [
+            "hebrew"
+          ],
+          "title": "A language back in the kitchen",
+          "text": "Eliezer Ben-Yehuda moves to Jerusalem in 1881 and sets out to revive Hebrew as a spoken language. He and his wife raise their son entirely in Hebrew, and he starts the first modern Hebrew dictionary. Hebrew is often cited as the only case of a language regaining first-language speakers after long use only in prayer and writing.",
+          "sources": [
+            "ben-yehuda",
+            "language-death"
+          ]
+        },
+        {
+          "id": "hangul-official",
+          "year": 1894,
+          "languoids": [
+            "korean"
+          ],
+          "title": "Hangul steps into public life",
+          "text": "Hangul was promulgated in 1446 under King Sejong. On 21 November 1894 the Joseon government decreed pure Hangul as the preferred script for administrative documents, and in 1896 the newspaper Tongnip sinmun was printed in it. It is now the predominant script for Korean.",
+          "sources": [
+            "hangul"
+          ]
+        },
+        {
+          "id": "two-nations-1928",
+          "year": 1928,
+          "languoids": [
+            "turkish",
+            "indonesian"
+          ],
+          "title": "1928: two nations choose",
+          "text": "In Indonesia, the Youth Pledge of 1928 affirms Indonesian, a standardised Malay, as the unifying language. In Turkey, a law of 1 November 1928 replaces the Arabic-based Ottoman script with a Latin-based alphabet, which Atatürk then teaches across the country.",
+          "sources": [
+            "indonesian",
+            "turkish-alphabet"
+          ]
+        },
+        {
+          "id": "manx-1974",
+          "year": 1974,
+          "languoids": [
+            "manx"
+          ],
+          "title": "The last native speaker",
+          "text": "Ned Maddrell, the last native speaker raised in a Manx-speaking community, dies on 27 December 1974. Interest in Manx had begun earlier, and a Manx-medium primary school now teaches children. UNESCO declared Manx extinct in 2009, then reclassified it as critically endangered.",
+          "sources": [
+            "manx"
+          ]
+        },
+        {
+          "id": "immersion-schools",
+          "year": 1983,
+          "languoids": [
+            "hawaiian",
+            "maori"
+          ],
+          "title": "Children taught in their own language",
+          "text": "In New Zealand, the Kōhanga Reo movement began immersing infants in Māori in 1982, and the Māori Language Act 1987 made it an official language. In Hawaiʻi the ʻAha Pūnana Leo was formed in 1983 and opened its first preschool in 1984.",
+          "sources": [
+            "maori",
+            "hawaiian"
+          ]
+        },
+        {
+          "id": "global-english",
+          "year": 2026,
+          "languoids": [
+            "english",
+            "mandarin",
+            "hindi"
+          ],
+          "title": "A world of speakers",
+          "text": "By Ethnologue's 2026 estimate, English has about 1,493 million speakers in total, of whom about 1,121 million speak it as a second language. Mandarin has about 1,183 million and Hindi about 611 million.",
+          "sources": [
+            "speakers"
+          ]
+        },
+        {
+          "id": "fragile-map",
+          "year": 2026,
+          "languoids": [
+            "welsh",
+            "basque",
+            "navajo",
+            "hawaiian"
+          ],
+          "title": "A fragile map",
+          "text": "UNESCO says at least 40 percent of the world's more than 6,700 languages are threatened with extinction in the long term, for lack of speakers. Welsh, Basque, Hawaiian and Navajo are among the languages that have seen some success in revitalisation.",
+          "sources": [
+            "unesco-decade",
+            "language-death"
+          ]
+        }
+      ]
+    }
+  ]
+}

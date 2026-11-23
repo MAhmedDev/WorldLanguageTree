@@ -13,7 +13,8 @@
     "glotto": "node scripts/glotto.ts",
     "claims": "node scripts/claims.ts",
     "record": "node scripts/record-verdicts.ts",
-    "geo": "node scripts/slim-geo.ts"
+    "geo": "node scripts/slim-geo.ts",
+    "narrate": "uv run --python 3.12 --with kokoro-onnx --with soundfile python scripts/narrate.py"
   },
   "dependencies": {
     "@solidjs/web": "2.0.3",

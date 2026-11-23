@@ -6,11 +6,6 @@ import { formatRange, formatYear } from "../lib/years.ts";
 import { dirFor, fontFor, isVertical } from "../lib/scripts.ts";
 import { WorkCard } from "./WorkCard.tsx";
 
-export interface Citer {
-  /** returns 1-based citation numbers for the given source ids */
-  cite(ids: string[]): number[];
-}
-
 export function ClaimMark(props: { status: ClaimStatus | undefined; evidence?: number; note?: string }) {
   const label = () => {
     const s = props.status ?? "unverified";
@@ -126,6 +121,18 @@ function PanelBody(props: { node: AtlasNode }) {
         </Show>
       </header>
 
+      <Show when={props.node.l.story[0]}>
+        {p => (
+          <section class="story">
+            <p>
+              {p().text}
+              <ClaimMark status={claim("story:0")?.status} evidence={claim("story:0")?.evidence.length} note={claim("story:0")?.note} />
+              <Cites nums={page().nums.story[0] ?? []} />
+            </p>
+          </section>
+        )}
+      </Show>
+
       <dl class="facts">
         <Show when={props.node.l.period}>
           {p => (
@@ -178,23 +185,28 @@ function PanelBody(props: { node: AtlasNode }) {
         </Show>
       </dl>
 
-      <Show when={props.node.l.story.length}>
-        <section class="story">
-          <For each={props.node.l.story}>
-            {(p, i) => (
-              <p>
-                {p.text}
-                <ClaimMark status={claim(`story:${i()}`)?.status} evidence={claim(`story:${i()}`)?.evidence.length} note={claim(`story:${i()}`)?.note} />
-                <Cites nums={page().nums.story[i()] ?? []} />
-              </p>
-            )}
-          </For>
-        </section>
+      <Show when={props.node.l.story.length > 1}>
+        <details class="fold">
+          <summary>Continue reading</summary>
+          <section class="story story-more">
+            <For each={props.node.l.story.slice(1)}>
+              {(p, i) => (
+                <p>
+                  {p.text}
+                  <ClaimMark status={claim(`story:${i() + 1}`)?.status} evidence={claim(`story:${i() + 1}`)?.evidence.length} note={claim(`story:${i() + 1}`)?.note} />
+                  <Cites nums={page().nums.story[i() + 1] ?? []} />
+                </p>
+              )}
+            </For>
+          </section>
+        </details>
       </Show>
 
       <Show when={props.node.l.attestations.length}>
-        <section class="section">
-          <h3>Written traces</h3>
+        <details class="fold">
+          <summary>
+            Written traces <span class="fold-count">{props.node.l.attestations.length}</span>
+          </summary>
           <ol class="attestations">
             <For each={props.node.l.attestations}>
               {(a, i) => (
@@ -214,7 +226,7 @@ function PanelBody(props: { node: AtlasNode }) {
               )}
             </For>
           </ol>
-        </section>
+        </details>
       </Show>
 
       <Show when={props.node.l.works.length}>
@@ -235,8 +247,10 @@ function PanelBody(props: { node: AtlasNode }) {
       </Show>
 
       <Show when={props.node.l.notes.length}>
-        <section class="section">
-          <h3>Scholarly debate</h3>
+        <details class="fold">
+          <summary>
+            Scholarly debate <span class="fold-count">{props.node.l.notes.length}</span>
+          </summary>
           <For each={props.node.l.notes}>
             {(p, i) => (
               <p class="note">
@@ -246,7 +260,7 @@ function PanelBody(props: { node: AtlasNode }) {
               </p>
             )}
           </For>
-        </section>
+        </details>
       </Show>
 
       <Show when={kids().length}>
@@ -264,8 +278,10 @@ function PanelBody(props: { node: AtlasNode }) {
         </section>
       </Show>
 
-      <section class="section sources">
-        <h3>Sources</h3>
+      <details class="fold sources">
+        <summary>
+          Sources &amp; fact-check <span class="fold-count">{page().sources.length}</span>
+        </summary>
         <p class="verify-summary">
           <span class={["claim-mark", page().verified === page().total ? "verified" : "unverified"]}>{page().verified === page().total ? "✓" : "•"}</span>
           {page().verified} of {page().total} claims on this page independently verified
@@ -297,7 +313,7 @@ function PanelBody(props: { node: AtlasNode }) {
             </p>
           )}
         </Show>
-      </section>
+      </details>
     </div>
   );
 }

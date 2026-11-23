@@ -1,0 +1,59 @@
+/**
+ * Narration: pre-rendered clips (scripts/narrate.py, local neural voice) played on demand.
+ * A clip plays only if its recorded text equals the current, verified narration, so the
+ * voice can never say something the screen (and the fact-checker) does not.
+ */
+type Manifest = Record<string, { file: string; hash: string; text: string }>;
+
+let manifest: Promise<Manifest> | null = null;
+let audio: HTMLAudioElement | null = null;
+let token = 0;
+let volume = 1;
+
+export function setNarratorVolume(v: number) {
+  volume = v;
+  if (audio) audio.volume = v;
+}
+
+/** Pause mid-sentence (resumable). */
+export function pauseSpeaking() {
+  audio?.pause();
+}
+
+/** Continue the current clip from where it was paused. */
+export function resumeSpeaking() {
+  if (audio && audio.paused && !audio.ended) void audio.play().catch(() => {});
+}
+
+const loadManifest = () =>
+  (manifest ??= fetch("/audio/narration/manifest.json")
+    .then(r => (r.ok ? (r.json() as Promise<Manifest>) : ({} as Manifest)))
+    .catch(() => ({}) as Manifest));
+
+export const narrationSupported = () => typeof Audio !== "undefined";
+
+export function speak(id: string, text: string) {
+  const mine = ++token;
+  stopSpeaking(false);
+  void loadManifest().then(m => {
+    const clip = m[id];
+    if (mine !== token || !clip || clip.text !== text) return;
+    audio = new Audio(`/audio/narration/${clip.file}`);
+    audio.volume = volume;
+    void audio.play().catch(() => {
+      /* autoplay blocked until a user gesture; the next page turn will play */
+    });
+  });
+}
+
+export function stopSpeaking(bump = true) {
+  if (bump) token++;
+  if (audio) {
+    audio.pause();
+    audio = null;
+  }
+}
+
+export function isSpeaking(): boolean {
+  return !!audio && !audio.paused && !audio.ended;
+}

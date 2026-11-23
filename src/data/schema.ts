@@ -151,6 +151,36 @@ export const Journey = v.object({
   steps: v.pipe(v.array(JourneyStep), v.minLength(2))
 });
 
+/** "The Story of Language": the guided, chaptered telling by age. */
+export const StoryBeat = v.object({
+  id: Id,
+  /** the moment the beat shows; time advances to it, igniting everything in between */
+  year: Year,
+  /** 1–4 languoids this beat introduces (lit up together, camera frames them) */
+  languoids: v.pipe(v.array(Id), v.minLength(1), v.maxLength(4)),
+  title: v.string(),
+  /** narrator: 1–3 sentences */
+  text: v.pipe(v.string(), v.minLength(20), v.maxLength(420)),
+  sources: SourceRefs
+});
+
+export const StoryChapter = v.object({
+  id: Id,
+  title: v.string(),
+  from: Year,
+  to: Year,
+  /** narrator's introduction to the age: 2–3 short paragraphs, revealed one at a time */
+  intro: v.pipe(v.array(Paragraph), v.minLength(1), v.maxLength(4)),
+  beats: v.pipe(v.array(StoryBeat), v.minLength(2), v.maxLength(8))
+});
+
+export const Story = v.object({
+  id: Id,
+  title: v.string(),
+  sources: v.array(Source),
+  chapters: v.pipe(v.array(StoryChapter), v.minLength(1))
+});
+
 export const Verdict = v.object({
   hash: v.string(),
   verdict: v.picklist(["verified", "corrected", "rejected"]),
@@ -175,4 +205,7 @@ export type Languoid = v.InferOutput<typeof Languoid>;
 export type FamilyFile = v.InferOutput<typeof FamilyFile>;
 export type Journey = v.InferOutput<typeof Journey>;
 export type JourneyStep = v.InferOutput<typeof JourneyStep>;
+export type Story = v.InferOutput<typeof Story>;
+export type StoryChapter = v.InferOutput<typeof StoryChapter>;
+export type StoryBeat = v.InferOutput<typeof StoryBeat>;
 export type VerificationFile = v.InferOutput<typeof VerificationFile>;

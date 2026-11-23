@@ -1,0 +1,557 @@
+{
+ "file": "data/story/story-of-language.json",
+ "claims": {
+  "before-writing#intro:0": {
+   "hash": "776a462c12b95faf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+   ]
+  },
+  "before-writing#intro:1": {
+   "hash": "f90d6e014d814ae1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_language",
+    "https://en.wikipedia.org/wiki/Proto-Afroasiatic_language"
+   ]
+  },
+  "before-writing#intro:2": {
+   "hash": "73bbe777077b24e8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Human_language"
+   ],
+   "note": "Proto-Human page calls it hypothetical and widely rejected; reworded the unsupported 'mainstream linguists hold' claim."
+  },
+  "before-writing#beat:proto-afroasiatic": {
+   "hash": "d6816b3d179d082b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Afroasiatic_language"
+   ],
+   "note": "Source says a majority favour West Asia or NE Africa, so 'nobody agrees on where' was contradictory; reworded."
+  },
+  "before-writing#beat:proto-sino-tibetan": {
+   "hash": "4fe55f6ef97f9de0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages"
+   ],
+   "note": "Yellow River is one study's proposal (Zhang et al.), not the most common; Sichuan and Himalayan foothills also proposed. Reworded."
+  },
+  "before-writing#beat:proto-indo-european": {
+   "hash": "619cd4e2ae0c4b3d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+   ]
+  },
+  "before-writing#beat:proto-austronesian": {
+   "hash": "cc9e8ccb3b576c8f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Austronesian_language"
+   ]
+  },
+  "before-writing#beat:proto-bantu": {
+   "hash": "d3b3b3527fe67819",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bantu_expansion"
+   ]
+  },
+  "before-writing#beat:proto-semitic": {
+   "hash": "3bc6dda1a58aafed",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language"
+   ]
+  },
+  "first-scripts#intro:0": {
+   "hash": "f305a6ecd827bdde",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cuneiform",
+    "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
+   ]
+  },
+  "first-scripts#intro:1": {
+   "hash": "7b58964bacfafa46",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cuneiform"
+   ]
+  },
+  "first-scripts#intro:2": {
+   "hash": "b80cf49207f1b2f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language",
+    "https://en.wikipedia.org/wiki/Hittite_language"
+   ]
+  },
+  "first-scripts#beat:uruk-and-abydos": {
+   "hash": "e4ed526e106e4c27",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cuneiform",
+    "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
+   ]
+  },
+  "first-scripts#beat:ebla-archive": {
+   "hash": "ce16a6a21270ac99",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ebla_tablets",
+    "https://en.wikipedia.org/wiki/Cuneiform",
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "first-scripts#beat:sargon": {
+   "hash": "b7d42ffd50b9f763",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language",
+    "https://en.wikipedia.org/wiki/Cuneiform"
+   ]
+  },
+  "first-scripts#beat:elam": {
+   "hash": "93cdd242ca8bec5d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language",
+    "https://en.wikipedia.org/wiki/Cuneiform"
+   ]
+  },
+  "first-scripts#beat:middle-kingdom": {
+   "hash": "f6ddc921d703501f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Egyptian"
+   ]
+  },
+  "first-scripts#beat:kanesh": {
+   "hash": "7512c0e0ec3330b3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language",
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "alphabets-and-empires#intro:0": {
+   "hash": "f4d65502424256f3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic",
+    "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+   ]
+  },
+  "alphabets-and-empires#intro:1": {
+   "hash": "d071613faa315b99",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amarna_letters",
+    "https://en.wikipedia.org/wiki/Behistun_Inscription",
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic",
+    "https://en.wikipedia.org/wiki/Rigveda",
+    "https://en.wikipedia.org/wiki/Avestan"
+   ]
+  },
+  "alphabets-and-empires#intro:2": {
+   "hash": "94b03374746302b9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oracle_bone_script",
+    "https://en.wikipedia.org/wiki/Linear_B"
+   ]
+  },
+  "alphabets-and-empires#beat:ugarit": {
+   "hash": "44ef7e66b138e072",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic"
+   ]
+  },
+  "alphabets-and-empires#beat:amarna": {
+   "hash": "f6bc0b5b68481bd1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amarna_letters"
+   ],
+   "note": "Text describes Akkadian only; removed late-egyptian from languoids."
+  },
+  "alphabets-and-empires#beat:linear-b": {
+   "hash": "1ff7fec2138bf2ff",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Linear_B"
+   ]
+  },
+  "alphabets-and-empires#beat:oracle-bones": {
+   "hash": "f8413b08b5c58257",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oracle_bone_script",
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages"
+   ]
+  },
+  "alphabets-and-empires#beat:rigveda-and-gathas": {
+   "hash": "4d72d4fff3d0322e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Rigveda",
+    "https://en.wikipedia.org/wiki/Avestan"
+   ]
+  },
+  "alphabets-and-empires#beat:alphabet-to-greece": {
+   "hash": "7ca8f64962005a65",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Phoenician_alphabet"
+   ],
+   "note": "Source dates Greek adaptation from the 9th century in prose and 8th in chart; reworded to 9th-8th."
+  },
+  "alphabets-and-empires#beat:behistun": {
+   "hash": "2126a9176df5d17a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Behistun_Inscription",
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic"
+   ]
+  },
+  "classical-age#intro:0": {
+   "hash": "fc1f0a1bca6a54c7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Koine_Greek",
+    "https://en.wikipedia.org/wiki/Latin"
+   ]
+  },
+  "classical-age#intro:1": {
+   "hash": "9bd3d00f2c3b5a4a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Edicts_of_Ashoka",
+    "https://en.wikipedia.org/wiki/P%C4%81%E1%B9%87ini",
+    "https://en.wikipedia.org/wiki/Sangam_literature"
+   ]
+  },
+  "classical-age#intro:2": {
+   "hash": "b1c8d063ff498212",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ezana_of_Axum",
+    "https://en.wikipedia.org/wiki/Gothic_language",
+    "https://en.wikipedia.org/wiki/Mesrop_Mashtots"
+   ],
+   "note": "Ge'ez Bible not shown to be first written Scripture; narrowed to Gothic and Armenian alphabets made with the Bible in view."
+  },
+  "classical-age#beat:panini": {
+   "hash": "2b6510057d43a674",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/P%C4%81%E1%B9%87ini"
+   ]
+  },
+  "classical-age#beat:koine": {
+   "hash": "4a10cb84756d5da3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Koine_Greek"
+   ]
+  },
+  "classical-age#beat:ashoka": {
+   "hash": "c6884cb7dfb9e5c4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Edicts_of_Ashoka"
+   ]
+  },
+  "classical-age#beat:tamil-brahmi": {
+   "hash": "64b27c18cf1b1f8f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil-Brahmi",
+    "https://en.wikipedia.org/wiki/Sangam_literature"
+   ]
+  },
+  "classical-age#beat:trajan": {
+   "hash": "d9536105107c607e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latin"
+   ],
+   "note": "Source: eastern subjects spoke Greek, Syriac or Coptic; 'most people speak Greek' was too narrow."
+  },
+  "classical-age#beat:aksum-and-goths": {
+   "hash": "63a9e6942ec9addc",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ezana_of_Axum",
+    "https://en.wikipedia.org/wiki/Gothic_language"
+   ],
+   "note": "'Adopted Christianity after 320' not supported (infobox only ~320); now 'first Aksumite king to embrace Christianity'."
+  },
+  "classical-age#beat:armenian-alphabet": {
+   "hash": "4c57f6b67ca8f233",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mesrop_Mashtots"
+   ]
+  },
+  "faith-trade-conquest#intro:0": {
+   "hash": "b61e7f8d3b2e65fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+    "https://en.wikipedia.org/wiki/Classical_Arabic"
+   ]
+  },
+  "faith-trade-conquest#intro:1": {
+   "hash": "878447047cae1ae1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tibetan_script",
+    "https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB",
+    "https://en.wikipedia.org/wiki/Orkhon_inscriptions"
+   ]
+  },
+  "faith-trade-conquest#intro:2": {
+   "hash": "062f6a99b3976c6c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Danelaw",
+    "https://en.wikipedia.org/wiki/Polynesian_navigation",
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language"
+   ]
+  },
+  "faith-trade-conquest#beat:arabic-spreads": {
+   "hash": "3752ceadd681a897",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Muslim_conquests",
+    "https://en.wikipedia.org/wiki/Classical_Arabic"
+   ]
+  },
+  "faith-trade-conquest#beat:tibetan-script": {
+   "hash": "156d50478edc1c3b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tibetan_script"
+   ],
+   "note": "Added that Thonmi Sambhota's historical existence cannot be confirmed (van Schaik 2011)."
+  },
+  "faith-trade-conquest#beat:kedukan-bukit": {
+   "hash": "d15844bdcceda566",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kedukan_Bukit_Inscription"
+   ],
+   "note": "Exact day (1 May) and CE year vary between sources (682 minority); now Saka year 605 = 683 CE."
+  },
+  "faith-trade-conquest#beat:orkhon": {
+   "hash": "c32082710d7a9307",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Orkhon_inscriptions"
+   ]
+  },
+  "faith-trade-conquest#beat:manyoshu": {
+   "hash": "c269b860cbd980c9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB"
+   ]
+  },
+  "faith-trade-conquest#beat:danelaw": {
+   "hash": "0fc471ed2ade0520",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Danelaw"
+   ]
+  },
+  "faith-trade-conquest#beat:polynesia": {
+   "hash": "b2e006a3484136f3",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polynesian_navigation",
+    "https://en.wikipedia.org/wiki/Polynesian_Triangle",
+    "https://en.wikipedia.org/wiki/Polynesian_languages",
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language",
+    "https://en.wikipedia.org/wiki/Hawaiian_language"
+   ],
+   "note": "Polynesian navigation page gives no settlement dates or triangle corners; added Polynesian Triangle and languages sources, retitled, 'distant relatives' replaced by Central-Eastern Polynesian."
+  },
+  "print-and-empire#intro:0": {
+   "hash": "b3b82a97c3efc6d7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Printing_press"
+   ]
+  },
+  "print-and-empire#intro:1": {
+   "hash": "9f1bfc96fa113328",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Domingo_de_Santo_Tom%C3%A1s",
+    "https://en.wikipedia.org/wiki/Florentine_Codex",
+    "https://en.wikipedia.org/wiki/Doctrina_Christiana",
+    "https://en.wikipedia.org/wiki/Kongo_language"
+   ]
+  },
+  "print-and-empire#intro:2": {
+   "hash": "a6b6aa875b47091e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Domingo_de_Santo_Tom%C3%A1s",
+    "https://en.wikipedia.org/wiki/Florentine_Codex",
+    "https://en.wikipedia.org/wiki/Doctrina_Christiana",
+    "https://en.wikipedia.org/wiki/Kongo_language",
+    "https://en.wikipedia.org/wiki/Utendi_wa_Tambuka"
+   ]
+  },
+  "print-and-empire#beat:quechua-grammar": {
+   "hash": "49d07c9ba392ccb4",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Domingo_de_Santo_Tom%C3%A1s",
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "Reworded to 'earliest known written Quechua text, a catechetic appendix'; added Quechuan languages page."
+  },
+  "print-and-empire#beat:florentine-codex": {
+   "hash": "1f17ff1135d8ea2f",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Florentine_Codex",
+    "https://www.csmc.uni-hamburg.de/publications/aom/mom/35-en.html"
+   ],
+   "note": "Year 1577 supported by Hamburg CSMC (manuscript dated 1577); Wikipedia's 1569 is the earlier version. Text now says 'dated 1577'."
+  },
+  "print-and-empire#beat:tagalog-doctrina": {
+   "hash": "6f936c2bb70f95a8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Doctrina_Christiana",
+    "https://en.wikipedia.org/wiki/Juan_de_Plasencia"
+   ],
+   "note": "Plasencia was Franciscan, not Dominican; now 'attributed to'."
+  },
+  "print-and-empire#beat:kongo-catechism": {
+   "hash": "6b7b27c60b4b8e68",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kongo_language"
+   ]
+  },
+  "print-and-empire#beat:guarani-tesoro": {
+   "hash": "5cef97c9a3abf4fd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Antonio_Ruiz_de_Montoya"
+   ]
+  },
+  "print-and-empire#beat:eliot-bible": {
+   "hash": "d11a61f905f572ac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eliot_Indian_Bible"
+   ]
+  },
+  "print-and-empire#beat:utendi": {
+   "hash": "893413f96f217923",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Utendi_wa_Tambuka",
+    "https://www.csmc.uni-hamburg.de/publications/mc/files/articles/mc17-vierke.pdf"
+   ],
+   "note": "1728 is the date of the oldest manuscript and has been questioned (Zhukow 1992); manuscript reported missing since 2011. Reworded; Pate palace is Yunga."
+  },
+  "modern-world#intro:0": {
+   "hash": "45eba0cad89b10eb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eliezer_Ben-Yehuda",
+    "https://en.wikipedia.org/wiki/Hangul",
+    "https://en.wikipedia.org/wiki/Turkish_alphabet",
+    "https://en.wikipedia.org/wiki/Indonesian_language"
+   ],
+   "note": "Hangul decree was 1894, not twentieth century; now 'between the 1880s and 1928'."
+  },
+  "modern-world#intro:1": {
+   "hash": "d8a61edb6b166a1c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers"
+   ]
+  },
+  "modern-world#intro:2": {
+   "hash": "1d8db1b1b3874321",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.unesco.at/en/cross-sectional-topics/article/unesco-celebrates-the-international-decade-of-indigenous-languages",
+    "https://en.wikipedia.org/wiki/Language_death"
+   ],
+   "note": "Wikipedia attributes 'half not taught to children' to David Crystal, not the UN; replaced with the UN Decade 2022-2032 (UNESCO page)."
+  },
+  "modern-world#beat:hebrew-revival": {
+   "hash": "18f1bc60b8c7010b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eliezer_Ben-Yehuda",
+    "https://en.wikipedia.org/wiki/Language_death",
+    "https://www.nationalgeographic.com/history/article/hebrew-wasnt-spoken-for-2000-years-heres-how-it-was-revived"
+   ],
+   "note": "'Only Hebrew' -> 'entirely in Hebrew'; 'only case' now hedged as 'often cited' (Wikipedia language death/revival wording)."
+  },
+  "modern-world#beat:hangul-official": {
+   "hash": "347456ff963d5365",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hangul"
+   ]
+  },
+  "modern-world#beat:two-nations-1928": {
+   "hash": "ffabb76822aa751a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language",
+    "https://en.wikipedia.org/wiki/Turkish_alphabet"
+   ]
+  },
+  "modern-world#beat:manx-1974": {
+   "hash": "2de8ae576af87243",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Manx_language"
+   ]
+  },
+  "modern-world#beat:immersion-schools": {
+   "hash": "121a0b4aa3fd264f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language",
+    "https://en.wikipedia.org/wiki/Hawaiian_language"
+   ]
+  },
+  "modern-world#beat:global-english": {
+   "hash": "5f643401e6accb9d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers"
+   ]
+  },
+  "modern-world#beat:fragile-map": {
+   "hash": "129f834545e27aa9",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.unesco.at/en/cross-sectional-topics/article/unesco-celebrates-the-international-decade-of-indigenous-languages",
+    "https://en.wikipedia.org/wiki/Language_death"
+   ],
+   "note": "10,000/1,000-speaker figures could not be confirmed from a UN source; replaced with UNESCO 40% of 6,700 languages threatened."
+  }
+ },
+ "verifiedAt": "2026-11-23T21:47:33.531Z",
+ "verifier": "verifier-story"
+}

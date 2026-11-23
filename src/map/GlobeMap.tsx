@@ -3,7 +3,7 @@ import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 import { useAtlas } from "../state/atlas.tsx";
-import { aliveAt } from "../data/model.ts";
+import { aliveAt, ancestors } from "../data/model.ts";
 import { buildStyle } from "./style.ts";
 import { fontFor } from "../lib/scripts.ts";
 
@@ -11,19 +11,21 @@ const INTERACTIVE = ["presence-core", "presence-glow"];
 maplibregl.setWorkerUrl(workerUrl);
 
 export function GlobeMap() {
-  const { atlas, state, actions, reducedMotion } = useAtlas();
+  const { atlas, state, actions, reducedMotion, epoch } = useAtlas();
   const [map, setMap] = createSignal<maplibregl.Map | null>(null, { ownedWrite: true });
   const [zoom, setZoom] = createSignal(1.6);
   let container: HTMLDivElement | undefined;
   let stopIdle = () => {};
   /** plain mirror of state.playing for the rAF loop */
   let playing = false;
+  /** plain mirror: a guided mode (story or journey) owns the camera */
+  let guided = false;
 
   onSettled(() => {
     if (!container) return;
     const m = new maplibregl.Map({
       container,
-      style: buildStyle(atlas, state.year),
+      style: buildStyle(atlas),
       center: [35, 28],
       zoom: window.innerWidth < 700 ? 1.0 : 1.9,
       minZoom: 0.6,
@@ -40,6 +42,8 @@ export function GlobeMap() {
     const markActive = () => {
       userActive = true;
       idleSince = performance.now();
+      // the reader took the wheel: autoplay steps aside
+      actions.setAutoplay(false);
     };
     m.on("mousedown", markActive);
     m.on("touchstart", markActive);
@@ -50,6 +54,7 @@ export function GlobeMap() {
     });
     m.on("zoom", () => setZoom(m.getZoom()));
     m.on("move", () => declutter());
+    m.on("moveend", () => declutter(true));
 
     m.on("load", () => setMap(m));
 
@@ -69,7 +74,7 @@ export function GlobeMap() {
     const spin = (t: number) => {
       const dt = t - last;
       last = t;
-      if (!reducedMotion && !playing && !userActive && !m.isMoving() && t - idleSince > 4000 && m.getZoom() < 3) {
+      if (!reducedMotion && !playing && !guided && !userActive && !m.isMoving() && t - idleSince > 4000 && m.getZoom() < 3) {
         const c = m.getCenter();
         m.jumpTo({ center: [c.lng + dt * 0.0016, c.lat] });
       }
@@ -88,24 +93,86 @@ export function GlobeMap() {
     };
   });
 
+  // ---- feature-state sync: only features whose state changed are touched -------------
+  const P = atlas.presence;
+  const A = atlas.arcs;
+  type Flags = { b: number; al: number; age: number; sel: number; hov: number; foc: number; rec: number };
+  const fresh = (): Flags => ({ b: -1, al: -1, age: -1, sel: 0, hov: 0, foc: 0, rec: 0 });
+  const pState = P.map(fresh);
+  const aState = A.map(fresh);
+  /** age stepped finely while a language "ignites", coarsely afterwards: identical look, far fewer updates */
+  const stepAge = (a: number) => (a < 200 ? Math.floor(a / 10) * 10 : a < 2000 ? 200 + Math.floor((a - 200) / 300) * 300 : 2000);
+  const put = (m: maplibregl.Map, source: string, id: number, cur: Flags, next: Partial<Flags>) => {
+    let diff: Partial<Flags> | null = null;
+    for (const k in next) {
+      const key = k as keyof Flags;
+      if (cur[key] !== next[key]) {
+        (diff ??= {})[key] = next[key];
+        cur[key] = next[key]!;
+      }
+    }
+    if (diff) m.setFeatureState({ source, id }, diff);
+  };
+  const syncYear = (m: maplibregl.Map, y: number) => {
+    for (let i = 0; i < P.length; i++) {
+      const p = P[i];
+      const b = y >= p.from ? 1 : 0;
+      put(m, "presence", i, pState[i], { b, al: y <= p.to ? 1 : 0, age: b ? stepAge(y - p.from) : 0 });
+    }
+    for (let i = 0; i < A.length; i++) {
+      const b = y >= A[i].from ? 1 : 0;
+      put(m, "arcs", i, aState[i], { b, age: b ? stepAge(y - A[i].from) : 0 });
+    }
+  };
+  const syncFlags = (m: maplibregl.Map, sel: string, hov: string, spot: Set<string>) => {
+    const on = spot.size > 0;
+    const flags = (languoid: string) => ({
+      sel: languoid === sel ? 1 : 0,
+      hov: languoid === hov ? 1 : 0,
+      foc: on && spot.has(languoid) ? 1 : 0,
+      rec: on && !spot.has(languoid) ? 1 : 0
+    });
+    for (let i = 0; i < P.length; i++) put(m, "presence", i, pState[i], flags(P[i].languoid));
+    for (let i = 0; i < A.length; i++) put(m, "arcs", i, aState[i], flags(A[i].languoid));
+  };
+
+  // year → map, coalesced to one sync per animation frame
+  let pendingYear: number | null = null;
   createEffect(
     () => ({ m: map(), year: state.year }),
     ({ m, year }) => {
-      m?.setGlobalStateProperty("year", year);
+      if (!m) return;
+      if (pendingYear === null)
+        requestAnimationFrame(() => {
+          if (pendingYear !== null) syncYear(m, pendingYear);
+          pendingYear = null;
+        });
+      pendingYear = year;
     }
   );
+
+  // selection, hover and the guided-mode spotlight (everything else recedes)
   createEffect(
-    () => ({ m: map(), sel: state.selected ?? "", hov: state.hovered ?? "" }),
-    ({ m, sel, hov }) => {
-      m?.setGlobalStateProperty("selected", sel);
-      m?.setGlobalStateProperty("hovered", hov);
+    () => ({
+      m: map(),
+      sel: state.selected ?? "",
+      hov: state.hovered ?? "",
+      on: !!(state.story || state.journey),
+      ids: [...state.spotlight]
+    }),
+    ({ m, sel, hov, on, ids }) => {
+      guided = on;
+      if (!m) return;
+      // guided modes spotlight their languoids; otherwise a selection lights its path to the roots
+      const spot = on ? ids : sel ? [sel, ...ancestors(atlas, sel).map(a => a.l.id)] : [];
+      syncFlags(m, sel, hov, new Set(spot));
     }
   );
 
   // While playing, drift the camera toward where languages are igniting right now.
   const recentCentre = createMemo(() => {
     if (!state.playing || state.selected) return null;
-    const y = state.year;
+    const y = Math.round(state.year / 10) * 10;
     const window = y < -1000 ? 400 : y < 1000 ? 250 : 150;
     const pts = atlas.presence.filter(p => p.from <= y && p.from > y - window && p.kind !== "current");
     if (!pts.length) return null;
@@ -142,32 +209,71 @@ export function GlobeMap() {
     () => {
       const wide = window.innerWidth > 860;
       const dock = wide && state.treeOpen && !state.treeExpanded ? Math.min(430, window.innerWidth * 0.34) + 20 : 0;
+      const isGuided = !!(state.story || state.journey);
       const panel = wide && state.selected ? Math.min(460, window.innerWidth * 0.36) + 20 : 0;
-      return { m: map(), tick: state.focusTick, id: state.selected, padding: { left: dock, right: panel, top: 60, bottom: 130 } };
+      // guided modes keep the tree out of the way and a caption card at the bottom
+      const left = dock;
+      const bottom = isGuided ? (wide ? 330 : 360) : 130;
+      return {
+        m: map(),
+        tick: state.focusTick,
+        id: state.selected,
+        spot: [...state.spotlight],
+        isGuided,
+        padding: { left, right: panel, top: 70, bottom }
+      };
     },
-    ({ m, tick, id, padding }) => {
+    ({ m, tick, id, spot, isGuided, padding }) => {
       if (!m) return;
+      if (tick === lastTick) {
+        m.easeTo({ padding, duration: reducedMotion ? 0 : 700 });
+        return;
+      }
+      lastTick = tick;
+      const duration = reducedMotion ? 0 : isGuided ? 2800 : undefined;
       const point = id ? atlas.nodes.get(id)?.point : null;
-      if (tick !== lastTick && point) {
-        lastTick = tick;
+      if (point || spot.length || isGuided) stopIdle();
+      if (point) {
         const target = { center: [point.lng, point.lat] as [number, number], zoom: Math.max(m.getZoom(), 3.1), padding };
         if (reducedMotion) m.jumpTo(target);
         else m.flyTo({ ...target, speed: 0.7, curve: 1.5, essential: false });
-        stopIdle();
-      } else m.easeTo({ padding, duration: reducedMotion ? 0 : 700 });
+        return;
+      }
+      const pts = spot.map(s => atlas.nodes.get(s)?.point).filter((p): p is { lat: number; lng: number } => !!p);
+      if (pts.length === 1) {
+        m.flyTo({ center: [pts[0].lng, pts[0].lat], zoom: 3.3, padding, duration, essential: true });
+      } else if (pts.length > 1) {
+        const lngs = pts.map(p => p.lng);
+        const lats = pts.map(p => p.lat);
+        const bounds: [[number, number], [number, number]] = [
+          [Math.min(...lngs), Math.min(...lats)],
+          [Math.max(...lngs), Math.max(...lats)]
+        ];
+        m.fitBounds(bounds, { padding: { ...padding, left: padding.left + 80, right: padding.right + 80, top: padding.top + 60 }, maxZoom: 3.6, duration, essential: true });
+      } else if (isGuided) {
+        // a chapter opening: pull back to see the whole world
+        m.easeTo({ zoom: window.innerWidth < 700 ? 1.0 : 1.7, padding, duration: duration ?? 2000 });
+      }
     }
   );
 
   // floating labels: languages alive in the current year, in their own script when known.
   // The memo yields a joined id string so playback only touches the DOM when the set changes.
+  const zoomedIn = createMemo(() => zoom() > 2.6);
   const labelKey = createMemo(() => {
-    const y = state.year;
-    const z = zoom();
+    const y = epoch();
+    const close = zoomedIn();
     const sel = state.selected;
     const ids: string[] = [];
+    // in a guided mode only the spotlight speaks
+    if (state.story || state.journey) {
+      for (const id of state.spotlight) if (atlas.nodes.get(id)?.point) ids.push(id);
+      if (sel && !ids.includes(sel)) ids.push(sel);
+      return ids.join("|");
+    }
     for (const n of atlas.nodes.values()) {
       if (!n.point || !n.l.homeland) continue;
-      const show = n.l.id === sel || (aliveAt(n, y) && (z > 2.6 || n.l.works.length > 0 || n.parent === null));
+      const show = n.l.id === sel || (aliveAt(n, y) && (close || n.l.works.length > 0 || n.parent === null));
       if (show) ids.push(n.l.id);
     }
     return ids.join("|");
@@ -184,25 +290,43 @@ export function GlobeMap() {
     const n = atlas.nodes.get(id)!;
     return n.l.works.length * 1000 + (n.parent ? 0 : 500) + n.l.story.length * 10 - n.depth;
   };
+  // Batched: all reads first (one layout flush), then only the class changes that are needed.
+  // While the globe moves it runs at most every 150 ms; markers move as a group, so overlaps
+  // barely change between passes.
   let declutterQueued = false;
-  const declutter = () => {
+  let lastDeclutter = 0;
+  const hidden = new Set<string>();
+  const declutter = (force = false) => {
     if (declutterQueued) return;
+    const wait = force ? 0 : Math.max(0, 150 - (performance.now() - lastDeclutter));
     declutterQueued = true;
-    requestAnimationFrame(() => {
-      declutterQueued = false;
-      const placed: DOMRect[] = [];
-      const ids = [...markers.keys()].sort((a, b) => priority(b) - priority(a));
-      for (const id of ids) {
-        const el = markers.get(id)!.getElement();
-        el.classList.remove("is-hidden");
-        const r = el.getBoundingClientRect();
-        const pad = 2;
-        const hit = placed.some(p => r.left < p.right + pad && r.right > p.left - pad && r.top < p.bottom + pad && r.bottom > p.top - pad);
-        if (hit && id !== selectedId) el.classList.add("is-hidden");
-        else if (r.width) placed.push(r);
-      }
-    });
+    setTimeout(
+      () =>
+        requestAnimationFrame(() => {
+          declutterQueued = false;
+          lastDeclutter = performance.now();
+          const ids = [...markers.keys()].sort((x, y) => priority(y) - priority(x));
+          const rects = ids.map(id => markers.get(id)!.getElement().getBoundingClientRect());
+          const placed: DOMRect[] = [];
+          const pad = 2;
+          const nextHidden = new Set<string>();
+          ids.forEach((id, i) => {
+            const r = rects[i];
+            const hit = placed.some(p => r.left < p.right + pad && r.right > p.left - pad && r.top < p.bottom + pad && r.bottom > p.top - pad);
+            if (hit && id !== selectedId) nextHidden.add(id);
+            else if (r.width) placed.push(r);
+          });
+          for (const id of ids) {
+            const want = nextHidden.has(id);
+            if (want !== hidden.has(id)) markers.get(id)!.getElement().classList.toggle("is-hidden", want);
+          }
+          hidden.clear();
+          for (const id of nextHidden) hidden.add(id);
+        }),
+      wait
+    );
   };
+
   const makeMarker = (id: string, m: maplibregl.Map) => {
     const n = atlas.nodes.get(id)!;
     const el = document.createElement("button");
@@ -239,9 +363,10 @@ export function GlobeMap() {
         if (!want.has(id)) {
           mk.remove();
           markers.delete(id);
+          hidden.delete(id);
         }
       for (const id of want) if (!markers.has(id)) markers.set(id, makeMarker(id, m));
-      declutter();
+      declutter(true);
     }
   );
   createEffect(
@@ -249,7 +374,7 @@ export function GlobeMap() {
     ({ sel, hov }) => {
       selectedId = sel;
       hoveredId = hov;
-      declutter();
+      declutter(true);
       for (const [id, mk] of markers) {
         const el = mk.getElement();
         el.classList.toggle("is-selected", id === sel);

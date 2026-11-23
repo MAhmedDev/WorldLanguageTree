@@ -5,6 +5,7 @@ import type { VerificationFile } from "./schema.ts";
 
 const familyFiles = import.meta.glob<unknown>("/data/families/*.json", { import: "default" });
 const journeyFiles = import.meta.glob<unknown>("/data/journeys/*.json", { import: "default" });
+const storyFiles = import.meta.glob<unknown>("/data/story/*.json", { import: "default" });
 const verificationFiles = import.meta.glob<unknown>("/verification/*/*.json", { import: "default" });
 const glottoFiles = import.meta.glob<Atlas["glottolog"]>("/data/glottolog/snapshot.json", { import: "default" });
 
@@ -20,9 +21,10 @@ export interface LoadedAtlas {
 }
 
 export async function loadAtlas(): Promise<LoadedAtlas> {
-  const [families, journeys, verifications, glotto] = await Promise.all([
+  const [families, journeys, stories, verifications, glotto] = await Promise.all([
     loadDir(familyFiles, "families"),
     loadDir(journeyFiles, "journeys"),
+    loadDir(storyFiles, "story"),
     Promise.all(
       Object.entries(verificationFiles).map(async ([path, load]) => {
         const parts = path.split("/");
@@ -31,10 +33,11 @@ export async function loadAtlas(): Promise<LoadedAtlas> {
     ),
     Promise.all(Object.values(glottoFiles).map(l => l()))
   ]);
-  const result = validateDataset({ families, journeys, verifications }, { allowUnverified: true });
+  const result = validateDataset({ families, journeys, stories, verifications }, { allowUnverified: true });
   const atlas = buildAtlas({
     families: result.families,
     journeys: result.journeys,
+    stories: result.stories,
     verifications: verifications.map(v => ({ key: v.key, data: v.raw as VerificationFile })),
     glottolog: glotto[0] ?? {}
   });

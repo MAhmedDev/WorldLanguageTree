@@ -102,3 +102,19 @@ You did not write the data. Assume nothing in it is true until you have checked 
 4. Write the verdicts as `{ "<claimId>": { "verdict", "evidence": [urls], "note"? } }` to a temporary file. Run `pnpm record families/<name> <file> --verifier "<your label>"` **after** making all edits, because hashes are stamped from the current data.
 5. Run `pnpm claims families/<name> --unverified`. The result should be `[]`. Then run `pnpm check:data --allow-unverified` with no errors for your files.
 6. Report counts (verified, corrected, removed) and every correction, in one line each.
+
+## The Story of Language (chapters by age)
+
+`data/story/story-of-language.json` is the chaptered narrative behind "The Story of Language" mode. Its shape is `{ id, title, sources, chapters: [...] }`, where each chapter is:
+
+- `id`, `title` (the age's name), and `from`/`to` years. Chapters are chronological and do not overlap.
+- `intro`: 2–3 short narrator paragraphs (40–90 words each), each with `sources`. Set the scene: what the world looked like, which forces moved languages (writing, empires, trade, religion, migration, print, nation states), and what changes on the map in this age.
+- `beats`: 4–7 small steps through the age. Each beat has:
+  - `id`, a `year` within the chapter, and 1–4 `languoids` (existing ids) that appear or matter at that moment
+  - a short `title`
+  - `text`: 1–3 sentences, at most 420 characters
+  - `sources`
+
+  Beats are chronological. A beat's year should fall within each languoid's period, so it can light up.
+
+Write the narration warmly but factually: specific people, places, objects and dates, and no hype or unsourced superlatives. The verifier checks every intro paragraph (including the chapter's title and dates) and every beat, exactly like any other claim. Claim ids look like `<chapterId>#intro:<n>` and `<chapterId>#beat:<beatId>`. Run `pnpm claims story/story-of-language` for the checklist.

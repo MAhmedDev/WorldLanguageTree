@@ -5,6 +5,7 @@ import type { DatasetInput, GlottoEntry } from "../src/data/validate.ts";
 export const ROOT = new URL("..", import.meta.url).pathname;
 export const FAMILIES_DIR = join(ROOT, "data/families");
 export const JOURNEYS_DIR = join(ROOT, "data/journeys");
+export const STORY_DIR = join(ROOT, "data/story");
 export const VERIFY_DIR = join(ROOT, "verification");
 export const GLOTTO_CACHE = join(ROOT, "data/glottolog/.cache/languages.csv");
 export const GLOTTO_SNAPSHOT = join(ROOT, "data/glottolog/snapshot.json");
@@ -22,7 +23,12 @@ export function loadDataset(): DatasetInput {
   return {
     families: readJsonDir(FAMILIES_DIR, "families"),
     journeys: readJsonDir(JOURNEYS_DIR, "journeys"),
-    verifications: [...readJsonDir(join(VERIFY_DIR, "families"), "families"), ...readJsonDir(join(VERIFY_DIR, "journeys"), "journeys")],
+    stories: readJsonDir(STORY_DIR, "story"),
+    verifications: [
+      ...readJsonDir(join(VERIFY_DIR, "families"), "families"),
+      ...readJsonDir(join(VERIFY_DIR, "journeys"), "journeys"),
+      ...readJsonDir(join(VERIFY_DIR, "story"), "story")
+    ],
     glottolog: loadGlottolog()
   };
 }
