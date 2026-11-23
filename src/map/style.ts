@@ -62,9 +62,9 @@ export function buildStyle(atlas: Atlas, initialYear: number): StyleSpecificatio
       "atmosphere-blend": ["interpolate", ["linear"], ["zoom"], 0, 1, 5, 0.6, 8, 0]
     },
     sources: {
-      land: { type: "geojson", data: "/geo/ne_50m_land.geojson" },
-      lakes: { type: "geojson", data: "/geo/ne_50m_lakes.geojson" },
-      rivers: { type: "geojson", data: "/geo/ne_50m_rivers_lake_centerlines.geojson" },
+      land: { type: "geojson", data: "/geo/land.geojson" },
+      lakes: { type: "geojson", data: "/geo/lakes.geojson" },
+      rivers: { type: "geojson", data: "/geo/rivers.geojson" },
       graticule: { type: "geojson", data: graticule() },
       presence: { type: "geojson", data: presenceGeoJSON(atlas) },
       arcs: { type: "geojson", data: arcsGeoJSON(atlas), lineMetrics: true }
