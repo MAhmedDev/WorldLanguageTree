@@ -19,7 +19,8 @@ function opening(text: string, maxLines: number, maxLen: number): string {
   const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
   let out = lines[0] ?? "";
   if (out.length < 28 && lines[1] && maxLines > 1) out += "\n" + lines[1];
-  if (out.length > maxLen) out = out.slice(0, maxLen).replace(/\s+\S*$/, "") + " …";
+  const g = graphemes(out);
+  if (g.length > maxLen) out = g.slice(0, maxLen).join("").replace(/\s+\S*$/, "") + " …";
   return out;
 }
 

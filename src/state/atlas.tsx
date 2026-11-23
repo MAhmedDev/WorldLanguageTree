@@ -4,7 +4,6 @@ import { cancelTween, tweenYear } from "../lib/tween.ts";
 
 export interface AtlasState {
   year: number;
-  playing: boolean;
   selected: string | null;
   hovered: string | null;
   treeOpen: boolean;
@@ -22,8 +21,6 @@ export interface AtlasState {
   muted: boolean;
   /** journeys advance only on user action unless autoplay is switched on */
   autoplay: boolean;
-  /** time-river playback speed multiplier */
-  speed: number;
   journeysOpen: boolean;
   aboutOpen: boolean;
   sound: boolean;
@@ -33,7 +30,6 @@ export interface AtlasState {
 
 export interface AtlasActions {
   setYear(y: number): void;
-  play(on?: boolean): void;
   select(id: string | null, opts?: { fly?: boolean }): void;
   /** select and, if the language is not alive in the current year, sweep time to when it was */
   visit(id: string): void;
@@ -49,8 +45,6 @@ export interface AtlasActions {
   storyArrived(chapter: number, beat: number): void;
   endStory(): void;
   toggleVoice(): void;
-  cycleSpeed(): void;
-  setSpeed(v: number): void;
   setVolume(v: number): void;
   toggleMute(): void;
   openJourneys(on?: boolean): void;
@@ -90,7 +84,6 @@ function readVolume(): number {
 export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContextValue {
   const [state, setState] = createStore<AtlasState>({
     year: initialYear,
-    playing: false,
     selected: null,
     hovered: null,
     // one focal point: the globe. The tree is a click away.
@@ -103,7 +96,6 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
     volume: readVolume(),
     muted: false,
     autoplay: false,
-    speed: 1,
     journeysOpen: false,
     aboutOpen: false,
     sound: false,
@@ -118,12 +110,6 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
       setState(s => {
         s.year = clampYear(y);
       }),
-    play: on => {
-      cancelTween();
-      setState(s => {
-        s.playing = on ?? !s.playing;
-      });
-    },
     select: (id, opts) =>
       setState(s => {
         s.selected = id;
@@ -132,7 +118,6 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
     visit: id => {
       const n = atlas.nodes.get(id);
       // pause so the reader can take the page in
-      if (state.playing) actions.play(false);
       if (state.autoplay) actions.setAutoplay(false);
       actions.select(id, { fly: true });
       if (!n || !Number.isFinite(n.from)) return;
@@ -164,7 +149,6 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
         s.spotlight = [languoid];
         s.selected = null;
         s.journeysOpen = false;
-        s.playing = false;
         s.focusTick++;
       });
     },
@@ -186,7 +170,6 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
         s.journey = null;
         s.selected = null;
         s.journeysOpen = false;
-        s.playing = false;
         if (!sameView) {
           s.spotlight = languoids;
           s.focusTick++;
@@ -225,14 +208,6 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
     toggleMute: () =>
       setState(s => {
         s.muted = !s.muted;
-      }),
-    setSpeed: v =>
-      setState(s => {
-        s.speed = v;
-      }),
-    cycleSpeed: () =>
-      setState(s => {
-        s.speed = s.speed === 1 ? 2 : s.speed === 2 ? 0.5 : 1;
       }),
     openJourneys: on =>
       setState(s => {

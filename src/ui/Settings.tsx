@@ -12,14 +12,18 @@ export function Settings() {
     const onDown = (e: PointerEvent) => {
       if (root && !root.contains(e.target as Node)) setOpen(false);
     };
+    // capture phase + preventDefault: closing the menu must not also leave the story
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape" && open()) {
+        e.preventDefault();
+        setOpen(false);
+      }
     };
     window.addEventListener("pointerdown", onDown);
-    window.addEventListener("keydown", onKey);
+    window.addEventListener("keydown", onKey, true);
     return () => {
       window.removeEventListener("pointerdown", onDown);
-      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("keydown", onKey, true);
     };
   });
 

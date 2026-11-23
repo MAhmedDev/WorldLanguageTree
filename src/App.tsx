@@ -72,7 +72,7 @@ function Shell(props: { issues: number }) {
       if (e.key === "/" && !typing) {
         searchInput?.focus();
         e.preventDefault();
-      } else if (e.key === "Escape") {
+      } else if (e.key === "Escape" && !typing && !e.defaultPrevented) {
         if (state.aboutOpen) actions.openAbout(false);
         else if (state.journeysOpen) actions.openJourneys(false);
         else if (state.treeExpanded) actions.expandTree(false);
@@ -80,11 +80,13 @@ function Shell(props: { issues: number }) {
         else if (state.story) actions.endStory();
         else if (state.journey) actions.endJourney();
       } else if (typing) return;
-      else if (e.key === " " && e.target instanceof HTMLButtonElement) return; // Space activates the focused button
+      // Space activates whatever interactive element has focus (buttons, folds, links, switches)
+      else if (e.key === " " && e.target instanceof Element && e.target.closest("button, summary, a, input, [role=switch], [role=option]")) return;
       else if (e.target instanceof HTMLElement && e.target.closest(".river-track")) return; // the river handles its own arrows
       else if (e.key === " " && !state.journey) {
-        // the one operation: play / pause the story
-        storyPlayPause(ctx);
+        // the one operation: play / pause the story (from the intro, Space is "Begin")
+        if (intro()) begin("story");
+        else storyPlayPause(ctx);
         e.preventDefault();
       } else if ((state.story || state.journey) && (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === " ")) {
         // stepping by hand pauses the story
@@ -112,16 +114,13 @@ function Shell(props: { issues: number }) {
 
   const guided = createMemo(() => !!(state.story || state.journey));
 
-  const begin = (mode: "story" | "play" | "explore" | "journey") => {
+  const begin = (mode: "story" | "explore" | "journey") => {
     setIntro(false);
     if (mode === "story") {
       storyGo(ctx, 0, -1, 0);
       actions.setAutoplay(true);
     }
-    else if (mode === "play") {
-      actions.setYear(START_YEAR);
-      actions.play(true);
-    } else if (mode === "journey") {
+    else if (mode === "journey") {
       if (atlas.journeys[0]) goToStep(ctx, atlas.journeys[0].id, 0);
       else actions.openJourneys(true);
     } else void tweenYear(state.year, 1500, actions.setYear, 3000, ctx.reducedMotion);
@@ -185,7 +184,7 @@ function Shell(props: { issues: number }) {
           <div class="intro-inner">
             <h2 class="intro-title">World Language Tree</h2>
             <p class="intro-lede">The story of human speech, across the globe and through time.</p>
-            <button class="intro-begin" onClick={() => begin(atlas.story ? "story" : "play")}>
+            <button class="intro-begin" onClick={() => begin(atlas.story ? "story" : "explore")}>
               Begin
             </button>
             <div class="intro-alt">

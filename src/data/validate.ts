@@ -147,8 +147,12 @@ export function validateDataset(input: DatasetInput, opts: ValidateOptions = {})
         if (l.status === "extinct" && l.period.to === null && l.kind !== "group")
           err(where, `extinct language needs period.to`);
         // nearest ancestor with a period must not start later than this one
+        const walked = new Set<string>([l.id]);
         let a = l.parent ? byId.get(l.parent)?.l : undefined;
-        while (a && !a.period) a = a.parent ? byId.get(a.parent)?.l : undefined;
+        while (a && !a.period && !walked.has(a.id)) {
+          walked.add(a.id);
+          a = a.parent ? byId.get(a.parent)?.l : undefined;
+        }
         if (a?.period && a.period.from > l.period.from)
           err(where, `starts (${l.period.from}) before its ancestor ${a.id} (${a.period.from})`);
         const end = l.period.to ?? 2100;
@@ -163,7 +167,10 @@ export function validateDataset(input: DatasetInput, opts: ValidateOptions = {})
   }
 
   // --- journeys -----------------------------------------------------------
+  const journeyIds = new Map<string, string>();
   for (const { key, data } of journeys) {
+    if (journeyIds.has(data.id)) err(key, `journey id "${data.id}" also used by ${journeyIds.get(data.id)}`);
+    journeyIds.set(data.id, key);
     const defined = sourceDupes(key, data.sources.map(s => s.id));
     const claims = journeyClaims(data);
     checkSourceRefs(key, defined, claims);
@@ -177,8 +184,16 @@ export function validateDataset(input: DatasetInput, opts: ValidateOptions = {})
     const defined = sourceDupes(key, data.sources.map(s => s.id));
     checkSourceRefs(key, defined, storyClaims(data));
     let prevTo = -Infinity;
+    const chapterIds = new Set<string>();
     for (const ch of data.chapters) {
       const where = `${key}#${ch.id}`;
+      if (chapterIds.has(ch.id)) err(where, `duplicate chapter id "${ch.id}"`);
+      chapterIds.add(ch.id);
+      const beatIds = new Set<string>();
+      for (const b of ch.beats) {
+        if (beatIds.has(b.id)) err(`${where}#beat:${b.id}`, `duplicate beat id "${b.id}" in chapter`);
+        beatIds.add(b.id);
+      }
       if (ch.to <= ch.from) err(where, `chapter ends before it starts`);
       if (ch.from < prevTo) err(where, `chapter overlaps the previous one`);
       prevTo = ch.to;

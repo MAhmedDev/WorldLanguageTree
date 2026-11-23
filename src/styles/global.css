@@ -1809,20 +1809,6 @@ kbd {
   text-transform: uppercase;
   color: var(--gold);
 }
-.river-speed {
-  min-width: 34px;
-  height: 26px;
-  padding: 0 6px;
-  border-radius: 999px;
-  border: 1px solid var(--line-soft);
-  font-size: 11px;
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
-}
-.river-speed:hover {
-  color: var(--gold);
-  border-color: var(--gold);
-}
 /* in guided modes the caption sits over the globe's free centre */
 .app.guided .caption {
   left: 50%;

@@ -11,8 +11,10 @@ export function About() {
       families: atlas.roots.length,
       works: nodes.reduce((s, n) => s + n.l.works.length, 0),
       sources: new Set(nodes.flatMap(n => [...n.sources.values()].map(s => s.url))).size,
-      claims: claims.length,
-      verified: claims.filter(c => c.status === "verified").length
+      claims: claims.length + atlas.journeyClaims.size + atlas.storyClaims.size,
+      verified:
+        claims.filter(c => c.status === "verified").length +
+        [...atlas.journeyClaims.values(), ...atlas.storyClaims.values()].filter(c => c.status === "verified").length
     };
   });
 

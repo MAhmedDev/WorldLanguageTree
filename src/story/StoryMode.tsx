@@ -5,7 +5,7 @@ import { tweenYear } from "../lib/tween.ts";
 import { formatRange, formatYear } from "../lib/years.ts";
 import { fontFor } from "../lib/scripts.ts";
 import { ClaimMark } from "../panel/LanguagePanel.tsx";
-import { isSpeaking, pauseSpeaking, resumeSpeaking, setNarratorVolume, speak, stopSpeaking } from "../lib/narrator.ts";
+import { clipStarted, isSpeaking, pauseSpeaking, resumeSpeaking, setNarratorVolume, speak, stopSpeaking } from "../lib/narrator.ts";
 import { IconButton } from "../ui/Icon.tsx";
 import { Specimen, pickSpecimen } from "./Specimen.tsx";
 
@@ -46,8 +46,11 @@ export function storyGo(ctx: AtlasContextValue, chapter: number, beat: number, p
 export function storyJumpToYear(ctx: AtlasContextValue, year: number) {
   const story = ctx.atlas.story;
   if (!story) return;
-  let ci = story.chapters.findIndex(ch => year >= ch.from && year < ch.to);
-  if (ci < 0) ci = year < story.chapters[0].from ? 0 : story.chapters.length - 1;
+  // the last age that has begun by `year` (also right when the year falls in a gap between ages)
+  let ci = 0;
+  story.chapters.forEach((ch, i) => {
+    if (ch.from <= year) ci = i;
+  });
   const ch = story.chapters[ci];
   let bi = -1;
   ch.beats.forEach((b, i) => {
@@ -156,8 +159,9 @@ export function StoryMode() {
       const elapsed = performance.now() - shownAt;
       const progress = state.autoplay && v.s.arrived ? Math.min(1, elapsed / total) : 0;
       if (!state.autoplay || !v.s.arrived || document.hidden) return;
-      const speechDone = !state.voice || (!isSpeaking() && elapsed > 2500);
-      if ((state.voice ? speechDone : progress >= 1)) storyNext(ctx);
+      // with a clip playing, wait for the voice; otherwise (narrator off, no clip, closing card) use reading time
+      const voiced = state.voice && clipStarted();
+      if (voiced ? !isSpeaking() && elapsed > 2500 : progress >= 1) storyNext(ctx);
     }, 200);
     return () => {
       clearInterval(timer);

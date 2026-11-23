@@ -1,8 +1,9 @@
 import { readdirSync, readFileSync, existsSync } from "node:fs";
 import { join, basename } from "node:path";
+import { fileURLToPath } from "node:url";
 import type { DatasetInput, GlottoEntry } from "../src/data/validate.ts";
 
-export const ROOT = new URL("..", import.meta.url).pathname;
+export const ROOT = fileURLToPath(new URL("..", import.meta.url));
 export const FAMILIES_DIR = join(ROOT, "data/families");
 export const JOURNEYS_DIR = join(ROOT, "data/journeys");
 export const STORY_DIR = join(ROOT, "data/story");

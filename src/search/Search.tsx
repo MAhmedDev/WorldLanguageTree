@@ -64,6 +64,7 @@ export function Search(props: { inputRef?: (el: HTMLInputElement) => void }) {
             e.preventDefault();
           } else if (e.key === "Enter" && list.length) choose(list[Math.min(active(), list.length - 1)], e.currentTarget);
           else if (e.key === "Escape") {
+            e.preventDefault();
             setQuery("");
             e.currentTarget.blur();
           }

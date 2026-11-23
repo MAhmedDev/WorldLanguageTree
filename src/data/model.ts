@@ -211,7 +211,11 @@ export function buildAtlas(input: {
     }
     // lineage arc from nearest ancestor with a homeland
     let a = n.parent;
-    while (a && !a.l.homeland) a = a.parent;
+    const walked = new Set<AtlasNode>([n]);
+    while (a && !a.l.homeland && !walked.has(a)) {
+      walked.add(a);
+      a = a.parent;
+    }
     if (a?.l.homeland && l.homeland && distanceKm(a.l.homeland, l.homeland) > 150)
       arcs.push({ id: `${l.id}:lineage`, languoid: l.id, kind: "lineage", from: l.period.from, coords: greatCircle(a.l.homeland, l.homeland), rootId: n.rootId });
   }
@@ -264,7 +268,9 @@ export function buildAtlas(input: {
 export function ancestors(atlas: Atlas, id: string): AtlasNode[] {
   const out: AtlasNode[] = [];
   let n = atlas.nodes.get(id)?.parent ?? null;
-  while (n) {
+  const walked = new Set<AtlasNode>();
+  while (n && !walked.has(n)) {
+    walked.add(n);
     out.unshift(n);
     n = n.parent;
   }

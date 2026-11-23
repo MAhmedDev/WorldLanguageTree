@@ -9,6 +9,12 @@ let manifest: Promise<Manifest> | null = null;
 let audio: HTMLAudioElement | null = null;
 let token = 0;
 let volume = 1;
+/** true once the current step's clip has really started (not missing, mismatched or blocked) */
+let started = false;
+
+export function clipStarted(): boolean {
+  return started;
+}
 
 export function setNarratorVolume(v: number) {
   volume = v;
@@ -35,12 +41,18 @@ export const narrationSupported = () => typeof Audio !== "undefined";
 export function speak(id: string, text: string) {
   const mine = ++token;
   stopSpeaking(false);
+  started = false;
   void loadManifest().then(m => {
     const clip = m[id];
     if (mine !== token || !clip || clip.text !== text) return;
     audio = new Audio(`/audio/narration/${clip.file}`);
     audio.volume = volume;
-    void audio.play().catch(() => {
+    void audio
+      .play()
+      .then(() => {
+        if (mine === token) started = true;
+      })
+      .catch(() => {
       /* autoplay blocked until a user gesture; the next page turn will play */
     });
   });
@@ -48,6 +60,7 @@ export function speak(id: string, text: string) {
 
 export function stopSpeaking(bump = true) {
   if (bump) token++;
+  started = false;
   if (audio) {
     audio.pause();
     audio = null;

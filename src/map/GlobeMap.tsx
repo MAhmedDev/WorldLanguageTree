@@ -16,8 +16,6 @@ export function GlobeMap() {
   const [zoom, setZoom] = createSignal(1.6);
   let container: HTMLDivElement | undefined;
   let stopIdle = () => {};
-  /** plain mirror of state.playing for the rAF loop */
-  let playing = false;
   /** plain mirror: a guided mode (story or journey) owns the camera */
   let guided = false;
 
@@ -74,7 +72,7 @@ export function GlobeMap() {
     const spin = (t: number) => {
       const dt = t - last;
       last = t;
-      if (!reducedMotion && !playing && !guided && !userActive && !m.isMoving() && t - idleSince > 4000 && m.getZoom() < 3) {
+      if (!reducedMotion && !guided && !userActive && !m.isMoving() && t - idleSince > 4000 && m.getZoom() < 3) {
         const c = m.getCenter();
         m.jumpTo({ center: [c.lng + dt * 0.0016, c.lat] });
       }
@@ -169,39 +167,6 @@ export function GlobeMap() {
     }
   );
 
-  // While playing, drift the camera toward where languages are igniting right now.
-  const recentCentre = createMemo(() => {
-    if (!state.playing || state.selected) return null;
-    const y = Math.round(state.year / 10) * 10;
-    const window = y < -1000 ? 400 : y < 1000 ? 250 : 150;
-    const pts = atlas.presence.filter(p => p.from <= y && p.from > y - window && p.kind !== "current");
-    if (!pts.length) return null;
-    let x = 0;
-    let yy = 0;
-    let z = 0;
-    for (const p of pts) {
-      const la = (p.lat * Math.PI) / 180;
-      const lo = (p.lng * Math.PI) / 180;
-      x += Math.cos(la) * Math.cos(lo);
-      yy += Math.cos(la) * Math.sin(lo);
-      z += Math.sin(la);
-    }
-    const lng = (Math.atan2(yy, x) * 180) / Math.PI;
-    const lat = (Math.atan2(z, Math.hypot(x, yy)) * 180) / Math.PI;
-    // snapped to a 6° grid: the camera only retargets when the action moves noticeably
-    const snap = (v: number) => Math.round(v / 6) * 6;
-    return `${snap(lng)}|${snap(lat)}`;
-  });
-  createEffect(
-    () => ({ m: map(), c: recentCentre(), on: state.playing }),
-    ({ m, c, on }) => {
-      playing = on;
-      if (!m || !c || reducedMotion) return;
-      const [lng, lat] = c.split("|").map(Number);
-      m.easeTo({ center: [lng, Math.max(-50, Math.min(60, lat))], duration: 4000, easing: t => t * (2 - t) });
-    }
-  );
-
   // Camera: keep the globe centred in the space the docked tree and panel leave free,
   // and fly to the selection whenever it (or the focus tick) changes.
   let lastTick = -1;
@@ -267,8 +232,10 @@ export function GlobeMap() {
     const ids: string[] = [];
     // in a guided mode only the spotlight speaks
     if (state.story || state.journey) {
-      for (const id of state.spotlight) if (atlas.nodes.get(id)?.point) ids.push(id);
-      if (sel && !ids.includes(sel)) ids.push(sel);
+      // labels sit at a homeland; branches (groups) have none, so they are never labelled
+      const placeable = (id: string) => !!atlas.nodes.get(id)?.l.homeland;
+      for (const id of state.spotlight) if (placeable(id)) ids.push(id);
+      if (sel && placeable(sel) && !ids.includes(sel)) ids.push(sel);
       return ids.join("|");
     }
     for (const n of atlas.nodes.values()) {
