@@ -1,0 +1,1725 @@
+{
+  "family": {
+    "id": "austronesian",
+    "name": "Austronesian",
+    "root": "proto-austronesian"
+  },
+  "sources": [
+    {
+      "id": "glottolog-aust1307",
+      "title": "Glottolog: Austronesian",
+      "url": "https://glottolog.org/resource/languoid/id/aust1307",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-amis1246",
+      "title": "Glottolog: Amis",
+      "url": "https://glottolog.org/resource/languoid/id/amis1246",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-mala1545",
+      "title": "Glottolog: Malayo-Polynesian",
+      "url": "https://glottolog.org/resource/languoid/id/mala1545",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-oldm1243",
+      "title": "Glottolog: Old Malay",
+      "url": "https://glottolog.org/resource/languoid/id/oldm1243",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-stan1306",
+      "title": "Glottolog: Standard Malay",
+      "url": "https://glottolog.org/resource/languoid/id/stan1306",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-indo1316",
+      "title": "Glottolog: Standard Indonesian",
+      "url": "https://glottolog.org/resource/languoid/id/indo1316",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-kawi1241",
+      "title": "Glottolog: Kawi",
+      "url": "https://glottolog.org/resource/languoid/id/kawi1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-java1254",
+      "title": "Glottolog: Javanese",
+      "url": "https://glottolog.org/resource/languoid/id/java1254",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-taga1270",
+      "title": "Glottolog: Tagalog",
+      "url": "https://glottolog.org/resource/languoid/id/taga1270",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-mala1537",
+      "title": "Glottolog: Malagasic",
+      "url": "https://glottolog.org/resource/languoid/id/mala1537",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-ocea1241",
+      "title": "Glottolog: Oceanic",
+      "url": "https://glottolog.org/resource/languoid/id/ocea1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-fiji1243",
+      "title": "Glottolog: Fijian",
+      "url": "https://glottolog.org/resource/languoid/id/fiji1243",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-poly1242",
+      "title": "Glottolog: Polynesian",
+      "url": "https://glottolog.org/resource/languoid/id/poly1242",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-samo1305",
+      "title": "Glottolog: Samoan",
+      "url": "https://glottolog.org/resource/languoid/id/samo1305",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-tong1325",
+      "title": "Glottolog: Tonga (Tonga Islands)",
+      "url": "https://glottolog.org/resource/languoid/id/tong1325",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-maor1246",
+      "title": "Glottolog: Maori",
+      "url": "https://glottolog.org/resource/languoid/id/maor1246",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-hawa1245",
+      "title": "Glottolog: Hawaiian",
+      "url": "https://glottolog.org/resource/languoid/id/hawa1245",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-austronesian-languages",
+      "title": "Austronesian languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Austronesian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-austronesian-peoples",
+      "title": "Austronesian peoples (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Austronesian_peoples",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-austronesian",
+      "title": "Proto-Austronesian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Austronesian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "sciencedaily-2009",
+      "title": "Pacific people spread from Taiwan, language evolution study shows",
+      "url": "https://www.sciencedaily.com/releases/2009/01/090122141146.htm",
+      "publisher": "ScienceDaily (source: University of Auckland)",
+      "year": 2009
+    },
+    {
+      "id": "bellwood-expansion",
+      "title": "Austronesian Prehistory in Southeast Asia: Homeland, Expansion and Transformation — The Pattern of Austronesian Expansion",
+      "author": "Peter Bellwood",
+      "url": "https://press-files.anu.edu.au/downloads/press/p69411/html/ch05s02.html",
+      "publisher": "ANU Press (The Austronesians: Historical and Comparative Perspectives)"
+    },
+    {
+      "id": "wp-amis",
+      "title": "Amis language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Amis_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-pmp",
+      "title": "Proto-Malayo-Polynesian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Malayo-Polynesian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-history-malay",
+      "title": "History of the Malay language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Malay_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kedukan-bukit",
+      "title": "Kedukan Bukit inscription (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kedukan_Bukit_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-laguna-copperplate",
+      "title": "Laguna Copperplate Inscription (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Laguna_Copperplate_Inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-malay",
+      "title": "Malay language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Malay_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-terengganu",
+      "title": "Terengganu Inscription Stone (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Terengganu_Inscription_Stone",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-malay-annals",
+      "title": "Malay Annals (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Malay_Annals",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-indonesian",
+      "title": "Indonesian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Indonesian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-javanese",
+      "title": "Old Javanese (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_Javanese",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "griffiths-2025",
+      "title": "The earliest documents in Old Javanese",
+      "author": "Arlo Griffiths, Titi Surti Nastiti, Wayan Jarrah Sastrawan",
+      "year": 2025,
+      "publisher": "Wacana, Journal of the Humanities of Indonesia 26 (3)",
+      "url": "https://scholarhub.ui.ac.id/wacana/vol26/iss3/3"
+    },
+    {
+      "id": "wp-javanese",
+      "title": "Javanese language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Javanese_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tagalog",
+      "title": "Tagalog language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tagalog_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-doctrina",
+      "title": "Doctrina Christiana (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Doctrina_Christiana",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-malagasy",
+      "title": "Malagasy language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Malagasy_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-malagasy-documentation",
+      "title": "Documentation of the Malagasy language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Documentation_of_the_Malagasy_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-oceanic",
+      "title": "Proto-Oceanic language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Oceanic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-oceanic",
+      "title": "Oceanic languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Oceanic_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-lapita",
+      "title": "Lapita culture (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lapita_culture",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-fijian",
+      "title": "Fijian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fijian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-polynesian",
+      "title": "Polynesian languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Polynesian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-polynesian",
+      "title": "Proto-Polynesian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Polynesian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-samoan",
+      "title": "Samoan language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Samoan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tongan",
+      "title": "Tongan language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tongan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-maori",
+      "title": "Māori language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/M%C4%81ori_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-a-korao",
+      "title": "A korao no New Zealand (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/A_korao_no_New_Zealand",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-treaty-waitangi",
+      "title": "Treaty of Waitangi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Waitangi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "uh-east-polynesia-2011",
+      "title": "East Polynesia colonized faster and more recently than previously thought",
+      "url": "https://www.hawaii.edu/news/article.php?aId=4097",
+      "publisher": "University of Hawaiʻi News",
+      "year": 2011
+    },
+    {
+      "id": "wp-hawaiian",
+      "title": "Hawaiian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hawaiian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-lahainaluna",
+      "title": "Lahainaluna High School (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lahainaluna_High_School",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kumulipo",
+      "title": "Kumulipo (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kumulipo",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "st-kumulipo-liliuokalani",
+      "title": "The Kumulipo, translated by Queen Liliuokalani [1897]: The First Era",
+      "author": "Liliʻuokalani (translator)",
+      "year": 1897,
+      "publisher": "Internet Sacred Text Archive",
+      "url": "https://www.sacred-texts.com/pac/lku/lku02.htm"
+    },
+    {
+      "id": "st-kumulipo-kalakaua",
+      "title": "The Kumulipo: A Hawaiian Creation Chant, Appendix I: The Kalakaua Text",
+      "author": "Martha Warren Beckwith (ed.)",
+      "publisher": "Internet Sacred Text Archive",
+      "url": "https://www.sacred-texts.com/pac/ku/ku31.htm"
+    },
+    {
+      "id": "glottolog-mala1546",
+      "title": "Glottolog 5.4: Malay (individual language) (retired, bookkeeping entry)",
+      "url": "https://glottolog.org/resource/languoid/id/mala1546",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-id-sukabumi",
+      "title": "Prasasti Sukabumi (Harinjing inscription)",
+      "url": "https://id.wikipedia.org/wiki/Prasasti_Sukabumi",
+      "publisher": "Wikipedia (Indonesian)"
+    },
+    {
+      "id": "wp-id-kepung",
+      "title": "Kepung, Kediri",
+      "url": "https://id.wikipedia.org/wiki/Kepung,_Kediri",
+      "publisher": "Wikipedia (Indonesian)"
+    },
+    {
+      "id": "aas-hawaiian-printing",
+      "title": "Early Printing in Hawaiian",
+      "url": "https://www.americanantiquarian.org/hawaiian-language-printing/early-printing-hawaiian",
+      "publisher": "American Antiquarian Society"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-austronesian",
+      "name": "Proto-Austronesian",
+      "glottocode": "aust1307",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-proto-austronesian",
+        "glottolog-aust1307"
+      ],
+      "period": {
+        "from": -4000,
+        "to": -3000,
+        "approx": true,
+        "note": "Wikipedia, citing Blust (2013), says Proto-Austronesian is assumed to have begun to diversify c. 4000–3500 BCE in Taiwan; a 2009 study placed the origin of the Austronesians in Taiwan around 5,200 years ago. The end date marks the start of the expansion out of Taiwan, dated to around 3000–1500 BCE.",
+        "sources": [
+          "wp-proto-austronesian",
+          "sciencedaily-2009",
+          "wp-austronesian-peoples"
+        ]
+      },
+      "homeland": {
+        "lat": 23.7,
+        "lng": 121,
+        "label": "Taiwan (Formosa)",
+        "sources": [
+          "wp-proto-austronesian",
+          "wp-austronesian-languages",
+          "sciencedaily-2009"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Austronesian is the reconstructed ancestor of the Austronesian languages, one of the world's major language families. It is assumed to have begun breaking up around 4000–3500 BCE on Taiwan. In 2009 Russell Gray, Alexei Drummond and Simon Greenhill of the University of Auckland, working from the vocabulary of 400 Austronesian languages, concluded that the Austronesians arose in Taiwan around 5,200 years ago; their study appeared in the journal Science.",
+          "sources": [
+            "wp-proto-austronesian",
+            "sciencedaily-2009"
+          ]
+        },
+        {
+          "text": "The same study found that the expansion moved in pulses and pauses. The Austronesians paused for around a thousand years before entering the Philippines and paused again before spreading rapidly across the 7,000 km from the Philippines to Polynesia in less than a thousand years, eventually reaching New Zealand, Hawaiʻi and Easter Island. In the first half of the second millennium AD the family had the largest geographical span of any language family, from Madagascar to Easter Island.",
+          "sources": [
+            "sciencedaily-2009",
+            "wp-austronesian-languages"
+          ]
+        },
+        {
+          "text": "According to some estimates the family contains 1,257 languages, the second most of any language family, spoken by approximately 386 million people. Proto-Austronesian is reconstructed with the comparative method from sound correspondences among its descendants. Robert Blust's reconstruction has 25 consonants, 4 vowels and 4 diphthongs, although Blust acknowledges that some of the reconstructed consonants are still debated.",
+          "sources": [
+            "wp-austronesian-languages",
+            "wp-proto-austronesian"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The mainstream 'Out of Taiwan' model was first proposed by Peter Bellwood. A competing 'Out of Sundaland' hypothesis, favoured by a minority of authors including William Meacham, Stephen Oppenheimer and Wilhelm Solheim, places the Austronesian homeland in Island Southeast Asia, in the Sundaland landmass drowned at the end of the last glacial period. Whole-genome studies have been reported as supporting the north-to-south dispersal of the Taiwan model.",
+          "sources": [
+            "wp-austronesian-peoples"
+          ]
+        },
+        {
+          "text": "Links to other families are debated. Weera Ostapirat, Roger Blench and Laurent Sagart support an Austro-Tai family joining Austronesian and Kra–Dai. Sagart has also argued for a relationship between Austronesian and Sino-Tibetan, which Wikipedia describes as a minority view; the same article reports that his methodology has been found spurious by his peers. A link with Austroasiatic in an 'Austric' phylum rests mostly on typological evidence.",
+          "sources": [
+            "wp-austronesian-languages"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amis",
+      "name": "Amis",
+      "nativeName": "Pangcah",
+      "nativeScript": "Latn",
+      "glottocode": "amis1246",
+      "iso639_3": "ami",
+      "parent": "proto-austronesian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-amis1246",
+        "wp-amis"
+      ],
+      "period": {
+        "from": -3000,
+        "to": null,
+        "approx": true,
+        "note": "No date for the emergence of Amis as a distinct language was found. Amis is a Formosan language that stayed on Taiwan; the date shown is the approximate end of Proto-Austronesian unity used in this atlas.",
+        "sources": [
+          "wp-amis",
+          "wp-proto-austronesian"
+        ]
+      },
+      "homeland": {
+        "lat": 23.4,
+        "lng": 121.4,
+        "label": "East coast of Taiwan, between Hualien and Taitung",
+        "sources": [
+          "wp-amis"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-amis"
+        ]
+      },
+      "speakers": {
+        "count": 110000,
+        "year": 2015,
+        "scope": "L1",
+        "sources": [
+          "wp-amis"
+        ]
+      },
+      "story": [
+        {
+          "text": "Amis, also called Pangcah, is a Formosan language spoken by the Amis (or Ami), an indigenous people living along the east coast of Taiwan. It is spoken between Hualien in the north and Taitung in the south, with another population of speakers in the Hengchun Peninsula near the southern end of the island. It is the largest of the Formosan languages, and its northern varieties are considered to be separate languages.",
+          "sources": [
+            "wp-amis"
+          ]
+        },
+        {
+          "text": "Glottolog places Amis in the East Formosan branch of Austronesian. The Eastern Formosan peoples Basay, Kavalan and Amis share a homeland motif in which they came from an island called Sinasay or Sanasay. Government services in counties where many Amis live broadcast in Amis alongside Mandarin, for example at the Hualien and Taitung railway stations, yet in 1995 few Amis under the age of 20 spoke the language.",
+          "sources": [
+            "glottolog-amis1246",
+            "wp-austronesian-languages",
+            "wp-amis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-malayo-polynesian",
+      "name": "Proto-Malayo-Polynesian",
+      "glottocode": "mala1545",
+      "parent": "proto-austronesian",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-pmp",
+        "glottolog-mala1545"
+      ],
+      "period": {
+        "from": -3000,
+        "to": -1500,
+        "approx": true,
+        "note": "Approximate. The migration of Austronesians from Taiwan into the northern Philippines is dated to around 3000–1500 BCE; these dates bracket that range.",
+        "sources": [
+          "wp-austronesian-peoples"
+        ]
+      },
+      "homeland": {
+        "lat": 17.6,
+        "lng": 121.7,
+        "label": "Northern Philippines (northern Luzon)",
+        "sources": [
+          "bellwood-expansion",
+          "wp-austronesian-peoples"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Malayo-Polynesian is the reconstructed ancestor of the Malayo-Polynesian languages, by far the largest branch of the Austronesian family by current speakers. It is ancestral to all Austronesian languages spoken outside Taiwan, as well as the Yami language on Taiwan's Orchid Island. Otto Dempwolff's first systematic reconstruction of 'Proto-Austronesian' was based on languages outside Taiwan, so it was actually the first reconstruction of Proto-Malayo-Polynesian.",
+          "sources": [
+            "wp-pmp"
+          ]
+        },
+        {
+          "text": "In the 'Out of Taiwan' model, the first settlers from Taiwan reached northern Luzon around 3000 to 1500 BCE, intermingling with the earlier population of the Philippines. Over the next thousand years Austronesian peoples moved south-east through the rest of the Philippines and into the islands of the Celebes Sea and Borneo. In Bellwood's account, speakers of one of the Taiwan languages made the first moves into Luzon and the Philippines, a movement that divided Austronesian into its two major subgroups, Formosan and Malayo-Polynesian (or Extra-Formosan).",
+          "sources": [
+            "wp-austronesian-peoples",
+            "bellwood-expansion"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In a 2016 study Roger Blench cast doubt on whether there was a unitary Proto-Malayo-Polynesian language. He suggested instead that the Malayo-Polynesian expansion across the Luzon Strait involved multi-ethnic crews rapidly settling various locations in maritime Southeast Asia.",
+          "sources": [
+            "wp-pmp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-malay",
+      "name": "Old Malay",
+      "glottocode": "oldm1243",
+      "iso639_3": "omy",
+      "parent": "proto-malayo-polynesian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-oldm1243",
+        "wp-history-malay"
+      ],
+      "period": {
+        "from": 683,
+        "to": 1400,
+        "approx": true,
+        "note": "Start date is the first attestation, the Kedukan Bukit inscription of 683 CE; the spoken language is older. Wikipedia's history of Malay assigns the Old Malay period up to the 14th century.",
+        "sources": [
+          "wp-kedukan-bukit",
+          "wp-history-malay"
+        ]
+      },
+      "homeland": {
+        "lat": -2.99,
+        "lng": 104.75,
+        "label": "South Sumatra (Palembang area), where the earliest Old Malay inscriptions were found",
+        "sources": [
+          "wp-kedukan-bukit",
+          "wp-history-malay"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Kawi",
+            "code": "Kawi"
+          }
+        ],
+        "sources": [
+          "wp-history-malay"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "kedukan-bukit",
+          "year": 683,
+          "approx": false,
+          "lat": -2.99,
+          "lng": 104.75,
+          "place": "Kedukan Bukit, Palembang, South Sumatra",
+          "description": "The Kedukan Bukit inscription, dated 1 May 683 CE and written in Pallava script, the oldest surviving specimen of the Malay language.",
+          "sources": [
+            "wp-kedukan-bukit"
+          ]
+        },
+        {
+          "id": "laguna-copperplate",
+          "year": 900,
+          "approx": false,
+          "lat": 14.297,
+          "lng": 121.459,
+          "place": "Lumban, Laguna, Luzon, Philippines",
+          "description": "The Laguna Copperplate Inscription, dated 900 CE and found in 1987, written mainly in Old Malay and naming the Tagalog polity of Tondo.",
+          "sources": [
+            "wp-laguna-copperplate"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "The oldest surviving specimen of Malay is the Kedukan Bukit inscription, a stone about 45 by 80 cm discovered by the Dutchman C. J. Batenburg on 29 November 1920 at Kedukan Bukit in South Sumatra, on the banks of the Tatang River, a tributary of the Musi. It is dated 1 May 683 CE, is written in the Pallava script, and is displayed in the National Museum of Indonesia in Jakarta.",
+          "sources": [
+            "wp-kedukan-bukit"
+          ]
+        },
+        {
+          "text": "Old Malay inscriptions dating from the 7th to 10th centuries have been found in Sumatra, Java and other islands of the Sunda archipelago, and in Luzon in the Philippines. They used scripts of Indian origin, and Sanskrit shaped the vocabulary, giving words such as raja, maharaja and puja. The Laguna Copperplate Inscription of 900 CE, found at Lumban in 1987, is mainly Old Malay and names the Tagalog city-state of Tondo.",
+          "sources": [
+            "wp-history-malay",
+            "wp-laguna-copperplate"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "It is popularly claimed that the Old Malay of the Srivijayan inscriptions is the ancestor of Classical Malay, but some linguists consider the relationship uncertain. The inscriptions show morphological and syntactic features and affixes familiar from Batak that are not found even in the oldest Classical Malay manuscripts, and Teeuw suggested the language may be a close cousin of Classical Malay rather than its ancestor.",
+          "sources": [
+            "wp-history-malay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malay",
+      "name": "Malay",
+      "nativeName": "Bahasa Melayu",
+      "nativeScript": "Latn",
+      "glottocode": "stan1306",
+      "iso639_3": "msa",
+      "parent": "old-malay",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-malay",
+        "wp-history-malay",
+        "glottolog-stan1306"
+      ],
+      "period": {
+        "from": 1303,
+        "to": null,
+        "approx": true,
+        "note": "Start of Classical Malay, dated from the Terengganu Inscription Stone (possibly 1303, or 1387), the earliest evidence of Classical Malay from the Malay Peninsula.",
+        "sources": [
+          "wp-history-malay",
+          "wp-terengganu"
+        ]
+      },
+      "homeland": {
+        "lat": 2.2,
+        "lng": 102.25,
+        "label": "Malay Peninsula and the Strait of Malacca (Melaka)",
+        "sources": [
+          "wp-history-malay",
+          "wp-malay-annals"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Rumi)",
+            "code": "Latn"
+          },
+          {
+            "name": "Jawi (Arabic)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-malay",
+          "wp-malay-annals"
+        ]
+      },
+      "speakers": {
+        "count": 90000000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-malay"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "terengganu-inscription",
+          "year": 1303,
+          "approx": true,
+          "lat": 5.07,
+          "lng": 103.01,
+          "place": "Kuala Berang, Hulu Terengganu, Malaysia",
+          "description": "The Terengganu Inscription Stone in Classical Malay and Jawi script, dated possibly to 1303 (or 1387); the earliest evidence of Jawi writing in the Malay world.",
+          "sources": [
+            "wp-terengganu"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "The Terengganu Inscription Stone was found in 1887 at Kampung Buluh, Kuala Berang, half-submerged on a bank of the Tersat River after floods receded. Written in Classical Malay in the Jawi script, it is dated possibly to 1303 or 1387; damage has left the date incomplete. It records a proclamation by a Terengganu ruler with ten basic Sharia laws, and UNESCO added it to the Memory of the World Register in 2009.",
+          "sources": [
+            "wp-terengganu"
+          ]
+        },
+        {
+          "text": "The Classical Malay period began when Islam gained a foothold in the region and became a state religion; Islamisation and trade with the Muslim world brought Arabic and Persian vocabulary. The Malay Annals (Sejarah Melayu), a romanticised history of the Malacca Sultanate composed in the 17th century, survives in its oldest version from a rewriting commissioned in 1612 by the regent of Johor, and was listed by UNESCO in 2001.",
+          "sources": [
+            "wp-history-malay",
+            "wp-malay-annals"
+          ]
+        },
+        {
+          "text": "In the 19th century the Anglo-Dutch Treaty of 1824 divided the Malay world between Dutch rule in the south and British colonies and protectorates in the north. Malay is today spoken natively by about 90 million people, perhaps 125 million including local Malay varieties, with some 180 million second-language speakers.",
+          "sources": [
+            "wp-history-malay",
+            "wp-malay"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The Glottolog code stan1306 is Glottolog's entry for Standard Malay. It is used here because Glottolog's entry for the broader 'Malay (individual language)' (mala1546) has been retired and is kept only for bookkeeping, so no active Glottolog languoid covers Malay as a whole.",
+          "sources": [
+            "glottolog-stan1306",
+            "glottolog-mala1546"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indonesian",
+      "name": "Indonesian",
+      "nativeName": "Bahasa Indonesia",
+      "nativeScript": "Latn",
+      "glottocode": "indo1316",
+      "iso639_3": "ind",
+      "parent": "malay",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-indonesian",
+        "glottolog-indo1316"
+      ],
+      "period": {
+        "from": 1928,
+        "to": null,
+        "approx": false,
+        "note": "Dated from the Youth Pledge of October 1928, which affirmed Indonesian as the unifying language; Indonesian is a standardized variety of Malay, long used as a lingua franca in the archipelago.",
+        "sources": [
+          "wp-indonesian"
+        ]
+      },
+      "homeland": {
+        "lat": -6.18,
+        "lng": 106.84,
+        "label": "Batavia (now Jakarta), Java",
+        "sources": [
+          "wp-indonesian"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-indonesian"
+        ]
+      },
+      "speakers": {
+        "count": 270000000,
+        "year": 2026,
+        "scope": "L1+L2",
+        "sources": [
+          "wp-indonesian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "youth-pledge",
+          "year": 1928,
+          "approx": false,
+          "lat": -6.18,
+          "lng": 106.84,
+          "place": "Batavia (Jakarta)",
+          "description": "The Youth Pledge of the Second Youth Congress, 28 October 1928, whose last pledge affirmed Indonesian as the unifying language of the archipelago.",
+          "sources": [
+            "wp-indonesian"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Indonesian is the official and national language of Indonesia, a standardized variety of Malay, which had been used as a lingua franca in the multilingual Indonesian archipelago for centuries. At the Second Youth Congress in Batavia in October 1928, young Indonesians made the Youth Pledge, whose last pledge affirmed Indonesian as the unifying language throughout the archipelago.",
+          "sources": [
+            "wp-indonesian"
+          ]
+        },
+        {
+          "text": "When Indonesia declared independence in 1945, Indonesian was formally declared the national language, although it was the native language of only about 5% of the population; Javanese and Sundanese were the mother tongues of 42–48% and 15%. According to the 2025 Intercensal Population Survey, 98.12% of Indonesians are fluent in Indonesian, and most also speak at least one of more than 700 local languages.",
+          "sources": [
+            "wp-indonesian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-javanese",
+      "name": "Old Javanese (Kawi)",
+      "glottocode": "kawi1241",
+      "iso639_3": "kaw",
+      "parent": "proto-malayo-polynesian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-javanese",
+        "glottolog-kawi1241"
+      ],
+      "period": {
+        "from": 743,
+        "to": 1500,
+        "approx": true,
+        "note": "Start date is the first attestation: a dated stone from Kesongo (743 CE) is among the oldest Old Javanese documents. Old Javanese flourished in Java between the 8th and the 15th century; Modern Javanese emerged as the main literary form in the 16th century.",
+        "sources": [
+          "griffiths-2025",
+          "wp-javanese"
+        ]
+      },
+      "homeland": {
+        "lat": -7.6,
+        "lng": 111,
+        "label": "Central and eastern Java",
+        "sources": [
+          "wp-old-javanese"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Kawi",
+            "code": "Kawi"
+          },
+          {
+            "name": "Javanese",
+            "code": "Java"
+          },
+          {
+            "name": "Balinese",
+            "code": "Bali"
+          }
+        ],
+        "sources": [
+          "wp-old-javanese"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "harinjing-a",
+          "year": 804,
+          "approx": false,
+          "lat": -7.815,
+          "lng": 112.292,
+          "place": "Siman village, Kepung district, Kediri Regency, East Java (point: Kepung district centre)",
+          "description": "The Harinjing A inscription, also called the Sukabumi inscription after the plantation in Siman village, Kepung, where it was found. Its front face is dated 726 Saka, 25 March 804 CE, and concerns a dam for an irrigation canal and the tax-exempt rights of priests. It was long taken as the start of Old Javanese epigraphy; Griffiths et al. (2025) report two older Old Javanese documents, from 743 and 787 CE.",
+          "sources": [
+            "wp-old-javanese",
+            "griffiths-2025",
+            "wp-id-sukabumi",
+            "wp-id-kepung"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Old Javanese, or Kawi, is the oldest attested phase of the Javanese language, natively spoken in central and eastern Java. A dated stone from Kesongo (743 CE) and the Disunuh inscription (787 CE) are among its oldest documents. Until their discovery the Harinjing A inscription (also called the Sukabumi inscription), from Kepung in Kediri Regency and dated 25 March 804 CE, was taken as the earliest; it concerns a dam for an irrigation canal.",
+          "sources": [
+            "wp-old-javanese",
+            "griffiths-2025"
+          ]
+        },
+        {
+          "text": "Sanskrit deeply shaped its vocabulary. P. J. Zoetmulder's Old Javanese–English Dictionary of 1982 has about 25,500 entries, no fewer than 12,500 of them borrowed from Sanskrit, and about 25% of the vocabulary of any Old Javanese literary work is derived from Sanskrit. As a literary language Kawi was used across Java and on the islands of Madura, Bali and Lombok.",
+          "sources": [
+            "wp-old-javanese"
+          ]
+        },
+        {
+          "text": "Its court poems, the kakawin, include the Kakawin Ramayana (about 870), the Arjunawiwaha of mpu Kanwa (about 1030) and the Nagarakertagama of mpu Prapanca (1365). Mpu Tantular's Kakawin Sutasoma is the source of Indonesia's national motto, Bhinneka Tunggal Ika, often glossed 'Unity in Diversity' but more correctly rendered '[although] scattered, remaining [as] one'.",
+          "sources": [
+            "wp-old-javanese"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "javanese",
+      "name": "Javanese",
+      "nativeName": "ꦧꦱꦗꦮ",
+      "nativeScript": "Java",
+      "glottocode": "java1254",
+      "iso639_3": "jav",
+      "parent": "old-javanese",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-javanese",
+        "glottolog-java1254"
+      ],
+      "period": {
+        "from": 1500,
+        "to": null,
+        "approx": true,
+        "note": "Modern Javanese emerged as the main literary form of the language in the 16th century. An intermediate stage sometimes called Middle Javanese, found in texts from the 14th century onward, is not modelled separately here.",
+        "sources": [
+          "wp-javanese"
+        ]
+      },
+      "homeland": {
+        "lat": -7.55,
+        "lng": 110.8,
+        "label": "Central and eastern Java",
+        "sources": [
+          "wp-javanese"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Javanese",
+            "code": "Java"
+          },
+          {
+            "name": "Pegon (Arabic)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-javanese"
+        ]
+      },
+      "speakers": {
+        "count": 68000000,
+        "year": 2015,
+        "scope": "L1",
+        "sources": [
+          "wp-javanese"
+        ]
+      },
+      "story": [
+        {
+          "text": "Javanese is spoken primarily by the Javanese people of the central and eastern parts of the island of Java, with pockets of speakers on the northern coast of western Java. It is the native language of more than 68 million people. Its oldest phase, Old Javanese, flourished between the 8th and the 15th century, and texts from the 14th century onward are sometimes said to be in 'Middle Javanese'.",
+          "sources": [
+            "wp-javanese"
+          ]
+        },
+        {
+          "text": "Modern Javanese emerged as the main literary form of the language in the 16th century. Medieval Old Javanese poems in Kawi script, called layang kawi or kakawin, continued to circulate in the courts of Kartasura, Surakarta and Yogyakarta and were held in high regard, and from the 18th century literature inspired by Old Javanese was written in modern Javanese and verse.",
+          "sources": [
+            "wp-javanese",
+            "wp-old-javanese"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tagalog",
+      "name": "Tagalog",
+      "nativeName": "Wikang Tagalog",
+      "nativeScript": "Latn",
+      "glottocode": "taga1270",
+      "iso639_3": "tgl",
+      "parent": "proto-malayo-polynesian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-tagalog",
+        "glottolog-taga1270"
+      ],
+      "period": {
+        "from": 900,
+        "to": null,
+        "approx": true,
+        "note": "First attestation: possible words of Old Tagalog origin appear in the Laguna Copperplate Inscription (900 CE); the first known complete book in Tagalog was printed in 1593.",
+        "sources": [
+          "wp-tagalog",
+          "wp-laguna-copperplate"
+        ]
+      },
+      "homeland": {
+        "lat": 14.3,
+        "lng": 121.2,
+        "label": "Central and southern Luzon (Katagalugan), Philippines",
+        "sources": [
+          "wp-tagalog"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Baybayin",
+            "code": "Tglg"
+          }
+        ],
+        "sources": [
+          "wp-tagalog"
+        ]
+      },
+      "speakers": {
+        "count": 33000000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-tagalog"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "doctrina-christiana",
+          "year": 1593,
+          "approx": false,
+          "lat": 14.5906,
+          "lng": 120.975,
+          "place": "Manila (Intramuros), Philippines",
+          "description": "Doctrina Christiana, the first known complete book in Tagalog, printed in Spanish with Tagalog in both Baybayin and Latin script.",
+          "sources": [
+            "wp-tagalog",
+            "wp-doctrina"
+          ]
+        },
+        {
+          "id": "vocabulario-1613",
+          "year": 1613,
+          "approx": false,
+          "lat": 14.234,
+          "lng": 121.364,
+          "place": "Pila, Laguna, Philippines",
+          "description": "Pedro de San Buenaventura's Vocabulario de la lengua tagala, the first Tagalog dictionary.",
+          "sources": [
+            "wp-tagalog"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Tagalog is a Central Philippine language spoken as a first language by the Tagalog people, a quarter of the population of the Philippines, and as a second language by the majority. The word Tagalog is possibly derived from taga-ilog, 'river dweller'. Possible words of Old Tagalog origin appear in the Laguna Copperplate Inscription of the tenth century, which is largely written in Old Malay.",
+          "sources": [
+            "wp-tagalog"
+          ]
+        },
+        {
+          "text": "The first known complete book in Tagalog is the Doctrina Christiana, printed in Manila in 1593. It gives the text in Spanish and in two transcriptions of Tagalog, one in the then-current Baybayin script and one in an early Spanish attempt at a Latin orthography. Spanish clergy went on to write grammars and dictionaries, including Pedro de San Buenaventura's Vocabulario de la lengua tagala, the first Tagalog dictionary, published at Pila, Laguna, in 1613.",
+          "sources": [
+            "wp-tagalog",
+            "wp-doctrina"
+          ]
+        },
+        {
+          "text": "The 1935 Philippine constitution called for a national language based on one of the existing native languages, and a National Language Institute chose Tagalog. In 1959 the national language was named Pilipino, and the 1987 constitution names it Filipino, the standardized and codified form of Tagalog that is today one of the country's two official languages alongside English.",
+          "sources": [
+            "wp-tagalog"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The linguists David Zorc and Robert Blust speculate that the Tagalogs and other Central Philippine ethno-linguistic groups originated in north-eastern Mindanao or the Eastern Visayas, before reaching their present homeland in Luzon.",
+          "sources": [
+            "wp-tagalog"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malagasy",
+      "name": "Malagasy",
+      "nativeName": "Malagasy",
+      "nativeScript": "Latn",
+      "glottocode": "mala1537",
+      "iso639_3": "mlg",
+      "parent": "proto-malayo-polynesian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-malagasy",
+        "glottolog-mala1537"
+      ],
+      "period": {
+        "from": 500,
+        "to": null,
+        "approx": true,
+        "note": "Approximate. Malagasy was brought to Madagascar by Austronesian settlers from the Sunda Islands around the 5th century AD or perhaps between the 7th and 13th centuries.",
+        "sources": [
+          "wp-malagasy"
+        ]
+      },
+      "homeland": {
+        "lat": -18.9,
+        "lng": 47.5,
+        "label": "Madagascar (central plateau, the basis of Standard Malagasy)",
+        "sources": [
+          "wp-malagasy"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Sorabe (Arabic)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-malagasy"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "saint-augustin-1603",
+          "year": 1603,
+          "approx": false,
+          "lat": -23.55,
+          "lng": 43.75,
+          "place": "Saint-Augustin Bay, south-west Madagascar",
+          "description": "François Martin de Vitré recorded Malagasy numbers in the south-western dialect, one of the earliest European records of the language.",
+          "sources": [
+            "wp-malagasy-documentation"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Malagasy is the westernmost Austronesian language. It was brought to Madagascar by Austronesian settlers from the Sunda Islands, about 7,300 kilometres away, around the 5th century AD or perhaps between the 7th and 13th centuries. It belongs to the Barito languages, and in 1951 Dahl showed that it is particularly close to Maʼanyan, still spoken in Central Kalimantan on Borneo.",
+          "sources": [
+            "wp-malagasy"
+          ]
+        },
+        {
+          "text": "Malagasy contains many Malay loanwords from the early period of settlement and trade with the Sunda Islands. After about 1000 AD it absorbed numerous Bantu and Arabic loanwords brought by traders and new settlers. Before Western missionaries introduced the Latin script in the early 19th century, Malagasy was written in Sorabe, a local development of the Arabic script.",
+          "sources": [
+            "wp-malagasy"
+          ]
+        },
+        {
+          "text": "Early European records include a Dutch–Malagasy vocabulary published by Frederick de Houtman in Amsterdam in 1603 and, in the same year, numbers recorded by François Martin de Vitré at Saint-Augustin Bay. Today Malagasy is spoken by around 25 million people. Standard Malagasy is based on the Merina dialect of the central plateau and is an official language of Madagascar alongside French.",
+          "sources": [
+            "wp-malagasy-documentation",
+            "wp-malagasy"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Beyond the close link with Maʼanyan, Adelaar (1995) suggested that Malagasy vocabulary also contains many words of South Sulawesi origin, especially from Makassar, and Roger Blench (2018) presented further evidence for this. There also appears to be a Bantu influence or substratum in Malagasy phonotactics (Dahl 1988).",
+          "sources": [
+            "wp-malagasy"
+          ]
+        },
+        {
+          "text": "Glottolog lists mala1537 as the family Malagasic rather than as a single language. The code is used here because it covers Malagasy as a whole.",
+          "sources": [
+            "glottolog-mala1537"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-oceanic",
+      "name": "Proto-Oceanic",
+      "glottocode": "ocea1241",
+      "parent": "proto-malayo-polynesian",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-proto-oceanic",
+        "glottolog-ocea1241"
+      ],
+      "period": {
+        "from": -1600,
+        "to": -1000,
+        "approx": true,
+        "note": "Proto-Oceanic was probably spoken in the late 2nd millennium BCE. Its community is equated with the Lapita culture, whose classic pottery was made in the Bismarck Archipelago between 1600 and 1200 BCE and reached Fiji and western Polynesia by around 1000 BCE.",
+        "sources": [
+          "wp-proto-oceanic",
+          "wp-lapita"
+        ]
+      },
+      "homeland": {
+        "lat": -4.2,
+        "lng": 152.2,
+        "label": "Bismarck Archipelago, Papua New Guinea",
+        "sources": [
+          "wp-proto-oceanic"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Oceanic is the reconstructed common ancestor of the Oceanic subgroup of Austronesian, worked on by historical linguists since Otto Dempwolff. It was probably spoken around the late 2nd millennium BCE in the Bismarck Archipelago, east of New Guinea, and archaeologists and linguists agree that its community more or less coincides with the Lapita culture. Malcolm Ross and Andrew Pawley have built a large lexicon for Proto-Oceanic.",
+          "sources": [
+            "wp-proto-oceanic",
+            "wp-proto-austronesian"
+          ]
+        },
+        {
+          "text": "Lapita people made dentate-stamped pottery with distinctive geometric designs and settled Island Melanesia by sea from around 1600 BCE. Classic Lapita pottery was produced in the Bismarck Archipelago between 1600 and 1200 BCE; later Lapita material appears in the Solomon Islands, Vanuatu and New Caledonia, and Lapita styles from around 1000 BCE have been found in Fiji and western Polynesia.",
+          "sources": [
+            "wp-lapita"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Roger Blench (2014) argues that many languages conventionally classified as Oceanic, including the Utupua and Vanikoro languages, are in fact non-Austronesian.",
+          "sources": [
+            "wp-oceanic"
+          ]
+        },
+        {
+          "text": "The route by which Malayo-Polynesian speakers reached Oceania is debated. Peter Bellwood proposed in 2011 a movement from the northern Philippines east into the Mariana Islands and then south into the Bismarcks; an older proposal had Lapita settlers arriving via eastern Indonesia, and Bellwood allowed that both routes may have been used.",
+          "sources": [
+            "wp-lapita"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fijian",
+      "name": "Fijian",
+      "nativeName": "Vosa Vaka-Viti",
+      "nativeScript": "Latn",
+      "glottocode": "fiji1243",
+      "iso639_3": "fij",
+      "parent": "proto-oceanic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-fijian",
+        "glottolog-fiji1243"
+      ],
+      "period": {
+        "from": -1000,
+        "to": null,
+        "approx": true,
+        "note": "Approximate, dated from the Lapita settlement of Fiji (Lapita pottery from around 1000 BCE). Wikipedia's Fijian article dates the language's history to the settlement of Fiji approximately 3,500 years ago.",
+        "sources": [
+          "wp-lapita",
+          "wp-fijian"
+        ]
+      },
+      "homeland": {
+        "lat": -17.8,
+        "lng": 178,
+        "label": "Fiji (Viti Levu)",
+        "sources": [
+          "wp-fijian"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-fijian"
+        ]
+      },
+      "speakers": {
+        "count": 339210,
+        "year": 1996,
+        "scope": "L1",
+        "sources": [
+          "wp-fijian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Fijian is an Austronesian language spoken by some 350,000–450,000 ethnic Fijians as a native language. Under the 2013 constitution, Fijian, referred to as iTaukei, is a national language of Fiji along with English and Fiji Hindi. It is a verb–object–subject language. Standard Fijian is based on the dialect of Bau, an East Fijian language.",
+          "sources": [
+            "wp-fijian"
+          ]
+        },
+        {
+          "text": "Fijian and the Polynesian languages belong to the same Central Pacific subgroup and share a common ancestor, so most of their similar vocabulary consists of cognates; some words were also borrowed from Polynesia, especially from Tonga into the eastern dialects. Fiji was reached by Lapita settlers: Lapita pottery from around 1000 BCE has been found there, and the Mana skeleton from Moturiki is of a Lapita woman who lived in 800 BCE or earlier.",
+          "sources": [
+            "wp-fijian",
+            "wp-lapita"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-polynesian",
+      "name": "Proto-Polynesian",
+      "glottocode": "poly1242",
+      "parent": "proto-oceanic",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-proto-polynesian",
+        "wp-polynesian",
+        "glottolog-poly1242"
+      ],
+      "period": {
+        "from": -1000,
+        "to": 1,
+        "approx": true,
+        "note": "Lapita navigators settled Tonga and Samoa about 3,000 years ago; linguists and archaeologists estimate about 1,000 years of common development, giving rise to Proto-Polynesian, before the population split.",
+        "sources": [
+          "wp-polynesian"
+        ]
+      },
+      "homeland": {
+        "lat": -18.65,
+        "lng": -173.98,
+        "label": "Tonga and Samoa region (point: Vavaʻu, Tonga)",
+        "sources": [
+          "wp-proto-polynesian",
+          "wp-polynesian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Polynesian is the reconstructed language from which all modern Polynesian languages descend. Its speakers' homeland is believed to have been Tonga, Samoa and nearby islands. The ancestors of the Polynesians were Lapita navigators who settled the Tonga and Samoa area about 3,000 years ago, and early Lapita sites dating back to 900 BCE are found in Tonga.",
+          "sources": [
+            "wp-proto-polynesian",
+            "wp-polynesian",
+            "wp-lapita"
+          ]
+        },
+        {
+          "text": "After about a thousand years of shared development the Proto-Polynesian society split, as navigators scattered across the Pacific: some went west to already populated islands, others east to new lands such as the Society Islands, the Marquesas, Hawaiʻi, New Zealand and Rapa Nui. Today there are 38 Polynesian languages, half of them in the Polynesian triangle and half in outliers elsewhere in the Pacific, still sharing words such as tapu, ariki, kava and tapa.",
+          "sources": [
+            "wp-polynesian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "samoan",
+      "name": "Samoan",
+      "nativeName": "Gagana faʻa Sāmoa",
+      "nativeScript": "Latn",
+      "glottocode": "samo1305",
+      "iso639_3": "smo",
+      "parent": "proto-polynesian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-samoan",
+        "glottolog-samo1305"
+      ],
+      "period": {
+        "from": 1,
+        "to": null,
+        "approx": true,
+        "note": "Approximate: Polynesian languages diverged after roughly 1,000 years of common Proto-Polynesian development that followed the settlement of Tonga and Samoa about 3,000 years ago.",
+        "sources": [
+          "wp-polynesian"
+        ]
+      },
+      "homeland": {
+        "lat": -13.9,
+        "lng": -171.75,
+        "label": "Samoan Islands",
+        "sources": [
+          "wp-samoan"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-samoan"
+        ]
+      },
+      "speakers": {
+        "count": 430000,
+        "year": 2022,
+        "scope": "L1",
+        "sources": [
+          "wp-samoan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Samoan is a Polynesian language spoken by Samoans of the Samoan Islands, which are split between the independent country of Samoa and the US territory of American Samoa; it is an official language alongside English in both. About 260,000 people speak it in the archipelago, and the total number of speakers worldwide was estimated at 510,000 in 2015. In New Zealand 101,900 people could speak it in 2018.",
+          "sources": [
+            "wp-samoan"
+          ]
+        },
+        {
+          "text": "Samoan was only a spoken language until Christian missionaries began documenting it in the early to mid-1800s. The London Missionary Society distributed an orthography in 1834 and set up a printing press by 1839, and the first complete Bible in Samoan, the Tusi Paʻia, was published in 1862. In the same year George Pratt wrote the first grammar and dictionary, recording old words, proverbs and poetry.",
+          "sources": [
+            "wp-samoan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tongan",
+      "name": "Tongan",
+      "nativeName": "lea faka-Tonga",
+      "nativeScript": "Latn",
+      "glottocode": "tong1325",
+      "iso639_3": "ton",
+      "parent": "proto-polynesian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-tongan",
+        "glottolog-tong1325"
+      ],
+      "period": {
+        "from": 1,
+        "to": null,
+        "approx": true,
+        "note": "Approximate: Polynesian languages diverged after roughly 1,000 years of common Proto-Polynesian development that followed the settlement of Tonga and Samoa about 3,000 years ago.",
+        "sources": [
+          "wp-polynesian"
+        ]
+      },
+      "homeland": {
+        "lat": -21.17,
+        "lng": -175.2,
+        "label": "Tonga (Tongatapu)",
+        "sources": [
+          "wp-tongan"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-tongan"
+        ]
+      },
+      "speakers": {
+        "count": 187000,
+        "year": 1998,
+        "scope": "L1",
+        "sources": [
+          "wp-tongan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Tongan is a Polynesian language native to the island nation of Tonga, with around 187,000 speakers. Together with Niuean, and possibly Niuafoʻou, it forms the Tongic subgroup of Polynesian. It uses verb–subject–object word order and, although primarily spoken, is written in the Latin script. Tongan is unusual among Polynesian languages in having a so-called definitive accent.",
+          "sources": [
+            "wp-tongan"
+          ]
+        },
+        {
+          "text": "One of the first publications of Tongan texts was William Mariner's grammar and dictionary of the language, edited and published by John Martin in 1817 as part of volume 2 of Mariner's Account of the Natives of the Tonga Islands. The spelling has changed since: the old missionary alphabet listed the vowels first, and the alphabet in use after 1943 no longer has the letter j.",
+          "sources": [
+            "wp-tongan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maori",
+      "name": "Māori",
+      "nativeName": "te reo Māori",
+      "nativeScript": "Latn",
+      "glottocode": "maor1246",
+      "iso639_3": "mri",
+      "parent": "proto-polynesian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-maori",
+        "glottolog-maor1246"
+      ],
+      "period": {
+        "from": 1250,
+        "to": null,
+        "approx": true,
+        "note": "Dated from the Polynesian settlement of New Zealand (1250 is the midpoint of the 1190–1290 range): a 2011 radiocarbon study dated the colonization of New Zealand, Hawaiʻi and Rapa Nui to between AD 1190 and 1290, and Wikipedia says settlers probably arrived by AD 1350 at the latest.",
+        "sources": [
+          "uh-east-polynesia-2011",
+          "wp-maori"
+        ]
+      },
+      "homeland": {
+        "lat": -38.29,
+        "lng": 176.54,
+        "label": "New Zealand (Aotearoa), North Island",
+        "sources": [
+          "wp-maori",
+          "glottolog-maor1246"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-maori"
+        ]
+      },
+      "speakers": {
+        "count": 186000,
+        "year": 2018,
+        "scope": "L1+L2",
+        "sources": [
+          "wp-maori"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "treaty-of-waitangi",
+          "year": 1840,
+          "approx": false,
+          "lat": -35.27,
+          "lng": 174.08,
+          "place": "Waitangi, Northland, New Zealand",
+          "description": "Te Tiriti o Waitangi, the Māori text of the Treaty of Waitangi, first signed by northern Māori leaders at Waitangi on 6 February 1840.",
+          "sources": [
+            "wp-treaty-waitangi"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Māori is an Eastern Polynesian language, the language of the Māori people of mainland New Zealand and the southernmost member of the Austronesian family. Current anthropological thinking places Māori origins in eastern Polynesia, most likely the Southern Cook or Society Islands, with settlers arriving by deliberate voyages in seagoing canoes. In 1769–1770 Tupaia, a Tahitian travelling with James Cook, could communicate effectively with Māori.",
+          "sources": [
+            "wp-maori"
+          ]
+        },
+        {
+          "text": "Māori had no written form before contact with Europeans. Missionary Thomas Kendall's A korao no New Zealand, printed in Sydney in 1815, was the first book in Māori. From 1817 the Cambridge professor Samuel Lee worked with the Ngāpuhi chiefs Tītore and Hongi Hika and their relatives to develop the written language, and missionaries reported in the 1820s that Māori across the country were teaching each other to read and write.",
+          "sources": [
+            "wp-a-korao",
+            "wp-maori"
+          ]
+        },
+        {
+          "text": "In 1840 the Treaty of Waitangi was signed in a Māori text, Te Tiriti o Waitangi, translated from English by the missionary Henry Williams. Later policies favoured English: the Education Ordinance Act 1847 made it the main language of schools. Revival efforts followed, including the Kōhanga Reo movement from 1982, and the Māori Language Act 1987 made Māori an official language of New Zealand.",
+          "sources": [
+            "wp-treaty-waitangi",
+            "wp-maori"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hawaiian",
+      "name": "Hawaiian",
+      "nativeName": "ʻōlelo Hawaiʻi",
+      "nativeScript": "Latn",
+      "glottocode": "hawa1245",
+      "iso639_3": "haw",
+      "parent": "proto-polynesian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-hawaiian",
+        "glottolog-hawa1245"
+      ],
+      "period": {
+        "from": 1250,
+        "to": null,
+        "approx": true,
+        "note": "Dated from the Polynesian settlement of Hawaiʻi, placed by a 2011 radiocarbon study between AD 1190 and 1290; 1250 is the midpoint of that range. Older estimates differ: Schütz (1994) put colonization by Marquesans at roughly 300 CE.",
+        "sources": [
+          "uh-east-polynesia-2011",
+          "wp-hawaiian"
+        ]
+      },
+      "homeland": {
+        "lat": 19.63,
+        "lng": -155.43,
+        "label": "Hawaiian Islands (island of Hawaiʻi)",
+        "sources": [
+          "wp-hawaiian",
+          "glottolog-hawa1245"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Hawaiian alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-hawaiian"
+        ]
+      },
+      "speakers": {
+        "count": 300,
+        "year": 2006,
+        "scope": "L1",
+        "sources": [
+          "wp-hawaiian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "lahainaluna-press",
+          "year": 1834,
+          "approx": false,
+          "lat": 20.8899,
+          "lng": -156.6599,
+          "place": "Lahainaluna, Lahaina, Maui",
+          "description": "Hale Paʻi, the printing house at Lahainaluna, where Hawaiian-language Bibles, books and newspapers were printed from 1834, including the student newspaper Ka Lama Hawaii.",
+          "sources": [
+            "wp-lahainaluna",
+            "wp-hawaiian",
+            "aas-hawaiian-printing"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Hawaiian is a Polynesian language native to the Hawaiian Islands and closely related to Marquesan, Tahitian, Samoan and Māori; linguists agree it is closely related to Eastern Polynesian, with a particularly strong link to the Southern Marquesas. The British explorer James Cook reached Hawaiʻi in 1778, and his crew first wrote the name of the island of Hawaiʻi in English as 'Owhyhee'.",
+          "sources": [
+            "wp-hawaiian"
+          ]
+        },
+        {
+          "text": "Protestant missionaries from New England arrived in 1820 and created a standard spelling for this previously unwritten language. In 1834 the first Hawaiian-language newspapers appeared, among them Ka Lama Hawaii, published by Lorrin Andrews and students at Lahainaluna. The Hawaiian Bible was completed in 1839, and in 1853 the minister of public instruction reported that 75% of the adult population could read.",
+          "sources": [
+            "wp-hawaiian",
+            "wp-lahainaluna",
+            "aas-hawaiian-printing"
+          ]
+        },
+        {
+          "text": "After the overthrow of the monarchy, Act 57 of the Republic of Hawaii in 1896 made English the medium of instruction in schools, and Hawaiian was not again used as a medium of instruction in public schools until 1987, 91 years later. Native speakers dwindled to around 300 by 2006, but Hawaiian is today an official language of the state of Hawaiʻi alongside English.",
+          "sources": [
+            "wp-hawaiian"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "kumulipo",
+          "title": "The Kumulipo",
+          "titleOriginal": "He Kumulipo",
+          "author": "Traditional (Hawaiian court chant)",
+          "date": "18th century (oral; printed 1889)",
+          "year": 1750,
+          "significance": "The Kumulipo is the Hawaiian creation chant, 2,102 lines long: a cosmogonic genealogy that recounts the birth of the world and of living things over sixteen eras before tracing the descent of Hawaiian chiefs. King Kalākaua printed it in 1889, and Queen Liliʻuokalani translated it while under house arrest in ʻIolani Palace; her translation was published in 1897.",
+          "original": "O ke au i kahuli wela ka honua\nO ke au i kahuli lole ka lani\nO ke au i kuka'iaka ka la.\nE ho'omalamalama i ka malama\nO ke au o Makali'i ka po\nO ka walewale ho'okumu honua ia\nO ke kumu o ka lipo, i lipo ai\nO ke kumu o ka Po, i po ai\nO ka lipolipo, o ka lipolipo\nO ka lipo o ka la, o ka lipo o ka po\nPo wale ho--'i\nHanau ka po",
+          "originalScript": "Latn",
+          "translation": "At the time that turned the heat of the earth,\nAt the time when the heavens turned and changed,\nAt the time when the light of the sun was subdued\nTo cause light to break forth,\nAt the time of the night of Makalii (winter)\nThen began the slime which established the earth,\nThe source of deepest darkness.\nOf the depth of darkness, of the depth of darkness,\nOf the darkness of the sun, in the depth of night,\nIt is night,\nSo was night born.",
+          "translator": "Liliʻuokalani",
+          "translationYear": 1897,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.sacred-texts.com/pac/lku/lku02.htm",
+          "sources": [
+            "wp-kumulipo",
+            "st-kumulipo-kalakaua",
+            "st-kumulipo-liliuokalani"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The date of Polynesian settlement of Hawaiʻi is debated. Schütz (1994) placed colonization by Marquesans at roughly 300 CE, followed by later waves from the Society Islands and Samoa–Tonga; a 2011 high-precision radiocarbon study by Wilmshurst, Hunt, Lipo and Anderson found that New Zealand, Hawaiʻi and Rapa Nui were settled in a single pulse between AD 1190 and 1290.",
+          "sources": [
+            "wp-hawaiian",
+            "uh-east-polynesia-2011"
+          ]
+        }
+      ]
+    }
+  ]
+}

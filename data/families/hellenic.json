@@ -1,0 +1,930 @@
+{
+  "family": {
+    "id": "hellenic",
+    "name": "Hellenic"
+  },
+  "sources": [
+    {
+      "id": "glottolog-gree1276",
+      "title": "Glottolog 5.4: Greek",
+      "url": "https://glottolog.org/resource/languoid/id/gree1276",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-myce1242",
+      "title": "Glottolog 5.4: Mycenaean Greek",
+      "url": "https://glottolog.org/resource/languoid/id/myce1242",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-anci1242",
+      "title": "Glottolog 5.4: Ionic-Attic Ancient Greek",
+      "url": "https://glottolog.org/resource/languoid/id/anci1242",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-koin1234",
+      "title": "Glottolog 5.4: Koineic Greek",
+      "url": "https://glottolog.org/resource/languoid/id/koin1234",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-medi1251",
+      "title": "Glottolog 5.4: Medieval Greek",
+      "url": "https://glottolog.org/resource/languoid/id/medi1251",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-mode1248",
+      "title": "Glottolog 5.4: Modern Greek",
+      "url": "https://glottolog.org/resource/languoid/id/mode1248",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-proto-greek",
+      "title": "Proto-Greek language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Greek_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-mycenaean",
+      "title": "Mycenaean Greek (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mycenaean_Greek",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ancient-greek",
+      "title": "Ancient Greek (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Greek",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-koine",
+      "title": "Koine Greek (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Koine_Greek",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-medieval-greek",
+      "title": "Medieval Greek (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Medieval_Greek",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-modern-greek",
+      "title": "Modern Greek (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Modern_Greek",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-greek-language",
+      "title": "Greek language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Greek_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-armenian-language",
+      "title": "Armenian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Armenian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-palace-of-nestor",
+      "title": "Palace of Nestor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Palace_of_Nestor",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-iklaina",
+      "title": "Iklaina (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Iklaina",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-dipylon",
+      "title": "Dipylon inscription (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dipylon_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nestors-cup",
+      "title": "Nestor's Cup (Pithekoussai) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nestor%27s_Cup_(Pithekoussai)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-rosetta",
+      "title": "Rosetta Stone (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-sinaiticus",
+      "title": "Codex Sinaiticus (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Codex_Sinaiticus",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-alexiad",
+      "title": "Alexiad (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Alexiad",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kecharitomene",
+      "title": "Kecharitomene Monastery (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kecharitomene_Monastery",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-erotokritos",
+      "title": "Erotokritos (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Erotokritos",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-hymn-liberty",
+      "title": "Hymn to Liberty (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hymn_to_Liberty",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-solomos",
+      "title": "Dionysios Solomos (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dionysios_Solomos",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-iliad",
+      "title": "Iliad (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Iliad",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-odyssey",
+      "title": "Odyssey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Odyssey",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-sappho",
+      "title": "Sappho (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sappho",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-sappho-1",
+      "title": "Ode to Aphrodite (Sappho fragment 1) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sappho_1",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-new-testament",
+      "title": "New Testament (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_Testament",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "perseus-iliad",
+      "title": "Homer, Iliad (Greek text), ed. D. B. Monro and T. W. Allen",
+      "url": "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.01.0133:book=1:card=1",
+      "publisher": "Perseus Digital Library, Tufts University"
+    },
+    {
+      "id": "perseus-odyssey",
+      "title": "Homer, Odyssey (Greek text), ed. A. T. Murray",
+      "url": "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.01.0135:book=1:card=1",
+      "publisher": "Perseus Digital Library, Tufts University"
+    },
+    {
+      "id": "gutenberg-butler-iliad",
+      "title": "The Iliad, translated by Samuel Butler (Project Gutenberg eBook #2199)",
+      "author": "Samuel Butler (translator)",
+      "url": "https://gutenberg.pglaf.org/2/1/9/2199/2199-0.txt",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "gutenberg-butler-odyssey",
+      "title": "The Odyssey, rendered into English prose by Samuel Butler (Project Gutenberg eBook #1727)",
+      "author": "Samuel Butler (translator)",
+      "url": "https://gutenberg.pglaf.org/1/7/2/1727/1727-0.txt",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "gutenberg-wharton-sappho",
+      "title": "Sappho: Memoir, Text, Selected Renderings and a Literal Translation (Project Gutenberg eBook #57390)",
+      "author": "Henry Thornton Wharton",
+      "year": 1908,
+      "url": "https://gutenberg.pglaf.org/5/7/3/9/57390/57390-0.txt",
+      "publisher": "John Lane / Project Gutenberg"
+    },
+    {
+      "id": "perseus-wh-john-1-1",
+      "title": "The New Testament in the Original Greek (Westcott and Hort, 1885), John 1:1",
+      "url": "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.01.0155:book=John:chapter=1:verse=1",
+      "publisher": "Perseus Digital Library, Tufts University"
+    },
+    {
+      "id": "perseus-wh-john-1-2",
+      "title": "The New Testament in the Original Greek (Westcott and Hort, 1885), John 1:2",
+      "url": "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.01.0155:book=John:chapter=1:verse=2",
+      "publisher": "Perseus Digital Library, Tufts University"
+    },
+    {
+      "id": "ebible-kjv-john-1",
+      "title": "King James Version, John chapter 1",
+      "url": "https://ebible.org/kjv/JHN01.htm",
+      "publisher": "eBible.org"
+    },
+    {
+      "id": "elwikisource-hymn",
+      "title": "Ὕμνος εἰς τὴν Ἐλευθερίαν (Dionysios Solomos)",
+      "url": "https://el.wikisource.org/wiki/%CE%8E%CE%BC%CE%BD%CE%BF%CF%82_%CE%B5%CE%B9%CF%82_%CF%84%CE%B7%CE%BD_%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%B5%CF%81%CE%AF%CE%B1%CE%BD",
+      "publisher": "Wikisource (Greek)"
+    },
+    {
+      "id": "kipling-greek-anthem",
+      "title": "The Greek National Anthem (Rudyard Kipling)",
+      "url": "https://www.kiplingsociety.co.uk/poem/poems_greek_anthem.htm",
+      "publisher": "The Kipling Society"
+    },
+    {
+      "id": "wikisource-kipling-anthem",
+      "title": "Rudyard Kipling's Verse, Inclusive Edition, 1885-1918/The Greek National Anthem",
+      "url": "https://en.wikisource.org/wiki/Rudyard_Kipling%27s_Verse,_Inclusive_Edition,_1885-1918/The_Greek_National_Anthem",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "eu-languages",
+      "title": "Languages in the EU",
+      "publisher": "European Union",
+      "url": "https://european-union.europa.eu/principles-countries-history/languages_en"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-greek",
+      "name": "Proto-Greek",
+      "glottocode": "gree1276",
+      "parent": "proto-indo-european",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-gree1276",
+        "wp-proto-greek"
+      ],
+      "period": {
+        "from": -2200,
+        "to": -1700,
+        "approx": true,
+        "note": "Proto-Greek speakers are thought to have entered Greece in the Bronze Age (c. 2200–1900 BC); diversification into the later dialects began by about 1700 BC. Estimates vary widely.",
+        "sources": [
+          "wp-proto-greek"
+        ]
+      },
+      "homeland": {
+        "lat": 39.66,
+        "lng": 20.85,
+        "label": "Epirus and north-western Greece",
+        "sources": [
+          "wp-proto-greek"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Greek, also called Proto-Hellenic, is the reconstructed last common ancestor of every variety of Greek: Mycenaean Greek, the ancient dialects such as Attic, Ionic, Aeolic and Doric, and in the end Koine, Byzantine and Modern Greek. No text in it survives. Scholars place the entry of Proto-Greek speakers into Greece in the Bronze Age, around 2200–1900 BC, with the language beginning to split into a southern and a northern group by about 1700 BC.",
+          "sources": [
+            "wp-proto-greek"
+          ]
+        },
+        {
+          "text": "Panayiotis Filos describes Proto-Greek as taking shape over a long process, while migrating speakers were on the outskirts of Greece to its north or north-west, mixing with speakers of pre-Greek languages. Radoslav Katičić pointed to Epirus and western Thessaly, where pre-Greek place-names are lacking, as the likely gathering area of Greek speakers around 1950 BC, before they moved south.",
+          "sources": [
+            "wp-proto-greek"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Dates for the arrival of Greek speakers vary widely. John E. Coleman placed it in the late 4th millennium BC (c. 3200 BC). Asko Parpola and Christian Carpelan date the arrival of Proto-Greek speakers from the Eurasian steppe to 2200 BCE. Robert Drews argued for chariot-riding Greeks around 1600 BC, a model modern Mycenologists reject. Paul Heggarty and colleagues (2023) place Greek south of the Caucasus as an already separate branch around 5000 BCE, a model criticised by Kassian and Starostin (2025).",
+          "sources": [
+            "wp-proto-greek"
+          ]
+        },
+        {
+          "text": "Proposed homelands also differ. Nancy Demand suggests a homeland that could have been north-east of the Black Sea. A. L. Katona has Proto-Greek speakers leaving Ukraine around 2400–2300 BCE, passing through Romania and the eastern Balkans, and settling in a region that included Epirus, north-western Thessaly and western Macedonia. Greek shares features with Armenian, and scholars differ over whether these reflect a common Graeco-Armenian subgroup, prolonged contact, or both.",
+          "sources": [
+            "wp-proto-greek",
+            "wp-armenian-language"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mycenaean-greek",
+      "name": "Mycenaean Greek",
+      "glottocode": "myce1242",
+      "iso639_3": "gmy",
+      "parent": "proto-greek",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-myce1242",
+        "wp-mycenaean"
+      ],
+      "period": {
+        "from": -1600,
+        "to": -1100,
+        "approx": true,
+        "note": "Spoken in Mycenaean Greece from the 16th to the 12th century BC; Linear B tablets date from the 15th century BC onwards.",
+        "sources": [
+          "wp-mycenaean",
+          "wp-greek-language"
+        ]
+      },
+      "homeland": {
+        "lat": 37.7308,
+        "lng": 22.7561,
+        "label": "Mycenaean Greece (Mycenae, Argolid)",
+        "sources": [
+          "wp-mycenaean"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "iklaina-tablet",
+          "year": -1400,
+          "approx": true,
+          "lat": 36.995,
+          "lng": 21.7233,
+          "place": "Iklaina, Messenia",
+          "description": "A Linear B clay tablet dated between 1450 and 1350 BC, found at the Mycenaean site of Iklaina about 10 km north-east of Pylos; it is among the earliest written evidence of Greek and the earliest Mycenaean tablet found so far on mainland Greece.",
+          "sources": [
+            "wp-iklaina",
+            "wp-greek-language"
+          ]
+        },
+        {
+          "id": "knossos-chariot-tablets",
+          "year": -1400,
+          "approx": true,
+          "lat": 35.298,
+          "lng": 25.1632,
+          "place": "Knossos, Crete",
+          "description": "The tablets from the 'Room of the Chariot Tablets' at Knossos, dated to the later 15th or earliest 14th century BC, have the earliest generally accepted date of any Linear B tablet.",
+          "sources": [
+            "wp-mycenaean"
+          ]
+        },
+        {
+          "id": "pylos-archive",
+          "year": -1250,
+          "approx": true,
+          "lat": 37.0276,
+          "lng": 21.6956,
+          "place": "Palace of Nestor, near Pylos",
+          "description": "About 1,000 Linear B clay tablets found here in 1939 proved to be part of the royal archive of Mycenaean Messenia. The palace was destroyed by fire around 1250 BC.",
+          "sources": [
+            "wp-palace-of-nestor"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Linear B",
+            "code": "Linb"
+          }
+        ],
+        "sources": [
+          "wp-mycenaean"
+        ]
+      },
+      "story": [
+        {
+          "text": "Mycenaean Greek is the earliest attested form of Greek. It was spoken on the Greek mainland and Crete between the 16th and 12th centuries BC and is named after Mycenae, one of the main centres of Mycenaean Greece. It survives in Linear B, a script first attested on Crete. Most tablets come from Knossos in central Crete and from Pylos in the south-west Peloponnese, with others from Mycenae, Tiryns, Thebes and Chania.",
+          "sources": [
+            "wp-mycenaean"
+          ]
+        },
+        {
+          "text": "For decades nobody could read the tablets. In 1952 Michael Ventris, building on the work of Alice Kober, deciphered the script and showed that it recorded an archaic form of Greek. The corpus holds some 6,000 tablets and potsherds, mostly lists and inventories; no narrative prose, myth or poetry survives. At the Palace of Nestor near Pylos, about 1,000 tablets found in 1939 turned out to be part of the royal archive of Mycenaean Messenia.",
+          "sources": [
+            "wp-mycenaean",
+            "wp-palace-of-nestor"
+          ]
+        },
+        {
+          "text": "Familiar words appear in early forms: qa-si-re-u, later basileus ('king'); wa-na-ka, later ánax ('overlord, king'); and ka-ko, later chalkos ('bronze'). Linear B does not mark some features, such as word-initial aspiration and vowel length.",
+          "sources": [
+            "wp-mycenaean"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Ernst Risch (1966) proposed that the tablets contain a standard 'Normal Mycenaean' and a vernacular 'Special Mycenaean'. Antonin Bartonek, Leonard Robert Palmer and Yves Duhoux saw the tablet language as an administrative koine over local dialects. Thompson has challenged the evidence for 'Special Mycenaean', and recent palaeographic study shows that no individual scribe consistently writes its forms. Mycenaean and Arcadocypriot belong to the same Achaean group, and Arcadocypriot apparently descends more closely from Mycenaean than the other ancient dialects do.",
+          "sources": [
+            "wp-mycenaean",
+            "wp-ancient-greek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ancient-greek",
+      "name": "Ancient Greek",
+      "nativeName": "Ἑλληνική",
+      "nativeScript": "Grek",
+      "glottocode": "anci1242",
+      "iso639_3": "grc",
+      "parent": "proto-greek",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-anci1242",
+        "wp-ancient-greek"
+      ],
+      "period": {
+        "from": -800,
+        "to": -300,
+        "approx": true,
+        "note": "Covers the Archaic or Homeric period (c. 800–500 BC) and the Classical period (c. 500–300 BC). Scholars assume the major dialect groups had developed by about 1120 BC at the latest; Koine follows from about 300 BC.",
+        "sources": [
+          "wp-ancient-greek"
+        ]
+      },
+      "homeland": {
+        "lat": 38.48,
+        "lng": 22.5,
+        "label": "Ancient Greece (central Greece)",
+        "sources": [
+          "wp-ancient-greek"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "dipylon-inscription",
+          "year": -740,
+          "approx": true,
+          "lat": 37.9785,
+          "lng": 23.7185,
+          "place": "Dipylon Cemetery, Kerameikos, Athens",
+          "description": "An oenochoe (a pitcher) found in 1871 carries one of the oldest known texts in the Greek alphabet, a hexameter marking it as a prize in a dancing competition. It is dated to about 740 BC.",
+          "sources": [
+            "wp-dipylon"
+          ]
+        },
+        {
+          "id": "nestors-cup",
+          "year": -720,
+          "approx": true,
+          "lat": 40.754,
+          "lng": 13.887,
+          "place": "Pithekoussai, Ischia, Bay of Naples",
+          "description": "A cup made around 735–720 BC and found in 1954 in a grave at the Euboean trading site of Pithekoussai carries a three-line inscription, one of the earliest examples of Greek alphabetic writing.",
+          "sources": [
+            "wp-nestors-cup"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Greek alphabet",
+            "code": "Grek"
+          },
+          {
+            "name": "Cypriot syllabary",
+            "code": "Cprt"
+          }
+        ],
+        "sources": [
+          "wp-ancient-greek",
+          "wp-greek-language"
+        ]
+      },
+      "story": [
+        {
+          "text": "Ancient Greek here covers the Archaic, or Homeric, period (c. 800–500 BC) and the Classical period (c. 500–300 BC). It was the language of Homer and of the historians, playwrights and philosophers of 5th- and 4th-century Athens. It had many dialects: the main groups were Attic and Ionic, Aeolic, Arcadocypriot and Doric, and some dialects appear only in inscriptions. Homeric Greek, the literary language of the Iliad and the Odyssey, drew mainly on Ionic and Aeolic.",
+          "sources": [
+            "wp-ancient-greek"
+          ]
+        },
+        {
+          "text": "Greeks of the period divided themselves into Dorians, Aeolians and Ionians, each with a distinctive dialect, a picture close to the results of modern research. From the 8th century BC the Greek alphabet became standard. Early texts were written in boustrophedon style, and left-to-right writing became the norm in the Classical period. Accents, breathing marks and spaces between words, now printed in modern editions, were all introduced later.",
+          "sources": [
+            "wp-ancient-greek"
+          ]
+        },
+        {
+          "text": "Two of the oldest alphabetic Greek texts were scratched on pottery in the later 8th century BC. The Dipylon jug, found in 1871 in the Kerameikos cemetery of Athens, carries a hexameter that marks it as a prize for a dancer. Nestor's Cup, made around 735–720 BC and found in 1954 in a grave on Ischia, carries a three-line inscription whose reading, and its relation to the cup of Nestor described in the Iliad, is still debated.",
+          "sources": [
+            "wp-dipylon",
+            "wp-nestors-cup"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "iliad",
+          "title": "Iliad",
+          "titleOriginal": "Ἰλιάς",
+          "author": "Homer (attributed)",
+          "date": "late 8th to early 7th century BC",
+          "year": -700,
+          "significance": "One of the two major surviving ancient Greek epics attributed to Homer, it is often regarded as the first substantial piece of European literature and is central to the study of classical philology.",
+          "original": "μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος\nοὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,\nπολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν\nἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν\nοἰωνοῖσί τε πᾶσι, Διὸς δ᾽ ἐτελείετο βουλή,\nἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε\nἈτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.",
+          "originalScript": "Grek",
+          "translation": "Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for so were the counsels of Jove fulfilled from the day on which the son of Atreus, king of men, and great Achilles, first fell out with one another.",
+          "translator": "Samuel Butler",
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+          "sources": [
+            "perseus-iliad",
+            "gutenberg-butler-iliad",
+            "wp-iliad"
+          ],
+          "translationYear": 1898
+        },
+        {
+          "id": "odyssey",
+          "title": "Odyssey",
+          "titleOriginal": "Ὀδύσσεια",
+          "author": "Homer (attributed)",
+          "date": "8th or 7th century BC",
+          "year": -700,
+          "significance": "The second great Homeric epic follows Odysseus on his ten-year journey home from Troy to Ithaca. It is one of the oldest surviving works of literature and had become part of the Greek literary canon by the mid-6th century BC.",
+          "original": "ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλὰ\nπλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν:\nπολλῶν δ᾽ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω,\nπολλὰ δ᾽ ὅ γ᾽ ἐν πόντῳ πάθεν ἄλγεα ὃν κατὰ θυμόν,\nἀρνύμενος ἥν τε ψυχὴν καὶ νόστον ἑταίρων.\nἀλλ᾽ οὐδ᾽ ὣς ἑτάρους ἐρρύσατο, ἱέμενός περ:\nαὐτῶν γὰρ σφετέρῃσιν ἀτασθαλίῃσιν ὄλοντο,\nνήπιοι, οἳ κατὰ βοῦς Ὑπερίονος Ἠελίοιο\nἤσθιον: αὐτὰρ ὁ τοῖσιν ἀφείλετο νόστιμον ἦμαρ.\nτῶν ἁμόθεν γε, θεά, θύγατερ Διός, εἰπὲ καὶ ἡμῖν.",
+          "originalScript": "Grek",
+          "translation": "Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy. Many cities did he visit, and many were the nations with whose manners and customs he was acquainted; moreover he suffered much by sea while trying to save his own life and bring his men safely home; but do what he might he could not save his men, for they perished through their own sheer folly in eating the cattle of the Sun-god Hyperion; so the god prevented them from ever reaching home. Tell me, too, about all these things, oh daughter of Jove, from whatsoever source you may know them.",
+          "translator": "Samuel Butler",
+          "translationYear": 1900,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0135",
+          "sources": [
+            "perseus-odyssey",
+            "gutenberg-butler-odyssey",
+            "wp-odyssey"
+          ]
+        },
+        {
+          "id": "sappho-ode-to-aphrodite",
+          "title": "Ode to Aphrodite (fragment 1)",
+          "author": "Sappho",
+          "date": "late 7th or early 6th century BC",
+          "year": -600,
+          "significance": "Sappho of Lesbos was regarded in antiquity as one of the greatest lyric poets, called the 'Tenth Muse'. The Ode to Aphrodite is the only one of her poems that is certainly complete; it survives through a quotation by Dionysius of Halicarnassus and a papyrus from Oxyrhynchus.",
+          "original": "Ποικιλόθρον', ἀθάνατ' Ἀφρόδιτα,\nπαῖ Δίος, δολόπλοκε, λίσσομαί σε\nμή μ' ἄσαισι μήτ' ὀνίαισι δάμνα,\nπότνια, θῦμον·\nἀλλὰ τυῖδ' ἔλθ', αἴποτα κἀτέρωτα\nτᾶς ἔμας αὔδως ἀΐοισα πήλυι\nἒκλυες, πάτρος δὲ δόμον λίποισα\nχρύσιον ἦλθες\nἄρμ' ὐποζεύξαισα· κάλοι δέ σ' ἆγον\nὤκεες στροῦθοι περὶ γᾶς μελαίνας\nπύκνα δινεῦντες πτέρ' ἀπ' ὠράνω αἴθε-\nρας διὰ μέσσω.",
+          "originalScript": "Grek",
+          "translation": "Immortal Aphrodite of the broidered throne, daughter of Zeus, weaver of wiles, I pray thee break not my spirit with anguish and distress, O Queen. But come hither, if ever before thou didst hear my voice afar, and listen, and leaving thy father's golden house camest with chariot yoked, and fair fleet sparrows drew thee, flapping fast their wings around the dark earth, from heaven through mid sky.",
+          "translator": "Henry Thornton Wharton",
+          "translationYear": 1908,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://gutenberg.pglaf.org/5/7/3/9/57390/57390-0.txt",
+          "sources": [
+            "gutenberg-wharton-sappho",
+            "wp-sappho",
+            "wp-sappho-1"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Glottolog's code anci1242 is for Ionic-Attic Ancient Greek, the closest language-level entry it has; the Ancient Greek dialects as a whole are not a single Glottolog languoid.",
+          "sources": [
+            "glottolog-anci1242"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "koine-greek",
+      "name": "Koine Greek",
+      "nativeName": "ἡ κοινὴ διάλεκτος",
+      "nativeScript": "Grek",
+      "glottocode": "koin1234",
+      "parent": "ancient-greek",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-koin1234",
+        "wp-koine"
+      ],
+      "period": {
+        "from": -300,
+        "to": 500,
+        "approx": true,
+        "note": "The post-Classical period is conventionally dated from Alexander the Great's death in 323 BC. The transition to Medieval Greek is dated variously from AD 330 to the end of late antiquity (5th–6th centuries).",
+        "sources": [
+          "wp-koine",
+          "wp-medieval-greek"
+        ]
+      },
+      "homeland": {
+        "lat": 37.975,
+        "lng": 23.735,
+        "label": "Attica (Koine was based mainly on Attic)",
+        "sources": [
+          "wp-koine"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "rosetta-stone",
+          "year": -196,
+          "approx": false,
+          "lat": 31.4,
+          "lng": 30.42,
+          "place": "Near Rashid (Rosetta), Nile Delta, Egypt",
+          "description": "A granodiorite stele with a decree of 196 BC for Ptolemy V in hieroglyphic, Demotic and Greek. It was found in 1799 at Fort Julien near Rashid and has been in the British Museum since 1802.",
+          "sources": [
+            "wp-rosetta"
+          ]
+        },
+        {
+          "id": "codex-sinaiticus",
+          "year": 350,
+          "approx": true,
+          "lat": 28.5561,
+          "lng": 33.9761,
+          "place": "Saint Catherine's Monastery, Sinai",
+          "description": "A mid-4th-century manuscript of the Greek Bible that contains the oldest complete copy of the New Testament. It came to scholars' attention at Saint Catherine's Monastery in the 19th century.",
+          "sources": [
+            "wp-sinaiticus"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Greek alphabet",
+            "code": "Grek"
+          }
+        ],
+        "sources": [
+          "wp-koine"
+        ]
+      },
+      "story": [
+        {
+          "text": "Koine Greek, 'the common dialect', was the supra-regional Greek of the Hellenistic period, the Roman Empire and the early Byzantine Empire. It grew out of the spread of Greek after the conquests of Alexander the Great in the 4th century BC and became a lingua franca of much of the Mediterranean and the Middle East. It was based mainly on Attic and related Ionic speech, and it arose as a common dialect within Alexander's armies.",
+          "sources": [
+            "wp-koine"
+          ]
+        },
+        {
+          "text": "Koine is the language of the Septuagint, the 3rd-century BC Greek translation of the Hebrew Bible, of the Christian New Testament and of most early Church Fathers. Plutarch and Polybius wrote in its literary form, and the Roman emperor Marcus Aurelius set down his private thoughts, now called the Meditations, in Koine. In Rome's eastern provinces, local elites in Asia Minor, Judaea, Syria and Egypt used Greek in inscriptions, documents and official announcements.",
+          "sources": [
+            "wp-koine"
+          ]
+        },
+        {
+          "text": "The Rosetta Stone, carved with a decree of Ptolemy V in 196 BC, gives the same text in hieroglyphic, Demotic and Greek; because the versions differ only slightly, it became the key to deciphering Egyptian scripts. Wikipedia states that Koine Greek continues to be used as the liturgical language of services in the Greek Orthodox Church. As the dominant language of the Byzantine Empire it developed into Medieval Greek.",
+          "sources": [
+            "wp-rosetta",
+            "wp-koine"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "new-testament",
+          "title": "New Testament (Gospel of John 1:1–2)",
+          "author": "Various authors",
+          "date": "mostly mid-to-late 1st century AD",
+          "year": 80,
+          "significance": "The New Testament, the second division of the Christian Bible, is a collection of 27 texts written in Koine Greek; literary analysis suggests that many of them were written in the mid-to-late first century.",
+          "original": "ΕΝ ΑΡΧΗ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος. Οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+          "originalScript": "Grek",
+          "translation": "In the beginning was the Word, and the Word was with God, and the Word was God. The same was in the beginning with God.",
+          "translator": "King James Version",
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155",
+          "sources": [
+            "perseus-wh-john-1-1",
+            "perseus-wh-john-1-2",
+            "ebible-kjv-john-1",
+            "wp-new-testament"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Status policy: Koine is marked extinct (period to c. AD 500) rather than classical. Wikipedia states that Koine continues to be used in Greek Orthodox liturgy, but it does not establish an unbroken use of Koine itself as distinct from later Byzantine Greek, and no primary church source was found that does. Later liturgical use is therefore treated as belonging to Medieval Greek, and the status can be revisited if a source documents continuous Koine use. The infobox of the cited article gives c. 300 BC to AD 600 for the era.",
+          "sources": [
+            "wp-koine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval-greek",
+      "name": "Medieval Greek",
+      "nativeName": "Ῥωμαϊκή",
+      "nativeScript": "Grek",
+      "glottocode": "medi1251",
+      "parent": "koine-greek",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-medi1251",
+        "wp-medieval-greek"
+      ],
+      "period": {
+        "from": 500,
+        "to": 1453,
+        "approx": true,
+        "note": "From the end of classical antiquity in the 5th–6th centuries to the Ottoman conquest of Constantinople in 1453, the conventional end point.",
+        "sources": [
+          "wp-medieval-greek"
+        ]
+      },
+      "homeland": {
+        "lat": 41.0082,
+        "lng": 28.9784,
+        "label": "Constantinople and the Byzantine Empire",
+        "sources": [
+          "wp-medieval-greek"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "alexiad",
+          "year": 1148,
+          "approx": true,
+          "lat": 41.03,
+          "lng": 28.95,
+          "place": "Kecharitomene Monastery, Constantinople",
+          "description": "The Byzantine princess Anna Komnene wrote the Alexiad, a history of her father Alexios I's reign in artificial Attic Greek, around 1148 at the Kecharitomene convent in northern Constantinople.",
+          "sources": [
+            "wp-alexiad",
+            "wp-kecharitomene"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Greek alphabet (uncial and minuscule)",
+            "code": "Grek"
+          }
+        ],
+        "sources": [
+          "wp-medieval-greek"
+        ]
+      },
+      "story": [
+        {
+          "text": "Medieval Greek, also called Byzantine Greek or Romaic, is the stage of Greek between the end of classical antiquity in the 5th–6th centuries and the Ottoman conquest of Constantinople in 1453. Constantine moved the Roman capital to Byzantium, renamed Constantinople, in 330. Latin at first stayed the language of court and army, but from the early 6th century amendments to the law were mostly written in Greek, and under Heraclius (610–641), who took the Greek title Basileus, Greek became the empire's official language.",
+          "sources": [
+            "wp-medieval-greek"
+          ]
+        },
+        {
+          "text": "The empire's people still called themselves Rhomaioi, 'Romans', until 1453. After the 7th-century Muslim conquests took Syria, Egypt and North Africa, the empire's population was overwhelmingly Greek-speaking by the 8th century. Learned writers imitated Attic, as Anna Komnene did in the Alexiad around 1148, while the 12th-century Digenes Akritas was the first literary work written completely in the vernacular.",
+          "sources": [
+            "wp-medieval-greek",
+            "wp-alexiad"
+          ]
+        },
+        {
+          "text": "Medieval Greek is the link between Koine and Modern Greek; by the start of the period the spoken language, especially its pronunciation, had already shifted towards modern forms. The Greek minuscule script, which probably emerged from cursive writing in Syria, appears more and more often from the 9th century. It was the first Greek script to use accents and breathing marks regularly and the first to leave gaps between words.",
+          "sources": [
+            "wp-medieval-greek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern-greek",
+      "name": "Modern Greek",
+      "nativeName": "Ελληνικά",
+      "nativeScript": "Grek",
+      "glottocode": "mode1248",
+      "iso639_3": "ell",
+      "parent": "medieval-greek",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-mode1248",
+        "wp-modern-greek"
+      ],
+      "period": {
+        "from": 1453,
+        "to": null,
+        "approx": true,
+        "note": "The start is often set symbolically at the fall of Constantinople in 1453, though many features of the modern language arose centuries earlier.",
+        "sources": [
+          "wp-modern-greek"
+        ]
+      },
+      "homeland": {
+        "lat": 37.9838,
+        "lng": 23.7275,
+        "label": "Greece",
+        "sources": [
+          "wp-greek-language"
+        ]
+      },
+      "speakers": {
+        "count": 13500000,
+        "year": 2015,
+        "scope": "L1",
+        "sources": [
+          "wp-greek-language"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "erotokritos",
+          "year": 1600,
+          "approx": true,
+          "lat": 35.24,
+          "lng": 24.9,
+          "place": "Crete",
+          "description": "Vikentios Kornaros composed the romance Erotokritos, 10,012 rhymed fifteen-syllable lines in the Cretan dialect, in early 17th-century Crete.",
+          "sources": [
+            "wp-erotokritos"
+          ]
+        },
+        {
+          "id": "hymn-to-liberty",
+          "year": 1823,
+          "approx": false,
+          "lat": 37.787,
+          "lng": 20.898,
+          "place": "Zakynthos",
+          "description": "Dionysios Solomos wrote the Hymn to Liberty on Zakynthos in 1823; its first two stanzas became the national anthem of Greece in 1864 and of Cyprus in 1966.",
+          "sources": [
+            "wp-hymn-liberty"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Greek alphabet",
+            "code": "Grek"
+          }
+        ],
+        "sources": [
+          "wp-greek-language"
+        ]
+      },
+      "story": [
+        {
+          "text": "Modern Greek covers the dialects of Greek spoken in the modern era, including Standard Modern Greek. Its start is often set symbolically at the fall of Constantinople in 1453, though many of its features had begun to appear around the 4th century AD. For much of the period Greek lived with diglossia: regional spoken dialects existed beside learned, more archaic written forms, as with Dimotiki and Katharevousa, which coexisted in Greece through much of the 19th and 20th centuries.",
+          "sources": [
+            "wp-modern-greek"
+          ]
+        },
+        {
+          "text": "Erotokritos, a romance composed by Vikentios Kornaros in early 17th-century Crete, runs to 10,012 rhymed fifteen-syllable lines in the Cretan dialect and remains popular; it is accompanied by music when publicly recited. In 1823 Dionysios Solomos of Zakynthos wrote the Hymn to Liberty, inspired by the Greek War of Independence; its first two stanzas became the national anthem of Greece in 1864 and of Cyprus in 1966.",
+          "sources": [
+            "wp-erotokritos",
+            "wp-hymn-liberty"
+          ]
+        },
+        {
+          "text": "A standardised form of Demotic Greek is the official language of Greece and Cyprus, and Greek is one of the 24 official languages of the European Union. It is spoken by at least 13.5 million people. Greek is a recognised minority language in Albania, where it is co-official in some municipalities, in Apulia and Calabria in Italy, and in Turkey under the 1923 Treaty of Lausanne.",
+          "sources": [
+            "wp-modern-greek",
+            "wp-greek-language",
+            "eu-languages"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "hymn-to-liberty",
+          "title": "Hymn to Liberty",
+          "titleOriginal": "Ὕμνος εἰς τὴν Ἐλευθερίαν",
+          "author": "Dionysios Solomos",
+          "date": "1823",
+          "year": 1823,
+          "significance": "Solomos, considered Greece's national poet, wrote the 158-stanza poem in 1823; its first two stanzas became the national anthem of Greece in 1864 and of Cyprus in 1966.",
+          "original": "Σὲ γνωρίζω ἀπὸ τὴν κόψι\nτοῦ σπαθιοῦ τὴν τρομερή,\nσὲ γνωρίζω ἀπὸ τὴν ὄψι\nποὺ μὲ βία μετράει τὴν γῆ.\nἈπ’ τὰ κόκαλα βγαλμένη\nτῶν Ἑλλήνων τὰ ἱερά,\nκαὶ σὰν πρῶτα ἀνδρειωμένη,\nχαῖρε, ὦ χαῖρε, Ἐλευθεριά!",
+          "originalScript": "Grek",
+          "translation": "We knew thee of old,\nOh divinely restored,\nBy the light of thine eyes\nAnd the light of thy Sword.\nFrom the graves of our slain\nShall thy valour prevail\nAs we greet thee again—\nHail, Liberty! Hail!",
+          "translator": "Rudyard Kipling",
+          "translationYear": 1918,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://el.wikisource.org/wiki/%CE%8E%CE%BC%CE%BD%CE%BF%CF%82_%CE%B5%CE%B9%CF%82_%CF%84%CE%B7%CE%BD_%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%B5%CF%81%CE%AF%CE%B1%CE%BD",
+          "sources": [
+            "elwikisource-hymn",
+            "kipling-greek-anthem",
+            "wikisource-kipling-anthem",
+            "wp-hymn-liberty",
+            "wp-solomos"
+          ]
+        }
+      ]
+    }
+  ]
+}

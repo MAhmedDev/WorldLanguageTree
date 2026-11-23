@@ -1,0 +1,2714 @@
+{
+  "family": {
+    "id": "italic",
+    "name": "Italic",
+    "root": "proto-italic"
+  },
+  "sources": [
+    {
+      "id": "wp-proto-italic",
+      "title": "Proto-Italic language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Italic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-italic-peoples",
+      "title": "Italic peoples (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Italic_peoples",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-osco-umbrian",
+      "title": "Osco-Umbrian languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Osco-Umbrian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-oscan",
+      "title": "Oscan language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Oscan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cippus-abellanus",
+      "title": "Cippus Abellanus (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cippus_Abellanus",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-umbrian",
+      "title": "Umbrian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Umbrian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-iguvine-tablets",
+      "title": "Iguvine Tablets (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Iguvine_Tablets",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-latino-faliscan",
+      "title": "Latino-Faliscan languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Latino-Faliscan_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-faliscan",
+      "title": "Faliscan language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Faliscan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-latin",
+      "title": "Old Latin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_Latin",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-lapis-niger",
+      "title": "Lapis Niger (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lapis_Niger",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-duenos",
+      "title": "Duenos inscription (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Duenos_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-latin",
+      "title": "Latin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Latin",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-classical-latin",
+      "title": "Classical Latin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Classical_Latin",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-vulgar-latin",
+      "title": "Vulgar Latin (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vulgar_Latin",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-vindolanda",
+      "title": "Vindolanda tablets (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Vindolanda_tablets",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-aeneid",
+      "title": "Aeneid (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aeneid",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-metamorphoses",
+      "title": "Metamorphoses (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Metamorphoses",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gallic-war",
+      "title": "Commentarii de Bello Gallico (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-romance",
+      "title": "Romance languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Romance_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-french",
+      "title": "Old French (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_French",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-strasbourg-oaths",
+      "title": "Oaths of Strasbourg (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Oaths_of_Strasbourg",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-song-of-roland",
+      "title": "Song of Roland (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Song_of_Roland",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-scott-moncrieff",
+      "title": "C. K. Scott Moncrieff (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/C._K._Scott_Moncrieff",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-french",
+      "title": "French language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/French_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-misanthrope",
+      "title": "The Misanthrope (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/The_Misanthrope",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-curtis-hidden-page",
+      "title": "Curtis Hidden Page (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Curtis_Hidden_Page",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-italian",
+      "title": "Italian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Italian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-placiti",
+      "title": "Placiti Cassinesi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Placiti_Cassinesi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-divine-comedy",
+      "title": "Divine Comedy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Divine_Comedy",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-canzoniere",
+      "title": "Il Canzoniere (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Il_Canzoniere",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-spanish",
+      "title": "Old Spanish (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_Spanish",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-glosas",
+      "title": "Glosas Emilianenses (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Glosas_Emilianenses",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cid",
+      "title": "Cantar de mio Cid (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cantar_de_mio_Cid",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-spanish",
+      "title": "Spanish language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Spanish_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-don-quixote",
+      "title": "Don Quixote (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Don_Quixote",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ormsby",
+      "title": "John Ormsby (translator) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Ormsby_(translator)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-galician-portuguese",
+      "title": "Galician–Portuguese (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Galician–Portuguese",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-martin-codax",
+      "title": "Martin Codax (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Martin_Codax",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-portuguese",
+      "title": "Portuguese language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Portuguese_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-lusiadas",
+      "title": "Os Lusíadas (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Os_Lusíadas",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-galician",
+      "title": "Galician language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Galician_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-rosalia",
+      "title": "Rosalía de Castro (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rosalía_de_Castro",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-catalan",
+      "title": "Catalan language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Catalan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-homilies-organya",
+      "title": "Homilies d'Organyà (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Homilies_d'Organyà",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-occitan",
+      "title": "Old Occitan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_Occitan",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-troubadour",
+      "title": "Troubadour (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Troubadour",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-bernart",
+      "title": "Bernart de Ventadorn (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bernart_de_Ventadorn",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-can-vei",
+      "title": "Can vei la lauzeta mover (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Can_vei_la_lauzeta_mover",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-occitan",
+      "title": "Occitan language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Occitan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-romanian",
+      "title": "Romanian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Romanian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-neacsu",
+      "title": "Neacșu's letter (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Neacșu's_letter",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-luceafarul",
+      "title": "Luceafărul (poem) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Luceafărul_(poem)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-sardinian",
+      "title": "Sardinian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Sardinian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-romansh",
+      "title": "Romansh language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Romansh_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-ital1284",
+      "title": "Glottolog 5.4: Italic",
+      "url": "https://glottolog.org/resource/languoid/id/ital1284",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-sabe1249",
+      "title": "Glottolog 5.4: Sabellic",
+      "url": "https://glottolog.org/resource/languoid/id/sabe1249",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-osca1245",
+      "title": "Glottolog 5.4: Oscan",
+      "url": "https://glottolog.org/resource/languoid/id/osca1245",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-umbr1253",
+      "title": "Glottolog 5.4: Umbrian",
+      "url": "https://glottolog.org/resource/languoid/id/umbr1253",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-lati1262",
+      "title": "Glottolog 5.4: Latino-Faliscan",
+      "url": "https://glottolog.org/resource/languoid/id/lati1262",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-fali1291",
+      "title": "Glottolog 5.4: Faliscan",
+      "url": "https://glottolog.org/resource/languoid/id/fali1291",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldl1238",
+      "title": "Glottolog 5.4: Old Latin",
+      "url": "https://glottolog.org/resource/languoid/id/oldl1238",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-lati1261",
+      "title": "Glottolog 5.4: Latin",
+      "url": "https://glottolog.org/resource/languoid/id/lati1261",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-vulg1234",
+      "title": "Glottolog 5.4: Vulgar Latin",
+      "url": "https://glottolog.org/resource/languoid/id/vulg1234",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-roma1334",
+      "title": "Glottolog 5.4: Romance",
+      "url": "https://glottolog.org/resource/languoid/id/roma1334",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldf1239",
+      "title": "Glottolog 5.4: Old French (842-ca. 1400)",
+      "url": "https://glottolog.org/resource/languoid/id/oldf1239",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-stan1290",
+      "title": "Glottolog 5.4: French",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-ital1282",
+      "title": "Glottolog 5.4: Italian",
+      "url": "https://glottolog.org/resource/languoid/id/ital1282",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-olds1249",
+      "title": "Glottolog 5.4: Old Spanish",
+      "url": "https://glottolog.org/resource/languoid/id/olds1249",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-stan1288",
+      "title": "Glottolog 5.4: Spanish",
+      "url": "https://glottolog.org/resource/languoid/id/stan1288",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldp1257",
+      "title": "Glottolog 5.4: Old Portuguese",
+      "url": "https://glottolog.org/resource/languoid/id/oldp1257",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-port1283",
+      "title": "Glottolog 5.4: Portuguese",
+      "url": "https://glottolog.org/resource/languoid/id/port1283",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-gali1258",
+      "title": "Glottolog 5.4: Galician",
+      "url": "https://glottolog.org/resource/languoid/id/gali1258",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-stan1289",
+      "title": "Glottolog 5.4: Catalan",
+      "url": "https://glottolog.org/resource/languoid/id/stan1289",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldp1253",
+      "title": "Glottolog 5.4: Old Provençal",
+      "url": "https://glottolog.org/resource/languoid/id/oldp1253",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-occi1239",
+      "title": "Glottolog 5.4: Occitan",
+      "url": "https://glottolog.org/resource/languoid/id/occi1239",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-roma1327",
+      "title": "Glottolog 5.4: Romanian",
+      "url": "https://glottolog.org/resource/languoid/id/roma1327",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-sard1257",
+      "title": "Glottolog 5.4: Southern Romance (alternative name: Sardinian)",
+      "url": "https://glottolog.org/resource/languoid/id/sard1257",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-roma1326",
+      "title": "Glottolog 5.4: Romansh",
+      "url": "https://glottolog.org/resource/languoid/id/roma1326",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ws-aeneid-la",
+      "title": "Aeneis/Liber I (Latin Wikisource)",
+      "url": "https://la.wikisource.org/wiki/Aeneis/Liber_I",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-aeneid-dryden",
+      "title": "The Works of Virgil (Dryden)/Aeneis/Book 1 (Wikisource)",
+      "url": "https://en.wikisource.org/wiki/The_Works_of_Virgil_(Dryden)/Aeneis/Book_1",
+      "author": "John Dryden (translator)",
+      "year": 1697,
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "latlib-ovid",
+      "title": "Ovid, Metamorphoses I (The Latin Library)",
+      "url": "https://www.thelatinlibrary.com/ovid/ovid.met1.shtml",
+      "publisher": "The Latin Library"
+    },
+    {
+      "id": "latlib-caesar",
+      "title": "Caesar, Commentarii de Bello Gallico I (The Latin Library)",
+      "url": "https://www.thelatinlibrary.com/caesar/gall1.shtml",
+      "publisher": "The Latin Library"
+    },
+    {
+      "id": "ws-roland-gautier",
+      "title": "La Chanson de Roland, édition critique de Léon Gautier (1872), Première partie, Texte (French Wikisource)",
+      "url": "https://fr.wikisource.org/wiki/La_Chanson_de_Roland/L%C3%A9on_Gautier/%C3%89dition_critique/Premi%C3%A8re_partie/Texte",
+      "author": "Léon Gautier (editor)",
+      "year": 1872,
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-roland-moncrieff",
+      "title": "The Song of Roland, translated by C. K. Scott-Moncrieff (Wikisource)",
+      "url": "https://en.wikisource.org/wiki/The_Song_of_Roland/The_Song_of_Roland",
+      "author": "C. K. Scott Moncrieff (translator)",
+      "year": 1919,
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-misanthrope-fr",
+      "title": "Le Misanthrope, édition Louandre 1910, Acte I (French Wikisource)",
+      "url": "https://fr.wikisource.org/wiki/Le_Misanthrope/%C3%89dition_Louandre,_1910/Acte_I",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-misanthrope-en",
+      "title": "The Misanthrope (Molière), translated by Curtis Hidden Page (Wikisource)",
+      "url": "https://en.wikisource.org/wiki/The_Misanthrope_(Moli%C3%A8re)",
+      "author": "Curtis Hidden Page (translator)",
+      "year": 1908,
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-dante",
+      "title": "Divina Commedia/Inferno/Canto I (Italian Wikisource)",
+      "url": "https://it.wikisource.org/wiki/Divina_Commedia/Inferno/Canto_I",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "poets-longfellow",
+      "title": "Inferno, Canto I, translated by Henry Wadsworth Longfellow (Poets.org)",
+      "url": "https://poets.org/poem/inferno-canto-i",
+      "publisher": "Academy of American Poets"
+    },
+    {
+      "id": "ws-petrarch",
+      "title": "Canzoniere (Rerum vulgarium fragmenta)/Voi ch'ascoltate in rime sparse il suono (Italian Wikisource)",
+      "url": "https://it.wikisource.org/wiki/Canzoniere_(Rerum_vulgarium_fragmenta)/Voi_ch%27ascoltate_in_rime_sparse_il_suono",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-cid-1779",
+      "title": "Poema del Cid, in Tomás Antonio Sánchez, Colección de poesías castellanas anteriores al siglo XV, vol. I (1779) (Spanish Wikisource)",
+      "url": "https://es.wikisource.org/wiki/Colecci%C3%B3n_de_poes%C3%ADas_castellanas_anteriores_al_siglo_XV/Tomo_I/Poema_del_Cid",
+      "author": "Tomás Antonio Sánchez (editor)",
+      "year": 1779,
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-quixote-1608",
+      "title": "El ingenioso hidalgo Don Quijote de la Mancha (1608), Capitulo I (Spanish Wikisource)",
+      "url": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1608)/Capitulo_I",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-quixote-ormsby",
+      "title": "Don Quixote/Volume 1/Chapter I, translated by John Ormsby (Wikisource)",
+      "url": "https://en.wikisource.org/wiki/Don_Quixote/Volume_1/Chapter_I",
+      "author": "John Ormsby (translator)",
+      "year": 1885,
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-lusiadas",
+      "title": "Os Lusíadas (grafia atualizada)/I (Portuguese Wikisource)",
+      "url": "https://pt.wikisource.org/wiki/Os_Lus%C3%ADadas_(grafia_atualizada)/I",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-codax",
+      "title": "Ondas do mar de Vigo (Galician Wikisource)",
+      "url": "https://gl.wikisource.org/wiki/Ondas_do_mar_de_Vigo",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-luceafarul",
+      "title": "Luceafărul (Eminescu) (Romanian Wikisource)",
+      "url": "https://ro.wikisource.org/wiki/Luceaf%C4%83rul_(Eminescu)",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "oif-2022",
+      "title": "La langue française dans le monde 2022: synthèse",
+      "author": "Observatoire de la langue française, Organisation internationale de la Francophonie",
+      "year": 2022,
+      "publisher": "OIF (PDF copy hosted by University of Łódź)",
+      "url": "https://www.kiib.uni.lodz.pl/fileadmin/user_upload/aktualno%C5%9Bci/Synthese_La_langue_francaise_dans_le_monde_2022.pdf"
+    },
+    {
+      "id": "ia-appel-1915",
+      "title": "Bernart von Ventadorn: Seine Lieder (critical edition, no. 43)",
+      "author": "Carl Appel (ed.)",
+      "year": 1915,
+      "publisher": "Max Niemeyer, Halle (Internet Archive scan)",
+      "url": "https://archive.org/details/bernartvonventad00bern"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-italic",
+      "name": "Proto-Italic",
+      "glottocode": "ital1284",
+      "parent": "proto-indo-european",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-proto-italic",
+        "glotto-ital1284"
+      ],
+      "period": {
+        "from": -1800,
+        "to": -900,
+        "approx": true,
+        "note": "Not dated directly. Bronze Age groups are thought to have crossed the Alps from East-Central Europe around 1800 BC, and Proto-Italic is generally associated with the Terramare (1700–1150 BC) and Proto-Villanovan (1200–900 BC) cultures. By the end of the Bronze Age Italic speakers had spread through the peninsula and were differentiating into separate languages.",
+        "sources": [
+          "wp-proto-italic",
+          "wp-italic-peoples"
+        ]
+      },
+      "homeland": {
+        "lat": 47.8,
+        "lng": 16.5,
+        "label": "Central Europe north and east of the Alps, before the move into Italy",
+        "sources": [
+          "wp-proto-italic",
+          "wp-italic-peoples"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Italic is the reconstructed ancestor of Latin, Oscan, Umbrian and the other Italic languages. No text in it survives; linguists rebuild it with the comparative method, and and because Latin is the only well-attested Italic language, it is the main source for the reconstruction. Reconstructed words such as *frātēr, 'brother', explain both Latin frātēr and Umbrian fratrom.",
+          "sources": [
+            "wp-proto-italic"
+          ]
+        },
+        {
+          "text": "Its speakers are thought to have lived north of the Alps before moving south into the peninsula during the second half of the second millennium BC. Archaeologists connect them with cremating Urnfield-related groups: the Terramare villages of the Po Valley and the Proto-Villanovan culture that spread across Italy from about 1200 BC. By the end of the Bronze Age, separate Italic-speaking communities were settling central and southern Italy.",
+          "sources": [
+            "wp-proto-italic",
+            "wp-italic-peoples"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The homeland and date are debated. Glottochronological work has argued that Proto-Italic split from western Proto-Indo-European before 2500 BC, and Bayesian phylogenetic work by Russell Gray and Quentin Atkinson placed the Italic–Germanic split about 5,500 years ago. Another proposal places the emergence of Proto-Italic among Indo-European dialects that remained in what is now Hungary. The link between Proto-Italic and the Terramare culture is an association, not something that can be proved from the archaeology.",
+          "sources": [
+            "wp-proto-italic",
+            "wp-italic-peoples"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osco-umbrian",
+      "name": "Osco-Umbrian (Sabellic)",
+      "glottocode": "sabe1249",
+      "parent": "proto-italic",
+      "kind": "group",
+      "status": "extinct",
+      "sources": [
+        "wp-osco-umbrian",
+        "wp-oscan",
+        "glotto-sabe1249"
+      ]
+    },
+    {
+      "id": "oscan",
+      "name": "Oscan",
+      "glottocode": "osca1245",
+      "iso639_3": "osc",
+      "parent": "osco-umbrian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-oscan",
+        "glotto-osca1245"
+      ],
+      "period": {
+        "from": -500,
+        "to": 79,
+        "approx": true,
+        "note": "Start is the first attestation (inscriptions from the 5th century BC). The latest evidence is graffiti at Pompeii written between the earthquake of 62 AD and the eruption of 79 AD.",
+        "sources": [
+          "wp-oscan"
+        ]
+      },
+      "homeland": {
+        "lat": 41.5,
+        "lng": 14.5,
+        "label": "Samnium, south-central Italy",
+        "sources": [
+          "wp-oscan"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "cippus-abellanus",
+          "year": -150,
+          "approx": true,
+          "lat": 40.958,
+          "lng": 14.601,
+          "place": "Abella (modern Avella), Campania",
+          "description": "The Cippus Abellanus, a limestone slab about 192 cm high inscribed in Oscan, records an agreement between Abella and Nola on the boundaries around a temple of Heracles. It probably dates to around 150 BC and was found in 1745 being used as the base of a door.",
+          "sources": [
+            "wp-cippus-abellanus"
+          ]
+        },
+        {
+          "id": "pompeii-graffiti",
+          "year": 70,
+          "approx": true,
+          "lat": 40.7506,
+          "lng": 14.4897,
+          "place": "Pompeii, Campania",
+          "description": "Oscan graffiti on walls of Pompeii that were rebuilt after the earthquake of 62 AD must have been written between 62 and 79 AD, which shows the language was still used in at least one town until the eruption of Vesuvius.",
+          "sources": [
+            "wp-oscan"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Oscan alphabet (Old Italic)",
+            "code": "Ital"
+          },
+          {
+            "name": "Greek",
+            "code": "Grek"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-oscan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Oscan was the language of the Samnites, the Lucani and other peoples of southern Italy, spoken across Samnium, Campania, Lucania and Bruttium. It is known from about 800 texts, written in a native alphabet adapted from Etruscan, in a southern script based on Greek, and finally in the Latin alphabet. The most important are the Tabula Bantina, the Tabula Osca and the Cippus Abellanus.",
+          "sources": [
+            "wp-oscan"
+          ]
+        },
+        {
+          "text": "Oscan is considered the most conservative of the known Italic languages, keeping the inherited diphthongs intact. It often differs from Latin in revealing ways: Oscan pis matches Latin quis, 'who', and Oscan herest, 'shall want', comes from a different root from Latin volo. Its use declined after the Social War, but graffiti at Pompeii show that people still wrote it there in the decades before 79 AD.",
+          "sources": [
+            "wp-oscan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbrian",
+      "name": "Umbrian",
+      "glottocode": "umbr1253",
+      "iso639_3": "xum",
+      "parent": "osco-umbrian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-umbrian",
+        "glotto-umbr1253"
+      ],
+      "period": {
+        "from": -700,
+        "to": -1,
+        "approx": true,
+        "note": "Known from about 30 inscriptions dated from the 7th to the 1st century BC; the language is extinct after the 1st century BC.",
+        "sources": [
+          "wp-umbrian"
+        ]
+      },
+      "homeland": {
+        "lat": 43.0,
+        "lng": 12.6,
+        "label": "Ancient Umbria, central Italy",
+        "sources": [
+          "wp-umbrian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "iguvine-tablets",
+          "year": -200,
+          "approx": true,
+          "lat": 43.3518,
+          "lng": 12.5774,
+          "place": "Iguvium (modern Gubbio), Umbria",
+          "description": "The Iguvine Tablets, seven bronze tablets recording the rites of the Atiedian Brethren, a college of twelve priests. The earliest were probably made in the 3rd century BC in the native Umbrian alphabet and the latest in the 1st century BC in the Latin alphabet. They were found in 1444 and sold to the city of Gubbio in 1456.",
+          "sources": [
+            "wp-iguvine-tablets",
+            "wp-umbrian"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Umbrian alphabet (Old Italic)",
+            "code": "Ital"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-umbrian",
+          "wp-iguvine-tablets"
+        ]
+      },
+      "story": [
+        {
+          "text": "Umbrian was spoken by the Umbri in the ancient region of Umbria in central Italy. It is a close relative of Oscan, and the two are grouped as Osco-Umbrian, a branch now usually called Sabellic. About 30 Umbrian inscriptions survive, dated from the 7th to the 1st century BC, with smaller finds from Todi, Assisi and Spoleto.",
+          "sources": [
+            "wp-umbrian"
+          ]
+        },
+        {
+          "text": "Almost everything known about the language comes from the Iguvine Tablets of Gubbio, seven bronze plates with 4,000 to 5,000 words. They set out the sacrifices and prayers of the Atiedian Brethren, twelve priests of Jupiter at Iguvium. They are the longest document in any Osco-Umbrian language and among the only nearly complete records of ritual from the ancient religions of Europe.",
+          "sources": [
+            "wp-umbrian",
+            "wp-iguvine-tablets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latino-faliscan",
+      "name": "Latino-Faliscan",
+      "glottocode": "lati1262",
+      "parent": "proto-italic",
+      "kind": "group",
+      "status": "extinct",
+      "sources": [
+        "wp-latino-faliscan",
+        "wp-faliscan",
+        "glotto-lati1262"
+      ]
+    },
+    {
+      "id": "faliscan",
+      "name": "Faliscan",
+      "glottocode": "fali1291",
+      "iso639_3": "xfa",
+      "parent": "latino-faliscan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-faliscan",
+        "glotto-fali1291"
+      ],
+      "period": {
+        "from": -600,
+        "to": -150,
+        "approx": true,
+        "note": "Start is the oldest inscription (the Ceres inscription of c. 600 BC); Faliscan probably persisted, increasingly mixed with Latin, until at least 150 BC.",
+        "sources": [
+          "wp-faliscan"
+        ]
+      },
+      "homeland": {
+        "lat": 42.29,
+        "lng": 12.41,
+        "label": "Ager Faliscus, southern Etruria (around Falerii)",
+        "sources": [
+          "wp-faliscan"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "ceres-inscription",
+          "year": -600,
+          "approx": true,
+          "lat": 42.2946,
+          "lng": 12.4116,
+          "place": "Falerii (modern Civita Castellana), Lazio",
+          "description": "An inscription to the goddess Ceres of about 600 BC, found at Falerii, is usually taken to be the oldest Faliscan text. Unlike some later Faliscan inscriptions it is written from left to right.",
+          "sources": [
+            "wp-faliscan"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Faliscan alphabet (Old Italic)",
+            "code": "Ital"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-faliscan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Faliscan was the language of the Falisci, who lived in southern Etruria in the Tiber valley. With Latin it forms the Latino-Faliscan group of Italic. About 355 inscriptions survive, mostly short and dating from the 7th to the 2nd century BC. Some run from right to left in an alphabet derived from Etruscan.",
+          "sources": [
+            "wp-faliscan"
+          ]
+        },
+        {
+          "text": "One Faliscan sentence is written around the edge of a picture on a red-figure cup from a necropolis at Falerii Veteres, now in the Etruscan National Museum of Villa Giulia in Rome: foied vino pipafo, cra carefo, 'today I will drink wine; tomorrow I will have none'. The language seems to have survived, increasingly mixed with Latin, until at least 150 BC.",
+          "sources": [
+            "wp-faliscan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-latin",
+      "name": "Old Latin",
+      "glottocode": "oldl1238",
+      "parent": "latino-faliscan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-latin",
+        "glotto-oldl1238"
+      ],
+      "period": {
+        "from": -700,
+        "to": -75,
+        "approx": true,
+        "note": "Attested from the 7th century BC; developed into Classical Latin around 75 BC.",
+        "sources": [
+          "wp-old-latin",
+          "wp-classical-latin"
+        ]
+      },
+      "homeland": {
+        "lat": 41.85,
+        "lng": 12.55,
+        "label": "Latium, the lower Tiber area around Rome",
+        "sources": [
+          "wp-latin"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "praeneste-fibula",
+          "year": -675,
+          "approx": true,
+          "lat": 41.8394,
+          "lng": 12.8914,
+          "place": "Praeneste (modern Palestrina), Lazio",
+          "description": "The Praeneste fibula, whose inscription includes the dative Numasiōi, may be the earliest known specimen of Latin. A 2011 analysis declared it genuine and dated it to the first half of the 7th century BC.",
+          "sources": [
+            "wp-old-latin"
+          ]
+        },
+        {
+          "id": "lapis-niger",
+          "year": -560,
+          "approx": true,
+          "lat": 41.893,
+          "lng": 12.4853,
+          "place": "Comitium, Roman Forum, Rome",
+          "description": "Beneath the black paving of the Lapis Niger shrine lies a stone block carrying one of the earliest known Old Latin inscriptions, dated c. 570–550 BC. It contains the word rex. The site was excavated by Giacomo Boni between 1899 and 1905.",
+          "sources": [
+            "wp-lapis-niger"
+          ]
+        },
+        {
+          "id": "duenos-inscription",
+          "year": -550,
+          "approx": true,
+          "lat": 41.899,
+          "lng": 12.493,
+          "place": "Between the Quirinal and Viminal hills (Via Nazionale), Rome",
+          "description": "The Duenos inscription, written right to left without word spaces on a triple vase (kernos), was found by Heinrich Dressel in 1880. It is variously dated from the 7th to the 5th century BC and is now in the Staatliche Museen in Berlin.",
+          "sources": [
+            "wp-duenos"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Archaic Latin alphabet",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-latin"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Latin is the language of Rome and Latium before about 75 BC. Its early texts are short inscriptions: the Praeneste fibula, the earliest known specimen of Latin, and, from the late Kingdom or early Republic, the Lapis Niger stone in the Forum, the Duenos vase and the Garigliano bowl. Their forms look strange beside the Latin of Cicero: the Duenos inscription writes duenos, 'good', a word that later became duonos and then bonus.",
+          "sources": [
+            "wp-old-latin"
+          ]
+        },
+        {
+          "text": "Romans of the late Republic already knew their language had an older stage, which Cicero called verborum vetustas prisca. Literature in Old Latin includes the comedies of Plautus (c. 254–184 BC) and the surviving fragments of the Twelve Tables, traditionally dated to 449 BC. Until about 250 BC, Old Latin probably stressed the first syllable of every word.",
+          "sources": [
+            "wp-old-latin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latin",
+      "name": "Latin (Classical)",
+      "nativeName": "Lingua Latina",
+      "nativeScript": "Latn",
+      "glottocode": "lati1261",
+      "iso639_3": "lat",
+      "parent": "old-latin",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "wp-latin",
+        "wp-classical-latin",
+        "glotto-lati1261"
+      ],
+      "period": {
+        "from": -75,
+        "to": null,
+        "approx": true,
+        "note": "Classical Latin developed from Old Latin around 75 BC and by the 3rd century AD had developed into Late Latin. Latin as a whole stopped being a native language as it turned into the Romance languages between the 6th and 9th centuries, but it continued in written use (Medieval, Renaissance and Neo-Latin) and remains the official language of the Holy See, so this entry is classed as classical, not extinct.",
+        "sources": [
+          "wp-classical-latin",
+          "wp-latin"
+        ]
+      },
+      "homeland": {
+        "lat": 41.8933,
+        "lng": 12.4829,
+        "label": "Rome, Latium",
+        "sources": [
+          "wp-latin"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "vindolanda-tablets",
+          "year": 100,
+          "approx": true,
+          "lat": 54.9913,
+          "lng": -2.3607,
+          "place": "Vindolanda fort, near Hadrian's Wall, northern England",
+          "description": "The Vindolanda tablets, ink letters on thin wooden leaves from the 1st and 2nd centuries AD, record life on Rome's northern frontier. Among them is Claudia Severa's invitation to a birthday party of about 100 AD, perhaps the oldest surviving document written in Latin by a woman.",
+          "sources": [
+            "wp-vindolanda"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-latin"
+        ]
+      },
+      "story": [
+        {
+          "text": "Latin was first spoken by the Latins in Latium, the lower Tiber area around Rome. As the Roman Republic expanded it became the dominant language of the Italian peninsula and then of the Roman Empire. By the late Republic, Old Latin had become standardised Classical Latin, the literary standard of writers of the late Republic and early Empire.",
+          "sources": [
+            "wp-latin",
+            "wp-classical-latin"
+          ]
+        },
+        {
+          "text": "Cicero and his contemporaries distinguished this polished Latinitas from the everyday speech they called sermo vulgaris. The Classical standard became the model for Latin taught in later centuries, from Alcuin in Charlemagne's time to the Renaissance. Latin remained the common language of scholarship in Europe into the early 19th century, and Ecclesiastical Latin is still the official language of the Holy See.",
+          "sources": [
+            "wp-classical-latin",
+            "wp-latin"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "aeneid",
+          "title": "Aeneid",
+          "titleOriginal": "Aeneis",
+          "author": "Virgil (Publius Vergilius Maro)",
+          "date": "c. 29–19 BCE",
+          "year": -24,
+          "significance": "Virgil's epic of the Trojan Aeneas, who flees Troy and becomes the ancestor of the Romans, gave Rome a founding myth or national epic. Its 9,896 lines of dactylic hexameter were still unfinished when Virgil died in 19 BC.",
+          "original": "Arma virumque canō, Trōiae quī prīmus ab ōrīs\nĪtaliam, fātō profugus, Lāvīniaque vēnit\nlītora, multum ille et terrīs iactātus et altō\nvī superum saevae memorem Iūnōnis ob īram;\nmulta quoque et bellō passus, dum conderet urbem,\nīnferretque deōs Latiō, genus unde Latīnum,\nAlbānīque patrēs, atque altae moenia Rōmae.",
+          "originalScript": "Latn",
+          "translation": "Arms, and the Man I sing, who forc'd by Fate,\nAnd haughty Juno's unrelenting Hate;\nExpell'd and exil'd, left the Trojan Shoar:\nLong Labours, both by Sea and Land he bore;\nAnd in the doubtful War, before he won\nThe Latian Realm, and built the destin'd Town:\nHis banish'd Gods restor'd to Rites Divine,\nAnd setl'd sure Succession in his Line:\nFrom whence the Race of Alban Fathers come,\nAnd the long Glories of Majestick Rome.",
+          "translator": "John Dryden",
+          "translationYear": 1697,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://la.wikisource.org/wiki/Aeneis/Liber_I",
+          "sources": [
+            "ws-aeneid-la",
+            "ws-aeneid-dryden",
+            "wp-aeneid"
+          ]
+        },
+        {
+          "id": "metamorphoses",
+          "title": "Metamorphoses",
+          "titleOriginal": "Metamorphōsēs",
+          "author": "Ovid (Publius Ovidius Naso)",
+          "date": "8 CE",
+          "year": 8,
+          "significance": "Ovid's narrative poem tells the history of the world from creation to the deification of Julius Caesar through over 250 myths in 15 books. It is one of the most influential works in Western culture and inspired Dante, Boccaccio, Chaucer and Shakespeare.",
+          "original": "In nova fert animus mutatas dicere formas\ncorpora; di, coeptis (nam vos mutastis et illas)\nadspirate meis primaque ab origine mundi\nad mea perpetuum deducite tempora carmen!",
+          "originalScript": "Latn",
+          "translation": "My mind leads me to speak of forms changed into new bodies; gods, breathe on my undertaking (for you changed those too), and from the first beginning of the world draw down an unbroken song to my own times!",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.thelatinlibrary.com/ovid/ovid.met1.shtml",
+          "sources": [
+            "latlib-ovid",
+            "wp-metamorphoses"
+          ]
+        },
+        {
+          "id": "de-bello-gallico",
+          "title": "Commentaries on the Gallic War",
+          "titleOriginal": "Commentarii de Bello Gallico",
+          "author": "Julius Caesar",
+          "date": "1st century BCE (covers 58–50 BCE)",
+          "year": -50,
+          "significance": "Caesar's third-person account of his wars in Gaul has long been a mainstay of Latin teaching because of its simple, direct prose. Its first sentence, 'Gallia est omnis divisa in partes tres', is among the most quoted in Latin.",
+          "original": "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt.",
+          "originalScript": "Latn",
+          "translation": "Gaul as a whole is divided into three parts, of which the Belgae inhabit one, the Aquitani another, and the third those who in their own language are called Celts, in ours Gauls. All these differ from one another in language, institutions and laws.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.thelatinlibrary.com/caesar/gall1.shtml",
+          "sources": [
+            "latlib-caesar",
+            "wp-gallic-war"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vulgar-latin",
+      "name": "Vulgar Latin",
+      "nativeName": "sermo vulgaris",
+      "nativeScript": "Latn",
+      "glottocode": "vulg1234",
+      "parent": "latin",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-vulgar-latin",
+        "glotto-vulg1234"
+      ],
+      "period": {
+        "from": -75,
+        "to": 800,
+        "approx": true,
+        "note": "Vulgar Latin is the range of informal spoken registers of Latin from the late Republic onward, not a separate language; it ran alongside Classical Latin, so its start is set here at the start of the Classical period. It had developed into the Romance languages by the 9th century.",
+        "sources": [
+          "wp-vulgar-latin",
+          "wp-classical-latin"
+        ]
+      },
+      "homeland": {
+        "lat": 41.9,
+        "lng": 12.5,
+        "label": "Rome and Roman Italy, spreading across the Roman Empire",
+        "sources": [
+          "wp-vulgar-latin",
+          "wp-latin"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "pompeii-graffiti-latin",
+          "year": 79,
+          "approx": true,
+          "lat": 40.7506,
+          "lng": 14.4897,
+          "place": "Pompeii, Campania",
+          "description": "Graffiti preserved at Pompeii already show the spoken language drifting from the classical norm, for example cadaver mortuus for cadaver mortuum ('dead body') and hoc locum for hunc locum ('this place'), an early sign of the loss of the neuter gender.",
+          "sources": [
+            "wp-vulgar-latin"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-vulgar-latin"
+        ]
+      },
+      "story": [
+        {
+          "text": "Vulgar Latin, also called spoken or colloquial Latin, is the name for the informal registers of Latin spoken from the late Roman Republic onward. Roman authors called everyday speech sermo plebeius or sermo vulgaris. Current scholarship sees spoken and written Latin as a continuum, with speech changing faster and writing pulling it back, rather than as two separate languages.",
+          "sources": [
+            "wp-vulgar-latin"
+          ]
+        },
+        {
+          "text": "Evidence for the spoken language comes mostly from writing: informal forms in inscriptions and graffiti such as those at Pompeii, in the work of Petronius, and in texts like the travel account of the pilgrim Egeria. These changes are what link Latin to the Romance languages, which emerged from the regional speech of the former empire between the 6th and 9th centuries.",
+          "sources": [
+            "wp-vulgar-latin",
+            "wp-latin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romance",
+      "name": "Romance",
+      "glottocode": "roma1334",
+      "parent": "vulgar-latin",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "wp-romance",
+        "glotto-roma1334"
+      ],
+      "story": [
+        {
+          "text": "The Romance languages are the languages that descended directly from Vulgar Latin, and the only living branch of the Italic family. The five with the most native speakers are Spanish, Portuguese, French, Italian and Romanian. Romance languages are official in countries from Portugal to Moldova, across much of the Americas, and in parts of Africa.",
+          "sources": [
+            "wp-romance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-french",
+      "name": "Old French",
+      "nativeName": "Franceis",
+      "nativeScript": "Latn",
+      "glottocode": "oldf1239",
+      "iso639_3": "fro",
+      "parent": "romance",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-french",
+        "glotto-oldf1239"
+      ],
+      "period": {
+        "from": 780,
+        "to": 1350,
+        "approx": true,
+        "note": "Spoken in most of northern France between approximately the late 8th and the mid-14th century, when Middle French emerged.",
+        "sources": [
+          "wp-old-french"
+        ]
+      },
+      "homeland": {
+        "lat": 48.86,
+        "lng": 2.35,
+        "label": "Northern France",
+        "sources": [
+          "wp-old-french"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "strasbourg-oaths",
+          "year": 842,
+          "approx": false,
+          "lat": 48.5734,
+          "lng": 7.7521,
+          "place": "Strasbourg, Alsace",
+          "description": "On 14 February 842 Louis the German swore an oath of alliance in an early form of French so that the soldiers of his brother Charles the Bald could understand it. The Oaths of Strasbourg are among the earliest texts written in the Gallo-Romance that became French.",
+          "sources": [
+            "wp-strasbourg-oaths",
+            "wp-old-french"
+          ]
+        },
+        {
+          "id": "roland-oxford-manuscript",
+          "year": 1147,
+          "approx": true,
+          "lat": 51.7541,
+          "lng": -1.254,
+          "place": "Bodleian Library, Oxford, England",
+          "description": "The oldest manuscript of the Song of Roland, written in Anglo-Norman French between 1129 and 1165, is held at the Bodleian Library in Oxford.",
+          "sources": [
+            "wp-song-of-roland"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-french"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old French was not a single language but a group of mutually intelligible Romance dialects, the langues d'oïl, spoken across the northern half of France from about the late 8th to the mid-14th century. The Germanic Frankish language had a strong influence on it, which partly explains why French is recorded earlier than other Romance languages.",
+          "sources": [
+            "wp-old-french"
+          ]
+        },
+        {
+          "text": "Its earliest writings are the Oaths of Strasbourg of 842, sworn by Louis the German so that his brother's soldiers could understand him, and the Sequence of Saint Eulalia of about 880. Saints' lives were the first literary works, followed by the chansons de geste. Old French was also used in Norman England and Ireland and in the crusader states of the Levant.",
+          "sources": [
+            "wp-old-french",
+            "wp-strasbourg-oaths"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "song-of-roland",
+          "title": "The Song of Roland",
+          "titleOriginal": "La Chanson de Roland",
+          "author": "Anonymous (the manuscript names a Turoldus)",
+          "date": "c. 1040–1115",
+          "year": 1080,
+          "significance": "The oldest surviving major work of French literature and the first example of the chanson de geste. It retells Roland's last stand at Roncevaux in 778; the final poem has about 4,000 lines, and the oldest manuscript, in the Bodleian Library, dates from between 1129 and 1165.",
+          "original": "Carles li Reis, nostre emperere magnes,\nSet anz tuz pleins ad estet en Espaigne :\nCunquist la tere tresqu’en la mer altaigne.\nN’i ad castel ki devant lui remaigne ;\nMurs ne citez n’i est remés à fraindre\nFors Sarraguce, ki est en une muntaigne.\nLi reis Marsilies la tient, ki Deu n’enaimet ;\nMahumet sert e Apollin recleimet :\nNe s’ poet guarder que mals ne li ataignet. Aoi.",
+          "originalScript": "Latn",
+          "translation": "Charlès the King, our Lord and Sovereign,\nFull seven years hath sojournèd in Spain,\nConquered the land, and won the western main,\nNow no fortress against him doth remain,\nNo city walls are left for him to gain,\nSave Sarraguce, that sits on high mountain.\nMarsile its King, who feareth not God’s name,\nMahumet’s man, he invokes Apollin’s aid,\nNor wards off ills that shall to him attain.\nAOI.",
+          "translator": "C. K. Scott Moncrieff",
+          "translationYear": 1919,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://fr.wikisource.org/wiki/La_Chanson_de_Roland/L%C3%A9on_Gautier/%C3%89dition_critique/Premi%C3%A8re_partie/Texte",
+          "sources": [
+            "ws-roland-gautier",
+            "ws-roland-moncrieff",
+            "wp-song-of-roland",
+            "wp-scott-moncrieff"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "nativeName": "français",
+      "nativeScript": "Latn",
+      "glottocode": "stan1290",
+      "iso639_3": "fra",
+      "parent": "old-french",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-french",
+        "glotto-stan1290"
+      ],
+      "period": {
+        "from": 1350,
+        "to": null,
+        "approx": true,
+        "note": "Middle French emerged in the mid-14th century and lasted to the early 17th century; it is included here in the French stage, with Modern French growing out of the Francien dialect.",
+        "sources": [
+          "wp-old-french",
+          "wp-french"
+        ]
+      },
+      "homeland": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "label": "Île-de-France (Paris region)",
+        "sources": [
+          "wp-old-french",
+          "wp-french"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "aosta-1536",
+          "year": 1536,
+          "approx": false,
+          "lat": 45.7373,
+          "lng": 7.3201,
+          "place": "Aosta Valley, northwestern Italy",
+          "description": "The first government authority to adopt Modern French as its official language was the Aosta Valley, in 1536, three years before France itself.",
+          "sources": [
+            "wp-french"
+          ]
+        },
+        {
+          "id": "villers-cotterets",
+          "year": 1539,
+          "approx": false,
+          "lat": 49.2533,
+          "lng": 3.0903,
+          "place": "Villers-Cotterêts, France",
+          "description": "With the Ordinance of Villers-Cotterêts in 1539, Francis I mandated French as the exclusive language for all legal acts and official communications.",
+          "sources": [
+            "wp-french",
+            "wp-occitan"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (French alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-french"
+        ]
+      },
+      "speakers": {
+        "count": 321000000,
+        "year": 2022,
+        "scope": "L1+L2",
+        "sources": [
+          "oif-2022"
+        ]
+      },
+      "story": [
+        {
+          "text": "French grew out of the Gallo-Romance dialects of northern France, shaped by the Celtic languages of Roman Gaul and by the Frankish of its Germanic conquerors. The Francien dialect of the Île-de-France survived and thrived through the Middle French period, from the mid-14th to the early 17th century, and Modern French grew out of it.",
+          "sources": [
+            "wp-french"
+          ]
+        },
+        {
+          "text": "In 1539 the Ordinance of Villers-Cotterêts required French for all legal acts in the kingdom; the Aosta Valley had already adopted it in 1536. French colonialism later carried it to the Americas, Africa and Asia. Today French is an official language in 26 countries, and the Organisation internationale de la Francophonie estimated 321 million French speakers worldwide in 2022, counting speakers of all kinds, not only native ones.",
+          "sources": [
+            "wp-french",
+            "oif-2022"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "le-misanthrope",
+          "title": "The Misanthrope",
+          "titleOriginal": "Le Misanthrope",
+          "author": "Molière",
+          "date": "1666",
+          "year": 1666,
+          "significance": "A verse comedy by Molière, first performed on 4 June 1666 at the Théâtre du Palais-Royal in Paris by the King's Players.",
+          "original": "PHILINTE\nQu’est-ce donc ? Qu’avez-vous ?\nALCESTE\nLaissez-moi, je vous prie.\nPHILINTE\nMais encor, dites-moi, quelle bizarrerie…\nALCESTE\nLaissez-moi là, vous dis-je, et courez vous cacher.",
+          "originalScript": "Latn",
+          "translation": "PHILINTE\nWhat is it? What’s the matter?\nALCESTE\nLeave me, pray.\nPHILINTE\nBut tell me first, what new fantastic humour . . .\nALCESTE\nLeave me alone, I say. Out of my sight!",
+          "translator": "Curtis Hidden Page",
+          "translationYear": 1908,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://fr.wikisource.org/wiki/Le_Misanthrope/%C3%89dition_Louandre,_1910/Acte_I",
+          "sources": [
+            "ws-misanthrope-fr",
+            "ws-misanthrope-en",
+            "wp-misanthrope",
+            "wp-curtis-hidden-page"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "italian",
+      "name": "Italian",
+      "nativeName": "italiano",
+      "nativeScript": "Latn",
+      "glottocode": "ital1282",
+      "iso639_3": "ita",
+      "parent": "romance",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-italian",
+        "glotto-ital1282"
+      ],
+      "period": {
+        "from": 960,
+        "to": null,
+        "approx": true,
+        "note": "The boundary between late Vulgar Latin and early Romance in Italy is imprecise. The start used here is the earliest text that is definitely vernacular, the Placiti Cassinesi of 960–963.",
+        "sources": [
+          "wp-italian",
+          "wp-placiti"
+        ]
+      },
+      "homeland": {
+        "lat": 43.7696,
+        "lng": 11.2558,
+        "label": "Tuscany (Florence)",
+        "sources": [
+          "wp-italian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "placito-capuano",
+          "year": 960,
+          "approx": false,
+          "lat": 41.1066,
+          "lng": 14.2138,
+          "place": "Capua, Campania",
+          "description": "The Placiti Cassinesi, four legal records of 960–963 about land disputes in Capua, Sessa Aurunca and Teano involving monasteries of Monte Cassino, contain witness formulas in the vernacular: 'Sao ko kelle terre, per kelle fini que ki contene, trenta anni le possette parte Sancti Benedicti.'",
+          "sources": [
+            "wp-placiti",
+            "wp-italian"
+          ]
+        },
+        {
+          "id": "accademia-della-crusca",
+          "year": 1583,
+          "approx": true,
+          "lat": 43.7696,
+          "lng": 11.2558,
+          "place": "Florence, Tuscany",
+          "description": "The Accademia della Crusca was founded in Florence in 1582–1583 as the body regulating the Italian language. Its work led to the first Italian dictionary, published in 1612.",
+          "sources": [
+            "wp-italian"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Italian alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-italian"
+        ]
+      },
+      "speakers": {
+        "count": 65000000,
+        "year": 2022,
+        "scope": "L1",
+        "sources": [
+          "wp-italian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Standard Italian is based on the literary Florentine of Tuscany. It was first given form in the early 14th century by Dante Alighieri, whose Commedia, written in his native Florentine, was read across the peninsula. Florence's wealth and its position between the northern and southern dialects helped its speech become the model for the rest of Italy.",
+          "sources": [
+            "wp-italian"
+          ]
+        },
+        {
+          "text": "In the 16th century the Venetian Pietro Bembo argued for a standard based on Petrarch and Boccaccio, and his view prevailed. The Accademia della Crusca, founded in Florence in 1582–1583, published the first Italian dictionary in 1612. For centuries most Italians spoke local vernaculars; Italian spread as a common language after Napoleon's conquest and the unification of Italy.",
+          "sources": [
+            "wp-italian"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "divine-comedy",
+          "title": "The Divine Comedy",
+          "titleOriginal": "Commedia (Divina Commedia)",
+          "author": "Dante Alighieri",
+          "date": "c. 1308–1321",
+          "year": 1314,
+          "significance": "Widely considered the pre-eminent work of Italian literature, the poem's journey through Inferno, Purgatorio and Paradiso helped establish Tuscan as the standard Italian language.",
+          "original": "Nel mezzo del cammin di nostra vita\nmi ritrovai per una selva oscura,\nché la diritta via era smarrita.\n\nAhi quanto a dir qual era è cosa dura\nesta selva selvaggia e aspra e forte\nche nel pensier rinova la paura!",
+          "originalScript": "Latn",
+          "translation": "Midway upon the journey of our life\nI found myself within a forest dark,\nFor the straightforward pathway had been lost.\n\nAh me! how hard a thing it is to say\nWhat was this forest savage, rough, and stern,\nWhich in the very thought renews the fear.",
+          "translator": "Henry Wadsworth Longfellow",
+          "translationYear": 1867,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://it.wikisource.org/wiki/Divina_Commedia/Inferno/Canto_I",
+          "sources": [
+            "ws-dante",
+            "poets-longfellow",
+            "wp-divine-comedy"
+          ]
+        },
+        {
+          "id": "canzoniere",
+          "title": "Canzoniere, sonnet 1",
+          "titleOriginal": "Rerum vulgarium fragmenta, I: Voi ch'ascoltate in rime sparse il suono",
+          "author": "Petrarch (Francesco Petrarca)",
+          "date": "14th century",
+          "year": 1350,
+          "significance": "The opening sonnet of Petrarch's Canzoniere, also called the Rime sparse, his collection of poems in Italian; Bembo later held Petrarch up as a model for the Italian literary language.",
+          "original": "Voi ch’ascoltate in rime sparse il suono\ndi quei sospiri ond’io nudriva ’l core\nin sul mio primo giovenile errore\nquand’era in parte altr’uom da quel ch’i’ sono,",
+          "originalScript": "Latn",
+          "translation": "You who hear in scattered rhymes the sound\nof those sighs with which I fed my heart\nat the time of my first youthful error,\nwhen I was in part another man from the one I am,",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://it.wikisource.org/wiki/Canzoniere_(Rerum_vulgarium_fragmenta)/Voi_ch%27ascoltate_in_rime_sparse_il_suono",
+          "sources": [
+            "ws-petrarch",
+            "wp-canzoniere",
+            "wp-italian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-spanish",
+      "name": "Old Spanish (Old Castilian)",
+      "nativeName": "romançe",
+      "nativeScript": "Latn",
+      "glottocode": "olds1249",
+      "iso639_3": "osp",
+      "parent": "romance",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-spanish",
+        "glotto-olds1249"
+      ],
+      "period": {
+        "from": 800,
+        "to": 1500,
+        "approx": true,
+        "note": "Wikipedia gives the era of Old Spanish as the 9th–15th centuries; the oldest Latin texts with traces of Spanish come from mid-northern Iberia in the 9th century.",
+        "sources": [
+          "wp-old-spanish",
+          "wp-spanish"
+        ]
+      },
+      "homeland": {
+        "lat": 42.3439,
+        "lng": -3.6969,
+        "label": "Castile (around Burgos), north-central Spain",
+        "sources": [
+          "wp-spanish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "glosas-emilianenses",
+          "year": 1000,
+          "approx": true,
+          "lat": 42.3263,
+          "lng": -2.8627,
+          "place": "Monastery of San Millán de la Cogolla, La Rioja",
+          "description": "The Glosas Emilianenses, marginal notes written in the 10th or 11th century in a Latin codex from the monastery of San Millán, are early evidence of an Iberian Romance variety similar to modern Spanish or Navarro-Aragonese, and also of medieval Basque.",
+          "sources": [
+            "wp-glosas"
+          ]
+        },
+        {
+          "id": "toledo-13th-century",
+          "year": 1250,
+          "approx": true,
+          "lat": 39.8628,
+          "lng": -4.0273,
+          "place": "Toledo, Castile",
+          "description": "The first systematic written use of the language, and the first written standard of Spanish, developed in Toledo in the 13th century.",
+          "sources": [
+            "wp-spanish"
+          ]
+        },
+        {
+          "id": "nebrija-grammar",
+          "year": 1492,
+          "approx": false,
+          "lat": 40.9701,
+          "lng": -5.6635,
+          "place": "Salamanca",
+          "description": "Antonio de Nebrija's Gramática de la lengua castellana, written in Salamanca in 1492, was the first grammar written for a modern European language.",
+          "sources": [
+            "wp-spanish"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Arabic (Aljamiado, marginal)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-old-spanish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Spanish, or Old Castilian, is the Ibero-Romance spoken in Castile and its surroundings in the Middle Ages. According to Ramón Menéndez Pidal, it grew from the local Vulgar Latin of an area in northern Iberia centred on Burgos. It spread south with the reconquest and took in many words from the Arabic of al-Andalus.",
+          "sources": [
+            "wp-old-spanish",
+            "wp-spanish"
+          ]
+        },
+        {
+          "text": "Its written standard was first developed in Toledo in the 13th century. The earliest and most famous literary work in Old Spanish is the Cantar de mio Cid. At the end of the period, in 1492, Antonio de Nebrija wrote in Salamanca the first grammar of any modern European language; in its introduction he wrote that language was always the companion of empire.",
+          "sources": [
+            "wp-old-spanish",
+            "wp-spanish"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "cantar-de-mio-cid",
+          "title": "The Song of the Cid",
+          "titleOriginal": "Cantar de mio Cid",
+          "author": "Anonymous",
+          "date": "c. 1140–1207 (surviving 14th-century copy naming Per Abbat and the year 1207)",
+          "year": 1170,
+          "significance": "The oldest preserved Castilian epic poem and a national epic of Spain, about the exiled knight Rodrigo Díaz de Vivar. It survives in one incomplete manuscript in the National Library in Madrid.",
+          "original": "De los sos oios tan fuerte mientre lorando\nTornaba la cabeza e estabalos catando :\nVio puertas abiertas euzos sin cañados,\nAlcandaras vacias sin pielles e sin mantos,\nE sin falcones e sin adtores mudados.\nSospiró mio Cid ca mucho avie grandes cuidados:\nFabló mio Cid bien e tan mesurado :\nGrado a tí Señor Padre que estás en alto :\nEsto me han buelto mios Enemigos malos :",
+          "originalScript": "Latn",
+          "translation": "From his eyes weeping so bitterly,\nhe turned his head and stood looking at them.\nHe saw doors open and gates without locks,\nperches empty, without furs and without cloaks,\nand without falcons and without moulted hawks.\nMy Cid sighed, for he had very great cares.\nMy Cid spoke well and with great restraint:\n'Thanks be to you, Lord Father, who are on high!\nThis my wicked enemies have done to me.'",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://es.wikisource.org/wiki/Colecci%C3%B3n_de_poes%C3%ADas_castellanas_anteriores_al_siglo_XV/Tomo_I/Poema_del_Cid",
+          "sources": [
+            "ws-cid-1779",
+            "wp-cid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spanish",
+      "name": "Spanish",
+      "nativeName": "español",
+      "nativeScript": "Latn",
+      "glottocode": "stan1288",
+      "iso639_3": "spa",
+      "parent": "old-spanish",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-spanish",
+        "glotto-stan1288"
+      ],
+      "period": {
+        "from": 1500,
+        "to": null,
+        "approx": true,
+        "note": "Follows the end of the Old Spanish period (15th century); Don Quixote is described as written in Early Modern Spanish.",
+        "sources": [
+          "wp-old-spanish",
+          "wp-don-quixote"
+        ]
+      },
+      "homeland": {
+        "lat": 42.3439,
+        "lng": -3.6969,
+        "label": "Kingdom of Castile, north-central Spain",
+        "sources": [
+          "wp-spanish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "don-quixote-1605",
+          "year": 1605,
+          "approx": false,
+          "lat": 40.4168,
+          "lng": -3.7038,
+          "place": "Madrid",
+          "description": "Part I of Cervantes' Don Quixote, sold to the Madrid publisher-bookseller Francisco de Robles, came out on 16 January 1605.",
+          "sources": [
+            "wp-don-quixote"
+          ]
+        },
+        {
+          "id": "philippines-1946",
+          "year": 1946,
+          "approx": false,
+          "lat": 14.5995,
+          "lng": 120.9842,
+          "place": "Manila, Philippines",
+          "description": "Spanish, carried across the Pacific in the colonial period, remained an official language of the Philippines when the country became independent in 1946, alongside English and Filipino.",
+          "sources": [
+            "wp-spanish"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Spanish alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-spanish"
+        ]
+      },
+      "speakers": {
+        "count": 519000000,
+        "year": 2025,
+        "scope": "L1",
+        "sources": [
+          "wp-spanish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Spanish, also called Castilian, evolved from the Vulgar Latin of the Iberian Peninsula in the Kingdom of Castile. Colonial expansion in the early modern period carried it to the Americas and across the Pacific to the Philippines. Today it has about 519 million native speakers, mainly in the Americas and Spain, and about 636 million speakers in total.",
+          "sources": [
+            "wp-spanish"
+          ]
+        },
+        {
+          "text": "About 75% of modern Spanish vocabulary comes from Latin. The Royal Spanish Academy, which now prefers the name español in its publications, called the language castellano from 1713 to 1923. Spanish is an official language of the United Nations, the European Union, the African Union and the Organization of American States, among other bodies.",
+          "sources": [
+            "wp-spanish"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "don-quixote",
+          "title": "Don Quixote",
+          "titleOriginal": "El ingenioso hidalgo don Quixote de la Mancha",
+          "author": "Miguel de Cervantes",
+          "date": "1605 (Part I) and 1615 (Part II)",
+          "year": 1605,
+          "significance": "Considered a founding work of Western literature and the first modern novel, and one of the most translated books in the world.",
+          "original": "En vn lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que viuia vn hidalgo de los de lança en astillero, adarga antigua, rozin flaco, y galgo corredor.",
+          "originalScript": "Latn",
+          "translation": "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing.",
+          "translator": "John Ormsby",
+          "translationYear": 1885,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1608)/Capitulo_I",
+          "sources": [
+            "ws-quixote-1608",
+            "ws-quixote-ormsby",
+            "wp-don-quixote",
+            "wp-ormsby"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galician-portuguese",
+      "name": "Galician-Portuguese (Old Portuguese)",
+      "glottocode": "oldp1257",
+      "parent": "romance",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-galician-portuguese",
+        "glotto-oldp1257"
+      ],
+      "period": {
+        "from": 870,
+        "to": 1400,
+        "approx": true,
+        "note": "Start is the first attestation: Galician-Portuguese words appear in an otherwise Latin document from northern Portugal dated 870. By 1400 it had split into Galician, Portuguese, Fala and Eonavian.",
+        "sources": [
+          "wp-galician-portuguese"
+        ]
+      },
+      "homeland": {
+        "lat": 42.0,
+        "lng": -8.3,
+        "label": "Galicia and northern Portugal, north of the Douro",
+        "sources": [
+          "wp-galician-portuguese"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "melon-charter",
+          "year": 1231,
+          "approx": false,
+          "lat": 42.2586,
+          "lng": -8.2148,
+          "place": "Monastery of Melón, Galicia",
+          "description": "Legal charters written in the local language survive in Galicia from 1230 onward; the earliest is probably a document from the monastery of Melón dated 1231.",
+          "sources": [
+            "wp-galician"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-galician-portuguese"
+        ]
+      },
+      "story": [
+        {
+          "text": "Galician-Portuguese was the West Iberian Romance language of the medieval northwest, first spoken between the Atlantic and the Douro, in Galicia and northern Portugal, and carried south by the reconquest. It is the common ancestor of Galician and Portuguese. Romance words appear in Latin documents from 870 onward, and scholars still debate which surviving document is the first written wholly in the language.",
+          "sources": [
+            "wp-galician-portuguese",
+            "wp-portuguese"
+          ]
+        },
+        {
+          "text": "From the late 12th to the mid-14th century it was the language of lyric poetry across the Iberian kingdoms. Nearly 1,700 secular poems survive, along with over 400 Cantigas de Santa Maria composed under the Castilian king Alfonso X. King Dinis of Portugal, the author of 137 surviving poems, made it the official language of Portugal in 1290 and called it Portuguese.",
+          "sources": [
+            "wp-galician-portuguese"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "ondas-do-mar-de-vigo",
+          "title": "Waves of the Sea of Vigo",
+          "titleOriginal": "Ondas do mar de Vigo",
+          "author": "Martin Codax",
+          "date": "13th century (Wikisource: late 13th or early 14th century)",
+          "year": 1270,
+          "significance": "A cantiga de amigo by the joglar Martin Codax. His seven cantigas d'amigo survive in the Pergaminho Vindel with music for six of them, the only cantigas d'amigo whose melodies are known.",
+          "original": "Ondas do mar de Vigo,\nse vistes meu amigo?\nE ai Deus, se verrá cedo!\n\nOndas do mar levado,\nse vistes meu amado?\nE ai Deus, se verrá cedo!",
+          "originalScript": "Latn",
+          "translation": "Waves of the sea of Vigo,\nhave you seen my friend?\nAnd oh God, will he come soon!\n\nWaves of the raised sea,\nhave you seen my beloved?\nAnd oh God, will he come soon!",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://gl.wikisource.org/wiki/Ondas_do_mar_de_Vigo",
+          "sources": [
+            "ws-codax",
+            "wp-martin-codax"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Glottolog has no languoid for Galician-Portuguese as a whole. The code oldp1257 is its Old Portuguese, which is the nearest match for the medieval stage and is used here for the common ancestor of Galician and Portuguese.",
+          "sources": [
+            "glotto-oldp1257"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portuguese",
+      "name": "Portuguese",
+      "nativeName": "português",
+      "nativeScript": "Latn",
+      "glottocode": "port1283",
+      "iso639_3": "por",
+      "parent": "galician-portuguese",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-portuguese",
+        "glotto-port1283"
+      ],
+      "period": {
+        "from": 1400,
+        "to": null,
+        "approx": true,
+        "note": "Galician-Portuguese had split into Galician and Portuguese by 1400.",
+        "sources": [
+          "wp-galician-portuguese"
+        ]
+      },
+      "homeland": {
+        "lat": 41.5,
+        "lng": -8.4,
+        "label": "Northern Portugal",
+        "sources": [
+          "wp-galician-portuguese"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "brazil-1500",
+          "year": 1500,
+          "approx": false,
+          "lat": -16.45,
+          "lng": -39.06,
+          "place": "Coast of Brazil",
+          "description": "On 22 April 1500 a Portuguese fleet under Pedro Álvares Cabral arrived in what is now Brazil and claimed it for Portugal. Portuguese did not become the majority language at once: the coast was dominated by Tupi–Guarani languages.",
+          "sources": [
+            "wp-portuguese"
+          ]
+        },
+        {
+          "id": "rio-1808",
+          "year": 1808,
+          "approx": false,
+          "lat": -22.9068,
+          "lng": -43.1729,
+          "place": "Rio de Janeiro, Brazil",
+          "description": "The transfer of the Portuguese royal court to Rio de Janeiro in 1808 strengthened the status of European Portuguese in Brazil, which had been made the sole official language of administration and education there in 1757.",
+          "sources": [
+            "wp-portuguese"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Portuguese alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-portuguese"
+        ]
+      },
+      "story": [
+        {
+          "text": "Portuguese descends from the Galician-Portuguese of the medieval northwest. The Will of Afonso II, dated 1214, is widely regarded as one of the earliest dated documents written entirely in Portuguese. The first grammars followed in the Renaissance: Fernão de Oliveira published one in 1536 and João de Barros another in 1540.",
+          "sources": [
+            "wp-portuguese"
+          ]
+        },
+        {
+          "text": "Portuguese spread to every continent; Brazil was claimed for Portugal in 1500. It is now the official language of eight countries (Portugal, Brazil, Angola, Mozambique, Cape Verde, Guinea-Bissau, São Tomé and Príncipe, and Timor-Leste), co-official in Macau and Equatorial Guinea, and the most widely spoken language of the Southern Hemisphere.",
+          "sources": [
+            "wp-portuguese"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "os-lusiadas",
+          "title": "The Lusiads",
+          "titleOriginal": "Os Lusíadas",
+          "author": "Luís Vaz de Camões",
+          "date": "1572",
+          "year": 1572,
+          "significance": "Widely regarded as the most important work of Portuguese-language literature, this epic in ten cantos celebrates Vasco da Gama's discovery of a sea route to India and is often compared to Virgil's Aeneid.",
+          "original": "As armas e os barões assinalados,\nQue da ocidental praia Lusitana,\nPor mares nunca de antes navegados,\nPassaram ainda além da Taprobana,\nEm perigos e guerras esforçados,\nMais do que prometia a força humana,\nE entre gente remota edificaram\nNovo Reino, que tanto sublimaram;",
+          "originalScript": "Latn",
+          "translation": "The arms and the distinguished barons\nwho, from the western Lusitanian shore,\nby seas never sailed before,\npassed even beyond Taprobana,\nhardened in dangers and wars\nmore than human strength promised,\nand among a remote people built\na new kingdom, which they so exalted;",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://pt.wikisource.org/wiki/Os_Lus%C3%ADadas_(grafia_atualizada)/I",
+          "sources": [
+            "ws-lusiadas",
+            "wp-lusiadas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galician",
+      "name": "Galician",
+      "nativeName": "galego",
+      "nativeScript": "Latn",
+      "glottocode": "gali1258",
+      "iso639_3": "glg",
+      "parent": "galician-portuguese",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-galician",
+        "glotto-gali1258"
+      ],
+      "period": {
+        "from": 1400,
+        "to": null,
+        "approx": true,
+        "note": "Galician-Portuguese had split into Galician and Portuguese by 1400.",
+        "sources": [
+          "wp-galician-portuguese"
+        ]
+      },
+      "homeland": {
+        "lat": 42.8782,
+        "lng": -8.5448,
+        "label": "Galicia, northwestern Spain",
+        "sources": [
+          "wp-galician"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Galician alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-galician"
+        ]
+      },
+      "story": [
+        {
+          "text": "Galician developed locally from Vulgar Latin through the medieval stage scholars call Galician-Portuguese. Legal charters written in Galician survive from 1230 to 1530, and Galician was by far the main written language of Galicia in that period. Spanish was later the only official language in Galicia, from the 18th century until 1975.",
+          "sources": [
+            "wp-galician"
+          ]
+        },
+        {
+          "text": "A 19th-century literary revival, the Rexurdimento, was led by Rosalía de Castro, Eduardo Pondal and Manuel Curros Enríquez. Rosalía's Cantares gallegos appeared on 17 May 1863, a date now marked every year as Galician Literature Day. Galician is now official in Galicia alongside Spanish and is regulated by the Royal Galician Academy, founded in 1906.",
+          "sources": [
+            "wp-galician",
+            "wp-rosalia"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The relationship between Galician and Portuguese is debated. The Galician government, universities and the Royal Galician Academy treat Galician as a language of its own, while reintegrationist organisations such as the Galician Language Association consider Galician and Portuguese two forms of one Galician-Portuguese language. Past editions of the Encyclopædia Britannica described Galician as a Portuguese dialect, while in 2019 the director of the Instituto Camões called the two close kin but different languages.",
+          "sources": [
+            "wp-galician"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalan",
+      "name": "Catalan",
+      "nativeName": "català",
+      "nativeScript": "Latn",
+      "glottocode": "stan1289",
+      "iso639_3": "cat",
+      "parent": "romance",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-catalan",
+        "glotto-stan1289"
+      ],
+      "period": {
+        "from": 800,
+        "to": null,
+        "approx": true,
+        "note": "By the 9th century Catalan had evolved from Vulgar Latin on both sides of the eastern Pyrenees.",
+        "sources": [
+          "wp-catalan"
+        ]
+      },
+      "homeland": {
+        "lat": 42.3,
+        "lng": 2.0,
+        "label": "Eastern Pyrenees",
+        "sources": [
+          "wp-catalan"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "homilies-organya",
+          "year": 1190,
+          "approx": true,
+          "lat": 42.2125,
+          "lng": 1.3297,
+          "place": "Organyà, Catalonia",
+          "description": "The Homilies d'Organyà, six sermons dated to the end of the 12th century and found in the vicarage of Organyà in 1904, are one of the oldest literary documents in Catalan. Older fragments include the Greuges de Guitard Isarn (1080–1091), also from Organyà.",
+          "sources": [
+            "wp-homilies-organya"
+          ]
+        },
+        {
+          "id": "alghero",
+          "year": 1350,
+          "approx": true,
+          "lat": 40.558,
+          "lng": 8.319,
+          "place": "Alghero, Sardinia",
+          "description": "The city of Alghero in Sardinia was repopulated with Catalan speakers in the 14th century, and Catalan still has semi-official status there.",
+          "sources": [
+            "wp-catalan"
+          ]
+        },
+        {
+          "id": "andorra-1993",
+          "year": 1993,
+          "approx": false,
+          "lat": 42.5063,
+          "lng": 1.5218,
+          "place": "Andorra la Vella, Andorra",
+          "description": "Catalan has always been the sole official language of Andorra; since the 1993 constitution, policies such as Catalan-medium education have been put in place.",
+          "sources": [
+            "wp-catalan"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Catalan alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-catalan"
+        ]
+      },
+      "speakers": {
+        "count": 4100000,
+        "year": 2022,
+        "scope": "L1",
+        "sources": [
+          "wp-catalan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Catalan evolved from Vulgar Latin around the eastern Pyrenees and was carried south and west as the Catalan counts expanded their territory. It became the language of the Principality of Catalonia and the kingdoms of Valencia and Mallorca, and the main language of the Crown of Aragon across the Mediterranean. Alghero in Sardinia was resettled with Catalan speakers in the 14th century.",
+          "sources": [
+            "wp-catalan"
+          ]
+        },
+        {
+          "text": "Its medieval golden age includes the Majorcan polymath Ramon Llull (1232–1315), the Four Great Chronicles and the poet Ausiàs March (1397–1459). Spanish replaced it in government and literature in the 1700s, but a 19th-century literary revival began with Aribau's Ode to the Homeland in 1833. Catalan is the sole official language of Andorra.",
+          "sources": [
+            "wp-catalan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-occitan",
+      "name": "Old Occitan (Old Provençal)",
+      "glottocode": "oldp1253",
+      "iso639_3": "pro",
+      "parent": "romance",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-occitan",
+        "glotto-oldp1253"
+      ],
+      "period": {
+        "from": 750,
+        "to": 1350,
+        "approx": true,
+        "note": "Attested in writings from the 8th to the 14th century; it evolved into Modern Occitan by the 14th century.",
+        "sources": [
+          "wp-old-occitan"
+        ]
+      },
+      "homeland": {
+        "lat": 43.6047,
+        "lng": 1.4442,
+        "label": "Southern France (Occitania)",
+        "sources": [
+          "wp-old-occitan"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "ventadour",
+          "year": 1170,
+          "approx": true,
+          "lat": 45.3889,
+          "lng": 2.095,
+          "place": "Ventadour castle, Corrèze (Limousin)",
+          "description": "Bernart de Ventadorn, possibly the son of a baker at the castle of Ventadour, composed 'Can vei la lauzeta mover' around 1170. He is generally regarded as the most important troubadour in both poetry and music.",
+          "sources": [
+            "wp-bernart",
+            "wp-can-vei"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-occitan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Occitan, also called Old Provençal, is the earliest form of the Occitano-Romance languages of southern France. Medieval texts call it 'Romance' (romans) or 'Provençal' (proensals). Among its earliest records are the Tomida femina, the Boecis and the Cançó de Santa Fe. Old Occitan and Old Catalan diverged between the 11th and the 14th centuries.",
+          "sources": [
+            "wp-old-occitan"
+          ]
+        },
+        {
+          "text": "It was the language of the troubadours, and the first Romance language with a literary corpus. The earliest troubadour whose work survives is William IX, Duke of Aquitaine (1071–1126). About 450 troubadours are known, including some twenty women, the trobairitz. Their art spread to Italy and Iberia, inspired the German Minnesang, and died out around the Black Death of 1348.",
+          "sources": [
+            "wp-old-occitan",
+            "wp-troubadour"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "can-vei-la-lauzeta-mover",
+          "title": "When I see the lark beat its wings",
+          "titleOriginal": "Can vei la lauzeta mover",
+          "author": "Bernart de Ventadorn",
+          "date": "c. 1170",
+          "year": 1170,
+          "significance": "Among both the oldest and best known of the troubadour songs; its words and melody survive in three manuscripts.",
+          "original": "Can vei la lauzeta mover\nde joi sas alas contra·l rai,\nque s'oblid' e·s laissa chazer\nper la doussor c'al cor li vai,\nai! tan grans enveya m'en ve\nde cui qu'eu veya jauzion,\nmeravilhas ai, car desse\nlo cor de dezirer no·m fon.",
+          "originalScript": "Latn",
+          "translation": "When I see the lark beat\nits wings for joy against the sunbeam,\nso that it forgets itself and lets itself fall\nfor the sweetness that goes to its heart,\nalas, such great envy comes to me\nof anyone I see rejoicing,\nI marvel that at once\nmy heart does not melt with desire.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://archive.org/details/bernartvonventad00bern",
+          "sources": [
+            "ia-appel-1915",
+            "wp-can-vei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occitan",
+      "name": "Occitan",
+      "nativeName": "occitan",
+      "nativeScript": "Latn",
+      "glottocode": "occi1239",
+      "iso639_3": "oci",
+      "parent": "old-occitan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-occitan",
+        "glotto-occi1239"
+      ],
+      "period": {
+        "from": 1350,
+        "to": null,
+        "approx": true,
+        "note": "Old Occitan evolved into Modern Occitan by the 14th century.",
+        "sources": [
+          "wp-old-occitan"
+        ]
+      },
+      "homeland": {
+        "lat": 43.6047,
+        "lng": 1.4442,
+        "label": "Southern France (Occitania)",
+        "sources": [
+          "wp-occitan"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "provencal-gospels-1903",
+          "year": 1903,
+          "approx": false,
+          "lat": 43.5528,
+          "lng": 7.0174,
+          "place": "Cannes, Provence",
+          "description": "In 1903 the four Gospels were translated into Provençal as spoken in Cannes and Grasse, and the translation received a Roman Catholic imprimatur.",
+          "sources": [
+            "wp-occitan"
+          ]
+        },
+        {
+          "id": "val-d-aran-2010",
+          "year": 2010,
+          "approx": false,
+          "lat": 42.7016,
+          "lng": 0.7958,
+          "place": "Val d'Aran, Catalonia, Spain",
+          "description": "Occitan is an official language of Catalonia, and since September 2010 the Parliament of Catalonia has considered Aranese, a Gascon variety, the preferred official language of the Val d'Aran.",
+          "sources": [
+            "wp-occitan"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Occitan alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-occitan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Occitan, the langue d'oc, is spoken in southern France, Monaco, the Occitan Valleys of Italy and the Val d'Aran in Spain. As French royal power spread over the south it declined from the 14th century, and the Ordinance of Villers-Cotterêts of 1539 required French for administration. It has no official status in France, home to most of its speakers.",
+          "sources": [
+            "wp-occitan"
+          ]
+        },
+        {
+          "text": "A literary revival in the 19th century was led by Frédéric Mistral and the Félibrige; Mistral won the Nobel Prize in Literature in 1904. Occitan still has no single written standard. UNESCO's Red Book of Endangered Languages lists four of its six main dialects as severely endangered, and Gascon and Vivaro-Alpine as definitely endangered.",
+          "sources": [
+            "wp-occitan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romanian",
+      "name": "Romanian",
+      "nativeName": "limba română",
+      "nativeScript": "Latn",
+      "glottocode": "roma1327",
+      "iso639_3": "ron",
+      "parent": "romance",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-romanian",
+        "glotto-roma1327"
+      ],
+      "period": {
+        "from": 900,
+        "to": null,
+        "approx": true,
+        "note": "Most scholars agree that Common Romanian had split into two major dialects by the 10th century; Daco-Romanian, the ancestor of standard Romanian, descends from the northern one.",
+        "sources": [
+          "wp-romanian"
+        ]
+      },
+      "homeland": {
+        "lat": 44.0,
+        "lng": 24.0,
+        "label": "Lower Danube, Roman provinces north of the Jireček Line (exact area debated)",
+        "sources": [
+          "wp-romanian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "neacsu-letter",
+          "year": 1521,
+          "approx": false,
+          "lat": 45.2678,
+          "lng": 25.0465,
+          "place": "Câmpulung, Wallachia",
+          "description": "Neacșu's letter, written in Cyrillic in 1521 by the merchant Lupu Neacșu of Câmpulung to the mayor of Brașov to warn of an Ottoman attack, is the oldest surviving Romanian document that can be precisely dated.",
+          "sources": [
+            "wp-neacsu",
+            "wp-romanian"
+          ]
+        },
+        {
+          "id": "moldova-2023",
+          "year": 2023,
+          "approx": false,
+          "lat": 47.0105,
+          "lng": 28.8638,
+          "place": "Chișinău, Moldova",
+          "description": "On 16 March 2023 the Moldovan Parliament approved a law to call the national language Romanian in all legislation and the constitution, following a 2013 ruling of the Constitutional Court.",
+          "sources": [
+            "wp-romanian"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Romanian alphabet)",
+            "code": "Latn"
+          },
+          {
+            "name": "Cyrillic (Romanian Cyrillic, used until the 1860s; Moldovan Cyrillic in Transnistria)",
+            "code": "Cyrl"
+          }
+        ],
+        "sources": [
+          "wp-romanian"
+        ]
+      },
+      "speakers": {
+        "count": 22000000,
+        "year": 2020,
+        "scope": "L1",
+        "sources": [
+          "wp-romanian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Romanian belongs to Eastern Romance, the branch that separated from Western Romance between the 5th and 8th centuries. It descends from the Latin of the Roman provinces of southeastern Europe north of the Jireček Line. Most scholars agree that by the 10th century Common Romanian had split into a northern dialect, the ancestor of Romanian and Istro-Romanian, and a southern one that gave Aromanian and Megleno-Romanian. Its vocabulary shows long contact with Slavic languages, Greek, Hungarian, German and Turkish.",
+          "sources": [
+            "wp-romanian"
+          ]
+        },
+        {
+          "text": "For centuries official and religious texts in the region were written in Old Church Slavonic. The oldest precisely dated Romanian text is a letter of 1521 in Cyrillic letters. Between 1830 and 1860 transitional alphabets added Latin letters to Cyrillic, and the Latin alphabet became official in Wallachia and Transylvania in 1860 and in Moldavia in 1862. Romanian is the official language of Romania and Moldova.",
+          "sources": [
+            "wp-romanian",
+            "wp-neacsu"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "luceafarul",
+          "title": "The Evening Star",
+          "titleOriginal": "Luceafărul",
+          "author": "Mihai Eminescu",
+          "date": "1883",
+          "year": 1883,
+          "significance": "A narrative poem first published in Vienna in 1883, generally considered Eminescu's masterpiece and one of the greatest achievements of Romanian literature.",
+          "original": "A fost odată ca-n povești,\nA fost ca niciodată,\nDin rude mari împărătești,\nO prea frumoasă fată.\n\nȘi era una la părinți\nȘi mândră-n toate cele,\nCum e Fecioara între sfinți\nȘi luna între stele.",
+          "originalScript": "Latn",
+          "translation": "There was once, as in stories,\nthere was as never before,\nfrom great imperial kin,\na very beautiful girl.\n\nAnd she was her parents' only one\nand splendid in every way,\nas the Virgin is among the saints\nand the moon among the stars.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ro.wikisource.org/wiki/Luceaf%C4%83rul_(Eminescu)",
+          "sources": [
+            "ws-luceafarul",
+            "wp-luceafarul"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Where Romanian took shape is debated. The autochthony thesis places its development north of the Danube in former Dacia; the discontinuity thesis places it south of the Danube; and a third view supports development on both sides of the river. Continuity north of the Danube after the Roman withdrawal from Dacia in the 3rd century is a central point of the debate.",
+          "sources": [
+            "wp-romanian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sardinian",
+      "name": "Sardinian",
+      "nativeName": "sardu",
+      "nativeScript": "Latn",
+      "glottocode": "sard1257",
+      "iso639_3": "srd",
+      "parent": "romance",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-sardinian",
+        "glotto-sard1257"
+      ],
+      "period": {
+        "from": 1063,
+        "to": null,
+        "approx": true,
+        "note": "Start is the first written evidence: a 1063 donation to Montecassino by Barisone I of Torres contains Sardinian elements. In its first texts, from the 11th century, Sardinian already appears distinct from the dialects of Italy.",
+        "sources": [
+          "wp-sardinian"
+        ]
+      },
+      "homeland": {
+        "lat": 40.1,
+        "lng": 9.0,
+        "label": "Sardinia",
+        "sources": [
+          "wp-sardinian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "carta-volgare",
+          "year": 1070,
+          "approx": true,
+          "lat": 39.2238,
+          "lng": 9.1217,
+          "place": "Cagliari, Sardinia",
+          "description": "A charter issued around 1070 by Torchitorio I de Lacon-Gunale of the Judicate of Cagliari is written in Sardinian. Under the medieval Judicates Sardinian was used in official documents.",
+          "sources": [
+            "wp-sardinian"
+          ]
+        },
+        {
+          "id": "carta-de-logu",
+          "year": 1376,
+          "approx": true,
+          "lat": 39.9062,
+          "lng": 8.5884,
+          "place": "Oristano, Judicate of Arborea",
+          "description": "The Carta de Logu of the Kingdom of Arborea, drawn up in 1355–1376 by Marianus IV and Eleanor, was written in a transitional variety of Sardinian and remained in force until 1827.",
+          "sources": [
+            "wp-sardinian"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-sardinian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Sardinian is the Romance language of the island of Sardinia. Many Romance linguists consider it, together with Italian, the closest of Latin's descendants to Latin, and it is often called the most conservative Romance language. It also keeps a pre-Latin substratum, mostly Paleo-Sardinian, and later layers from Byzantine Greek, Catalan, Spanish and Italian.",
+          "sources": [
+            "wp-sardinian"
+          ]
+        },
+        {
+          "text": "Sardinian was the first Romance language to gain official status, used in the documents of the four medieval Judicates. Later rulers favoured Catalan, Spanish and Italian. Sardinian was recognised by regional law in 1997 and by Italian law in 1999, but UNESCO classifies it as definitely endangered because transmission to children has largely broken down.",
+          "sources": [
+            "wp-sardinian"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Glottolog's code sard1257 is filed as the family Southern Romance, with Sardinian given as an alternative name. It is the closest Glottolog entry for Sardinian as a whole, so it is used here.",
+          "sources": [
+            "glotto-sard1257"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romansh",
+      "name": "Romansh",
+      "nativeName": "rumantsch",
+      "nativeScript": "Latn",
+      "glottocode": "roma1326",
+      "iso639_3": "roh",
+      "parent": "romance",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-romansh",
+        "glotto-roma1326"
+      ],
+      "period": {
+        "from": 950,
+        "to": null,
+        "approx": true,
+        "note": "Start is the oldest known written record, the 10th-century Würzburg manuscript. Spoken Latin had replaced the earlier Celtic and Raetic languages of the area by the 5th century AD.",
+        "sources": [
+          "wp-romansh"
+        ]
+      },
+      "homeland": {
+        "lat": 46.65,
+        "lng": 9.6,
+        "label": "Grisons (Graubünden), Switzerland",
+        "sources": [
+          "wp-romansh"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "chur-1465",
+          "year": 1465,
+          "approx": false,
+          "lat": 46.8508,
+          "lng": 9.532,
+          "place": "Chur, Grisons",
+          "description": "Chur, seat of the diocese, remained Romansh-speaking until the 15th century. After a fire nearly destroyed the city in 1465, German-speaking artisans settled there and German became the majority language.",
+          "sources": [
+            "wp-romansh"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-romansh"
+        ]
+      },
+      "speakers": {
+        "count": 40000,
+        "year": 2019,
+        "scope": "L1",
+        "sources": [
+          "wp-romansh"
+        ]
+      },
+      "story": [
+        {
+          "text": "Romansh descends from the spoken Latin of the Roman Empire, which had replaced the Celtic and Raetic languages of the Alpine province of Raetia by the 5th century AD. It once reached north to Glarus, St. Gallen and the Walensee, but over the centuries German dialects pushed it back to the canton of the Grisons.",
+          "sources": [
+            "wp-romansh"
+          ]
+        },
+        {
+          "text": "Written Romansh grew in the 16th century: Gian Travers wrote the first surviving work in 1527, and Giachem Bifrun's New Testament followed in 1560, and Daniel Bonifaci's catechism of 1601 is the first surviving work in Sutsilvan. There are five regional written varieties, plus the pan-regional Rumantsch Grischun introduced in 1982. Romansh has been a national language of Switzerland since 1938.",
+          "sources": [
+            "wp-romansh"
+          ]
+        }
+      ]
+    }
+  ]
+}

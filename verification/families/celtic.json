@@ -1,0 +1,881 @@
+{
+ "file": "data/families/celtic.json",
+ "claims": {
+  "proto-celtic#identity": {
+   "hash": "0d11a55c974eb5e7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Celtic_language",
+    "https://glottolog.org/resource/languoid/id/celt1248"
+   ]
+  },
+  "proto-celtic#period": {
+   "hash": "d9cb410c3989d06b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Celtic_language"
+   ]
+  },
+  "proto-celtic#homeland": {
+   "hash": "261a5c2cf19c67f4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Celtic_language",
+    "https://en.wikipedia.org/wiki/Gaulish"
+   ]
+  },
+  "proto-celtic#story:0": {
+   "hash": "79ab41c921bc987d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Celtic_language"
+   ]
+  },
+  "proto-celtic#story:1": {
+   "hash": "ff63f7e5f167c98d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Celtic_language"
+   ]
+  },
+  "proto-celtic#note:0": {
+   "hash": "c8ff9771ffc0e4ba",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Celtic_languages",
+    "https://en.wikipedia.org/wiki/Proto-Celtic_language"
+   ]
+  },
+  "proto-celtic#note:1": {
+   "hash": "659e8cd129b31e63",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.cambridge.org/core/product/identifier/S0959774320000098/type/journal_article",
+    "https://en.wikipedia.org/wiki/Proto-Celtic_language"
+   ]
+  },
+  "gaulish#identity": {
+   "hash": "33f43a036c352781",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gaulish",
+    "https://glottolog.org/resource/languoid/id/tran1282"
+   ]
+  },
+  "gaulish#period": {
+   "hash": "532666befddb1a2d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gaulish"
+   ]
+  },
+  "gaulish#homeland": {
+   "hash": "73a27ff9671c5476",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gaulish"
+   ]
+  },
+  "gaulish#attestation:larzac-tablet": {
+   "hash": "6827242a24704624",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Larzac_tablet",
+    "https://en.wikipedia.org/wiki/Gaulish"
+   ]
+  },
+  "gaulish#attestation:coligny-calendar": {
+   "hash": "285602f666844cc1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Coligny_calendar",
+    "https://en.wikipedia.org/wiki/Gaulish"
+   ]
+  },
+  "gaulish#scripts": {
+   "hash": "83ff8b3eac3625fe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gaulish"
+   ]
+  },
+  "gaulish#story:0": {
+   "hash": "78d6139fb1352589",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gaulish"
+   ]
+  },
+  "gaulish#story:1": {
+   "hash": "1b28b418705bc982",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gaulish"
+   ]
+  },
+  "gaulish#note:0": {
+   "hash": "03ea80ff0b9d452c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/tran1282"
+   ],
+   "note": "Note added explaining the choice of the Transalpine Gaulish code tran1282."
+  },
+  "celtiberian#identity": {
+   "hash": "9c101fa04c686de8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Celtiberian_language",
+    "https://glottolog.org/resource/languoid/id/celt1247"
+   ]
+  },
+  "celtiberian#period": {
+   "hash": "2859f98a817b063d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Celtiberian_language"
+   ]
+  },
+  "celtiberian#homeland": {
+   "hash": "f37e79ecd5a286d5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Celtiberian_language"
+   ]
+  },
+  "celtiberian#attestation:botorrita-plaques": {
+   "hash": "1d2d956fd4280931",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Botorrita_plaque",
+    "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/novallas-bronze-tablet-an-inscription-in-the-celtiberian-language-and-the-latin-alphabet-from-spain/780074C0BFB10B6ADA1D308E30344449"
+   ]
+  },
+  "celtiberian#attestation:novallas-bronze": {
+   "hash": "50e215ccd8aa6a8f",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/novallas-bronze-tablet-an-inscription-in-the-celtiberian-language-and-the-latin-alphabet-from-spain/780074C0BFB10B6ADA1D308E30344449"
+   ]
+  },
+  "celtiberian#scripts": {
+   "hash": "3c650686cac6740d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Celtiberian_language"
+   ]
+  },
+  "celtiberian#story:0": {
+   "hash": "fc96b24883f62560",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Celtiberian_language"
+   ]
+  },
+  "celtiberian#story:1": {
+   "hash": "64b48a6982d16125",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Celtiberian_language",
+    "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/novallas-bronze-tablet-an-inscription-in-the-celtiberian-language-and-the-latin-alphabet-from-spain/780074C0BFB10B6ADA1D308E30344449"
+   ],
+   "note": "Removed unsupported dating of most inscriptions to late 2nd and 1st centuries BCE; Botorrita plaques dated to early 1st century BCE."
+  },
+  "celtiberian#note:0": {
+   "hash": "885acf24a6755845",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Celtiberian_language"
+   ]
+  },
+  "primitive-irish#identity": {
+   "hash": "8cbf3141923cbeac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Primitive_Irish",
+    "https://glottolog.org/resource/languoid/id/prim1243"
+   ]
+  },
+  "primitive-irish#period": {
+   "hash": "f84f4ca7c7a14a4d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Primitive_Irish"
+   ]
+  },
+  "primitive-irish#homeland": {
+   "hash": "f7c4085e28da85c9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Primitive_Irish"
+   ]
+  },
+  "primitive-irish#attestation:ratass-ogham-stone": {
+   "hash": "9413c2def949d773",
+   "verdict": "verified",
+   "evidence": [
+    "https://heritageireland.ie/unguided-sites/ratass-church-and-ogham-stone/",
+    "https://en.wikipedia.org/wiki/Ratass_Church"
+   ]
+  },
+  "primitive-irish#scripts": {
+   "hash": "dfcbb18e8539ce79",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Primitive_Irish"
+   ]
+  },
+  "primitive-irish#story:0": {
+   "hash": "769f5c40561b7890",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Primitive_Irish"
+   ]
+  },
+  "primitive-irish#story:1": {
+   "hash": "65509365ed42ce2b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Primitive_Irish"
+   ]
+  },
+  "old-irish#identity": {
+   "hash": "db0cc7e3c5da0b5b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Irish",
+    "https://glottolog.org/resource/languoid/id/oldi1246"
+   ]
+  },
+  "old-irish#period": {
+   "hash": "3ee7ef1b2a0dcc56",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Irish"
+   ]
+  },
+  "old-irish#homeland": {
+   "hash": "f67cf95c492d53c9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Irish"
+   ]
+  },
+  "old-irish#attestation:wurzburg-glosses": {
+   "hash": "36b65c0bde05fcbb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Irish"
+   ],
+   "note": "Original source was an unreadable bot-challenge page; attestation rewritten on the Old Irish Wikipedia article (c. 800, Wuerzburg)."
+  },
+  "old-irish#attestation:book-of-armagh": {
+   "hash": "2a6ac3de5bd4cc09",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Book_of_Armagh"
+   ]
+  },
+  "old-irish#scripts": {
+   "hash": "26065a5fca80753e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Irish"
+   ]
+  },
+  "old-irish#story:0": {
+   "hash": "2158e2fcdfb572bb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Irish"
+   ]
+  },
+  "old-irish#story:1": {
+   "hash": "34c0a74578817773",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Irish",
+    "https://www.e-codices.unifr.ch/en/list/one/csg/0904"
+   ]
+  },
+  "middle-irish#identity": {
+   "hash": "00b49580591052f0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Irish",
+    "https://glottolog.org/resource/languoid/id/midd1360"
+   ]
+  },
+  "middle-irish#period": {
+   "hash": "e2dee6f268e1bd40",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Irish"
+   ]
+  },
+  "middle-irish#homeland": {
+   "hash": "e9e38a3d6e277b61",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Irish"
+   ]
+  },
+  "middle-irish#attestation:lebor-na-huidre": {
+   "hash": "7783fbf8f96474dd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lebor_na_hUidre"
+   ]
+  },
+  "middle-irish#attestation:book-of-deer-notes": {
+   "hash": "c1fd68165d965c43",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Book_of_Deer"
+   ]
+  },
+  "middle-irish#attestation:book-of-leinster": {
+   "hash": "81d609540f72ba88",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Book_of_Leinster",
+    "https://celt.ucc.ie/published/G301035.html",
+    "https://en.wikipedia.org/wiki/T%C3%A1in_B%C3%B3_C%C3%BAailnge"
+   ]
+  },
+  "middle-irish#scripts": {
+   "hash": "8e9173e1934496ec",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Irish"
+   ]
+  },
+  "middle-irish#story:0": {
+   "hash": "9e81f602a6ad073c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Irish",
+    "https://en.wikipedia.org/wiki/Book_of_Deer"
+   ]
+  },
+  "middle-irish#story:1": {
+   "hash": "9d97770d2cbb2346",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lebor_na_hUidre",
+    "https://en.wikipedia.org/wiki/Book_of_Leinster"
+   ]
+  },
+  "middle-irish#work:tain-bo-cuailnge": {
+   "hash": "a3c96da21b611b12",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/T%C3%A1in_B%C3%B3_C%C3%BAailnge",
+    "https://archive.org/details/diealtirischehel00wind",
+    "https://mythopedia.com/library/tain-bo-cuailnge-dunn-1914/1-the-pillow-talk/",
+    "https://archive.org/details/ancientirishepic00dunnuoft"
+   ],
+   "note": "The CELT edition is restricted and its opening did not match the excerpt; original replaced with the public-domain Windisch 1905 Book of Leinster text."
+  },
+  "irish#identity": {
+   "hash": "cff8c7590855cdc5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Irish_language",
+    "https://glottolog.org/resource/languoid/id/iris1253"
+   ]
+  },
+  "irish#period": {
+   "hash": "e5275a5e279c42ab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Irish"
+   ]
+  },
+  "irish#homeland": {
+   "hash": "788fac83967b2d35",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Irish_language"
+   ]
+  },
+  "irish#attestation:annals-of-the-four-masters": {
+   "hash": "ebad3101684ae337",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.tcd.ie/news_events/articles/the-annals-of-the-four-masters-reunited-for-first-time-since-1636-in-landmark-exhibition/",
+    "https://en.wikipedia.org/wiki/Annals_of_the_Four_Masters"
+   ]
+  },
+  "irish#scripts": {
+   "hash": "ac277151673f54f0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Irish_language"
+   ]
+  },
+  "irish#speakers": {
+   "hash": "ba4022c40182013e",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.cso.ie/en/releasesandpublications/ep/p-cpp8/censusofpopulation2022profile8-theirishlanguageandeducation/irishlanguageandthegaeltacht/"
+   ]
+  },
+  "irish#story:0": {
+   "hash": "700b565fcee7f0c7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Irish_language"
+   ]
+  },
+  "irish#story:1": {
+   "hash": "d14afd0c99284a69",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Irish_language"
+   ]
+  },
+  "irish#story:2": {
+   "hash": "567f2b5136f4956c",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.cso.ie/en/releasesandpublications/ep/p-cpp8/censusofpopulation2022profile8-theirishlanguageandeducation/irishlanguageandthegaeltacht/",
+    "https://en.wikipedia.org/wiki/Irish_language"
+   ]
+  },
+  "scottish-gaelic#identity": {
+   "hash": "f6524a7a2fa69d01",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Scottish_Gaelic",
+    "https://glottolog.org/resource/languoid/id/scot1245"
+   ]
+  },
+  "scottish-gaelic#period": {
+   "hash": "7b792e25769f5710",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Scottish_Gaelic"
+   ]
+  },
+  "scottish-gaelic#homeland": {
+   "hash": "f1f6b142c90ee664",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Scottish_Gaelic"
+   ]
+  },
+  "scottish-gaelic#attestation:book-of-the-dean-of-lismore": {
+   "hash": "50773fc72c28c509",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Book_of_the_Dean_of_Lismore"
+   ]
+  },
+  "scottish-gaelic#scripts": {
+   "hash": "4c87245e57d147f6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Scottish_Gaelic"
+   ]
+  },
+  "scottish-gaelic#speakers": {
+   "hash": "1ef2a85787b59ffc",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.gov.scot/policies/languages/gaelic/"
+   ]
+  },
+  "scottish-gaelic#story:0": {
+   "hash": "1f15044265521724",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Scottish_Gaelic"
+   ]
+  },
+  "scottish-gaelic#story:1": {
+   "hash": "2e3881a66c8b6c26",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Book_of_the_Dean_of_Lismore",
+    "https://en.wikipedia.org/wiki/Scottish_Gaelic",
+    "https://www.gov.scot/policies/languages/gaelic/"
+   ]
+  },
+  "manx#identity": {
+   "hash": "b34e48081683eb96",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Manx_language",
+    "https://glottolog.org/resource/languoid/id/manx1243"
+   ]
+  },
+  "manx#period": {
+   "hash": "0c9db1ae59b0b8d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Manx_language",
+    "https://en.wikipedia.org/wiki/Middle_Irish"
+   ]
+  },
+  "manx#homeland": {
+   "hash": "bda30334d01e5a3d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Manx_language"
+   ]
+  },
+  "manx#attestation:phillips-prayer-book": {
+   "hash": "81c81ef8423aee24",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/John_Phillips_(bishop_of_Sodor_and_Man)"
+   ]
+  },
+  "manx#scripts": {
+   "hash": "77fefc1397c3a60f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Manx_language"
+   ]
+  },
+  "manx#story:0": {
+   "hash": "6f22c2cffe5346a2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Manx_language",
+    "https://en.wikipedia.org/wiki/Old_Irish",
+    "https://en.wikipedia.org/wiki/John_Phillips_(bishop_of_Sodor_and_Man)"
+   ],
+   "note": "Clarified that the Book of Common Prayer translation was made in 1610, not that the prayer book is from 1610."
+  },
+  "manx#story:1": {
+   "hash": "a143a457872fbfce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Manx_language"
+   ]
+  },
+  "common-brittonic#identity": {
+   "hash": "e0e96f18f2e8cfa0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Common_Brittonic",
+    "https://glottolog.org/resource/languoid/id/bryt1239"
+   ]
+  },
+  "common-brittonic#period": {
+   "hash": "db8c909383fb3c02",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Common_Brittonic"
+   ]
+  },
+  "common-brittonic#homeland": {
+   "hash": "9e803d0b1d252795",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Common_Brittonic"
+   ]
+  },
+  "common-brittonic#story:0": {
+   "hash": "eed8395565b6cf1f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Common_Brittonic"
+   ]
+  },
+  "common-brittonic#story:1": {
+   "hash": "bac32e17d747e75c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Common_Brittonic"
+   ]
+  },
+  "old-welsh#identity": {
+   "hash": "902aceeac55b4700",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Welsh",
+    "https://glottolog.org/resource/languoid/id/oldw1241"
+   ]
+  },
+  "old-welsh#period": {
+   "hash": "e1cbbb08f188f461",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Welsh"
+   ]
+  },
+  "old-welsh#homeland": {
+   "hash": "e2d337d432e6d7e8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Welsh"
+   ]
+  },
+  "old-welsh#attestation:cadfan-stone": {
+   "hash": "60d2895bd834ffe7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Welsh"
+   ]
+  },
+  "old-welsh#scripts": {
+   "hash": "8c93cd0a5f585bc4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Welsh"
+   ]
+  },
+  "old-welsh#story:0": {
+   "hash": "0cc1a5925a3a8b0d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Welsh",
+    "https://en.wikipedia.org/wiki/Welsh_language"
+   ]
+  },
+  "old-welsh#story:1": {
+   "hash": "029aa35ac5aaa9f8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Welsh",
+    "https://en.wikipedia.org/wiki/Juvencus_Manuscript"
+   ]
+  },
+  "middle-welsh#identity": {
+   "hash": "8eb9bd73983e68b6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Welsh",
+    "https://glottolog.org/resource/languoid/id/midd1363"
+   ]
+  },
+  "middle-welsh#period": {
+   "hash": "fa1870e9445ba57d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Welsh",
+    "https://en.wikipedia.org/wiki/Welsh_language"
+   ]
+  },
+  "middle-welsh#homeland": {
+   "hash": "63961bec90a5dcd2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Welsh"
+   ]
+  },
+  "middle-welsh#scripts": {
+   "hash": "3119787f9d441e86",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Welsh"
+   ]
+  },
+  "middle-welsh#story:0": {
+   "hash": "4c981fd181bb4019",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Welsh"
+   ]
+  },
+  "middle-welsh#story:1": {
+   "hash": "16afbadc216014ad",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Welsh",
+    "https://en.wikipedia.org/wiki/White_Book_of_Rhydderch",
+    "https://en.wikipedia.org/wiki/Red_Book_of_Hergest"
+   ],
+   "note": "Gave manuscript dates and places: White Book of Rhydderch c.1350 mostly in south-west Wales; Red Book of Hergest c.1382-1410; removed 'much of the prose' overstatement."
+  },
+  "middle-welsh#work:mabinogion-pwyll": {
+   "hash": "478be4121d94a00a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mabinogion",
+    "https://cy.wikisource.org/wiki/Pwyll_Pendeuic_Dyuet",
+    "https://sacred-texts.com/neu/celt/mab/mab20.htm"
+   ],
+   "note": "Removed translationYear 1877, which no source supports (Guest published 1838-45)."
+  },
+  "welsh#identity": {
+   "hash": "7b88b6976bea7072",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Welsh_language",
+    "https://glottolog.org/resource/languoid/id/wels1247"
+   ]
+  },
+  "welsh#period": {
+   "hash": "f19b7438b4d9906d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Welsh_language"
+   ]
+  },
+  "welsh#homeland": {
+   "hash": "c99d09287b1d6284",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Welsh_language"
+   ]
+  },
+  "welsh#attestation:william-morgan-bible": {
+   "hash": "47f8a3fe0d9b1757",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.nationaltrust.org.uk/visit/wales/ty-mawr-wybrnant/history-of-bishop-william-morgan",
+    "https://www.library.wales/discover/digital-gallery/printed-material/1588-welsh-bible/"
+   ]
+  },
+  "welsh#scripts": {
+   "hash": "cd05e39b267bd790",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Welsh_language"
+   ]
+  },
+  "welsh#speakers": {
+   "hash": "5035c2a5d50b3681",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/welshlanguagewales/census2021"
+   ]
+  },
+  "welsh#story:0": {
+   "hash": "0137e1ef98ee33fb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Welsh_language",
+    "https://www.nationaltrust.org.uk/visit/wales/ty-mawr-wybrnant/history-of-bishop-william-morgan",
+    "https://www.library.wales/discover/digital-gallery/printed-material/1588-welsh-bible/"
+   ]
+  },
+  "welsh#story:1": {
+   "hash": "da98775930025a9a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Welsh_language",
+    "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/welshlanguagewales/census2021"
+   ]
+  },
+  "cornish#identity": {
+   "hash": "2a726c2e59b58a3c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cornish_language",
+    "https://glottolog.org/resource/languoid/id/corn1251"
+   ]
+  },
+  "cornish#period": {
+   "hash": "9e0db45c210449d4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cornish_language"
+   ]
+  },
+  "cornish#homeland": {
+   "hash": "e2cb7eb50d68da97",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cornish_language"
+   ]
+  },
+  "cornish#attestation:bodmin-manumissions": {
+   "hash": "af2f6e7a15522a7d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://searcharchives.bl.uk/catalog/032-002737386",
+    "https://en.wikipedia.org/wiki/Bodmin_manumissions"
+   ],
+   "note": "Description now follows the British Library catalogue dating (second quarter of the 10th to first quarter of the 11th century)."
+  },
+  "cornish#scripts": {
+   "hash": "69abc4bec6289da7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cornish_language"
+   ]
+  },
+  "cornish#story:0": {
+   "hash": "836ac9eccdb242f6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cornish_language",
+    "https://en.wikipedia.org/wiki/Breton_language",
+    "https://en.wikipedia.org/wiki/Ordinalia"
+   ]
+  },
+  "cornish#story:1": {
+   "hash": "187259b0da9f0aa9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cornish_language"
+   ]
+  },
+  "breton#identity": {
+   "hash": "6f2c5312faf08a81",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Breton_language",
+    "https://glottolog.org/resource/languoid/id/bret1244"
+   ]
+  },
+  "breton#period": {
+   "hash": "51bb42e4a84c59f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Breton_language"
+   ]
+  },
+  "breton#homeland": {
+   "hash": "7c9972719191a8b9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Breton_language"
+   ]
+  },
+  "breton#attestation:catholicon": {
+   "hash": "b22241a30d0bdb81",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catholicon_(trilingual_dictionary)"
+   ]
+  },
+  "breton#scripts": {
+   "hash": "22ca517222396baf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Breton_language"
+   ]
+  },
+  "breton#speakers": {
+   "hash": "8231c638ff010645",
+   "verdict": "verified",
+   "evidence": [
+    "https://univ-brest.fr/sites/nouveau.univ-brest.fr/files/2025-03/Ubo-dp-mois-du-breton-2025.pdf"
+   ]
+  },
+  "breton#story:0": {
+   "hash": "372e16a3423ffc69",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Breton_language",
+    "https://en.wikipedia.org/wiki/Celtic_languages"
+   ]
+  },
+  "breton#story:1": {
+   "hash": "7d6b2da0da6bcf5b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catholicon_(trilingual_dictionary)",
+    "https://univ-brest.fr/sites/nouveau.univ-brest.fr/files/2025-03/Ubo-dp-mois-du-breton-2025.pdf"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:49:13.074Z",
+ "verifier": "auditor-west-ie-stories"
+}

@@ -1,0 +1,292 @@
+{
+ "file": "data/families/koreanic.json",
+ "claims": {
+  "old-korean#identity": {
+   "hash": "c0b782474a57699f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "old-korean#period": {
+   "hash": "9857116252931982",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "old-korean#homeland": {
+   "hash": "46bf24e6fc1605a5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://en.wikipedia.org/wiki/Gyeongju",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "old-korean#attestation:pohang-stele": {
+   "hash": "8befbadf7dc533bf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://en.wikipedia.org/wiki/Pohang",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "old-korean#attestation:gyeongju-fort-stele": {
+   "hash": "ea06418f52f609f5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://en.wikipedia.org/wiki/Gyeongju",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "old-korean#scripts": {
+   "hash": "b41049dfaf5cf0e9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "old-korean#story:0": {
+   "hash": "65643b7bc70b3483",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ],
+   "note": "Baekje/Goguryeo language wording fixed: only Goguryeo's survives as substrata per source."
+  },
+  "old-korean#story:1": {
+   "hash": "36e7f76968a0e337",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "old-korean#story:2": {
+   "hash": "08f59bfee643d3b8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ],
+   "note": "'no one could read them' softened to 'could no longer be read'."
+  },
+  "old-korean#note:0": {
+   "hash": "917a4a20447ee79b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "old-korean#note:1": {
+   "hash": "e6fd697d84646d1d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Korean",
+    "https://en.wikipedia.org/wiki/Korean_language",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "middle-korean#identity": {
+   "hash": "7938424320975ec7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://glottolog.org/resource/languoid/id/midd1372",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "middle-korean#period": {
+   "hash": "23296ba585d4b192",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "middle-korean#homeland": {
+   "hash": "8e814004f1abd178",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://en.wikipedia.org/wiki/Kaesong",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "middle-korean#attestation:hunminjeongeum-haerye": {
+   "hash": "2231a01c5107a7b2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hunminjeongeum_Haerye",
+    "https://en.wikipedia.org/wiki/Hunminjeongeum",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye",
+    "https://en.wikipedia.org/wiki/Kansong_Art_Museum",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "middle-korean#scripts": {
+   "hash": "8bb11eb098421a39",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "middle-korean#story:0": {
+   "hash": "9f0d4bc28a1a84f0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ],
+   "note": "'written only with Chinese characters' changed to 'like Old Korean, sparsely documented and written with Chinese characters'."
+  },
+  "middle-korean#story:1": {
+   "hash": "8c2f38811139e8c0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hunminjeongeum",
+    "https://en.wikipedia.org/wiki/Hunminjeongeum_Haerye",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ],
+   "note": "Publication date 'around October 1446'."
+  },
+  "middle-korean#story:2": {
+   "hash": "9f0dcc6dfc6800d2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://en.wikipedia.org/wiki/Hunminjeongeum",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "middle-korean#work:hunminjeongeum-eonhae": {
+   "hash": "109d683d10e4c8f3",
+   "verdict": "corrected",
+   "evidence": [
+    "https://ko.wikisource.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C%EC%96%B8%ED%95%B4",
+    "https://en.wikipedia.org/wiki/Hunminjeongeum",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ],
+   "note": "Excerpt verified character-for-character against ko.wikisource page scans text (Wŏrin sŏkpo 1459). Significance sentence unsupported superlative removed; added caveat that unclear if first appeared in 1459 text."
+  },
+  "korean#identity": {
+   "hash": "f67f327d033a7b24",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Korean_language",
+    "https://glottolog.org/resource/languoid/id/kore1280",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "korean#period": {
+   "hash": "47e913efcdbf3da3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "korean#homeland": {
+   "hash": "354f6fad17fddcee",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Korean",
+    "https://en.wikipedia.org/wiki/Seoul",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "korean#attestation:tongnip-sinmun": {
+   "hash": "69f1a3407663a0b2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tongnip_Sinmun",
+    "https://en.wikipedia.org/wiki/Seoul",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "korean#attestation:yanbian": {
+   "hash": "f0c2bbc3caa9595c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yanbian_Korean_Autonomous_Prefecture",
+    "https://en.wikipedia.org/wiki/Korean_language",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "korean#scripts": {
+   "hash": "79b4a4174e66d9fd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Korean_language",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "korean#speakers": {
+   "hash": "624c27e07305d434",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Korean_language",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "korean#story:0": {
+   "hash": "3c11049c07133f7e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Korean_language",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  },
+  "korean#story:1": {
+   "hash": "316c819371dd618a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Korean_language",
+    "https://en.wikipedia.org/wiki/Tongnip_Sinmun",
+    "https://glottolog.org/resource/languoid/id/sill1240",
+    "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:20:23.734Z",
+ "verifier": "verifier-asia"
+}

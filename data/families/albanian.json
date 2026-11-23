@@ -1,0 +1,233 @@
+{
+  "family": {
+    "id": "albanian",
+    "name": "Albanian"
+  },
+  "sources": [
+    {
+      "id": "glottolog-alba1267",
+      "title": "Glottolog 5.4: Albanian",
+      "url": "https://glottolog.org/resource/languoid/id/alba1267",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-albanian",
+      "title": "Albanian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Albanian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-formula",
+      "title": "Formula e pagëzimit (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Formula_e_pag%C3%ABzimit",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-meshari",
+      "title": "Meshari (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Meshari",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-buzuku",
+      "title": "Gjon Buzuku (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gjon_Buzuku",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-matrenga",
+      "title": "Luca Matranga (Lekë Matrënga) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lek%C3%AB_Matr%C3%ABnga",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-manastir",
+      "title": "Congress of Manastir (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Congress_of_Manastir",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-naim",
+      "title": "Naim Frashëri (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Naim_Frash%C3%ABri",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wikisource-bageti",
+      "title": "Bagëti e Bujqësija (Naim Frashëri, 1886)",
+      "url": "https://wikisource.org/wiki/Bag%C3%ABti_e_Bujq%C3%ABsija",
+      "publisher": "Wikisource (multilingual)"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "albanian",
+      "name": "Albanian",
+      "nativeName": "shqip",
+      "nativeScript": "Latn",
+      "glottocode": "alba1267",
+      "iso639_3": "sqi",
+      "parent": "proto-indo-european",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-alba1267",
+        "wp-albanian"
+      ],
+      "period": {
+        "from": 1462,
+        "to": null,
+        "approx": false,
+        "note": "Date of the oldest surviving Albanian text. The language is older: its split into Gheg and Tosk is dated after the Christianisation of the region (4th century AD) and most likely not later than the 6th century AD.",
+        "sources": [
+          "wp-albanian",
+          "wp-formula"
+        ]
+      },
+      "homeland": {
+        "lat": 41.11,
+        "lng": 20.08,
+        "label": "Western Balkans (Albania)",
+        "sources": [
+          "wp-albanian"
+        ]
+      },
+      "speakers": {
+        "count": 7500000,
+        "year": 2017,
+        "scope": "L1",
+        "sources": [
+          "wp-albanian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "baptismal-formula",
+          "year": 1462,
+          "approx": false,
+          "lat": 41.61,
+          "lng": 20.01,
+          "place": "Mat, Albania",
+          "description": "Pal Engjëlli, Archbishop of Durrës, included the Albanian baptismal formula 'Unte paghesont premenit Atit et Birit et Spertit Senit' in a pastoral letter of 1462 for a synod at the Holy Trinity in Mat; it is the oldest known written Albanian.",
+          "sources": [
+            "wp-albanian",
+            "wp-formula"
+          ]
+        },
+        {
+          "id": "meshari",
+          "year": 1555,
+          "approx": false,
+          "lat": 42.08,
+          "lng": 19.27,
+          "place": "Shestan–Krajë area, near Lake Shkodër",
+          "description": "Gjon Buzuku, a Catholic priest thought to have come from the Shestan–Krajë area by Lake Shkodër, completed the translation of the Meshari (Missal), regarded as the oldest published book in Albanian, in a Gheg dialect by January 1555.",
+          "sources": [
+            "wp-buzuku",
+            "wp-meshari"
+          ]
+        },
+        {
+          "id": "matrenga-doctrine",
+          "year": 1592,
+          "approx": false,
+          "lat": 37.995,
+          "lng": 13.283,
+          "place": "Piana degli Albanesi, Sicily",
+          "description": "Lekë Matrënga (Luca Matranga) of Piana degli Albanesi published E mbsuame e krështerë (Christian Doctrine) in 1592, the second major book published in Albanian, using the speech of his home town with some phonetic peculiarities modified.",
+          "sources": [
+            "wp-matrenga",
+            "wp-albanian"
+          ]
+        },
+        {
+          "id": "congress-of-manastir",
+          "year": 1908,
+          "approx": false,
+          "lat": 41.031,
+          "lng": 21.334,
+          "place": "Manastir (Bitola)",
+          "description": "The Congress of Manastir, held from 14 to 22 November 1908, aimed to standardise the Albanian alphabet and adopted a compromise between the Istanbul and Bashkimi alphabets; the Latin-based alphabet with ë, ç and nine digraphs settled on there is still used for the literary language.",
+          "sources": [
+            "wp-manastir",
+            "wp-albanian"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Greek",
+            "code": "Grek"
+          },
+          {
+            "name": "Arabic (Ottoman Turkish style)",
+            "code": "Arab"
+          },
+          {
+            "name": "Cyrillic",
+            "code": "Cyrl"
+          },
+          {
+            "name": "Elbasan",
+            "code": "Elba"
+          },
+          {
+            "name": "Vithkuqi",
+            "code": "Vith"
+          }
+        ],
+        "sources": [
+          "wp-albanian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Albanian is an Indo-European language and the only surviving member of the Albanic branch, part of the Paleo-Balkan group. Its formative core lay in the Balkans after the Indo-European migrations into the region. It is often thought to descend from an Illyrian language, or from an unrecorded Balkan language closely related to Illyrian and Messapic; on the basis of shared features, Albanian and Messapic are grouped together in current classifications.",
+          "sources": [
+            "wp-albanian"
+          ]
+        },
+        {
+          "text": "The language is first mentioned on 14 July 1284 in Ragusa (Dubrovnik), where a witness testified that he heard a voice crying on the mountain 'in the Albanian language'. A letter of 1332 notes that Albanians used Latin letters in their books, but the oldest surviving text is a baptismal formula of 1462. The oldest published book is Gjon Buzuku's Meshari (1555), in Gheg, followed by Lekë Matrënga's Christian Doctrine (1592), in the Tosk speech of the Arbëreshë of Sicily.",
+          "sources": [
+            "wp-albanian",
+            "wp-matrenga"
+          ]
+        },
+        {
+          "text": "The two main dialect groups, Gheg in the north and Tosk in the south, are divided by the Shkumbin river and are mutually intelligible in their standard forms. Between 1750 and 1850 Albanian was written in at least ten different alphabets; the Congress of Manastir in 1908 settled on the Latin alphabet with ë, ç and nine digraphs. Standard Albanian, based mainly on Tosk, is official in Albania and Kosovo, and the language has as many as 7.5 million native speakers.",
+          "sources": [
+            "wp-albanian",
+            "wp-manastir"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "bageti-e-bujqesija",
+          "title": "Bagëti e Bujqësija",
+          "author": "Naim Frashëri",
+          "date": "1886",
+          "year": 1886,
+          "significance": "A poem by Naim Frashëri, a leading figure of the Albanian National Awakening who is regarded as a pioneer of modern Albanian literature and was proclaimed the national poet of Albania.",
+          "original": "O málet' e Shqipërisë! e ju ô lísat' e gjatë!\nFúshat e gjera me lule! q' u kam ndër mënt dit' e natë,\nJu bregore bukuroshe! e ju lumënjt' e kulluar!\nÇuka, kodra, brinja, gërxhe dhe pylle të gjelbëruar!\nDotë këndónj bagëtinë që mbani ju e ushqeni,\nO vë́ndëthit' e bekuar! ju më́ndjenë ma dëfreni.",
+          "originalScript": "Latn",
+          "translation": "O mountains of Albania! and you, O tall oaks!\nWide fields with flowers! that I keep in mind day and night,\nyou lovely hillsides! and you clear rivers!\nPeaks, hills, slopes, crags and green forests!\nI shall sing of the flocks that you keep and feed,\nO blessed places! you delight my mind.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://wikisource.org/wiki/Bag%C3%ABti_e_Bujq%C3%ABsija",
+          "sources": [
+            "wikisource-bageti",
+            "wp-naim"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+ "file": "data/journeys/cradle-of-writing.json",
+ "claims": {
+  "cradle-of-writing#step:0": {
+   "hash": "bdf43d4e4f0e9543",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cuneiform"
+   ]
+  },
+  "cradle-of-writing#step:1": {
+   "hash": "28b784d076c81a92",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ebla_tablets"
+   ],
+   "note": "Source says 'as many as 1,800' complete tablets, not 'about'."
+  },
+  "cradle-of-writing#step:2": {
+   "hash": "da694e40f4aa0ad8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pyramid_Texts"
+   ]
+  },
+  "cradle-of-writing#step:3": {
+   "hash": "4b43d41c86aae439",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cuneiform",
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "cradle-of-writing#step:4": {
+   "hash": "52199701a8ea609b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic"
+   ],
+   "note": "Source says Ugarit was destroyed roughly 1190 BCE, not 'fell'."
+  },
+  "cradle-of-writing#step:5": {
+   "hash": "52a8786a4a3cb899",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ahiram_sarcophagus"
+   ]
+  },
+  "cradle-of-writing#step:6": {
+   "hash": "b7b1584bd7785bb6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dipylon_inscription"
+   ],
+   "note": "Source translates the verse as whoever dances most lightly; 'graceful' was a paraphrase."
+  },
+  "cradle-of-writing#step:7": {
+   "hash": "b227413833aa7b8f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lapis_Niger"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:40:47.129Z",
+ "verifier": "verifier-journeys"
+}

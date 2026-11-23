@@ -1,0 +1,2592 @@
+{
+  "family": {
+    "id": "germanic",
+    "name": "Germanic",
+    "root": "proto-germanic"
+  },
+  "sources": [
+    {
+      "id": "glotto-germ1287",
+      "title": "Glottolog 5.4: Germanic",
+      "url": "https://glottolog.org/resource/languoid/id/germ1287",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-west2793",
+      "title": "Glottolog 5.4: West Germanic",
+      "url": "https://glottolog.org/resource/languoid/id/west2793",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-goth1244",
+      "title": "Glottolog 5.4: Gothic",
+      "url": "https://glottolog.org/resource/languoid/id/goth1244",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-olde1239",
+      "title": "Glottolog 5.4: Older Runic",
+      "url": "https://glottolog.org/resource/languoid/id/olde1239",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldn1244",
+      "title": "Glottolog 5.4: Old Norse",
+      "url": "https://glottolog.org/resource/languoid/id/oldn1244",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-icel1247",
+      "title": "Glottolog 5.4: Icelandic",
+      "url": "https://glottolog.org/resource/languoid/id/icel1247",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-norw1258",
+      "title": "Glottolog 5.4: Norwegian",
+      "url": "https://glottolog.org/resource/languoid/id/norw1258",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-swed1254",
+      "title": "Glottolog 5.4: Swedish",
+      "url": "https://glottolog.org/resource/languoid/id/swed1254",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-dani1285",
+      "title": "Glottolog 5.4: Danish",
+      "url": "https://glottolog.org/resource/languoid/id/dani1285",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-faro1244",
+      "title": "Glottolog 5.4: Faroese",
+      "url": "https://glottolog.org/resource/languoid/id/faro1244",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-olde1238",
+      "title": "Glottolog 5.4: Old English (ca. 450-1100)",
+      "url": "https://glottolog.org/resource/languoid/id/olde1238",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-midd1317",
+      "title": "Glottolog 5.4: Middle English",
+      "url": "https://glottolog.org/resource/languoid/id/midd1317",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-stan1293",
+      "title": "Glottolog 5.4: English",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-olds1250",
+      "title": "Glottolog 5.4: Old Saxon",
+      "url": "https://glottolog.org/resource/languoid/id/olds1250",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldh1241",
+      "title": "Glottolog 5.4: Old High German (ca. 750-1050)",
+      "url": "https://glottolog.org/resource/languoid/id/oldh1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-midd1343",
+      "title": "Glottolog 5.4: Middle High German",
+      "url": "https://glottolog.org/resource/languoid/id/midd1343",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-stan1295",
+      "title": "Glottolog 5.4: German",
+      "url": "https://glottolog.org/resource/languoid/id/stan1295",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldd1238",
+      "title": "Glottolog 5.4: Old Dutch",
+      "url": "https://glottolog.org/resource/languoid/id/oldd1238",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-dutc1256",
+      "title": "Glottolog 5.4: Dutch",
+      "url": "https://glottolog.org/resource/languoid/id/dutc1256",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-afri1274",
+      "title": "Glottolog 5.4: Afrikaans",
+      "url": "https://glottolog.org/resource/languoid/id/afri1274",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldf1241",
+      "title": "Glottolog 5.4: Old Frisian",
+      "url": "https://glottolog.org/resource/languoid/id/oldf1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-west2354",
+      "title": "Glottolog 5.4: Western Frisian",
+      "url": "https://glottolog.org/resource/languoid/id/west2354",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-proto-germanic",
+      "title": "Proto-Germanic language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Germanic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-germanic-languages",
+      "title": "Germanic languages",
+      "url": "https://en.wikipedia.org/wiki/Germanic_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gothic",
+      "title": "Gothic language",
+      "url": "https://en.wikipedia.org/wiki/Gothic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-codex-argenteus",
+      "title": "Codex Argenteus",
+      "url": "https://en.wikipedia.org/wiki/Codex_Argenteus",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-norse",
+      "title": "Proto-Norse language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Norse_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-vimose",
+      "title": "Vimose inscriptions",
+      "url": "https://en.wikipedia.org/wiki/Vimose_inscriptions",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gallehus",
+      "title": "Golden Horns of Gallehus",
+      "url": "https://en.wikipedia.org/wiki/Golden_Horns_of_Gallehus",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-norse",
+      "title": "Old Norse",
+      "url": "https://en.wikipedia.org/wiki/Old_Norse",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-rok",
+      "title": "Rök runestone",
+      "url": "https://en.wikipedia.org/wiki/R%C3%B6k_runestone",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-jelling",
+      "title": "Jelling stones",
+      "url": "https://en.wikipedia.org/wiki/Jelling_stones",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-voluspa",
+      "title": "Völuspá",
+      "url": "https://en.wikipedia.org/wiki/V%C3%B6lusp%C3%A1",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-njala",
+      "title": "Njáls saga",
+      "url": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-bellows",
+      "title": "Henry Adams Bellows (businessman)",
+      "url": "https://en.wikipedia.org/wiki/Henry_Adams_Bellows_(businessman)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-dasent",
+      "title": "George Webbe Dasent",
+      "url": "https://en.wikipedia.org/wiki/George_Webbe_Dasent",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-icelandic",
+      "title": "Icelandic language",
+      "url": "https://en.wikipedia.org/wiki/Icelandic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-history-icelandic",
+      "title": "History of Icelandic",
+      "url": "https://en.wikipedia.org/wiki/History_of_Icelandic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-norwegian",
+      "title": "Norwegian language",
+      "url": "https://en.wikipedia.org/wiki/Norwegian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-middle-norwegian",
+      "title": "Middle Norwegian",
+      "url": "https://en.wikipedia.org/wiki/Middle_Norwegian",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-swedish",
+      "title": "Swedish language",
+      "url": "https://en.wikipedia.org/wiki/Swedish_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gustav-vasa-bible",
+      "title": "Gustav Vasa Bible",
+      "url": "https://en.wikipedia.org/wiki/Gustav_Vasa_Bible",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-danish",
+      "title": "Danish language",
+      "url": "https://en.wikipedia.org/wiki/Danish_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-codex-holmiensis",
+      "title": "Codex Holmiensis",
+      "url": "https://en.wikipedia.org/wiki/Codex_Holmiensis",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-faroese",
+      "title": "Faroese language",
+      "url": "https://en.wikipedia.org/wiki/Faroese_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-sheep-letter",
+      "title": "Sheep Letter",
+      "url": "https://en.wikipedia.org/wiki/Sheep_letter",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-english",
+      "title": "Old English",
+      "url": "https://en.wikipedia.org/wiki/Old_English",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-undley",
+      "title": "Undley bracteate",
+      "url": "https://en.wikipedia.org/wiki/Undley_bracteate",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ruthwell",
+      "title": "Ruthwell Cross",
+      "url": "https://en.wikipedia.org/wiki/Ruthwell_Cross",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-beowulf",
+      "title": "Beowulf",
+      "url": "https://en.wikipedia.org/wiki/Beowulf",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gummere",
+      "title": "Francis Barton Gummere",
+      "url": "https://en.wikipedia.org/wiki/Francis_Barton_Gummere",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-middle-english",
+      "title": "Middle English",
+      "url": "https://en.wikipedia.org/wiki/Middle_English",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-canterbury",
+      "title": "The Canterbury Tales",
+      "url": "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-english",
+      "title": "English language",
+      "url": "https://en.wikipedia.org/wiki/English_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-early-modern-english",
+      "title": "Early Modern English",
+      "url": "https://en.wikipedia.org/wiki/Early_Modern_English",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kjv",
+      "title": "King James Version",
+      "url": "https://en.wikipedia.org/wiki/King_James_Version",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-sonnet-18",
+      "title": "Sonnet 18",
+      "url": "https://en.wikipedia.org/wiki/Sonnet_18",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-saxon",
+      "title": "Old Saxon",
+      "url": "https://en.wikipedia.org/wiki/Old_Saxon",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-heliand",
+      "title": "Heliand",
+      "url": "https://en.wikipedia.org/wiki/Heliand",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ohg",
+      "title": "Old High German",
+      "url": "https://en.wikipedia.org/wiki/Old_High_German",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-hildebrandslied",
+      "title": "Hildebrandslied",
+      "url": "https://en.wikipedia.org/wiki/Hildebrandslied",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-mhg",
+      "title": "Middle High German",
+      "url": "https://en.wikipedia.org/wiki/Middle_High_German",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nibelungenlied",
+      "title": "Nibelungenlied",
+      "url": "https://en.wikipedia.org/wiki/Nibelungenlied",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-armour",
+      "title": "Margaret Armour",
+      "url": "https://en.wikipedia.org/wiki/Margaret_Armour",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-german",
+      "title": "German language",
+      "url": "https://en.wikipedia.org/wiki/German_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-enhg",
+      "title": "Early New High German",
+      "url": "https://en.wikipedia.org/wiki/Early_New_High_German",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-luther-bible",
+      "title": "Luther Bible",
+      "url": "https://en.wikipedia.org/wiki/Luther_Bible",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-faust",
+      "title": "Goethe's Faust",
+      "url": "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-bayard-taylor",
+      "title": "Bayard Taylor",
+      "url": "https://en.wikipedia.org/wiki/Bayard_Taylor",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-dutch",
+      "title": "Old Dutch",
+      "url": "https://en.wikipedia.org/wiki/Old_Dutch",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-hebban",
+      "title": "Hebban olla vogala",
+      "url": "https://en.wikipedia.org/wiki/Hebban_olla_vogala",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-dutch",
+      "title": "Dutch language",
+      "url": "https://en.wikipedia.org/wiki/Dutch_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-middle-dutch",
+      "title": "Middle Dutch",
+      "url": "https://en.wikipedia.org/wiki/Middle_Dutch",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-statenvertaling",
+      "title": "Statenvertaling",
+      "url": "https://en.wikipedia.org/wiki/Statenvertaling",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-afrikaans",
+      "title": "Afrikaans",
+      "url": "https://en.wikipedia.org/wiki/Afrikaans",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-yiddish",
+      "title": "Yiddish",
+      "url": "https://en.wikipedia.org/wiki/Yiddish",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-mahzor-worms",
+      "title": "Mahzor of Worms",
+      "url": "https://en.wikipedia.org/wiki/Mahzor_of_Worms",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-frisian",
+      "title": "Old Frisian",
+      "url": "https://en.wikipedia.org/wiki/Old_Frisian",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-west-frisian",
+      "title": "West Frisian language",
+      "url": "https://en.wikipedia.org/wiki/West_Frisian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "uu-codex-argenteus",
+      "title": "The history of Codex argenteus",
+      "url": "https://www.uu.se/en/library/visit-and-contact/exhibitions/codex-argenteus/the-history-of-codex-argenteus",
+      "publisher": "Uppsala University Library"
+    },
+    {
+      "id": "wulfila-mt6",
+      "title": "Gothic Bible, Matthew chapter 6 (Streitberg text)",
+      "url": "https://www.wulfila.be/gothic/browse/text/01/06.html",
+      "publisher": "Project Wulfila"
+    },
+    {
+      "id": "rundata-dr207",
+      "title": "DR 207 (Vimose comb)",
+      "url": "https://rundata.info/inscription/dr-207/",
+      "publisher": "Scandinavian Runic-text Database (rundata.info)"
+    },
+    {
+      "id": "rundata-og136",
+      "title": "Ög 136 (Rök runestone)",
+      "url": "https://rundata.info/inscription/og-136/",
+      "publisher": "Scandinavian Runic-text Database (rundata.info)"
+    },
+    {
+      "id": "natmus-golden-horns",
+      "title": "The Golden Horns",
+      "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-late-iron-age/the-golden-horns",
+      "publisher": "National Museum of Denmark"
+    },
+    {
+      "id": "natmus-jelling",
+      "title": "The Jelling Stone",
+      "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-monuments-at-jelling/the-jelling-stone",
+      "publisher": "National Museum of Denmark"
+    },
+    {
+      "id": "ws-is-voluspa",
+      "title": "Völuspá (Sophus Bugge's edition in normalised spelling)",
+      "url": "https://is.wikisource.org/wiki/V%C3%B6lusp%C3%A1",
+      "publisher": "Wikiheimild (Icelandic Wikisource)"
+    },
+    {
+      "id": "gut-bellows",
+      "title": "The Poetic Edda, translated by Henry Adams Bellows (1923)",
+      "url": "https://gutenberg.pglaf.org/7/3/5/3/73533/73533-0.txt",
+      "author": "Henry Adams Bellows",
+      "year": 1923,
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "mimisbrunnr-bellows",
+      "title": "Völuspá, Bellows translation",
+      "url": "https://www.mimisbrunnr.info/voluspa-bellows",
+      "publisher": "Mimisbrunnr.info"
+    },
+    {
+      "id": "ws-is-njala",
+      "title": "Brennu-Njáls saga, 1. kafli",
+      "url": "https://is.wikisource.org/wiki/Brennu-Nj%C3%A1ls_saga/1",
+      "publisher": "Wikiheimild (Icelandic Wikisource)"
+    },
+    {
+      "id": "gut-dasent",
+      "title": "The Story of Burnt Njal, translated by George Webbe Dasent",
+      "url": "https://gutenberg.pglaf.org/1/7/9/1/17919/17919-8.txt",
+      "author": "George Webbe Dasent",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "ws-beowulf-hs",
+      "title": "Beowulf (Harrison and Sharp edition, 1883)",
+      "url": "https://en.wikisource.org/wiki/Beowulf_(Harrison_and_Sharp)",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "gut-gummere",
+      "title": "Beowulf, translated by Francis B. Gummere",
+      "url": "https://gutenberg.pglaf.org/9/8/981/981.txt",
+      "author": "Francis Barton Gummere",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "gut-chaucer",
+      "title": "Chaucer's Works, Volume 4: The Canterbury Tales, ed. Walter Skeat",
+      "url": "https://gutenberg.pglaf.org/2/2/1/2/22120/22120-0.txt",
+      "author": "Geoffrey Chaucer",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "gut-sonnets",
+      "title": "Shakespeare's Sonnets",
+      "url": "https://gutenberg.pglaf.org/1/0/4/1041/1041-0.txt",
+      "author": "William Shakespeare",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "ws-de-hildebrandslied",
+      "title": "Hildebrandslied",
+      "url": "https://de.wikisource.org/wiki/Hildebrandslied",
+      "publisher": "Wikisource (German)"
+    },
+    {
+      "id": "gut-nibelunge-liet",
+      "title": "Der Nibelunge liet, ed. Karl Simrock (Stuttgart 1892), Middle High German text",
+      "url": "https://gutenberg.pglaf.org/4/8/8/8/48888/48888-0.txt",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "gut-armour",
+      "title": "The Fall of the Nibelungs, translated by Margaret Armour",
+      "url": "https://gutenberg.pglaf.org/3/6/3/3636/3636-0.txt",
+      "author": "Margaret Armour",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "gut-faust-de",
+      "title": "Faust: Der Tragödie erster Teil",
+      "url": "https://gutenberg.pglaf.org/2/2/2/2229/2229-0.txt",
+      "author": "Johann Wolfgang von Goethe",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "gut-faust-taylor",
+      "title": "Faust, translated by Bayard Taylor",
+      "url": "https://gutenberg.pglaf.org/1/4/5/9/14591/14591-0.txt",
+      "author": "Bayard Taylor",
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "glotto-east2295",
+      "title": "Glottolog 5.4: Eastern Yiddish",
+      "url": "https://glottolog.org/resource/languoid/id/east2295",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-west2361",
+      "title": "Glottolog 5.4: Western Yiddish",
+      "url": "https://glottolog.org/resource/languoid/id/west2361",
+      "publisher": "Glottolog"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-germanic",
+      "name": "Proto-Germanic",
+      "glottocode": "germ1287",
+      "parent": "proto-indo-european",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-proto-germanic",
+        "glotto-germ1287"
+      ],
+      "period": {
+        "from": -500,
+        "to": 200,
+        "approx": true,
+        "sources": [
+          "wp-proto-germanic"
+        ],
+        "note": "Wikipedia gives the era as c. 500 BC–AD 200 and states that Proto-Germanic was likely spoken after c. 500 BC."
+      },
+      "homeland": {
+        "lat": 54.5,
+        "lng": 9.6,
+        "label": "Southern Scandinavia and northern Germany",
+        "sources": [
+          "wp-proto-germanic",
+          "wp-germanic-languages"
+        ]
+      },
+      "attestations": [],
+      "story": [
+        {
+          "text": "Proto-Germanic is the reconstructed common ancestor of the Germanic languages. No text in it survives. Linguists rebuild it with the comparative method, drawing on older Indo-European languages, on very early Germanic loanwords in Baltic and Finnic languages such as Finnish kuningas 'king', on early runic inscriptions, and on words recorded by Roman writers, notably Tacitus in his Germania of about AD 90.",
+          "sources": [
+            "wp-proto-germanic"
+          ]
+        },
+        {
+          "text": "Its defining feature is the completion of Grimm's law, the First Germanic Sound Shift. Proto-Germanic was probably spoken after about 500 BC, during the Pre-Roman Iron Age of northern Europe. By the first century AD Germanic speakers had reached the Danube and the Upper Rhine, and by the third century they had spread across about 1,200 km, from the Rhine to the Dnieper.",
+          "sources": [
+            "wp-proto-germanic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "The homeland is discussed. One view places the development of Proto-Germanic in southern Scandinavia (Denmark, southern Sweden and southern Norway) and the northernmost part of Germany. According to Mallory, Germanicists 'generally agree' that the homeland lay mainly in the area of the Jastorf culture in what is now Germany; Ringe considers early Jastorf, at the end of the 7th century BCE, almost certainly too early for the last common ancestor of the attested languages.",
+          "sources": [
+            "wp-proto-germanic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "west-germanic",
+      "name": "West Germanic",
+      "glottocode": "west2793",
+      "parent": "proto-germanic",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "wp-germanic-languages",
+        "glotto-west2793"
+      ],
+      "attestations": [],
+      "story": [],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "gothic",
+      "name": "Gothic",
+      "glottocode": "goth1244",
+      "iso639_3": "got",
+      "parent": "proto-germanic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-gothic",
+        "glotto-goth1244"
+      ],
+      "period": {
+        "from": 250,
+        "to": 950,
+        "approx": true,
+        "sources": [
+          "wp-gothic"
+        ],
+        "note": "Wikipedia gives Gothic as attested from the 3rd to the 10th century; the oldest documents date to the 4th century."
+      },
+      "homeland": {
+        "lat": 43.4,
+        "lng": 25.0,
+        "label": "Lower Danube (Roman Moesia and Dacia)",
+        "sources": [
+          "wp-gothic"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "codex-argenteus",
+          "year": 520,
+          "approx": true,
+          "lat": 44.4184,
+          "lng": 12.2035,
+          "place": "Ravenna, Italy",
+          "description": "The Codex Argenteus, a copy of Wulfila's Gothic gospels in gold and silver ink on purple vellum, was probably made in Ravenna under the Ostrogoths at the beginning of the 6th century, possibly for King Theoderic the Great. Most of it is now in Uppsala University Library.",
+          "sources": [
+            "uu-codex-argenteus",
+            "wp-codex-argenteus"
+          ]
+        },
+        {
+          "id": "mangup-graffiti",
+          "year": 850,
+          "approx": true,
+          "lat": 44.5917,
+          "lng": 33.8083,
+          "place": "Mangup, Crimea",
+          "description": "Five inscriptions in the Gothic alphabet, found in 2015 in the basilica at Mangup, date from the mid-9th century and are perhaps the youngest attestation of the Gothic alphabet.",
+          "sources": [
+            "wp-gothic"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Runic (Elder Futhark)",
+            "code": "Runr"
+          },
+          {
+            "name": "Gothic alphabet",
+            "code": "Goth"
+          }
+        ],
+        "sources": [
+          "wp-gothic"
+        ]
+      },
+      "story": [
+        {
+          "text": "Gothic, the language of the Goths, is the earliest Germanic language attested in sizeable texts and the only East Germanic language with a sizeable corpus. Most of what survives comes from the Bible translation made from Greek in the 4th century under the bishop Wulfila (Ulfilas, 311–382), leader of a community of Visigothic Christians in the Roman province of Moesia. About three-quarters of the New Testament and some Old Testament fragments survive.",
+          "sources": [
+            "wp-gothic",
+            "uu-codex-argenteus"
+          ]
+        },
+        {
+          "text": "The best witness is the Codex Argenteus, the 'Silver Book', written in gold and silver ink on purple vellum, probably in Ravenna in the early 6th century, possibly for the Ostrogothic king Theoderic the Great. It once had at least 336 leaves. Magnus Gabriel De la Gardie presented it to Uppsala University in 1669, and part of it is on permanent display in Uppsala.",
+          "sources": [
+            "uu-codex-argenteus",
+            "wp-codex-argenteus"
+          ]
+        },
+        {
+          "text": "The language was in decline by the mid-6th century. In Spain it lost its last role as a church language when the Visigoths converted from Arianism to Nicene Christianity in 589, although it survived there as a domestic language as late as the 8th century. Graffiti in the Gothic alphabet from Mangup in Crimea date from the mid-9th century.",
+          "sources": [
+            "wp-gothic"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "wulfila-bible",
+          "title": "The Gothic Bible: the Lord's Prayer (Matthew 6:9–11)",
+          "author": "Wulfila (Ulfilas) and collaborators (translators from Greek)",
+          "date": "4th-century translation; Codex Argenteus copy early 6th century",
+          "year": 370,
+          "significance": "The Gothic Bible, translated in the 4th century under Bishop Wulfila, is the first coherent text recorded in a Germanic language; the Codex Argenteus is its best-preserved manuscript.",
+          "original": "𐌰𐍄𐍄𐌰 𐌿𐌽𐍃𐌰𐍂 𐌸𐌿 𐌹𐌽 𐌷𐌹𐌼𐌹𐌽𐌰𐌼 𐍅𐌴𐌹𐌷𐌽𐌰𐌹 𐌽𐌰𐌼𐍉 𐌸𐌴𐌹𐌽 𐌵𐌹𐌼𐌰𐌹 𐌸𐌹𐌿𐌳𐌹𐌽𐌰𐍃𐍃𐌿𐍃 𐌸𐌴𐌹𐌽𐍃 𐍅𐌰𐌹𐍂𐌸𐌰𐌹 𐍅𐌹𐌻𐌾𐌰 𐌸𐌴𐌹𐌽𐍃 𐍃𐍅𐌴 𐌹𐌽 𐌷𐌹𐌼𐌹𐌽𐌰 𐌾𐌰𐌷 𐌰𐌽𐌰 𐌰𐌹𐍂𐌸𐌰𐌹 𐌷𐌻𐌰𐌹𐍆 𐌿𐌽𐍃𐌰𐍂𐌰𐌽𐌰 𐌸𐌰𐌽𐌰 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐌰𐌽 𐌲𐌹𐍆 𐌿𐌽𐍃 𐌷𐌹𐌼𐌼𐌰 𐌳𐌰𐌲𐌰",
+          "originalScript": "Goth",
+          "transliteration": "atta unsar þu in himinam, weihnai namo þein. qimai þiudinassus þeins. wairþai wilja þeins, swe in himina jah ana airþai. hlaif unsarana þana sinteinan gif uns himma daga.",
+          "translation": "Our father, thou in the heavens, may thy name be hallowed. May thy kingdom come. May thy will come to pass, as in heaven so also on earth. Our daily loaf give us this day.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.wulfila.be/gothic/browse/text/01/06.html",
+          "sources": [
+            "wulfila-mt6",
+            "wp-gothic",
+            "wp-proto-germanic",
+            "uu-codex-argenteus"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "A language known as Crimean Gothic survived in Crimea into the second half of the 18th century. Because it lacks certain sound changes characteristic of Gothic, it cannot be a direct descendant of the language of the Codex Argenteus. Gothic-seeming terms also appear in manuscripts after the 8th century, but these may or may not belong to the same language.",
+          "sources": [
+            "wp-gothic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-norse",
+      "name": "Proto-Norse",
+      "glottocode": "olde1239",
+      "parent": "proto-germanic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-proto-norse",
+        "glotto-olde1239"
+      ],
+      "period": {
+        "from": 100,
+        "to": 800,
+        "approx": true,
+        "sources": [
+          "wp-proto-norse"
+        ],
+        "note": "Wikipedia: spoken from around the 2nd to the 8th centuries CE; it evolved into Old Norse around 800."
+      },
+      "homeland": {
+        "lat": 55.27,
+        "lng": 10.38,
+        "label": "Southern Scandinavia",
+        "sources": [
+          "wp-proto-norse",
+          "wp-vimose"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "vimose-comb",
+          "year": 160,
+          "approx": true,
+          "lat": 55.452,
+          "lng": 10.296,
+          "place": "Vimose bog, Funen, Denmark",
+          "description": "A comb from the Vimose bog inscribed with the five runes harja, dated to about 160 and considered the oldest known datable runic inscription. It is in the National Museum of Denmark.",
+          "sources": [
+            "rundata-dr207",
+            "wp-vimose"
+          ]
+        },
+        {
+          "id": "gallehus-horns",
+          "year": 400,
+          "approx": true,
+          "lat": 54.95,
+          "lng": 8.83,
+          "place": "Gallehus, near Møgeltønder, Southern Jutland, Denmark",
+          "description": "One of the two Golden Horns of Gallehus, made around 400, bore the runic inscription ekhlewagastiR : holtijaR : horna : tawido, 'I Hlewagastiz Holtijaz made the horn'. The horns, found in 1639 and 1734, were stolen and melted down in 1802.",
+          "sources": [
+            "natmus-golden-horns",
+            "wp-gallehus"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Runic (Elder Futhark)",
+            "code": "Runr"
+          }
+        ],
+        "sources": [
+          "wp-proto-norse"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Norse is the earliest stage of a distinctively North Germanic language. It is thought to have evolved as a northern dialect of Proto-Germanic in the first centuries CE, and it is the language of the oldest Scandinavian inscriptions in the Elder Futhark, spoken from around the 2nd to the 8th century. Around 800, at the start of the Viking Age, it evolved into the dialects of Old Norse.",
+          "sources": [
+            "wp-proto-norse"
+          ]
+        },
+        {
+          "text": "One of its earliest records is a comb from Vimose on Funen, inscribed with the five runes harja and dated to about 160; it is now in the National Museum of Denmark. Around 400 the maker of one of the Golden Horns of Gallehus signed it: 'I Hlewagastiz Holtijaz made the horn.' Both horns, found in 1639 and 1734, were stolen and melted down in 1802.",
+          "sources": [
+            "rundata-dr207",
+            "wp-vimose",
+            "wp-gallehus",
+            "natmus-golden-horns"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "The earliest inscriptions sit on the boundary between stages. The Vimose inscriptions, from the 2nd to 3rd century, are described as early Proto-Norse or late Proto-Germanic, and the start of Proto-Norse as the earliest attested Germanic stage is variously dated to the 1st century AD, the 2nd century AD or around 300 AD.",
+          "sources": [
+            "wp-vimose",
+            "wp-proto-germanic"
+          ]
+        },
+        {
+          "text": "Glottolog has no entry named Proto-Norse. The code olde1239 is Older Runic, the language of the Elder Futhark inscriptions, and is the nearest match for this stage.",
+          "sources": [
+            "glotto-olde1239"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-norse",
+      "name": "Old Norse",
+      "nativeName": "dǫnsk tunga",
+      "nativeScript": "Latn",
+      "glottocode": "oldn1244",
+      "iso639_3": "non",
+      "parent": "proto-norse",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-norse",
+        "glotto-oldn1244",
+        "wp-danish"
+      ],
+      "period": {
+        "from": 800,
+        "to": 1400,
+        "approx": true,
+        "sources": [
+          "wp-old-norse",
+          "wp-proto-norse"
+        ],
+        "note": "Wikipedia: evolved from Proto-Norse in the 8th century (around 800, at the start of the Viking Age) and developed into the various North Germanic languages by the 15th century."
+      },
+      "homeland": {
+        "lat": 63.42,
+        "lng": 10.38,
+        "label": "Scandinavia",
+        "sources": [
+          "wp-old-norse"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "rok-runestone",
+          "year": 800,
+          "approx": true,
+          "lat": 58.295,
+          "lng": 14.7756,
+          "place": "Rök, Ödeshög Municipality, Östergötland, Sweden",
+          "description": "The Rök runestone (Ög 136), dated to the 9th century, carries the longest known runic inscription in stone and is considered the first known piece of written Swedish literature.",
+          "sources": [
+            "wp-rok",
+            "rundata-og136"
+          ]
+        },
+        {
+          "id": "jelling-stone",
+          "year": 965,
+          "approx": true,
+          "lat": 55.7567,
+          "lng": 9.4194,
+          "place": "Jelling, Denmark",
+          "description": "Around 965 King Harald Bluetooth raised the large runestone at Jelling in memory of his parents Gorm and Thyra, recording that he won all of Denmark and Norway and made the Danes Christian.",
+          "sources": [
+            "natmus-jelling",
+            "wp-jelling"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Runic (Younger Futhark)",
+            "code": "Runr"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-norse"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Norse was the North Germanic language of Scandinavia and the Norse settlements during the Viking Age and the early Middle Ages, roughly the 8th to 14th centuries. It was generally called dǫnsk tunga, 'Danish tongue'. Old West Norse was spoken in Norway, Iceland, Greenland, the Faroes, Ireland, Scotland, the Isle of Man, northwest England and Normandy; Old East Norse in Denmark, Sweden, Kievan Rus', eastern England and Danish settlements in Normandy.",
+          "sources": [
+            "wp-old-norse",
+            "wp-danish"
+          ]
+        },
+        {
+          "text": "Old Norse was written in Younger Futhark runes and later in the Latin alphabet. The Rök runestone in Östergötland, from the 9th century, has the longest known runic inscription in stone. Manuscripts preserve the Poetic Edda, the Prose Edda, the sagas of Icelanders, skaldic verse and law codes. English words such as egg, knife, sky and window come from Old Norse.",
+          "sources": [
+            "wp-old-norse",
+            "wp-rok",
+            "rundata-og136"
+          ]
+        },
+        {
+          "text": "Around 965 King Harald Bluetooth raised the great runestone at Jelling in memory of his parents, Gorm and Thyra. Its inscription says that Harald 'won for himself all of Denmark and Norway and made the Danes Christian', and the stone is often called Denmark's birth certificate. The Jelling stones were added to the UNESCO World Heritage List in 1994.",
+          "sources": [
+            "natmus-jelling",
+            "wp-jelling"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "voluspa",
+          "title": "Völuspá (The Prophecy of the Seeress), from the Poetic Edda",
+          "titleOriginal": "Völuspá",
+          "author": "Anonymous",
+          "date": "10th century (composition); preserved in the Codex Regius, c. 1270",
+          "year": 950,
+          "significance": "The best-known poem of the Poetic Edda and one of the most important primary sources for Norse mythology, telling of the creation of the world, its coming end and its rebirth, as related by a seeress to Odin.",
+          "original": "Hljóðs bið ek allar\nhelgar kindir,\nmeiri ok minni\nmögu Heimdallar;\nviltu, at ek, Valföðr!\nvel framtelja\nforn spjöll fíra,\nþau er fremst um man.\n\nEk man jötna\nár um borna,\nþá er forðum\nmik fœdda höfðu;\nníu man ek heima,\nníu íviði,\nmjötvið mœran\nfyr mold neðan.",
+          "originalScript": "Latn",
+          "translation": "Hearing I ask from the holy races,\nFrom Heimdall’s sons, both high and low;\nThou wilt, Valfather, that well I relate\nOld tales I remember of men long ago.\n\nI remember yet the giants of yore,\nWho gave me bread in the days gone by;\nNine worlds I knew, the nine in the tree\nWith mighty roots beneath the mold.",
+          "translator": "Henry Adams Bellows",
+          "translationYear": 1923,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://is.wikisource.org/wiki/V%C3%B6lusp%C3%A1",
+          "sources": [
+            "ws-is-voluspa",
+            "gut-bellows",
+            "mimisbrunnr-bellows",
+            "wp-voluspa",
+            "wp-bellows"
+          ]
+        },
+        {
+          "id": "njals-saga",
+          "title": "Njáls saga (The Story of Burnt Njal)",
+          "titleOriginal": "Brennu-Njáls saga",
+          "author": "Anonymous",
+          "date": "13th century",
+          "year": 1250,
+          "significance": "A thirteenth-century Icelandic saga describing events between 960 and 1020; it is the longest and most highly developed of the sagas of Icelanders and is often considered the peak of the saga tradition.",
+          "original": "Mörður hét maður er kallaður var gígja. Hann var sonur Sighvats hins rauða. Hann bjó á Velli á Rangárvöllum. Hann var ríkur höfðingi og málafylgjumaður mikill og svo mikill lögmaður að engir þóttu löglegir dómar dæmdir nema hann væri við. Hann átti dóttur eina er Unnur hét. Hún var væn kona og kurteis og vel að sér og þótti sá bestur kostur á Rangárvöllum.",
+          "originalScript": "Latn",
+          "translation": "There was a man named Mord whose surname was Fiddle; he was the son of Sigvat the Red, and he dwelt at the \"Vale\" in the Rangrivervales. He was a mighty chief, and a great taker up of suits, and so great a lawyer that no judgments were thought lawful unless he had a hand in them. He had an only daughter, named Unna. She was a fair, courteous and gifted woman, and that was thought the best match in all the Rangrivervales.",
+          "translator": "George Webbe Dasent",
+          "translationYear": 1861,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://is.wikisource.org/wiki/Brennu-Nj%C3%A1ls_saga",
+          "sources": [
+            "ws-is-njala",
+            "gut-dasent",
+            "wp-njala",
+            "wp-dasent",
+            "wp-icelandic"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "icelandic",
+      "name": "Icelandic",
+      "nativeName": "íslenska",
+      "nativeScript": "Latn",
+      "glottocode": "icel1247",
+      "iso639_3": "isl",
+      "parent": "old-norse",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-icelandic",
+        "glotto-icel1247"
+      ],
+      "period": {
+        "from": 1350,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-history-icelandic"
+        ],
+        "note": "Dated from the start of Middle Icelandic (1350–1550) as periodised in the History of Icelandic; the language of the sagas, Old Icelandic, is treated as a western dialect of Old Norse."
+      },
+      "homeland": {
+        "lat": 64.5,
+        "lng": -19.0,
+        "label": "Iceland",
+        "sources": [
+          "wp-icelandic"
+        ]
+      },
+      "attestations": [],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-icelandic"
+        ]
+      },
+      "story": [
+        {
+          "text": "Icelandic began when the settlement of Iceland in the 9th century, mostly by Norwegians, brought a dialect of Old Norse to the island. The oldest preserved Icelandic texts were written around 1100, the oldest single text being Íslendingabók. The language of the sagas is called Old Icelandic, a western dialect of Old Norse, and its pronunciation changed considerably between the 12th and 16th centuries, especially in the vowels.",
+          "sources": [
+            "wp-history-icelandic"
+          ]
+        },
+        {
+          "text": "Written Icelandic has changed relatively little since the 13th century, and modern speakers can read the sagas and Eddas, usually with updated spelling and footnotes. Icelandic keeps a four-case grammar, and its language regulator coins new terms from older Icelandic words rather than borrowing. Since 1995, 16 November, the birthday of the poet Jónas Hallgrímsson, has been celebrated as Icelandic Language Day.",
+          "sources": [
+            "wp-history-icelandic",
+            "wp-icelandic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "norwegian",
+      "name": "Norwegian",
+      "nativeName": "norsk",
+      "nativeScript": "Latn",
+      "glottocode": "norw1258",
+      "iso639_3": "nor",
+      "parent": "old-norse",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-norwegian",
+        "glotto-norw1258"
+      ],
+      "period": {
+        "from": 1350,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-middle-norwegian"
+        ],
+        "note": "Dated from Middle Norwegian, the form of Norwegian spoken from 1350 to 1550; earlier Old Norwegian is part of Old West Norse."
+      },
+      "homeland": {
+        "lat": 59.92,
+        "lng": 10.71,
+        "label": "Norway",
+        "sources": [
+          "wp-norwegian"
+        ]
+      },
+      "attestations": [],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-norwegian"
+        ]
+      },
+      "speakers": {
+        "count": 4320000,
+        "year": 2012,
+        "scope": "L1",
+        "sources": [
+          "wp-norwegian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Norwegian descends from Old Norse. Middle Norwegian, spoken from 1350 to 1550, was the last phase of the language before Danish replaced Norwegian as the official written language. Norway entered a union with Denmark in 1397, and Danish gradually became the language of the elite, the church, literature and the law. When the union ended in 1814, the Dano-Norwegian koiné was the mother tongue of around 1% of the population.",
+          "sources": [
+            "wp-norwegian",
+            "wp-middle-norwegian"
+          ]
+        },
+        {
+          "text": "From the 1840s some writers experimented with a Norwegianised form of written Danish, while the self-taught linguist Ivar Aasen travelled the country collecting dialect words and grammar, publishing his Landsmål in books from 1848 to 1873. Today there are two official written forms: Bokmål, which developed from Dano-Norwegian, and Nynorsk, based on the spoken dialects. Norwegian is one of Norway's two official languages, along with Sámi.",
+          "sources": [
+            "wp-norwegian"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "swedish",
+      "name": "Swedish",
+      "nativeName": "svenska",
+      "nativeScript": "Latn",
+      "glottocode": "swed1254",
+      "iso639_3": "swe",
+      "parent": "old-norse",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-swedish",
+        "glotto-swed1254"
+      ],
+      "period": {
+        "from": 1225,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-swedish"
+        ],
+        "note": "Old Swedish is conventionally dated from 1225, the year the Västgöta Law is believed to have been first compiled."
+      },
+      "homeland": {
+        "lat": 59.8,
+        "lng": 17.39,
+        "label": "Sweden",
+        "sources": [
+          "wp-swedish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "gustav-vasa-bible",
+          "year": 1541,
+          "approx": false,
+          "lat": 59.8586,
+          "lng": 17.6389,
+          "place": "Uppsala, Sweden",
+          "description": "The Gustav Vasa Bible, the full Swedish Bible translation ordered by King Gustav Vasa, was printed in Uppsala in 1541.",
+          "sources": [
+            "wp-swedish",
+            "wp-gustav-vasa-bible"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-swedish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Swedish is conventionally dated from 1225, the year the Västgöta Law is believed to have been first compiled; it is among the oldest Swedish law codes and the most important documents of the period written in Latin script. With the rise of the Hanseatic League in the late 13th and early 14th centuries, Low German-speaking immigrants arrived, and Middle Low German supplied many loanwords and even grammatical suffixes.",
+          "sources": [
+            "wp-swedish"
+          ]
+        },
+        {
+          "text": "Modern Swedish begins with printing and the Reformation. King Gustav Vasa ordered a Swedish Bible: the New Testament was published in 1526 and the full Bible in 1541, translated mainly by Laurentius Andreæ and the brothers Laurentius and Olaus Petri. The Gustav Vasa Bible established the letters å, ä and ö and, with revisions, remained the most common Bible translation until 1917.",
+          "sources": [
+            "wp-swedish",
+            "wp-gustav-vasa-bible"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "danish",
+      "name": "Danish",
+      "nativeName": "dansk",
+      "nativeScript": "Latn",
+      "glottocode": "dani1285",
+      "iso639_3": "dan",
+      "parent": "old-norse",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-danish",
+        "glotto-dani1285"
+      ],
+      "period": {
+        "from": 1200,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-danish"
+        ],
+        "note": "Wikipedia says Danish emerged as a separate language from Swedish in the medieval period; the earliest vernacular Danish laws were written in the early 13th century. The date is approximate."
+      },
+      "homeland": {
+        "lat": 55.7,
+        "lng": 9.5,
+        "label": "Denmark",
+        "sources": [
+          "wp-danish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "code-of-jutland",
+          "year": 1241,
+          "approx": false,
+          "lat": 55.0078,
+          "lng": 11.9108,
+          "place": "Vordingborg Castle, Zealand, Denmark",
+          "description": "The Code of Jutland, a law code written in vernacular Danish, was signed by King Valdemar II at Vordingborg Castle in early 1241; its oldest manuscript is the Codex Holmiensis.",
+          "sources": [
+            "wp-codex-holmiensis",
+            "wp-danish"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-danish"
+        ]
+      },
+      "speakers": {
+        "count": 5500000,
+        "year": 2012,
+        "scope": "L1",
+        "sources": [
+          "wp-danish"
+        ]
+      },
+      "story": [
+        {
+          "text": "By the 8th century the common language of Scandinavia, Proto-Norse, had evolved into Old Norse, and in the medieval period Danish emerged as a language separate from Swedish. The few Danish texts preserved from this time are written in the Latin alphabet. Most are laws, drafted in the vernacular so that people who did not know Latin could understand them; the Jutlandic Law and the Scanian Law date from the early 13th century.",
+          "sources": [
+            "wp-danish"
+          ]
+        },
+        {
+          "text": "King Valdemar II signed the Code of Jutland at Vordingborg Castle in 1241, and its oldest manuscript is the Codex Holmiensis. From 1350 Danish began to be used in administration, and contact with Low German brought many loanwords. With the Reformation in 1536 Danish also became the language of religion, which sparked new interest in Danish as a literary language.",
+          "sources": [
+            "wp-codex-holmiensis",
+            "wp-danish"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "faroese",
+      "name": "Faroese",
+      "nativeName": "føroyskt",
+      "nativeScript": "Latn",
+      "glottocode": "faro1244",
+      "iso639_3": "fao",
+      "parent": "old-norse",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-faroese",
+        "glotto-faro1244"
+      ],
+      "period": {
+        "from": 1298,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-faroese",
+          "wp-sheep-letter"
+        ],
+        "note": "Wikipedia says a distinct Faroese language evolved between the 9th and the 15th centuries; the date used here is the Sheep Letter of 1298, the islands' oldest surviving document, which is in Old Norse but shows early Faroese changes."
+      },
+      "homeland": {
+        "lat": 62.07,
+        "lng": -6.88,
+        "label": "Faroe Islands",
+        "sources": [
+          "wp-faroese"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "sheep-letter",
+          "year": 1298,
+          "approx": false,
+          "lat": 62.0107,
+          "lng": -6.7716,
+          "place": "Faroe Islands (one copy kept in the National Archives in Tórshavn)",
+          "description": "The Sheep Letter, a royal decree of 28 June 1298 by Duke Haakon, is the oldest surviving document of the Faroe Islands. Written on the islands in Old Norse, it shows some early changes towards Faroese.",
+          "sources": [
+            "wp-sheep-letter"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-faroese"
+        ]
+      },
+      "speakers": {
+        "count": 69000,
+        "year": 2015,
+        "scope": "L1",
+        "sources": [
+          "wp-faroese"
+        ]
+      },
+      "story": [
+        {
+          "text": "Norse settlers brought Old Norse to the Faroe Islands in a settlement that began in 825. Many came from Norse communities around the Irish Sea, and Middle Irish left traces in Faroese words such as lámur 'hand' and tarvur 'bull'. Between the 9th and 15th centuries a distinct Faroese language evolved. The Sheep Letter of 1298, the islands' oldest surviving document, already shows some early Faroese changes.",
+          "sources": [
+            "wp-faroese",
+            "wp-sheep-letter"
+          ]
+        },
+        {
+          "text": "After the Reformation of the early 16th century, Danish replaced Faroese in administration and education, and for 300 years Faroese was not written, surviving in ballads, folktales and everyday speech. In 1854 V. U. Hammershaimb and Jón Sigurðsson published a written standard based on the language's Old Norse roots. Faroese became the school language in 1937, the church language in 1938 and the national language in 1948.",
+          "sources": [
+            "wp-faroese"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "old-english",
+      "name": "Old English",
+      "nativeName": "Englisċ",
+      "nativeScript": "Latn",
+      "glottocode": "olde1238",
+      "iso639_3": "ang",
+      "parent": "west-germanic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-english",
+        "glotto-olde1238"
+      ],
+      "period": {
+        "from": 450,
+        "to": 1066,
+        "approx": true,
+        "sources": [
+          "wp-old-english"
+        ],
+        "note": "Old English developed from the dialects brought by Anglo-Saxon settlers in the mid-5th century; the Norman Conquest of 1066 is regarded as marking the end of the Old English era."
+      },
+      "homeland": {
+        "lat": 51.06,
+        "lng": -1.31,
+        "label": "England",
+        "sources": [
+          "wp-old-english"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "undley-bracteate",
+          "year": 475,
+          "approx": true,
+          "lat": 52.414,
+          "lng": 0.524,
+          "place": "Undley Common, near Lakenheath, Suffolk, England",
+          "description": "A 5th-century gold bracteate bearing the earliest known inscription that can be argued to be in the Anglo-Frisian futhorc; it may have been made in northern Germany or southern Scandinavia and brought to England by an early Anglo-Saxon settler.",
+          "sources": [
+            "wp-undley"
+          ]
+        },
+        {
+          "id": "ruthwell-cross",
+          "year": 750,
+          "approx": true,
+          "lat": 55.0004,
+          "lng": -3.4075,
+          "place": "Ruthwell, Dumfriesshire, Scotland",
+          "description": "The Ruthwell Cross, an Anglo-Saxon stone cross probably of the 8th century from the Kingdom of Northumbria, possibly carries the oldest surviving text of Old English poetry.",
+          "sources": [
+            "wp-ruthwell"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Anglo-Saxon runes",
+            "code": "Runr"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-english"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old English, also called Anglo-Saxon, is the earliest attested form of English. It developed from the dialects brought to Britain by Anglo-Saxon settlers in the mid-5th century, traditionally the Angles, Saxons and Jutes, and replaced Common Brittonic and Latin, the languages of Roman Britain. It had four main dialects tied to Anglo-Saxon kingdoms: Kentish, Mercian, Northumbrian and West Saxon.",
+          "sources": [
+            "wp-old-english"
+          ]
+        },
+        {
+          "text": "Old English was written first in runes and later in the Latin alphabet. The 5th-century Undley bracteate from Suffolk bears the earliest known inscription that can be argued to be in the Anglo-Frisian futhorc, and the Ruthwell Cross, probably of the 8th century, may carry the oldest surviving text of Old English poetry. The first Old English literature dates from the mid-7th century.",
+          "sources": [
+            "wp-old-english",
+            "wp-undley",
+            "wp-ruthwell"
+          ]
+        },
+        {
+          "text": "After the Norman Conquest of 1066, Anglo-Norman French replaced English as the language of the upper classes for several centuries, and 1066 is therefore regarded as the end of the Old English era. The Old English epic Beowulf, 3,182 alliterative lines long, survives in a single manuscript, the Nowell Codex, produced between 975 and 1025.",
+          "sources": [
+            "wp-old-english",
+            "wp-beowulf"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "beowulf",
+          "title": "Beowulf",
+          "titleOriginal": "Bēowulf",
+          "author": "Anonymous (the 'Beowulf poet')",
+          "date": "Composition date disputed; manuscript c. 975–1025",
+          "year": 1000,
+          "significance": "An epic of 3,182 alliterative lines in the tradition of Germanic heroic legend, it is one of the most important and most often translated works of Old English literature.",
+          "original": "Hwæt! Wē Gār‐Dena  in geār‐dagum\nþēod‐cyninga  þrym gefrūnon,\nhū þā æðelingas  ellen fremedon.\nOft Scyld Scēfing  sceaðena þrēatum,\nmonegum mǣgðum  meodo‐setla oftēah.\nEgsode eorl,  syððan ǣrest wearð\nfēa‐sceaft funden:  hē þæs frōfre gebād,\nwēox under wolcnum,  weorð‐myndum þāh,\noð þæt him ǣghwylc  þāra ymb‐sittendra\nofer hron‐rāde  hȳran scolde,\ngomban gyldan:  þæt wæs gōd cyning!",
+          "originalScript": "Latn",
+          "translation": "LO, praise of the prowess of people-kings\nof spear-armed Danes, in days long sped,\nwe have heard, and what honor the athelings won!\nOft Scyld the Scefing from squadroned foes,\nfrom many a tribe, the mead-bench tore,\nawing the earls. Since erst he lay\nfriendless, a foundling, fate repaid him:\nfor he waxed under welkin, in wealth he throve,\ntill before him the folk, both far and near,\nwho house by the whale-path, heard his mandate,\ngave him gifts:  a good king he!",
+          "translator": "Francis Barton Gummere",
+          "translationYear": 1909,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://en.wikisource.org/wiki/Beowulf_(Harrison_and_Sharp)",
+          "sources": [
+            "ws-beowulf-hs",
+            "gut-gummere",
+            "wp-beowulf",
+            "wp-gummere"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "middle-english",
+      "name": "Middle English",
+      "nativeName": "Englisch",
+      "nativeScript": "Latn",
+      "glottocode": "midd1317",
+      "iso639_3": "enm",
+      "parent": "old-english",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-middle-english",
+        "glotto-midd1317"
+      ],
+      "period": {
+        "from": 1066,
+        "to": 1500,
+        "approx": true,
+        "sources": [
+          "wp-middle-english"
+        ],
+        "note": "Spoken from the Norman Conquest of 1066 until the late 15th century (Wikipedia gives the end of the period as about 1470)."
+      },
+      "homeland": {
+        "lat": 51.65,
+        "lng": -1.11,
+        "label": "England",
+        "sources": [
+          "wp-middle-english"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "chancery-standard",
+          "year": 1430,
+          "approx": true,
+          "lat": 51.4995,
+          "lng": -0.127,
+          "place": "Westminster, London, England",
+          "description": "Around 1430 the Court of Chancery in Westminster began using English in its official documents, and a new standard form of Middle English, the Chancery Standard, developed from the dialects of London and the East Midlands.",
+          "sources": [
+            "wp-english"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-middle-english"
+        ]
+      },
+      "story": [
+        {
+          "text": "Middle English is the English spoken in England after the Norman Conquest of 1066 until the late 15th century. It evolved from Old English under the influence of Anglo-Norman French and Old Norse. Inflections were simplified as most case distinctions were lost, while Anglo-Norman vocabulary entered politics, law, the arts and religion. The four main dialects in England were Northern, East Midland, West Midland and Southern.",
+          "sources": [
+            "wp-middle-english"
+          ]
+        },
+        {
+          "text": "Little early Middle English literature survives, partly because writing in French carried more prestige. In the 14th century John Wycliffe and Geoffrey Chaucer wrote in English, and Chaucer's Canterbury Tales, written between 1387 and 1400, remains the most studied work of the period. Around 1430 the Court of Chancery in Westminster began to use English in official documents, and the Chancery Standard developed.",
+          "sources": [
+            "wp-middle-english",
+            "wp-canterbury",
+            "wp-english"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "canterbury-tales",
+          "title": "The Canterbury Tales: General Prologue",
+          "titleOriginal": "Tales of Caunterbury",
+          "author": "Geoffrey Chaucer",
+          "date": "1387–1400",
+          "year": 1393,
+          "significance": "An anthology of 24 stories framed as a storytelling contest among pilgrims travelling from London to Canterbury; it remains the most studied and read work of Middle English literature.",
+          "original": "Whan that Aprille with his shoures sote\nThe droghte of Marche hath perced to the rote,\nAnd bathed every veyne in swich licour,\nOf which vertu engendred is the flour;",
+          "originalScript": "Latn",
+          "translation": "When April with his sweet showers\nhas pierced the drought of March to the root,\nand bathed every vein in such liquid\nby whose power the flower is engendered;",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://gutenberg.pglaf.org/2/2/1/2/22120/22120-0.txt",
+          "sources": [
+            "gut-chaucer",
+            "wp-canterbury",
+            "wp-middle-english"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "nativeName": "English",
+      "nativeScript": "Latn",
+      "glottocode": "stan1293",
+      "iso639_3": "eng",
+      "parent": "middle-english",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-english",
+        "glotto-stan1293"
+      ],
+      "period": {
+        "from": 1500,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-english",
+          "wp-early-modern-english"
+        ],
+        "note": "Dated from the start of Early Modern English, which lasted from about 1500 to 1700."
+      },
+      "homeland": {
+        "lat": 52.5,
+        "lng": -1.5,
+        "label": "England",
+        "sources": [
+          "wp-english"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "king-james-version",
+          "year": 1611,
+          "approx": false,
+          "lat": 51.5155,
+          "lng": -0.0922,
+          "place": "London, England",
+          "description": "The King James Version of the Bible, an Early Modern English translation, was published in 1611 as a folio printed in London by Robert Barker, the King's Printer.",
+          "sources": [
+            "wp-kjv"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-english"
+        ]
+      },
+      "speakers": {
+        "count": 380000000,
+        "year": 2021,
+        "scope": "L1",
+        "sources": [
+          "wp-english"
+        ]
+      },
+      "story": [
+        {
+          "text": "Modern English took shape in the Early Modern period, from 1500 to 1700, which was marked by the Great Vowel Shift, the simplification of inflections and growing standardisation. The vowel shift explains many irregularities of English spelling, which keeps many Middle English forms. In 1476 William Caxton brought the printing press to England, and the works of William Shakespeare and the 1611 King James Version of the Bible belong to this period.",
+          "sources": [
+            "wp-english"
+          ]
+        },
+        {
+          "text": "By the late 18th century the British Empire had spread English through its colonies, and in the 20th century the economic and cultural influence of the United States and worldwide broadcasting in English spread it much faster. In 1951 the International Civil Aviation Organization recommended that Aviation English be universally adopted. In the 21st century English is more widely spoken and written than any other language in history.",
+          "sources": [
+            "wp-english"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "sonnet-18",
+          "title": "Sonnet 18 (\"Shall I compare thee to a summer's day?\")",
+          "author": "William Shakespeare",
+          "date": "published 1609",
+          "year": 1609,
+          "significance": "One of the best-known of Shakespeare's 154 sonnets; the speaker claims that the Fair Youth will live forever in the lines of the poem.",
+          "original": "Shall I compare thee to a summer’s day?\nThou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer’s lease hath all too short a date:",
+          "originalScript": "Latn",
+          "translation": "Shall I compare you to a summer's day?\nYou are more lovely and more temperate:\nrough winds shake the darling buds of May,\nand summer's lease lasts all too short a time:",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://gutenberg.pglaf.org/1/0/4/1041/1041-0.txt",
+          "sources": [
+            "gut-sonnets",
+            "wp-sonnet-18"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "old-saxon",
+      "name": "Old Saxon",
+      "nativeName": "Sahsisk",
+      "nativeScript": "Latn",
+      "glottocode": "olds1250",
+      "iso639_3": "osx",
+      "parent": "west-germanic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-saxon",
+        "glotto-olds1250"
+      ],
+      "period": {
+        "from": 750,
+        "to": 1200,
+        "approx": true,
+        "sources": [
+          "wp-old-saxon"
+        ],
+        "note": "Documented from the 8th century until the 12th century, when it gradually evolved into Middle Low German."
+      },
+      "homeland": {
+        "lat": 52.37,
+        "lng": 9.72,
+        "label": "Northwestern Germany (Old Saxony)",
+        "sources": [
+          "wp-old-saxon"
+        ]
+      },
+      "attestations": [],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-saxon"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Saxon, also called Old Low German, is the earliest recorded form of Low German. It was spoken by the Saxons in what is now northwestern Germany, mainly in the coastal regions, and in the eastern Netherlands. It is documented from the 8th century until the 12th, when it gradually evolved into Middle Low German. It partially shares the Ingvaeonic nasal spirant law with Old English and Old Frisian.",
+          "sources": [
+            "wp-old-saxon"
+          ]
+        },
+        {
+          "text": "Its grammar was fully inflected, with five cases including the instrumental, three numbers and three genders. The largest known work in Old Saxon is the Heliand, an alliterative poem of about 6,000 lines written in the first half of the 9th century that retells the life of Jesus in the style of a Germanic epic; its title means 'saviour'.",
+          "sources": [
+            "wp-old-saxon",
+            "wp-heliand"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "old-high-german",
+      "name": "Old High German",
+      "nativeName": "diutisk",
+      "nativeScript": "Latn",
+      "glottocode": "oldh1241",
+      "iso639_3": "goh",
+      "parent": "west-germanic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-ohg",
+        "glotto-oldh1241"
+      ],
+      "period": {
+        "from": 750,
+        "to": 1050,
+        "approx": true,
+        "sources": [
+          "wp-ohg"
+        ],
+        "note": "Conventionally dated from around 500/750 to 1050."
+      },
+      "homeland": {
+        "lat": 50.0,
+        "lng": 10.0,
+        "label": "Central Europe (southern and central German-speaking area)",
+        "sources": [
+          "wp-ohg"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "hildebrandslied-fulda",
+          "year": 835,
+          "approx": true,
+          "lat": 50.5528,
+          "lng": 9.6753,
+          "place": "Fulda monastery, Hesse, Germany",
+          "description": "In the 830s two scribes at the monastery of Fulda copied the Hildebrandslied onto two spare outer leaves of a religious codex; the manuscript is now in the Murhard Library in Kassel.",
+          "sources": [
+            "wp-hildebrandslied"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Runic",
+            "code": "Runr"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-ohg"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old High German is the earliest stage of German, conventionally dated from around 500 or 750 to 1050. It covers the West Germanic dialects that had undergone the Second Sound Shift, the High German consonant shift. By 788 the conquests of Charlemagne had brought all Old High German dialect areas into a single polity, and in this period a stable language border formed between German and Gallo-Romance, later French.",
+          "sources": [
+            "wp-ohg"
+          ]
+        },
+        {
+          "text": "All surviving Old High German texts were written in monastic scriptoria, and the earliest, from the second half of the 8th century, are glosses on Latin texts. The Hildebrandslied, copied in the 830s at Fulda, is the earliest poetic text in German. It tells of a father and son who meet in battle, and the son does not recognise his father; the poem breaks off mid-line.",
+          "sources": [
+            "wp-ohg",
+            "wp-hildebrandslied"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "hildebrandslied",
+          "title": "Hildebrandslied (The Lay of Hildebrand)",
+          "titleOriginal": "Hildebrandslied",
+          "author": "Anonymous",
+          "date": "written down in the 830s",
+          "year": 835,
+          "significance": "The earliest poetic text in German and the only surviving example in German of the Germanic heroic lay; it is widely regarded as the first masterpiece of German literature.",
+          "original": "Ik gıhorta dat ſeggen\ndat ſih urhettun ænon muotın ·\nhıltıbrant entı hadubrant untar herıun tuem ·\nſunu fatarungo · ıro ſaro rıhtun ·\ngarutun ſe ıro gudhamun · gurtun ſih · ıro · ſuert ana ·\nhelıdoſ ubar rınga do ſie to dero hıltu rıtun ·",
+          "originalScript": "Latn",
+          "translation": "I heard it said\nthat challengers met in single combat:\nHildebrand and Hadubrand, between two armies.\nSon and father made ready their armour,\nprepared their battle-garments, girded on their swords,\nthe heroes, over the ring-mail, when they rode to that fight.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://de.wikisource.org/wiki/Hildebrandslied",
+          "sources": [
+            "ws-de-hildebrandslied",
+            "wp-hildebrandslied"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "middle-high-german",
+      "name": "Middle High German",
+      "nativeName": "diutsch",
+      "nativeScript": "Latn",
+      "glottocode": "midd1343",
+      "iso639_3": "gmh",
+      "parent": "old-high-german",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-mhg",
+        "glotto-midd1343"
+      ],
+      "period": {
+        "from": 1050,
+        "to": 1350,
+        "approx": true,
+        "sources": [
+          "wp-mhg"
+        ],
+        "note": "Conventionally dated between 1050 and 1350."
+      },
+      "homeland": {
+        "lat": 48.25,
+        "lng": 10.6,
+        "label": "Central and southern Germany, Austria and parts of Switzerland",
+        "sources": [
+          "wp-mhg"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "nibelungenlied-passau",
+          "year": 1200,
+          "approx": true,
+          "lat": 48.5667,
+          "lng": 13.4319,
+          "place": "Passau region, Bavaria, Germany",
+          "description": "The Nibelungenlied was written around 1200 in Middle High German by an anonymous poet who was likely from the region of Passau.",
+          "sources": [
+            "wp-nibelungenlied"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-mhg"
+        ]
+      },
+      "story": [
+        {
+          "text": "Middle High German is the High German of the High Middle Ages, conventionally dated from 1050 to 1350. There was no standard, but the prestige of the Hohenstaufen court produced a supra-regional literary language in the late 12th century based on Swabian. From the 11th century the Ostsiedlung carried German settlement east beyond the Elbe–Saale line, and all East Central German dialects result from this expansion.",
+          "sources": [
+            "wp-mhg"
+          ]
+        },
+        {
+          "text": "The Nibelungenlied, written around 1200 by an anonymous poet probably from the Passau region, was the first heroic epic put into writing in the German vernacular. Modern editions of Middle High German texts usually use normalised spellings, which make the language look more consistent than it is in the manuscripts. Judeo-German, the precursor of Yiddish, is attested in the 12th–13th centuries as Middle High German written in Hebrew characters.",
+          "sources": [
+            "wp-nibelungenlied",
+            "wp-mhg"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "nibelungenlied",
+          "title": "The Nibelungenlied (The Song of the Nibelungs)",
+          "titleOriginal": "Der Nibelunge liet",
+          "author": "Anonymous",
+          "date": "c. 1200",
+          "year": 1200,
+          "significance": "An epic based on the oral tradition of Germanic heroic legend, and the first heroic epic put into writing in the German vernacular.",
+          "original": "Uns ist in alten mæren   wunders vil geseit\nvon helden lobebæren,   von grôßer kuonheit,\nvon vreude und hôhgezîten,   von weinen und von klagen,\nvon küener recken strîten   muget ir nu wunder hœren sagen.",
+          "originalScript": "Latn",
+          "translation": "In old tales they tell us many wonders of heroes and of high courage, of glad feasting, of wine and of mourning; and herein ye shall read of the marvellous deeds and of the strife of brave men.",
+          "translator": "Margaret Armour",
+          "translationYear": 1897,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://gutenberg.pglaf.org/4/8/8/8/48888/48888-0.txt",
+          "sources": [
+            "gut-nibelunge-liet",
+            "gut-armour",
+            "wp-nibelungenlied",
+            "wp-armour"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "german",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "nativeScript": "Latn",
+      "glottocode": "stan1295",
+      "iso639_3": "deu",
+      "parent": "middle-high-german",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-german",
+        "glotto-stan1295"
+      ],
+      "period": {
+        "from": 1350,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-enhg"
+        ],
+        "note": "Dated from the start of Early New High German, generally defined as 1350 to 1650."
+      },
+      "homeland": {
+        "lat": 50.9,
+        "lng": 11.0,
+        "label": "Central Europe (Germany, Austria and Switzerland)",
+        "sources": [
+          "wp-german"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "luther-bible",
+          "year": 1534,
+          "approx": false,
+          "lat": 51.8667,
+          "lng": 12.6484,
+          "place": "Wittenberg, Germany",
+          "description": "The first complete edition of Martin Luther's German Bible was issued in 1534 by the Hans Lufft press in Wittenberg.",
+          "sources": [
+            "wp-luther-bible"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-german"
+        ]
+      },
+      "speakers": {
+        "count": 130000000,
+        "year": 2024,
+        "scope": "L1+L2",
+        "sources": [
+          "wp-german"
+        ]
+      },
+      "story": [
+        {
+          "text": "Early New High German, generally dated from 1350 to 1650, links Middle High German to the modern language. Martin Luther's translation of the Bible was a landmark: his New Testament was printed in September 1522, and the complete Bible, issued by the Hans Lufft press in Wittenberg, followed in 1534. Its publication was a decisive moment in the spread of literacy in early modern Germany.",
+          "sources": [
+            "wp-enhg",
+            "wp-luther-bible"
+          ]
+        },
+        {
+          "text": "German is the majority and official or co-official language of Germany, Austria, Switzerland and Liechtenstein, and an official language of Luxembourg, Belgium and South Tyrol. With nearly 100 million native speakers and over 130 million speakers in total as of 2024, it is the most spoken native language in the European Union and the second most widely spoken Germanic language, after English.",
+          "sources": [
+            "wp-german"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "faust",
+          "title": "Faust, Part One: Dedication",
+          "titleOriginal": "Faust: Der Tragödie erster Teil",
+          "author": "Johann Wolfgang von Goethe",
+          "date": "1808",
+          "year": 1808,
+          "significance": "A tragic play in two parts based on the German Faust legend; it is considered by many to be Goethe's magnum opus and the greatest work of German literature.",
+          "original": "Ihr naht euch wieder, schwankende Gestalten,\nDie früh sich einst dem trüben Blick gezeigt.\nVersuch ich wohl, euch diesmal festzuhalten?\nFühl ich mein Herz noch jenem Wahn geneigt?",
+          "originalScript": "Latn",
+          "translation": "Again ye come, ye hovering Forms! I find ye,\nAs early to my clouded sight ye shone!\nShall I attempt, this once, to seize and bind ye?\nStill o’er my heart is that illusion thrown?",
+          "translator": "Bayard Taylor",
+          "translationYear": 1870,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://gutenberg.pglaf.org/2/2/2/2229/2229-0.txt",
+          "sources": [
+            "gut-faust-de",
+            "gut-faust-taylor",
+            "wp-faust",
+            "wp-bayard-taylor"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "old-dutch",
+      "name": "Old Dutch",
+      "glottocode": "oldd1238",
+      "iso639_3": "odt",
+      "parent": "west-germanic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-dutch",
+        "glotto-oldd1238"
+      ],
+      "period": {
+        "from": 500,
+        "to": 1150,
+        "approx": true,
+        "sources": [
+          "wp-old-dutch"
+        ],
+        "note": "Spoken from around the 6th to the 12th century; it gradually developed into Middle Dutch by the mid-12th century."
+      },
+      "homeland": {
+        "lat": 51.5,
+        "lng": 4.5,
+        "label": "Low Countries",
+        "sources": [
+          "wp-old-dutch"
+        ]
+      },
+      "attestations": [],
+      "scripts": {
+        "list": [
+          {
+            "name": "Runic",
+            "code": "Runr"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-dutch"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Dutch, or Old Low Franconian, is the set of dialects that evolved from Frankish in the Low Countries from around the 6th to the 12th century. It was spoken by the descendants of the Salian Franks in what is now the southern Netherlands, northern Belgium, part of northern France and parts of the Lower Rhine region of Germany. Further north people spoke Old Frisian, and in parts of the east Old Saxon.",
+          "sources": [
+            "wp-old-dutch"
+          ]
+        },
+        {
+          "text": "Old Dutch is mostly recorded in fragments. Glosses to the Salic law code contain the sentence maltho thi afrio lito, 'I tell you: I am setting you free, serve', likely the earliest in the language. The 11th-century line Hebban olla vogala nestas hagunnan, roughly 'all birds have begun nests', was long believed to be the only Old Dutch text, but more than 42,000 Old Dutch words and phrases are now known.",
+          "sources": [
+            "wp-old-dutch",
+            "wp-hebban"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "dutch",
+      "name": "Dutch",
+      "nativeName": "Nederlands",
+      "nativeScript": "Latn",
+      "glottocode": "dutc1256",
+      "iso639_3": "nld",
+      "parent": "old-dutch",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-dutch",
+        "glotto-dutc1256"
+      ],
+      "period": {
+        "from": 1150,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-middle-dutch"
+        ],
+        "note": "Dated from Middle Dutch, spoken and written between 1150 and 1500; Modern Dutch follows after 1500 or c. 1550."
+      },
+      "homeland": {
+        "lat": 52.0,
+        "lng": 5.0,
+        "label": "Low Countries (the Netherlands and Flanders)",
+        "sources": [
+          "wp-dutch"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "liesvelt-bible",
+          "year": 1526,
+          "approx": false,
+          "lat": 51.2194,
+          "lng": 4.4025,
+          "place": "Antwerp, Belgium",
+          "description": "The first complete Dutch Bible was printed in Antwerp in 1526 by Jacob van Liesvelt.",
+          "sources": [
+            "wp-statenvertaling"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-dutch"
+        ]
+      },
+      "speakers": {
+        "count": 25000000,
+        "year": 2021,
+        "scope": "L1",
+        "sources": [
+          "wp-dutch"
+        ]
+      },
+      "story": [
+        {
+          "text": "Middle Dutch, spoken and written between 1150 and 1500, was a group of closely related and mutually intelligible dialects descended from Old Dutch, with no overarching standard. A medieval Dutch literature developed in it, which had not existed in Old Dutch. Modern Dutch followed after 1500 or around 1550. The first complete Dutch Bible was printed in Antwerp in 1526 by Jacob van Liesvelt.",
+          "sources": [
+            "wp-middle-dutch",
+            "wp-statenvertaling"
+          ]
+        },
+        {
+          "text": "In 1618 the Synod of Dordrecht ordered a new Bible translated from the original Hebrew, Aramaic and Greek; financed by the Dutch Republic, the Statenvertaling was first published in 1637. Today Dutch is spoken by about 25 million people as a first language, mostly in the Netherlands and Flanders, and it is an official language of Suriname, Aruba, Curaçao and Sint Maarten.",
+          "sources": [
+            "wp-statenvertaling",
+            "wp-dutch"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "afrikaans",
+      "name": "Afrikaans",
+      "nativeName": "Afrikaans",
+      "nativeScript": "Latn",
+      "glottocode": "afri1274",
+      "iso639_3": "afr",
+      "parent": "dutch",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-afrikaans",
+        "glotto-afri1274"
+      ],
+      "period": {
+        "from": 1875,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-afrikaans"
+        ],
+        "note": "Wikipedia says Afrikaans emerged during the late 19th century from Dutch dialects spoken in South Africa since the 17th century; its origins are debated (see notes)."
+      },
+      "homeland": {
+        "lat": -33.75,
+        "lng": 18.95,
+        "label": "Cape Colony (Western Cape, South Africa)",
+        "sources": [
+          "wp-afrikaans"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "afrikaans-language-monument",
+          "year": 1975,
+          "approx": false,
+          "lat": -33.764,
+          "lng": 18.956,
+          "place": "Paarl, Western Cape, South Africa",
+          "description": "The Afrikaans Language Monument on a hill overlooking Paarl was officially opened on 10 October 1975, 50 years after Afrikaans was declared an official language of South Africa in distinction to Dutch.",
+          "sources": [
+            "wp-afrikaans"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Arabic (Arabic Afrikaans)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-afrikaans"
+        ]
+      },
+      "speakers": {
+        "count": 6300000,
+        "year": 2022,
+        "scope": "L1",
+        "sources": [
+          "wp-afrikaans"
+        ]
+      },
+      "story": [
+        {
+          "text": "Afrikaans grew out of Dutch dialects, mainly Hollandic and Zeelandic, spoken by Dutch settlers in South Africa since the 17th century, fused with the Dutch-based creole languages of Khoisan, Nguni and Coloured peoples, and it emerged as a distinct language in the late 19th century. An estimated 90 to 95% of its vocabulary is of Dutch origin, but its morphology and grammar are more analytic.",
+          "sources": [
+            "wp-afrikaans"
+          ]
+        },
+        {
+          "text": "In 1925 the South African government recognised Afrikaans as a distinct language rather than a vernacular of Dutch, and the first official translation of the whole Bible into Afrikaans appeared in 1933. The Afrikaans Language Monument above Paarl opened on 10 October 1975. In 2022 Afrikaans was the home language of 10.6% of South Africa's population, about 6.3 million people.",
+          "sources": [
+            "wp-afrikaans"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "Christo van Rensburg's Eastern Border Hypothesis, long regarded as the consensus, held that the Dutch dialect of the Cape Colony's eastern frontier developed around 1775 into a stable dialect that was standardised during the 19th century. More recent research concludes that Afrikaans developed more gradually and diversely, with a highly varied linguistic landscape lasting into the early 20th century.",
+          "sources": [
+            "wp-afrikaans"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yiddish",
+      "name": "Yiddish",
+      "nativeName": "ייִדיש",
+      "nativeScript": "Hebr",
+      "glottocode": null,
+      "iso639_3": "yid",
+      "parent": "middle-high-german",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-yiddish",
+        "wp-mhg"
+      ],
+      "period": {
+        "from": 1100,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-yiddish"
+        ],
+        "note": "The earliest surviving references to the language date from the 12th century; the first written Yiddish is from 1272. Its emergence is not precisely dated."
+      },
+      "homeland": {
+        "lat": 49.63,
+        "lng": 8.36,
+        "label": "Rhineland and Palatinate (Mainz, Worms, Speyer)",
+        "sources": [
+          "wp-yiddish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "worms-mahzor",
+          "year": 1272,
+          "approx": false,
+          "lat": 49.6341,
+          "lng": 8.3507,
+          "place": "Worms, Germany",
+          "description": "The Worms Mahzor, a Hebrew festival prayer book dated 1272 and used by the Jewish community of Worms, contains the oldest surviving literary document in Yiddish, a rhyming blessing on whoever carries the book into the synagogue.",
+          "sources": [
+            "wp-yiddish",
+            "wp-mahzor-worms"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Hebrew",
+            "code": "Hebr"
+          }
+        ],
+        "sources": [
+          "wp-yiddish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Yiddish, historically called Judeo-German, originated among Ashkenazi Jews in the Holy Roman Empire during the Middle Ages. It gave them a vernacular based on High German fused with elements of Hebrew and Aramaic, and most varieties also include Slavic elements. Their early area of settlement, centred on the Rhineland (Mainz) and the Palatinate (Worms and Speyer), came to be known as Ashkenaz. Yiddish has traditionally been written in the Hebrew alphabet.",
+          "sources": [
+            "wp-yiddish"
+          ]
+        },
+        {
+          "text": "The oldest surviving literary document in Yiddish is a rhyming blessing in the Worms Mahzor, a prayer book dated 1272: 'May a good day come to him who carries this prayer book into the synagogue.' Songs and poems followed in the 14th and 15th centuries. The earliest Yiddish epic poem, Dukus Horant, survives in a 14th-century manuscript discovered in the Cairo Geniza in 1896.",
+          "sources": [
+            "wp-yiddish",
+            "wp-mahzor-worms"
+          ]
+        },
+        {
+          "text": "Before the Second World War, Yiddish was used by about 13 million Jews in Europe. A 2021 estimate from Rutgers University counted about 600,000 speakers worldwide. In 2014 YIVO stated that most people who speak Yiddish in daily life are Hasidim and other Haredim, and the number of Yiddish speakers is rising in Haredi communities.",
+          "sources": [
+            "wp-yiddish",
+            "wp-germanic-languages"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "Nothing is known with certainty about the vernacular of the earliest Jews in Germany. One theory holds that their first language may have been Aramaic. The established view is that Yiddish emerged when speakers of Judeo-French and other Judeo-Romance languages acquired varieties of Middle High German; exactly which German dialects underlie the earliest Yiddish is disputed.",
+          "sources": [
+            "wp-yiddish"
+          ]
+        },
+        {
+          "text": "Glottolog has no single Yiddish languoid. It lists Eastern Yiddish (east2295) and Western Yiddish (west2361) separately, so this entry has no glottocode.",
+          "sources": [
+            "glotto-east2295",
+            "glotto-west2361"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-frisian",
+      "name": "Old Frisian",
+      "glottocode": "oldf1241",
+      "iso639_3": "ofs",
+      "parent": "west-germanic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-frisian",
+        "glotto-oldf1241"
+      ],
+      "period": {
+        "from": 1275,
+        "to": 1600,
+        "approx": true,
+        "sources": [
+          "wp-old-frisian"
+        ],
+        "note": "Spoken between the late 13th century and the end of the 16th century."
+      },
+      "homeland": {
+        "lat": 53.35,
+        "lng": 6.8,
+        "label": "Frisia, along the southern North Sea coast",
+        "sources": [
+          "wp-old-frisian"
+        ]
+      },
+      "attestations": [],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-frisian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Frisian was spoken from the late 13th century to the end of the 16th by Frisians living in a loose confederacy along the North Sea coast, from around Bruges in modern Belgium to the River Weser in northwestern Germany. Most surviving texts are legal documents and charters, with some poetry, histories and religious writing, and their uniformity across time and place suggests an early standard language.",
+          "sources": [
+            "wp-old-frisian"
+          ]
+        },
+        {
+          "text": "Old Frisian is the common ancestor of all modern Frisian languages except the Insular North Frisian languages, and it was closely related to the English and Low German of its time. Scholars have noted that the name is somewhat misleading, because Old Frisian was contemporary with the 'Middle' stages of other Germanic languages, such as Middle English and Middle High German.",
+          "sources": [
+            "wp-old-frisian"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    },
+    {
+      "id": "west-frisian",
+      "name": "West Frisian",
+      "nativeName": "Frysk",
+      "nativeScript": "Latn",
+      "glottocode": "west2354",
+      "iso639_3": "fry",
+      "parent": "old-frisian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-west-frisian",
+        "glotto-west2354"
+      ],
+      "period": {
+        "from": 1550,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-west-frisian"
+        ],
+        "note": "Dated from the start of the Middle Frisian period (c. 1550–1820), which followed Old Frisian."
+      },
+      "homeland": {
+        "lat": 53.14,
+        "lng": 5.86,
+        "label": "Friesland, Netherlands",
+        "sources": [
+          "wp-west-frisian"
+        ]
+      },
+      "attestations": [],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-west-frisian"
+        ]
+      },
+      "speakers": {
+        "count": 470000,
+        "year": 2001,
+        "scope": "L1",
+        "sources": [
+          "wp-west-frisian"
+        ]
+      },
+      "story": [
+        {
+          "text": "West Frisian, or simply Frisian (Frysk), is spoken mostly in the province of Friesland in the north of the Netherlands and is the most widely spoken of the Frisian languages. Like English, it lost the Germanic nasal in words such as ús 'us', sêft 'soft' and goes 'goose', and it turned k into a ch-like sound before some vowels: tsiis 'cheese' and tsjerke 'church', against Dutch kaas and kerk.",
+          "sources": [
+            "wp-west-frisian"
+          ]
+        },
+        {
+          "text": "Until the 16th century West Frisian was widely spoken and written. In 1498 Albert III, Duke of Saxony, occupied Friesland and replaced West Frisian with Dutch as the language of government, and from 1500 onwards it became an almost exclusively oral language, used mainly in rural areas. The Middle Frisian period, from about 1550 to 1820, is rooted in this fairly abrupt halt in the use of Frisian as a written language.",
+          "sources": [
+            "wp-west-frisian"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": []
+    }
+  ]
+}

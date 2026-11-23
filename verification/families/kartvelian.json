@@ -1,0 +1,215 @@
+{
+ "file": "data/families/kartvelian.json",
+ "claims": {
+  "proto-kartvelian#identity": {
+   "hash": "6874ae3cfce6aaae",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/kart1248",
+    "https://en.wikipedia.org/wiki/Proto-Kartvelian_language",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "proto-kartvelian#period": {
+   "hash": "16d0b43b88edab24",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Kartvelian_language",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "proto-kartvelian#homeland": {
+   "hash": "8d42d54d0bf7ff59",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "proto-kartvelian#story:0": {
+   "hash": "0a0cc99f65d80876",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Kartvelian_language"
+   ],
+   "note": "Softened inclusive/exclusive we and ablaut/etymology wording to match source (\"possibly related\")."
+  },
+  "proto-kartvelian#note:0": {
+   "hash": "8638277165ad7c95",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "proto-kartvelian#note:1": {
+   "hash": "4f80660f6028161a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "old-georgian#identity": {
+   "hash": "78feadb7f296aea7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Georgian_language"
+   ],
+   "note": "Status changed extinct -> classical and period.to 1100 -> null per policy: Old Georgian remains the liturgical language of the Georgian Orthodox Church (source). Note updated."
+  },
+  "old-georgian#period": {
+   "hash": "1a83cda89856ef85",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Georgian_language"
+   ],
+   "note": "Status changed extinct -> classical and period.to 1100 -> null per policy: Old Georgian remains the liturgical language of the Georgian Orthodox Church (source). Note updated."
+  },
+  "old-georgian#homeland": {
+   "hash": "70e6bcdeb68b38df",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_language",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "old-georgian#attestation:bir-el-qutt-inscriptions": {
+   "hash": "b45795dc98218924",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bir_el_Qutt_inscriptions",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "old-georgian#attestation:bolnisi-sioni-inscriptions": {
+   "hash": "f44536f94063f4be",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bolnisi_inscriptions",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "old-georgian#attestation:ateni-sioni-inscriptions": {
+   "hash": "51a9f01f7e0b5e42",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_scripts"
+   ]
+  },
+  "old-georgian#scripts": {
+   "hash": "bf3655b895fa7b6f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Georgian_language",
+    "https://en.wikipedia.org/wiki/Georgian_scripts"
+   ]
+  },
+  "old-georgian#story:0": {
+   "hash": "24b93c8b09b65384",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_language",
+    "https://en.wikipedia.org/wiki/Georgian_scripts",
+    "https://en.wikipedia.org/wiki/Old_Georgian_language"
+   ],
+   "note": "\"Most scholars date\" changed to \"Scholars most probably place\" per Georgian scripts article."
+  },
+  "old-georgian#story:1": {
+   "hash": "b5b0d9c3778a0614",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bir_el_Qutt_inscriptions",
+    "https://en.wikipedia.org/wiki/Bolnisi_inscriptions",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "old-georgian#story:2": {
+   "hash": "263992bc4a7c2864",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Martyrdom_of_the_Holy_Queen_Shushanik",
+    "https://en.wikipedia.org/wiki/Old_Georgian_language"
+   ]
+  },
+  "old-georgian#work:martyrdom-of-shushanik": {
+   "hash": "249b7f1ec127c706",
+   "verdict": "verified",
+   "evidence": [
+    "https://ka.wikisource.org/wiki/%E1%83%A8%E1%83%A3%E1%83%A8%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%98%E1%83%A1_%E1%83%AC%E1%83%90%E1%83%9B%E1%83%94%E1%83%91%E1%83%90",
+    "https://en.wikipedia.org/wiki/Martyrdom_of_the_Holy_Queen_Shushanik"
+   ]
+  },
+  "georgian#identity": {
+   "hash": "7d93789edbaf047e",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/nucl1302",
+    "https://en.wikipedia.org/wiki/Georgian_language",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "georgian#period": {
+   "hash": "dd4260a462a493bf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_language",
+    "https://en.wikipedia.org/wiki/Old_Georgian_language"
+   ]
+  },
+  "georgian#homeland": {
+   "hash": "2331563ec08e4c63",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_language"
+   ]
+  },
+  "georgian#scripts": {
+   "hash": "a24f19cb066b9057",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_scripts"
+   ]
+  },
+  "georgian#speakers": {
+   "hash": "ce627db065027547",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_language"
+   ]
+  },
+  "georgian#story:0": {
+   "hash": "5f3929e83f78b1d7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_language",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "georgian#story:1": {
+   "hash": "50f0faaa9695e97e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_language",
+    "https://en.wikipedia.org/wiki/The_Knight_in_the_Panther%27s_Skin"
+   ]
+  },
+  "georgian#story:2": {
+   "hash": "03584d68b4be7836",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Georgian_scripts",
+    "https://en.wikipedia.org/wiki/Georgian_language"
+   ]
+  },
+  "georgian#work:knight-in-the-panthers-skin": {
+   "hash": "fa26bd5f20122a17",
+   "verdict": "corrected",
+   "evidence": [
+    "https://ka.wikisource.org/wiki/%E1%83%95%E1%83%94%E1%83%A4%E1%83%AE%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A7%E1%83%90%E1%83%9D%E1%83%A1%E1%83%90%E1%83%9C%E1%83%98/%E1%83%93%E1%83%90%E1%83%A1%E1%83%90%E1%83%AC%E1%83%A7%E1%83%98%E1%83%A1%E1%83%98",
+    "https://ka.wikisource.org/wiki/%E1%83%95%E1%83%94%E1%83%A4%E1%83%AE%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A7%E1%83%90%E1%83%9D%E1%83%A1%E1%83%90%E1%83%9C%E1%83%98",
+    "https://en.wikipedia.org/wiki/Marjory_Wardrop"
+   ],
+   "note": "Softened \"definitive work\" to \"major work\"; added English Wikisource source confirming Wardrop opening wording."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:33:50.430Z",
+ "verifier": "verifier-near-east"
+}

@@ -1,0 +1,433 @@
+{
+  "family": { "id": "japonic", "name": "Japonic", "root": "proto-japonic" },
+  "sources": [
+    { "id": "wp-japonic", "title": "Japonic languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Japonic_languages" },
+    { "id": "wp-proto-japonic", "title": "Proto-Japonic language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proto-Japonic_language" },
+    { "id": "robbeets-2021", "title": "Triangulation supports agricultural spread of the Transeurasian languages", "author": "Martine Robbeets et al.", "year": 2021, "publisher": "Nature 599: 616–621 (PubMed Central)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8612925/" },
+    { "id": "mpg-robbeets", "title": "Interdisciplinary Research Shows the Spread of Transeurasian Languages Was Due to Agriculture", "publisher": "Max Planck Institute for the Science of Human History", "url": "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture" },
+    { "id": "glottolog-japo1237", "title": "Glottolog: Japonic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/japo1237" },
+    { "id": "glottolog-oldj1239", "title": "Glottolog: Old Japanese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/oldj1239" },
+    { "id": "glottolog-nucl1643", "title": "Glottolog: Japanese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/nucl1643" },
+    { "id": "glottolog-cent2126", "title": "Glottolog: Central Okinawan", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/cent2126" },
+    { "id": "wp-old-japanese", "title": "Old Japanese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Japanese" },
+    { "id": "wp-emj", "title": "Early Middle Japanese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Early_Middle_Japanese" },
+    { "id": "wp-lmj", "title": "Late Middle Japanese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Late_Middle_Japanese" },
+    { "id": "wp-japanese", "title": "Japanese language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Japanese_language" },
+    { "id": "wp-okinawan", "title": "Okinawan language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Okinawan_language" },
+    { "id": "wp-omoro", "title": "Omoro Sōshi", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Omoro_S%C5%8Dshi" },
+    { "id": "wp-tamaudun", "title": "Tamaudun", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tamaudun" },
+    { "id": "wp-kojiki", "title": "Kojiki", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kojiki" },
+    { "id": "wp-heijo-kyo", "title": "Heijō-kyō", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Heij%C5%8D-ky%C5%8D" },
+    { "id": "wp-heian-kyo", "title": "Heian-kyō", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Heian-ky%C5%8D" },
+    { "id": "wp-bussokuseki", "title": "Bussokuseki-kahi", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bussokuseki-kahi" },
+    { "id": "wp-yakushiji", "title": "Yakushi-ji", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yakushi-ji" },
+    { "id": "wp-inariyama", "title": "Inariyama Sword", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Inariyama_Sword" },
+    { "id": "wp-nippo-jisho", "title": "Nippo Jisho", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Nippo_Jisho" },
+    { "id": "wp-nagasaki", "title": "Nagasaki", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Nagasaki" },
+    { "id": "wp-fukagawa", "title": "Fukagawa, Tokyo", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fukagawa,_Tokyo" },
+    { "id": "wp-manyoshu", "title": "Man'yōshū", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB" },
+    { "id": "ws-manyoshu-1", "title": "万葉集/第一巻 (Man'yōshū, book 1)", "publisher": "Japanese Wikisource", "url": "https://ja.wikisource.org/wiki/%E4%B8%87%E8%91%89%E9%9B%86/%E7%AC%AC%E4%B8%80%E5%B7%BB" },
+    { "id": "wp-genji", "title": "The Tale of Genji", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji" },
+    { "id": "ws-genji-kiritsubo", "title": "源氏物語/桐壺 (The Tale of Genji, chapter 1, Kiritsubo)", "publisher": "Japanese Wikisource", "url": "https://ja.wikisource.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E/%E6%A1%90%E5%A3%BA" },
+    { "id": "st-genji-suematsu", "title": "Genji Monogatari, Chapter I: The Chamber of Kiri (tr. Suematsu Kenchō)", "author": "Murasaki Shikibu; tr. Suematsu Kenchō", "year": 1900, "publisher": "Internet Sacred Text Archive", "url": "https://archive.sacred-texts.com/shi/gen/gen03.htm" },
+    { "id": "wp-suematsu", "title": "Suematsu Kenchō", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Suematsu_Kench%C5%8D" },
+    { "id": "wp-basho", "title": "Matsuo Bashō", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D" },
+    { "id": "jawp-furuike", "title": "古池や蛙飛びこむ水の音", "publisher": "Japanese Wikipedia", "url": "https://ja.wikipedia.org/wiki/%E5%8F%A4%E6%B1%A0%E3%82%84%E8%9B%99%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%80%E6%B0%B4%E3%81%AE%E9%9F%B3" },
+    { "id": "ws-basho-zenshu", "title": "芭蕉俳句全集 (Complete haiku of Bashō, ed. Ōtsuka Kōzan, 1903)", "publisher": "Japanese Wikisource", "url": "https://ja.wikisource.org/wiki/%E8%8A%AD%E8%95%89%E4%BF%B3%E5%8F%A5%E5%85%A8%E9%9B%86" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-japonic",
+      "name": "Proto-Japonic",
+      "glottocode": "japo1237",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-japonic", "wp-proto-japonic", "glottolog-japo1237"],
+      "period": {
+        "from": -700,
+        "to": 600,
+        "approx": true,
+        "note": "Most scholars date the arrival of Japonic in northern Kyushu to around 700–300 BCE. The split between Japanese and Ryukyuan is placed before the 7th century CE. Both limits are rough.",
+        "sources": ["wp-japonic", "wp-proto-japonic"]
+      },
+      "homeland": {
+        "lat": 33.6,
+        "lng": 130.4,
+        "label": "Northern Kyushu, reached from the Korean Peninsula by Yayoi rice farmers",
+        "sources": ["wp-japonic", "wp-proto-japonic"]
+      },
+      "story": [
+        {
+          "text": "Japonic is made up of Japanese, spoken on the main islands of Japan, and the Ryukyuan languages of the Ryukyu Islands. Linguists universally accept the family, and its ancestor, Proto-Japonic, has been reconstructed in considerable detail. Most scholars believe that Japonic was brought to northern Kyushu from the Korean Peninsula around 700 to 300 BC by wet-rice farmers of the Yayoi culture, and that it then spread through the archipelago, replacing indigenous languages.",
+          "sources": ["wp-japonic", "wp-proto-japonic"]
+        },
+        {
+          "text": "Old Japanese shows innovations that Ryukyuan lacks, so the two branches must have separated before the 7th century. The move from Kyushu to the Ryukyus may have come later, perhaps with the rapid spread of the agricultural Gusuku culture in the 10th and 11th centuries. Fragmentary place-name evidence suggests that now-extinct Japonic languages were still spoken in central and southern parts of the Korean Peninsula several centuries after the Yayoi migration.",
+          "sources": ["wp-japonic"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Roy Andrew Miller linked the arrival of Japonic with the Early Jōmon period (c. 3000 BC). This view is difficult to reconcile with the relatively shallow time depth of Japonic and with the Japonic place names recorded on the Korean Peninsula in the 1st millennium AD.",
+          "sources": ["wp-japonic"]
+        },
+        {
+          "text": "Robbeets and colleagues (2021) place Japonic in a proposed Transeurasian family that, they argue, began among millet farmers of the West Liao River region in the Early Neolithic. A summary of the study adds that rice and wheat agriculture spread from Korea to Japan around 3,000 years ago, and it lists Japonic among the Transeurasian branches. Other scholars stress that no attempt to link Japonic with another family has succeeded in demonstrating common descent; even those who argue for a relationship with Korean agree that it would be distant.",
+          "sources": ["robbeets-2021", "mpg-robbeets", "wp-japonic"]
+        }
+      ]
+    },
+    {
+      "id": "old-japanese",
+      "name": "Old Japanese",
+      "glottocode": "oldj1239",
+      "iso639_3": "ojp",
+      "parent": "proto-japonic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-old-japanese", "glottolog-oldj1239"],
+      "period": {
+        "from": 710,
+        "to": 794,
+        "approx": true,
+        "note": "Usually defined as the language of the Nara period (710–794). Some Japanese words and names are recorded earlier, and wooden tablets (mokkan) of the late 7th century often carry Old Japanese.",
+        "sources": ["wp-old-japanese"]
+      },
+      "homeland": {
+        "lat": 34.69,
+        "lng": 135.79,
+        "label": "Heijō-kyō (Nara), the Nara-period capital",
+        "sources": ["wp-old-japanese", "wp-heijo-kyo"]
+      },
+      "attestations": [
+        {
+          "id": "kojiki",
+          "year": 712,
+          "approx": false,
+          "lat": 34.69,
+          "lng": 135.79,
+          "place": "Heijō-kyō (Nara), capital of the Nara period",
+          "description": "The Kojiki, completed in 712, preserves 112 songs written in man'yōgana: the earliest connected texts in Japanese.",
+          "sources": ["wp-old-japanese", "wp-kojiki", "wp-heijo-kyo"]
+        },
+        {
+          "id": "bussokuseki-kahi",
+          "year": 753,
+          "approx": true,
+          "lat": 34.668,
+          "lng": 135.784,
+          "place": "Yakushi-ji, Nara",
+          "description": "The Bussokuseki-kahi, a Buddha-footprint monument carved with 21 poems in man'yōgana (c. 752–753). It is an original inscription, unlike the later manuscript copies of most Old Japanese texts.",
+          "sources": ["wp-old-japanese", "wp-bussokuseki", "wp-yakushiji"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Man'yōgana (Chinese characters used for sound and meaning)", "code": "Hani" }],
+        "sources": ["wp-old-japanese"]
+      },
+      "story": [
+        {
+          "text": "Old Japanese is the oldest attested stage of Japanese. It is usually defined as the language of the Nara period (710–794), when the capital was Heijō-kyō, today's Nara. Its earliest connected texts are the 112 songs in the Kojiki (712). The other major sources are the 128 songs of the Nihon Shoki (720) and the Man'yōshū (c. 759), a compilation of over 4,500 poems. Prose survives in liturgies (norito) and imperial edicts (senmyō).",
+          "sources": ["wp-old-japanese"]
+        },
+        {
+          "text": "According to the Kojiki and Nihon Shoki, writing was brought by scholars from Baekje in southwestern Korea. The oldest inscriptions found in Japan, from the 5th or early 6th century, such as the one on the Inariyama Sword, are in Classical Chinese but spell out Japanese names with Chinese characters. Scribes developed this practice into man'yōgana, a complete script that used Chinese characters for their sounds and is the ancestor of the modern kana syllabaries.",
+          "sources": ["wp-old-japanese", "wp-inariyama"]
+        },
+        {
+          "text": "Most Old Japanese texts survive only in manuscripts copied over centuries, with the risk of scribal error. One exception is the Bussokuseki-kahi at Yakushi-ji in Nara, a stone carved in the mid-8th century with 21 poems. Archaeologists have also unearthed over 150,000 wooden tablets (mokkan) from the late 7th and early 8th centuries; their short texts are often in Old Japanese and more colloquial than the court poetry.",
+          "sources": ["wp-old-japanese", "wp-bussokuseki"]
+        }
+      ],
+      "works": [
+        {
+          "id": "manyoshu",
+          "title": "Man'yōshū (Collection of Ten Thousand Leaves), poem 1",
+          "titleOriginal": "萬葉集",
+          "author": "Attributed to Emperor Yūryaku",
+          "date": "compiled after 759 CE",
+          "year": 759,
+          "significance": "The Man'yōshū is the oldest extant collection of Japanese waka, compiled sometime after 759 and holding more than 4,500 poems in 20 volumes. Its opening poem is attributed to Emperor Yūryaku, one of a small number of figures from the ancient past to whom poems in the collection are attributed.",
+          "original": "篭毛與 美篭母乳 布久思毛與 美夫君志持 此岳尓 菜採須兒",
+          "originalScript": "Hani",
+          "transliteration": "ko mo yo / miko mochi / fukushi mo yo / mibukushi mochi / kono woka ni / na tsumasu ko",
+          "translation": "O basket, with your fine basket in hand,\nO digging-stick, with your fine digging-stick in hand,\nmaiden picking greens\non this hill",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ja.wikisource.org/wiki/%E4%B8%87%E8%91%89%E9%9B%86/%E7%AC%AC%E4%B8%80%E5%B7%BB",
+          "sources": ["wp-manyoshu", "ws-manyoshu-1"]
+        }
+      ]
+    },
+    {
+      "id": "early-middle-japanese",
+      "name": "Early Middle Japanese",
+      "glottocode": null,
+      "parent": "old-japanese",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-emj", "wp-japanese"],
+      "period": {
+        "from": 794,
+        "to": 1185,
+        "approx": false,
+        "note": "The Heian period. The stage is also called Late Old Japanese.",
+        "sources": ["wp-emj", "wp-japanese"]
+      },
+      "homeland": {
+        "lat": 35.018,
+        "lng": 135.74,
+        "label": "Heian-kyō (Kyoto), the Heian-period capital",
+        "sources": ["wp-emj", "wp-heian-kyo"]
+      },
+      "attestations": [
+        {
+          "id": "tale-of-genji",
+          "year": 1010,
+          "approx": true,
+          "lat": 35.018,
+          "lng": 135.74,
+          "place": "Heian-kyō (Kyoto)",
+          "description": "The Tale of Genji, written in the early 11th century by the court lady Murasaki Shikibu, mostly in hiragana. The original manuscript is lost; more than 300 later copies survive.",
+          "sources": ["wp-genji", "wp-heian-kyo"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Hiragana", "code": "Hira" },
+          { "name": "Katakana", "code": "Kana" },
+          { "name": "Chinese characters (kanji and man'yōgana)", "code": "Hani" }
+        ],
+        "sources": ["wp-emj"]
+      },
+      "story": [
+        {
+          "text": "Early Middle Japanese is the stage of the language between 794 and 1185, the Heian period. It is also called Late Old Japanese, but the term Early Middle Japanese is preferred because the language is closer to Late Middle Japanese than to Old Japanese. Extensive waves of Sino-Japanese vocabulary entered it in this period and affected its sound system.",
+          "sources": ["wp-emj", "wp-japanese"]
+        },
+        {
+          "text": "Two new scripts emerged. Hiragana grew out of cursive handwriting of man'yōgana, and katakana out of Buddhist shorthand that used pieces of kanji. They simplified writing and opened the way for classics such as the Tosa Nikki, The Tales of Ise, The Pillow Book and The Tale of Genji. Old Japanese had spelled two kinds of i, e and o syllables; in Early Middle Japanese these distinctions were completely lost.",
+          "sources": ["wp-emj"]
+        }
+      ],
+      "works": [
+        {
+          "id": "tale-of-genji",
+          "title": "The Tale of Genji (opening of chapter 1, Kiritsubo)",
+          "titleOriginal": "源氏物語",
+          "author": "Murasaki Shikibu",
+          "date": "early 11th century",
+          "year": 1010,
+          "significance": "A depiction of the lives of high courtiers in the Heian period, written mostly in hiragana. In Japan it holds a stature similar to that of Shakespeare's works in English.",
+          "original": "いづれの御時にか、女御、更衣あまたさぶらひたまひけるなかに、いとやむごとなき際にはあらぬが、すぐれて時めきたまふありけり。",
+          "originalScript": "Jpan",
+          "transliteration": "Izure no ontoki ni ka, nyōgo, kōi amata saburaitamaikeru naka ni, ito yamugotonaki kiwa ni wa aranu ga, sugurete tokimekitamau arikeri.",
+          "translation": "In the reign of a certain Emperor, whose name is unknown to us, there was, among the Niogo and Kôyi of the Imperial Court, one who, though she was not of high birth, enjoyed the full tide of Royal favor.",
+          "translator": "Suematsu Kenchō (1855–1920)",
+          "translationYear": 1882,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://ja.wikisource.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E/%E6%A1%90%E5%A3%BA",
+          "sources": ["wp-genji", "ws-genji-kiritsubo", "st-genji-suematsu", "wp-suematsu"]
+        }
+      ]
+    },
+    {
+      "id": "late-middle-japanese",
+      "name": "Late Middle Japanese",
+      "glottocode": null,
+      "parent": "early-middle-japanese",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-lmj", "wp-japanese"],
+      "period": {
+        "from": 1185,
+        "to": 1603,
+        "approx": true,
+        "note": "Usually dated 1185–1600; Modern Japanese is considered to begin with the Edo period (from 1603).",
+        "sources": ["wp-japanese", "wp-lmj"]
+      },
+      "homeland": {
+        "lat": 35.018,
+        "lng": 135.74,
+        "label": "Kyoto, with a temporary political shift to Kantō",
+        "sources": ["wp-lmj", "wp-heian-kyo"]
+      },
+      "attestations": [
+        {
+          "id": "nippo-jisho",
+          "year": 1603,
+          "approx": false,
+          "lat": 32.745,
+          "lng": 129.874,
+          "place": "Nagasaki",
+          "description": "The Nippo Jisho, a Japanese–Portuguese dictionary of 32,293 entries compiled by Jesuit missionaries and published at Nagasaki, written entirely in the Latin alphabet: the first dictionary of Japanese into a European language.",
+          "sources": ["wp-nippo-jisho", "wp-nagasaki"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Kanji and kana", "code": "Jpan" },
+          { "name": "Latin (Jesuit romanization)", "code": "Latn" }
+        ],
+        "sources": ["wp-emj", "wp-nippo-jisho"]
+      },
+      "story": [
+        {
+          "text": "Late Middle Japanese covers roughly 1185 to 1600 and is usually divided into two parts, close to the Kamakura and Muromachi periods. It was a time of transition in which the language shed many archaic features and came closer to its modern form. As the warrior class rose, the political centre moved for a time from Kyoto to the Kantō region, and the dialects of the two areas blended.",
+          "sources": ["wp-lmj", "wp-japanese"]
+        },
+        {
+          "text": "Portuguese missionaries arrived in the mid-16th century, and with them came the first European loanwords, such as pan 'bread' and tabako 'tobacco'. Jesuits and Franciscans were also the first outsiders to describe the language. The Nippo Jisho, a Japanese–Portuguese dictionary printed at Nagasaki in 1603, was the first dictionary of Japanese into a European language, and it was written entirely in the Latin alphabet.",
+          "sources": ["wp-lmj", "wp-japanese", "wp-nippo-jisho"]
+        }
+      ]
+    },
+    {
+      "id": "japanese",
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "nativeScript": "Jpan",
+      "glottocode": "nucl1643",
+      "iso639_3": "jpn",
+      "parent": "late-middle-japanese",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-japanese", "glottolog-nucl1643"],
+      "period": {
+        "from": 1603,
+        "to": null,
+        "approx": true,
+        "note": "Modern Japanese is considered to begin with the Edo period (1603–1867).",
+        "sources": ["wp-japanese"]
+      },
+      "homeland": {
+        "lat": 35.677,
+        "lng": 139.797,
+        "label": "Edo (Tokyo), capital from the Edo period",
+        "sources": ["wp-japanese", "wp-fukagawa"]
+      },
+      "attestations": [
+        {
+          "id": "kawazu-awase",
+          "year": 1686,
+          "approx": false,
+          "lat": 35.677,
+          "lng": 139.797,
+          "place": "Bashō's hut, Fukagawa, Edo (Tokyo)",
+          "description": "Kawazu Awase (Frog Contest), a collection from a contest on frogs held at Bashō's hut, opened with his haiku 'Furuike ya'.",
+          "sources": ["wp-basho", "jawp-furuike", "wp-fukagawa"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Kanji", "code": "Hani" },
+          { "name": "Hiragana", "code": "Hira" },
+          { "name": "Katakana", "code": "Kana" }
+        ],
+        "sources": ["wp-japanese"]
+      },
+      "speakers": { "count": 123000000, "year": 2020, "scope": "L1", "sources": ["wp-japanese"] },
+      "story": [
+        {
+          "text": "Japanese is the principal language of the Japonic family, with around 123 million speakers, mainly in Japan, the only country where it is the national language, and in the Japanese diaspora. Modern Japanese is considered to begin with the Edo period (1603–1867). Although the capital moved to Edo, now Tokyo, the standard language continued that of the Kyoto elite, with only minor influence from the Edo dialect.",
+          "sources": ["wp-japanese"]
+        },
+        {
+          "text": "In early 1686 Matsuo Bashō composed his haiku of the old pond and the frog. In April the poets of Edo held a contest on frogs at Bashō's hut in Fukagawa, and his verse was placed at the head of the resulting collection, Kawazu Awase. After Japan ended its self-imposed isolation in 1853, loanwords from European languages arrived faster, and a normative standard language, hyōjungo, took shape after the Meiji Restoration.",
+          "sources": ["wp-basho", "jawp-furuike", "wp-japanese"]
+        }
+      ],
+      "works": [
+        {
+          "id": "furuike-ya",
+          "title": "Old pond (frog haiku)",
+          "titleOriginal": "古池や",
+          "author": "Matsuo Bashō",
+          "date": "1686",
+          "year": 1686,
+          "significance": "This is one of Bashō's best-remembered haiku. It is regarded as the poem that established his style (shōfū), and since the Edo period it has been widely known as the epitome of haiku.",
+          "original": "古池や蛙とびこむ水の音",
+          "originalScript": "Jpan",
+          "transliteration": "furuike ya / kawazu tobikomu / mizu no oto",
+          "translation": "The old pond —\na frog jumps in:\nthe sound of water",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ja.wikisource.org/wiki/%E8%8A%AD%E8%95%89%E4%BF%B3%E5%8F%A5%E5%85%A8%E9%9B%86",
+          "sources": ["wp-basho", "jawp-furuike", "ws-basho-zenshu"]
+        }
+      ]
+    },
+    {
+      "id": "okinawan",
+      "name": "Okinawan (Central Okinawan)",
+      "nativeName": "ウチナーグチ",
+      "nativeScript": "Kana",
+      "glottocode": "cent2126",
+      "iso639_3": "ryu",
+      "parent": "proto-japonic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-okinawan", "wp-japonic", "glottolog-cent2126"],
+      "period": {
+        "from": 1501,
+        "to": null,
+        "approx": true,
+        "note": "Date of the oldest known inscription in Okinawan (the Tamaudun stele, 1501). Ryukyuan had separated from the ancestor of Japanese before the 7th century and may have reached the Ryukyus in the 10th–11th centuries.",
+        "sources": ["wp-okinawan", "wp-japonic"]
+      },
+      "homeland": {
+        "lat": 26.217,
+        "lng": 127.719,
+        "label": "Shuri, southern Okinawa Island",
+        "sources": ["wp-okinawan"]
+      },
+      "attestations": [
+        {
+          "id": "tamaudun-stele",
+          "year": 1501,
+          "approx": false,
+          "lat": 26.2183,
+          "lng": 127.7147,
+          "place": "Tamaudun royal mausoleum, Shuri",
+          "description": "A stone stele at the Tamaudun mausoleum, built by King Shō Shin and finished in 1501: the oldest inscription of Okinawan written with hiragana.",
+          "sources": ["wp-okinawan", "wp-tamaudun"]
+        },
+        {
+          "id": "omoro-soshi",
+          "year": 1531,
+          "approx": false,
+          "lat": 26.217,
+          "lng": 127.719,
+          "place": "Shuri, capital of the Ryukyu Kingdom",
+          "description": "First compilation of the Omoro Sōshi by the royal government: songs and poems written mostly in hiragana in an early form of Okinawan.",
+          "sources": ["wp-omoro", "wp-okinawan"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Hiragana", "code": "Hira" },
+          { "name": "Kanji", "code": "Hani" }
+        ],
+        "sources": ["wp-okinawan"]
+      },
+      "story": [
+        {
+          "text": "Okinawan, more precisely Central Okinawan, is a Northern Ryukyuan language spoken mainly in the southern half of Okinawa Island and on nearby islands such as Kerama, Kumejima, Tonaki and Aguni. The Shuri–Naha variety is the de facto standard: it served as the official language of the Ryukyu Kingdom from the reign of King Shō Shin (1477–1526), and the court speech of Shuri became the regional and literary standard.",
+          "sources": ["wp-okinawan"]
+        },
+        {
+          "text": "Okinawans wrote mostly in hiragana. The oldest inscription showing Okinawan with hiragana is a stone stele of 1501 at the Tamaudun royal mausoleum in Shuri. The Omoro Sōshi, a collection of songs and poems first compiled in 1531 and again in 1613 and 1623, was written in an early form of the language. After the Satsuma Domain of Kyushu invaded in 1609, Okinawan ceased to be used in official affairs.",
+          "sources": ["wp-okinawan", "wp-omoro", "wp-tamaudun"]
+        },
+        {
+          "text": "Japan annexed the Ryukyus as Okinawa Prefecture in 1879 and opened schools teaching Japanese based on the Tokyo dialect; pupils who spoke the local language were punished with 'dialect cards'. Most Okinawans now speak Okinawan Japanese, and the remaining speakers of Okinawan are mostly elderly. UNESCO lists the language as endangered, and Glottolog gives it the endangerment status 'moribund'.",
+          "sources": ["wp-okinawan", "glottolog-cent2126"]
+        }
+      ]
+    }
+  ]
+}

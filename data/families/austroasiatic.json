@@ -1,0 +1,414 @@
+{
+  "family": { "id": "austroasiatic", "name": "Austroasiatic", "root": "proto-austroasiatic" },
+  "sources": [
+    { "id": "wp-austroasiatic", "title": "Austroasiatic languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Austroasiatic_languages" },
+    { "id": "sidwell-2023", "title": "Austroasiatic dispersal: sea levels and estuarine environments in late Neolithic Mainland SEAsia (workshop proposal, 26th International Conference on Historical Linguistics)", "author": "Paul Sidwell", "year": 2023, "publisher": "University of Heidelberg", "url": "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.7.pdf" },
+    { "id": "glottolog-aust1305", "title": "Glottolog 5: Austroasiatic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/aust1305" },
+    { "id": "glottolog-oldk1249", "title": "Glottolog 5: Old Khmer", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/oldk1249" },
+    { "id": "glottolog-midd1376", "title": "Glottolog 5: Middle Khmer", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/midd1376" },
+    { "id": "glottolog-cent1989", "title": "Glottolog 5: Central Khmer", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/cent1989" },
+    { "id": "glottolog-viet1252", "title": "Glottolog 5: Vietnamese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/viet1252" },
+    { "id": "glottolog-monn1252", "title": "Glottolog 5: Mon", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/monn1252" },
+    { "id": "glottolog-sant1410", "title": "Glottolog 5: Santali", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/sant1410" },
+    { "id": "wp-old-khmer", "title": "Old Khmer", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Khmer" },
+    { "id": "wp-angkor-borei", "title": "Angkor Borei and Phnom Da", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Angkor_Borei_and_Phnom_Da" },
+    { "id": "wp-khmer", "title": "Khmer language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Khmer_language" },
+    { "id": "wp-reamker", "title": "Reamker", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Reamker" },
+    { "id": "wp-vietnamese", "title": "Vietnamese language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Vietnamese_language" },
+    { "id": "wp-vi-chu-nom", "title": "Chữ Nôm", "publisher": "Wikipedia (Vietnamese)", "url": "https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m" },
+    { "id": "wp-tale-of-kieu", "title": "The Tale of Kieu", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Tale_of_Kieu" },
+    { "id": "wp-vi-truyen-kieu", "title": "Truyện Kiều", "publisher": "Wikipedia (Vietnamese)", "url": "https://vi.wikipedia.org/wiki/Truy%E1%BB%87n_Ki%E1%BB%81u" },
+    { "id": "ws-truyen-kieu", "title": "Truyện Kiều (Nguyễn Du)", "publisher": "Wikisource (Vietnamese)", "url": "https://vi.wikisource.org/wiki/Truy%E1%BB%87n_Ki%E1%BB%81u" },
+    { "id": "wp-mon", "title": "Mon language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mon_language" },
+    { "id": "wp-mon-script", "title": "Mon script", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mon_script" },
+    { "id": "wp-myazedi", "title": "Myazedi inscription", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Myazedi_inscription" },
+    { "id": "wp-santali", "title": "Santali language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Santali_language" },
+    { "id": "wp-ol-chiki", "title": "Ol Chiki script", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ol_Chiki_script" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-austroasiatic",
+      "name": "Proto-Austroasiatic",
+      "glottocode": "aust1305",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["glottolog-aust1305", "wp-austroasiatic"],
+      "period": {
+        "from": -3000,
+        "to": -2000,
+        "approx": true,
+        "note": "Scholars generally date the ancestral language to c. 3000–2000 BCE; Sidwell (2018) notes that its origin is older than about 4,000 years before present.",
+        "sources": ["wp-austroasiatic"]
+      },
+      "homeland": {
+        "lat": 20.95,
+        "lng": 106.3,
+        "label": "Red River Delta, northern Vietnam (Sidwell's proposed locus)",
+        "sources": ["wp-austroasiatic", "sidwell-2023"]
+      },
+      "story": [
+        {
+          "text": "About 117 million people speak an Austroasiatic language, and more than two-thirds of them speak Vietnamese. Ethnologue counts 168 languages in the family. Linguists traditionally divided it into two primary branches, Mon–Khmer in mainland Southeast Asia and Munda in India, and Ethnologue groups its languages into thirteen established families. Only Vietnamese, Khmer and Mon have long written histories, and only Vietnamese and Khmer are today national languages of sovereign states.",
+          "sources": ["wp-austroasiatic"]
+        },
+        {
+          "text": "Scholars generally date Proto-Austroasiatic to roughly 3000–2000 BCE, with a homeland in mainland Southeast Asia or southern China. Paul Sidwell describes an emerging \"two layer hypothesis\": the family formed in northern Indochina when indigenous Neolithic forager-farmers fused with East Asian cereal farmers drawn to river deltas suited to rice. In his recent proposals, early speakers spread out of northern Vietnam along the coast by boat, reaching the Malay peninsula, the Nicobar Islands and the Mahanadi delta in eastern India.",
+          "sources": ["wp-austroasiatic", "sidwell-2023"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The homeland is debated. Sidwell and Blench proposed that Austroasiatic dispersed through the Mekong drainage basin, with a locus in the Middle Mekong; Sidwell (2015) argued that the family expanded into mainland Southeast Asia from the Lingnan area of southern China; and Sidwell (2022) instead places Proto-Austroasiatic in the Red River Delta area. Blench (2017) links the arrival of agriculture to the Yangtze valley.",
+          "sources": ["wp-austroasiatic"]
+        },
+        {
+          "text": "Over the past century scholars have placed the homeland in many regions, including Indochina, Gangetic India, eastern India, central China and southwest China. Genetic work by Chaubey and colleagues concluded that Austroasiatic speakers in India today derive from a dispersal out of Southeast Asia.",
+          "sources": ["sidwell-2023", "wp-austroasiatic"]
+        }
+      ]
+    },
+    {
+      "id": "old-khmer",
+      "name": "Old Khmer",
+      "nativeName": "ក្មេរ៑",
+      "nativeScript": "Khmr",
+      "glottocode": "oldk1249",
+      "iso639_3": "okz",
+      "parent": "proto-austroasiatic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glottolog-oldk1249", "wp-old-khmer"],
+      "period": {
+        "from": 611,
+        "to": 1431,
+        "approx": true,
+        "note": "Dates of the inscriptional record (first attestation): Old Khmer enters the written record in 611 and is customarily divided into Pre-Angkorian (611–802) and Angkorian (802–1431) stages. The Khmer language article dates the end of Angkorian Old Khmer to the mid-14th century instead.",
+        "sources": ["wp-old-khmer", "wp-khmer"]
+      },
+      "homeland": {
+        "lat": 10.995,
+        "lng": 104.975,
+        "label": "Southern Cambodia (Angkor Borei, Takéo Province)",
+        "sources": ["wp-old-khmer", "wp-angkor-borei"]
+      },
+      "attestations": [
+        {
+          "id": "angkor-borei-611",
+          "year": 611,
+          "approx": false,
+          "lat": 10.995,
+          "lng": 104.975,
+          "place": "Angkor Borei, Takéo Province, Cambodia",
+          "description": "Angkor Borei has yielded the earliest known dated Khmer inscriptions. Old Khmer enters the written record abruptly in 611; all earlier inscriptions in present-day Cambodia and the Mekong Delta are in Sanskrit.",
+          "sources": ["wp-old-khmer", "wp-angkor-borei"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Khmer script (early Pallava-derived form)", "code": "Khmr" }],
+        "sources": ["wp-old-khmer"]
+      },
+      "story": [
+        {
+          "text": "Old Khmer is the oldest attested stage of Khmer. It is known from inscriptions dating from the early 7th century to the first decades of the 15th, well over a thousand of them, one of the most extensive sources of documentation in Southeast Asia. Most deal with legal matters: land and property, donations to temples, genealogies and lineages. The name kmér itself appears in inscribed lists of temple personnel, next to terms for other peoples such as the Mon, Chong and Bru.",
+          "sources": ["wp-old-khmer"]
+        },
+        {
+          "text": "Old Khmer was written in an early variant of the Khmer script derived from Pallava, a southern variant of Brahmi, and that script in turn became the basis of the Thai and Lao scripts. The language absorbed many Sanskrit loanwords for religion, philosophy and calendrical reckoning, yet it kept a typically Austroasiatic structure: sesquisyllabic words, analytic grammar and a rich set of derivational affixes. The earliest inscriptions cluster in southern Cambodia, and later ones spread northward.",
+          "sources": ["wp-old-khmer"]
+        }
+      ]
+    },
+    {
+      "id": "middle-khmer",
+      "name": "Middle Khmer",
+      "glottocode": "midd1376",
+      "parent": "old-khmer",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glottolog-midd1376", "wp-khmer"],
+      "period": {
+        "from": 1350,
+        "to": 1800,
+        "approx": true,
+        "note": "The Khmer language article dates Middle Khmer from the mid-14th century (or about the 14th century) to the 18th century, followed by Modern Khmer from about 1800.",
+        "sources": ["wp-khmer"]
+      },
+      "homeland": {
+        "lat": 11.56,
+        "lng": 104.92,
+        "label": "Cambodia",
+        "sources": ["wp-khmer"]
+      },
+      "scripts": {
+        "list": [{ "name": "Khmer script", "code": "Khmr" }],
+        "sources": ["wp-khmer"]
+      },
+      "story": [
+        {
+          "text": "Middle Khmer is the transitional stage of the language from about the 14th to the 18th century, a period of changes in morphology, phonology and vocabulary. Its literary register borrowed words from Thai. After the fall of the Khmer Empire in the early 15th century, Khmer speakers north of the Dongrek Mountains came under the influence of Lan Xang, and Northern Khmer developed fairly independently from the middle of this period. The Khmer of the Cardamom Mountains still keeps Middle Khmer features.",
+          "sources": ["wp-khmer"]
+        },
+        {
+          "text": "The Reamker, Cambodia's national epic, is a Khmer adaptation of the Sanskrit Rāmāyaṇa. The surviving text dates from the 16th century. Its first part was composed between the 16th and 17th centuries and its second part in the 18th, by at least three unknown authors. It reshapes the Hindu story around Buddhist themes and gives a large role to Hanuman and the mermaid Sovanna Maccha. From the 15th century on, lengthy poems were composed as recitatives for the masked drama called Khol.",
+          "sources": ["wp-reamker"]
+        }
+      ]
+    },
+    {
+      "id": "khmer",
+      "name": "Khmer",
+      "nativeName": "ភាសាខ្មែរ",
+      "nativeScript": "Khmr",
+      "glottocode": "cent1989",
+      "iso639_3": "khm",
+      "parent": "middle-khmer",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-cent1989", "wp-khmer"],
+      "period": {
+        "from": 1800,
+        "to": null,
+        "approx": true,
+        "note": "Modern Khmer is dated from about 1800 (the 19th century) to the present.",
+        "sources": ["wp-khmer"]
+      },
+      "homeland": {
+        "lat": 11.56,
+        "lng": 104.92,
+        "label": "Cambodia",
+        "sources": ["wp-khmer"]
+      },
+      "scripts": {
+        "list": [{ "name": "Khmer script", "code": "Khmr" }],
+        "sources": ["wp-khmer"]
+      },
+      "speakers": { "count": 19477730, "year": 2019, "scope": "L1", "sources": ["wp-khmer"] },
+      "story": [
+        {
+          "text": "Khmer is the official and national language of Cambodia and a recognised minority language in Thailand and Vietnam. Outside Cambodia, Northern Khmer is spoken by over a million people in the border provinces of northeast Thailand, and some linguists treat it as a separate language. Khmer Krom, or Southern Khmer, is the first language of the Khmer of Vietnam. A conservative variety in the Cardamom Mountains keeps a system of vocal register that has almost disappeared elsewhere.",
+          "sources": ["wp-khmer"]
+        },
+        {
+          "text": "Because Old Khmer was the language of the Chenla and Angkor empires, Khmer took in many words from Sanskrit and Pali through Hinduism and Buddhism, especially in its royal and religious registers. Its script is an abugida descended from Brahmi through the southern Indian Pallava script and has been used since at least the 7th century. In the colonial period Chuon Nath oversaw the translation of the Pali Buddhist canon into Khmer and compiled the modern Khmer dictionary still in use.",
+          "sources": ["wp-khmer"]
+        }
+      ]
+    },
+    {
+      "id": "vietnamese",
+      "name": "Vietnamese",
+      "nativeName": "tiếng Việt",
+      "nativeScript": "Latn",
+      "glottocode": "viet1252",
+      "iso639_3": "vie",
+      "parent": "proto-austroasiatic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-viet1252", "wp-vietnamese"],
+      "period": {
+        "from": 850,
+        "to": null,
+        "approx": true,
+        "note": "Old Vietnamese separated from Mường around the 9th century; Vietnamese belongs to the Vietic branch of Austroasiatic.",
+        "sources": ["wp-vietnamese"]
+      },
+      "homeland": {
+        "lat": 21.03,
+        "lng": 105.85,
+        "label": "Red River Delta, northern Vietnam",
+        "sources": ["wp-vietnamese"]
+      },
+      "attestations": [
+        {
+          "id": "van-ban-bell-1076",
+          "year": 1076,
+          "approx": false,
+          "lat": 20.71,
+          "lng": 106.77,
+          "place": "Vân Bản temple, Hải Phòng, Vietnam",
+          "description": "The bell of the Vân Bản temple in Hải Phòng, cast in 1076 under the Lý dynasty, carries some chữ Nôm characters, among the first to appear in the Lý period.",
+          "sources": ["wp-vi-chu-nom"]
+        },
+        {
+          "id": "thap-mieu-stele-1210",
+          "year": 1210,
+          "approx": false,
+          "lat": 21.22,
+          "lng": 105.71,
+          "place": "Tháp Miếu temple, former Yên Lãng district (Phúc Yên area, north of Hanoi), Vietnam",
+          "description": "The stele of the Tháp Miếu temple, carved in 1210 under King Lý Cao Tông, contains a list of names written in an early form of chữ Nôm.",
+          "sources": ["wp-vi-chu-nom", "wp-vietnamese"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Vietnamese alphabet (chữ Quốc ngữ)", "code": "Latn" },
+          { "name": "Chữ Nôm", "code": "Hani" }
+        ],
+        "sources": ["wp-vietnamese"]
+      },
+      "speakers": { "count": 86130550, "year": 2023, "scope": "L1", "sources": ["wp-vietnamese"] },
+      "story": [
+        {
+          "text": "Vietnamese, the official language of Vietnam, belongs to the Vietic branch of Austroasiatic and has around 86 million native speakers, several times as many as the rest of the family combined. It is tonal and highly analytic, with mostly monosyllabic morphemes. Borrowings from Chinese, the Sino-Vietnamese vocabulary, make up about a third of the lexicon and up to 60% of the words in formal texts. Three traditional dialect groups, Northern, Central and Southern, are spoken, and the standard is based on Hanoi speech.",
+          "sources": ["wp-vietnamese"]
+        },
+        {
+          "text": "The arrival of the agricultural Phùng Nguyên culture in the Red River Delta around 2000 BCE may correspond to the Vietic branch. Ancestral Vietic was not yet tonal and had sesquisyllabic words and many consonant clusters. Close contact with Chinese began under the Han dynasty in the 2nd century BCE, and Old Vietnamese separated from Mường around the 9th century. After independence from Chinese rule in 939, Literary Chinese remained the language of government and scholarship until the late 19th century.",
+          "sources": ["wp-vietnamese"]
+        },
+        {
+          "text": "From around the 13th century scholars adapted Chinese characters into chữ Nôm, creating thousands of new characters for native words. Nôm writing reached its height in the 18th century with poets such as Nguyễn Du and Hồ Xuân Hương. The Jesuit Alexandre de Rhodes codified a romanisation in his 1651 dictionary, and a 1910 decree in Tonkin required the alphabet for public documents. By the mid-20th century chữ Quốc ngữ was used for most writing and became the official script at independence.",
+          "sources": ["wp-vietnamese"]
+        }
+      ],
+      "works": [
+        {
+          "id": "truyen-kieu",
+          "title": "The Tale of Kiều",
+          "titleOriginal": "Truyện Kiều (Đoạn Trường Tân Thanh 斷腸新聲)",
+          "author": "Nguyễn Du (1765–1820)",
+          "date": "late 18th or early 19th century (composition date debated)",
+          "year": 1810,
+          "significance": "A narrative poem of 3,254 lines in lục bát metre, written in chữ Nôm and based on the plot of a 17th-century Chinese novel. It is generally considered the pinnacle of Vietnamese literature.",
+          "original": "Trăm năm trong cõi người ta,\nChữ tài chữ mệnh khéo là ghét nhau.\nTrải qua một cuộc bể dâu,\nNhững điều trông thấy mà đau đớn lòng.\nLạ gì bỉ sắc tư phong,\nTrời xanh quen thói má hồng đánh ghen.",
+          "originalScript": "Latn",
+          "translation": "A hundred years in this realm of human life:\nhow 'talent' and 'destiny' are wont to hate each other!\nHaving lived through a turn of sea into mulberry fields,\nthe things one has seen make the heart ache.\nWhy wonder that what is taken from one side enriches the other?\nBlue Heaven is in the habit of striking rosy cheeks out of jealousy.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://vi.wikisource.org/wiki/Truy%E1%BB%87n_Ki%E1%BB%81u",
+          "sources": ["ws-truyen-kieu", "wp-tale-of-kieu", "wp-vi-truyen-kieu"]
+        }
+      ]
+    },
+    {
+      "id": "mon",
+      "name": "Mon",
+      "nativeName": "ဘာသာမန်",
+      "nativeScript": "Mymr",
+      "glottocode": "monn1252",
+      "iso639_3": "mnw",
+      "parent": "proto-austroasiatic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-monn1252", "wp-mon"],
+      "period": {
+        "from": 550,
+        "to": null,
+        "approx": true,
+        "note": "First attestation: Old Mon inscriptions of Dvaravati in present-day central Thailand, written in a script conjecturally dated to the 6th–8th centuries.",
+        "sources": ["wp-mon-script"]
+      },
+      "homeland": {
+        "lat": 13.82,
+        "lng": 100.06,
+        "label": "Central Thailand (Dvaravati region)",
+        "sources": ["wp-mon-script", "wp-mon"]
+      },
+      "attestations": [
+        {
+          "id": "dvaravati-old-mon",
+          "year": 650,
+          "approx": true,
+          "lat": 13.82,
+          "lng": 100.06,
+          "place": "Dvaravati sites, central Thailand",
+          "description": "Old Mon inscriptions from the ruins of Dvaravati, written in a script conjecturally dated to the 6th–8th centuries, are the earliest records of Mon.",
+          "sources": ["wp-mon-script", "wp-mon"]
+        },
+        {
+          "id": "myazedi-1113",
+          "year": 1113,
+          "approx": false,
+          "lat": 21.156,
+          "lng": 94.862,
+          "place": "Myazedi pagoda, Myinkaba, Bagan, Myanmar",
+          "description": "The Myazedi inscription carries nearly identical texts in Old Burmese, Pali, Old Mon and Pyu on two stone pillars, telling the story of Prince Yazakumar and King Kyansittha. It is on UNESCO's Memory of the World Register.",
+          "sources": ["wp-myazedi"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Mon–Burmese script (Mon alphabet)", "code": "Mymr" }],
+        "sources": ["wp-mon"]
+      },
+      "story": [
+        {
+          "text": "Mon is spoken by the Mon people and is a recognised indigenous language in Myanmar and Thailand. Unlike Burmese and Thai, and like Khmer, it is not tonal; it contrasts clear and breathy voice on vowels instead. Estimates of its speakers conflict: Ethnologue gives about 1.1 million (2000–2014), while a 2007 estimate is 1.8 to 2 million. Most of them live in Mon State, Tanintharyi Region and Kayin State of southern Myanmar. UNESCO classed it as vulnerable in 2010, and in Thailand only some 60,000 to 80,000 people still speak it.",
+          "sources": ["wp-mon"]
+        },
+        {
+          "text": "Until the 12th century Mon was the lingua franca of the Irrawaddy valley, used also in the upriver Pagan Kingdom of the Bamar. King Kyansittha (r. 1084–1113) admired Mon culture and left many inscriptions in Mon, and the four-language Myazedi inscription dates from his reign. After his death Burmese gradually replaced Mon and Pyu. Mon revived as the language of the Hanthawaddy kingdom (1287–1539) in Lower Myanmar, and after the fall of the Restored Hanthawaddy Kingdom in 1757 many Mon speakers fled to what is now Thailand.",
+          "sources": ["wp-mon"]
+        },
+        {
+          "text": "The Mon script descends from the Pallava Grantha script of southern India. Its Dvaravati form, used in present-day central Thailand, is conjecturally dated to the 6th–8th centuries, and scholarly consensus attributes the origin of the Burmese script to Mon. In 1972 the New Mon State Party set up a school system teaching in Mon, which later spread across Mon State and has been described as a model for mother-tongue education in Myanmar.",
+          "sources": ["wp-mon-script", "wp-mon"]
+        }
+      ]
+    },
+    {
+      "id": "santali",
+      "name": "Santali",
+      "nativeName": "ᱥᱟᱱᱛᱟᱲᱤ",
+      "nativeScript": "Olck",
+      "glottocode": "sant1410",
+      "iso639_3": "sat",
+      "parent": "proto-austroasiatic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-sant1410", "wp-santali"],
+      "period": {
+        "from": 1850,
+        "to": null,
+        "approx": true,
+        "note": "First documentation: Santali remained unwritten until the mid-1800s. According to Paul Sidwell, the Proto-Munda ancestors of Santali speakers reached the coast of Odisha from Indochina about 4,000–3,500 years ago.",
+        "sources": ["wp-santali"]
+      },
+      "homeland": {
+        "lat": 23.5,
+        "lng": 85.5,
+        "label": "Chota Nagpur Plateau, eastern India",
+        "sources": ["wp-santali"]
+      },
+      "attestations": [
+        {
+          "id": "ol-chiki-1939",
+          "year": 1939,
+          "approx": false,
+          "lat": 21.93,
+          "lng": 86.73,
+          "place": "Mayurbhanj, Odisha, India",
+          "description": "The Ol Chiki alphabet, created for Santali in 1925 by Raghunath Murmu of Mayurbhanj, was first publicised at a Mayurbhanj State exhibition in 1939.",
+          "sources": ["wp-ol-chiki", "wp-santali"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Ol Chiki", "code": "Olck" },
+          { "name": "Bengali–Assamese script", "code": "Beng" },
+          { "name": "Odia script", "code": "Orya" },
+          { "name": "Devanagari", "code": "Deva" },
+          { "name": "Latin", "code": "Latn" }
+        ],
+        "sources": ["wp-santali"]
+      },
+      "speakers": { "count": 7368192, "year": 2011, "scope": "L1", "sources": ["wp-santali"] },
+      "story": [
+        {
+          "text": "Santali is a Kherwarian language of the Munda branch of Austroasiatic, related to Ho and Mundari, and the most widely spoken Munda language. It is spoken natively by the Santal people, mainly in the Indian states of Jharkhand, West Bengal, Odisha, Bihar and Assam, and also in Bangladesh, Bhutan and Nepal. India's 2011 census counted 7,368,192 speakers. It is the third most-spoken Austroasiatic language after Vietnamese and Khmer, and linguists regard it as phonologically conservative within Munda.",
+          "sources": ["wp-santali"]
+        },
+        {
+          "text": "According to Paul Sidwell, the Proto-Munda ancestors of Santali speakers arrived on the coast of Odisha from Indochina about 4,000–3,500 years ago and spread to the Chota Nagpur Plateau before the Indo-Aryan migration. Santali stayed unwritten until the mid-1800s, when missionaries and scholars such as Lars Skrefsrud and Paul Bodding recorded it in Latin, Bengali, Devanagari and Odia letters. The first Santali weekly in the Latin alphabet, Pera Hoṛ, was founded in 1922.",
+          "sources": ["wp-santali"]
+        },
+        {
+          "text": "In 1925 Raghunath Murmu of Mayurbhanj created Ol Chiki, a true alphabet of 30 letters whose shapes evoke the words that name them; the letter ol, meaning 'writing', is drawn from a hand holding a pen. First shown publicly in 1939, it is now the official script for Santali in West Bengal, Odisha and Jharkhand. In 2003 the 92nd Amendment added Santali to the Eighth Schedule of India's Constitution as a scheduled language.",
+          "sources": ["wp-ol-chiki", "wp-santali"]
+        }
+      ]
+    }
+  ]
+}

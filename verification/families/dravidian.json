@@ -1,0 +1,602 @@
+{
+ "file": "data/families/dravidian.json",
+ "claims": {
+  "proto-dravidian#identity": {
+   "hash": "6345b4698c2a78e1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Dravidian_language",
+    "https://glottolog.org/resource/languoid/id/drav1251",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "proto-dravidian#period": {
+   "hash": "f59500664eca397c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Dravidian_language",
+    "https://www.mpg.de/11987643/dravidian-language-family-is-approximately-4-500-years-old"
+   ]
+  },
+  "proto-dravidian#homeland": {
+   "hash": "1b9ff950df060bb0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language",
+    "https://en.wikipedia.org/wiki/Old_Tamil",
+    "https://en.wikipedia.org/wiki/Proto-Dravidian_language",
+    "https://en.wikipedia.org/wiki/Rajahmundry"
+   ]
+  },
+  "proto-dravidian#story:0": {
+   "hash": "ac926b72a0ce805e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Dravidian_language"
+   ]
+  },
+  "proto-dravidian#story:1": {
+   "hash": "7e6509dd3a86215d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dravidian_languages",
+    "https://www.mpg.de/11987643/dravidian-language-family-is-approximately-4-500-years-old"
+   ]
+  },
+  "proto-dravidian#note:0": {
+   "hash": "4eec4242d0a4d500",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.mpg.de/11987643/dravidian-language-family-is-approximately-4-500-years-old",
+    "https://en.wikipedia.org/wiki/Dravidian_languages",
+    "https://en.wikipedia.org/wiki/Proto-Dravidian_language"
+   ]
+  },
+  "proto-dravidian#note:1": {
+   "hash": "aabaf82e42a2a4e7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "proto-dravidian#note:2": {
+   "hash": "b17b92ad7ebfdf4c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Dravidian_language",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "old-tamil#identity": {
+   "hash": "c687cf98b7c26324",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tamil",
+    "https://glottolog.org/resource/languoid/id/oldt1248",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "old-tamil#period": {
+   "hash": "8739cf738fb70d27",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tamil",
+    "https://en.wikipedia.org/wiki/Tamil_language"
+   ]
+  },
+  "old-tamil#homeland": {
+   "hash": "ca66c8e68cdaf6e6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dravidian_languages",
+    "https://en.wikipedia.org/wiki/Madurai"
+   ]
+  },
+  "old-tamil#attestation:mangulam-inscriptions": {
+   "hash": "0d07ab29da1c368f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mangulam",
+    "https://en.wikipedia.org/wiki/Old_Tamil",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "old-tamil#attestation:quseir-al-qadim-sherds": {
+   "hash": "ff05638a15929afe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language",
+    "https://en.wikipedia.org/wiki/Myos_Hormos"
+   ]
+  },
+  "old-tamil#scripts": {
+   "hash": "b243dfce3a8e3260",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tamil",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "old-tamil#story:0": {
+   "hash": "74228dd7b4f4fc92",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dravidian_languages",
+    "https://en.wikipedia.org/wiki/Mangulam"
+   ]
+  },
+  "old-tamil#story:1": {
+   "hash": "4c77c441bf682dd3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sangam_literature",
+    "https://en.wikipedia.org/wiki/Old_Tamil"
+   ]
+  },
+  "old-tamil#story:2": {
+   "hash": "2205ade21e9164a2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language",
+    "https://en.wikipedia.org/wiki/Old_Tamil"
+   ]
+  },
+  "old-tamil#work:kuruntokai-40": {
+   "hash": "6de463b6c77161a6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0110.html",
+    "https://en.wikipedia.org/wiki/Ku%E1%B9%9Funtokai"
+   ],
+   "note": "Removed unsourced 'famous'; replaced with the sourced kurinji/lover-speaker classification (Tamil text verified against Project Madurai)."
+  },
+  "old-tamil#work:tirukkural-1": {
+   "hash": "8bec355031a0faf2",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0001.html",
+    "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0153.html",
+    "https://en.wikipedia.org/wiki/Kural"
+   ]
+  },
+  "tamil#identity": {
+   "hash": "cff014e789d8377a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language",
+    "https://glottolog.org/resource/languoid/id/tami1289"
+   ]
+  },
+  "tamil#period": {
+   "hash": "73f1f5cc3e253c95",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language"
+   ]
+  },
+  "tamil#homeland": {
+   "hash": "52bdff9a4a2635ea",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language",
+    "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur"
+   ]
+  },
+  "tamil#attestation:brihadisvara-inscriptions": {
+   "hash": "b23751868aa84943",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur",
+    "https://en.wikipedia.org/wiki/Tamil_language"
+   ]
+  },
+  "tamil#scripts": {
+   "hash": "f2c5065f77b5e305",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language"
+   ]
+  },
+  "tamil#speakers": {
+   "hash": "0a5925e3aed32185",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language"
+   ],
+   "note": "Count changed from rounded 79,000,000 to the source value 78,721,340 (L1; source dates it 2011-2019)."
+  },
+  "tamil#story:0": {
+   "hash": "b3ed1c71c129fa25",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language"
+   ]
+  },
+  "tamil#story:1": {
+   "hash": "dab1630cb5dc759b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language",
+    "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur"
+   ]
+  },
+  "tamil#story:2": {
+   "hash": "d87be84e1d0c4dad",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tamil_language"
+   ]
+  },
+  "tamil#work:kamba-ramayanam": {
+   "hash": "09fa645bd7b17037",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0414_01.html",
+    "https://en.wikipedia.org/wiki/Ramavataram"
+   ],
+   "note": "Translation corrected: the Tamil verb forms and pronoun are plural (those whose play is boundless are the Lords), not singular."
+  },
+  "malayalam#identity": {
+   "hash": "c73dc9919ffbec3b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malayalam",
+    "https://glottolog.org/resource/languoid/id/mala1464"
+   ]
+  },
+  "malayalam#period": {
+   "hash": "556602e99fcf1750",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malayalam",
+    "https://en.wikipedia.org/wiki/Tamil_language"
+   ]
+  },
+  "malayalam#homeland": {
+   "hash": "8f5737d93f194092",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malayalam",
+    "https://en.wikipedia.org/wiki/Kollam"
+   ]
+  },
+  "malayalam#attestation:quilon-syrian-copper-plates": {
+   "hash": "c773caa099f98192",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Quilon_Syrian_copper_plates",
+    "https://en.wikipedia.org/wiki/Malayalam",
+    "https://en.wikipedia.org/wiki/Kollam"
+   ]
+  },
+  "malayalam#scripts": {
+   "hash": "b7ed5a532ac42424",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malayalam"
+   ]
+  },
+  "malayalam#speakers": {
+   "hash": "2379faae2952c1bb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malayalam"
+   ],
+   "note": "Count changed from rounded 37,000,000 to the source value 37,367,500 (2011 census, L1)."
+  },
+  "malayalam#story:0": {
+   "hash": "b30b081f78d7cda6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malayalam"
+   ]
+  },
+  "malayalam#story:1": {
+   "hash": "056b878b278f700a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Quilon_Syrian_copper_plates",
+    "https://en.wikipedia.org/wiki/Malayalam"
+   ],
+   "note": "Quilon plates are 'considered by some' the oldest Old Malayalam inscription; the source says this is disputed."
+  },
+  "malayalam#story:2": {
+   "hash": "7a87b199fec167a2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malayalam"
+   ]
+  },
+  "malayalam#work:adhyatma-ramayanam-kilippattu": {
+   "hash": "592e6b49d6be69fb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://ml.wikisource.org/wiki/%E0%B4%85%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B5%8D%E0%B4%AF%E0%B4%BE%E0%B4%A4%E0%B5%8D%E0%B4%AE%E0%B4%B0%E0%B4%BE%E0%B4%AE%E0%B4%BE%E0%B4%AF%E0%B4%A3%E0%B4%82_%E0%B4%95%E0%B4%BF%E0%B4%B3%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%8D/%E0%B4%AC%E0%B4%BE%E0%B4%B2%E0%B4%95%E0%B4%BE%E0%B4%A3%E0%B5%8D%E0%B4%A1%E0%B4%82",
+    "https://en.wikipedia.org/wiki/Malayalam"
+   ],
+   "note": "Replaced unsupported 'earliest works of Modern Malayalam' with the sourced 'one of the most important works of Malayalam literature'."
+  },
+  "malayalam#note:0": {
+   "hash": "7defcc9fc9cf8afe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malayalam",
+    "https://glottolog.org/resource/languoid/id/mala1464"
+   ]
+  },
+  "kannada#identity": {
+   "hash": "372fefcdbb13a49c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kannada",
+    "https://glottolog.org/resource/languoid/id/nucl1305",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "kannada#period": {
+   "hash": "f0bc8b0e837e83b1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kannada",
+    "https://en.wikipedia.org/wiki/Halmidi_inscription"
+   ]
+  },
+  "kannada#homeland": {
+   "hash": "26dc764646ca291f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kannada",
+    "https://en.wikipedia.org/wiki/Halmidi_inscription",
+    "https://en.wikipedia.org/wiki/Halmidi"
+   ]
+  },
+  "kannada#attestation:halmidi-inscription": {
+   "hash": "7e15e21579d1b5f1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Halmidi_inscription",
+    "https://en.wikipedia.org/wiki/Kannada",
+    "https://en.wikipedia.org/wiki/Halmidi"
+   ]
+  },
+  "kannada#attestation:kappe-arabhatta-inscription": {
+   "hash": "ad73bfc91f662069",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kappe_Arabhatta",
+    "https://en.wikipedia.org/wiki/Kannada",
+    "https://en.wikipedia.org/wiki/Badami"
+   ],
+   "note": "'Oldest known Kannada poetry in tripadi metre' softened to 'sometimes cited as the earliest example of the tripadi metre'."
+  },
+  "kannada#scripts": {
+   "hash": "c1f8ecd5b17e7ebc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kannada"
+   ]
+  },
+  "kannada#speakers": {
+   "hash": "0cad91b432772af5",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kannada"
+   ],
+   "note": "Count changed from rounded 43,700,000 to the source value 43,697,430 (2011 census, L1)."
+  },
+  "kannada#story:0": {
+   "hash": "5302bcfcdd24a774",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kannada"
+   ]
+  },
+  "kannada#story:1": {
+   "hash": "06f43caf75f312fb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Halmidi_inscription",
+    "https://en.wikipedia.org/wiki/Kannada",
+    "https://en.wikipedia.org/wiki/Kappe_Arabhatta"
+   ],
+   "note": "Removed unsupported inference that Halmidi shows Kannada was a language of administration; replaced with what the source says (grant of Palmadi for military service)."
+  },
+  "kannada#story:2": {
+   "hash": "e88a5bf95c91188e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kannada"
+   ]
+  },
+  "kannada#note:0": {
+   "hash": "3ed9b24635fdbb2a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Halmidi_inscription",
+    "https://en.wikipedia.org/wiki/Dravidian_languages",
+    "https://en.wikipedia.org/wiki/Kannada"
+   ]
+  },
+  "telugu#identity": {
+   "hash": "48acfb4c86c2e236",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Telugu_language",
+    "https://glottolog.org/resource/languoid/id/telu1262",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "telugu#period": {
+   "hash": "c2530ceb1d899aa7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Telugu_language"
+   ],
+   "note": "Removed unsupported 'Telugu words in inscriptions from 3rd-2nd c. BCE'; now states nagabu c. 200 BCE and 2nd c. CE place names."
+  },
+  "telugu#homeland": {
+   "hash": "6f036f39f67d5746",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Telugu_language",
+    "https://en.wikipedia.org/wiki/Amaravati_Stupa"
+   ]
+  },
+  "telugu#attestation:amaravati-nagabu": {
+   "hash": "0d88e4d567f8a520",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Telugu_language",
+    "https://en.wikipedia.org/wiki/Amaravati_Stupa"
+   ]
+  },
+  "telugu#attestation:kalamalla-inscription": {
+   "hash": "514a49281d7669c5",
+   "verdict": "corrected",
+   "evidence": [
+    "https://whatisindia.com/inscriptions/epigraphica_indica/vol27_1947-1948/nilakantavenkataramayya2.html",
+    "https://en.wikipedia.org/wiki/Telugu_language",
+    "https://te.wikipedia.org/wiki/%E0%B0%95%E0%B0%B2%E0%B0%AE%E0%B0%B2%E0%B1%8D%E0%B0%B2"
+   ],
+   "note": "Coordinates moved from 14.6988,78.4726 to the Kalamalla village node 14.7115,78.4710 (Yerraguntla mandal, YSR Kadapa)."
+  },
+  "telugu#attestation:nannaya-mahabharatam": {
+   "hash": "7dbbd3e52540b5c2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nannaya",
+    "https://en.wikipedia.org/wiki/Telugu_language",
+    "https://en.wikipedia.org/wiki/Rajahmundry"
+   ],
+   "note": "Removed unsupported date '1022 CE' for the Mahabharatam; source gives the 11th century and the king's reign c. 1022."
+  },
+  "telugu#scripts": {
+   "hash": "8ee95f0405253f4e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Telugu_language"
+   ]
+  },
+  "telugu#speakers": {
+   "hash": "8d405867822000e5",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Telugu_language"
+   ],
+   "note": "Count changed from rounded 83,000,000 to the source value 82,966,790 (2011 census, L1)."
+  },
+  "telugu#story:0": {
+   "hash": "887d065a6ce667cd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Telugu_language"
+   ]
+  },
+  "telugu#story:1": {
+   "hash": "286a47e119b8accb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Telugu_language",
+    "https://whatisindia.com/inscriptions/epigraphica_indica/vol27_1947-1948/nilakantavenkataramayya2.html"
+   ],
+   "note": "'First long inscription in Telugu' qualified: the 1947-48 editors called it the first complete Telugu inscription then known; Telangana historians claim an earlier Keesaragutta label."
+  },
+  "telugu#story:2": {
+   "hash": "723a6c05e1113646",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nannaya",
+    "https://en.wikipedia.org/wiki/Telugu_language"
+   ]
+  },
+  "brahui#identity": {
+   "hash": "0299a5d033527c26",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brahui_language",
+    "https://glottolog.org/resource/languoid/id/brah1256",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "brahui#period": {
+   "hash": "05c8981b6a949ada",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brahui_language"
+   ]
+  },
+  "brahui#homeland": {
+   "hash": "de1e171a0bcd95d9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brahui_language",
+    "https://en.wikipedia.org/wiki/Kalat,_Pakistan"
+   ]
+  },
+  "brahui#attestation:tuhfat-al-ajaib": {
+   "hash": "caa64fa46078b83b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brahui_language",
+    "https://en.wikipedia.org/wiki/Khanate_of_Kalat",
+    "https://en.wikipedia.org/wiki/Kalat,_Pakistan"
+   ]
+  },
+  "brahui#scripts": {
+   "hash": "5c23bff3694bb490",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brahui_language"
+   ]
+  },
+  "brahui#speakers": {
+   "hash": "3f0fd8d547e12e0e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brahui_language"
+   ]
+  },
+  "brahui#story:0": {
+   "hash": "2a89de9d7bdb2e42",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brahui_language",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "brahui#story:1": {
+   "hash": "4fc800d453e44d03",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dravidian_languages",
+    "https://en.wikipedia.org/wiki/Brahui_language"
+   ],
+   "note": "Removed unsupported 'only Dravidian language written mainly in Arabic script / only one not known in a Brahmi-based script'; replaced with the sourced script facts."
+  },
+  "brahui#story:2": {
+   "hash": "43b15a85491289e4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khanate_of_Kalat",
+    "https://en.wikipedia.org/wiki/Brahui_language"
+   ]
+  },
+  "brahui#note:0": {
+   "hash": "d5efd2c47dd65023",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Brahui_language",
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  },
+  "brahui#note:1": {
+   "hash": "714e7b653166f6a7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dravidian_languages"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:38:44.074Z",
+ "verifier": "verifier-asia"
+}

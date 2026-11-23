@@ -1,0 +1,582 @@
+{
+  "family": { "id": "dravidian", "name": "Dravidian", "root": "proto-dravidian" },
+  "sources": [
+    { "id": "glottolog-drav1251", "title": "Glottolog: Dravidian", "url": "https://glottolog.org/resource/languoid/id/drav1251", "publisher": "Glottolog" },
+    { "id": "glottolog-oldt1248", "title": "Glottolog: Old Tamil", "url": "https://glottolog.org/resource/languoid/id/oldt1248", "publisher": "Glottolog" },
+    { "id": "glottolog-tami1289", "title": "Glottolog: Tamil", "url": "https://glottolog.org/resource/languoid/id/tami1289", "publisher": "Glottolog" },
+    { "id": "glottolog-telu1262", "title": "Glottolog: Telugu", "url": "https://glottolog.org/resource/languoid/id/telu1262", "publisher": "Glottolog" },
+    { "id": "glottolog-nucl1305", "title": "Glottolog: Kannada", "url": "https://glottolog.org/resource/languoid/id/nucl1305", "publisher": "Glottolog" },
+    { "id": "glottolog-mala1464", "title": "Glottolog: Malayalam", "url": "https://glottolog.org/resource/languoid/id/mala1464", "publisher": "Glottolog" },
+    { "id": "glottolog-brah1256", "title": "Glottolog: Brahui", "url": "https://glottolog.org/resource/languoid/id/brah1256", "publisher": "Glottolog" },
+    { "id": "mpg-dravidian-2018", "title": "Dravidian language family is approximately 4,500 years old", "url": "https://www.mpg.de/11987643/dravidian-language-family-is-approximately-4-500-years-old", "publisher": "Max-Planck-Gesellschaft", "year": 2018 },
+    { "id": "wp-dravidian", "title": "Dravidian languages", "url": "https://en.wikipedia.org/wiki/Dravidian_languages", "publisher": "Wikipedia" },
+    { "id": "wp-proto-dravidian", "title": "Proto-Dravidian language", "url": "https://en.wikipedia.org/wiki/Proto-Dravidian_language", "publisher": "Wikipedia" },
+    { "id": "wp-old-tamil", "title": "Old Tamil", "url": "https://en.wikipedia.org/wiki/Old_Tamil", "publisher": "Wikipedia" },
+    { "id": "wp-tamil-language", "title": "Tamil language", "url": "https://en.wikipedia.org/wiki/Tamil_language", "publisher": "Wikipedia" },
+    { "id": "wp-telugu-language", "title": "Telugu language", "url": "https://en.wikipedia.org/wiki/Telugu_language", "publisher": "Wikipedia" },
+    { "id": "wp-kannada", "title": "Kannada", "url": "https://en.wikipedia.org/wiki/Kannada", "publisher": "Wikipedia" },
+    { "id": "wp-malayalam", "title": "Malayalam", "url": "https://en.wikipedia.org/wiki/Malayalam", "publisher": "Wikipedia" },
+    { "id": "wp-brahui", "title": "Brahui language", "url": "https://en.wikipedia.org/wiki/Brahui_language", "publisher": "Wikipedia" },
+    { "id": "wp-mangulam", "title": "Mangulam", "url": "https://en.wikipedia.org/wiki/Mangulam", "publisher": "Wikipedia" },
+    { "id": "wp-madurai", "title": "Madurai", "url": "https://en.wikipedia.org/wiki/Madurai", "publisher": "Wikipedia" },
+    { "id": "wp-myos-hormos", "title": "Myos Hormos", "url": "https://en.wikipedia.org/wiki/Myos_Hormos", "publisher": "Wikipedia" },
+    { "id": "wp-brihadisvara", "title": "Brihadisvara Temple, Thanjavur", "url": "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur", "publisher": "Wikipedia" },
+    { "id": "wp-amaravati-stupa", "title": "Amaravati Stupa", "url": "https://en.wikipedia.org/wiki/Amaravati_Stupa", "publisher": "Wikipedia" },
+    { "id": "ei-27-kalamalla", "title": "Epigraphia Indica vol. 27 (1947–48): Kalamalla inscription of Dhanañjaya, ed. K. A. Nilakanta Sastri and M. Venkataramayya", "url": "https://whatisindia.com/inscriptions/epigraphica_indica/vol27_1947-1948/nilakantavenkataramayya2.html", "author": "K. A. Nilakanta Sastri and M. Venkataramayya" },
+    { "id": "tewp-kalamalla", "title": "కలమల్ల (Kalamalla)", "url": "https://te.wikipedia.org/wiki/%E0%B0%95%E0%B0%B2%E0%B0%AE%E0%B0%B2%E0%B1%8D%E0%B0%B2", "publisher": "Telugu Wikipedia" },
+    { "id": "wp-nannaya", "title": "Nannaya", "url": "https://en.wikipedia.org/wiki/Nannaya", "publisher": "Wikipedia" },
+    { "id": "wp-rajahmundry", "title": "Rajahmundry", "url": "https://en.wikipedia.org/wiki/Rajahmundry", "publisher": "Wikipedia" },
+    { "id": "wp-halmidi", "title": "Halmidi inscription", "url": "https://en.wikipedia.org/wiki/Halmidi_inscription", "publisher": "Wikipedia" },
+    { "id": "wp-halmidi-village", "title": "Halmidi", "url": "https://en.wikipedia.org/wiki/Halmidi", "publisher": "Wikipedia" },
+    { "id": "wp-kappe-arabhatta", "title": "Kappe Arabhatta", "url": "https://en.wikipedia.org/wiki/Kappe_Arabhatta", "publisher": "Wikipedia" },
+    { "id": "wp-badami", "title": "Badami", "url": "https://en.wikipedia.org/wiki/Badami", "publisher": "Wikipedia" },
+    { "id": "wp-quilon-plates", "title": "Quilon Syrian copper plates", "url": "https://en.wikipedia.org/wiki/Quilon_Syrian_copper_plates", "publisher": "Wikipedia" },
+    { "id": "wp-kollam", "title": "Kollam", "url": "https://en.wikipedia.org/wiki/Kollam", "publisher": "Wikipedia" },
+    { "id": "wp-khanate-kalat", "title": "Khanate of Kalat", "url": "https://en.wikipedia.org/wiki/Khanate_of_Kalat", "publisher": "Wikipedia" },
+    { "id": "wp-kalat", "title": "Kalat, Pakistan", "url": "https://en.wikipedia.org/wiki/Kalat,_Pakistan", "publisher": "Wikipedia" },
+    { "id": "wp-kural", "title": "Kural", "url": "https://en.wikipedia.org/wiki/Kural", "publisher": "Wikipedia" },
+    { "id": "wp-kuruntokai", "title": "Kuṟuntokai", "url": "https://en.wikipedia.org/wiki/Ku%E1%B9%9Funtokai", "publisher": "Wikipedia" },
+    { "id": "wp-sangam", "title": "Sangam literature", "url": "https://en.wikipedia.org/wiki/Sangam_literature", "publisher": "Wikipedia" },
+    { "id": "wp-ramavataram", "title": "Ramavataram", "url": "https://en.wikipedia.org/wiki/Ramavataram", "publisher": "Wikipedia" },
+    { "id": "pm-kural", "title": "Tirukkuṟaḷ of Tiruvaḷḷuvar (Tamil text)", "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0001.html", "publisher": "Project Madurai" },
+    { "id": "pm-kural-pope", "title": "Tirukkural: English translation and commentary by G. U. Pope, W. H. Drew, John Lazarus and F. W. Ellis (first published 1886)", "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0153.html", "publisher": "Project Madurai" },
+    { "id": "pm-kuruntokai", "title": "Kuṟuntokai (Tamil text)", "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0110.html", "publisher": "Project Madurai" },
+    { "id": "pm-kamba", "title": "Rāmāyaṇam of Kampar, part 1 (Bālakāṇḍam, paṭalams 1–10)", "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0414_01.html", "publisher": "Project Madurai" },
+    { "id": "ws-adhyatma", "title": "അദ്ധ്യാത്മരാമായണം കിളിപ്പാട്ട്/ബാലകാണ്ഡം (Adhyatma Ramayanam Kilippattu, Balakandam)", "url": "https://ml.wikisource.org/wiki/%E0%B4%85%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B5%8D%E0%B4%AF%E0%B4%BE%E0%B4%A4%E0%B5%8D%E0%B4%AE%E0%B4%B0%E0%B4%BE%E0%B4%AE%E0%B4%BE%E0%B4%AF%E0%B4%A3%E0%B4%82_%E0%B4%95%E0%B4%BF%E0%B4%B3%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%8D/%E0%B4%AC%E0%B4%BE%E0%B4%B2%E0%B4%95%E0%B4%BE%E0%B4%A3%E0%B5%8D%E0%B4%A1%E0%B4%82", "publisher": "Malayalam Wikisource" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-dravidian",
+      "name": "Proto-Dravidian",
+      "glottocode": "drav1251",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-proto-dravidian", "glottolog-drav1251", "wp-dravidian"],
+      "period": {
+        "from": -4000,
+        "to": -2500,
+        "approx": true,
+        "note": "Wikipedia gives Proto-Dravidian's era as c. 4000–3000 BCE and says it began splitting into branches around the 3rd millennium BCE. A 2018 Bayesian study (Kolipakam et al.) dates the family, and its split into North, Central and South branches, to about 4,000–4,500 years ago.",
+        "sources": ["wp-proto-dravidian", "mpg-dravidian-2018"]
+      },
+      "homeland": {
+        "lat": 17.0,
+        "lng": 81.78,
+        "label": "Lower Godavari river basin, peninsular India (one suggested location; the exact region is unknown)",
+        "sources": ["wp-tamil-language", "wp-old-tamil", "wp-proto-dravidian", "wp-rajahmundry"]
+      },
+      "story": [
+        {
+          "text": "Proto-Dravidian is the reconstructed common ancestor of the Dravidian languages. No text was ever written in it: scholars rebuild its sounds and words by comparing cognates across the northern, central and southern branches of the family. Its reconstructed plant vocabulary, according to Fuller (2007), fits the dry deciduous forests of central and peninsular India. Franklin Southworth reads the vocabulary as that of a rural economy of farming, herding and hunting, with hints of something more complex: words for an upper storey and a beam, metalworking, trade and the payment of dues.",
+          "sources": ["wp-proto-dravidian"]
+        },
+        {
+          "text": "The family was recognised in stages. In 1816 Francis Whyte Ellis argued that Tamil, Telugu, Kannada, Malayalam, Tulu and Kodava descended from a common ancestor that was not Indo-European. In 1844 Christian Lassen showed that Brahui, spoken far to the north-west in Balochistan, belonged with them, and in 1856 Robert Caldwell's Comparative Grammar of the Dravidian or South-Indian Family of Languages established Dravidian as one of the world's major language groups. Today about 80 Dravidian varieties are spoken by some 220 million people, mostly in southern and central India.",
+          "sources": ["wp-dravidian", "mpg-dravidian-2018"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Homeland. According to the authors of the 2018 study, the consensus view is that the Dravidians are native to the Indian subcontinent and were there before Indo-Aryan speakers arrived, and the reconstructed Proto-Dravidian vocabulary is read by many as supporting an origin in peninsular India. Others have argued that Dravidian was brought into India by migrations from the Iranian plateau in the 4th or 3rd millennium BCE, or earlier.",
+          "sources": ["mpg-dravidian-2018", "wp-dravidian", "wp-proto-dravidian"]
+        },
+        {
+          "text": "Elamo-Dravidian. In the 1970s David McAlpin proposed that Dravidian is related to Elamite, the extinct language of ancient south-western Iran; the archaeologist Colin Renfrew and the geneticist Luigi Luca Cavalli-Sforza later supported the idea. Most linguists have found McAlpin's proposed cognates unconvincing, and Elamite is generally treated as a language isolate.",
+          "sources": ["wp-dravidian"]
+        },
+        {
+          "text": "Indus Valley. Asko Parpola identifies Proto-North Dravidian speakers with the Indus Valley civilisation and argues that the Harappan language was most likely Dravidian. Suggestions that the Indus script records a Dravidian language remain unproven. Narasimhan et al. (2019) proposed that either an Indus-related population or a population of peninsular India may have been the source of Proto-Dravidian.",
+          "sources": ["wp-proto-dravidian", "wp-dravidian"]
+        }
+      ]
+    },
+    {
+      "id": "old-tamil",
+      "name": "Old Tamil",
+      "nativeName": "பழந்தமிழ்",
+      "nativeScript": "Taml",
+      "glottocode": "oldt1248",
+      "iso639_3": "oty",
+      "parent": "proto-dravidian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-old-tamil", "glottolog-oldt1248", "wp-dravidian"],
+      "period": {
+        "from": -300,
+        "to": 700,
+        "approx": true,
+        "note": "Scholars date Old Tamil to c. 300 BCE–700 CE, followed by Middle Tamil. Its earliest records are Tamil-Brahmi inscriptions of the 3rd–1st century BCE.",
+        "sources": ["wp-old-tamil", "wp-tamil-language"]
+      },
+      "homeland": {
+        "lat": 9.9252,
+        "lng": 78.1198,
+        "label": "Madurai region, Tamil Nadu, where the earliest Old Tamil inscriptions are concentrated",
+        "sources": ["wp-dravidian", "wp-madurai"]
+      },
+      "attestations": [
+        {
+          "id": "mangulam-inscriptions",
+          "year": -200,
+          "approx": true,
+          "lat": 10.0332,
+          "lng": 78.2431,
+          "place": "Mangulam hill, Madurai district, Tamil Nadu",
+          "description": "Tamil-Brahmi inscriptions carved in caves used by Jain monks, dated to the 3rd–2nd century BCE. They record stone beds made for the monks by servants of the Pandya king Neṭuñceḻiyaṉ, and are among the earliest known Tamil-Brahmi inscriptions.",
+          "sources": ["wp-mangulam", "wp-old-tamil", "wp-dravidian"]
+        },
+        {
+          "id": "quseir-al-qadim-sherds",
+          "year": -50,
+          "approx": true,
+          "lat": 26.1567,
+          "lng": 34.2417,
+          "place": "Quseir al-Qadim (ancient Myos Hormos), Red Sea coast, Egypt",
+          "description": "Pottery of the 1st century BCE bearing Tamil-Brahmi inscriptions, excavated in 2007 at this Red Sea port of the trade with India.",
+          "sources": ["wp-tamil-language", "wp-myos-hormos"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Tamil-Brahmi (a variant of Brahmi)", "code": "Brah" }],
+        "sources": ["wp-old-tamil", "wp-dravidian"]
+      },
+      "story": [
+        {
+          "text": "Old Tamil is the earliest recorded Dravidian language. Its first records are short inscriptions in Tamil-Brahmi, a local variant of the Brahmi script: 76 of them are carved on cave walls in the Madurai and Tirunelveli districts of Tamil Nadu and date from about the 2nd century BCE. At Mangulam, near Madurai, the inscriptions record stone beds made for Jain monks by servants of the Pandya king Neṭuñceḻiyaṉ. Robert Sewell found them in 1882, and in 1924 K. V. Subrahmanya Aiyar showed that they were written in Tamil.",
+          "sources": ["wp-dravidian", "wp-mangulam"]
+        },
+        {
+          "text": "Old Tamil has a large literature. The Sangam corpus gathers 2,381 poems by 473 poets, about 102 of them anonymous and at least 27 of them women. Most are about love (akam) or war (puram), and they are usually dated between the 3rd century BCE and the 5th century CE. The Tolkāppiyam, a treatise on grammar and poetics, is the earliest long text in the language. The Tirukkuṟaḷ, Silappatikaram and Maṇimēkalai are also written in Old Tamil.",
+          "sources": ["wp-sangam", "wp-old-tamil"]
+        },
+        {
+          "text": "Tamil also travelled with merchants. Tamil inscriptions in Brahmi script have been found in Sri Lanka and on trade goods in Thailand and Egypt. In 2007, excavators at Quseir al-Qadim on Egypt's Red Sea coast, probably the ancient port of Myos Hormos, found 1st-century BCE pottery inscribed in Tamil-Brahmi. Old Tamil also keeps many features of Proto-Dravidian, including its consonant inventory and syllable structure.",
+          "sources": ["wp-tamil-language", "wp-old-tamil"]
+        }
+      ],
+      "works": [
+        {
+          "id": "kuruntokai-40",
+          "title": "Kuṟuntokai 40 (\"Red Earth and Pouring Rain\")",
+          "titleOriginal": "குறுந்தொகை 40",
+          "author": "Cempulappeyanīrār (Sembula Peyaneerar)",
+          "date": "c. 1st century BCE – 3rd century CE (scholarly estimates for most of the anthology)",
+          "year": 100,
+          "significance": "Kuṟuntokai is traditionally the second of the Eight Anthologies of Sangam literature, a collection of about 400 short love (akam) poems credited to 205 poets. Poem 40, \"Red earth and pouring rain\", is a kuṟiñci (hill-country) poem spoken by the lover.",
+          "original": "யாயும் ஞாயும் யாரா கியரோ\nஎந்தையும் நுந்தையும் எம்முறைக் கேளிர்\nயானும் நீயும் எவ்வழி யறிதும்\nசெம்புலப் பெயனீர் போல\nஅன்புடை நெஞ்சம் தாங்கலந் தனவே.",
+          "originalScript": "Taml",
+          "transliteration": "yāyum ñāyum yār ākiyarō\nentaiyum nuntaiyum em muṟaik kēḷir\nyāṉum nīyum evvaḻi aṟitum\ncempulap peyal nīr pōla\nanpuṭai neñcam tām kalantaṉavē.",
+          "translation": "My mother and your mother: what were they to each other?\nMy father and your father: kin in what way?\nYou and I: by what path did we come to know each other?\nLike rain poured on red earth,\nhearts that hold love have mingled of themselves.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0110.html",
+          "sources": ["pm-kuruntokai", "wp-kuruntokai"]
+        },
+        {
+          "id": "tirukkural-1",
+          "title": "Tirukkuṟaḷ, couplet 1",
+          "titleOriginal": "திருக்குறள்",
+          "author": "Tiruvaḷḷuvar (Valluvar)",
+          "date": "c. 450–500 CE (dates proposed range from 300 BCE to the 5th century CE)",
+          "year": 500,
+          "significance": "The Tirukkuṟaḷ is a Tamil text on ethics of 1,330 two-line couplets in three books on virtue, wealth and love. It is the most translated and most cited work of Tamil literature.",
+          "original": "அகர முதல எழுத்தெல்லாம் ஆதி\nபகவன் முதற்றே உலகு.",
+          "originalScript": "Taml",
+          "transliteration": "akara mutala eḻuttellām āti\npakavaṉ mutaṟṟē ulaku.",
+          "translation": "A, as its first of letters, every speech maintains;\nThe \"Primal Deity\" is first through all the world's domains.",
+          "translator": "G. U. Pope",
+          "translationYear": 1886,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0153.html",
+          "sources": ["pm-kural", "pm-kural-pope", "wp-kural"]
+        }
+      ]
+    },
+    {
+      "id": "tamil",
+      "name": "Tamil",
+      "nativeName": "தமிழ்",
+      "nativeScript": "Taml",
+      "glottocode": "tami1289",
+      "iso639_3": "tam",
+      "parent": "old-tamil",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-tamil-language", "glottolog-tami1289"],
+      "period": {
+        "from": 700,
+        "to": null,
+        "approx": true,
+        "note": "Covers Middle Tamil (c. 700–1600) and Modern Tamil (1600–present), the stages after Old Tamil.",
+        "sources": ["wp-tamil-language"]
+      },
+      "homeland": {
+        "lat": 10.7828,
+        "lng": 79.1317,
+        "label": "Tamil Nadu, southern India",
+        "sources": ["wp-tamil-language", "wp-brihadisvara"]
+      },
+      "attestations": [
+        {
+          "id": "brihadisvara-inscriptions",
+          "year": 1010,
+          "approx": true,
+          "lat": 10.7828,
+          "lng": 79.1317,
+          "place": "Brihadisvara Temple, Thanjavur, Tamil Nadu",
+          "description": "Middle Tamil stone inscriptions of the Chola period on the temple that Rajaraja I completed in 1010 CE.",
+          "sources": ["wp-brihadisvara", "wp-tamil-language"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Tamil", "code": "Taml" },
+          { "name": "Grantha (historical)", "code": "Gran" }
+        ],
+        "sources": ["wp-tamil-language"]
+      },
+      "speakers": { "count": 78721340, "year": 2019, "scope": "L1", "sources": ["wp-tamil-language"] },
+      "story": [
+        {
+          "text": "Old Tamil gave way to Middle Tamil, a change generally taken to have been complete by the 8th century. The old sound written ஃ (aytam) almost disappeared, two nasal consonants merged, and a new present tense grew out of the verb kil, \"to be possible\". The Nannūl, a 13th-century grammar, is still the standard for formal written Tamil, which therefore rests on the Middle Tamil of that time, while spoken Tamil has kept changing. The two registers sit side by side, a situation linguists call diglossia.",
+          "sources": ["wp-tamil-language"]
+        },
+        {
+          "text": "Tamil reached print early. In 1578 Portuguese missionaries published a Tamil prayer book, Thambiran Vanakkam, making Tamil the first Indian language to be printed. Under the Cholas, Tamil was carved on monuments such as the Brihadisvara Temple at Thanjavur, completed by Rajaraja I in 1010 CE. Tamil was also the main language of administration and literature in Kerala until the 12th century.",
+          "sources": ["wp-tamil-language", "wp-brihadisvara"]
+        },
+        {
+          "text": "Today Tamil is the official language of Tamil Nadu and Puducherry and one of the official languages of Sri Lanka and Singapore. Large communities live in Malaysia, Mauritius, South Africa and elsewhere. In 2004 Tamil became the first language to be legally recognised as a classical language of India; President Abdul Kalam announced the decision to both houses of Parliament on 6 June 2004.",
+          "sources": ["wp-tamil-language"]
+        }
+      ],
+      "works": [
+        {
+          "id": "kamba-ramayanam",
+          "title": "Ramavataram (Kamba Ramayanam), opening invocation",
+          "titleOriginal": "இராமாயணம்",
+          "author": "Kambar",
+          "date": "12th century",
+          "year": 1150,
+          "significance": "Kambar's Tamil retelling of Valmiki's Ramayana, in six books and about 10,569 verses, is considered one of the greatest works of Tamil literature. It differs from the Sanskrit original in many respects.",
+          "original": "உலகம் யாவையும் தாம் உள ஆக்கலும்\nநிலை பெறுத்தலும் நீக்கலும் நீங்கலா\nஅலகு இலா விளையாட்டு உடையார் அவர்\nதலைவர், அன்னவர்க்கே சரண் நாங்கள் ஏ.",
+          "originalScript": "Taml",
+          "transliteration": "ulakam yāvaiyum tām uḷa ākkalum\nnilai peṟuttalum nīkkalum nīṅkalā\nalaku ilā viḷaiyāṭṭu uṭaiyār avar\ntalaivar, aṉṉavarkkē caraṇ nāṅkaḷ ē.",
+          "translation": "Bringing all the worlds into being,\nsustaining them and doing away with them, without ceasing:\nthey whose play has no bounds\nare the Lords. In them alone we take refuge.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0414_01.html",
+          "sources": ["pm-kamba", "wp-ramavataram"]
+        }
+      ]
+    },
+    {
+      "id": "malayalam",
+      "name": "Malayalam",
+      "nativeName": "മലയാളം",
+      "nativeScript": "Mlym",
+      "glottocode": "mala1464",
+      "iso639_3": "mal",
+      "parent": "old-tamil",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-malayalam", "glottolog-mala1464"],
+      "period": {
+        "from": 800,
+        "to": null,
+        "approx": true,
+        "note": "Old Malayalam began to develop from a western coastal dialect of Middle Tamil around the 8th century CE; it is attested in inscriptions from the 9th century, and the separation was complete by about the 13th–14th century.",
+        "sources": ["wp-malayalam", "wp-tamil-language"]
+      },
+      "homeland": {
+        "lat": 8.8932,
+        "lng": 76.6141,
+        "label": "Kerala, on the Malabar Coast of south-western India",
+        "sources": ["wp-malayalam", "wp-kollam"]
+      },
+      "attestations": [
+        {
+          "id": "quilon-syrian-copper-plates",
+          "year": 849,
+          "approx": true,
+          "lat": 8.8932,
+          "lng": 76.6141,
+          "place": "Kollam (Quilon), Kerala",
+          "description": "A copper-plate grant of c. 849/850 CE to the Christian merchant Maruvan Sapir Iso and the Tarisa church at Kollam, regarded as the oldest available inscription in Old Malayalam (some scholars describe its language as Middle Tamil). Its witnesses signed in Arabic, Middle Persian and Judeo-Persian.",
+          "sources": ["wp-quilon-plates", "wp-malayalam", "wp-kollam"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Malayalam", "code": "Mlym" },
+          { "name": "Arabi Malayalam (Arabic-based, mostly historical)", "code": "Arab" }
+        ],
+        "sources": ["wp-malayalam"]
+      },
+      "speakers": { "count": 37367500, "year": 2011, "scope": "L1", "sources": ["wp-malayalam"] },
+      "story": [
+        {
+          "text": "The Western Ghats cut the Malabar Coast off from the rest of the peninsula, and the Old Tamil spoken in Kerala grew apart from that of Tamil Nadu. A 7th-century poem by the Tamil poet Sambandar calls the people of Kerala malaiyāḷar, \"mountain people\", and the name Malayalam is said to come from mala, \"mountain\", and alam, \"region\". Old Malayalam, found in inscriptions from the 9th to the 13th century, was written mostly in the Vatteluttu script.",
+          "sources": ["wp-malayalam"]
+        },
+        {
+          "text": "The Quilon Syrian copper plates of about 849 CE are considered by some to be the oldest available inscription in Old Malayalam. Issued in the fifth regnal year of the Chera king Sthanu Ravi, they grant land and privileges to a Christian merchant at Kollam, and their witnesses signed in Arabic, Middle Persian and Judeo-Persian, a sign of the Jewish and Muslim communities in Kerala.",
+          "sources": ["wp-quilon-plates", "wp-malayalam"]
+        },
+        {
+          "text": "Old Malayalam became Middle Malayalam by the 13th century, and Malayalam literature then fully separated from Tamil literature. In the 15th century Cherusseri Namboothiri, court poet of Udaya Varman Kolathiri (1446–1475), wrote the Krishnagatha in a form close to modern spoken Malayalam. In the 16th century Thunchaththu Ezhuthachan wrote the Adhyathmaramayanam Kilippattu and is credited with shaping the modern Malayalam script, which earned him the title \"father of modern Malayalam\". Malayalam is now the official language of Kerala and Lakshadweep.",
+          "sources": ["wp-malayalam"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Origin. The mainstream view is that Malayalam descends from a western coastal dialect of early Middle Tamil and separated from it between the 9th and 13th centuries; this is why it is placed under Old Tamil here. A second view, argued by Govindankutty, holds that Tamil and Malayalam developed separately from a prehistoric common ancestor, Proto-Tamil-Malayalam. Others answer that Malayalam shares many innovations with early Middle Tamil, which makes fully independent descent unlikely. Glottolog groups Malayalam with Tamil in a Tamil-Malayalam subgroup.",
+          "sources": ["wp-malayalam", "glottolog-mala1464"]
+        }
+      ],
+      "works": [
+        {
+          "id": "adhyatma-ramayanam-kilippattu",
+          "title": "Adhyatma Ramayanam Kilippattu, opening of the Balakandam",
+          "titleOriginal": "അദ്ധ്യാത്മരാമായണം കിളിപ്പാട്ട്",
+          "author": "Thunchaththu Ezhuthachan",
+          "date": "16th century",
+          "year": 1550,
+          "significance": "Ezhuthachan's Malayalam retelling of the Rama story is one of the most important works of Malayalam literature, and its author is known as the father of modern Malayalam.",
+          "original": "ശ്രീരാമ! രാമ! രാമ! ശ്രീരാമചന്ദ്ര! ജയ\nശ്രീരാമ! രാമ രാമ! ശ്രീരാമഭദ്ര! ജയ\n…\nശ്രീരാമനാമംപാടി വന്നപൈങ്കിളിപ്പെണ്ണേ!\nശ്രീരാമചരിതം നീ ചൊല്ലീടു മടിയാതെ.\nശാരികപ്പൈതൽതാനുംവന്ദിച്ചുവന്ദ്യന്മാരെ\nശ്രീരാമസ്‌മൃതിയോടെപറഞ്ഞുതുടങ്ങിനാൾ.",
+          "originalScript": "Mlym",
+          "translation": "Sri Rama! Rama! Rama! Sri Ramachandra! Victory!\nSri Rama! Rama, Rama! Sri Ramabhadra! Victory!\n…\nO young parrot who came singing the name of Sri Rama,\ntell the story of Sri Rama without hesitating.\nAnd the young parrot, bowing to those worthy of reverence,\nbegan to tell it with Sri Rama in mind.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ml.wikisource.org/wiki/%E0%B4%85%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B5%8D%E0%B4%AF%E0%B4%BE%E0%B4%A4%E0%B5%8D%E0%B4%AE%E0%B4%B0%E0%B4%BE%E0%B4%AE%E0%B4%BE%E0%B4%AF%E0%B4%A3%E0%B4%82_%E0%B4%95%E0%B4%BF%E0%B4%B3%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B4%BE%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%8D/%E0%B4%AC%E0%B4%BE%E0%B4%B2%E0%B4%95%E0%B4%BE%E0%B4%A3%E0%B5%8D%E0%B4%A1%E0%B4%82",
+          "sources": ["ws-adhyatma", "wp-malayalam"]
+        }
+      ]
+    },
+    {
+      "id": "kannada",
+      "name": "Kannada",
+      "nativeName": "ಕನ್ನಡ",
+      "nativeScript": "Knda",
+      "glottocode": "nucl1305",
+      "iso639_3": "kan",
+      "parent": "proto-dravidian",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-kannada", "glottolog-nucl1305", "wp-dravidian"],
+      "period": {
+        "from": 450,
+        "to": null,
+        "approx": true,
+        "note": "Date of the first full Kannada inscription (Halmidi, usually dated c. 450 CE), which also opens the Old Kannada period (450–1200). Kannada words already appear in earlier Prakrit inscriptions, such as Ashoka's rock edict at Brahmagiri (c. 250 BCE).",
+        "sources": ["wp-kannada", "wp-halmidi"]
+      },
+      "homeland": {
+        "lat": 13.2448,
+        "lng": 75.8207,
+        "label": "Karnataka, south-western India",
+        "sources": ["wp-kannada", "wp-halmidi", "wp-halmidi-village"]
+      },
+      "attestations": [
+        {
+          "id": "halmidi-inscription",
+          "year": 450,
+          "approx": true,
+          "lat": 13.2448,
+          "lng": 75.8207,
+          "place": "Halmidi, Hassan district, Karnataka",
+          "description": "The Halmidi inscription, a stone record of a land grant and the earliest well-attested full-length Kannada inscription. M. H. Krishna found it in 1936 and dated it to about 450 CE on palaeographic grounds; other scholars date it later.",
+          "sources": ["wp-halmidi", "wp-kannada", "wp-halmidi-village"]
+        },
+        {
+          "id": "kappe-arabhatta-inscription",
+          "year": 700,
+          "approx": true,
+          "lat": 15.92,
+          "lng": 75.6803,
+          "place": "Badami, Karnataka",
+          "description": "Verse inscription of the Chalukya warrior Kappe Arabhatta, c. 700 CE, carved on a cliff above the lake at Badami; sometimes cited as the earliest example of the tripadi metre in Kannada.",
+          "sources": ["wp-kappe-arabhatta", "wp-kannada", "wp-badami"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Kannada", "code": "Knda" }],
+        "sources": ["wp-kannada"]
+      },
+      "speakers": { "count": 43697430, "year": 2011, "scope": "L1", "sources": ["wp-kannada"] },
+      "story": [
+        {
+          "text": "Kannada is the main language of Karnataka, where about 40.6 million people spoke it natively at the 2011 census. It was the court language of many dynasties of the Deccan and the south, among them the Kadambas, Western Gangas, Chalukyas, Rashtrakutas, Hoysalas and the Vijayanagara Empire. Its script grew out of the 5th-century Kadamba script, and its history is divided into Old Kannada (450–1200), Middle Kannada (1200–1700) and Modern Kannada.",
+          "sources": ["wp-kannada"]
+        },
+        {
+          "text": "The Halmidi inscription, found in 1936 by M. H. Krishna in a village in Hassan district, is usually dated to about 450 CE. It records a grant of the village of Palmaḍi, for military service, to a warrior. The village it grants, Palmaḍi, is Halmidi itself, and the change of its initial p- to h- is a typical Kannada sound shift. Around 700 CE the warrior Kappe Arabhatta was commemorated in verse on a cliff at Badami.",
+          "sources": ["wp-halmidi", "wp-kannada", "wp-kappe-arabhatta"]
+        },
+        {
+          "text": "The oldest known Kannada literary work is the Kavirājamārga, \"The Way of Poet-Kings\", a 9th-century treatise on poetics associated with the court of the Rashtrakuta king Amoghavarṣa I. The Jain poet Pampa, author of the Ādipurāṇa and Vikramārjunavijaya, is honoured as Kannada's ādikavi, \"first poet\". In modern times Kannada writers have received eight Jnanpith Awards, and Banu Mushtaq's Heart Lamp won the International Booker Prize in 2025.",
+          "sources": ["wp-kannada"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Earliest inscription. Halmidi has long been called the oldest Kannada inscription, but its date is disputed: scholars have proposed 450, 470 and about 500 CE, and D. C. Sircar dated it to about the end of the 6th century. Recent reports put a lion-balustrade inscription from Talagunda (370 CE) and the Gunabhushitana Nishadi inscription at Shravanabelagola (c. 350–400 CE) earlier than Halmidi.",
+          "sources": ["wp-halmidi", "wp-dravidian", "wp-kannada"]
+        }
+      ]
+    },
+    {
+      "id": "telugu",
+      "name": "Telugu",
+      "nativeName": "తెలుగు",
+      "nativeScript": "Telu",
+      "glottocode": "telu1262",
+      "iso639_3": "tel",
+      "parent": "proto-dravidian",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-telugu-language", "glottolog-telu1262", "wp-dravidian"],
+      "period": {
+        "from": -1000,
+        "to": null,
+        "approx": true,
+        "note": "The linguist Mikhail Andronov places Telugu's split from Proto-Dravidian at about 1000 BCE. The word nāgabu at Amaravati is dated to about 200 BCE and Telugu place names appear in Prakrit inscriptions from the 2nd century CE; the Kalamalla inscription of c. 575 CE is the earliest long inscription entirely in Telugu that the sources cite.",
+        "sources": ["wp-telugu-language"]
+      },
+      "homeland": {
+        "lat": 16.5753,
+        "lng": 80.358,
+        "label": "Andhra Pradesh, south-eastern India",
+        "sources": ["wp-telugu-language", "wp-amaravati-stupa"]
+      },
+      "attestations": [
+        {
+          "id": "amaravati-nagabu",
+          "year": -200,
+          "approx": true,
+          "lat": 16.5753,
+          "lng": 80.358,
+          "place": "Amaravati Stupa, Palnadu district, Andhra Pradesh",
+          "description": "The word nāgabu, one of the earliest written Telugu words, found at the Buddhist stupa of Amaravati and dated to around 200 BCE.",
+          "sources": ["wp-telugu-language", "wp-amaravati-stupa"]
+        },
+        {
+          "id": "kalamalla-inscription",
+          "year": 575,
+          "approx": true,
+          "lat": 14.7115,
+          "lng": 78.471,
+          "place": "Kalamalla, Kadapa district, Andhra Pradesh",
+          "description": "Inscription of the Renati Choda king Dhanañjaya on a broken pillar in the courtyard of the Chennakeśava temple, dated to about 575 CE: one of the earliest records written entirely in Telugu.",
+          "sources": ["ei-27-kalamalla", "wp-telugu-language", "tewp-kalamalla"]
+        },
+        {
+          "id": "nannaya-mahabharatam",
+          "year": 1022,
+          "approx": true,
+          "lat": 17.0091,
+          "lng": 81.7784,
+          "place": "Rajamahendravaram (Rajahmundry), Andhra Pradesh",
+          "description": "Nannaya, court poet of the Eastern Chalukya king Rajaraja Narendra at Rajamahendravaram, wrote the Andhra Mahabharatam, a Telugu retelling of the Mahabharata, in the 11th century; Rajaraja Narendra is said to have reigned around 1022 CE.",
+          "sources": ["wp-nannaya", "wp-telugu-language", "wp-rajahmundry"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Telugu", "code": "Telu" },
+          { "name": "Perso-Arabic (used in Hyderabad)", "code": "Arab" }
+        ],
+        "sources": ["wp-telugu-language"]
+      },
+      "speakers": { "count": 82966790, "year": 2011, "scope": "L1", "sources": ["wp-telugu-language"] },
+      "story": [
+        {
+          "text": "Telugu is the official language of Andhra Pradesh and Telangana and the most widely spoken Dravidian language, with about 83 million native speakers at India's 2011 census. It belongs to the South-Central (South Dravidian II) branch, alongside unwritten languages such as Gondi, Kuvi, Koya and Pengo. It is one of India's 22 scheduled languages, and in 2008 it was declared a classical language.",
+          "sources": ["wp-telugu-language"]
+        },
+        {
+          "text": "Telugu words appear early in the record: nāgabu, written at the Buddhist stupa of Amaravati, is dated to about 200 BCE. A long inscription entirely in Telugu was cut around 575 CE on a pillar at Kalamalla in Kadapa district under the Renati Choda king Dhanañjaya; its editors in 1947–48 called it the first complete Telugu inscription then known, though some Telangana historians claim an earlier short one at Keesaragutta. The historian Noboru Karashima counted some 10,000 Telugu inscriptions, making Telugu one of the most heavily inscribed languages.",
+          "sources": ["wp-telugu-language", "ei-27-kalamalla"]
+        },
+        {
+          "text": "Telugu literature begins with Nannaya, honoured as the Adi Kavi, \"first poet\". At Rajamahendravaram the Eastern Chalukya king Rajaraja Narendra commissioned him to retell the Mahabharata in Telugu. Nannaya wrote the first books, and Tikkana continued the work in the 13th century. Under the Vijayanagara Empire, especially Krishnadevaraya in the 16th century, Telugu literature had its golden age. The 15th-century Venetian traveller Niccolò de' Conti noted that Telugu words end in vowels, like Italian, which is the origin of its nickname \"the Italian of the East\".",
+          "sources": ["wp-nannaya", "wp-telugu-language"]
+        }
+      ]
+    },
+    {
+      "id": "brahui",
+      "name": "Brahui",
+      "nativeName": "براہوئی",
+      "nativeScript": "Arab",
+      "glottocode": "brah1256",
+      "iso639_3": "brh",
+      "parent": "proto-dravidian",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-brahui", "glottolog-brah1256", "wp-dravidian"],
+      "period": {
+        "from": 1759,
+        "to": null,
+        "approx": true,
+        "note": "Date of the first known written work, the Tuḥfat al-ʿAjāʾib (c. 1759–1760). When Brahui separated from the rest of Dravidian, and when it reached Balochistan, is debated (see notes).",
+        "sources": ["wp-brahui"]
+      },
+      "homeland": {
+        "lat": 29.03,
+        "lng": 66.589,
+        "label": "Kalat region, central Balochistan, Pakistan",
+        "sources": ["wp-brahui", "wp-kalat"]
+      },
+      "attestations": [
+        {
+          "id": "tuhfat-al-ajaib",
+          "year": 1759,
+          "approx": true,
+          "lat": 29.03,
+          "lng": 66.589,
+          "place": "Kalat, capital of the Khanate of Kalat, Balochistan",
+          "description": "The Tuḥfat al-ʿAjāʾib (\"Gift of Wonders\"), the earliest written work of Brahui literature: a translation from Persian made c. 1759–1760 by Malikdad Gharsin Qalati, court poet of Nasir Khan I of Kalat.",
+          "sources": ["wp-brahui", "wp-khanate-kalat", "wp-kalat"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Perso-Arabic (Nastaliq)", "code": "Arab" },
+          { "name": "Latin", "code": "Latn" }
+        ],
+        "sources": ["wp-brahui"]
+      },
+      "speakers": { "count": 2700000, "year": 2023, "scope": "L1", "sources": ["wp-brahui"] },
+      "story": [
+        {
+          "text": "Brahui is the Dravidian outlier of the north-west. It is spoken mainly in central Pakistani Balochistan, where it is the majority language in districts including Kalat, Khuzdar and Mastung, with smaller communities in Iranian Baluchestan, Afghanistan and around Merv in Turkmenistan. The nearest other Dravidian language is more than 1,500 kilometres away in South India. In 1844 Christian Lassen showed that Brahui was related to the languages of the south.",
+          "sources": ["wp-brahui", "wp-dravidian"]
+        },
+        {
+          "text": "Centuries among Iranian and Indo-Aryan neighbours have reshaped Brahui. Most of its Iranian vocabulary comes from Balochi, and unlike other Dravidian languages it uses the full set of aspirated consonants found in neighbouring Sindhi. It has eleven grammatical cases, the most in the family. Brahui is written in a Perso-Arabic script, developed around 1900, and a Latin alphabet is also in use.",
+          "sources": ["wp-dravidian", "wp-brahui"]
+        },
+        {
+          "text": "The Khanate of Kalat, also called the Brahui Confederacy, arose in 1666 from a confederacy of Brahui tribes and was ruled by the Brahui Ahmadzai dynasty. The earliest Brahui book, the Tuḥfat al-ʿAjāʾib, was translated from Persian around 1759–1760 by a court poet of Nasir Khan I. The Perso-Arabic orthography now used was developed around 1900 by Mulla Nabo-Jan and Maulana Fazl Mohammed Khan Darkhani.",
+          "sources": ["wp-khanate-kalat", "wp-brahui"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Relic or migrant? Some scholars see Brahui as a relic of a once wider Dravidian presence in the north-west; Josef Elfenbein (1989) described the most common theory as a Dravidian migration into the region in the 3rd millennium BCE. Others argue that Brahui speakers came from central India after 1000 CE: Brahui has no Old Iranian loanwords, its Iranian vocabulary comes from Balochi, which arrived only around 1000 CE, and sound changes shared with Kurukh and Malto suggest it was once spoken near them. One scholar places the migration as late as the 13th or 14th century.",
+          "sources": ["wp-brahui", "wp-dravidian"]
+        },
+        {
+          "text": "Subgrouping. Brahui is usually classed with Kurukh and Malto as North Dravidian. David McAlpin (2003) suggested instead that Brahui, Kurukh-Malto and the rest of Dravidian may be three coordinate branches, with Brahui possibly the earliest to split off.",
+          "sources": ["wp-dravidian"]
+        }
+      ]
+    }
+  ]
+}

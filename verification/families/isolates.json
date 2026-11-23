@@ -1,0 +1,662 @@
+{
+ "file": "data/families/isolates.json",
+ "claims": {
+  "sumerian#identity": {
+   "hash": "99265810940ba1c3",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/sume1241",
+    "https://en.wikipedia.org/wiki/Sumerian_language"
+   ]
+  },
+  "sumerian#period": {
+   "hash": "8d98f9456a35a1e3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language"
+   ]
+  },
+  "sumerian#homeland": {
+   "hash": "176f9dd823b5ece0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language",
+    "https://en.wikipedia.org/wiki/Uruk"
+   ]
+  },
+  "sumerian#attestation:uruk-proto-cuneiform": {
+   "hash": "12241fcb27f63322",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-cuneiform",
+    "https://en.wikipedia.org/wiki/Uruk",
+    "https://en.wikipedia.org/wiki/Sumerian_language"
+   ]
+  },
+  "sumerian#attestation:fara-abu-salabikh-texts": {
+   "hash": "0881b55cc7fda689",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language",
+    "https://en.wikipedia.org/wiki/Shuruppak"
+   ],
+   "note": "Removed \"the first to span many genres\" (not supported)."
+  },
+  "sumerian#attestation:gudea-cylinders": {
+   "hash": "61f9bc3bf822a436",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gudea_cylinders",
+    "https://en.wikipedia.org/wiki/Sumerian_language"
+   ]
+  },
+  "sumerian#attestation:nippur-old-babylonian-copies": {
+   "hash": "8a203813391bb6de",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Enheduanna"
+   ]
+  },
+  "sumerian#scripts": {
+   "hash": "7a8285a6f17aaf50",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language"
+   ]
+  },
+  "sumerian#story:0": {
+   "hash": "2c59fd3447b68e95",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language",
+    "https://en.wikipedia.org/wiki/Proto-cuneiform"
+   ],
+   "note": "\"the oldest attested language\" softened to \"among the oldest attested languages\"."
+  },
+  "sumerian#story:1": {
+   "hash": "9c1bb823dfefabb6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language"
+   ]
+  },
+  "sumerian#story:2": {
+   "hash": "ea3c36025abbd94b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language"
+   ]
+  },
+  "sumerian#story:3": {
+   "hash": "d4f85f3a1816f3b3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language"
+   ]
+  },
+  "sumerian#work:exaltation-of-inanna": {
+   "hash": "763ef4447e973900",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Enheduanna"
+   ],
+   "note": "Literal translation of nu-gig an-na suh-gir11 gal-gal-la corrected to \"high-status woman of heaven, with the great diadems\" per ETCSL glossary; transliteration of lines 1-5 checked against ETCSL."
+  },
+  "sumerian#note:0": {
+   "hash": "11667d2a33252e0c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sumerian_language",
+    "https://glottolog.org/resource/languoid/id/sume1241"
+   ]
+  },
+  "elamite#identity": {
+   "hash": "a89987ec66452508",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/elam1244",
+    "https://en.wikipedia.org/wiki/Elamite_language"
+   ]
+  },
+  "elamite#period": {
+   "hash": "4ad9a5bc08d141ac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language"
+   ]
+  },
+  "elamite#homeland": {
+   "hash": "5635600486a5ec03",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language"
+   ]
+  },
+  "elamite#attestation:puzur-inshushinak-linear-elamite": {
+   "hash": "d2e2c1cc24a7f371",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Linear_Elamite",
+    "https://en.wikipedia.org/wiki/Kutik-Inshushinak"
+   ],
+   "note": "Puzur-Inshushinak reigned c. 2125-2110 BCE per Wikipedia, not \"came to power around 2150\"; year changed to -2120."
+  },
+  "elamite#attestation:tchogha-zanbil-bricks": {
+   "hash": "70adf7250212b2b9",
+   "verdict": "verified",
+   "evidence": [
+    "https://whc.unesco.org/en/list/113/"
+   ]
+  },
+  "elamite#attestation:bisotun-inscription": {
+   "hash": "f4dee7ca308f13ef",
+   "verdict": "corrected",
+   "evidence": [
+    "https://whc.unesco.org/en/list/1222/",
+    "https://en.wikipedia.org/wiki/Behistun_Inscription"
+   ],
+   "note": "Removed unsupported \"c. 521 BCE\" and \"Elamite oldest version\"; now says composed after 522 BCE accession, events to Dec 521 BCE."
+  },
+  "elamite#attestation:persepolis-fortification-archive": {
+   "hash": "ec4f0fe02fecba94",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language",
+    "https://en.wikipedia.org/wiki/Persepolis_Administrative_Archives"
+   ],
+   "note": "Count corrected: more than 15,000 Elamite records plus about 1,000 Aramaic (Wikipedia)."
+  },
+  "elamite#scripts": {
+   "hash": "3d83b8c4fc190491",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language"
+   ]
+  },
+  "elamite#story:0": {
+   "hash": "324a69c861671a37",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language",
+    "https://en.wikipedia.org/wiki/Linear_Elamite",
+    "https://en.wikipedia.org/wiki/Kutik-Inshushinak"
+   ],
+   "note": "Reign dates corrected to c. 2125-2110 BCE."
+  },
+  "elamite#story:1": {
+   "hash": "d53c7835a392adb3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language",
+    "https://whc.unesco.org/en/list/113/"
+   ]
+  },
+  "elamite#story:2": {
+   "hash": "94c669b0870843f5",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language",
+    "https://whc.unesco.org/en/list/1222/",
+    "https://en.wikipedia.org/wiki/Persepolis_Administrative_Archives"
+   ],
+   "note": "Removed unsupported \"Elamite version is the oldest\" and c. 521 date; Persepolis figure corrected to more than 15,000 Elamite records."
+  },
+  "elamite#story:3": {
+   "hash": "f848d2c7daa12fa0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language"
+   ]
+  },
+  "elamite#note:0": {
+   "hash": "7b47be68b27e5f52",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elamite_language",
+    "https://glottolog.org/resource/languoid/id/elam1244"
+   ]
+  },
+  "hurro-urartian#identity": {
+   "hash": "4914ecabb487a461",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/hurr1239",
+    "https://en.wikipedia.org/wiki/Hurro-Urartian_languages"
+   ]
+  },
+  "hurro-urartian#story:0": {
+   "hash": "ea35fc3824924812",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurro-Urartian_languages",
+    "https://en.wikipedia.org/wiki/Hurrian_language",
+    "https://en.wikipedia.org/wiki/Urartian_language"
+   ]
+  },
+  "hurro-urartian#note:0": {
+   "hash": "3c23dee0e3c0f1a6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurro-Urartian_languages"
+   ]
+  },
+  "hurrian#identity": {
+   "hash": "9433876cafa2ed07",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/hurr1240",
+    "https://en.wikipedia.org/wiki/Hurrian_language",
+    "https://en.wikipedia.org/wiki/Hurro-Urartian_languages"
+   ]
+  },
+  "hurrian#period": {
+   "hash": "7e691e12fb439ea0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurrian_language"
+   ]
+  },
+  "hurrian#homeland": {
+   "hash": "8177a6fe92bc34b2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurrian_language",
+    "https://en.wikipedia.org/wiki/Hurrian_foundation_pegs"
+   ]
+  },
+  "hurrian#attestation:urkesh-lions": {
+   "hash": "46ea95d9975c3e87",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurrian_foundation_pegs",
+    "https://www.louvre.fr/agenda/expositions/the-met-au-louvre/oeuvres-en-lumiere/clou-de-fondation-en-forme-de-lion-au-nom-du-roi-tish-atal"
+   ]
+  },
+  "hurrian#attestation:ugarit-hurrian-songs": {
+   "hash": "de0231804cc428d2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurrian_songs"
+   ]
+  },
+  "hurrian#attestation:mitanni-letter": {
+   "hash": "d55a43204a5c5c2c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amarna_letter_EA_24"
+   ]
+  },
+  "hurrian#scripts": {
+   "hash": "785d07ddf73d1943",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurrian_language"
+   ]
+  },
+  "hurrian#story:0": {
+   "hash": "711fc92f0d3ea899",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurrian_language",
+    "https://en.wikipedia.org/wiki/Hurrian_foundation_pegs",
+    "https://www.louvre.fr/agenda/expositions/the-met-au-louvre/oeuvres-en-lumiere/clou-de-fondation-en-forme-de-lion-au-nom-du-roi-tish-atal"
+   ]
+  },
+  "hurrian#story:1": {
+   "hash": "1de2e2481d5f3549",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hurrian_language",
+    "https://en.wikipedia.org/wiki/Hurro-Urartian_languages"
+   ]
+  },
+  "hurrian#story:2": {
+   "hash": "c77d0411150715a8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amarna_letter_EA_24",
+    "https://en.wikipedia.org/wiki/Hurrian_songs",
+    "https://en.wikipedia.org/wiki/Hurrian_language"
+   ]
+  },
+  "urartian#identity": {
+   "hash": "2300a3c34726d952",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/urar1245",
+    "https://en.wikipedia.org/wiki/Urartian_language",
+    "https://en.wikipedia.org/wiki/Hurro-Urartian_languages"
+   ]
+  },
+  "urartian#period": {
+   "hash": "799c5a2463fe5434",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urartian_language",
+    "https://en.wikipedia.org/wiki/Urartu"
+   ],
+   "note": "Removed unsupported claim that Ishpuini was first to write in Urartian; source gives oldest texts under Sarduri I, late 9th c. BCE."
+  },
+  "urartian#homeland": {
+   "hash": "49b59e20f1444bd6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urartian_language"
+   ]
+  },
+  "urartian#attestation:kelishin-stele": {
+   "hash": "582a1792699826ab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kelishin_stele",
+    "https://en.wikipedia.org/wiki/Urartian_language"
+   ]
+  },
+  "urartian#attestation:erebuni-foundation-inscription": {
+   "hash": "1592832e8da96440",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Erebuni_Fortress",
+    "https://en.wikipedia.org/wiki/Urartu"
+   ]
+  },
+  "urartian#scripts": {
+   "hash": "d018fea5f715c97f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urartian_language"
+   ]
+  },
+  "urartian#story:0": {
+   "hash": "286be53c49ad7915",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urartian_language",
+    "https://en.wikipedia.org/wiki/Urartu"
+   ],
+   "note": "Same: replaced unsupported Ishpuini-first claim."
+  },
+  "urartian#story:1": {
+   "hash": "b4b6e7cfdb76e059",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kelishin_stele",
+    "https://en.wikipedia.org/wiki/Erebuni_Fortress",
+    "https://en.wikipedia.org/wiki/Urartu"
+   ]
+  },
+  "urartian#story:2": {
+   "hash": "cf94e884afe6817e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urartian_language"
+   ]
+  },
+  "etruscan#identity": {
+   "hash": "8e86e95110c88614",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/etru1241",
+    "https://en.wikipedia.org/wiki/Etruscan_language"
+   ]
+  },
+  "etruscan#period": {
+   "hash": "6b382f0e456151ef",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Etruscan_language"
+   ]
+  },
+  "etruscan#homeland": {
+   "hash": "8808b8c8f6bf4ccb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Etruscan_language"
+   ]
+  },
+  "etruscan#attestation:pyrgi-tablets": {
+   "hash": "ecf256a118e08812",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pyrgi_Tablets"
+   ]
+  },
+  "etruscan#attestation:liber-linteus": {
+   "hash": "8911a84cf5334297",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Liber_Linteus"
+   ]
+  },
+  "etruscan#attestation:cippus-perusinus": {
+   "hash": "9542e1d3cca9ac63",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cippus_Perusinus"
+   ]
+  },
+  "etruscan#scripts": {
+   "hash": "524755a1ccfc7b81",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Etruscan_language"
+   ]
+  },
+  "etruscan#story:0": {
+   "hash": "5d6d7a07b21ca999",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Etruscan_language"
+   ]
+  },
+  "etruscan#story:1": {
+   "hash": "9e7e424bb7dfbb84",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pyrgi_Tablets",
+    "https://en.wikipedia.org/wiki/Liber_Linteus"
+   ]
+  },
+  "etruscan#story:2": {
+   "hash": "5d86006af6504d3a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Etruscan_language"
+   ]
+  },
+  "etruscan#note:0": {
+   "hash": "2e82e43a93b719eb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tyrsenian_languages",
+    "https://en.wikipedia.org/wiki/Lemnos_stele",
+    "https://en.wikipedia.org/wiki/Etruscan_language"
+   ],
+   "note": "\"wide acceptance\" changed to \"gained acceptance\" per source."
+  },
+  "basque#identity": {
+   "hash": "c1b2cca75b44add5",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/basq1248",
+    "https://en.wikipedia.org/wiki/Basque_language"
+   ]
+  },
+  "basque#period": {
+   "hash": "c8ae17dbdbcee453",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hand_of_Irulegi",
+    "https://en.wikipedia.org/wiki/Aquitanian_language",
+    "https://en.wikipedia.org/wiki/Basque_language"
+   ]
+  },
+  "basque#homeland": {
+   "hash": "ec1468d9fea47665",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Basque_language"
+   ]
+  },
+  "basque#attestation:hand-of-irulegi": {
+   "hash": "17930d4b42943bd6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hand_of_Irulegi",
+    "https://en.wikipedia.org/wiki/Aquitanian_language"
+   ],
+   "note": "\"five words\" corrected to five lines of text, probably five or more words."
+  },
+  "basque#attestation:glosas-emilianenses": {
+   "hash": "80b1eb27b0659791",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Glosas_Emilianenses"
+   ]
+  },
+  "basque#attestation:linguae-vasconum-primitiae-1545": {
+   "hash": "2b403c6b3ae74218",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bernard_Etxepare"
+   ]
+  },
+  "basque#scripts": {
+   "hash": "c93d26f8acec7dbe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Basque_language"
+   ]
+  },
+  "basque#speakers": {
+   "hash": "070f764161c27b90",
+   "verdict": "verified",
+   "evidence": [
+    "https://euskadi.eus/contenidos/informacion/eas_ikerketak/en_def/adjuntos/Seventh_Sociolinguistic_Survey_2021.pdf"
+   ]
+  },
+  "basque#story:0": {
+   "hash": "0a93585402a30767",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Basque_language"
+   ]
+  },
+  "basque#story:1": {
+   "hash": "51520a10d495f23e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aquitanian_language",
+    "https://en.wikipedia.org/wiki/Basque_language",
+    "https://en.wikipedia.org/wiki/Hand_of_Irulegi"
+   ]
+  },
+  "basque#story:2": {
+   "hash": "0cb1f8f5623627c5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Glosas_Emilianenses",
+    "https://en.wikipedia.org/wiki/Bernard_Etxepare",
+    "https://en.wikipedia.org/wiki/Linguae_Vasconum_Primitiae"
+   ]
+  },
+  "basque#story:3": {
+   "hash": "657b37cd1df130ea",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Basque_language",
+    "https://euskadi.eus/contenidos/informacion/eas_ikerketak/en_def/adjuntos/Seventh_Sociolinguistic_Survey_2021.pdf"
+   ]
+  },
+  "basque#work:contrapas": {
+   "hash": "bf036a2160775e2a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Linguae_Vasconum_Primitiae",
+    "https://en.wikipedia.org/wiki/Bernard_Etxepare",
+    "https://www.euskaltzaindia.eus/dok/iker_jagon_tegiak/13964.pdf"
+   ],
+   "note": "Spelling \"Benedica dadila\" changed to \"Benedicadadila\" to match the cited transcription (Wikipedia, Etxepare article); facsimile PDF unreadable."
+  },
+  "basque#note:0": {
+   "hash": "eb0902c9d49f7b10",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Basque_language",
+    "https://en.wikipedia.org/wiki/Burushaski",
+    "https://en.wikipedia.org/wiki/Kartvelian_languages"
+   ]
+  },
+  "burushaski#identity": {
+   "hash": "114861e68a04ffe4",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/buru1296",
+    "https://en.wikipedia.org/wiki/Burushaski"
+   ]
+  },
+  "burushaski#period": {
+   "hash": "81b88f726e08bf31",
+   "verdict": "verified",
+   "evidence": [
+    "https://wisdomlib.org/uploads/journals/acta-orie/vol-70-2009/5338-4678-15571.pdf"
+   ]
+  },
+  "burushaski#homeland": {
+   "hash": "b3a607c0643618cf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burushaski",
+    "https://glocal.soas.ac.uk/burushaski/"
+   ]
+  },
+  "burushaski#scripts": {
+   "hash": "a71297450430e3fd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burushaski"
+   ]
+  },
+  "burushaski#speakers": {
+   "hash": "26c97a617aa6d544",
+   "verdict": "verified",
+   "evidence": [
+    "https://wisdomlib.org/uploads/journals/acta-orie/vol-70-2009/5338-4678-15571.pdf"
+   ]
+  },
+  "burushaski#story:0": {
+   "hash": "d1e94cfa8354396a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burushaski",
+    "https://glocal.soas.ac.uk/burushaski/"
+   ]
+  },
+  "burushaski#story:1": {
+   "hash": "ee26146107cfd926",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burushaski"
+   ],
+   "note": "\"eleven positions\" replaced by up to four prefixes and six suffixes; Srinagar influence statement softened to match source."
+  },
+  "burushaski#story:2": {
+   "hash": "013132ef01c63047",
+   "verdict": "verified",
+   "evidence": [
+    "https://wisdomlib.org/uploads/journals/acta-orie/vol-70-2009/5338-4678-15571.pdf",
+    "https://en.wikipedia.org/wiki/Burushaski"
+   ]
+  },
+  "burushaski#note:0": {
+   "hash": "b3ba2f9aa8f0219f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burushaski",
+    "https://wisdomlib.org/uploads/journals/acta-orie/vol-70-2009/5338-4678-15571.pdf"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:39:32.794Z",
+ "verifier": "verifier-near-east"
+}

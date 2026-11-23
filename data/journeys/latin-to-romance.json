@@ -1,0 +1,114 @@
+{
+  "id": "latin-to-romance",
+  "title": "From Latin to the Romance Languages",
+  "subtitle": "Watch one language of Rome become French, Italian, Spanish and Romanian through the documents that mark each break.",
+  "sources": [
+    {
+      "id": "duenos",
+      "title": "Duenos inscription",
+      "url": "https://en.wikipedia.org/wiki/Duenos_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "aeneid",
+      "title": "Aeneid",
+      "url": "https://en.wikipedia.org/wiki/Aeneid",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "vulgar-latin",
+      "title": "Vulgar Latin",
+      "url": "https://en.wikipedia.org/wiki/Vulgar_Latin",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "strasbourg",
+      "title": "Oaths of Strasbourg",
+      "url": "https://en.wikipedia.org/wiki/Oaths_of_Strasbourg",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "placiti",
+      "title": "Placiti Cassinesi",
+      "url": "https://en.wikipedia.org/wiki/Placiti_Cassinesi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "cid",
+      "title": "Cantar de mio Cid",
+      "url": "https://en.wikipedia.org/wiki/Cantar_de_mio_Cid",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "neacsu",
+      "title": "Neacșu's letter",
+      "url": "https://en.wikipedia.org/wiki/Neac%C8%99u%27s_letter",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "steps": [
+    {
+      "languoid": "old-latin",
+      "year": -550,
+      "title": "A three-part vessel on the Quirinal",
+      "text": "In 1880 workers digging a building foundation on the south slope of the Quirinal in Rome unearthed a kernos, a clay vessel of three joined small vases, which Heinrich Dressel soon bought. Its inscription, often dated to about 550 BCE though estimates run from the 7th to the 5th century, is written right to left without word spaces. It shows archaic morphology, sounds and syntax, but no reading is accepted as certain.",
+      "sources": [
+        "duenos"
+      ]
+    },
+    {
+      "languoid": "latin",
+      "year": -19,
+      "title": "Virgil's unfinished epic",
+      "text": "Virgil composed the Aeneid between 29 and 19 BCE and died in 19 BCE with the poem apparently unfinished. He wanted the manuscript burned, but Augustus overruled him through Virgil's literary executors, Varius Rufus and Plotius Tucca. Its 9,896 lines of dactylic hexameter open with Arma virumque cano, 'Of arms and the man I sing.'",
+      "sources": [
+        "aeneid"
+      ]
+    },
+    {
+      "languoid": "vulgar-latin",
+      "year": 650,
+      "title": "The speech beneath the standard",
+      "text": "Vulgar Latin covers the non-formal, everyday registers of Latin, which Roman authors called sermo vulgaris, though the term is imprecise. Pompeii graffiti already show neuter-gender confusion, as in cadaver mortuus. By the 5th century vowel length had collapsed, and from about the 7th century regional differences multiply in documents. The new future tense is first attested in the 7th-century Chronicle of Fredegar.",
+      "sources": [
+        "vulgar-latin"
+      ]
+    },
+    {
+      "languoid": "old-french",
+      "year": 842,
+      "title": "Oaths sworn in two tongues",
+      "text": "On 14 February 842, near Strasbourg, Charles the Bald and Louis the German swore an alliance against their brother Lothair I. Louis swore in an early form of Old French so Charles's soldiers could understand him, and Charles swore in Old High German. The historian Nithard recorded the oaths, and the Romance portion is regarded as the oldest extant French text.",
+      "sources": [
+        "strasbourg"
+      ]
+    },
+    {
+      "languoid": "italian",
+      "year": 960,
+      "title": "I know that those lands",
+      "text": "Between 960 and 963 four legal documents recorded land disputes between Benedictine monasteries and local landowners at Capua, Sessa Aurunca and Teano. Witnesses confirmed which monastery owned the land. The first document, from 960, opens with the formula Sao ko kelle terre, roughly 'I know these lands', and is among the first extant documents in a Romance vernacular of Italy.",
+      "sources": [
+        "placiti"
+      ]
+    },
+    {
+      "languoid": "old-spanish",
+      "year": 1140,
+      "title": "The exile of El Cid",
+      "text": "The Cantar de mio Cid is a 12th-century epic, the oldest preserved Castilian epic poem. Its date and authorship are debated: composition is placed between about 1140 and 1207, and a colophon names Per Abbad and the date 1207. It follows the exile of the historical Rodrigo Diaz de Vivar and his campaigns against the Moors. The only surviving copy is an incomplete 14th-century manuscript in Madrid's National Library.",
+      "sources": [
+        "cid"
+      ]
+    },
+    {
+      "languoid": "romanian",
+      "year": 1521,
+      "title": "A merchant's warning from Campulung",
+      "text": "Lupu Neacsu, a merchant from Campulung in Wallachia, wrote to Johannes Benkner, mayor of Brasov, to warn of Ottoman preparations to invade, most probably on 29 or 30 June 1521. It is the oldest surviving Romanian document that can be precisely dated, written in Cyrillic, and most of its vocabulary is of Latin origin. Wilhelm Stenner, an archivist in Brasov, discovered it in 1894.",
+      "sources": [
+        "neacsu"
+      ]
+    }
+  ]
+}

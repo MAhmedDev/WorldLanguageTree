@@ -1,0 +1,1255 @@
+{
+ "file": "data/families/sino-tibetan.json",
+ "claims": {
+  "proto-sino-tibetan#identity": {
+   "hash": "2b80995ae5724ddc",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/sino1245",
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "proto-sino-tibetan#period": {
+   "hash": "1b6916b3fc6bbb7e",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31061123&resultType=core&format=json",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31019300&resultType=core&format=json",
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "proto-sino-tibetan#homeland": {
+   "hash": "11506bde7e8317e3",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31019300&resultType=core&format=json",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31061123&resultType=core&format=json",
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "proto-sino-tibetan#story:0": {
+   "hash": "9c1892fd6c7b8d2c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "proto-sino-tibetan#story:1": {
+   "hash": "ff546941c30a47a4",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31019300&resultType=core&format=json",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31061123&resultType=core&format=json",
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "proto-sino-tibetan#story:2": {
+   "hash": "39c6ba088c0c014c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "proto-sino-tibetan#note:0": {
+   "hash": "00ca904da7930123",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31019300&resultType=core&format=json",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31061123&resultType=core&format=json",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "proto-sino-tibetan#note:1": {
+   "hash": "c50f541fcce4e47c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sino-Tibetan_languages",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31019300&resultType=core&format=json",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#identity": {
+   "hash": "e2d3d8dbb95cb6e2",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/oldc1244",
+    "https://en.wikipedia.org/wiki/Old_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#period": {
+   "hash": "9e53f2a947ff3bb7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Chinese",
+    "https://en.wikipedia.org/wiki/Analects",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#homeland": {
+   "hash": "1d99a7db8464cb41",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Chinese",
+    "https://en.wikipedia.org/wiki/Yinxu",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#attestation:yinxu-oracle-bones": {
+   "hash": "499aaca61a8cbb23",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Chinese",
+    "https://en.wikipedia.org/wiki/Yinxu",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#attestation:kang-hou-gui": {
+   "hash": "91ea189a491bb78e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kang_Hou_gui",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#scripts": {
+   "hash": "44b791c3ce6a712b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#story:0": {
+   "hash": "75abc439f67f50fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#story:1": {
+   "hash": "d3c33c8d7476736b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#story:2": {
+   "hash": "adf4870b6beb5133",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-chinese#work:shijing-guan-ju": {
+   "hash": "8a1b62ac0947a12d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikisource.org/wiki/Guan_ju",
+    "https://en.wikisource.org/wiki/Author:James_Legge",
+    "https://en.wikipedia.org/wiki/Classic_of_Poetry",
+    "https://en.wikipedia.org/wiki/Guan_ju",
+    "https://en.wikipedia.org/wiki/James_Legge",
+    "https://glottolog.org/resource/languoid/id/sino1245",
+    "https://en.wikisource.org/wiki/Guan_ju"
+   ],
+   "note": "Chinese and Legge's translation checked character for character against en.wikisource Guan ju. Legge died 1897, published 1871: public domain."
+  },
+  "old-chinese#work:analects-1-1": {
+   "hash": "e73952a86925bca9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/I",
+    "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E5%AD%B8%E8%80%8C%E7%AC%AC%E4%B8%80",
+    "https://en.wikipedia.org/wiki/Analects",
+    "https://en.wikipedia.org/wiki/James_Legge",
+    "https://glottolog.org/resource/languoid/id/sino1245",
+    "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E5%AD%B8%E8%80%8C%E7%AC%AC%E4%B8%80"
+   ],
+   "note": "Chinese checked against zh.wikisource; Legge translation checked against en.wikisource (1893 edition). Public domain."
+  },
+  "old-chinese#work:dao-de-jing-1": {
+   "hash": "19968b1bf07c242c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikisource.org/wiki/T%C3%A2o_Teh_King",
+    "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)",
+    "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+    "https://en.wikipedia.org/wiki/James_Legge",
+    "https://glottolog.org/resource/languoid/id/sino1245",
+    "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)"
+   ],
+   "note": "Chinese checked against zh.wikisource Wang Bi edition; Legge's Tao Teh King (1891) checked against en.wikisource. Public domain."
+  },
+  "middle-chinese#identity": {
+   "hash": "e68f36c6bf65ddd0",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/midd1344",
+    "https://en.wikipedia.org/wiki/Middle_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "middle-chinese#period": {
+   "hash": "bc06869d183b4bb3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "middle-chinese#homeland": {
+   "hash": "399c681dd43054c6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Chinese",
+    "https://en.wikipedia.org/wiki/Qieyun",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Label said Chang'an was the capital of the Sui and Tang as if it were the Middle Chinese homeland; sources say the Qieyun records a north-south compromise, not one city's speech. Label now says it is where the Qieyun was planned."
+  },
+  "middle-chinese#attestation:qieyun": {
+   "hash": "cdc7408f01179f9e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Qieyun",
+    "https://en.wikipedia.org/wiki/Middle_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "middle-chinese#scripts": {
+   "hash": "b8afea85b3a62cf2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Qieyun",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "middle-chinese#story:0": {
+   "hash": "45cb9d5cdd6a6132",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Qieyun",
+    "https://en.wikipedia.org/wiki/Middle_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "middle-chinese#story:1": {
+   "hash": "9043ffe330e6b236",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Qieyun",
+    "https://en.wikipedia.org/wiki/Middle_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "middle-chinese#story:2": {
+   "hash": "86e0930e32958a9b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://en.wikipedia.org/wiki/Middle_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "middle-chinese#work:li-bai-quiet-night-thought": {
+   "hash": "0cc9f39ff2bd246d",
+   "verdict": "verified",
+   "evidence": [
+    "https://zh.wikisource.org/wiki/%E9%9D%9C%E5%A4%9C%E6%80%9D",
+    "https://en.wikipedia.org/wiki/Li_Bai",
+    "https://en.wikipedia.org/wiki/Quiet_Night_Thought",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Chinese matches the Three Hundred Tang Poems text on zh.wikisource; variant readings noted correctly. Li Bai died 762: public domain. Literal translation faithful."
+  },
+  "middle-chinese#work:du-fu-spring-view": {
+   "hash": "c16733c508f9b8b3",
+   "verdict": "verified",
+   "evidence": [
+    "https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B",
+    "https://en.wikipedia.org/wiki/Du_Fu",
+    "https://en.wikipedia.org/wiki/Li_Bai",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Chinese matches zh.wikisource (春 in line 2; variant 荒 exists). Du Fu died 770: public domain. Literal translation faithful."
+  },
+  "mandarin#identity": {
+   "hash": "10e07fcdc518fcd3",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/mand1415",
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "mandarin#period": {
+   "hash": "ecdfd2e95aa4ad01",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "mandarin#homeland": {
+   "hash": "9f96ee3e44533adb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "mandarin#attestation:beijing-standard-1932": {
+   "hash": "961a2b39dcc181c4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "mandarin#scripts": {
+   "hash": "9048b5a4a4f589bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "mandarin#speakers": {
+   "hash": "4f81a303e17370b9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "mandarin#story:0": {
+   "hash": "1d5092c152211be8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "mandarin#story:1": {
+   "hash": "d509049cc30bfe38",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "'Officials of the Ming and Qing ran the empire in Guanhua' was not in the source; reworded to the sourced statement that officials with mutually unintelligible native varieties communicated in a koine called Guanhua."
+  },
+  "mandarin#story:2": {
+   "hash": "3ecd8974a6cc3d59",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "mandarin#work:lu-xun-diary-of-a-madman": {
+   "hash": "bb878cf94e9fcff8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+    "https://en.wikipedia.org/wiki/Diary_of_a_Madman_(Lu_Xun)",
+    "https://en.wikipedia.org/wiki/Lu_Xun",
+    "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245",
+    "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98"
+   ],
+   "note": "Significance said 'first modern work of Chinese fiction'; the source says 'China's first modern short story'. Chinese text verified character for character against zh.wikisource."
+  },
+  "cantonese#identity": {
+   "hash": "c27a711d46352f72",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/yuec1235",
+    "https://en.wikipedia.org/wiki/Yue_Chinese",
+    "https://en.wikipedia.org/wiki/Cantonese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "cantonese#period": {
+   "hash": "ea18c48e3fba4f7a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cantonese",
+    "https://en.wikipedia.org/wiki/Yue_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "cantonese#homeland": {
+   "hash": "f0bc26666cbb4615",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yue_Chinese",
+    "https://en.wikipedia.org/wiki/Cantonese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "cantonese#attestation:morrison-canton-vocabulary": {
+   "hash": "423525a195fff041",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cantonese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "cantonese#attestation:hong-kong-1842": {
+   "hash": "83409c11678baff2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yue_Chinese",
+    "https://en.wikipedia.org/wiki/Cantonese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "cantonese#scripts": {
+   "hash": "6bf8306826101d44",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cantonese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "cantonese#speakers": {
+   "hash": "c207cc02d9ab5eca",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yue_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Count changed from rounded 85,000,000 to the source's exact 85,169,490 (Yue Chinese L1, 2021-2024; year 2024 is the end of the range). Yue figure, as required for Cantonese."
+  },
+  "cantonese#story:0": {
+   "hash": "160db605473bf471",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yue_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "cantonese#story:1": {
+   "hash": "fcc836c48957fdce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yue_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "cantonese#story:2": {
+   "hash": "1e4a486caa4f0e5b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yue_Chinese",
+    "https://en.wikipedia.org/wiki/Cantonese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "wu-chinese#identity": {
+   "hash": "2a87238da6dd97d9",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/wuch1236",
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "wu-chinese#period": {
+   "hash": "80482f50956e2e6e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "wu-chinese#homeland": {
+   "hash": "2edfc388860dcdd0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "wu-chinese#attestation:sing-song-girls-of-shanghai": {
+   "hash": "368ecd8e8ccb6fd2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/The_Sing-song_Girls_of_Shanghai",
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "wu-chinese#scripts": {
+   "hash": "ee44282071aa6376",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "wu-chinese#speakers": {
+   "hash": "5c101162d49e7b39",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Count changed from rounded 83,000,000 to the source's exact 83,397,340 (L1, 2021)."
+  },
+  "wu-chinese#story:0": {
+   "hash": "904fc90fcb84b461",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "wu-chinese#story:1": {
+   "hash": "5d1c9c08a69f162a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "wu-chinese#story:2": {
+   "hash": "ff40d9b8a19899e7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://en.wikipedia.org/wiki/The_Sing-song_Girls_of_Shanghai",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#identity": {
+   "hash": "e1639c1933a14b23",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/minn1241",
+    "https://en.wikipedia.org/wiki/Southern_Min",
+    "https://en.wikipedia.org/wiki/Hokkien",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#period": {
+   "hash": "d086e7c72d8c2d28",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Southern_Min",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#homeland": {
+   "hash": "4758caf28d1c7db0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hokkien",
+    "https://en.wikipedia.org/wiki/Southern_Min",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#attestation:litchi-mirror": {
+   "hash": "a81d93cb5ea80b6d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hokkien",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#attestation:amoy-port": {
+   "hash": "4e799576363a117d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hokkien",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#scripts": {
+   "hash": "94bc4036c8b3b3ec",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hokkien",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#speakers": {
+   "hash": "c9fcb3161fcb5830",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Southern_Min",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Count changed from rounded 34,000,000 to the source's exact 33,995,290 (L1, 2020-2022; year 2022 is the end of the range)."
+  },
+  "southern-min#story:0": {
+   "hash": "051d1b7c99532a64",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Southern_Min",
+    "https://en.wikipedia.org/wiki/Hokkien",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#story:1": {
+   "hash": "f3d65df6095e4297",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Southern_Min",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "southern-min#story:2": {
+   "hash": "3bb7858a8f0a31e2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hokkien",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Removed 'Hokkien speakers form the largest group of overseas Chinese' (the source marks it citation needed); replaced with the sourced statements that Taiwanese Hokkien is a national language of Taiwan and Hokkien is widely spoken among overseas Chinese."
+  },
+  "southern-min#note:0": {
+   "hash": "3d0d15e74977cd47",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Southern_Min",
+    "https://en.wikipedia.org/wiki/Middle_Chinese",
+    "https://glottolog.org/resource/languoid/id/minn1241",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Added by verifier: explains the Southern Min placement under Old Chinese and notes Glottolog's different structure (Glottolog Sinitic children: Classical-Middle-Modern Sinitic, Min, Old Chinese, Waxianghua)."
+  },
+  "hakka#identity": {
+   "hash": "0f41919b92bfa39c",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/hakk1236",
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "hakka#period": {
+   "hash": "28cdb6e6e78704a6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "hakka#homeland": {
+   "hash": "3681e75a3c546f68",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "hakka#attestation:meixian-romanization": {
+   "hash": "18ddee616fff1b9a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "hakka#scripts": {
+   "hash": "9f39a076a5721d92",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "hakka#speakers": {
+   "hash": "e2a6110afd7bc236",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Count changed from rounded 44,000,000 to the source's exact 43,862,230 (L1, 2023)."
+  },
+  "hakka#story:0": {
+   "hash": "20399f6e8a780fff",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "hakka#story:1": {
+   "hash": "605a5314b57de406",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "hakka#story:2": {
+   "hash": "411656ff3b10e6c4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "hakka#note:0": {
+   "hash": "1edcb85f30f39cf0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-tibetan#identity": {
+   "hash": "edf12b045c6b4810",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tibetan",
+    "https://en.wikipedia.org/wiki/Tibetic_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-tibetan#period": {
+   "hash": "0439362472802093",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-tibetan#homeland": {
+   "hash": "1883c9b994f39740",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tibetan",
+    "https://en.wikipedia.org/wiki/Lhasa_Zhol_Pillar",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-tibetan#attestation:old-tibetan-annals": {
+   "hash": "e871e81e3502c781",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tibetan_Annals",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-tibetan#attestation:zhol-pillar": {
+   "hash": "790d5005fe7ca095",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lhasa_Zhol_Pillar",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "No source gives 775; description now says it is only the midpoint of Trisong Detsen's reign (755-797) and that one source ties the pillar to a 783 treaty. Year kept as approximate."
+  },
+  "old-tibetan#scripts": {
+   "hash": "e8eb87bf88b06607",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tibetan",
+    "https://en.wikipedia.org/wiki/Tibetan_script",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-tibetan#story:0": {
+   "hash": "85ef6ccd8a4ff49a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tibetan",
+    "https://en.wikipedia.org/wiki/Tibetan_script",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-tibetan#story:1": {
+   "hash": "506f0512e9a50267",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tibetan_Annals",
+    "https://en.wikipedia.org/wiki/Lhasa_Zhol_Pillar",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-tibetan#story:2": {
+   "hash": "68e8caf805ca86a4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tibetan",
+    "https://en.wikipedia.org/wiki/Tibetic_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "classical-tibetan#identity": {
+   "hash": "5ce222e9a73992e6",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/clas1254",
+    "https://en.wikipedia.org/wiki/Classical_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Status set to classical per coordinator policy; Classical Tibetan has no native speakers but is in continuous liturgical and scholarly use."
+  },
+  "classical-tibetan#period": {
+   "hash": "0786ec5b4b8b7da1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Removed unsupported 'not a mother tongue'; the source says Classical Tibetan remains the liturgical and literary language of Tibetan Buddhism."
+  },
+  "classical-tibetan#homeland": {
+   "hash": "092fa4c5e07b5eba",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "classical-tibetan#scripts": {
+   "hash": "43c7f1b808d2d580",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "classical-tibetan#story:0": {
+   "hash": "16ca7cc3d4917e3d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "classical-tibetan#story:1": {
+   "hash": "fcebfd021ecb1b1e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "classical-tibetan#work:milarepa-in-horror-of-death": {
+   "hash": "fb826a9c689c0479",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.lotsawahouse.org/bo/tibetan-masters/milarepa/in-horror-of-death",
+    "https://en.wikipedia.org/wiki/Milarepa",
+    "https://en.wikipedia.org/wiki/The_Hundred_Thousand_Songs_of_Milarepa",
+    "https://glottolog.org/resource/languoid/id/sino1245",
+    "https://www.lotsawahouse.org/tibetan-masters/milarepa/in-horror-of-death"
+   ],
+   "note": "Songs were said to be compiled 'in the 15th century'; source dates Tsangnyon Heruka as 1452-1507 and dates only the Life to the 15th century. Now gives his dates. Tibetan text verified character for character at Lotsawa House; translation is faithful."
+  },
+  "lhasa-tibetan#identity": {
+   "hash": "8974ce8e5b5341b5",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/tibe1272",
+    "https://en.wikipedia.org/wiki/Lhasa_Tibetan",
+    "https://en.wikipedia.org/wiki/Tibetic_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "lhasa-tibetan#period": {
+   "hash": "8aebd62f6c7c6229",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "lhasa-tibetan#homeland": {
+   "hash": "ef2e5e744ad9924d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lhasa_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "lhasa-tibetan#scripts": {
+   "hash": "22e1bd2d774b259e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lhasa_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "lhasa-tibetan#speakers": {
+   "hash": "2b3f4de47d10ebf2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lhasa_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "lhasa-tibetan#story:0": {
+   "hash": "40ef5203ca61540a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lhasa_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "lhasa-tibetan#story:1": {
+   "hash": "f4c81983fc935a00",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lhasa_Tibetan",
+    "https://en.wikipedia.org/wiki/Classical_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "lhasa-tibetan#note:0": {
+   "hash": "a0c27cd57b2096cd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tibetic_languages",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "lhasa-tibetan#note:1": {
+   "hash": "58c9c063a6566d7b",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/clas1254",
+    "https://glottolog.org/resource/languoid/id/tibe1272",
+    "https://en.wikipedia.org/wiki/Lhasa_Tibetan",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Added by verifier: Glottolog path checked; Classical Tibetan is a daughter of Early Old Tibetan and Tibetan [tibe1272] sits under Central Tibetan in a separate branch of the Old Tibetan clade."
+  },
+  "old-burmese#identity": {
+   "hash": "88f79f2d2d4e4feb",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/oldb1235",
+    "https://en.wikipedia.org/wiki/Old_Burmese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-burmese#period": {
+   "hash": "f725dfded3984f71",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://en.wikipedia.org/wiki/Old_Burmese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-burmese#homeland": {
+   "hash": "4d4f98dd44d8fc39",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Burmese",
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-burmese#attestation:myazedi-inscription": {
+   "hash": "2234fd7a638bb97e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Myazedi_inscription",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-burmese#scripts": {
+   "hash": "35030a32c2cbe9da",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Burmese",
+    "https://en.wikipedia.org/wiki/Myazedi_inscription",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "old-burmese#story:0": {
+   "hash": "9133b947b4c64ef7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Burmese",
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://en.wikipedia.org/wiki/Myazedi_inscription",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "'dying father' softened to 'ailing father'; the inscription says the king was becoming ill, and he died after the gift."
+  },
+  "old-burmese#story:1": {
+   "hash": "3d350ef78000de41",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://en.wikipedia.org/wiki/Old_Burmese",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Removed unsupported 'fourth' from 'a fourth written medial -l-'; the source only says a medial -l- was written."
+  },
+  "burmese#identity": {
+   "hash": "532171aef6449da5",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/nucl1310",
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "burmese#period": {
+   "hash": "ea8ec22418257cc6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "burmese#homeland": {
+   "hash": "1b4f1ed125ecea08",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "burmese#attestation:lower-burma-shift": {
+   "hash": "9ea56b38560e015b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "burmese#attestation:university-of-rangoon": {
+   "hash": "6ae3fe3eaa37fa9a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "burmese#scripts": {
+   "hash": "902ee783a4844af2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "burmese#speakers": {
+   "hash": "5c872759c1698e60",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Count changed from rounded 33,000,000 to the source's 32.9 million (L1, 2019)."
+  },
+  "burmese#story:0": {
+   "hash": "742c37c991a671f2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "burmese#story:1": {
+   "hash": "202c3e1876a9bd5c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "burmese#story:2": {
+   "hash": "97b07e69495256d7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#identity": {
+   "hash": "342d9fb006276ee0",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/tang1334",
+    "https://en.wikipedia.org/wiki/Tangut_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#period": {
+   "hash": "ccaeb1231fbabf12",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tangut_language",
+    "https://en.wikipedia.org/wiki/Tangut_script",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#homeland": {
+   "hash": "884b45837d4f8839",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Western_Xia",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#attestation:khara-khoto-texts": {
+   "hash": "f514295e3e831793",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tangut_language",
+    "https://en.wikipedia.org/wiki/Khara-Khoto",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#attestation:baoding-dharani-pillars": {
+   "hash": "18284dcf972a68af",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tangut_script",
+    "https://en.wikipedia.org/wiki/Tangut_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#scripts": {
+   "hash": "72cdfa615498e167",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tangut_script",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#story:0": {
+   "hash": "15d734871adcb149",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tangut_language",
+    "https://en.wikipedia.org/wiki/Western_Xia",
+    "https://en.wikipedia.org/wiki/Tangut_script",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#story:1": {
+   "hash": "d371248fc2dfdbab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tangut_language",
+    "https://en.wikipedia.org/wiki/Tangut_script",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#story:2": {
+   "hash": "e5b23fd9261dbeec",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tangut_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "tangut#note:0": {
+   "hash": "e371f2f9e01924b6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tangut_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#identity": {
+   "hash": "1ea89d81ee2aecbc",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/newa1246",
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#period": {
+   "hash": "39cf2037f4b6615f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#homeland": {
+   "hash": "9cf05603fbb2b86c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#attestation:uku-baha-palm-leaf": {
+   "hash": "1467d16d436b61ce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#attestation:bajrayogini-edict": {
+   "hash": "c591ede638702f81",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#scripts": {
+   "hash": "0eb7c1edf0b63588",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#speakers": {
+   "hash": "f58d6bb0c74edcbd",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ],
+   "note": "Count changed from 880,000 to the source's 877,000 (2021 census)."
+  },
+  "newar#story:0": {
+   "hash": "4024a0db7b3df69c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#story:1": {
+   "hash": "3af7a0e23e43f9d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  },
+  "newar#story:2": {
+   "hash": "d721b39976e9e153",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Newar_language",
+    "https://glottolog.org/resource/languoid/id/sino1245"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:45:37.951Z",
+ "verifier": "verifier-asia"
+}

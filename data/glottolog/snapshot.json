@@ -1,0 +1,1462 @@
+{
+ "afro1255": {
+  "name": "Afro-Asiatic",
+  "lat": 18.798147391507207,
+  "lng": 24.740099624194006
+ },
+ "arch1248": {
+  "name": "Archaic Egyptian",
+  "lat": 28.381735,
+  "lng": 30.834959
+ },
+ "olde1242": {
+  "name": "Old Egyptian",
+  "lat": 28.381735,
+  "lng": 30.834959
+ },
+ "midd1369": {
+  "name": "Middle Egyptian",
+  "lat": 28.381735,
+  "lng": 30.834959
+ },
+ "late1256": {
+  "name": "Late Egyptian",
+  "lat": 28.381735,
+  "lng": 30.834959
+ },
+ "demo1234": {
+  "name": "Demotic Egyptian",
+  "lat": 28.381735,
+  "lng": 30.834959
+ },
+ "copt1239": {
+  "name": "Coptic",
+  "lat": 29.472,
+  "lng": 31.2053
+ },
+ "semi1276": {
+  "name": "Semitic",
+  "lat": 29.16949540710109,
+  "lng": 41.753591269835134
+ },
+ "akka1240": {
+  "name": "Akkadian",
+  "lat": 33.1,
+  "lng": 44.1
+ },
+ "ebla1238": {
+  "name": "Eblaite",
+  "lat": 35.798,
+  "lng": 36.798
+ },
+ "ugar1238": {
+  "name": "Ugaritic",
+  "lat": 35.6,
+  "lng": 35.78
+ },
+ "phoe1239": {
+  "name": "Phoenician",
+  "lat": 34.12,
+  "lng": 35.65
+ },
+ "puni1241": {
+  "name": "Punic",
+  "lat": 36.527295,
+  "lng": 10.356444
+ },
+ "olda1246": {
+  "name": "Old Aramaic (up to 700 BCE)",
+  "lat": 32.84,
+  "lng": 37
+ },
+ "impe1235": {
+  "name": "Imperial Aramaic (700-300 BCE)",
+  "lat": 33.905,
+  "lng": 42.185
+ },
+ "clas1252": {
+  "name": "Classical Syriac",
+  "lat": 37.1129,
+  "lng": 42.1432
+ },
+ "bibl1238": {
+  "name": "Biblical Hebrew",
+  "lat": 31.7761,
+  "lng": 35.1725
+ },
+ "hebr1245": {
+  "name": "Modern Hebrew",
+  "lat": 31.1056,
+  "lng": 35.0179
+ },
+ "arab1395": {
+  "name": "Arabic",
+  "lat": 28.293689418964068,
+  "lng": 35.871537655605096
+ },
+ "clas1259": {
+  "name": "Classical Arabic",
+  "lat": 27.9625,
+  "lng": 43.8525
+ },
+ "stan1318": {
+  "name": "Standard Arabic",
+  "lat": 27.9625,
+  "lng": 43.8525
+ },
+ "egyp1253": {
+  "name": "Egyptian Arabic",
+  "lat": 31,
+  "lng": 31
+ },
+ "ethi1244": {
+  "name": "Ethiosemitic",
+  "lat": 12.25718701025647,
+  "lng": 39.59195321061531
+ },
+ "geez1241": {
+  "name": "Geez",
+  "lat": 10.1342,
+  "lng": 40.6821
+ },
+ "amha1245": {
+  "name": "Amharic",
+  "lat": 11.708182,
+  "lng": 39.543456
+ },
+ "tigr1271": {
+  "name": "Tigrinya",
+  "lat": 15.3359,
+  "lng": 38.9266
+ },
+ "berb1260": {
+  "name": "Berber",
+  "lat": 25.94570960218301,
+  "lng": 1.4534005733607511
+ },
+ "cent2194": {
+  "name": "Central Moroccan Berber",
+  "lat": 32.7415,
+  "lng": -2.40872
+ },
+ "cush1243": {
+  "name": "Cushitic",
+  "lat": 5.285464970452549,
+  "lng": 37.767811302936
+ },
+ "soma1255": {
+  "name": "Somali",
+  "lat": 4.778704,
+  "lng": 45.152856
+ },
+ "nucl1736": {
+  "name": "Nuclear Oromo",
+  "lat": 6.392060624999999,
+  "lng": 38.44119375
+ },
+ "chad1250": {
+  "name": "Chadic",
+  "lat": 10.434045143979906,
+  "lng": 13.96024088160475
+ },
+ "haus1257": {
+  "name": "Hausa",
+  "lat": 11.1513,
+  "lng": 8.7804
+ },
+ "alba1267": {
+  "name": "Albanian",
+  "lat": 40.99952028050002,
+  "lng": 20.791828239250023
+ },
+ "maya1287": {
+  "name": "Mayan",
+  "lat": 17.359612188269193,
+  "lng": -92.79742046263694
+ },
+ "epig1241": {
+  "name": "Epigraphic Mayan",
+  "lat": 18.993121,
+  "lng": -88.768865
+ },
+ "kich1262": {
+  "name": "K'iche'",
+  "lat": 14.5278,
+  "lng": -91.1696
+ },
+ "yuca1254": {
+  "name": "Yucatec Maya",
+  "lat": 18.7757,
+  "lng": -88.9567
+ },
+ "utoa1244": {
+  "name": "Uto-Aztecan",
+  "lat": 30.701589379368123,
+  "lng": -110.94985150016294
+ },
+ "azte1234": {
+  "name": "Aztec",
+  "lat": 17.66605649233146,
+  "lng": -97.45986171330541
+ },
+ "clas1250": {
+  "name": "Classical Nahuatl",
+  "lat": 19.72,
+  "lng": -96.97
+ },
+ "quec1387": {
+  "name": "Quechuan",
+  "lat": -8.890636658639423,
+  "lng": -75.82663489653162
+ },
+ "clas1251": {
+  "name": "Classical Quechua",
+  "lat": -9.99999,
+  "lng": -76.5
+ },
+ "quec1389": {
+  "name": "Southern Quechua",
+  "lat": -16.063137222222224,
+  "lng": -70.60509055555555
+ },
+ "ayma1253": {
+  "name": "Aymaran",
+  "lat": -14.90046725,
+  "lng": -72.6417635
+ },
+ "nucl1667": {
+  "name": "Central-Southern Aymara",
+  "lat": -17.07085,
+  "lng": -69.4221
+ },
+ "tupi1275": {
+  "name": "Tupian",
+  "lat": -10.120533444535539,
+  "lng": -59.8234726774861
+ },
+ "para1311": {
+  "name": "Paraguayan Guaraní",
+  "lat": -25.60551,
+  "lng": -57.08816
+ },
+ "eski1264": {
+  "name": "Eskimo-Aleut",
+  "lat": 58.73083948753617,
+  "lng": -72.76781483042555
+ },
+ "east2534": {
+  "name": "Eastern Canadian Inuktitut",
+  "lat": 62.1735,
+  "lng": -75.6139
+ },
+ "iroq1247": {
+  "name": "Iroquoian",
+  "lat": 37.819035229166666,
+  "lng": -79.90906777083333
+ },
+ "cher1273": {
+  "name": "Cherokee",
+  "lat": 35.4664,
+  "lng": -83.163
+ },
+ "atha1245": {
+  "name": "Athabaskan-Eyak-Tlingit",
+  "lat": 57.75063711100006,
+  "lng": -134.71397864499994
+ },
+ "atha1247": {
+  "name": "Athabaskan",
+  "lat": 51.741643145593116,
+  "lng": -123.94304162691539
+ },
+ "nava1243": {
+  "name": "Navajo",
+  "lat": 36.33,
+  "lng": -109.38
+ },
+ "algo1257": {
+  "name": "Algonquian",
+  "lat": 45.48941608333464,
+  "lng": -86.67354583816773
+ },
+ "cree1272": {
+  "name": "Cree",
+  "lat": 53.343979208660386,
+  "lng": -91.26566754642054
+ },
+ "wamp1249": {
+  "name": "Wampanoag",
+  "lat": 41.705,
+  "lng": -73.3148
+ },
+ "anat1257": {
+  "name": "Anatolian",
+  "lat": 39.95094441664475,
+  "lng": 32.852884737219355
+ },
+ "hitt1242": {
+  "name": "Hittite",
+  "lat": 40,
+  "lng": 35
+ },
+ "luvi1235": {
+  "name": "Luvian",
+  "lat": 39.009861,
+  "lng": 35.307639
+ },
+ "lydi1241": {
+  "name": "Lydian",
+  "lat": 40.287,
+  "lng": 28.599
+ },
+ "lyci1241": {
+  "name": "Lycian A",
+  "lat": 36.517,
+  "lng": 29.764
+ },
+ "clas1256": {
+  "name": "Classical Armenian",
+  "lat": 38.592316,
+  "lng": 41.346422
+ },
+ "east2768": {
+  "name": "Eastern-Western Armenian",
+  "lat": 40.09485,
+  "lng": 44.74195
+ },
+ "aust1305": {
+  "name": "Austroasiatic",
+  "lat": 15.339585679000038,
+  "lng": 97.72641035200007
+ },
+ "oldk1249": {
+  "name": "Old Khmer",
+  "lat": 13.4125,
+  "lng": 103.866667
+ },
+ "midd1376": {
+  "name": "Middle Khmer",
+  "lat": 12.0515,
+  "lng": 105.015
+ },
+ "cent1989": {
+  "name": "Central Khmer",
+  "lat": 12.0515,
+  "lng": 105.015
+ },
+ "viet1252": {
+  "name": "Vietnamese",
+  "lat": 20.681188,
+  "lng": 105.774071
+ },
+ "monn1252": {
+  "name": "Mon",
+  "lat": 15.49394,
+  "lng": 98.122465
+ },
+ "sant1410": {
+  "name": "Santali",
+  "lat": 25.0317,
+  "lng": 87.8185
+ },
+ "aust1307": {
+  "name": "Austronesian",
+  "lat": 18.021904113884965,
+  "lng": 122.05700483729152
+ },
+ "amis1246": {
+  "name": "Amis",
+  "lat": 23.0917,
+  "lng": 121.348
+ },
+ "mala1545": {
+  "name": "Malayo-Polynesian",
+  "lat": 6.186509507000039,
+  "lng": 124.24577884200005
+ },
+ "oldm1243": {
+  "name": "Old Malay",
+  "lat": -0.648259,
+  "lng": 103.353479
+ },
+ "stan1306": {
+  "name": "Standard Malay",
+  "lat": 3.08896,
+  "lng": 101.699
+ },
+ "indo1316": {
+  "name": "Standard Indonesian",
+  "lat": -7.33458,
+  "lng": 109.716
+ },
+ "kawi1241": {
+  "name": "Kawi",
+  "lat": -7,
+  "lng": 111
+ },
+ "java1254": {
+  "name": "Javanese",
+  "lat": -7.001,
+  "lng": 109.287
+ },
+ "taga1270": {
+  "name": "Tagalog",
+  "lat": 14.06,
+  "lng": 121.747
+ },
+ "mala1537": {
+  "name": "Malagasic",
+  "lat": -20.326260416666663,
+  "lng": 46.604015625
+ },
+ "ocea1241": {
+  "name": "Oceanic",
+  "lat": -7.59343840899993,
+  "lng": 158.75171959700003
+ },
+ "fiji1243": {
+  "name": "Fijian",
+  "lat": -18,
+  "lng": 178.33
+ },
+ "poly1242": {
+  "name": "Polynesian",
+  "lat": -16.676853122999944,
+  "lng": 177.56072024800005
+ },
+ "samo1305": {
+  "name": "Samoan",
+  "lat": -13.92,
+  "lng": -171.83
+ },
+ "tong1325": {
+  "name": "Tonga (Tonga Islands)",
+  "lat": -21.17,
+  "lng": -175.25
+ },
+ "maor1246": {
+  "name": "Maori",
+  "lat": -38.2881,
+  "lng": 176.541
+ },
+ "hawa1245": {
+  "name": "Hawaiian",
+  "lat": 19.6297,
+  "lng": -155.43
+ },
+ "balt1263": {
+  "name": "Balto-Slavic",
+  "lat": 52.63349667179249,
+  "lng": 20.703612564736773
+ },
+ "slav1255": {
+  "name": "Slavic",
+  "lat": 49.52198601537749,
+  "lng": 23.219228694210322
+ },
+ "east1426": {
+  "name": "East Slavic",
+  "lat": 53.87689338326347,
+  "lng": 34.06467017635395
+ },
+ "oldr1238": {
+  "name": "Old Russian",
+  "lat": 54.813,
+  "lng": 31.827
+ },
+ "russ1263": {
+  "name": "Russian",
+  "lat": 59,
+  "lng": 50
+ },
+ "ukra1253": {
+  "name": "Ukrainian",
+  "lat": 49.796,
+  "lng": 29.945
+ },
+ "bela1254": {
+  "name": "Belarusian",
+  "lat": 53.2307,
+  "lng": 25.6038
+ },
+ "west2792": {
+  "name": "West Slavic",
+  "lat": 51.076289388888895,
+  "lng": 15.97367666666667
+ },
+ "poli1260": {
+  "name": "Polish",
+  "lat": 51.8439,
+  "lng": 18.6255
+ },
+ "czec1258": {
+  "name": "Czech",
+  "lat": 49.873398,
+  "lng": 15.10437
+ },
+ "slov1269": {
+  "name": "Slovak",
+  "lat": 48.545705,
+  "lng": 18.78479
+ },
+ "sout3147": {
+  "name": "South Slavic",
+  "lat": 43.61277527398009,
+  "lng": 19.619339239610333
+ },
+ "chur1257": {
+  "name": "Church Slavic",
+  "lat": 43.7171,
+  "lng": 22.8442
+ },
+ "sout1528": {
+  "name": "Serbian-Croatian-Bosnian",
+  "lat": 44.15,
+  "lng": 18.81
+ },
+ "slov1268": {
+  "name": "Slovenian",
+  "lat": 46.2543,
+  "lng": 14.7766
+ },
+ "bulg1262": {
+  "name": "Bulgarian",
+  "lat": 43.3646,
+  "lng": 25.047
+ },
+ "mace1250": {
+  "name": "Macedonian",
+  "lat": 41.5957,
+  "lng": 21.7932
+ },
+ "lith1251": {
+  "name": "Lithuanian",
+  "lat": 55.1429,
+  "lng": 23.9601
+ },
+ "latv1249": {
+  "name": "Latvian",
+  "lat": 56.826108,
+  "lng": 24.309118
+ },
+ "prus1238": {
+  "name": "Old Prussian",
+  "lat": 52.394,
+  "lng": 14.757
+ },
+ "celt1248": {
+  "name": "Celtic",
+  "lat": 43.946744717741865,
+  "lng": 2.018654080112989
+ },
+ "tran1282": {
+  "name": "Transalpine Gaulish",
+  "lat": 43.97,
+  "lng": 3.3
+ },
+ "celt1247": {
+  "name": "Celtiberian",
+  "lat": 41.279,
+  "lng": -2.53
+ },
+ "prim1243": {
+  "name": "Primitive Irish (4-6th century)",
+  "lat": 53,
+  "lng": -8
+ },
+ "oldi1246": {
+  "name": "Old Irish (8-9th century)",
+  "lat": 53,
+  "lng": -8
+ },
+ "midd1360": {
+  "name": "Middle Irish (10-12th century)",
+  "lat": 53,
+  "lng": -8
+ },
+ "iris1253": {
+  "name": "Irish",
+  "lat": 53.2186,
+  "lng": -7.61509
+ },
+ "scot1245": {
+  "name": "Scottish Gaelic",
+  "lat": 56.7574,
+  "lng": -5.24366
+ },
+ "manx1243": {
+  "name": "Manx",
+  "lat": 54.2604,
+  "lng": -4.45437
+ },
+ "bryt1239": {
+  "name": "Brythonic",
+  "lat": 51.23321802734619,
+  "lng": -3.914735667148819
+ },
+ "oldw1241": {
+  "name": "Old Welsh",
+  "lat": 52.582,
+  "lng": -4.089
+ },
+ "midd1363": {
+  "name": "Middle Welsh",
+  "lat": 52.582,
+  "lng": -4.089
+ },
+ "wels1247": {
+  "name": "Welsh",
+  "lat": 52,
+  "lng": -4
+ },
+ "corn1251": {
+  "name": "Cornish",
+  "lat": 50.5233,
+  "lng": -4.18619
+ },
+ "bret1244": {
+  "name": "Breton",
+  "lat": 48.2452,
+  "lng": -3.78934
+ },
+ "drav1251": {
+  "name": "Dravidian",
+  "lat": 21.964766157386393,
+  "lng": 79.42081766069236
+ },
+ "oldt1248": {
+  "name": "Old Tamil",
+  "lat": 11,
+  "lng": 78
+ },
+ "tami1289": {
+  "name": "Tamil",
+  "lat": 10.520219,
+  "lng": 78.825989
+ },
+ "mala1464": {
+  "name": "Malayalam",
+  "lat": 9.59208,
+  "lng": 76.7651
+ },
+ "nucl1305": {
+  "name": "Kannada",
+  "lat": 13.5878,
+  "lng": 76.1198
+ },
+ "telu1262": {
+  "name": "Telugu",
+  "lat": 16.4529,
+  "lng": 78.7024
+ },
+ "brah1256": {
+  "name": "Brahui",
+  "lat": 29.04,
+  "lng": 66.56
+ },
+ "germ1287": {
+  "name": "Germanic",
+  "lat": 50.74959799500929,
+  "lng": 20.883353986000053
+ },
+ "west2793": {
+  "name": "West Germanic",
+  "lat": 51.62753273294446,
+  "lng": 7.161232578666682
+ },
+ "goth1244": {
+  "name": "Gothic",
+  "lat": 46.9304,
+  "lng": 29.9786
+ },
+ "olde1239": {
+  "name": "Older Runic",
+  "lat": 55.2718,
+  "lng": 10.3765
+ },
+ "oldn1244": {
+  "name": "Old Norse",
+  "lat": 63.42,
+  "lng": 10.38
+ },
+ "icel1247": {
+  "name": "Icelandic",
+  "lat": 63.4837,
+  "lng": -19.0212
+ },
+ "norw1258": {
+  "name": "Norwegian",
+  "lat": 59.92,
+  "lng": 10.71
+ },
+ "swed1254": {
+  "name": "Swedish",
+  "lat": 59.800634,
+  "lng": 17.389526
+ },
+ "dani1285": {
+  "name": "Danish",
+  "lat": 54.8655,
+  "lng": 9.36284
+ },
+ "faro1244": {
+  "name": "Faroese",
+  "lat": 62.0732,
+  "lng": -6.88497
+ },
+ "olde1238": {
+  "name": "Old English (ca. 450-1100)",
+  "lat": 51.06,
+  "lng": -1.31
+ },
+ "midd1317": {
+  "name": "Middle English",
+  "lat": 51.65,
+  "lng": -1.11
+ },
+ "stan1293": {
+  "name": "English",
+  "lat": 53,
+  "lng": -1
+ },
+ "olds1250": {
+  "name": "Old Saxon",
+  "lat": 52.37,
+  "lng": 9.72
+ },
+ "oldh1241": {
+  "name": "Old High German (ca. 750-1050)",
+  "lat": 52,
+  "lng": 10
+ },
+ "midd1343": {
+  "name": "Middle High German",
+  "lat": 48.254,
+  "lng": 10.599
+ },
+ "stan1295": {
+  "name": "German",
+  "lat": 48.649,
+  "lng": 12.4676
+ },
+ "oldd1238": {
+  "name": "Old Dutch",
+  "lat": 52.16,
+  "lng": 5.2
+ },
+ "dutc1256": {
+  "name": "Dutch",
+  "lat": 52,
+  "lng": 5
+ },
+ "afri1274": {
+  "name": "Afrikaans",
+  "lat": -31.63272,
+  "lng": 20.46356
+ },
+ "oldf1241": {
+  "name": "Old Frisian",
+  "lat": 53.35,
+  "lng": 6.8
+ },
+ "west2354": {
+  "name": "Western Frisian",
+  "lat": 53.143,
+  "lng": 5.86091
+ },
+ "gree1276": {
+  "name": "Greek",
+  "lat": 38.83106936950003,
+  "lng": 23.25607002000004
+ },
+ "myce1242": {
+  "name": "Mycenaean Greek",
+  "lat": 37.73,
+  "lng": 22.82
+ },
+ "anci1242": {
+  "name": "Ionic-Attic Ancient Greek",
+  "lat": 39.8155,
+  "lng": 21.9129
+ },
+ "koin1234": {
+  "name": "Koineic Greek",
+  "lat": 39.66751434396541,
+  "lng": 28.841852758609715
+ },
+ "medi1251": {
+  "name": "Medieval Greek",
+  "lat": 41.013889,
+  "lng": 28.955556
+ },
+ "mode1248": {
+  "name": "Modern Greek",
+  "lat": 38.36,
+  "lng": 23.13
+ },
+ "indo1319": {
+  "name": "Indo-European",
+  "lat": 41.890523093725214,
+  "lng": 33.0439576112962
+ },
+ "indo1320": {
+  "name": "Indo-Iranian",
+  "lat": 32.84177217162737,
+  "lng": 69.34550137929406
+ },
+ "indo1321": {
+  "name": "Indo-Aryan",
+  "lat": 29.307290361299675,
+  "lng": 73.5926963709134
+ },
+ "vedi1234": {
+  "name": "Vedic Sanskrit",
+  "lat": 20,
+  "lng": 77
+ },
+ "clas1258": {
+  "name": "Classical Sanskrit",
+  "lat": 20,
+  "lng": 77
+ },
+ "midd1375": {
+  "name": "Middle-Modern Indo-Aryan",
+  "lat": 20.444460742057917,
+  "lng": 77.36913439144055
+ },
+ "pali1273": {
+  "name": "Pali",
+  "lat": 24.5271,
+  "lng": 82.251
+ },
+ "maha1305": {
+  "name": "Maharastri Prakrit",
+  "lat": 19.18,
+  "lng": 74.71
+ },
+ "saur1252": {
+  "name": "Sauraseni Prakrit",
+  "lat": 27.46,
+  "lng": 77.56
+ },
+ "hind1270": {
+  "name": "Hindustani",
+  "lat": 20.558666666666667,
+  "lng": 78.91266666666667
+ },
+ "hind1269": {
+  "name": "Hindi",
+  "lat": 25,
+  "lng": 77
+ },
+ "urdu1245": {
+  "name": "Urdu",
+  "lat": 25,
+  "lng": 67
+ },
+ "beng1280": {
+  "name": "Bengali",
+  "lat": 24,
+  "lng": 90
+ },
+ "lahn1241": {
+  "name": "Greater Panjabic",
+  "lat": 31.74592958087264,
+  "lng": 73.78394132127394
+ },
+ "mara1378": {
+  "name": "Marathi",
+  "lat": 17.9344,
+  "lng": 76.6665
+ },
+ "guja1252": {
+  "name": "Gujarati",
+  "lat": 22.687,
+  "lng": 71.0962
+ },
+ "nepa1254": {
+  "name": "Nepali",
+  "lat": 28,
+  "lng": 85
+ },
+ "sinh1246": {
+  "name": "Sinhala",
+  "lat": 8,
+  "lng": 81
+ },
+ "roma1329": {
+  "name": "Romani",
+  "lat": 48.71264771043614,
+  "lng": 14.802397418316678
+ },
+ "iran1269": {
+  "name": "Iranian",
+  "lat": 37.45343279724346,
+  "lng": 59.027321775349485
+ },
+ "aves1237": {
+  "name": "Avestan",
+  "lat": 34.217,
+  "lng": 62.112
+ },
+ "oldp1254": {
+  "name": "Old Persian (ca. 600-400 B.C.)",
+  "lat": 32,
+  "lng": 54
+ },
+ "pahl1241": {
+  "name": "Pahlavi",
+  "lat": 30.06,
+  "lng": 52.7
+ },
+ "west2369": {
+  "name": "Iranian Persian",
+  "lat": 32.9,
+  "lng": 53.3
+ },
+ "pash1269": {
+  "name": "Pashto",
+  "lat": 31.260933333333334,
+  "lng": 68.33016666666666
+ },
+ "nort2641": {
+  "name": "Northern Kurdish",
+  "lat": 37,
+  "lng": 43
+ },
+ "osse1243": {
+  "name": "Modern Ossetic",
+  "lat": 42.98,
+  "lng": 44.61
+ },
+ "sogd1245": {
+  "name": "Sogdian",
+  "lat": 39.7,
+  "lng": 66.983
+ },
+ "sume1241": {
+  "name": "Sumerian",
+  "lat": 31.3,
+  "lng": 45.6667
+ },
+ "elam1244": {
+  "name": "Elamite",
+  "lat": 31.1833,
+  "lng": 48.2333
+ },
+ "hurr1239": {
+  "name": "Hurro-Urartian",
+  "lat": 39.61695,
+  "lng": 43.32895
+ },
+ "hurr1240": {
+  "name": "Hurrian",
+  "lat": 40.7339,
+  "lng": 43.3154
+ },
+ "urar1245": {
+  "name": "Urartian",
+  "lat": 38.5,
+  "lng": 43.3425
+ },
+ "etru1241": {
+  "name": "Etruscan",
+  "lat": 41.9,
+  "lng": 12.4833
+ },
+ "basq1248": {
+  "name": "Basque",
+  "lat": 43.2787,
+  "lng": -1.31622
+ },
+ "buru1296": {
+  "name": "Burushaski",
+  "lat": 36.2161,
+  "lng": 74.8236
+ },
+ "ital1284": {
+  "name": "Italic",
+  "lat": 42.99937193700613,
+  "lng": 6.166917340757963
+ },
+ "sabe1249": {
+  "name": "Sabellic",
+  "lat": 42.42266666666666,
+  "lng": 14.051
+ },
+ "osca1245": {
+  "name": "Oscan",
+  "lat": 40.98,
+  "lng": 15.67
+ },
+ "umbr1253": {
+  "name": "Umbrian",
+  "lat": 42.75,
+  "lng": 13.02
+ },
+ "lati1262": {
+  "name": "Latino-Faliscan",
+  "lat": 42.06163784666667,
+  "lng": 12.417401122750004
+ },
+ "fali1291": {
+  "name": "Faliscan",
+  "lat": 42.3,
+  "lng": 12.345
+ },
+ "oldl1238": {
+  "name": "Old Latin",
+  "lat": 41.901111,
+  "lng": 12.488333
+ },
+ "lati1261": {
+  "name": "Latin",
+  "lat": 41.9026,
+  "lng": 12.4502
+ },
+ "vulg1234": {
+  "name": "Vulgar Latin",
+  "lat": 41.9026,
+  "lng": 12.4502
+ },
+ "roma1334": {
+  "name": "Romance",
+  "lat": 41.588280773333345,
+  "lng": 12.532342982000023
+ },
+ "oldf1239": {
+  "name": "Old French (842-ca. 1400)",
+  "lat": 48.8,
+  "lng": 1.11
+ },
+ "stan1290": {
+  "name": "French",
+  "lat": 48,
+  "lng": 2
+ },
+ "ital1282": {
+  "name": "Italian",
+  "lat": 43.0464,
+  "lng": 12.6489
+ },
+ "olds1249": {
+  "name": "Old Spanish",
+  "lat": 41.5,
+  "lng": -3.9
+ },
+ "stan1288": {
+  "name": "Spanish",
+  "lat": 40.4414,
+  "lng": -1.11788
+ },
+ "oldp1257": {
+  "name": "Old Portuguese",
+  "lat": 39.91,
+  "lng": -8.1
+ },
+ "port1283": {
+  "name": "Portuguese",
+  "lat": 39.91,
+  "lng": -8.1
+ },
+ "gali1258": {
+  "name": "Galician",
+  "lat": 42.2446,
+  "lng": -7.5343
+ },
+ "stan1289": {
+  "name": "Catalan",
+  "lat": 41.453,
+  "lng": 1.569
+ },
+ "oldp1253": {
+  "name": "Old Provençal",
+  "lat": 43.5,
+  "lng": 0.6
+ },
+ "occi1239": {
+  "name": "Occitan",
+  "lat": 44.1415,
+  "lng": 6.82979
+ },
+ "roma1327": {
+  "name": "Romanian",
+  "lat": 46.3913,
+  "lng": 24.2256
+ },
+ "sard1257": {
+  "name": "Southern Romance",
+  "lat": 39.773300000000006,
+  "lng": 9.06946
+ },
+ "roma1326": {
+  "name": "Romansh",
+  "lat": 46.5538,
+  "lng": 9.92812
+ },
+ "japo1237": {
+  "name": "Japonic",
+  "lat": 30.226082925648164,
+  "lng": 130.49163825034435
+ },
+ "oldj1239": {
+  "name": "Old Japanese",
+  "lat": 34.68333,
+  "lng": 135.8
+ },
+ "nucl1643": {
+  "name": "Japanese",
+  "lat": 35,
+  "lng": 135
+ },
+ "cent2126": {
+  "name": "Central Okinawan",
+  "lat": 26.14854,
+  "lng": 127.7816
+ },
+ "kart1248": {
+  "name": "Kartvelian",
+  "lat": 42.390201250000004,
+  "lng": 42.6243925
+ },
+ "oldg1234": {
+  "name": "Old Georgian",
+  "lat": 41.604313,
+  "lng": 43.06151
+ },
+ "nucl1302": {
+  "name": "Georgian",
+  "lat": 41.850397,
+  "lng": 43.78613
+ },
+ "midd1372": {
+  "name": "Middle Korean",
+  "lat": 37.93313,
+  "lng": 126.59918
+ },
+ "kore1280": {
+  "name": "Korean",
+  "lat": 37.54,
+  "lng": 126.98
+ },
+ "daic1237": {
+  "name": "Daic",
+  "lat": 21.232719439731984,
+  "lng": 105.45475853486735
+ },
+ "thai1261": {
+  "name": "Thai",
+  "lat": 14.192,
+  "lng": 100.671
+ },
+ "laoo1244": {
+  "name": "Lao",
+  "lat": 19,
+  "lng": 102.46
+ },
+ "mong1329": {
+  "name": "Mongolic",
+  "lat": 41.5167086447664,
+  "lng": 96.85676021026134
+ },
+ "midd1351": {
+  "name": "Middle Mongol",
+  "lat": 48.72618,
+  "lng": 108.6745
+ },
+ "halh1238": {
+  "name": "Halh Mongolian",
+  "lat": 48.32397,
+  "lng": 106.28874
+ },
+ "atla1278": {
+  "name": "Atlantic-Congo",
+  "lat": 9.740651496595556,
+  "lng": -8.64239143073187
+ },
+ "yoru1245": {
+  "name": "Yoruba",
+  "lat": 7.15345,
+  "lng": 3.67225
+ },
+ "nucl1417": {
+  "name": "Igbo",
+  "lat": 4.62705,
+  "lng": 7.23441
+ },
+ "akan1250": {
+  "name": "Akan",
+  "lat": 6.34756,
+  "lng": -1.33254
+ },
+ "nucl1347": {
+  "name": "Wolof",
+  "lat": 15.2534,
+  "lng": -15.383
+ },
+ "fula1264": {
+  "name": "Fula",
+  "lat": 12.238092491213768,
+  "lng": -1.393895113632461
+ },
+ "narr1281": {
+  "name": "Narrow Bantu",
+  "lat": -5.550093756749943,
+  "lng": 20.644674414509733
+ },
+ "swah1253": {
+  "name": "Swahili",
+  "lat": -8.25605,
+  "lng": 37.624
+ },
+ "zulu1248": {
+  "name": "Zulu",
+  "lat": -28.9,
+  "lng": 30.2
+ },
+ "xhos1239": {
+  "name": "Xhosa",
+  "lat": -31.0389,
+  "lng": 28.0769
+ },
+ "shon1251": {
+  "name": "Shona",
+  "lat": -17.20849,
+  "lng": 29.75725
+ },
+ "ling1269": {
+  "name": "Lingala-Bangala",
+  "lat": 0.11355699999999998,
+  "lng": 21.037585
+ },
+ "kiko1235": {
+  "name": "Kikongo Language Cluster",
+  "lat": -4.987212285319011,
+  "lng": 16.666057411458333
+ },
+ "sino1245": {
+  "name": "Sino-Tibetan",
+  "lat": 28.200075222740796,
+  "lng": 97.67107435054463
+ },
+ "oldc1244": {
+  "name": "Old Chinese",
+  "lat": 36.12,
+  "lng": 114.32
+ },
+ "midd1344": {
+  "name": "Middle Chinese",
+  "lat": 34.27,
+  "lng": 108.9
+ },
+ "mand1415": {
+  "name": "Mandarin Chinese",
+  "lat": 40.0209,
+  "lng": 116.228
+ },
+ "yuec1235": {
+  "name": "Yue Chinese",
+  "lat": 23,
+  "lng": 113
+ },
+ "wuch1236": {
+  "name": "Wu Chinese",
+  "lat": 29.8621,
+  "lng": 119.682
+ },
+ "minn1241": {
+  "name": "Min Nan Chinese",
+  "lat": 24.5,
+  "lng": 118.17
+ },
+ "hakk1236": {
+  "name": "Hakka Chinese",
+  "lat": 25,
+  "lng": 116
+ },
+ "clas1254": {
+  "name": "Classical Tibetan",
+  "lat": 29.24,
+  "lng": 92.01
+ },
+ "tibe1272": {
+  "name": "Tibetan",
+  "lat": 28.3681,
+  "lng": 90.1872
+ },
+ "oldb1235": {
+  "name": "Old Burmese",
+  "lat": 21.161961,
+  "lng": 94.897306
+ },
+ "nucl1310": {
+  "name": "Burmese",
+  "lat": 20.7926,
+  "lng": 93.9665
+ },
+ "tang1334": {
+  "name": "Tangut",
+  "lat": 38.894904,
+  "lng": 102.246464
+ },
+ "newa1246": {
+  "name": "Kathmandu Valley Newari",
+  "lat": 27.67,
+  "lng": 85.326
+ },
+ "tokh1241": {
+  "name": "Tokharian",
+  "lat": 42.31499999999999,
+  "lng": 86.04
+ },
+ "tokh1242": {
+  "name": "Tokharian A",
+  "lat": 42.98,
+  "lng": 89.18
+ },
+ "tokh1243": {
+  "name": "Tokharian B",
+  "lat": 41.65,
+  "lng": 82.9
+ },
+ "turk1311": {
+  "name": "Turkic",
+  "lat": 49.344955933083156,
+  "lng": 64.80072820688179
+ },
+ "chuv1255": {
+  "name": "Chuvash",
+  "lat": 55.48701,
+  "lng": 47.16298
+ },
+ "comm1245": {
+  "name": "Common Turkic",
+  "lat": 46.61066636616631,
+  "lng": 84.65534941376359
+ },
+ "oldu1238": {
+  "name": "Old Turkic",
+  "lat": 42.852778,
+  "lng": 89.529167
+ },
+ "yaku1245": {
+  "name": "Sakha",
+  "lat": 61.69744,
+  "lng": 133.98031
+ },
+ "oghu1243": {
+  "name": "Oghuz",
+  "lat": 35.593962232114606,
+  "lng": 74.82272233521215
+ },
+ "otto1234": {
+  "name": "Ottoman Turkish",
+  "lat": 39.8667,
+  "lng": 32.8667
+ },
+ "nucl1301": {
+  "name": "Turkish",
+  "lat": 39.8667,
+  "lng": 32.8667
+ },
+ "azer1255": {
+  "name": "Central Oghuz",
+  "lat": 38.745689999999996,
+  "lng": 47.45195
+ },
+ "turk1304": {
+  "name": "Turkmen",
+  "lat": 37.08719,
+  "lng": 59.17574
+ },
+ "uygh1241": {
+  "name": "Turkestan",
+  "lat": 39.38940916666667,
+  "lng": 65.53955250000001
+ },
+ "qara1244": {
+  "name": "Qarakhanid",
+  "lat": 42.852778,
+  "lng": 89.529167
+ },
+ "chag1247": {
+  "name": "Chagatai",
+  "lat": 38.21146,
+  "lng": 57.88758
+ },
+ "uzbe1247": {
+  "name": "Uzbek",
+  "lat": 38.74795,
+  "lng": 64.95085
+ },
+ "uigh1240": {
+  "name": "Uighur",
+  "lat": 43.88,
+  "lng": 87.38
+ },
+ "kipc1239": {
+  "name": "Kipchak",
+  "lat": 48.25085732449605,
+  "lng": 50.981384990121974
+ },
+ "kaza1248": {
+  "name": "Kazakh",
+  "lat": 51.17,
+  "lng": 71.454
+ },
+ "kirg1245": {
+  "name": "Kirghiz",
+  "lat": 42,
+  "lng": 74
+ },
+ "tata1255": {
+  "name": "Tatar",
+  "lat": 55.79592,
+  "lng": 49.11577
+ },
+ "ural1272": {
+  "name": "Uralic",
+  "lat": 59.499841367659826,
+  "lng": 43.33386416142866
+ },
+ "finn1317": {
+  "name": "Finnic",
+  "lat": 58.710251010000015,
+  "lng": 25.901738705000042
+ },
+ "finn1318": {
+  "name": "Finnish",
+  "lat": 64.7628,
+  "lng": 25.5577
+ },
+ "esto1258": {
+  "name": "Estonian",
+  "lat": 58.55,
+  "lng": 25.82
+ },
+ "oldh1242": {
+  "name": "Old Hungarian",
+  "lat": 47.46,
+  "lng": 18.99
+ },
+ "hung1274": {
+  "name": "Hungarian",
+  "lat": 46.9068585714,
+  "lng": 19.6555271429
+ },
+ "nort2671": {
+  "name": "North Saami",
+  "lat": 68.725,
+  "lng": 22.1113
+ },
+ "mari1278": {
+  "name": "Mari",
+  "lat": 56.02535,
+  "lng": 47.48700000000001
+ },
+ "udmu1245": {
+  "name": "Udmurt",
+  "lat": 56.12921,
+  "lng": 52.63548
+ }
+}

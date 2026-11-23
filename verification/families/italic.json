@@ -1,0 +1,1412 @@
+{
+ "file": "data/families/italic.json",
+ "claims": {
+  "proto-italic#identity": {
+   "hash": "7a071e4820f2ad83",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Italic_language",
+    "https://glottolog.org/resource/languoid/id/ital1284"
+   ]
+  },
+  "proto-italic#period": {
+   "hash": "1ddb43a1bfb14e6e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Italic_language",
+    "https://en.wikipedia.org/wiki/Italic_peoples"
+   ]
+  },
+  "proto-italic#homeland": {
+   "hash": "7b5b1f4a4430a315",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Italic_language",
+    "https://en.wikipedia.org/wiki/Italic_peoples"
+   ]
+  },
+  "proto-italic#story:0": {
+   "hash": "59b52c8029eaa6b7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Italic_language"
+   ],
+   "note": "Replaced 'by far the best-recorded daughter' with 'the only well-attested Italic language' as stated by the source."
+  },
+  "proto-italic#story:1": {
+   "hash": "7506cd9ee90e5d76",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Italic_language",
+    "https://en.wikipedia.org/wiki/Italic_peoples"
+   ]
+  },
+  "proto-italic#note:0": {
+   "hash": "3befe9a39631c9f1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Italic_language",
+    "https://en.wikipedia.org/wiki/Italic_peoples"
+   ]
+  },
+  "osco-umbrian#identity": {
+   "hash": "5891913714488b66",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Osco-Umbrian_languages",
+    "https://en.wikipedia.org/wiki/Oscan_language",
+    "https://glottolog.org/resource/languoid/id/sabe1249"
+   ]
+  },
+  "oscan#identity": {
+   "hash": "7d54471a882a1d6d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oscan_language",
+    "https://glottolog.org/resource/languoid/id/osca1245"
+   ]
+  },
+  "oscan#period": {
+   "hash": "d56f4b86dd8a9ac7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oscan_language"
+   ]
+  },
+  "oscan#homeland": {
+   "hash": "2bbe2f72397ebbf8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oscan_language"
+   ]
+  },
+  "oscan#attestation:cippus-abellanus": {
+   "hash": "ce2868512bd4c132",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cippus_Abellanus"
+   ]
+  },
+  "oscan#attestation:pompeii-graffiti": {
+   "hash": "eb3c4e495895b3d2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oscan_language"
+   ]
+  },
+  "oscan#scripts": {
+   "hash": "1f1bfac1a9adf393",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oscan_language"
+   ]
+  },
+  "oscan#story:0": {
+   "hash": "fa94b7d6f190ba63",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oscan_language"
+   ]
+  },
+  "oscan#story:1": {
+   "hash": "fef6f29260cd8878",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oscan_language"
+   ]
+  },
+  "umbrian#identity": {
+   "hash": "a3040fa827a130dc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Umbrian_language",
+    "https://glottolog.org/resource/languoid/id/umbr1253"
+   ]
+  },
+  "umbrian#period": {
+   "hash": "161ff3a4b2337449",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Umbrian_language"
+   ]
+  },
+  "umbrian#homeland": {
+   "hash": "38819490a8645724",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Umbrian_language"
+   ]
+  },
+  "umbrian#attestation:iguvine-tablets": {
+   "hash": "255e0ec58c6595f4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Iguvine_Tablets",
+    "https://en.wikipedia.org/wiki/Umbrian_language"
+   ]
+  },
+  "umbrian#scripts": {
+   "hash": "68759fa5cdbb3cbf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Umbrian_language",
+    "https://en.wikipedia.org/wiki/Iguvine_Tablets"
+   ]
+  },
+  "umbrian#story:0": {
+   "hash": "ce6d62537018bce5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Umbrian_language"
+   ]
+  },
+  "umbrian#story:1": {
+   "hash": "b4b3ef087252a194",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Umbrian_language",
+    "https://en.wikipedia.org/wiki/Iguvine_Tablets"
+   ]
+  },
+  "latino-faliscan#identity": {
+   "hash": "1758694908411593",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latino-Faliscan_languages",
+    "https://en.wikipedia.org/wiki/Faliscan_language",
+    "https://glottolog.org/resource/languoid/id/lati1262"
+   ]
+  },
+  "faliscan#identity": {
+   "hash": "32d00da7016dd33d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faliscan_language",
+    "https://glottolog.org/resource/languoid/id/fali1291"
+   ]
+  },
+  "faliscan#period": {
+   "hash": "10cf55667da76b13",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faliscan_language"
+   ]
+  },
+  "faliscan#homeland": {
+   "hash": "0115b060aa878421",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faliscan_language"
+   ]
+  },
+  "faliscan#attestation:ceres-inscription": {
+   "hash": "947bca8aab047665",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faliscan_language"
+   ]
+  },
+  "faliscan#scripts": {
+   "hash": "aa7386d4ca2dd88a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faliscan_language"
+   ]
+  },
+  "faliscan#story:0": {
+   "hash": "dbd2795c7ffa54f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faliscan_language"
+   ]
+  },
+  "faliscan#story:1": {
+   "hash": "7d09fe29b6bcfe35",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faliscan_language"
+   ]
+  },
+  "old-latin#identity": {
+   "hash": "7286fd9832661fa6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Latin",
+    "https://glottolog.org/resource/languoid/id/oldl1238"
+   ]
+  },
+  "old-latin#period": {
+   "hash": "32c849ab0f4e1115",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Latin",
+    "https://en.wikipedia.org/wiki/Classical_Latin"
+   ]
+  },
+  "old-latin#homeland": {
+   "hash": "4d83cdda4e8a5304",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latin"
+   ]
+  },
+  "old-latin#attestation:praeneste-fibula": {
+   "hash": "b0e4e48c8f1da71c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Latin"
+   ]
+  },
+  "old-latin#attestation:lapis-niger": {
+   "hash": "36ae39527e24c659",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lapis_Niger"
+   ]
+  },
+  "old-latin#attestation:duenos-inscription": {
+   "hash": "a402e53fe732ca44",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Duenos_inscription"
+   ]
+  },
+  "old-latin#scripts": {
+   "hash": "98ed8eeb44de66a5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Latin"
+   ]
+  },
+  "old-latin#story:0": {
+   "hash": "54eea7d777999947",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Latin"
+   ],
+   "note": "Dated the inscriptions: Praeneste fibula is the earliest known Latin specimen; Lapis Niger, Duenos vase and Garigliano bowl are late Kingdom or early Republic; removed unsupported 'oldest' ordering."
+  },
+  "old-latin#story:1": {
+   "hash": "508572c2e8f94760",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Latin"
+   ]
+  },
+  "latin#identity": {
+   "hash": "607cb8c7e1ea5380",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latin",
+    "https://en.wikipedia.org/wiki/Classical_Latin",
+    "https://glottolog.org/resource/languoid/id/lati1261"
+   ],
+   "note": "Status changed from extinct to classical: no native speakers, but continuous liturgical (Holy See), scholarly and literary use."
+  },
+  "latin#period": {
+   "hash": "7149dd75f829aae7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Latin",
+    "https://en.wikipedia.org/wiki/Latin"
+   ],
+   "note": "period.to set to null and the note rewritten to explain the continued written use of Latin."
+  },
+  "latin#homeland": {
+   "hash": "42d1873513cc6a93",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latin"
+   ]
+  },
+  "latin#attestation:vindolanda-tablets": {
+   "hash": "5b17125f5b34c94f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vindolanda_tablets"
+   ]
+  },
+  "latin#scripts": {
+   "hash": "1b2e39e089662b53",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latin"
+   ]
+  },
+  "latin#story:0": {
+   "hash": "8404d49e0917b7eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latin",
+    "https://en.wikipedia.org/wiki/Classical_Latin"
+   ]
+  },
+  "latin#story:1": {
+   "hash": "99e47488c4113b80",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Latin",
+    "https://en.wikipedia.org/wiki/Latin"
+   ],
+   "note": "Story now says how Latin is still used (Holy See, scholarship)."
+  },
+  "latin#work:aeneid": {
+   "hash": "611617cf83f3b311",
+   "verdict": "verified",
+   "evidence": [
+    "https://la.wikisource.org/wiki/Aeneis/Liber_I",
+    "https://en.wikisource.org/wiki/The_Works_of_Virgil_(Dryden)/Aeneis/Book_1",
+    "https://en.wikipedia.org/wiki/Aeneid"
+   ]
+  },
+  "latin#work:metamorphoses": {
+   "hash": "e33a83470d63c17a",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.thelatinlibrary.com/ovid/ovid.met1.shtml",
+    "https://en.wikipedia.org/wiki/Metamorphoses"
+   ]
+  },
+  "latin#work:de-bello-gallico": {
+   "hash": "edaf7bfc5b21575c",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.thelatinlibrary.com/caesar/gall1.shtml",
+    "https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico"
+   ]
+  },
+  "vulgar-latin#identity": {
+   "hash": "eea9d5c7198e5e3f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vulgar_Latin",
+    "https://glottolog.org/resource/languoid/id/vulg1234"
+   ]
+  },
+  "vulgar-latin#period": {
+   "hash": "5274dbbf415380d2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vulgar_Latin",
+    "https://en.wikipedia.org/wiki/Classical_Latin"
+   ]
+  },
+  "vulgar-latin#homeland": {
+   "hash": "791cc84ccd9a14fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vulgar_Latin",
+    "https://en.wikipedia.org/wiki/Latin"
+   ]
+  },
+  "vulgar-latin#attestation:pompeii-graffiti-latin": {
+   "hash": "e9d5e49130a54376",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vulgar_Latin"
+   ]
+  },
+  "vulgar-latin#scripts": {
+   "hash": "e207938f08792d6b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vulgar_Latin"
+   ]
+  },
+  "vulgar-latin#story:0": {
+   "hash": "653b5301135b9250",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vulgar_Latin"
+   ]
+  },
+  "vulgar-latin#story:1": {
+   "hash": "4022210d0fbbdfc9",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vulgar_Latin",
+    "https://en.wikipedia.org/wiki/Latin"
+   ],
+   "note": "Replaced unsupported claim that Plautus and Terence show Vulgar Latin with Petronius, which the source names; softened 'can only be found in writing'."
+  },
+  "romance#identity": {
+   "hash": "b53a2f4bf12a35eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romance_languages",
+    "https://glottolog.org/resource/languoid/id/roma1334"
+   ]
+  },
+  "romance#story:0": {
+   "hash": "cc0ee6a715abcef2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romance_languages"
+   ]
+  },
+  "old-french#identity": {
+   "hash": "3d8eea25b0d10ac8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_French",
+    "https://glottolog.org/resource/languoid/id/oldf1239"
+   ]
+  },
+  "old-french#period": {
+   "hash": "350014540bd7cc07",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_French"
+   ]
+  },
+  "old-french#homeland": {
+   "hash": "5104902e96e1b603",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_French"
+   ]
+  },
+  "old-french#attestation:strasbourg-oaths": {
+   "hash": "50c4579548cd23d3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oaths_of_Strasbourg",
+    "https://en.wikipedia.org/wiki/Old_French"
+   ]
+  },
+  "old-french#attestation:roland-oxford-manuscript": {
+   "hash": "f6d0355f923b7cc3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Song_of_Roland"
+   ]
+  },
+  "old-french#scripts": {
+   "hash": "def5a250b1003bcb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_French"
+   ]
+  },
+  "old-french#story:0": {
+   "hash": "cb2743efb6105ec1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_French"
+   ]
+  },
+  "old-french#story:1": {
+   "hash": "ee953abb44367c27",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_French",
+    "https://en.wikipedia.org/wiki/Oaths_of_Strasbourg"
+   ]
+  },
+  "old-french#work:song-of-roland": {
+   "hash": "f07f4e46801a2f4d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://fr.wikisource.org/wiki/La_Chanson_de_Roland/L%C3%A9on_Gautier/%C3%89dition_critique/Premi%C3%A8re_partie/Texte",
+    "https://en.wikisource.org/wiki/The_Song_of_Roland/The_Song_of_Roland",
+    "https://en.wikipedia.org/wiki/Song_of_Roland",
+    "https://en.wikipedia.org/wiki/C._K._Scott_Moncrieff"
+   ],
+   "note": "Significance rewritten: sources conflict about a single manuscript; now states about 4,000 lines and the Bodleian manuscript of 1129-1165."
+  },
+  "french#identity": {
+   "hash": "1f7bf7e43f5580b3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/French_language",
+    "https://glottolog.org/resource/languoid/id/stan1290"
+   ]
+  },
+  "french#period": {
+   "hash": "c5fa792a96249ff0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_French",
+    "https://en.wikipedia.org/wiki/French_language"
+   ]
+  },
+  "french#homeland": {
+   "hash": "cbc5709d2f6b9a51",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_French",
+    "https://en.wikipedia.org/wiki/French_language"
+   ]
+  },
+  "french#attestation:aosta-1536": {
+   "hash": "157a4544c134b0f4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/French_language"
+   ]
+  },
+  "french#attestation:villers-cotterets": {
+   "hash": "bfcb9e54148fddc1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/French_language",
+    "https://en.wikipedia.org/wiki/Occitan_language"
+   ]
+  },
+  "french#scripts": {
+   "hash": "e49c258057783429",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/French_language"
+   ]
+  },
+  "french#speakers": {
+   "hash": "e099e2feb82d409d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.kiib.uni.lodz.pl/fileadmin/user_upload/aktualno%C5%9Bci/Synthese_La_langue_francaise_dans_le_monde_2022.pdf"
+   ],
+   "note": "Replaced the loose Wikipedia figure with the OIF 2022 estimate of 321 million French speakers (all kinds, L1+L2)."
+  },
+  "french#story:0": {
+   "hash": "501fc7c30453399e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/French_language"
+   ]
+  },
+  "french#story:1": {
+   "hash": "151a6d55a183287f",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/French_language",
+    "https://www.kiib.uni.lodz.pl/fileadmin/user_upload/aktualno%C5%9Bci/Synthese_La_langue_francaise_dans_le_monde_2022.pdf"
+   ],
+   "note": "Dropped the unsupported 74 million native-speaker claim; now cites the OIF 2022 figure."
+  },
+  "french#work:le-misanthrope": {
+   "hash": "e1dc3305ab817782",
+   "verdict": "verified",
+   "evidence": [
+    "https://fr.wikisource.org/wiki/Le_Misanthrope/%C3%89dition_Louandre,_1910/Acte_I",
+    "https://en.wikisource.org/wiki/The_Misanthrope_(Moli%C3%A8re)",
+    "https://en.wikipedia.org/wiki/The_Misanthrope",
+    "https://en.wikipedia.org/wiki/Curtis_Hidden_Page"
+   ]
+  },
+  "italian#identity": {
+   "hash": "e12a8a02bd542a84",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Italian_language",
+    "https://glottolog.org/resource/languoid/id/ital1282"
+   ]
+  },
+  "italian#period": {
+   "hash": "cf3a234aea71ace7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Italian_language",
+    "https://en.wikipedia.org/wiki/Placiti_Cassinesi"
+   ]
+  },
+  "italian#homeland": {
+   "hash": "e4216eb9713af2af",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Italian_language"
+   ]
+  },
+  "italian#attestation:placito-capuano": {
+   "hash": "dcf084955d87c7d8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Placiti_Cassinesi",
+    "https://en.wikipedia.org/wiki/Italian_language"
+   ]
+  },
+  "italian#attestation:accademia-della-crusca": {
+   "hash": "7d9d5e164bcede66",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Italian_language"
+   ]
+  },
+  "italian#scripts": {
+   "hash": "37d9e0b98c74b8ef",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Italian_language"
+   ]
+  },
+  "italian#speakers": {
+   "hash": "145429194d1f622e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Italian_language"
+   ]
+  },
+  "italian#story:0": {
+   "hash": "6675a70db70b831b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Italian_language"
+   ]
+  },
+  "italian#story:1": {
+   "hash": "2932a185c9dc42a9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Italian_language"
+   ]
+  },
+  "italian#work:divine-comedy": {
+   "hash": "e522d40d48e484df",
+   "verdict": "verified",
+   "evidence": [
+    "https://it.wikisource.org/wiki/Divina_Commedia/Inferno/Canto_I",
+    "https://poets.org/poem/inferno-canto-i",
+    "https://en.wikipedia.org/wiki/Divine_Comedy"
+   ]
+  },
+  "italian#work:canzoniere": {
+   "hash": "13a01bfd2331fd7f",
+   "verdict": "verified",
+   "evidence": [
+    "https://it.wikisource.org/wiki/Canzoniere_(Rerum_vulgarium_fragmenta)/Voi_ch%27ascoltate_in_rime_sparse_il_suono",
+    "https://en.wikipedia.org/wiki/Il_Canzoniere",
+    "https://en.wikipedia.org/wiki/Italian_language"
+   ]
+  },
+  "old-spanish#identity": {
+   "hash": "350ffad50af0f04e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Spanish",
+    "https://glottolog.org/resource/languoid/id/olds1249"
+   ]
+  },
+  "old-spanish#period": {
+   "hash": "f9f26aebe4e1384a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Spanish",
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "old-spanish#homeland": {
+   "hash": "69ed562fbe1b587e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "old-spanish#attestation:glosas-emilianenses": {
+   "hash": "9893c690e4b258fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Glosas_Emilianenses"
+   ]
+  },
+  "old-spanish#attestation:toledo-13th-century": {
+   "hash": "3f0b5b110c062fc3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "old-spanish#attestation:nebrija-grammar": {
+   "hash": "eac34e255965d775",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "old-spanish#scripts": {
+   "hash": "b71ac50d54226dcb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Spanish"
+   ]
+  },
+  "old-spanish#story:0": {
+   "hash": "90a7be0e3479b6a1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Spanish",
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "old-spanish#story:1": {
+   "hash": "2185ba2275c6c145",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Spanish",
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "old-spanish#work:cantar-de-mio-cid": {
+   "hash": "25912f96bc528f7f",
+   "verdict": "verified",
+   "evidence": [
+    "https://es.wikisource.org/wiki/Colecci%C3%B3n_de_poes%C3%ADas_castellanas_anteriores_al_siglo_XV/Tomo_I/Poema_del_Cid",
+    "https://en.wikipedia.org/wiki/Cantar_de_mio_Cid"
+   ]
+  },
+  "spanish#identity": {
+   "hash": "cc00e8542ecad7f4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language",
+    "https://glottolog.org/resource/languoid/id/stan1288"
+   ]
+  },
+  "spanish#period": {
+   "hash": "7b2c023bc6b8b10a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Spanish",
+    "https://en.wikipedia.org/wiki/Don_Quixote"
+   ]
+  },
+  "spanish#homeland": {
+   "hash": "fc2befa23613523a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "spanish#attestation:don-quixote-1605": {
+   "hash": "51d732c0100639da",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Don_Quixote"
+   ]
+  },
+  "spanish#attestation:philippines-1946": {
+   "hash": "0387d628e6b46597",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "spanish#scripts": {
+   "hash": "708651e5a8e07d07",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "spanish#speakers": {
+   "hash": "2dccfc06d61d43eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "spanish#story:0": {
+   "hash": "c6e820379bcbdae7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "spanish#story:1": {
+   "hash": "530940dd0b2fe4f3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Spanish_language"
+   ]
+  },
+  "spanish#work:don-quixote": {
+   "hash": "ed71c3a7f60e243d",
+   "verdict": "verified",
+   "evidence": [
+    "https://es.wikisource.org/wiki/El_ingenioso_hidalgo_Don_Quijote_de_la_Mancha_(1608)/Capitulo_I",
+    "https://en.wikisource.org/wiki/Don_Quixote/Volume_1/Chapter_I",
+    "https://en.wikipedia.org/wiki/Don_Quixote",
+    "https://en.wikipedia.org/wiki/John_Ormsby_(translator)"
+   ]
+  },
+  "galician-portuguese#identity": {
+   "hash": "d0fccd8c07f31430",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese",
+    "https://glottolog.org/resource/languoid/id/oldp1257"
+   ]
+  },
+  "galician-portuguese#period": {
+   "hash": "3f9e4aa16630d0e3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese"
+   ]
+  },
+  "galician-portuguese#homeland": {
+   "hash": "d7f09aeb882ffdcd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese"
+   ]
+  },
+  "galician-portuguese#attestation:melon-charter": {
+   "hash": "0b0a1bd9566b389c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician_language"
+   ]
+  },
+  "galician-portuguese#scripts": {
+   "hash": "baf4538d3dd54b9b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese"
+   ]
+  },
+  "galician-portuguese#story:0": {
+   "hash": "4bd02bbc16ed7af3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese",
+    "https://en.wikipedia.org/wiki/Portuguese_language"
+   ]
+  },
+  "galician-portuguese#story:1": {
+   "hash": "ff01f68a08df4b77",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese"
+   ]
+  },
+  "galician-portuguese#work:ondas-do-mar-de-vigo": {
+   "hash": "cb52fc98fb2ffb34",
+   "verdict": "verified",
+   "evidence": [
+    "https://gl.wikisource.org/wiki/Ondas_do_mar_de_Vigo",
+    "https://en.wikipedia.org/wiki/Martin_Codax"
+   ]
+  },
+  "galician-portuguese#note:0": {
+   "hash": "2c948c8032eabdf5",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/oldp1257"
+   ],
+   "note": "Note added explaining that oldp1257 (Old Portuguese) is the nearest Glottolog match."
+  },
+  "portuguese#identity": {
+   "hash": "f9cc3767dea754db",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Portuguese_language",
+    "https://glottolog.org/resource/languoid/id/port1283"
+   ]
+  },
+  "portuguese#period": {
+   "hash": "acf67103ccac2bd4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese"
+   ]
+  },
+  "portuguese#homeland": {
+   "hash": "e6f3f98817c9563d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese"
+   ]
+  },
+  "portuguese#attestation:brazil-1500": {
+   "hash": "5204eefbf2e00e77",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Portuguese_language"
+   ]
+  },
+  "portuguese#attestation:rio-1808": {
+   "hash": "a908ab3e66a39072",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Portuguese_language"
+   ]
+  },
+  "portuguese#scripts": {
+   "hash": "93b4c806bffd76a7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Portuguese_language"
+   ]
+  },
+  "portuguese#story:0": {
+   "hash": "6d71a98105e43147",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Portuguese_language"
+   ]
+  },
+  "portuguese#story:1": {
+   "hash": "260f60aab86c5678",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Portuguese_language"
+   ],
+   "note": "Removed the \"about 250 million native speakers\" figure, which sources give inconsistently."
+  },
+  "portuguese#work:os-lusiadas": {
+   "hash": "2e492edec3a9044d",
+   "verdict": "verified",
+   "evidence": [
+    "https://pt.wikisource.org/wiki/Os_Lus%C3%ADadas_(grafia_atualizada)/I",
+    "https://en.wikipedia.org/wiki/Os_Lusíadas"
+   ]
+  },
+  "galician#identity": {
+   "hash": "98220bea7c0d6229",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician_language",
+    "https://glottolog.org/resource/languoid/id/gali1258"
+   ]
+  },
+  "galician#period": {
+   "hash": "acf67103ccac2bd4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician–Portuguese"
+   ]
+  },
+  "galician#homeland": {
+   "hash": "19c8bce94e0aa3a9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician_language"
+   ]
+  },
+  "galician#scripts": {
+   "hash": "6102592372278805",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician_language"
+   ]
+  },
+  "galician#story:0": {
+   "hash": "04ca103f121da867",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician_language"
+   ]
+  },
+  "galician#story:1": {
+   "hash": "427692b08dc75020",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician_language",
+    "https://en.wikipedia.org/wiki/Rosalía_de_Castro"
+   ]
+  },
+  "galician#note:0": {
+   "hash": "59fd1f99b42c1153",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Galician_language"
+   ]
+  },
+  "catalan#identity": {
+   "hash": "8f708b3928a75eb1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language",
+    "https://glottolog.org/resource/languoid/id/stan1289"
+   ]
+  },
+  "catalan#period": {
+   "hash": "1664967bbcfe9eff",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language"
+   ]
+  },
+  "catalan#homeland": {
+   "hash": "0bdd015f2f4f620e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language"
+   ]
+  },
+  "catalan#attestation:homilies-organya": {
+   "hash": "dc056529cd74d29b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Homilies_d'Organyà"
+   ]
+  },
+  "catalan#attestation:alghero": {
+   "hash": "cdb79aecca590e07",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language"
+   ]
+  },
+  "catalan#attestation:andorra-1993": {
+   "hash": "9aaee7e123e6c21d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language"
+   ]
+  },
+  "catalan#scripts": {
+   "hash": "f31b51afeed84573",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language"
+   ]
+  },
+  "catalan#speakers": {
+   "hash": "a95a5441ad52ddbe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language"
+   ]
+  },
+  "catalan#story:0": {
+   "hash": "35c6f4c9825041bc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language"
+   ]
+  },
+  "catalan#story:1": {
+   "hash": "242ae74b251dc646",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catalan_language"
+   ]
+  },
+  "old-occitan#identity": {
+   "hash": "b42915f642f174cb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Occitan",
+    "https://glottolog.org/resource/languoid/id/oldp1253"
+   ]
+  },
+  "old-occitan#period": {
+   "hash": "e48d80ebb2cf7f5f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Occitan"
+   ]
+  },
+  "old-occitan#homeland": {
+   "hash": "1609be3b6ec2899f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Occitan"
+   ]
+  },
+  "old-occitan#attestation:ventadour": {
+   "hash": "751c1c6989b57aaf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bernart_de_Ventadorn",
+    "https://en.wikipedia.org/wiki/Can_vei_la_lauzeta_mover"
+   ]
+  },
+  "old-occitan#scripts": {
+   "hash": "ce4356e4ee8a889a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Occitan"
+   ]
+  },
+  "old-occitan#story:0": {
+   "hash": "d3c43e173d35f579",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Occitan"
+   ],
+   "note": "Removed unsupported 'its closest relative' for Old Catalan."
+  },
+  "old-occitan#story:1": {
+   "hash": "f9674cd6ad91b5e9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Occitan",
+    "https://en.wikipedia.org/wiki/Troubadour"
+   ]
+  },
+  "old-occitan#work:can-vei-la-lauzeta-mover": {
+   "hash": "53adb3953aff89a7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://archive.org/details/bernartvonventad00bern",
+    "https://en.wikipedia.org/wiki/Can_vei_la_lauzeta_mover"
+   ],
+   "note": "Original text replaced with the Appel 1915 scholarly edition reading (the CPDL text had rei/dessé); full-text link and sources updated."
+  },
+  "occitan#identity": {
+   "hash": "4e67a7c331e46de3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Occitan_language",
+    "https://glottolog.org/resource/languoid/id/occi1239"
+   ]
+  },
+  "occitan#period": {
+   "hash": "9b2c2a36b1ce9d66",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Occitan"
+   ]
+  },
+  "occitan#homeland": {
+   "hash": "523710e408084ee7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Occitan_language"
+   ]
+  },
+  "occitan#attestation:provencal-gospels-1903": {
+   "hash": "6dfbff126fc13f58",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Occitan_language"
+   ]
+  },
+  "occitan#attestation:val-d-aran-2010": {
+   "hash": "4f797eb3e89e7d2d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Occitan_language"
+   ]
+  },
+  "occitan#scripts": {
+   "hash": "120a0edacbf8e00f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Occitan_language"
+   ]
+  },
+  "occitan#story:0": {
+   "hash": "3241d20ccb1641e0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Occitan_language"
+   ]
+  },
+  "occitan#story:1": {
+   "hash": "6b3cb87fd921743b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Occitan_language"
+   ]
+  },
+  "romanian#identity": {
+   "hash": "7414210ca63f56e7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language",
+    "https://glottolog.org/resource/languoid/id/roma1327"
+   ]
+  },
+  "romanian#period": {
+   "hash": "9fb0ff1041aba368",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ]
+  },
+  "romanian#homeland": {
+   "hash": "9da6ee594bb72011",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ]
+  },
+  "romanian#attestation:neacsu-letter": {
+   "hash": "85d2b4c4cb3ed3c7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Neacșu's_letter",
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ]
+  },
+  "romanian#attestation:moldova-2023": {
+   "hash": "b0d5e501df446d91",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ]
+  },
+  "romanian#scripts": {
+   "hash": "1a9fc3d0e6afdbf0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ]
+  },
+  "romanian#speakers": {
+   "hash": "ec9a21bcee1c971a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ]
+  },
+  "romanian#story:0": {
+   "hash": "19dc1a8ea7666135",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ]
+  },
+  "romanian#story:1": {
+   "hash": "224031cac4274fc7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language",
+    "https://en.wikipedia.org/wiki/Neacșu's_letter"
+   ],
+   "note": "Corrected alphabet chronology: transitional alphabets 1830-1860; Latin official in Wallachia and Transylvania 1860, Moldavia 1862; Cyrillic did not simply remain in use until 1860."
+  },
+  "romanian#work:luceafarul": {
+   "hash": "3569957e370e2dd7",
+   "verdict": "verified",
+   "evidence": [
+    "https://ro.wikisource.org/wiki/Luceaf%C4%83rul_(Eminescu)",
+    "https://en.wikipedia.org/wiki/Luceafărul_(poem)"
+   ]
+  },
+  "romanian#note:0": {
+   "hash": "7b41451c7a9f6800",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ]
+  },
+  "sardinian#identity": {
+   "hash": "d946ec5b1fa5194d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sardinian_language",
+    "https://glottolog.org/resource/languoid/id/sard1257"
+   ]
+  },
+  "sardinian#period": {
+   "hash": "6a0ad0081676c386",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sardinian_language"
+   ]
+  },
+  "sardinian#homeland": {
+   "hash": "cc07536ac97ae492",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sardinian_language"
+   ]
+  },
+  "sardinian#attestation:carta-volgare": {
+   "hash": "ab2d2fa0e4322043",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sardinian_language"
+   ]
+  },
+  "sardinian#attestation:carta-de-logu": {
+   "hash": "ede76e92b6be85ea",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sardinian_language"
+   ]
+  },
+  "sardinian#scripts": {
+   "hash": "b47a1a786866ab40",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sardinian_language"
+   ]
+  },
+  "sardinian#story:0": {
+   "hash": "e4c8d7efcf5b86c4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sardinian_language"
+   ]
+  },
+  "sardinian#story:1": {
+   "hash": "06bedb02ac644f2b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sardinian_language"
+   ]
+  },
+  "sardinian#note:0": {
+   "hash": "b0ee6e35c3fdabe3",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/sard1257"
+   ],
+   "note": "Note added explaining why sard1257 is used (Glottolog files it as Southern Romance)."
+  },
+  "romansh#identity": {
+   "hash": "a6d1bf2809756e09",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romansh_language",
+    "https://glottolog.org/resource/languoid/id/roma1326"
+   ]
+  },
+  "romansh#period": {
+   "hash": "a35abef6feb25fd5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romansh_language"
+   ]
+  },
+  "romansh#homeland": {
+   "hash": "8f55e8eb4462f388",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romansh_language"
+   ]
+  },
+  "romansh#attestation:chur-1465": {
+   "hash": "f6d2b111c23a9eb7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romansh_language"
+   ]
+  },
+  "romansh#scripts": {
+   "hash": "f292febeb52cb453",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romansh_language"
+   ]
+  },
+  "romansh#speakers": {
+   "hash": "45016382f935f169",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romansh_language"
+   ]
+  },
+  "romansh#story:0": {
+   "hash": "b01608469790869c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romansh_language"
+   ]
+  },
+  "romansh#story:1": {
+   "hash": "2fab7e95c1ad8d9c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romansh_language"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:49:12.578Z",
+ "verifier": "auditor-west-ie-stories"
+}

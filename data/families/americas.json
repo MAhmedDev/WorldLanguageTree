@@ -1,0 +1,2322 @@
+{
+  "family": {
+    "id": "americas",
+    "name": "Languages of the Americas"
+  },
+  "sources": [
+    {
+      "id": "glottolog-maya1287",
+      "title": "Glottolog 5: Mayan",
+      "url": "https://glottolog.org/resource/languoid/id/maya1287",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-epig1241",
+      "title": "Glottolog 5: Epigraphic Mayan",
+      "url": "https://glottolog.org/resource/languoid/id/epig1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-kich1262",
+      "title": "Glottolog 5: K'iche'",
+      "url": "https://glottolog.org/resource/languoid/id/kich1262",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-yuca1254",
+      "title": "Glottolog 5: Yucatec Maya",
+      "url": "https://glottolog.org/resource/languoid/id/yuca1254",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-utoa1244",
+      "title": "Glottolog 5: Uto-Aztecan",
+      "url": "https://glottolog.org/resource/languoid/id/utoa1244",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-azte1234",
+      "title": "Glottolog 5: Aztec",
+      "url": "https://glottolog.org/resource/languoid/id/azte1234",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-clas1250",
+      "title": "Glottolog 5: Classical Nahuatl",
+      "url": "https://glottolog.org/resource/languoid/id/clas1250",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-quec1387",
+      "title": "Glottolog 5: Quechuan",
+      "url": "https://glottolog.org/resource/languoid/id/quec1387",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-clas1251",
+      "title": "Glottolog 5: Classical Quechua",
+      "url": "https://glottolog.org/resource/languoid/id/clas1251",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-quec1389",
+      "title": "Glottolog 5: Southern Quechua",
+      "url": "https://glottolog.org/resource/languoid/id/quec1389",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-ayma1253",
+      "title": "Glottolog 5: Aymaran",
+      "url": "https://glottolog.org/resource/languoid/id/ayma1253",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-nucl1667",
+      "title": "Glottolog 5: Central-Southern Aymara",
+      "url": "https://glottolog.org/resource/languoid/id/nucl1667",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-tupi1275",
+      "title": "Glottolog 5: Tupian",
+      "url": "https://glottolog.org/resource/languoid/id/tupi1275",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-para1311",
+      "title": "Glottolog 5: Paraguayan Guaraní",
+      "url": "https://glottolog.org/resource/languoid/id/para1311",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-eski1264",
+      "title": "Glottolog 5: Eskimo-Aleut",
+      "url": "https://glottolog.org/resource/languoid/id/eski1264",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-east2534",
+      "title": "Glottolog 5: Eastern Canadian Inuktitut",
+      "url": "https://glottolog.org/resource/languoid/id/east2534",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-iroq1247",
+      "title": "Glottolog 5: Iroquoian",
+      "url": "https://glottolog.org/resource/languoid/id/iroq1247",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-cher1273",
+      "title": "Glottolog 5: Cherokee",
+      "url": "https://glottolog.org/resource/languoid/id/cher1273",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-atha1245",
+      "title": "Glottolog 5: Athabaskan-Eyak-Tlingit",
+      "url": "https://glottolog.org/resource/languoid/id/atha1245",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-atha1247",
+      "title": "Glottolog 5: Athabaskan",
+      "url": "https://glottolog.org/resource/languoid/id/atha1247",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-nava1243",
+      "title": "Glottolog 5: Navajo",
+      "url": "https://glottolog.org/resource/languoid/id/nava1243",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-algo1257",
+      "title": "Glottolog 5: Algonquian",
+      "url": "https://glottolog.org/resource/languoid/id/algo1257",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-cree1272",
+      "title": "Glottolog 5: Cree",
+      "url": "https://glottolog.org/resource/languoid/id/cree1272",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-wamp1249",
+      "title": "Glottolog 5: Wampanoag",
+      "url": "https://glottolog.org/resource/languoid/id/wamp1249",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-haid1248",
+      "title": "Glottolog 5: Haida",
+      "url": "https://glottolog.org/resource/languoid/id/haid1248",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-mayan",
+      "title": "Mayan languages",
+      "url": "https://en.wikipedia.org/wiki/Mayan_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-mayan",
+      "title": "Proto-Mayan language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Mayan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-classic-maya",
+      "title": "Classic Maya language",
+      "url": "https://en.wikipedia.org/wiki/Classic_Maya_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-maya-script",
+      "title": "Maya script",
+      "url": "https://en.wikipedia.org/wiki/Maya_script",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-temple-inscriptions",
+      "title": "Temple of the Inscriptions",
+      "url": "https://en.wikipedia.org/wiki/Temple_of_the_Inscriptions",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kiche",
+      "title": "Kʼicheʼ language",
+      "url": "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-popol-vuh",
+      "title": "Popol Vuh",
+      "url": "https://en.wikipedia.org/wiki/Popol_Vuh",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-yucatec",
+      "title": "Yucatec Maya language",
+      "url": "https://en.wikipedia.org/wiki/Yucatec_Maya_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-chilam-balam",
+      "title": "Chilam Balam",
+      "url": "https://en.wikipedia.org/wiki/Chilam_Balam",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-uto-aztecan",
+      "title": "Uto-Aztecan languages",
+      "url": "https://en.wikipedia.org/wiki/Uto-Aztecan_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-uto-aztecan",
+      "title": "Proto-Uto-Aztecan language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Uto-Aztecan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nahuatl",
+      "title": "Nahuatl",
+      "url": "https://en.wikipedia.org/wiki/Nahuatl",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-classical-nahuatl",
+      "title": "Classical Nahuatl",
+      "url": "https://en.wikipedia.org/wiki/Classical_Nahuatl",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-molina",
+      "title": "Vocabulario en lengua castellana y mexicana",
+      "url": "https://en.wikipedia.org/wiki/Vocabulario_en_lengua_castellana_y_mexicana",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-florentine",
+      "title": "Florentine Codex",
+      "url": "https://en.wikipedia.org/wiki/Florentine_Codex",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cantares",
+      "title": "Cantares Mexicanos",
+      "url": "https://en.wikipedia.org/wiki/Cantares_Mexicanos",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nezahualcoyotl",
+      "title": "Nezahualcoyotl (tlatoani)",
+      "url": "https://en.wikipedia.org/wiki/Nezahualcoyotl_(tlatoani)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-quechuan",
+      "title": "Quechuan languages",
+      "url": "https://en.wikipedia.org/wiki/Quechuan_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-quechuan",
+      "title": "Proto-Quechuan language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Quechuan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-classical-quechua",
+      "title": "Classical Quechua",
+      "url": "https://en.wikipedia.org/wiki/Classical_Quechua",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-huarochiri",
+      "title": "Huarochirí Manuscript",
+      "url": "https://en.wikipedia.org/wiki/Huarochir%C3%AD_Manuscript",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-southern-quechua",
+      "title": "Southern Quechua",
+      "url": "https://en.wikipedia.org/wiki/Southern_Quechua",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-antonio-ricardo",
+      "title": "Antonio Ricardo",
+      "url": "https://en.wikipedia.org/wiki/Antonio_Ricardo",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-third-council-lima",
+      "title": "Third Council of Lima",
+      "url": "https://en.wikipedia.org/wiki/Third_Council_of_Lima",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-aymaran",
+      "title": "Aymaran languages",
+      "url": "https://en.wikipedia.org/wiki/Aymaran_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-aymara",
+      "title": "Aymara language",
+      "url": "https://en.wikipedia.org/wiki/Aymara_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-bertonio",
+      "title": "Ludovico Bertonio",
+      "url": "https://en.wikipedia.org/wiki/Ludovico_Bertonio",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tupian",
+      "title": "Tupian languages",
+      "url": "https://en.wikipedia.org/wiki/Tupian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-tupian",
+      "title": "Proto-Tupian language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Tupian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-guarani",
+      "title": "Guarani language",
+      "url": "https://en.wikipedia.org/wiki/Guarani_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tupi",
+      "title": "Tupi language",
+      "url": "https://en.wikipedia.org/wiki/Tupi_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ruiz-de-montoya",
+      "title": "Antonio Ruiz de Montoya",
+      "url": "https://en.wikipedia.org/wiki/Antonio_Ruiz_de_Montoya",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-eskaleut",
+      "title": "Eskaleut languages",
+      "url": "https://en.wikipedia.org/wiki/Eskaleut_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-eskaleut",
+      "title": "Proto-Eskaleut language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Eskaleut_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-inuktitut",
+      "title": "Inuktitut",
+      "url": "https://en.wikipedia.org/wiki/Inuktitut",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-inuit-languages",
+      "title": "Inuit languages",
+      "url": "https://en.wikipedia.org/wiki/Inuit_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-edmund-peck",
+      "title": "Edmund Peck",
+      "url": "https://en.wikipedia.org/wiki/Edmund_Peck",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-inuktitut-syllabics",
+      "title": "Inuktitut syllabics",
+      "url": "https://en.wikipedia.org/wiki/Inuktitut_syllabics",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-iroquoian",
+      "title": "Iroquoian languages",
+      "url": "https://en.wikipedia.org/wiki/Iroquoian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-iroquoian",
+      "title": "Proto-Iroquoian language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Iroquoian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-iroquoian-peoples",
+      "title": "Iroquoian peoples",
+      "url": "https://en.wikipedia.org/wiki/Iroquoian_peoples",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cherokee",
+      "title": "Cherokee language",
+      "url": "https://en.wikipedia.org/wiki/Cherokee_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cherokee-syllabary",
+      "title": "Cherokee syllabary",
+      "url": "https://en.wikipedia.org/wiki/Cherokee_syllabary",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-sequoyah",
+      "title": "Sequoyah",
+      "url": "https://en.wikipedia.org/wiki/Sequoyah",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cherokee-phoenix",
+      "title": "Cherokee Phoenix",
+      "url": "https://en.wikipedia.org/wiki/Cherokee_Phoenix",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-na-dene",
+      "title": "Na-Dene languages",
+      "url": "https://en.wikipedia.org/wiki/Na-Dene_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-dene-yeniseian",
+      "title": "Dene–Yeniseian languages",
+      "url": "https://en.wikipedia.org/wiki/Dene%E2%80%93Yeniseian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-athabaskan",
+      "title": "Proto-Athabaskan language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Athabaskan_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-navajo",
+      "title": "Navajo language",
+      "url": "https://en.wikipedia.org/wiki/Navajo_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-code-talker",
+      "title": "Code talker",
+      "url": "https://en.wikipedia.org/wiki/Code_talker",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-algonquian",
+      "title": "Algonquian languages",
+      "url": "https://en.wikipedia.org/wiki/Algonquian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-algonquian",
+      "title": "Proto-Algonquian language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Algonquian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-algic",
+      "title": "Algic languages",
+      "url": "https://en.wikipedia.org/wiki/Algic_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cree",
+      "title": "Cree language",
+      "url": "https://en.wikipedia.org/wiki/Cree_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cree-syllabics",
+      "title": "Cree syllabics",
+      "url": "https://en.wikipedia.org/wiki/Cree_syllabics",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-james-evans",
+      "title": "James Evans (linguist)",
+      "url": "https://en.wikipedia.org/wiki/James_Evans_(linguist)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-massachusett",
+      "title": "Massachusett language",
+      "url": "https://en.wikipedia.org/wiki/Massachusett_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-eliot-bible",
+      "title": "Eliot Indian Bible",
+      "url": "https://en.wikipedia.org/wiki/Eliot_Indian_Bible",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "es-wp-protoquechua",
+      "title": "Idioma protoquechua",
+      "url": "https://es.wikipedia.org/wiki/Idioma_protoquechua",
+      "publisher": "Wikipedia (Spanish)"
+    },
+    {
+      "id": "newberry-popol-vuh",
+      "title": "Popol Vuh (research guide)",
+      "url": "https://www.newberry.org/collection/research-guide/popol-vuh",
+      "publisher": "Newberry Library"
+    },
+    {
+      "id": "brinton-1890",
+      "title": "Ancient Nahuatl Poetry, Containing the Nahuatl Text of XXVII Ancient Mexican Poems (Project Gutenberg eBook #12219)",
+      "url": "https://gutenberg.pglaf.org/1/2/2/1/12219/12219-h/12219-h.htm",
+      "author": "Daniel G. Brinton",
+      "year": 1890,
+      "publisher": "Project Gutenberg"
+    },
+    {
+      "id": "milenio-inegi-2020",
+      "title": "¿Cuánta población indígena y afrodescendiente hay en México? (INEGI 2020 census)",
+      "url": "https://amp.milenio.com/politica/comunidad/cuantos-indigenas-y-afrodescendientes-hay-en-mexico-inegi-2021",
+      "publisher": "Milenio"
+    },
+    {
+      "id": "txst-yucatec",
+      "title": "Yucatec Mayan (Minority and Minoritized Languages and Cultures Project)",
+      "url": "https://pressbooks.txst.edu/minoritylanguages/?p=160",
+      "publisher": "Texas State University Pressbooks"
+    },
+    {
+      "id": "census-acs22",
+      "title": "Language Use in the United States: 2011 (ACS-22)",
+      "url": "https://www2.census.gov/library/publications/2013/acs/acs-22/acs-22.pdf",
+      "author": "Camille Ryan",
+      "year": 2013,
+      "publisher": "U.S. Census Bureau"
+    },
+    {
+      "id": "berge-ichl26",
+      "title": "Prehistoric climate changes and their effects on the development of the Eskaleut languages (ICHL 26 workshop proposal)",
+      "url": "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.2.pdf",
+      "author": "Anna Berge",
+      "year": 2023,
+      "publisher": "University of Heidelberg"
+    },
+    {
+      "id": "ebsco-eskimo-aleut",
+      "title": "Eskimo-Aleut language family (Research Starters)",
+      "url": "https://www.ebsco.com/research-starters/language-and-linguistics/eskimo-aleut-language-family",
+      "publisher": "EBSCO"
+    },
+    {
+      "id": "ebsco-iroquoian",
+      "title": "Iroquoian language family (Research Starters)",
+      "url": "https://www.ebsco.com/research-starters/history/iroquoian-language-family",
+      "publisher": "EBSCO"
+    },
+    {
+      "id": "nps-cherokee",
+      "title": "Cherokee Language",
+      "url": "https://www.nps.gov/kemo/learn/historyculture/cherokeelanguage.htm",
+      "publisher": "U.S. National Park Service (Kennesaw Mountain National Battlefield Park)"
+    },
+    {
+      "id": "nge-cherokee-phoenix",
+      "title": "Cherokee Phoenix",
+      "url": "https://www.georgiaencyclopedia.org/articles/history-archaeology/cherokee-phoenix/",
+      "publisher": "New Georgia Encyclopedia"
+    },
+    {
+      "id": "dedenbach-2024",
+      "title": "Indigenous Andean Voices at the Interface between the Oral and the Written: The Peruvian Quechua Traditions from Colonial Huarochirí (ca. 1608)",
+      "url": "https://storre.stir.ac.uk/retrieve/39a72e69-4f7f-4586-b2d0-06c256b2272a/Dedenbach%20-%20Andean%20Voices%20Huarochiri.pdf",
+      "author": "Sabine Dedenbach-Salazar Sáenz",
+      "year": 2024,
+      "publisher": "Linguistics in Amsterdam 15(1)"
+    },
+    {
+      "id": "anla-iyu",
+      "title": "Overview of Comparative Inuit-Yupik-Unangan",
+      "url": "https://www.uaf.edu/anla/collections/cea/about/",
+      "publisher": "Alaska Native Language Archive, University of Alaska Fairbanks"
+    },
+    {
+      "id": "illinois-eliot-bible",
+      "title": "The First Bible printed in the Western Hemisphere",
+      "url": "https://www.library.illinois.edu/rbx/2006/04/03/the-first-bible-printed-in-the-western-hemisphere/",
+      "publisher": "University of Illinois Rare Book & Manuscript Library",
+      "year": 2006
+    },
+    {
+      "id": "brasseur-1861-popol-vuh",
+      "title": "Popol Vuh: Le livre sacré et les mythes de l'antiquité américaine, avec les livres héroïques et historiques des Quichés (K'iche' text and French translation, p. 1 of the text)",
+      "author": "Charles Étienne Brasseur de Bourbourg (ed.)",
+      "year": 1861,
+      "publisher": "Arthus Bertrand, Paris; Trübner, London (scan: Newberry Library Ayer collection, Internet Archive)",
+      "url": "https://archive.org/details/Ayer_F1465_P814_1861"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-mayan",
+      "name": "Proto-Mayan",
+      "glottocode": "maya1287",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-maya1287",
+        "wp-proto-mayan",
+        "wp-mayan"
+      ],
+      "period": {
+        "from": -2200,
+        "to": -2200,
+        "approx": true,
+        "note": "Campbell and Kaufman date the first split in the family, when Huastecan broke away, to around 2200 BC. The proto-language was spoken before that split; the sources give no earlier date.",
+        "sources": [
+          "wp-mayan"
+        ]
+      },
+      "homeland": {
+        "lat": 15.55,
+        "lng": -91.45,
+        "label": "Cuchumatanes highlands, Guatemala",
+        "sources": [
+          "wp-mayan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Mayan is the reconstructed common ancestor of the roughly 30 Mayan languages and of Classic Maya, the language of the Maya inscriptions. In K'iche' it is called Nab'ee Maya' Tzij, 'the old Maya language'. Terrence Kaufman and John Justeson have reconstructed more than 3,000 words of its vocabulary. It is thought to have been spoken in the Cuchumatanes highlands of Guatemala, roughly where Q'anjob'alan languages are spoken today.",
+          "sources": [
+            "wp-proto-mayan",
+            "wp-mayan"
+          ]
+        },
+        {
+          "text": "In Lyle Campbell and Terrence Kaufman's scheme, the family began to break up around 2200 BC, when Huastecan speakers moved northwest along the Gulf Coast of Mexico. Yucatecan and Ch'olan speakers later moved north into the Yucatán Peninsula, while the western branch moved south into what became Mamean and K'ichean country. Today Mayan languages are spoken by at least six million people, mainly in Guatemala, Mexico, Belize, El Salvador and Honduras.",
+          "sources": [
+            "wp-mayan"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Robertson and Houston proposed an alternative history in which Huastecan stayed in the Guatemalan highlands with speakers of Ch'olan–Tzeltalan and separated from that branch much later than Kaufman's model suggests.",
+          "sources": [
+            "wp-mayan"
+          ]
+        },
+        {
+          "text": "Proposals linking Mayan to other families, including its inclusion in Joseph Greenberg's Amerind hypothesis, are not generally supported by linguists.",
+          "sources": [
+            "wp-mayan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classic-maya",
+      "name": "Classic Maya",
+      "glottocode": "epig1241",
+      "iso639_3": "emy",
+      "parent": "proto-mayan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-epig1241",
+        "wp-classic-maya"
+      ],
+      "period": {
+        "from": 200,
+        "to": 900,
+        "approx": true,
+        "note": "The span of the Classic-period inscriptions. Identifiably Maya inscriptions go back to the 3rd century BCE, but their language is not dated separately here.",
+        "sources": [
+          "wp-classic-maya",
+          "glottolog-epig1241"
+        ]
+      },
+      "homeland": {
+        "lat": 16.6,
+        "lng": -90.3,
+        "label": "Western and south-central Petén Basin (Houston, Robertson and Stuart's proposal)",
+        "sources": [
+          "wp-classic-maya"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "temple-of-the-inscriptions",
+          "year": 683,
+          "approx": true,
+          "lat": 17.4838,
+          "lng": -92.0465,
+          "place": "Palenque, Chiapas, Mexico",
+          "description": "The Temple of the Inscriptions, the funerary monument of the ruler K'inich Janaab' Pakal, was finished a short time after 683. Its inscription tablets carry an extraordinary sample of Maya hieroglyphic text.",
+          "sources": [
+            "wp-temple-inscriptions"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Maya script",
+            "code": "Maya"
+          }
+        ],
+        "sources": [
+          "wp-classic-maya",
+          "wp-maya-script"
+        ]
+      },
+      "story": [
+        {
+          "text": "Classic Maya is the oldest historically attested Mayan language and the main language of the hieroglyphic inscriptions of the Classic period, roughly 200 to 900. It is the ancestor of the Ch'olan branch, and speakers of modern Ch'ol and Ch'orti' can understand many of its words. It was written by scribes, usually members of the Maya priesthood, and is believed to have been a prestige language across the Maya region.",
+          "sources": [
+            "wp-classic-maya"
+          ]
+        },
+        {
+          "text": "The Maya script mixed logograms for whole words with syllabic signs, so a word could be written as a picture-sign, as syllables, or both. It is the only Mesoamerican writing system that has been substantially deciphered. The earliest identifiably Maya inscriptions date to the 3rd century BCE, at sites such as San Bartolo in Guatemala.",
+          "sources": [
+            "wp-classic-maya",
+            "wp-maya-script"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Houston, Robertson and Stuart argued that the inscriptions record a 'classical Ch'olti'', ancestral to Ch'orti' and colonial Ch'olti'. Mora-Marín argued instead that the shared traits are retentions, so the language of the lowland inscriptions would be Proto-Ch'olan.",
+          "sources": [
+            "wp-classic-maya"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kiche",
+      "name": "K'iche'",
+      "nativeName": "Kʼicheʼ",
+      "nativeScript": "Latn",
+      "glottocode": "kich1262",
+      "iso639_3": "quc",
+      "parent": "proto-mayan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-kich1262",
+        "wp-kiche",
+        "wp-mayan"
+      ],
+      "period": {
+        "from": 1554,
+        "to": null,
+        "approx": true,
+        "note": "First attestation, not emergence: Recinos and Tedlock date the alphabetic text behind the Popol Vuh to between 1554 and 1558.",
+        "sources": [
+          "wp-popol-vuh"
+        ]
+      },
+      "homeland": {
+        "lat": 15.03,
+        "lng": -91.15,
+        "label": "Central highlands of Guatemala (Quiché)",
+        "sources": [
+          "wp-kiche",
+          "wp-mayan"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "ximenez-popol-vuh",
+          "year": 1701,
+          "approx": true,
+          "lat": 14.944,
+          "lng": -91.111,
+          "place": "Chichicastenango, Guatemala",
+          "description": "The Dominican priest Francisco Ximénez transcribed the Popol Vuh in parallel K'iche' and Spanish columns between 1700 and 1715 in Chichicastenango. His manuscript, now in the Newberry Library, is possibly the earliest surviving copy of the work.",
+          "sources": [
+            "newberry-popol-vuh",
+            "wp-popol-vuh"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-kiche"
+        ]
+      },
+      "story": [
+        {
+          "text": "K'iche' is a Mayan language of the central highlands of Guatemala. With over a million speakers, about 7% of Guatemala's population, it is the country's second most widely spoken language after Spanish. Its speakers also call it Qatzijob'al, 'our language'. It is increasingly taught in schools and used on the radio.",
+          "sources": [
+            "wp-kiche"
+          ]
+        },
+        {
+          "text": "The K'iche' kingdom was at its height when the Spanish arrived, with its center at Q'umarkaj near today's Santa Cruz del Quiché. The most famous work in Classical K'iche' is the Popol Vuh, the K'iche' account of creation, the Hero Twins and the ruling lineages. The second most important is the Title of Totonicapán.",
+          "sources": [
+            "wp-mayan",
+            "wp-kiche"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "popol-vuh",
+          "title": "Popol Vuh",
+          "titleOriginal": "Popol Wuj",
+          "author": "Anonymous K'iche' authors; known from Francisco Ximénez's transcription, edited by Brasseur de Bourbourg (1861)",
+          "date": "c. 1554–1558 (alphabetic text); Ximénez manuscript c. 1700–1715",
+          "year": 1556,
+          "significance": "The Popol Vuh is the foundational sacred narrative of the K'iche' people, covering the creation of the world, the deeds of the Hero Twins Hunahpú and Xbalanqué, and the history of the K'iche' lineages. Many early Mesoamerican documents were destroyed after the conquest, which makes it one of the few detailed early accounts of Mesoamerican mythology.",
+          "original": "Are u xe oher tzih varal Quiche u bi.\nVaral x-chi-ka tzibah, x-chi-ka tiqiba vi oher tzih, u tiqaribal, u xenabal puch ronohel x-ban pa-tinamit Quiche, r'amag quiche vinak :",
+          "originalScript": "Latn",
+          "translation": "This is the root of the ancient word; here Quiché is its name.\nHere we shall write, we shall set down the ancient word, its beginning and its root, all that was done in the town of Quiché, among the tribes of the Quiché people.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://archive.org/details/Ayer_F1465_P814_1861",
+          "sources": [
+            "brasseur-1861-popol-vuh",
+            "wp-popol-vuh",
+            "newberry-popol-vuh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yucatec-maya",
+      "name": "Yucatec Maya",
+      "nativeName": "mayaʼ tʼaan",
+      "nativeScript": "Latn",
+      "glottocode": "yuca1254",
+      "iso639_3": "yua",
+      "parent": "proto-mayan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-yuca1254",
+        "wp-yucatec",
+        "wp-mayan"
+      ],
+      "period": {
+        "from": 1540,
+        "to": null,
+        "approx": true,
+        "note": "First attestation in the Latin alphabet, not emergence: parts of the Books of Chilam Balam date back to the Spanish conquest of Yucatán (1527–1546). The sources do not date when Yucatec became a separate language.",
+        "sources": [
+          "wp-chilam-balam"
+        ]
+      },
+      "homeland": {
+        "lat": 20.5,
+        "lng": -89.0,
+        "label": "Yucatán Peninsula",
+        "sources": [
+          "wp-yucatec"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "chilam-balam-chumayel",
+          "year": 1700,
+          "approx": true,
+          "lat": 20.43,
+          "lng": -89.3,
+          "place": "Chumayel, Yucatán, Mexico",
+          "description": "The Books of Chilam Balam are handwritten Yucatec Maya miscellanies in the Latin alphabet, chiefly of the 17th and 18th centuries, named after the towns where they were kept; Chumayel's is among the most important.",
+          "sources": [
+            "wp-chilam-balam"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-chilam-balam"
+        ]
+      },
+      "speakers": {
+        "count": 774755,
+        "year": 2020,
+        "scope": "L1+L2",
+        "sources": [
+          "txst-yucatec"
+        ]
+      },
+      "story": [
+        {
+          "text": "Yucatec Maya, called simply 'Maya' by its speakers, is spoken across the Yucatán Peninsula, including part of northern Belize. It is the second most commonly spoken Mayan language. In the Mexican state of Yucatán and parts of Campeche, Tabasco, Chiapas and Quintana Roo it was still the mother tongue of a large part of the population in the early 21st century.",
+          "sources": [
+            "wp-yucatec",
+            "wp-mayan"
+          ]
+        },
+        {
+          "text": "Its colonial literature includes the Books of Chilam Balam, written in Yucatec in the Latin alphabet and named after the towns where they were kept, such as Chumayel, Maní and Tizimín. Parts of them date back to the Spanish conquest of Yucatán (1527–1546), and together they record 18th-century Yucatec Maya spiritual life. The 2020 Mexican census counted 774,755 speakers.",
+          "sources": [
+            "wp-chilam-balam",
+            "txst-yucatec"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-uto-aztecan",
+      "name": "Proto-Uto-Aztecan",
+      "glottocode": "utoa1244",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-utoa1244",
+        "wp-proto-uto-aztecan",
+        "wp-uto-aztecan"
+      ],
+      "period": {
+        "from": -3000,
+        "to": -3000,
+        "approx": true,
+        "note": "Spoken about 5,000 years ago; the source gives a single approximate date.",
+        "sources": [
+          "wp-proto-uto-aztecan"
+        ]
+      },
+      "homeland": {
+        "lat": 31.5,
+        "lng": -110.5,
+        "label": "US–Mexico borderlands (Arizona, New Mexico, Sonora, Chihuahua)",
+        "sources": [
+          "wp-proto-uto-aztecan",
+          "wp-uto-aztecan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Uto-Aztecan is the reconstructed ancestor of the Uto-Aztecan languages. Authorities on the history of the language group have usually placed its homeland in the uplands on today's border between the United States and Mexico: Arizona and New Mexico, and the neighbouring Mexican states of Sonora and Chihuahua. It is thought to have been spoken by foragers in this dry region about 5,000 years ago.",
+          "sources": [
+            "wp-proto-uto-aztecan",
+            "wp-uto-aztecan"
+          ]
+        },
+        {
+          "text": "Clues come from reconstructed plant vocabulary. Fowler placed its center in central Arizona, with northern dialects reaching into Nevada and the Mojave Desert and southern dialects running south into Mexico. Its descendants range from the Numic languages, whose own homeland has been placed near Death Valley in California, to Nahuatl in central Mexico.",
+          "sources": [
+            "wp-proto-uto-aztecan"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Jane H. Hill proposed in 2001 that Proto-Uto-Aztecan speakers were maize farmers in Mesoamerica who moved north between about 4,500 and 3,000 years ago, based on her reconstruction of maize vocabulary. The hypothesis has been criticized on several grounds and is not generally accepted by Uto-Aztecanists.",
+          "sources": [
+            "wp-proto-uto-aztecan",
+            "wp-uto-aztecan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nahuatl",
+      "name": "Nahuatl",
+      "nativeName": "Nawatlahtolli",
+      "nativeScript": "Latn",
+      "glottocode": "azte1234",
+      "parent": "proto-uto-aztecan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-azte1234",
+        "wp-nahuatl"
+      ],
+      "period": {
+        "from": 600,
+        "to": null,
+        "approx": true,
+        "note": "Nahuatl has been spoken in central Mexico since at least the 7th century AD. Glottolog treats the varieties as the 'Aztec' group, since there is no single Nahuatl language entry.",
+        "sources": [
+          "wp-nahuatl"
+        ]
+      },
+      "homeland": {
+        "lat": 19.4,
+        "lng": -98.9,
+        "label": "Central Mexico",
+        "sources": [
+          "wp-nahuatl"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-nahuatl"
+        ]
+      },
+      "speakers": {
+        "count": 1651958,
+        "year": 2020,
+        "scope": "L1+L2",
+        "sources": [
+          "milenio-inegi-2020"
+        ]
+      },
+      "story": [
+        {
+          "text": "Nahuatl, also called Mexicano, is a language, or by some definitions a group of languages, of the Uto-Aztecan family. It has been spoken in central Mexico since at least the 7th century AD. As the language of the Mexica, who dominated central Mexico before the Spanish conquest, the Nahuatl of Tenochtitlan became a prestige language across Mesoamerica.",
+          "sources": [
+            "wp-nahuatl"
+          ]
+        },
+        {
+          "text": "Today Nahuan varieties are spoken in scattered communities across central Mexico, and some are not mutually intelligible. Mexico's 2020 census found 1,651,958 speakers, making it the country's most widely spoken Indigenous language. Under a 2003 law it is one of Mexico's national languages. English words such as avocado, chocolate, coyote and tomato come from Nahuatl.",
+          "sources": [
+            "wp-nahuatl",
+            "milenio-inegi-2020"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classical-nahuatl",
+      "name": "Classical Nahuatl",
+      "nativeName": "Nāhuatlāhtōlli",
+      "nativeScript": "Latn",
+      "glottocode": "clas1250",
+      "iso639_3": "nci",
+      "parent": "nahuatl",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-clas1250",
+        "wp-classical-nahuatl",
+        "wp-nahuatl"
+      ],
+      "period": {
+        "from": 1300,
+        "to": 1700,
+        "approx": true,
+        "note": "From the 14th century, the start of the era given for the variety, to the end of the 16th- and 17th-century written corpus.",
+        "sources": [
+          "wp-classical-nahuatl",
+          "wp-nahuatl"
+        ]
+      },
+      "homeland": {
+        "lat": 19.43,
+        "lng": -99.13,
+        "label": "Valley of Mexico (Tenochtitlan)",
+        "sources": [
+          "wp-classical-nahuatl"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "florentine-codex",
+          "year": 1545,
+          "approx": false,
+          "lat": 19.4508,
+          "lng": -99.1375,
+          "place": "Tlatelolco, Mexico City",
+          "description": "Bernardino de Sahagún began the work that became the Florentine Codex in 1545, with Nahua elders and former students of the Colegio de Santa Cruz de Tlatelolco; he continued it until his death in 1590.",
+          "sources": [
+            "wp-florentine"
+          ]
+        },
+        {
+          "id": "molina-vocabulario",
+          "year": 1555,
+          "approx": false,
+          "lat": 19.4326,
+          "lng": -99.1332,
+          "place": "Mexico City",
+          "description": "Alonso de Molina's Nahuatl vocabulary of 1555 was the first vocabulary of an Indigenous American language to be published; its expanded 1571 edition is the best known.",
+          "sources": [
+            "wp-molina"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-classical-nahuatl"
+        ]
+      },
+      "story": [
+        {
+          "text": "Classical Nahuatl is the Nahuatl of the Valley of Mexico, a lingua franca of central Mexico at the time of the Spanish conquest. After the conquest, missionaries introduced the Latin alphabet and Nahuatl became a literary language: chronicles, grammars, poetry, administrative documents and codices were written in it during the 16th and 17th centuries. In 1570 Philip II decreed that Nahuatl should become the official language of the colonies of New Spain.",
+          "sources": [
+            "wp-classical-nahuatl",
+            "wp-nahuatl"
+          ]
+        },
+        {
+          "text": "Its written record is large. Andrés de Olmos's grammar of 1547 is the first preserved grammar of an American language, and Alonso de Molina's vocabulary followed in 1555. Bernardino de Sahagún worked with Nahua elders from 1545 on the Florentine Codex. The Cantares Mexicanos, a 16th-century manuscript of 91 songs now in Mexico's National Library, holds over half of all known traditional Nahuatl songs.",
+          "sources": [
+            "wp-molina",
+            "wp-florentine",
+            "wp-cantares"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Classical Nahuatl evolved into some modern Nahuan varieties, but other modern dialects descend more directly from other 16th-century variants. Varieties spoken in and around the Valley of Mexico are generally closer to it than those on the periphery. It is modelled here as a child of Nahuatl because it is described as a set of variants of Nahuatl; Glottolog lists it as a separate extinct language (clas1250), while the Nahuatl entry here uses the Glottolog family code azte1234 (Aztec).",
+          "sources": [
+            "wp-classical-nahuatl",
+            "wp-nahuatl",
+            "glottolog-clas1250",
+            "glottolog-azte1234"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "song-of-nezahualcoyotl",
+          "title": "Song of the Prince Nezahualcoyotl",
+          "titleOriginal": "Ycuic Nezahualcoyotzin",
+          "author": "Attributed to Nezahualcóyotl (1402–1472), ruler of Texcoco; from the Cantares Mexicanos",
+          "date": "15th century (attributed); written down in the 16th century",
+          "year": 1450,
+          "significance": "Brinton called Nezahualcóyotl, ruler of Texcoco, the most distinguished of the Nahuatl poets, and this the only song in his collection definitely attributed to him. The text appears to be a dialogue chanted by two singers, one speaking for the king and one for the bard.",
+          "original": "1. Nicaya quetza con tohuehueuh aoniquimitotia quauhtlocelo yn ca tiyayhcac in cuicaxochitl, nictemoan cuicatl ye tonequimilol ayyo.\n2. Ti Nopiltzi o ti Nezahualcoyotl o tiya Mictl a quenonamica y yece miyoncan ay yo.",
+          "originalScript": "Latn",
+          "translation": "1. I bring forth our drum that I may show the power and the grandeur in which thou standest, decked with flowers of song: I seek a song wherewith to drape thee, ah! oh!\n2. Thou, my Lord, O thou Nezahualcoyotl, thou goest to Mictlan in some manner and at a fixed time, ere long.",
+          "translator": "Daniel G. Brinton",
+          "translationYear": 1890,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://gutenberg.pglaf.org/1/2/2/1/12219/12219-h/12219-h.htm",
+          "sources": [
+            "brinton-1890",
+            "wp-nezahualcoyotl",
+            "wp-cantares"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-quechuan",
+      "name": "Proto-Quechuan",
+      "glottocode": "quec1387",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-quec1387",
+        "wp-proto-quechuan",
+        "wp-quechuan"
+      ],
+      "period": {
+        "from": -500,
+        "to": 400,
+        "approx": true,
+        "note": "Dates are disputed and the span is approximate. The English Wikipedia infobox gives an era of 'before 500 BCE'; Spanish Wikipedia gives roughly the 1st to 8th centuries CE. Alfredo Torero placed the split into Quechua I and Quechua II at the beginning of the 5th century CE, used here as the end date.",
+        "sources": [
+          "es-wp-protoquechua",
+          "wp-proto-quechuan"
+        ]
+      },
+      "homeland": {
+        "lat": -11.5,
+        "lng": -76.6,
+        "label": "Central Peru",
+        "sources": [
+          "wp-proto-quechuan",
+          "wp-quechuan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Quechuan is the reconstructed ancestor of the Quechuan languages, rebuilt from the modern languages and from colonial records. According to Alfredo Torero it was spoken in the central region of ancient Peru and then spread south, replacing Aymara. At the beginning of the 5th century it crossed into the central highlands around the Mantaro Valley, then a Proto-Aymara-speaking area, and split into Quechua I to the east and Quechua II.",
+          "sources": [
+            "wp-proto-quechuan",
+            "es-wp-protoquechua"
+          ]
+        },
+        {
+          "text": "Quechua was already spread across much of the central Andes long before the Inca Empire rose. The Inca were one of many peoples who spoke a form of it, and the empire later promoted it as its official language. The greatest diversity is still found in Central Quechua (Quechua I), which is believed to lie close to the homeland.",
+          "sources": [
+            "wp-quechuan"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "It has been speculated that Quechua may have been used in the Chavín and Wari civilizations. The homeland is usually placed in central Peru, but sources describe this as a likelihood rather than a certainty.",
+          "sources": [
+            "wp-quechuan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classical-quechua",
+      "name": "Classical Quechua",
+      "glottocode": "clas1251",
+      "iso639_3": "qwc",
+      "parent": "proto-quechuan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-clas1251",
+        "wp-classical-quechua"
+      ],
+      "period": {
+        "from": 1438,
+        "to": 1650,
+        "approx": true,
+        "note": "Covers the Inca lingua franca of the Inca Empire (1438–1533) and Standard Colonial Quechua, written mostly in the late 16th and first half of the 17th century.",
+        "sources": [
+          "wp-classical-quechua"
+        ]
+      },
+      "homeland": {
+        "lat": -13.42,
+        "lng": -76.13,
+        "label": "Central-southern coast of Peru (proposed base of the Inca lingua franca)",
+        "sources": [
+          "wp-classical-quechua"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "doctrina-christiana-1584",
+          "year": 1584,
+          "approx": false,
+          "lat": -12.0464,
+          "lng": -77.0428,
+          "place": "Lima, Peru",
+          "description": "The Doctrina Christiana, a catechism in Spanish, Quechua and Aymara ordered by the Third Council of Lima, was printed by Antonio Ricardo. It was the first book printed in South America.",
+          "sources": [
+            "wp-antonio-ricardo",
+            "wp-third-council-lima"
+          ]
+        },
+        {
+          "id": "huarochiri-manuscript",
+          "year": 1608,
+          "approx": true,
+          "lat": -12.14,
+          "lng": -76.23,
+          "place": "Huarochirí Province, Peru",
+          "description": "The Huarochirí Manuscript, probably written between 1597 and 1608 while Francisco de Ávila served in Huarochirí, records the myths and religious traditions of the region in Classical Quechua. It is the only surviving written source of a prehispanic Andean religious tradition in an Andean language.",
+          "sources": [
+            "dedenbach-2024",
+            "wp-huarochiri",
+            "wp-classical-quechua"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-classical-quechua"
+        ]
+      },
+      "story": [
+        {
+          "text": "'Classical Quechua', or the lengua general, refers to two historical forms of Quechua. One is the lingua franca of the Inca Empire (1438–1533), which the Inca did not write down, so evidence for it is scant. The other is the written standard used for religious and administrative purposes in Spanish Peru, mostly in the late 16th and early 17th centuries. Domingo de Santo Tomás produced the earliest recorded Quechua grammar and vocabulary in 1560.",
+          "sources": [
+            "wp-classical-quechua"
+          ]
+        },
+        {
+          "text": "Colonial Quechua is abundantly attested. The Third Council of Lima (1582–83) ordered a catechism in Spanish, Quechua and Aymara, and Antonio Ricardo printed it in Lima as the first book printed in South America. The Huarochirí Manuscript, recorded and annotated by the cleric Francisco de Ávila, preserves the deeds of mountain deities such as Paria Caca.",
+          "sources": [
+            "wp-third-council-lima",
+            "wp-antonio-ricardo",
+            "wp-huarochiri"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Scholars disagree about the Inca lingua franca. Some hold that it was a form of Southern Quechua close to the Cuzco dialect. A more widespread view today is that it was based on a Coastal Quechua of the central-southern coast of Peru, home to the realms of Chincha and Pachacamac.",
+          "sources": [
+            "wp-classical-quechua"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "southern-quechua",
+      "name": "Southern Quechua",
+      "nativeName": "Runa simi",
+      "nativeScript": "Latn",
+      "glottocode": "quec1389",
+      "parent": "proto-quechuan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-quec1389",
+        "wp-southern-quechua",
+        "wp-quechuan"
+      ],
+      "period": {
+        "from": 1650,
+        "to": null,
+        "approx": true,
+        "note": "Approximate: most Quechua literature written after the mid-17th century is usually seen as early Cuzco Quechua, a Southern Quechua variety. The variety is older; this marks its written record.",
+        "sources": [
+          "wp-classical-quechua"
+        ]
+      },
+      "homeland": {
+        "lat": -13.53,
+        "lng": -71.97,
+        "label": "Southern Peruvian Andes (Cusco region)",
+        "sources": [
+          "wp-quechuan"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-southern-quechua"
+        ]
+      },
+      "story": [
+        {
+          "text": "Southern Quechua (Quechua II-C) is spoken in the highlands from Huancavelica through Ayacucho, Cusco and Puno in Peru, across much of Bolivia, and in pockets of north-western Argentina. It is the most influential branch of Quechua, with the largest number of speakers and the most important cultural and literary legacy. In this branch Quechua is called Runa simi, 'people's language'.",
+          "sources": [
+            "wp-quechuan"
+          ]
+        },
+        {
+          "text": "Spanish officials ended the administrative and religious use of Quechua in the late 18th century and banned it from public use in Peru after the Túpac Amaru II rebellion. In 1975 Peru became the first country to recognize Quechua as an official language. Quechua speakers across all branches numbered just under 7 million in the latest census data available up to 2011; one estimate for 2004 was 8 to 10 million.",
+          "sources": [
+            "wp-quechuan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aymaran",
+      "name": "Aymaran",
+      "glottocode": "ayma1253",
+      "parent": null,
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "glottolog-ayma1253",
+        "wp-aymaran"
+      ],
+      "story": [
+        {
+          "text": "Aymaran, also called Jaqi or Aru, is one of the two dominant language families of the central Andes, alongside Quechuan. It consists of Aymara, widely spoken in Bolivia, and the endangered Jaqaru and Kawki languages of Peru. Hardman proposed the name Jaqi, Alfredo Torero proposed Aru, 'to speak', and Rodolfo Cerrón Palomino proposed Aymaran.",
+          "sources": [
+            "wp-aymaran"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Southern Quechuan languages share much vocabulary with Aymara, and the two families have often been grouped together as 'Quechumaran'. The proposal is controversial: the majority view is that the shared features come from long contact rather than common descent.",
+          "sources": [
+            "wp-aymaran",
+            "wp-aymara"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aymara",
+      "name": "Aymara",
+      "nativeName": "Aymar aru",
+      "nativeScript": "Latn",
+      "glottocode": "nucl1667",
+      "iso639_3": "aym",
+      "parent": "aymaran",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-nucl1667",
+        "wp-aymara",
+        "wp-aymaran"
+      ],
+      "period": {
+        "from": 1584,
+        "to": null,
+        "approx": true,
+        "note": "First attestation in print, not emergence: the trilingual catechism printed at Lima in 1584. The Aymaran expansion predates the Quechuan expansion in the southern Peruvian Andes.",
+        "sources": [
+          "wp-antonio-ricardo"
+        ]
+      },
+      "homeland": {
+        "lat": -16.5,
+        "lng": -68.4,
+        "label": "Altiplano of the Bolivian Andes",
+        "sources": [
+          "wp-aymara"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "doctrina-christiana-aymara",
+          "year": 1584,
+          "approx": false,
+          "lat": -12.0464,
+          "lng": -77.0428,
+          "place": "Lima, Peru",
+          "description": "The trilingual catechism in Spanish, Quechua and Aymara ordered by the Third Council of Lima was printed in Lima by Antonio Ricardo, the first book printed in South America.",
+          "sources": [
+            "wp-antonio-ricardo",
+            "wp-third-council-lima"
+          ]
+        },
+        {
+          "id": "bertonio-vocabulario",
+          "year": 1612,
+          "approx": false,
+          "lat": -16.2,
+          "lng": -69.46,
+          "place": "Juli, Puno, Peru",
+          "description": "The Jesuit Ludovico Bertonio printed his Vocabulario de la lengua aymara at the Jesuit press of Juli in 1612, one of four Aymara works he printed there that year.",
+          "sources": [
+            "wp-bertonio"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-aymara"
+        ]
+      },
+      "story": [
+        {
+          "text": "Aymara is the language of the Aymara people of the Bolivian Andes and is also spoken in Peru, Chile and Argentina. It is one of only a handful of Indigenous American languages with over a million speakers, and is an official language in Bolivia and Peru alongside Spanish and Quechua. It is agglutinative and partly polysynthetic, with subject–object–verb word order.",
+          "sources": [
+            "wp-aymara"
+          ]
+        },
+        {
+          "text": "The Aymaran expansion came before the Quechuan expansion across the southern Peruvian Andes. For more than a century after the conquest it was called 'the language of the Colla'. Its printed record begins with the trilingual Lima catechism of 1584, and the Jesuit Ludovico Bertonio published a grammar in 1603 and printed his Vocabulario of 1612 at the mission press of Juli.",
+          "sources": [
+            "wp-aymara",
+            "wp-antonio-ricardo",
+            "wp-bertonio"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The glottocode nucl1667 is Glottolog's 'Central-Southern Aymara' node, which carries the ISO 639-3 code aym for Aymara as a whole and contains Central Aymara and Southern Aymara; the wider Aymaran family (ayma1253) also includes Jaqaru and Kawki.",
+          "sources": [
+            "glottolog-nucl1667",
+            "glottolog-ayma1253"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-tupian",
+      "name": "Proto-Tupian",
+      "glottocode": "tupi1275",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-tupi1275",
+        "wp-proto-tupian",
+        "wp-tupian"
+      ],
+      "period": {
+        "from": -3000,
+        "to": -3000,
+        "approx": true,
+        "note": "Rodrigues dates Proto-Tupian to around 3000 BC (about 5,000 years before present); a single approximate date.",
+        "sources": [
+          "wp-tupian",
+          "wp-proto-tupian"
+        ]
+      },
+      "homeland": {
+        "lat": -11.0,
+        "lng": -62.0,
+        "label": "Between the Guaporé and Aripuanã rivers, Madeira basin (Rondônia, Brazil)",
+        "sources": [
+          "wp-proto-tupian",
+          "wp-tupian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Tupian is the reconstructed ancestor of the roughly 70 Tupian languages, including Tupi, Paraguayan Guarani and Awetí. Aryon Rodrigues placed its homeland between the Guaporé and Aripuanã rivers in the Madeira River basin, much of it in today's Brazilian state of Rondônia. Five of the ten Tupian branches are found in that area, which makes it the probable homeland.",
+          "sources": [
+            "wp-proto-tupian",
+            "wp-tupian"
+          ]
+        },
+        {
+          "text": "Rodrigues dates Proto-Tupian to around 3000 BC. About 3,000 years ago Tupian-speaking peoples began expanding out of south-western Amazonia, and speakers of the Tupi–Guarani branch later spread across much of South America. One of them, Old Tupi, was used in the early colonial period as a lingua franca throughout Brazil by Europeans and Amerindians, and José de Anchieta's Tupi grammar was published in 1595.",
+          "sources": [
+            "wp-tupian",
+            "wp-proto-tupian",
+            "wp-tupi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guarani",
+      "name": "Guarani",
+      "nativeName": "avañeʼẽ",
+      "nativeScript": "Latn",
+      "glottocode": "para1311",
+      "iso639_3": "gug",
+      "parent": "proto-tupian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-para1311",
+        "wp-guarani",
+        "wp-tupian"
+      ],
+      "period": {
+        "from": 1603,
+        "to": null,
+        "approx": true,
+        "note": "First attestation, not emergence: written records begin with the Jesuits. Luis de Bolaños's Guarani translation of the Lima catechism was adopted by the First Synod of Asunción in 1603.",
+        "sources": [
+          "wp-third-council-lima",
+          "wp-guarani"
+        ]
+      },
+      "homeland": {
+        "lat": -25.5,
+        "lng": -57.0,
+        "label": "Paraguay",
+        "sources": [
+          "wp-guarani"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "synod-of-asuncion-catechism",
+          "year": 1603,
+          "approx": false,
+          "lat": -25.2637,
+          "lng": -57.5759,
+          "place": "Asunción, Paraguay",
+          "description": "The Third Council of Lima's catechism, translated into Guarani by Luis de Bolaños, was adopted by the First Synod of Asunción for use in the upper Paraná basin.",
+          "sources": [
+            "wp-third-council-lima"
+          ]
+        },
+        {
+          "id": "tesoro-guarani",
+          "year": 1639,
+          "approx": false,
+          "lat": 40.4168,
+          "lng": -3.7038,
+          "place": "Madrid, Spain (printed)",
+          "description": "The Jesuit Antonio Ruiz de Montoya published his Tesoro de la lengua guaraní, a 407-page dictionary, in Madrid in 1639.",
+          "sources": [
+            "wp-ruiz-de-montoya"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-guarani"
+        ]
+      },
+      "story": [
+        {
+          "text": "Guarani is a Tupian language and one of the two official languages of Paraguay, with Spanish. It is spoken by the majority of Paraguayans, which is unusual: elsewhere in the Americas, speakers have nearly always shifted toward the colonial language, but Paraguayans kept Guarani while also adopting Spanish. It is also an official language of the Argentine province of Corrientes and one of the three official languages of Mercosur.",
+          "sources": [
+            "wp-guarani"
+          ]
+        },
+        {
+          "text": "Guarani was first written down by Jesuit missionaries. Antonio Ruiz de Montoya's Tesoro de la lengua guaraní, printed in Madrid in 1639, and his grammar and vocabulary were regarded by the linguist Georg von der Gabelentz as the very best sources for the language. Monolingualism is falling: in 2002, 28% of Paraguayans spoke only Guarani; by 2022, only 12% did.",
+          "sources": [
+            "wp-guarani",
+            "wp-ruiz-de-montoya"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The glottocode para1311 is Glottolog's 'Paraguayan Guaraní' (ISO 639-3 gug), the variety that is a national language of Paraguay. Other Guaraní varieties, such as Mbyá, Eastern Bolivian and Western Bolivian Guaraní, have separate Glottolog entries, so this languoid describes Guarani as used in Paraguay.",
+          "sources": [
+            "glottolog-para1311",
+            "wp-guarani"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-eskimo-aleut",
+      "name": "Proto-Eskimo-Aleut",
+      "glottocode": "eski1264",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-eski1264",
+        "wp-proto-eskaleut",
+        "wp-eskaleut"
+      ],
+      "period": {
+        "from": -4000,
+        "to": -2000,
+        "approx": true,
+        "note": "The age of Proto-Eskaleut is generally put between 6000 and 4000 years before present.",
+        "sources": [
+          "berge-ichl26"
+        ]
+      },
+      "homeland": {
+        "lat": 65.6,
+        "lng": -168.0,
+        "label": "Bering Strait area",
+        "sources": [
+          "berge-ichl26"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Eskimo-Aleut, also called Proto-Eskaleut, is the reconstructed common ancestor of the Eskimo (Inuit and Yupik) languages and Aleut. Its existence is generally accepted by linguists; Knut Bergsland offered a reconstruction in 1986 and Michael Fortescue another. Its age is generally put between 6,000 and 4,000 years ago, during the Neoglacial period in the Bering Strait area.",
+          "sources": [
+            "wp-proto-eskaleut",
+            "berge-ichl26"
+          ]
+        },
+        {
+          "text": "The Alaska Native Language Center is reported to believe that the family split into Eskimo and Aleut branches at least 4,000 years ago. Anna Berge suggests Aleut split off through a migration around 4,500 years ago. The Eskimo branch later divided into Yupik and Inuit around 1,000 years ago. Today the family's languages are spoken from the Russian Far East to Greenland.",
+          "sources": [
+            "wp-eskaleut",
+            "berge-ichl26",
+            "anla-iyu"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Alexander Vovin (2015) argued from Eskaleut loanwords in Northern Tungusic that the homeland of Proto-Eskaleut was in Siberia rather than in Alaska. Michael Fortescue (1998) proposed a deeper relationship with Yukaghir and Uralic; no relationship to another family is generally accepted.",
+          "sources": [
+            "wp-proto-eskaleut",
+            "wp-eskaleut"
+          ]
+        },
+        {
+          "text": "Dates for the first split vary between sources: the Alaska Native Language Center is reported to put it at least 4,000 years ago, while an encyclopedia summary gives roughly three to six thousand years ago.",
+          "sources": [
+            "wp-eskaleut",
+            "ebsco-eskimo-aleut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inuktitut",
+      "name": "Inuktitut",
+      "nativeName": "ᐃᓄᒃᑎᑐᑦ",
+      "nativeScript": "Cans",
+      "glottocode": "east2534",
+      "iso639_3": "ike",
+      "parent": "proto-eskimo-aleut",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-east2534",
+        "wp-inuktitut",
+        "wp-inuit-languages"
+      ],
+      "period": {
+        "from": 1000,
+        "to": null,
+        "approx": true,
+        "note": "Approximate: the Eskimo branch split into Yupik and Inuit around 1,000 years ago, and early forms of the Inuit language spread east with the Thule people. The emergence of Inuktitut itself is not dated separately.",
+        "sources": [
+          "wp-eskaleut",
+          "wp-inuit-languages"
+        ]
+      },
+      "homeland": {
+        "lat": 64.0,
+        "lng": -75.0,
+        "label": "Eastern Canadian Arctic",
+        "sources": [
+          "wp-inuktitut"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "peck-little-whale-river",
+          "year": 1876,
+          "approx": false,
+          "lat": 56.004,
+          "lng": -76.783,
+          "place": "Little Whale River, Quebec",
+          "description": "The Anglican missionary Edmund Peck reached Little Whale River in October 1876 and began his mission there. He worked with Inuktitut syllabics derived from the Cree syllabary and compiled the first substantial English–Inuktitut dictionary.",
+          "sources": [
+            "wp-edmund-peck"
+          ]
+        },
+        {
+          "id": "nunavut-1999",
+          "year": 1999,
+          "approx": false,
+          "lat": 63.7467,
+          "lng": -68.517,
+          "place": "Iqaluit, Nunavut",
+          "description": "When Nunavut was split from the Northwest Territories in 1999, it kept the Language Act; Inuktitut is an official language of Nunavut.",
+          "sources": [
+            "wp-inuktitut"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Canadian Aboriginal syllabics",
+            "code": "Cans"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-inuktitut"
+        ]
+      },
+      "story": [
+        {
+          "text": "Inuktitut is an Inuit language spoken north of the tree line in Canada: in Nunavut, the Northwest Territories, northern Quebec (Nunavik) and Labrador (Nunatsiavut). Early forms of the Inuit language are believed to have been spoken by the Thule people, who migrated east from Beringia into the Arctic Archipelago, an area occupied by people of the Dorset culture.",
+          "sources": [
+            "wp-inuktitut",
+            "wp-inuit-languages"
+          ]
+        },
+        {
+          "text": "Moravian missionaries in Greenland and Labrador made the first efforts to write the language, in Latin script, in the mid-19th century. In the 1860s Anglican missionaries including John Horden and Edwin Watkins adapted Cree syllabics to Inuktitut, and in the 1870s Edmund Peck began printing to that standard; and Inuktitut is still written with Canadian Aboriginal syllabics. It became an official language of the Northwest Territories in 1984 and is official in Nunavut.",
+          "sources": [
+            "wp-inuktitut-syllabics",
+            "wp-edmund-peck",
+            "wp-inuktitut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-iroquoian",
+      "name": "Proto-Iroquoian",
+      "glottocode": "iroq1247",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-iroq1247",
+        "wp-proto-iroquoian",
+        "wp-iroquoian"
+      ],
+      "period": {
+        "from": -1800,
+        "to": -1500,
+        "approx": true,
+        "note": "Floyd Lounsbury (1961) estimated by glottochronology that North and South Iroquoian split 3,500 to 3,800 years ago; these dates bracket that split.",
+        "sources": [
+          "wp-proto-iroquoian"
+        ]
+      },
+      "homeland": {
+        "lat": 43.0,
+        "lng": -77.0,
+        "label": "Lower Great Lakes region (debated)",
+        "sources": [
+          "wp-cherokee"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Iroquoian is the reconstructed ancestor of the Iroquoian languages. These form a Northern group, including Mohawk, Onondaga, Seneca and Tuscarora, and a Southern branch consisting only of Cherokee. In 1961 Floyd Lounsbury used glottochronology to estimate that the two branches split 3,500 to 3,800 years ago. An encyclopedia summary says Cherokee may have split from the main line significantly more than three thousand years ago.",
+          "sources": [
+            "wp-proto-iroquoian",
+            "ebsco-iroquoian",
+            "wp-cherokee",
+            "wp-iroquoian"
+          ]
+        },
+        {
+          "text": "Linguists believe that the ancestors of the Cherokee migrated to the south-east from the Great Lakes region about three thousand years ago. Despite that long separation, Cherokee still shows similarities to the languages spoken around the Great Lakes. Iroquoian peoples met by Europeans included the St. Lawrence Iroquoians, encountered by French explorers in the 16th century, the Wendat and Neutral in Ontario, and the Five Nations of the Haudenosaunee in upstate New York and Pennsylvania.",
+          "sources": [
+            "wp-cherokee",
+            "wp-proto-iroquoian"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Some researchers, such as Thomas Whyte, place the Proto-Iroquoian homeland in Appalachia, with the divergence of Southern from Northern Iroquoian about 4,000 to 3,000 years ago as Late Archaic peoples became more sedentary.",
+          "sources": [
+            "wp-cherokee",
+            "wp-iroquoian-peoples"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cherokee",
+      "name": "Cherokee",
+      "nativeName": "ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ",
+      "nativeScript": "Cher",
+      "glottocode": "cher1273",
+      "iso639_3": "chr",
+      "parent": "proto-iroquoian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-cher1273",
+        "wp-cherokee",
+        "wp-iroquoian"
+      ],
+      "period": {
+        "from": -1500,
+        "to": null,
+        "approx": true,
+        "note": "Cherokee is the only Southern Iroquoian language; this date is the later end of Lounsbury's estimate for the North–South split.",
+        "sources": [
+          "wp-proto-iroquoian"
+        ]
+      },
+      "homeland": {
+        "lat": 35.5,
+        "lng": -83.5,
+        "label": "Southern Appalachia",
+        "sources": [
+          "wp-iroquoian-peoples"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "cherokee-phoenix",
+          "year": 1828,
+          "approx": false,
+          "lat": 34.5426,
+          "lng": -84.9091,
+          "place": "New Echota, Georgia",
+          "description": "The first issue of the Cherokee Phoenix appeared on 21 February 1828, with English and Cherokee text in adjacent columns. It was the first newspaper published by Native Americans in the United States.",
+          "sources": [
+            "nge-cherokee-phoenix",
+            "wp-cherokee-phoenix",
+            "wp-cherokee"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Cherokee syllabary",
+            "code": "Cher"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-cherokee",
+          "wp-cherokee-syllabary"
+        ]
+      },
+      "story": [
+        {
+          "text": "Cherokee, or Tsalagi, is an endangered Iroquoian language and the only Southern Iroquoian language spoken today. It is polysynthetic, and a single word can carry what English needs several words to say. About 200 speakers of the Eastern (Kituwah) dialect remain in North Carolina, and the largest group of speakers lives around Tahlequah, Oklahoma, where the Western dialect predominates.",
+          "sources": [
+            "wp-cherokee"
+          ]
+        },
+        {
+          "text": "Around 1809 Sequoyah, a silversmith who never learned English, began devising a way to write Cherokee. By 1821 he had completed a syllabary of 86 characters, later reduced to 85, each standing for a syllable; his daughter Ayokeh was the first to learn it. The Cherokee Phoenix printed Cherokee in the syllabary at New Echota from 1828 until May 1834.",
+          "sources": [
+            "wp-sequoyah",
+            "nps-cherokee",
+            "wp-cherokee-syllabary",
+            "nge-cherokee-phoenix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "na-dene",
+      "name": "Na-Dene (Athabaskan-Eyak-Tlingit)",
+      "glottocode": "atha1245",
+      "parent": null,
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "glottolog-atha1245",
+        "wp-na-dene"
+      ],
+      "story": [
+        {
+          "text": "Na-Dene, called Athabaskan-Eyak-Tlingit by Glottolog, joins the Athabaskan languages with Eyak of south-central Alaska and Tlingit. Its Athabaskan, or Dene, languages are spoken across Alaska and western Canada, in parts of Oregon and northern California, and in the American Southwest as far as northern Mexico. The last first-language speaker of Eyak died in 2008. Navajo is by far the most widely spoken language of the family.",
+          "sources": [
+            "wp-na-dene",
+            "glottolog-atha1245"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Edward Sapir also connected Haida to these languages; linguists who follow him treat Haida as a further branch. Glottolog does not include Haida in Athabaskan-Eyak-Tlingit and lists it as a separate family.",
+          "sources": [
+            "wp-na-dene",
+            "glottolog-atha1245",
+            "glottolog-haid1248"
+          ]
+        },
+        {
+          "text": "Edward Vajda has proposed that Na-Dene is related to the Yeniseian languages of central Siberia, forming a Dene–Yeniseian family; he presented this at a 2008 symposium in Alaska and published it in 2010. The 2010 volume also carries critiques by several other scholars. Some scholars have judged the proposal only 'plausible', and Vajda himself has described it as a hypothesis of language relatedness, not yet a proper hypothesis of language taxonomy.",
+          "sources": [
+            "wp-dene-yeniseian",
+            "wp-na-dene"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-athabaskan",
+      "name": "Proto-Athabaskan",
+      "glottocode": "atha1247",
+      "parent": "na-dene",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-atha1247",
+        "wp-proto-athabaskan"
+      ],
+      "period": {
+        "from": -500,
+        "to": 0,
+        "approx": true,
+        "note": "Michael Krauss proposed that Proto-Athabaskan was spoken between 2,000 and 2,500 years ago.",
+        "sources": [
+          "wp-proto-athabaskan"
+        ]
+      },
+      "homeland": {
+        "lat": 63.3,
+        "lng": -142.0,
+        "label": "Interior of eastern Alaska and the Yukon",
+        "sources": [
+          "wp-proto-athabaskan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Athabaskan is the reconstructed ancestor of the Athabaskan languages. Michael Krauss proposed that it was spoken 2,000 to 2,500 years ago and that it split from Proto-Eyak around 3,400 years ago. It was probably spoken in the interior of eastern Alaska, the Yukon and parts of British Columbia, where Athabaskan languages are most diverse today. On Krauss's hypothesis, Proto-Athabaskan had glottalization contrasts rather than tone, and these developed independently into tones in different daughter languages, or were lost; several Athabaskan languages, including all the Pacific Coast ones, have no tone.",
+          "sources": [
+            "wp-proto-athabaskan",
+            "wp-navajo"
+          ]
+        },
+        {
+          "text": "From there the languages spread west across Alaska and south into British Columbia. The Pacific Coast Athabaskan languages probably came from an early migration south, while the Southern Athabaskan, or Apachean, languages reached the American Southwest; the earliest known date of Athabaskan habitation there is 1300 AD. Navajo and the Apache languages make up this southernmost branch of the family.",
+          "sources": [
+            "wp-proto-athabaskan",
+            "wp-navajo"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "James Kari argues for older dates, with Eyak separating from Athabaskan no earlier than 8,000 years ago and Proto-Athabaskan spoken until about 3,000 years ago. Joseph Wilson has argued for a homeland in south-western Alaska instead of the interior.",
+          "sources": [
+            "wp-proto-athabaskan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "navajo",
+      "name": "Navajo",
+      "nativeName": "Diné bizaad",
+      "nativeScript": "Latn",
+      "glottocode": "nava1243",
+      "iso639_3": "nav",
+      "parent": "proto-athabaskan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-nava1243",
+        "wp-navajo"
+      ],
+      "period": {
+        "from": 1300,
+        "to": null,
+        "approx": true,
+        "note": "The earliest known date of Athabaskan habitation in the American Southwest is 1300 AD; Navajo's own emergence is not dated separately.",
+        "sources": [
+          "wp-proto-athabaskan"
+        ]
+      },
+      "homeland": {
+        "lat": 36.3,
+        "lng": -109.4,
+        "label": "American Southwest (Navajo Nation)",
+        "sources": [
+          "wp-navajo"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "navajo-code-camp-pendleton",
+          "year": 1942,
+          "approx": false,
+          "lat": 33.3,
+          "lng": -117.35,
+          "place": "Camp Pendleton, California",
+          "description": "The first 29 Navajo recruits attended boot camp in May 1942 and created the Navajo code used by the US Marine Corps in the Pacific during World War II.",
+          "sources": [
+            "wp-code-talker"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-navajo"
+        ]
+      },
+      "speakers": {
+        "count": 169369,
+        "year": 2011,
+        "scope": "L1+L2",
+        "sources": [
+          "census-acs22"
+        ]
+      },
+      "story": [
+        {
+          "text": "Navajo is a Southern Athabaskan (Apachean) language spoken mainly in the American Southwest, especially in the Navajo Nation. It is the most widely spoken Native American language north of the Mexico–United States border: the 2011 American Community Survey counted 169,369 people who spoke it at home. Most of its vocabulary is Athabaskan in origin, as it has taken few loanwords.",
+          "sources": [
+            "wp-navajo",
+            "census-acs22"
+          ]
+        },
+        {
+          "text": "In World War II, Navajo speakers serving with the US Marine Corps built a code on their language. The first 29 recruits went through boot camp in May 1942 and created the code at Camp Pendleton, and Navajo code talkers later served in all six Marine divisions in the Pacific.",
+          "sources": [
+            "wp-code-talker",
+            "wp-navajo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-algonquian",
+      "name": "Proto-Algonquian",
+      "glottocode": "algo1257",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-algo1257",
+        "wp-proto-algonquian",
+        "wp-algonquian"
+      ],
+      "period": {
+        "from": -1000,
+        "to": -500,
+        "approx": true,
+        "note": "Generally estimated to have been spoken 2,500 to 3,000 years ago (Goddard 1978).",
+        "sources": [
+          "wp-proto-algonquian",
+          "wp-algonquian"
+        ]
+      },
+      "homeland": {
+        "lat": 47.5,
+        "lng": -92.5,
+        "label": "West of Lake Superior (Goddard's proposal; no consensus)",
+        "sources": [
+          "wp-proto-algonquian",
+          "wp-algic"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Algonquian is the ancestor of the Algonquian languages, which stretch from the Atlantic coast of North America to the Rocky Mountains. It is generally estimated to have been spoken 2,500 to 3,000 years ago, but there is no scholarly consensus about where. Ives Goddard's widely accepted subgrouping has the family spreading from west to east: Blackfoot branched off first, then Arapaho and Cree, then the Great Lakes languages, and finally Eastern Algonquian.",
+          "sources": [
+            "wp-proto-algonquian",
+            "wp-algonquian"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Frank Siebert (1967), using the ranges of plants and animals with Algonquian names, placed the homeland between Georgian Bay and Lake Ontario. Later research suggests it lay farther west, perhaps 'somewhere immediately west of Lake Superior' (Goddard) or on the Columbia Plateau (Denny).",
+          "sources": [
+            "wp-proto-algonquian",
+            "wp-algonquian"
+          ]
+        },
+        {
+          "text": "Edward Sapir proposed that Algonquian is related to Wiyot and Yurok of northern California. The resulting Algic family is accepted by Glottolog, which places Algonquian within it; the Algic homeland is thought to have been in the north-western United States.",
+          "sources": [
+            "wp-algic",
+            "glottolog-algo1257"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cree",
+      "name": "Cree",
+      "nativeName": "ᓀᐦᐃᔭᐍᐏᐣ",
+      "nativeScript": "Cans",
+      "glottocode": "cree1272",
+      "iso639_3": "cre",
+      "parent": "proto-algonquian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-cree1272",
+        "wp-cree"
+      ],
+      "period": {
+        "from": -500,
+        "to": null,
+        "approx": true,
+        "note": "No separate date is given. Cree is described as beginning as a dialect of Proto-Algonquian, spoken 2,500 to 3,000 years ago; the year marks the end of that window.",
+        "sources": [
+          "wp-cree"
+        ]
+      },
+      "homeland": {
+        "lat": 52.0,
+        "lng": -80.5,
+        "label": "Near James Bay (traditional view)",
+        "sources": [
+          "wp-cree"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "evans-cree-syllabics",
+          "year": 1840,
+          "approx": false,
+          "lat": 53.98,
+          "lng": -97.83,
+          "place": "Norway House, Manitoba",
+          "description": "The Wesleyan missionary James Evans, put in charge of the Norway House district in 1840, adapted his syllabic script to Cree that year; a syllabics hymn book followed in 1841 and the script spread quickly.",
+          "sources": [
+            "wp-cree-syllabics",
+            "wp-james-evans"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Canadian Aboriginal syllabics",
+            "code": "Cans"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-cree"
+        ]
+      },
+      "story": [
+        {
+          "text": "Cree is a dialect continuum of Algonquian languages spoken across Canada, with speakers also in Montana. It is believed to have begun as a dialect of Proto-Algonquian. Ojibwe and Cree syllabics were created by the missionary James Evans, who adapted his script to Cree in 1840; it later spread to other languages such as Inuktitut. 'Cree' usually covers the dialects written in Cree syllabics.",
+          "sources": [
+            "wp-cree",
+            "wp-cree-syllabics",
+            "wp-james-evans"
+          ]
+        },
+        {
+          "text": "Its many dialects include Plains Cree, whose speakers call it nēhiyawēwin, and Woods and Swampy Cree. A traditional view among 20th-century historians of the fur trade held that the Woods Cree and Plains Cree did not diverge from other Cree before 1670, when the Cree expanded out of their homeland near James Bay with access to European firearms.",
+          "sources": [
+            "wp-cree"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "massachusett",
+      "name": "Massachusett",
+      "nativeName": "Wôpanâak",
+      "nativeScript": "Latn",
+      "glottocode": "wamp1249",
+      "iso639_3": "wam",
+      "parent": "proto-algonquian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-wamp1249",
+        "wp-massachusett"
+      ],
+      "period": {
+        "from": 1661,
+        "to": 1890,
+        "approx": true,
+        "note": "Start is the first printed attestation (Eliot's New Testament, 1661), not emergence. The last native speakers died in the late 19th century, possibly around 1890; a revival began in 1993.",
+        "sources": [
+          "wp-eliot-bible",
+          "wp-massachusett"
+        ]
+      },
+      "homeland": {
+        "lat": 42.28,
+        "lng": -71.35,
+        "label": "Eastern Massachusetts",
+        "sources": [
+          "wp-massachusett"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "eliot-indian-bible",
+          "year": 1663,
+          "approx": false,
+          "lat": 42.3736,
+          "lng": -71.119,
+          "place": "Cambridge, Massachusetts",
+          "description": "The complete Eliot Indian Bible, Mamusse Wunneetupanatamwe Up-Biblum God, was printed by Samuel Green and Marmaduke Johnson in Cambridge, with the help of the Native compositor James Printer; about 1,000 copies were printed.",
+          "sources": [
+            "illinois-eliot-bible",
+            "wp-eliot-bible"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-massachusett"
+        ]
+      },
+      "story": [
+        {
+          "text": "Massachusett, also known as Natick or Wôpanâak (Wampanoag), is an Eastern Algonquian language of southern New England. The Puritan missionary John Eliot, helped by Algonquian collaborators including Cockenoe, John Sassamon, Job Nesuton and James Printer, translated the Bible into it. The New Testament appeared at Cambridge, Massachusetts, in 1661 and the whole Bible in 1663, the first Bible printed in British North America.",
+          "sources": [
+            "wp-eliot-bible",
+            "wp-massachusett",
+            "glottolog-wamp1249"
+          ]
+        },
+        {
+          "text": "The language's last native speakers died in the late 19th century. In 1993 Jessie Little Doe Baird of the Mashpee Wampanoag launched the Wôpanâak Language Reclamation Project, which has brought the revived language back to several Wampanoag communities, where a handful of children are growing up as its first native speakers in more than a century.",
+          "sources": [
+            "wp-massachusett"
+          ]
+        }
+      ]
+    }
+  ]
+}

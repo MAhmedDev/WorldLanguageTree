@@ -1,0 +1,957 @@
+{
+ "file": "data/families/turkic.json",
+ "claims": {
+  "proto-turkic#identity": {
+   "hash": "043303887c34df4d",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/turk1311",
+    "https://en.wikipedia.org/wiki/Proto-Turkic_language"
+   ],
+   "note": "Glottolog turk1311 is the Turkic family; used for the proto node."
+  },
+  "proto-turkic#period": {
+   "hash": "e3089c0be6f52ee9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Turkic_language",
+    "https://www.cambridge.org/core/product/1FF8B5513D3D2598BD8D7C13FA7B0FA6"
+   ],
+   "note": "Infobox c. 3000-500 BCE; Uchiyama et al. split at end of 1st millennium BCE; r/z split 56 BCE-48 CE; note explains end date. Independent: Uchiyama et al. 2020 (Cambridge) homeland and ~2000 years ago spread."
+  },
+  "proto-turkic#homeland": {
+   "hash": "4213f59fdf15a6eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Turkic_language",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ],
+   "note": "47.5,112 lies in eastern Mongolia (Khentii/Dornod area); Uchiyama et al. most likely Eastern Mongolia."
+  },
+  "proto-turkic#story:0": {
+   "hash": "2e79e2a4ce1fe4fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Turkic_language",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ]
+  },
+  "proto-turkic#story:1": {
+   "hash": "9fbe6b0315ab5d46",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Turkic_language",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ]
+  },
+  "proto-turkic#note:0": {
+   "hash": "3f67aece3c7fd022",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Turkic_language",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ],
+   "note": "Robbeets & Savelyev 2017 quote (Janhunen Eastern Mongolia; Rona-Tas west and central Siberia) is in the Proto-Turkic article; Transcaspian-NE Asia in Turkic languages article."
+  },
+  "proto-turkic#note:1": {
+   "hash": "7e7f7931e5636a60",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkic_languages",
+    "https://en.wikipedia.org/wiki/Proto-Turkic_language"
+   ],
+   "note": "Rewrote: sources do not say Proto-Turkic 'would be cognate with Proto-Mongolic'; now states that similarities with Mongolic, Tungusic, Koreanic and Japonic led some linguists (e.g. Talât Tekin) to propose Altaic, which is widely rejected, the shared features being attributed to contact."
+  },
+  "chuvash#identity": {
+   "hash": "087f5023a87d46ee",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chuvash_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ],
+   "note": "Glottolog: Chuvash under Bolgar < Turkic."
+  },
+  "chuvash#period": {
+   "hash": "f557653f68e96f94",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chuvash_literature"
+   ]
+  },
+  "chuvash#homeland": {
+   "hash": "411429ae0e6de011",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chuvash_language"
+   ],
+   "note": "55.5,47.2 is in central Chuvashia."
+  },
+  "chuvash#attestation:bulgar-gravestones": {
+   "hash": "641aa753729d13b0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bulgarian_epigraphic_monuments"
+   ],
+   "note": "Removed unsupported 'mostly in Arabic script'; source says bilingual Arabic plus Turkic (Bulgar) texts."
+  },
+  "chuvash#scripts": {
+   "hash": "f1953818f9a8fe09",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chuvash_language"
+   ],
+   "note": "Cyrillic (modern); Arabic script adopted by the Volga Bulgars, used on the gravestones."
+  },
+  "chuvash#speakers": {
+   "hash": "7cb1a0aa4c3377d6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chuvash_language",
+    "https://www.themoscowtimes.com/2023/03/13/languages-in-russia-disappearing-faster-than-data-suggests-activists-warn-a80432"
+   ],
+   "note": "Infobox: 738,150 shown as 740,000 (2020 census), Ethnologue e26, native-speaker figure. Independent sources (Moscow Times; Alos-i-Font 2023) report about 700,000 in the 2020/21 census."
+  },
+  "chuvash#story:0": {
+   "hash": "be669813754b18dd",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chuvash_language",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ],
+   "note": "Removed unsupported 'split away from all the others' and 'Bulgar is its closest known relative'; now follows source: one of two principal branches; Bulgar (and possibly Khazar) records too scant to place Chuvash."
+  },
+  "chuvash#story:1": {
+   "hash": "29d7a0ad7963a5f0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chuvash_literature",
+    "https://en.wikipedia.org/wiki/Bulgarian_epigraphic_monuments"
+   ],
+   "note": "Removed unsupported 'written mainly in Arabic script'; Faizkhanov 1863 and Oghur speech confirmed."
+  },
+  "common-turkic#identity": {
+   "hash": "880f53f3150773f0",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ]
+  },
+  "old-turkic#identity": {
+   "hash": "500acf29f79eba6f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Turkic",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ],
+   "note": "Glottolog oldu1238 under Common Turkic; native name from WP infobox."
+  },
+  "old-turkic#period": {
+   "hash": "f2b71ffbcf2f3666",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Turkic"
+   ]
+  },
+  "old-turkic#homeland": {
+   "hash": "79fb37c236efc726",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Turkic",
+    "https://en.wikipedia.org/wiki/Orkhon_inscriptions"
+   ],
+   "note": "47.56,102.84 matches the Orkhon inscriptions discovery coordinates (47°33'38\"N 102°50'28\"E)."
+  },
+  "old-turkic#attestation:bain-tsokto": {
+   "hash": "3e134665487b2837",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tonyukuk_inscriptions",
+    "https://en.wikipedia.org/wiki/Old_Turkic"
+   ],
+   "note": "WP coords 47.69449,107.47594 (Nalaikh); c. 716 by Tonyukuk, counselor of four khagans."
+  },
+  "old-turkic#attestation:kul-tigin-stele": {
+   "hash": "185cd98fb5743888",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Orkhon_inscriptions",
+    "https://en.wikipedia.org/wiki/Old_Turkic",
+    "https://www.britannica.com/topic/Orhon-inscriptions"
+   ],
+   "note": "Coordinates match discovery site; Britannica: erected 732."
+  },
+  "old-turkic#scripts": {
+   "hash": "a98570e0fa00036d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Turkic"
+   ]
+  },
+  "old-turkic#story:0": {
+   "hash": "9537ed38529bbe0d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Turkic",
+    "https://en.wikipedia.org/wiki/Tonyukuk_inscriptions",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ]
+  },
+  "old-turkic#story:1": {
+   "hash": "352a30f4cbe25673",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uyghur_language",
+    "https://en.wikipedia.org/wiki/Orkhon_inscriptions",
+    "https://en.wikipedia.org/wiki/Old_Turkic"
+   ],
+   "note": "Old Uyghur/Western Yugur sentence was not in the cited sources; reworded to Clauson's view as given in the Uyghur article and added wp-uyghur as a source."
+  },
+  "old-turkic#work:kul-tigin-inscription": {
+   "hash": "718f8e429d508d2d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://archive.org/stream/inscriptionsdel00thomgoog/inscriptionsdel00thomgoog_djvu.txt",
+    "https://en.wikipedia.org/wiki/Orkhon_inscriptions"
+   ],
+   "note": "Excerpt and I S 1 location confirmed in Thomsen; translation of bolmis changed from 'born in heaven' to 'come into being in heaven' (Thomsen renders 'institue par le ciel')."
+  },
+  "sakha#identity": {
+   "hash": "9656a62cb1d10ab9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yakut_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ],
+   "note": "Glottolog: Sakha under Sakha-Dolgan < Common Turkic."
+  },
+  "sakha#period": {
+   "hash": "02c6a0c33b150d48",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yakuts"
+   ]
+  },
+  "sakha#homeland": {
+   "hash": "d66ea9506d692fdb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yakuts",
+    "https://en.wikipedia.org/wiki/Yakut_language"
+   ],
+   "note": "62.03,129.73 is Yakutsk on the middle Lena."
+  },
+  "sakha#scripts": {
+   "hash": "07d9ad93d9239788",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yakut_language"
+   ],
+   "note": "Cyrillic since 1939; Novgorodov and Yañalif Latin alphabets earlier."
+  },
+  "sakha#story:0": {
+   "hash": "62156b3496aa661a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yakut_language"
+   ],
+   "note": "'Its closest relative is Dolgan' softened to 'Dolgan is a close relative' (source wording); 'loss of the genitive' changed to 'lack of a genitive', linked to Evenki contact by some scholars, as the source says."
+  },
+  "sakha#story:1": {
+   "hash": "f6d4b6913839a23a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yakuts"
+   ],
+   "note": "Yukaghir/Tungusic admixture is stated by the source as the conclusion of many researchers, not as established fact; wording attributed."
+  },
+  "oghuz#identity": {
+   "hash": "21505dcaa27bebec",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ]
+  },
+  "old-anatolian-turkish#identity": {
+   "hash": "7eb72d47d0262ecc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish"
+   ],
+   "note": "No matching Glottolog languoid (anat1259 is a modern Turkish dialect group); null is correct."
+  },
+  "old-anatolian-turkish#period": {
+   "hash": "51446607f22ef7f8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish"
+   ]
+  },
+  "old-anatolian-turkish#homeland": {
+   "hash": "d9aa765be142a59a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish",
+    "https://en.wikipedia.org/wiki/Turkish_language"
+   ],
+   "note": "37.87,32.49 is Konya, inside Anatolia."
+  },
+  "old-anatolian-turkish#scripts": {
+   "hash": "c027354c6839e978",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish"
+   ]
+  },
+  "old-anatolian-turkish#story:0": {
+   "hash": "a80413d55ad356f3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish",
+    "https://en.wikipedia.org/wiki/Turkish_language",
+    "https://ayk.gov.tr/en/?p=56475"
+   ],
+   "note": "1277 firman independently confirmed by a web search (Atatürk Supreme Council for Culture, Language and History: 13 May 1277; page not fetchable directly)."
+  },
+  "old-anatolian-turkish#story:1": {
+   "hash": "81e25a71a1d4002b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yunus_Emre",
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish"
+   ],
+   "note": "Removed Sarikoy/Sivrihisar and 'around' hedges not in the cited article; now gives 1238-1320 as in the source."
+  },
+  "ottoman-turkish#identity": {
+   "hash": "91a0b0367250bd26",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ottoman_Turkish"
+   ]
+  },
+  "ottoman-turkish#period": {
+   "hash": "a92d59c729c46e87",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ottoman_Turkish"
+   ]
+  },
+  "ottoman-turkish#homeland": {
+   "hash": "db7c24f7b3f89ab8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ottoman_Turkish"
+   ],
+   "note": "39.93,32.86 (Ankara) is in Anatolia."
+  },
+  "ottoman-turkish#scripts": {
+   "hash": "936da926be18d7fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ottoman_Turkish"
+   ]
+  },
+  "ottoman-turkish#story:0": {
+   "hash": "f3c9f702ac6dff92",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ottoman_Turkish"
+   ],
+   "note": "Removed Khedivate of Egypt/Beylik of Tunis claim, which the cited article does not state; replaced with the article's 14th-20th century scope."
+  },
+  "ottoman-turkish#story:1": {
+   "hash": "9e32a59116b97e72",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ottoman_Turkish"
+   ],
+   "note": "Removed the three-register (Fasih/Orta/Kaba) sentence, absent from the cited article; replaced with the article's statement on kaba Turkce."
+  },
+  "turkish#identity": {
+   "hash": "477d3e65ef4d2b3b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkish_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ]
+  },
+  "turkish#period": {
+   "hash": "229e6aaa3111f9b0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ottoman_Turkish",
+    "https://en.wikipedia.org/wiki/Turkish_language"
+   ]
+  },
+  "turkish#homeland": {
+   "hash": "27fc4f19941246b7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkish_language"
+   ]
+  },
+  "turkish#scripts": {
+   "hash": "e9c70911ad196e89",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkish_language"
+   ]
+  },
+  "turkish#speakers": {
+   "hash": "36b6faaf0762ff2b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkish_language"
+   ],
+   "note": "Infobox L1 85.19 million (2006-2021, Ethnologue e28)."
+  },
+  "turkish#story:0": {
+   "hash": "dd6561b91acd1db4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkish_language",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ]
+  },
+  "turkish#story:1": {
+   "hash": "afdc6b3bdc8580f6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkish_language"
+   ]
+  },
+  "azerbaijani#identity": {
+   "hash": "fc6c7964300aa359",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Azerbaijani_language",
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ],
+   "note": "Glottolog azer1255 ('Central Oghuz') contains exactly North and South Azerbaijani, matching the aze macrolanguage. Parent Old Anatolian Turkish follows WP infobox ancestor and the OAT article; Glottolog instead places it beside West Oghuz under Nuclear Oghuz."
+  },
+  "azerbaijani#period": {
+   "hash": "6d40e6db452d1eb5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Azerbaijani_language"
+   ]
+  },
+  "azerbaijani#homeland": {
+   "hash": "cf26af2c0f87e891",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Azerbaijani_language"
+   ],
+   "note": "39.5,47 lies in Azerbaijan near the Iranian border."
+  },
+  "azerbaijani#scripts": {
+   "hash": "7693c45c4617ae2c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Azerbaijani_language"
+   ]
+  },
+  "azerbaijani#speakers": {
+   "hash": "85881490643a9d49",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Azerbaijani_language",
+    "https://hlt.bme.hu/en/dld/language/1"
+   ],
+   "note": "Infobox 23.85 million (2022, Ethnologue e25); an older Ethnologue mirror lists aze as L1 24.2 million."
+  },
+  "azerbaijani#story:0": {
+   "hash": "c5cf9f2090d75cb0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Azerbaijani_language",
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish"
+   ],
+   "note": "'Became modern Azerbaijani between the 18th and 20th centuries' was not supported; now says Ajemi/Middle Azerbaijani is the predecessor and the modern period dates from the 18th century."
+  },
+  "azerbaijani#story:1": {
+   "hash": "cb6802e8c322aed2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Azerbaijani_language"
+   ]
+  },
+  "turkmen#identity": {
+   "hash": "3dd7a941ee57cbc6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkmen_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ]
+  },
+  "turkmen#period": {
+   "hash": "8fc8280d7c5d3813",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkmen_language"
+   ]
+  },
+  "turkmen#homeland": {
+   "hash": "1d2e62b755db3b65",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkmen_language"
+   ],
+   "note": "37.95,58.38 is Ashgabat."
+  },
+  "turkmen#scripts": {
+   "hash": "917b8266c1071340",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkmen_language"
+   ]
+  },
+  "turkmen#speakers": {
+   "hash": "d3a050df308e6e12",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkmen_language"
+   ],
+   "note": "Infobox L1 6.80 million (2023, Ethnologue e28)."
+  },
+  "turkmen#story:0": {
+   "hash": "4e7ede9c2d67b5cf",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkmen_language"
+   ],
+   "note": "'Significant communities in Iran and Afghanistan and smaller ones...' not in source; now: also spoken in northeastern Iran, northwestern Afghanistan and to a lesser degree Uzbekistan and Tajikistan."
+  },
+  "turkmen#story:1": {
+   "hash": "a5efea69ad75689d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkmen_language",
+    "https://en.wikipedia.org/wiki/Turkmen_alphabet"
+   ],
+   "note": "Source says the Mejlis approved a presidential decree on 12 April 1993; reworded. Removed 'which is official today' (the 1993 alphabet was revised in 1999)."
+  },
+  "karluk#identity": {
+   "hash": "83a5ce2c48f201cc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Turkic_languages",
+    "https://en.wikipedia.org/wiki/Uzbek_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ],
+   "note": "Glottolog names this node 'Turkestan' (uygh1241); it contains Chagatai, Uzbek and Uyghur, i.e. the Karluk branch."
+  },
+  "karakhanid#identity": {
+   "hash": "80f0f2cee5d31edd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Karakhanid_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ],
+   "note": "Glottolog qara1244 (dialect, Qarakhanid)."
+  },
+  "karakhanid#period": {
+   "hash": "ca9e40dbde0a0dee",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Karakhanid_language"
+   ]
+  },
+  "karakhanid#homeland": {
+   "hash": "0bd89c48cc31a2c5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Karakhanid_language"
+   ],
+   "note": "39.47,75.99 is Kashgar."
+  },
+  "karakhanid#attestation:kutadgu-bilig": {
+   "hash": "764e028d457f165b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kutadgu_Bilig",
+    "https://www.britannica.com/topic/Kutudgu-bilig"
+   ],
+   "note": "Britannica: completed in Kashgar 1069-1070."
+  },
+  "karakhanid#scripts": {
+   "hash": "656b98770e6b3bbd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Karakhanid_language",
+    "https://en.wikipedia.org/wiki/Kutadgu_Bilig"
+   ],
+   "note": "Arabic; Old Uyghur script in a Kutadgu Bilig manuscript."
+  },
+  "karakhanid#story:0": {
+   "hash": "6c7d86b5502ca670",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Karakhanid_language",
+    "https://en.wikipedia.org/wiki/Old_Turkic"
+   ]
+  },
+  "karakhanid#story:1": {
+   "hash": "a551b1348350abd4",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kutadgu_Bilig",
+    "https://en.wikipedia.org/wiki/Uyghur_language",
+    "https://en.wikipedia.org/wiki/Karakhanid_language",
+    "https://www.britannica.com/topic/Kutudgu-bilig"
+   ],
+   "note": "Unsourced superlative 'two best-known works' changed to 'two important works' (source: 'considered to be important literary works'). Other details confirmed; Britannica confirms 1069-70 completion in Kashgar."
+  },
+  "karakhanid#note:0": {
+   "hash": "c9772e156a3dac0c",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt",
+    "https://en.wikipedia.org/wiki/Karakhanid_language",
+    "https://en.wikipedia.org/wiki/Old_Turkic"
+   ],
+   "note": "Glottolog newick: Qarakhanid [qara1244] is under Old Turkic [oldu1238]; the departure is explained."
+  },
+  "chagatai#identity": {
+   "hash": "01b497b83e61ee35",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chagatai_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ]
+  },
+  "chagatai#period": {
+   "hash": "6ff7556cab15e8c3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chagatai_language"
+   ]
+  },
+  "chagatai#homeland": {
+   "hash": "872a2d1718b2a83d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chagatai_language"
+   ],
+   "note": "39.65,66.96 (Samarkand) is in Uzbekistan."
+  },
+  "chagatai#attestation:muhakamat-al-lughatayn": {
+   "hash": "36ec8dbaf53cc98f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ali-Shir_Nava%27i",
+    "https://en.wikipedia.org/wiki/Chagatai_language"
+   ],
+   "note": "Herat 34.35,62.2 correct; completed December 1499."
+  },
+  "chagatai#scripts": {
+   "hash": "51c2b50879298fe2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chagatai_language"
+   ]
+  },
+  "chagatai#story:0": {
+   "hash": "8f111efcc8e07d56",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chagatai_language"
+   ]
+  },
+  "chagatai#story:1": {
+   "hash": "3ce8232a1e2c3ee9",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ali-Shir_Nava%27i",
+    "https://en.wikipedia.org/wiki/Chagatai_language"
+   ],
+   "note": "Superlative attributed as the source states it: Nava'i 'is generally regarded as' its greatest representative."
+  },
+  "uzbek#identity": {
+   "hash": "412c1627595376f7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uzbek_language",
+    "https://en.wikipedia.org/wiki/Uyghur_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ],
+   "note": "Glottolog uzbe1247 = Uzbek (Northern + Southern)."
+  },
+  "uzbek#period": {
+   "hash": "27e8d9510afc496d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uyghur_language",
+    "https://en.wikipedia.org/wiki/Uzbek_language"
+   ]
+  },
+  "uzbek#homeland": {
+   "hash": "460a676a77dc26df",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uzbek_language"
+   ],
+   "note": "41.31,69.24 is Tashkent."
+  },
+  "uzbek#scripts": {
+   "hash": "fe487e89200524b9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uzbek_language"
+   ]
+  },
+  "uzbek#speakers": {
+   "hash": "ca4c70611c41c6b9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uzbek_language"
+   ],
+   "note": "Infobox 35.87 million incl. Northern and Southern Uzbek (2020-2024); native speakers."
+  },
+  "uzbek#story:0": {
+   "hash": "2923335a003166eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uzbek_language"
+   ]
+  },
+  "uzbek#story:1": {
+   "hash": "d9e4e66e77b55469",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uzbek_language"
+   ],
+   "note": "Source says both alphabets are widely used, not that Cyrillic remains in heavy use; wording fixed."
+  },
+  "uyghur#identity": {
+   "hash": "bfd86ab242d8e7fe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uyghur_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ]
+  },
+  "uyghur#period": {
+   "hash": "e5721d6991f75392",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uyghur_language"
+   ]
+  },
+  "uyghur#homeland": {
+   "hash": "fce0c5a2a3f88d4e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uyghur_language"
+   ],
+   "note": "41,82 lies in Xinjiang (Aksu area)."
+  },
+  "uyghur#scripts": {
+   "hash": "72ecc0673a204ba7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uyghur_language"
+   ]
+  },
+  "uyghur#story:0": {
+   "hash": "1fe800695fa52165",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uyghur_language"
+   ],
+   "note": "'Where it is an official language' not stated in source; now 'lingua franca used in both social and official spheres'. Country list corrected to the source's Kazakhstan, Kyrgyzstan and Uzbekistan."
+  },
+  "uyghur#story:1": {
+   "hash": "ac49c2aaaecf3dff",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uyghur_language"
+   ],
+   "note": "'Reformed to represent all the sounds' overstated; source says the 20th-century modifications made marking of all vowels mandatory."
+  },
+  "kipchak#identity": {
+   "hash": "49ad4cc1327d86a7",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt",
+    "https://en.wikipedia.org/wiki/Turkic_languages"
+   ]
+  },
+  "kazakh#identity": {
+   "hash": "6370cb5311be7368",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kazakh_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ]
+  },
+  "kazakh#period": {
+   "hash": "dd1a3367db89d269",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kazakh_language"
+   ]
+  },
+  "kazakh#homeland": {
+   "hash": "c5e82db10bacf3a8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kazakh_language"
+   ],
+   "note": "48,68 is in central Kazakhstan."
+  },
+  "kazakh#scripts": {
+   "hash": "48f2bad285f64268",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kazakh_language"
+   ]
+  },
+  "kazakh#speakers": {
+   "hash": "063605ef2813a61b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kazakh_language"
+   ],
+   "note": "Infobox 16.44 million (2021 census, Ethnologue e27)."
+  },
+  "kazakh#story:0": {
+   "hash": "1266bf477f26dbdb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kazakh_language"
+   ]
+  },
+  "kazakh#story:1": {
+   "hash": "01224bbc5ed3fa92",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kazakh_language"
+   ]
+  },
+  "kyrgyz#identity": {
+   "hash": "626d2cd6a5d5c313",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kyrgyz_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ]
+  },
+  "kyrgyz#period": {
+   "hash": "a982032653ee00c2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kyrgyz_language"
+   ]
+  },
+  "kyrgyz#homeland": {
+   "hash": "84f3ea1fb02b3153",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kyrgyz_language"
+   ],
+   "note": "41.5,75 is in Naryn Region, Tian Shan, Kyrgyzstan."
+  },
+  "kyrgyz#scripts": {
+   "hash": "4592078546a0f2fb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kyrgyz_language"
+   ],
+   "note": "Source states Kyrgyz was originally written in Göktürk script."
+  },
+  "kyrgyz#speakers": {
+   "hash": "8ed2a08c993dcb16",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kyrgyz_language"
+   ],
+   "note": "Infobox 5.61 million (2000-2024, Ethnologue)."
+  },
+  "kyrgyz#story:0": {
+   "hash": "139cf44dbd0077bf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kyrgyz_language"
+   ]
+  },
+  "kyrgyz#story:1": {
+   "hash": "97cb416e6494a548",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kyrgyz_language"
+   ]
+  },
+  "tatar#identity": {
+   "hash": "a037ea92bce1ede4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tatar_language",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt"
+   ]
+  },
+  "tatar#period": {
+   "hash": "9af648c0e3c20fd4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ural-Volga_Turki",
+    "https://en.wikipedia.org/wiki/Tatar_language"
+   ]
+  },
+  "tatar#homeland": {
+   "hash": "85a4097ab142bca4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tatar_language"
+   ],
+   "note": "55.79,49.12 is Kazan."
+  },
+  "tatar#scripts": {
+   "hash": "d765f815557a3d77",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tatar_language"
+   ]
+  },
+  "tatar#speakers": {
+   "hash": "d90ac8491f5d36a1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tatar_language",
+    "https://realnoevremya.com/articles/6870-census-2020-tatars-and-russians-in-russia-become-fewer-in-ten-years"
+   ],
+   "note": "Infobox L1 4.03 million (2020, Ethnologue e27). Russian census alone counts 3.26 million speakers in Russia."
+  },
+  "tatar#story:0": {
+   "hash": "b2765f1c1926533f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tatar_language"
+   ]
+  },
+  "tatar#story:1": {
+   "hash": "7a2220b6ac4980ac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ural-Volga_Turki",
+    "https://en.wikipedia.org/wiki/Tatar_language"
+   ],
+   "note": "Old_Tatar_language redirects to Ural-Volga Turki."
+  },
+  "azerbaijani#note:0": {
+   "hash": "203955367d3b9495",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/azer1255",
+    "https://glottolog.org/resource/languoid/id/turk1311.newick.txt",
+    "https://en.wikipedia.org/wiki/Azerbaijani_language",
+    "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish"
+   ],
+   "note": "New note on Glottolog (Central Oghuz azer1255 under Nuclear Oghuz, sister of West Oghuz/East Oghuz) versus Wikipedia-based parent."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:58:57.921Z",
+ "verifier": "auditor-north-eurasia"
+}

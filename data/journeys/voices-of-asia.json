@@ -1,0 +1,121 @@
+{
+  "id": "voices-of-asia",
+  "title": "Voices of Asia",
+  "subtitle": "From divination on bone to a verse epic in chữ Nôm, hear how seven languages of East and mainland Southeast Asia first took to writing.",
+  "sources": [
+    {
+      "id": "oracle-bone",
+      "title": "Oracle bone script",
+      "url": "https://en.wikipedia.org/wiki/Oracle_bone_script",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "old-khmer",
+      "title": "Old Khmer",
+      "url": "https://en.wikipedia.org/wiki/Old_Khmer",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "tang-poetry",
+      "title": "Tang poetry",
+      "url": "https://en.wikipedia.org/wiki/Tang_poetry",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "manyoshu",
+      "title": "Man'yōshū",
+      "url": "https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "old-tibetan",
+      "title": "Old Tibetan",
+      "url": "https://en.wikipedia.org/wiki/Old_Tibetan",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "hunminjeongeum",
+      "title": "Hunminjeongeum",
+      "url": "https://en.wikipedia.org/wiki/Hunminjeongeum",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "kieu",
+      "title": "The Tale of Kiều",
+      "url": "https://en.wikipedia.org/wiki/The_Tale_of_Kieu",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "sadnalegs",
+      "title": "Sadnalegs",
+      "url": "https://en.wikipedia.org/wiki/Sadnalegs",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "steps": [
+    {
+      "languoid": "old-chinese",
+      "year": -1250,
+      "title": "Questions put to the bones",
+      "text": "At Yinxu, the last Shang capital near modern Anyang, diviners exposed ox shoulder bones and turtle plastrons to flame, read the cracks, and inscribed both the question and the interpretation. Oracle bone script, dated to roughly 1250 to 1050 BCE, is the oldest attested form of written Chinese. Wang Yirong recognized the inscriptions as ancient writing in 1899, and about 150,000 inscriptions have since been uncovered.",
+      "sources": [
+        "oracle-bone"
+      ]
+    },
+    {
+      "languoid": "old-khmer",
+      "year": 611,
+      "title": "Khmer appears in stone",
+      "text": "Old Khmer appears abruptly in 611 CE, when earlier inscriptions in the region were in Sanskrit. Written in a script derived from Pallava, the inscriptions are mostly legal or administrative, dealing with land, temple donations and genealogies. The Sambor inscription of 683 contains an early decimal use of zero. Inscriptions run from the early 7th to the early 15th century.",
+      "sources": [
+        "old-khmer"
+      ]
+    },
+    {
+      "languoid": "middle-chinese",
+      "year": 750,
+      "title": "Poets of the Tang",
+      "text": "The Tang dynasty ruled from 618 to 907. Its two most celebrated poets were Li Bai (701 to 762), noted for folk-influenced language, and Du Fu (712 to 770), for his formal style. Scholars had to master poetry for the civil service examinations. The Complete Tang Poems, compiled in the early eighteenth century, includes over 48,900 poems by over 2,200 poets.",
+      "sources": [
+        "tang-poetry"
+      ]
+    },
+    {
+      "languoid": "old-japanese",
+      "year": 759,
+      "title": "Ten thousand leaves",
+      "text": "The Man'yōshū, the oldest surviving collection of Japanese waka, was compiled after 759 in the Nara period, with Ōtomo no Yakamochi widely believed to be its compiler or last editor. Its 20 volumes hold more than 4,500 poems by people of many ranks, from emperors to soldiers and peasants, written in man'yōgana, an early writing system that eventually led to kana.",
+      "sources": [
+        "manyoshu"
+      ]
+    },
+    {
+      "languoid": "old-tibetan",
+      "year": 816,
+      "title": "Tibetan is standardized",
+      "text": "Old Tibetan documents date from the mid-7th century, when the Tibetan Empire adopted writing, to the early 9th century. Wikipedia dates a thorough standardization of literary Tibetan, producing Classical Tibetan, to 816 CE, in the reign of King Sadnalegs, although he probably died in 815. Modern spelling still reflects the 9th-century spoken language, which creates a gap between spelling and pronunciation.",
+      "sources": [
+        "old-tibetan",
+        "sadnalegs"
+      ]
+    },
+    {
+      "languoid": "middle-korean",
+      "year": 1446,
+      "title": "Sejong's new letters",
+      "text": "In the ninth month of 1446, the Hunminjeongeum introduced the first native Korean alphabet, the one now usually called Hangul. King Sejong wrote the base text in Classical Chinese, and in its preface says he has newly designed twenty-eight letters for everyday use. A copy of the full text, including the Haerye commentary rediscovered in 1940, entered UNESCO's Memory of the World Register in 1997.",
+      "sources": [
+        "hunminjeongeum"
+      ]
+    },
+    {
+      "languoid": "vietnamese",
+      "year": 1820,
+      "title": "The Tale of Kiều",
+      "text": "Nguyễn Du (1765 to 1820) wrote The Tale of Kiều as 3,254 verses in the Vietnamese lục bát, six-eight, meter, using the chữ Nôm script. The article gives 1820, the year of his death, as its date of issue. He made use of the plot of a 17th-century Chinese novel, and the work has been translated into 20 languages.",
+      "sources": [
+        "kieu"
+      ]
+    }
+  ]
+}

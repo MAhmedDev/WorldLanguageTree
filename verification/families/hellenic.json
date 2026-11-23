@@ -1,0 +1,475 @@
+{
+ "file": "data/families/hellenic.json",
+ "claims": {
+  "proto-greek#identity": {
+   "hash": "952223450f832e29",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/gree1276",
+    "https://en.wikipedia.org/wiki/Proto-Greek_language"
+   ]
+  },
+  "proto-greek#period": {
+   "hash": "4cd96ed6d248caef",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Greek_language"
+   ]
+  },
+  "proto-greek#homeland": {
+   "hash": "f42c622e065953be",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Greek_language"
+   ]
+  },
+  "proto-greek#story:0": {
+   "hash": "8b429e35c679ad39",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Greek_language"
+   ]
+  },
+  "proto-greek#story:1": {
+   "hash": "d27a0c243e00f601",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Greek_language"
+   ]
+  },
+  "proto-greek#note:0": {
+   "hash": "9e96e51c3c72d6fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Greek_language"
+   ]
+  },
+  "proto-greek#note:1": {
+   "hash": "79ffcda4c3eac619",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Greek_language",
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ]
+  },
+  "mycenaean-greek#identity": {
+   "hash": "777d048d6c6886a7",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/myce1242",
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek"
+   ]
+  },
+  "mycenaean-greek#period": {
+   "hash": "364ab67bdc55e452",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek",
+    "https://en.wikipedia.org/wiki/Greek_language"
+   ]
+  },
+  "mycenaean-greek#homeland": {
+   "hash": "4f3791e1caac6095",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek"
+   ]
+  },
+  "mycenaean-greek#attestation:iklaina-tablet": {
+   "hash": "3d68db60e7946ba0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Iklaina",
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek"
+   ],
+   "note": "'It is the earliest written evidence of Greek' overstated: Knossos Chariot Tablets are dated to a comparable range (later 15th to earliest 14th c.). Reworded to 'among the earliest' and 'earliest Mycenaean tablet found so far on mainland Greece' per the Iklaina article."
+  },
+  "mycenaean-greek#attestation:knossos-chariot-tablets": {
+   "hash": "2aac291b5625e0c0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek"
+   ]
+  },
+  "mycenaean-greek#attestation:pylos-archive": {
+   "hash": "6299e5f16b854b3c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Palace_of_Nestor"
+   ]
+  },
+  "mycenaean-greek#scripts": {
+   "hash": "6c3e1fc45a4ca547",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek"
+   ]
+  },
+  "mycenaean-greek#story:0": {
+   "hash": "21415c4f23e74adc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek"
+   ]
+  },
+  "mycenaean-greek#story:1": {
+   "hash": "eace4c85e7ddf7c8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek",
+    "https://en.wikipedia.org/wiki/Palace_of_Nestor"
+   ]
+  },
+  "mycenaean-greek#story:2": {
+   "hash": "819a58257923b9c8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek"
+   ],
+   "note": "Removed unsupported sentence on Greek-specific sound changes and the speculative inference about reading consistency; kept the sourced word examples and Linear B limitations."
+  },
+  "mycenaean-greek#note:0": {
+   "hash": "0313281fc49cd6eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mycenaean_Greek",
+    "https://en.wikipedia.org/wiki/Ancient_Greek"
+   ]
+  },
+  "ancient-greek#identity": {
+   "hash": "ba3f74254fce0141",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/anci1242",
+    "https://en.wikipedia.org/wiki/Ancient_Greek"
+   ]
+  },
+  "ancient-greek#period": {
+   "hash": "710009402875650f",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ancient_Greek"
+   ],
+   "note": "'Dialect groups had developed by about 1120 BC' presented as a scholarly assumption (source tags it as assumption, no later than 1120 BC)."
+  },
+  "ancient-greek#homeland": {
+   "hash": "2701384b4f4e1ce7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ancient_Greek"
+   ]
+  },
+  "ancient-greek#attestation:dipylon-inscription": {
+   "hash": "2c66d9b07dd5294d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dipylon_inscription"
+   ],
+   "note": "'wine jug' changed to 'oenochoe (a pitcher)': source does not say it held wine."
+  },
+  "ancient-greek#attestation:nestors-cup": {
+   "hash": "4d2d71d104bed915",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nestor%27s_Cup_(Pithekoussai)"
+   ]
+  },
+  "ancient-greek#scripts": {
+   "hash": "2e57fc43fa18a014",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ancient_Greek",
+    "https://en.wikipedia.org/wiki/Greek_language"
+   ]
+  },
+  "ancient-greek#story:0": {
+   "hash": "c7d7c18066e17aab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ancient_Greek"
+   ]
+  },
+  "ancient-greek#story:1": {
+   "hash": "2344b40a52114b58",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ancient_Greek"
+   ]
+  },
+  "ancient-greek#story:2": {
+   "hash": "71179a2fe14e1d6f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dipylon_inscription",
+    "https://en.wikipedia.org/wiki/Nestor%27s_Cup_(Pithekoussai)"
+   ]
+  },
+  "ancient-greek#work:iliad": {
+   "hash": "326b9c164ffea162",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.01.0133:book=1:card=1",
+    "https://gutenberg.pglaf.org/2/1/9/2199/2199-0.txt",
+    "https://en.wikipedia.org/wiki/Iliad"
+   ],
+   "note": "Added translationYear 1898 (Butler's Iliad, Gutenberg 2199; Butler d. 1902). Excerpt matches Perseus grc2 lines 1.1-7 and Butler text exactly."
+  },
+  "ancient-greek#work:odyssey": {
+   "hash": "ddffbcf97daa5951",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.01.0135:book=1:card=1",
+    "https://gutenberg.pglaf.org/1/7/2/1727/1727-0.txt",
+    "https://en.wikipedia.org/wiki/Odyssey"
+   ]
+  },
+  "ancient-greek#work:sappho-ode-to-aphrodite": {
+   "hash": "c935b7954f79b094",
+   "verdict": "verified",
+   "evidence": [
+    "https://gutenberg.pglaf.org/5/7/3/9/57390/57390-0.txt",
+    "https://en.wikipedia.org/wiki/Sappho",
+    "https://en.wikipedia.org/wiki/Sappho_1"
+   ]
+  },
+  "ancient-greek#note:0": {
+   "hash": "efa5da5a25d050ee",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/anci1242"
+   ]
+  },
+  "koine-greek#identity": {
+   "hash": "74b448104a37beb7",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/koin1234",
+    "https://en.wikipedia.org/wiki/Koine_Greek"
+   ]
+  },
+  "koine-greek#period": {
+   "hash": "6e4a5e90bde8eb57",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Koine_Greek",
+    "https://en.wikipedia.org/wiki/Medieval_Greek"
+   ]
+  },
+  "koine-greek#homeland": {
+   "hash": "7db9cb6d01dbb90c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Koine_Greek"
+   ]
+  },
+  "koine-greek#attestation:rosetta-stone": {
+   "hash": "07d10ce8edc4955e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Rosetta_Stone"
+   ]
+  },
+  "koine-greek#attestation:codex-sinaiticus": {
+   "hash": "b9bd0e5acd166680",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Codex_Sinaiticus"
+   ]
+  },
+  "koine-greek#scripts": {
+   "hash": "849b07fc79990abe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Koine_Greek"
+   ]
+  },
+  "koine-greek#story:0": {
+   "hash": "6d25e7125e3307dd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Koine_Greek"
+   ]
+  },
+  "koine-greek#story:1": {
+   "hash": "8e3a76993dcba790",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Koine_Greek"
+   ]
+  },
+  "koine-greek#story:2": {
+   "hash": "ebaf2e5d3b202a02",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "https://en.wikipedia.org/wiki/Koine_Greek"
+   ],
+   "note": "Liturgical-use claim attributed to Wikipedia, since continuity is not independently established."
+  },
+  "koine-greek#work:new-testament": {
+   "hash": "5e23c3bb577c3d38",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.01.0155:book=John:chapter=1:verse=1",
+    "https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus:text:1999.01.0155:book=John:chapter=1:verse=2",
+    "https://ebible.org/kjv/JHN01.htm",
+    "https://en.wikipedia.org/wiki/New_Testament"
+   ]
+  },
+  "koine-greek#note:0": {
+   "hash": "368a3631bf4b4276",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Koine_Greek"
+   ]
+  },
+  "medieval-greek#identity": {
+   "hash": "644cfdc8c6e52dab",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/medi1251",
+    "https://en.wikipedia.org/wiki/Medieval_Greek"
+   ]
+  },
+  "medieval-greek#period": {
+   "hash": "76eb1b9125984043",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Medieval_Greek"
+   ]
+  },
+  "medieval-greek#homeland": {
+   "hash": "51cefb64cda41124",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Medieval_Greek"
+   ]
+  },
+  "medieval-greek#attestation:alexiad": {
+   "hash": "bbcdfd0152fae920",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Alexiad",
+    "https://en.wikipedia.org/wiki/Kecharitomene_Monastery"
+   ]
+  },
+  "medieval-greek#scripts": {
+   "hash": "e8c94fa68a05d9a9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Medieval_Greek"
+   ]
+  },
+  "medieval-greek#story:0": {
+   "hash": "6f9d4bae38f82f84",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Medieval_Greek"
+   ]
+  },
+  "medieval-greek#story:1": {
+   "hash": "5b2476119e610384",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Medieval_Greek",
+    "https://en.wikipedia.org/wiki/Alexiad"
+   ]
+  },
+  "medieval-greek#story:2": {
+   "hash": "6801434ee82af185",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Medieval_Greek"
+   ]
+  },
+  "modern-greek#identity": {
+   "hash": "c07583e3f9845018",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/mode1248",
+    "https://en.wikipedia.org/wiki/Modern_Greek"
+   ]
+  },
+  "modern-greek#period": {
+   "hash": "ca1001348d77dd6f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Greek"
+   ]
+  },
+  "modern-greek#homeland": {
+   "hash": "536316cb7106dd48",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Greek_language"
+   ]
+  },
+  "modern-greek#attestation:erotokritos": {
+   "hash": "b850b7700bcbc395",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Erotokritos"
+   ]
+  },
+  "modern-greek#attestation:hymn-to-liberty": {
+   "hash": "55944da8e987e9cb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hymn_to_Liberty"
+   ]
+  },
+  "modern-greek#scripts": {
+   "hash": "182dd91233f99f21",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Greek_language"
+   ]
+  },
+  "modern-greek#speakers": {
+   "hash": "5a0cd28df1064e23",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Greek_language"
+   ]
+  },
+  "modern-greek#story:0": {
+   "hash": "eb04b12a4abe0460",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Greek"
+   ]
+  },
+  "modern-greek#story:1": {
+   "hash": "381118ae18bf0b95",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Erotokritos",
+    "https://en.wikipedia.org/wiki/Hymn_to_Liberty"
+   ],
+   "note": "Erotokritos 'still recited to music' changed to source wording: remains popular and accompanied by music when publicly recited."
+  },
+  "modern-greek#story:2": {
+   "hash": "c96122fb319ef0c9",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Greek",
+    "https://en.wikipedia.org/wiki/Greek_language",
+    "https://european-union.europa.eu/principles-countries-history/languages_en"
+   ],
+   "note": "Added EU source for '24 official languages' (not in Wikipedia pages cited)."
+  },
+  "modern-greek#work:hymn-to-liberty": {
+   "hash": "46a37027dd478b32",
+   "verdict": "verified",
+   "evidence": [
+    "https://el.wikisource.org/wiki/%CE%8E%CE%BC%CE%BD%CE%BF%CF%82_%CE%B5%CE%B9%CF%82_%CF%84%CE%B7%CE%BD_%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%B5%CF%81%CE%AF%CE%B1%CE%BD",
+    "https://www.kiplingsociety.co.uk/poem/poems_greek_anthem.htm",
+    "https://en.wikisource.org/wiki/Rudyard_Kipling%27s_Verse,_Inclusive_Edition,_1885-1918/The_Greek_National_Anthem",
+    "https://en.wikipedia.org/wiki/Hymn_to_Liberty",
+    "https://en.wikipedia.org/wiki/Dionysios_Solomos"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T21:02:34.753Z",
+ "verifier": "auditor-east-ie"
+}

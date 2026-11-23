@@ -1,0 +1,180 @@
+{
+ "file": "data/families/mongolic.json",
+ "claims": {
+  "mongolic#identity": {
+   "hash": "c9b489a6bcfb5d82",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/mong1329",
+    "https://en.wikipedia.org/wiki/Mongolic_languages"
+   ],
+   "note": "Glottolog mong1329 is the Mongolic family (under Mongolic-Khitan mong1349); living languages."
+  },
+  "mongolic#story:0": {
+   "hash": "eecc2b6b9ffb52d9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mongolic_languages",
+    "https://en.wikipedia.org/wiki/Proto-Mongolic_language"
+   ],
+   "note": "Distribution and closeness to Middle Mongol quoted in Mongolic languages; Janhunen (2006, p.1) 'not earlier than the thirteenth century' after dispersal under Chinggis Khan quoted in Proto-Mongolic language; consistent with other summaries found by search."
+  },
+  "mongolic#note:0": {
+   "hash": "f5d7a8c566402b07",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mongolic_languages",
+    "https://glottolog.org/resource/languoid/id/mong1329"
+   ],
+   "note": "Para-Mongolic/Khitan wording matches Wikipedia; Glottolog classification tree shows Mongolic-Khitan (mong1349) containing Kitan (kita1247) and Mongolic (mong1329)."
+  },
+  "mongolic#note:1": {
+   "hash": "40f0049feb5f4c5a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Altaic_languages",
+    "https://en.wikipedia.org/wiki/Mongolic_languages"
+   ],
+   "note": "'A few linguists' and 'severely criticized' (Transeurasian) from Mongolic languages; majority view obsolete and sprachbund explanation from Altaic languages."
+  },
+  "middle-mongol#identity": {
+   "hash": "b7868bd6367ae899",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/midd1351",
+    "https://en.wikipedia.org/wiki/Middle_Mongol"
+   ],
+   "note": "midd1351 Middle Mongol, ISO xng, directly under Mongolic in Glottolog."
+  },
+  "middle-mongol#period": {
+   "hash": "e80247eec8c6f30d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Mongol"
+   ],
+   "note": "Wikipedia: definitions from 13th to early 15th or to late 16th century; developed into Classical Mongolian by the 17th century. Note explains the approximate range."
+  },
+  "middle-mongol#homeland": {
+   "hash": "e69bf8c9c70e7a2d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Mongol"
+   ],
+   "note": "Wikipedia: originated in Genghis Khan's home region of Northeastern Mongolia. 48.5N 110.5E lies in Khentii Province (Onon–Kherlen area), northeastern Mongolia."
+  },
+  "middle-mongol#attestation:stele-of-yisungge": {
+   "hash": "499d7057d56776fd",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Stele_of_Yis%C3%BCngge",
+    "https://eah.anu.edu.au/sites/default/files/article-content/42/pdfs/EAH42-Igor-de-Rachewiltz_1.pdf",
+    "https://cyberleninka.ru/article/n/who-was-the-builder-of-mongol-towns-in-transbaikalia",
+    "https://journal.num.edu.mn/MJAAE/article/download/1587/1481/4813",
+    "https://evrazstep.ru/index.php/aes/article/download/1256/1143/2389",
+    "https://ru.wikipedia.org/wiki/Урулюнгуй_(река)"
+   ],
+   "note": "Coordinates moved from 50.5N 119.0E (about 50 km ENE of the site, near Priargunsk) to approx. 50.32N 118.30E: Khirkhira lies near the Khirkhira's mouth into the Urulyungui, ~6.5 km NW of Yubileyny (50.27N 118.35E) and 61.7 km east of the Kondui palace. Place label made specific. '1802' discovery date replaced: de Rachewiltz (2018) says it was discovered some time before 1818 and stood in situ until the early 19th century (other accounts give 1802 or 1832). Added de Rachewiltz and Kradin et al. sources."
+  },
+  "middle-mongol#scripts": {
+   "hash": "6091a2cce7095b9b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Mongol"
+   ],
+   "note": "ʼPhags-pa, Arabic, Chinese and Mongolian script listed."
+  },
+  "middle-mongol#story:0": {
+   "hash": "466dd30422095115",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Mongol",
+    "https://en.wikipedia.org/wiki/Stele_of_Yis%C3%BCngge",
+    "https://eah.anu.edu.au/sites/default/files/article-content/42/pdfs/EAH42-Igor-de-Rachewiltz_1.pdf"
+   ],
+   "note": "Koiné of the Mongol Empire, NE Mongolia origin, earliest directly attested ancestor; stele 'usually considered' first monument, most often dated 1224–1225; archery at a gathering of noyans after conquest of Khwarazm. De Rachewiltz 2018 also concludes 1224/1225."
+  },
+  "middle-mongol#story:1": {
+   "hash": "7548e4783f09b274",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Mongol",
+    "https://en.wikipedia.org/wiki/The_Secret_History_of_the_Mongols"
+   ],
+   "note": "Scripts, 'oldest surviving literary work', written after 1227, full Mongolian body survives in a Ming-era Chinese-character transcription; diversification after empire's collapse."
+  },
+  "middle-mongol#work:secret-history-of-the-mongols": {
+   "hash": "533a91d9a599b518",
+   "verdict": "verified",
+   "evidence": [
+    "https://zh.wikisource.org/wiki/%E5%85%83%E6%9C%9D%E7%A7%98%E5%8F%B2/%E5%8D%B701",
+    "https://en.wikipedia.org/wiki/The_Secret_History_of_the_Mongols"
+   ],
+   "note": "Excerpt matches §1 of 元朝秘史 卷一 on Chinese Wikisource character for character (incl. 舌/中 notations). Literal translation checked against the interlinear glosses (皇帝的 根源 / 上 天 處 命有的 生了的 / 蒼色 狼 有來 / 妻 他的 慘白色 鹿 有來): faithful. Proposed dates 1228–1264 and 'semi-mythical genealogy' are in Wikipedia. Anonymous 13th-c. work, project-literal translation: public domain rule met."
+  },
+  "mongolian#identity": {
+   "hash": "f908b2c98130f56e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mongolian_language",
+    "https://en.wikipedia.org/wiki/Khalkha_Mongolian",
+    "https://glottolog.org/resource/languoid/id/halh1238"
+   ],
+   "note": "halh1238 Halh Mongolian, ISO khk; Монгол хэл; Wikipedia says Modern Mongolian evolved from Middle Mongol (parent choice explained in period note)."
+  },
+  "mongolian#period": {
+   "hash": "c781ca3f43fd5aa9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Mongol",
+    "https://en.wikipedia.org/wiki/Mongolian_language",
+    "https://glottolog.org/resource/languoid/id/halh1238"
+   ],
+   "note": "Classical Mongolian by the 17th century (Middle Mongol infobox); Glottolog path Mongolic > Eastern Mongolic > Khalkha-Buriat > Mongolian > Halh Mongolian confirmed from the classification tree."
+  },
+  "mongolian#homeland": {
+   "hash": "3cb16b5c5f524cea",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/halh1238",
+    "https://en.wikipedia.org/wiki/Khalkha_Mongolian"
+   ],
+   "note": "Neither source gave 47.9N 106.9E (Ulaanbaatar); Wikipedia's 'central' refers to classification, not geography. Point set to Glottolog's coordinates for Halh Mongolian (48.32N 106.29E) and label says so."
+  },
+  "mongolian#scripts": {
+   "hash": "40ebdd46ae66b5be",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mongolian_language"
+   ],
+   "note": "Infobox lists Mongolian script and Mongolian Cyrillic."
+  },
+  "mongolian#speakers": {
+   "hash": "3d6cd28de7ed898c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khalkha_Mongolian",
+    "https://asjp.clld.org/languages/KHALKHA_MONGOLIAN"
+   ],
+   "note": "Khalkha Mongolian infobox: 2.9 million native speakers (2020 census), citing Ethnologue 28th ed. Native speakers = L1. ASJP's 2,947,880 is consistent."
+  },
+  "mongolian#story:0": {
+   "hash": "dd25f1ca85161f08",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khalkha_Mongolian",
+    "https://en.wikipedia.org/wiki/Mongolian_language"
+   ],
+   "note": "Wording matches both pages (dialect of central Mongolian widely spoken in Mongolia; named after Khalkha Mongols/River; basis of Cyrillic orthography, de facto national language; official in Mongolia and Inner Mongolia)."
+  },
+  "mongolian#story:1": {
+   "hash": "fc3196d7dc9aa4b1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mongolian_language"
+   ],
+   "note": "1941 decree, Latin attempt lasting two months, 1991–1994 failed reintroduction, March 2020 announcement of both scripts by 2025, traditional script always used in Inner Mongolia."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:23:08.494Z",
+ "verifier": "verifier-north-eurasia"
+}

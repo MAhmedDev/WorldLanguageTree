@@ -1,0 +1,236 @@
+{
+  "family": { "id": "koreanic", "name": "Koreanic", "root": "old-korean" },
+  "sources": [
+    { "id": "wp-old-korean", "title": "Old Korean", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Korean" },
+    { "id": "wp-middle-korean", "title": "Middle Korean", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Middle_Korean" },
+    { "id": "wp-korean", "title": "Korean language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Korean_language" },
+    { "id": "wp-hunminjeongeum", "title": "Hunminjeongeum", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hunminjeongeum" },
+    { "id": "wp-haerye", "title": "Hunminjeongeum Haerye", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hunminjeongeum_Haerye" },
+    { "id": "kt-haerye-2026", "title": "Guarding heritage: 'Hunminjeongeum Haerye'", "author": "Sho Chang-young", "year": 2026, "publisher": "The Korea Times", "url": "https://www.koreatimes.co.kr/opinion/20261013/guarding-heritage-hunminjeongeum-haerye" },
+    { "id": "ws-eonhae", "title": "훈민정음언해 (Hunminjeongeum Eonhae)", "publisher": "Korean Wikisource", "url": "https://ko.wikisource.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C%EC%96%B8%ED%95%B4" },
+    { "id": "wp-tongnip", "title": "Tongnip sinmun", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tongnip_Sinmun" },
+    { "id": "wp-yanbian", "title": "Yanbian Korean Autonomous Prefecture", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yanbian_Korean_Autonomous_Prefecture" },
+    { "id": "wp-gyeongju", "title": "Gyeongju", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Gyeongju" },
+    { "id": "wp-pohang", "title": "Pohang", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pohang" },
+    { "id": "wp-kaesong", "title": "Kaesong", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kaesong" },
+    { "id": "wp-seoul", "title": "Seoul", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Seoul" },
+    { "id": "wp-kansong", "title": "Kansong Art Museum", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kansong_Art_Museum" },
+    { "id": "glottolog-midd1372", "title": "Glottolog: Middle Korean", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/midd1372" },
+    { "id": "glottolog-kore1280", "title": "Glottolog: Korean", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/kore1280" }
+  ],
+  "languoids": [
+    {
+      "id": "old-korean",
+      "name": "Old Korean",
+      "glottocode": null,
+      "iso639_3": "oko",
+      "parent": null,
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-old-korean"],
+      "period": {
+        "from": 441,
+        "to": 935,
+        "approx": true,
+        "note": "From the first attestation: the oldest Silla stele, dated 441 or 501, may show vernacular influence, and Korean syntax is clearly written from the mid-6th century. Old Korean traditionally ends with the fall of Silla in 935; some South Korean linguists extend it to the mid-13th century.",
+        "sources": ["wp-old-korean"]
+      },
+      "homeland": {
+        "lat": 35.85,
+        "lng": 129.217,
+        "label": "Gyeongju, capital of Silla in southeastern Korea",
+        "sources": ["wp-old-korean", "wp-middle-korean", "wp-gyeongju"]
+      },
+      "attestations": [
+        {
+          "id": "pohang-stele",
+          "year": 441,
+          "approx": true,
+          "lat": 36.032,
+          "lng": 129.365,
+          "place": "Pohang",
+          "description": "The oldest surviving Silla inscription, a stele dated to 441 or 501. It is in Classical Chinese, but its idiosyncratic vocabulary suggests vernacular influence.",
+          "sources": ["wp-old-korean", "wp-pohang"]
+        },
+        {
+          "id": "gyeongju-fort-stele",
+          "year": 551,
+          "approx": false,
+          "lat": 35.85,
+          "lng": 129.217,
+          "place": "Gyeongju",
+          "description": "A stele commemorating the building of a fort, which writes 'begin to build' as 作始 ('build begin') rather than Classical Chinese 始作, following Korean word order.",
+          "sources": ["wp-old-korean", "wp-gyeongju"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Chinese characters (hyangchal and related systems)", "code": "Hani" }],
+        "sources": ["wp-old-korean"]
+      },
+      "story": [
+        {
+          "text": "Old Korean is the first historically documented stage of Korean, typified by the language of the Unified Silla period (668–935). Allied with Tang China, Silla destroyed Baekje in 660 and Goguryeo in 668 and united the southern two-thirds of the peninsula. Its language became the lingua franca of the peninsula, and the languages of Baekje and Goguryeo died out, the latter surviving only as substrata in later Korean dialects. Middle and Modern Korean descend from the language of Silla.",
+          "sources": ["wp-old-korean"]
+        },
+        {
+          "text": "Every Old Korean text is written in Chinese characters, used either for their meaning or for their sound, so its pronunciation remains opaque. Vernacular influence may already show in the oldest Silla inscription, a stele in Pohang dated to 441 or 501. By the sixth century Korean word order is plain: a stele of 551 from Gyeongju writes 'build begin' (作始) where Classical Chinese has 'begin build' (始作). Archaeologists had found 431 Silla wooden slips (mokgan) by 2016.",
+          "sources": ["wp-old-korean"]
+        },
+        {
+          "text": "The only literature to survive is the hyangga, vernacular poems. A royal anthology of 888 is lost, and 25 poems remain: 14 in the Samguk yusa, compiled in the 1280s by the monk Iryeon, and 11 composed in the 960s by the monk Gyunyeo. By the Joseon period (1392–1910) they could no longer be read. Shinpei Ogura made the first reconstructions of all 25 in 1929, and many poems are still poorly understood.",
+          "sources": ["wp-old-korean"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The limits of Old Korean are disputed. Some linguists treat the sparsely recorded languages of all Three Kingdoms as variants of Old Korean, others reserve the term for Silla alone. Nam Pung-hyun (2003) proposed extending the period to the mid-13th century on the basis of Buddhist glosses; the idea is influential in Korean academia, but the traditional end with the fall of Silla is still used by major English-language references.",
+          "sources": ["wp-old-korean"]
+        },
+        {
+          "text": "Old Korean descends from Proto-Koreanic, a reconstructed ancestor whose homeland is generally suggested to lie in Manchuria. Attempts to link Korean with a putative Altaic family or with the Japonic languages have not produced any uncontroversially demonstrated relationship.",
+          "sources": ["wp-old-korean", "wp-korean"]
+        }
+      ]
+    },
+    {
+      "id": "middle-korean",
+      "name": "Middle Korean",
+      "glottocode": "midd1372",
+      "iso639_3": "okm",
+      "parent": "old-korean",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-middle-korean", "glottolog-midd1372"],
+      "period": {
+        "from": 918,
+        "to": 1592,
+        "approx": true,
+        "note": "Traditionally from the founding of Goryeo (918) to the start of the Imjin War (1592). Some scholars begin it with the Mongol invasions of the mid-13th century.",
+        "sources": ["wp-middle-korean"]
+      },
+      "homeland": {
+        "lat": 37.972,
+        "lng": 126.553,
+        "label": "Kaesong, Goryeo capital in central-western Korea",
+        "sources": ["wp-middle-korean", "wp-kaesong"]
+      },
+      "attestations": [
+        {
+          "id": "hunminjeongeum-haerye",
+          "year": 1446,
+          "approx": false,
+          "lat": 37.594,
+          "lng": 126.997,
+          "place": "Kansong Art Museum, Seoul (Joseon capital Hanyang)",
+          "description": "The Hunminjeongeum with its commentary (Haerye), published in 1446 to introduce Hangul. The surviving copy, found in Andong in 1940, is kept at the Kansong Art Museum and was inscribed on UNESCO's Memory of the World Register in 1997.",
+          "sources": ["wp-haerye", "wp-hunminjeongeum", "kt-haerye-2026", "wp-kansong"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Chinese characters (idu, kugyŏl)", "code": "Hani" },
+          { "name": "Hangul (from 1446)", "code": "Hang" }
+        ],
+        "sources": ["wp-middle-korean"]
+      },
+      "story": [
+        {
+          "text": "Middle Korean is traditionally dated from the founding of Goryeo in 918, when the political centre moved from Gyeongju in the southeast to Kaesong in the central west, to the start of the Imjin War in 1592. It is split into Early and Late periods under Goryeo and Joseon. Early Middle Korean, like Old Korean, is sparsely documented and was written with Chinese characters; a Chinese book of 1103–1104, the Jilin leishi, preserves a glossary of over 350 Korean words and phrases.",
+          "sources": ["wp-middle-korean"]
+        },
+        {
+          "text": "King Sejong (r. 1418–1450) presented a new alphabet to his court in the twelfth lunar month of 1443 and published it around October 1446 in the Hunminjeongeum, 'The Correct Sounds for the Instruction of the People', written in Classical Chinese. Scholars of the Hall of Worthies added a commentary, the Haerye. The Haerye was later lost until a copy turned up in Andong in 1940; that copy is now kept at the Kansong Art Museum in Seoul.",
+          "sources": ["wp-hunminjeongeum", "wp-haerye", "kt-haerye-2026"]
+        },
+        {
+          "text": "Hangul transformed the record of the language. The Hunminjeongeum and later texts describe its sounds and forms in great detail, so Late Middle Korean provides the pivotal data for the history of Korean. It had rigid vowel harmony, and early Hangul texts marked three pitch contours on each syllable with dots: none for low, one for high and two for rising. Korean versions of Sejong's preface, called Eonhae, were also made; the oldest known one is part of the Wŏrin sŏkpo of 1459.",
+          "sources": ["wp-middle-korean", "wp-hunminjeongeum"]
+        }
+      ],
+      "works": [
+        {
+          "id": "hunminjeongeum-eonhae",
+          "title": "Hunminjeongeum, preface (Korean version, Eonhae)",
+          "titleOriginal": "訓民正音",
+          "author": "King Sejong (preface, 1446); Korean rendering anonymous",
+          "date": "preface 1446; oldest Korean version 1459",
+          "year": 1459,
+          "significance": "Sejong's preface explains why he created Hangul. The Hunminjeongeum, which introduced Hangul, was written in Classical Chinese; the oldest known Korean rendering is the one in the Wŏrin sŏkpo of 1459, though it is unclear whether it first appeared in that text.",
+          "original": "나랏〮말〯ᄊᆞ미〮\n中國에〮달아〮\n文字와〮로〮서르ᄉᆞᄆᆞᆺ디〮아니〮ᄒᆞᆯᄊᆡ〮\n이〮런젼ᄎᆞ〮로〮어린〮百姓이〮니르고〮져〮호ᇙ〮배〮이셔〮도〮\nᄆᆞᄎᆞᆷ〮내〯제ᄠᅳ〮들〮시러〮펴디〮몯〯ᄒᆞᇙ노〮미〮하니〮라〮\n내〮이〮ᄅᆞᆯ〮爲ᄒᆞ〮야〮어〯엿비〮너겨〮\n새〮로〮스〮믈〮여듧〮字ᄅᆞᆯ〮ᄆᆡᇰᄀᆞ〮노니〮\n사〯ᄅᆞᆷ마〯다〮ᄒᆡ〯ᅇᅧ〮수〯ᄫᅵ〮니겨〮날〮로〮ᄡᅮ〮메〮便安킈〮ᄒᆞ고〮져〮ᄒᆞᇙᄯᆞᄅᆞ미〮니라〮",
+          "originalScript": "Kore",
+          "translation": "The speech of our country\ndiffers from that of China\nand does not match its written characters,\nso among the simple common people there are many who, though they have something to say,\nin the end cannot express their thoughts.\nPitying this,\nI have newly made twenty-eight letters,\nwishing only that everyone may learn them easily and use them conveniently every day.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ko.wikisource.org/wiki/%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8C%EC%96%B8%ED%95%B4",
+          "sources": ["ws-eonhae", "wp-hunminjeongeum"]
+        }
+      ]
+    },
+    {
+      "id": "korean",
+      "name": "Korean",
+      "nativeName": "한국어",
+      "nativeScript": "Kore",
+      "glottocode": "kore1280",
+      "iso639_3": "kor",
+      "parent": "middle-korean",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-korean", "glottolog-kore1280"],
+      "period": {
+        "from": 1592,
+        "to": null,
+        "approx": true,
+        "note": "Middle Korean yields to Early Modern Korean in the late 16th century, traditionally at the start of the Imjin War (1592).",
+        "sources": ["wp-middle-korean"]
+      },
+      "homeland": {
+        "lat": 37.56,
+        "lng": 126.99,
+        "label": "Seoul (Joseon capital Hanyang), central Korea",
+        "sources": ["wp-middle-korean", "wp-seoul"]
+      },
+      "attestations": [
+        {
+          "id": "tongnip-sinmun",
+          "year": 1896,
+          "approx": false,
+          "lat": 37.56,
+          "lng": 126.99,
+          "place": "Seoul",
+          "description": "Tongnip Sinmun (The Independent), founded in 1896 by Seo Jae-pil: the first Korean newspaper to print editions written entirely in Hangul.",
+          "sources": ["wp-tongnip", "wp-seoul"]
+        },
+        {
+          "id": "yanbian",
+          "year": 1952,
+          "approx": false,
+          "lat": 43.133,
+          "lng": 129.183,
+          "place": "Yanbian, Jilin, China",
+          "description": "Establishment of the Yanbian autonomous region for ethnic Koreans in China (3 September 1952), where Korean is a recognized minority language with subsidized schools and publications.",
+          "sources": ["wp-yanbian", "wp-korean"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Hangul", "code": "Hang" },
+          { "name": "Hanja (Chinese characters)", "code": "Hani" }
+        ],
+        "sources": ["wp-korean"]
+      },
+      "speakers": { "count": 81000000, "year": 2022, "scope": "L1", "sources": ["wp-korean"] },
+      "story": [
+        {
+          "text": "Korean is the official language of both North and South Korea and has about 81 million speakers. The South calls it Hangugeo and the North Chosŏnŏ. Outside Korea it is a recognized minority language in parts of China, notably the Yanbian prefecture of Jilin, and it is spoken by Sakhalin Koreans and by the Koryo-saram of Central Asia. The closely related Jeju language is not mutually intelligible with it.",
+          "sources": ["wp-korean"]
+        },
+        {
+          "text": "Hangul was created in the 15th century, but Hanja and mixed script remained the main way to write Korean until the mid-20th century. The Tongnip Sinmun, founded in Seoul in 1896, was the first newspaper to print editions written only in Hangul. Since the country was divided, North and South have developed different standards in pronunciation and vocabulary, though regional dialects within each country differ more than the two standards do.",
+          "sources": ["wp-korean", "wp-tongnip"]
+        }
+      ]
+    }
+  ]
+}

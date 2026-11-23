@@ -1,0 +1,544 @@
+{
+  "family": {
+    "id": "anatolian",
+    "name": "Anatolian"
+  },
+  "sources": [
+    {
+      "id": "wp-anatolian",
+      "title": "Anatolian languages",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anatolian_languages"
+    },
+    {
+      "id": "wp-proto-anatolian",
+      "title": "Proto-Anatolian language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proto-Anatolian_language"
+    },
+    {
+      "id": "wp-hittite",
+      "title": "Hittite language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hittite_language"
+    },
+    {
+      "id": "wp-anitta",
+      "title": "Anitta text",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anitta_text"
+    },
+    {
+      "id": "wp-luwian",
+      "title": "Luwian language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luwian_language"
+    },
+    {
+      "id": "wp-karatepe",
+      "title": "Karatepe",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Karatepe"
+    },
+    {
+      "id": "wp-lydian",
+      "title": "Lydian language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lydian_language"
+    },
+    {
+      "id": "wp-lycian",
+      "title": "Lycian language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lycian_language"
+    },
+    {
+      "id": "wp-letoon",
+      "title": "Letoon trilingual",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Letoon_trilingual"
+    },
+    {
+      "id": "lrc-hittite-1",
+      "title": "Hittite Online, Lesson 1: The Proclamation of Anittas (Old Hittite)",
+      "author": "Sara E. Kimball and Jonathan Slocum",
+      "publisher": "Linguistics Research Center, University of Texas at Austin",
+      "url": "https://lrc.la.utexas.edu/eieol/hitol/10"
+    },
+    {
+      "id": "glotto-anat1257",
+      "title": "Glottolog 5.4: Anatolian",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/anat1257"
+    },
+    {
+      "id": "glotto-hitt1242",
+      "title": "Glottolog 5.4: Hittite",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/hitt1242"
+    },
+    {
+      "id": "glotto-luvi1235",
+      "title": "Glottolog 5.4: Luvian",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/luvi1235"
+    },
+    {
+      "id": "glotto-lydi1241",
+      "title": "Glottolog 5.4: Lydian",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/lydi1241"
+    },
+    {
+      "id": "glotto-lyci1241",
+      "title": "Glottolog 5.4: Lycian A",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/lyci1241"
+    },
+    {
+      "id": "wp-kultepe",
+      "title": "Kültepe",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/K%C3%BCltepe"
+    },
+    {
+      "id": "wp-hattusa",
+      "title": "Hattusa",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hattusa"
+    },
+    {
+      "id": "wp-letoon-site",
+      "title": "Letoon",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Letoon"
+    },
+    {
+      "id": "wp-sardis",
+      "title": "Sardis",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sardis"
+    },
+    {
+      "id": "wp-xanthos",
+      "title": "Xanthos",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Xanthos"
+    },
+    {
+      "id": "wp-kizzuwatna",
+      "title": "Kizzuwatna",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kizzuwatna"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "anatolian",
+      "name": "Anatolian",
+      "glottocode": "anat1257",
+      "parent": "proto-indo-european",
+      "kind": "group",
+      "status": "extinct",
+      "sources": [
+        "glotto-anat1257",
+        "wp-anatolian"
+      ],
+      "story": [
+        {
+          "text": "The Anatolian languages are an extinct branch of Indo-European once spoken in Anatolia, modern Turkey. Hittite, the best known of them, is the earliest-attested Indo-European language. The branch was only discovered in the late 19th and early 20th centuries, and it is probably the earliest to have split from Proto-Indo-European. Its other members include Luwian, Palaic, Lycian, Lydian, Carian, Sidetic and Pisidian, known from cuneiform tablets, hieroglyphic monuments and alphabetic inscriptions.",
+          "sources": [
+            "wp-anatolian",
+            "wp-hittite"
+          ]
+        },
+        {
+          "text": "Anatolian kept sounds its sister branches lost. Hittite and Luwian write laryngeal consonants as ḫ and ḫḫ, which gave support to the laryngeal theory of Indo-European linguistics. Hittite confirmed a hypothesis Ferdinand de Saussure had put forward in 1879. The branch died out gradually: Hittite ends with the Bronze Age, while alphabetic inscriptions in other Anatolian languages survive fragmentarily until the early 1st millennium AD, before the region was Hellenized.",
+          "sources": [
+            "wp-anatolian",
+            "wp-hittite"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Where the branch fits in the family tree is debated. Edgar H. Sturtevant and Warren Cowgill argued for an 'Indo-Hittite' hypothesis, in which Hittite is a sister of Proto-Indo-European rather than a daughter, because Hittite lacks features such as a masculine–feminine gender distinction and the subjunctive and optative moods. Others prefer a 'Schwund' (loss) hypothesis in which Anatolian inherited these features and lost them. According to Craig Melchert (2012), the current tendency is to assume that Anatolian speakers became isolated early and did not share some later common innovations.",
+          "sources": [
+            "wp-hittite"
+          ]
+        },
+        {
+          "text": "How and when the branch reached Anatolia is also debated. A date in the mid-4th millennium BC is typically assumed for the branch's evolution, followed by a migration into Anatolia in the early 2nd millennium BC. Under the Kurgan (steppe) hypothesis the route ran either through the Caucasus or through the Balkans; Petra Goedegebuure argues for separation in the north by 4500 BC and arrival via the Caucasus by about 2500–2000 BC. Craig Melchert estimates that Proto-Anatolian itself began to diverge around 3000 BC, and no later than about 2500 BC.",
+          "sources": [
+            "wp-anatolian",
+            "wp-proto-anatolian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hittite",
+      "name": "Hittite",
+      "glottocode": "hitt1242",
+      "iso639_3": "hit",
+      "parent": "anatolian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-hitt1242",
+        "wp-hittite",
+        "wp-anatolian"
+      ],
+      "period": {
+        "from": -2000,
+        "to": -1200,
+        "approx": true,
+        "note": "The start is the first attestation, not the date of emergence: isolated Hittite words and personal names appear in Akkadian documents at Kanesh from as early as the 20th century BC. The end is the usual end of attestation, about 1200 BC; the Hittite Empire's New Kingdom is dated to about 1180 BC.",
+        "sources": [
+          "wp-hittite",
+          "wp-luwian"
+        ]
+      },
+      "homeland": {
+        "lat": 38.85,
+        "lng": 35.633,
+        "label": "Central Anatolia, around Kaneš/Neša (Kültepe), the city that gave Hittite its own name, nešili",
+        "sources": [
+          "wp-hittite",
+          "wp-anatolian",
+          "wp-kultepe"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "kanesh-merchant-records",
+          "year": -1900,
+          "approx": true,
+          "lat": 38.85,
+          "lng": 35.633,
+          "place": "Kültepe (ancient Kaneš/Neša), Kayseri Province, Turkey",
+          "description": "Old Assyrian (Akkadian) records of the Assyrian trading colony at Kaneš preserve Hittite personal names and words borrowed from Hittite, the earliest traces of any Indo-European language.",
+          "sources": [
+            "wp-anatolian",
+            "wp-hittite",
+            "wp-kultepe"
+          ]
+        },
+        {
+          "id": "hattusa-archives",
+          "year": -1250,
+          "approx": true,
+          "lat": 40.0197,
+          "lng": 34.6153,
+          "place": "Hattusa, near Boğazkale (Boğazköy), Çorum Province, Turkey",
+          "description": "The royal archives of the Hittite capital, with more than 30,000 clay tablets and fragments in cuneiform from the Hittite Empire period, including cult rituals, letters, laws, contracts and other public documents.",
+          "sources": [
+            "wp-hittite",
+            "wp-anatolian",
+            "wp-hattusa"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Cuneiform (Hittite adaptation)",
+            "code": "Xsux"
+          }
+        ],
+        "sources": [
+          "wp-hittite"
+        ]
+      },
+      "story": [
+        {
+          "text": "Hittite was the language of a Bronze Age kingdom in central Anatolia. Its speakers called it nešili, 'in the language of Neša', after the city of Kaneš (modern Kültepe), where Akkadian documents from as early as the 20th century BC already contain Hittite names and loanwords. The modern name comes from the Biblical Hittites. The main archive comes from the capital Hattusa, near Boğazköy, where more than 30,000 tablets and fragments of rituals, laws, letters and medical texts have been excavated.",
+          "sources": [
+            "wp-hittite",
+            "wp-anatolian"
+          ]
+        },
+        {
+          "text": "Hugo Winckler's excavations at Boğazköy uncovered tablets written in familiar Akkadian cuneiform but in an unknown language. Jørgen Alexander Knudtzon had already argued in 1902, from two letters found at El-Amarna in Egypt, that the language was Indo-European. In 1915 Bedřich Hrozný published his case, pointing to forms such as wadar 'water', genitive wedenas. Hittite is now the oldest attested Indo-European language, and its ḫ sound confirmed Saussure's 1879 laryngeal theory.",
+          "sources": [
+            "wp-hittite"
+          ]
+        },
+        {
+          "text": "Scholars divide the language into Old, Middle and New Hittite, roughly c. 1750–1500, 1500–1430 and 1430–1180 BC, matching the Old, Middle and New Kingdoms. By the 13th century BC Luwian was the most widely spoken language in Hattusa itself, and Hittite writing ended around 1200 BC, with the collapse of the empire in the Late Bronze Age collapse.",
+          "sources": [
+            "wp-hittite",
+            "wp-anatolian"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "anitta-text",
+          "title": "The Proclamation of Anitta (Anitta text)",
+          "author": "Attributed to Anitta, king of Kuššara",
+          "date": "c. 1700 BCE",
+          "year": -1700,
+          "significance": "The Anitta text is the oldest known text in the Hittite language and the oldest known text in any Indo-European language. It recounts how Anitta's father Pithana took Neša and how Anitta later destroyed Hattusa and cursed the site.",
+          "original": "ᴹA-ni-it-ta DUMU ᴹPi-it-ha-a-na LUGAL ᵁᴿᵁKu-us-sa-ra QÍ-BÍ-MA\nne-pi-is-za-as-ta ᴰIŠKUR-un-ni a-as-su-us e-es-ta\nna-as-ta ᴰIŠKUR-un-ni-ma ma-a-an a-as-su-us e-es-ta ᵁᴿᵁNe-e-sa-as LUGAL-us ᵁᴿᵁKu-us-sa-ra-as LUGAL-i ...",
+          "originalScript": "Latn",
+          "transliteration": "Transliteration of the cuneiform as given in Hittite Online, Lesson 1 (University of Texas at Austin). Superscript M, D and URU mark the determinatives for a man's name, a god and a city; DUMU 'son', LUGAL 'king' and IŠKUR 'Storm-god' are Sumerian logograms; QÍ-BÍ-MA is Akkadian 'speak thus'.",
+          "translation": "Anitta, son of Pithana, king of Kussara, speak thus:\nHe was dear to the Storm-god of heaven,\nand when he was dear to the Storm-god, the king of Neša [... broken ...] to the king of Kussara ...",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://lrc.la.utexas.edu/eieol/hitol/10",
+          "sources": [
+            "wp-anitta",
+            "wp-hittite",
+            "lrc-hittite-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luwian",
+      "name": "Luwian",
+      "glottocode": "luvi1235",
+      "parent": "anatolian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-luvi1235",
+        "wp-luwian"
+      ],
+      "period": {
+        "from": -1600,
+        "to": -700,
+        "approx": true,
+        "note": "The start is the first attestation: the surviving cuneiform Luwian corpus consists mainly of ritual texts of the 16th and 15th centuries BC. The hieroglyphic script fell out of use in the early 7th century BC.",
+        "sources": [
+          "wp-luwian"
+        ]
+      },
+      "homeland": {
+        "lat": 37.0,
+        "lng": 35.3,
+        "label": "Kizzuwatna, in the Cilician Plain of southeastern Anatolia, where the earliest cuneiform Luwian texts are attested (the original Luwian homeland is debated)",
+        "sources": [
+          "wp-luwian",
+          "wp-kizzuwatna"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "karatepe-bilingual",
+          "year": -750,
+          "approx": true,
+          "lat": 37.2957,
+          "lng": 36.2539,
+          "place": "Karatepe, Osmaniye Province, Turkey",
+          "description": "The Phoenician–Hieroglyphic Luwian bilingual of Azatiwada, ruler of the fortress town, which commemorates its foundation. Published by Helmuth Theodor Bossert in 1947, it served as a key to the hieroglyphs. Its date is estimated between the early 8th and early 7th century BC.",
+          "sources": [
+            "wp-karatepe",
+            "wp-luwian"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Cuneiform",
+            "code": "Xsux"
+          },
+          {
+            "name": "Anatolian hieroglyphs",
+            "code": "Hluw"
+          }
+        ],
+        "sources": [
+          "wp-luwian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Luwian takes its name from Luwiya, a region named in the Hittite laws. It survives in two forms named after their scripts: Cuneiform Luwian, written in the cuneiform used for Hittite, and Hieroglyphic Luwian, written in a native hieroglyphic script of about 500 signs. Scholars disagree on whether these were one language or two closely related ones. From the 14th century BC Luwian speakers were the majority in the Hittite capital Hattusa, and the royal family seems to have been bilingual by the empire's collapse around 1180 BC.",
+          "sources": [
+            "wp-luwian"
+          ]
+        },
+        {
+          "text": "Luwian outlived Hittite. Long after Hittite died out it was still spoken in Neo-Hittite states such as Milid and Carchemish and in the kingdom of Tabal. Hieroglyphic inscriptions resumed in the 10th to 8th centuries BC, before the script fell into oblivion in the early 7th century BC. The hieroglyphs were once called 'Hieroglyphic Hittite'. The turning point came with the Phoenician–Luwian bilingual from Karatepe, published by Helmuth Theodor Bossert in 1947. In the 1970s new sign readings by David Hawkins, Anna Morpurgo Davies and Günter Neumann showed that both scripts recorded the same Luwian language.",
+          "sources": [
+            "wp-luwian",
+            "wp-karatepe"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Glottolog's code luvi1235 is a family-level entry, 'Luvian', covering both Cuneiform Luwian and Hieroglyphic Luwian, which Glottolog lists as separate languages. It is used here because this entry treats Luwian as one language; scholars disagree on whether the two are one language or two.",
+          "sources": [
+            "glotto-luvi1235",
+            "wp-luwian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lydian",
+      "name": "Lydian",
+      "glottocode": "lydi1241",
+      "iso639_3": "xld",
+      "parent": "anatolian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-lydi1241",
+        "wp-lydian",
+        "wp-anatolian"
+      ],
+      "period": {
+        "from": -700,
+        "to": -200,
+        "approx": true,
+        "note": "The dates are those of the written record: graffiti and coin legends from the late 8th or early 7th century BCE to the 3rd century BCE. Strabo (1st century BCE) says it was no longer spoken in Lydia itself but survived among the descendants of Lydian colonists at Kibyra.",
+        "sources": [
+          "wp-lydian"
+        ]
+      },
+      "homeland": {
+        "lat": 38.4883,
+        "lng": 28.0403,
+        "label": "Lydia, western Anatolia (Sardis, the Lydian capital)",
+        "sources": [
+          "wp-lydian",
+          "wp-sardis"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "sardis-inscriptions",
+          "year": -400,
+          "approx": true,
+          "lat": 38.4883,
+          "lng": 28.0403,
+          "place": "Sardis, Manisa Province, Turkey",
+          "description": "All but a few of the surviving Lydian texts were found in or near Sardis: mostly funerary inscriptions on marble or stone, with the well-preserved longer texts dating to the 5th and 4th centuries BCE. They include a Lydian–Aramaic bilingual found in the Sardis necropolis in 1912.",
+          "sources": [
+            "wp-lydian",
+            "wp-sardis"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Lydian alphabet",
+            "code": "Lydi"
+          }
+        ],
+        "sources": [
+          "wp-lydian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Lydian was the language of Lydia in western Anatolia, whose capital was Sardis. It appears in graffiti and coin legends from around 700 BCE, but its longer, well-preserved inscriptions date to the 5th and 4th centuries BCE, under Persian rule. Most are epitaphs on marble or stone, which typically begin es wãnas, 'this grave'. About half a dozen texts seem to be verse, with stress-based metre and vowel assonance at the line ends. The Ionian Greek poet Hipponax sprinkled Lydian words into his verse.",
+          "sources": [
+            "wp-lydian"
+          ]
+        },
+        {
+          "text": "In May 1912 American excavators in the Sardis necropolis found an inscription in Lydian and Aramaic. In 1916 Enno Littmann used it to identify most of the letters and to sketch a Lydian grammar. Lydian occupies a unique and problematic position within Anatolian. By the 1st century BCE, Strabo reported, it was no longer spoken in Lydia but survived at Kibyra in southwestern Anatolia.",
+          "sources": [
+            "wp-lydian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lycian",
+      "name": "Lycian",
+      "nativeName": "𐊗𐊕𐊐𐊎𐊆𐊍𐊆",
+      "nativeScript": "Lyci",
+      "glottocode": "lyci1241",
+      "iso639_3": "xlc",
+      "parent": "anatolian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-lyci1241",
+        "wp-lycian",
+        "wp-anatolian"
+      ],
+      "period": {
+        "from": -500,
+        "to": -100,
+        "approx": true,
+        "note": "The start reflects the written record: most texts date to the 5th and 4th centuries BC. Lycian became extinct around the beginning of the 1st century BC, replaced by Greek.",
+        "sources": [
+          "wp-lycian"
+        ]
+      },
+      "homeland": {
+        "lat": 36.3561,
+        "lng": 29.3186,
+        "label": "Lycia, southwestern Anatolia (Xanthos)",
+        "sources": [
+          "wp-lycian",
+          "wp-xanthos"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "xanthos-coins",
+          "year": -470,
+          "approx": true,
+          "lat": 36.3561,
+          "lng": 29.3186,
+          "place": "Xanthos, Antalya Province, Turkey",
+          "description": "About 100 coin inscriptions in Lycian, on coins minted at Xanthus from the reign of Kuprili (485–440 BC) to that of Pericle (380–360 BC).",
+          "sources": [
+            "wp-lycian",
+            "wp-xanthos"
+          ]
+        },
+        {
+          "id": "letoon-trilingual",
+          "year": -337,
+          "approx": true,
+          "lat": 36.3319,
+          "lng": 29.2897,
+          "place": "Letoon sanctuary near Xanthos, Turkey (stele now in the Fethiye Museum)",
+          "description": "A stele with a decree founding a cult in Lycian (41 lines), Greek (35) and Aramaic (27), found in 1973. It was most likely set up in 337/336 BC.",
+          "sources": [
+            "wp-letoon",
+            "wp-letoon-site"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Lycian alphabet",
+            "code": "Lyci"
+          }
+        ],
+        "sources": [
+          "wp-lycian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Lycian was spoken in Lycia, the region between modern Fethiye and Antalya. Its own name for the language is given as Trm̃mili. It was written in a Lycian alphabet closely related to the Greek one, with a letter borrowed from Carian and others of its own. About 172 stone inscriptions survive from the 5th and 4th centuries BC, many of them burial instructions carved on rock tombs, together with coin legends from Xanthus. The longest text, on the Xanthus stele, has 138 lines of Lycian next to a 12-line Greek poem and a passage in the related Milyan.",
+          "sources": [
+            "wp-lycian"
+          ]
+        },
+        {
+          "text": "European travellers published the first four Lycian texts in 1820, and within months Antoine-Jean Saint-Martin used names in a Greek–Lycian bilingual to begin reading the script. In 1973 the Letoon trilingual, a Lycian, Greek and Aramaic decree, was found near Xanthos. Lycian became extinct around the beginning of the 1st century BC, replaced by Greek as Anatolia was Hellenized.",
+          "sources": [
+            "wp-lycian",
+            "wp-letoon"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+ "file": "data/journeys/austronesian-voyages.json",
+ "claims": {
+  "austronesian-voyages#step:0": {
+   "hash": "3ddae9eac906e4ae",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austronesian_languages"
+   ]
+  },
+  "austronesian-voyages#step:1": {
+   "hash": "804e481475e84b14",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Malayo-Polynesian_language",
+    "https://en.wikipedia.org/wiki/Austronesian_peoples",
+    "https://manoa.hawaii.edu/news/article.php?aId=4097"
+   ],
+   "note": "Yami is a descendant of PMP, not an exception. The 2230 BCE and Luzon Strait figure (infobox, cites a Bayesian-methods paper, not independently confirmed) was removed; replaced with Batanes arrival by around 2200 BCE."
+  },
+  "austronesian-voyages#step:2": {
+   "hash": "605363106e65c658",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lapita_culture"
+   ]
+  },
+  "austronesian-voyages#step:3": {
+   "hash": "8460cfbd44877845",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lapita_culture"
+   ],
+   "note": "Source gives the range as reaching Fiji and Tonga, with Samoa the easternmost limit."
+  },
+  "austronesian-voyages#step:4": {
+   "hash": "10dc4928396be73e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malagasy_language",
+    "https://en.wikipedia.org/wiki/Austronesian_peoples",
+    "https://manoa.hawaii.edu/news/article.php?aId=4097"
+   ],
+   "note": "Crossing is only one possibility in the source; Bantu and Arabic loanwords after c. 1000; sambo is a Bantu-origin example."
+  },
+  "austronesian-voyages#step:5": {
+   "hash": "448ab810f598fc19",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kedukan_Bukit_inscription"
+   ]
+  },
+  "austronesian-voyages#step:6": {
+   "hash": "75d8b6b924971c5b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_Hawaii",
+    "https://manoa.hawaii.edu/news/article.php?aId=4097",
+    "https://en.wikipedia.org/wiki/Austronesian_peoples"
+   ],
+   "note": "Pa'ao's 1200 date attaches to a new social order, not the voyage; the 'regular voyages until 1300' claim was dropped (flagged citation needed); added 2011 radiocarbon range so step year 1250 is consistent."
+  },
+  "austronesian-voyages#step:7": {
+   "hash": "453f67dd17d3788c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_New_Zealand",
+    "https://manoa.hawaii.edu/news/article.php?aId=4097",
+    "https://en.wikipedia.org/wiki/Austronesian_peoples"
+   ],
+   "note": "Hawaiki fleet is a European synthesis, now increasingly treated as myth, not oral tradition; added 2011 radiocarbon range."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:40:48.127Z",
+ "verifier": "verifier-journeys"
+}

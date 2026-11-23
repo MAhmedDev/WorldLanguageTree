@@ -1,0 +1,184 @@
+{
+ "file": "data/families/armenian.json",
+ "claims": {
+  "classical-armenian#identity": {
+   "hash": "ccf09e2d8b858221",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/clas1256",
+    "https://en.wikipedia.org/wiki/Classical_Armenian",
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ],
+   "note": "Status extinct -> classical: liturgical language of Armenian Apostolic and Catholic Churches"
+  },
+  "classical-armenian#period": {
+   "hash": "4ab837284e20445b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Armenian",
+    "https://en.wikipedia.org/wiki/Armenian_language",
+    "https://en.wikipedia.org/wiki/Mesrop_Mashtots"
+   ],
+   "note": "to 1100 -> null per classical policy; note updated"
+  },
+  "classical-armenian#homeland": {
+   "hash": "1b1a0cb732cead89",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ]
+  },
+  "classical-armenian#attestation:tekor-inscription": {
+   "hash": "33b9954fe6ec9ed5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_alphabet",
+    "https://en.wikipedia.org/wiki/Tekor_Basilica"
+   ]
+  },
+  "classical-armenian#attestation:jerusalem-mosaic": {
+   "hash": "580bd984cb9b511c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_alphabet"
+   ]
+  },
+  "classical-armenian#attestation:narekavank": {
+   "hash": "3cd627f859ca8f20",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gregory_of_Narek"
+   ],
+   "note": "Coordinates moved to Narekavank ruins (38.297,42.928) per Wikipedia Narekavank"
+  },
+  "classical-armenian#scripts": {
+   "hash": "f74e8b1467945dc6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_alphabet"
+   ]
+  },
+  "classical-armenian#story:0": {
+   "hash": "f11c350df146cf34",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Armenian",
+    "https://en.wikipedia.org/wiki/Mesrop_Mashtots",
+    "https://en.wikipedia.org/wiki/Armenian_alphabet"
+   ]
+  },
+  "classical-armenian#story:1": {
+   "hash": "7a59f82d14bd2eef",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Armenian",
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ],
+   "note": "Removed unsupported Azdarar-in-grabar sentence (Wikipedia Azdarar lists Western Armenian, does not mention grabar)"
+  },
+  "classical-armenian#story:2": {
+   "hash": "dc378f8a6d71dc72",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gregory_of_Narek",
+    "https://en.wikipedia.org/wiki/Armenian_language",
+    "https://en.wikipedia.org/wiki/Classical_Armenian"
+   ]
+  },
+  "classical-armenian#work:narek-book-of-lamentations": {
+   "hash": "6ed7813cd922d84e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://hy.wikisource.org/wiki/%D5%84%D5%A1%D5%BF%D5%A5%D5%A1%D5%B6_%D5%88%D5%B2%D5%A2%D5%A5%D6%80%D5%A3%D5%B8%D6%82%D5%A9%D5%A5%D5%A1%D5%B6",
+    "https://en.wikipedia.org/wiki/Gregory_of_Narek"
+   ],
+   "note": "Excerpt matches hy.wikisource. Translation included an unsupported 'as an offering of smoke' gloss for a word that could not be confirmed; excerpt cut to the first two lines, which are translated faithfully."
+  },
+  "classical-armenian#note:0": {
+   "hash": "e84f69e70b8aefd0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ]
+  },
+  "classical-armenian#note:1": {
+   "hash": "73ffe08aed9295b9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Armenian",
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ]
+  },
+  "armenian#identity": {
+   "hash": "4cb3e9bff505da31",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/east2768",
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ],
+   "note": "east2768 is Glottolog's 'Eastern-Western Armenian' (family level, modern Armenian); Glottolog lists Classical-Middle Armenian separately (clas1249). Accepted for modern Armenian."
+  },
+  "armenian#period": {
+   "hash": "9f088a1aa9cfe437",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ]
+  },
+  "armenian#homeland": {
+   "hash": "a3d691bf1bde5702",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ]
+  },
+  "armenian#attestation:wounds-of-armenia": {
+   "hash": "a09de183be39022e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wounds_of_Armenia"
+   ]
+  },
+  "armenian#scripts": {
+   "hash": "f74e8b1467945dc6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_alphabet"
+   ]
+  },
+  "armenian#speakers": {
+   "hash": "8f43d7f84124a78e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ],
+   "note": "Cited page gives 5.3 million native speakers (2013-2021, Ethnologue 1.6M W + 3.7M E); the earlier exact figure 5,281,290 appears in no source. Set to 5,300,000."
+  },
+  "armenian#story:0": {
+   "hash": "79abb41e1203c9ea",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_language",
+    "https://en.wikipedia.org/wiki/Armenian_alphabet"
+   ]
+  },
+  "armenian#story:1": {
+   "hash": "1a36bea01cd051dd",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_language",
+    "https://en.wikipedia.org/wiki/Wounds_of_Armenia"
+   ],
+   "note": "Removed unsupported 'Abovian acknowledged as founder of modern Eastern Armenian'; source only says first modern Eastern Armenian literary work (founder of modern Eastern Armenian literature is Bardakjian's view, contested)"
+  },
+  "armenian#story:2": {
+   "hash": "d54e2d7753407a0a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Armenian_language"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:55:02.028Z",
+ "verifier": "auditor-east-ie"
+}

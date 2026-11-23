@@ -1,0 +1,1814 @@
+{
+ "file": "data/families/afroasiatic.json",
+ "claims": {
+  "proto-afroasiatic#identity": {
+   "hash": "a383b058469d03e4",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/afro1255",
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+   ]
+  },
+  "proto-afroasiatic#period": {
+   "hash": "7847fbf4722484d2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+   ],
+   "note": "End date reworded as schematic (the earlier note overclaimed that Egyptian and Semitic are firmly attested after c. 4000 BCE)."
+  },
+  "proto-afroasiatic#homeland": {
+   "hash": "b089371615ea3231",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+   ],
+   "note": "Label now says the point is schematic."
+  },
+  "proto-afroasiatic#story:0": {
+   "hash": "b70243e11095d1e8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+   ]
+  },
+  "proto-afroasiatic#story:1": {
+   "hash": "a4eae94c98776ddd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+   ]
+  },
+  "proto-afroasiatic#note:0": {
+   "hash": "ea8e4f8efe16dfa5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+   ]
+  },
+  "proto-afroasiatic#note:1": {
+   "hash": "e27e1d71fe6fa2ad",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+   ]
+  },
+  "archaic-egyptian#identity": {
+   "hash": "17a9ed52bde311f8",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/arch1248",
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "archaic-egyptian#period": {
+   "hash": "5adefd1286004bd9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language",
+    "https://en.wikipedia.org/wiki/Umm_El_Qa%27ab"
+   ]
+  },
+  "archaic-egyptian#homeland": {
+   "hash": "3b420006a3e2710a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages",
+    "https://en.wikipedia.org/wiki/Umm_El_Qa%27ab"
+   ]
+  },
+  "archaic-egyptian#attestation:abydos-tomb-u-j": {
+   "hash": "12dd5a9a23ea760e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Umm_El_Qa%27ab",
+    "https://the-past.com/shorts/the-picture-desk/the-discovery-of-tomb-u-j/"
+   ]
+  },
+  "archaic-egyptian#attestation:narmer-palette": {
+   "hash": "0910bd604ee6d895",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Narmer_Palette",
+    "https://en.wikipedia.org/wiki/Nekhen"
+   ]
+  },
+  "archaic-egyptian#scripts": {
+   "hash": "5a4f5da49c033ae5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "archaic-egyptian#story:0": {
+   "hash": "281492a8dfd38751",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Umm_El_Qa%27ab",
+    "https://the-past.com/shorts/the-picture-desk/the-discovery-of-tomb-u-j/"
+   ]
+  },
+  "archaic-egyptian#story:1": {
+   "hash": "de0b2d2447586e79",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language",
+    "https://en.wikipedia.org/wiki/Narmer_Palette"
+   ]
+  },
+  "old-egyptian#identity": {
+   "hash": "1dfda02bf9eb4d98",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/olde1242",
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "old-egyptian#period": {
+   "hash": "65b915bdada15804",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "old-egyptian#homeland": {
+   "hash": "52e3dcc2a63d60a8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages",
+    "https://en.wikipedia.org/wiki/Saqqara"
+   ]
+  },
+  "old-egyptian#attestation:peribsen-seal": {
+   "hash": "f1dce3cde37da2c7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language",
+    "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
+   ]
+  },
+  "old-egyptian#attestation:diary-of-merer": {
+   "hash": "790700cf2e847488",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Diary_of_Merer",
+    "https://en.wikipedia.org/wiki/Wadi_al-Jarf"
+   ]
+  },
+  "old-egyptian#attestation:pyramid-texts-saqqara": {
+   "hash": "902eabc87f56c29e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pyramid_Texts",
+    "https://en.wikipedia.org/wiki/Saqqara"
+   ]
+  },
+  "old-egyptian#scripts": {
+   "hash": "28f23129ac4ee965",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "old-egyptian#story:0": {
+   "hash": "380c87bf7a522c4d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "old-egyptian#story:1": {
+   "hash": "33b3439e47c75821",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language",
+    "https://en.wikipedia.org/wiki/Diary_of_Merer",
+    "https://en.wikipedia.org/wiki/Pyramid_Texts"
+   ]
+  },
+  "middle-egyptian#identity": {
+   "hash": "e45957aa0d1aa65e",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/midd1369",
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "middle-egyptian#period": {
+   "hash": "d4fb3c530ea021fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "middle-egyptian#homeland": {
+   "hash": "4e3e82e6c53d31df",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages",
+    "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+   ]
+  },
+  "middle-egyptian#attestation:ramesseum-sinuhe": {
+   "hash": "900b6b1fc9f5ba98",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Story_of_Sinuhe",
+    "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+   ],
+   "note": "Year changed from -1950 (composition) to -1700 (the Ramesseum papyri date to the late 13th Dynasty)."
+  },
+  "middle-egyptian#scripts": {
+   "hash": "28f23129ac4ee965",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "middle-egyptian#story:0": {
+   "hash": "f1265f0d2910e739",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "middle-egyptian#story:1": {
+   "hash": "3979bf6d6675f5fb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "middle-egyptian#work:story-of-sinuhe": {
+   "hash": "4ac92217c89cfdb6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Story_of_Sinuhe",
+    "https://mjn.host.cs.st-andrews.ac.uk/egyptian/texts/corpus/pdf/Sinuhe.pdf",
+    "https://pages.ucsd.edu/~dkjordan/arch/egypt/Petrie/PetrieTale5.html",
+    "https://pages.ucsd.edu/~dkjordan/arch/egypt/Petrie/PetrieTales.html",
+    "https://pages.ucsd.edu/~dkjordan/arch/egypt/Petrie/PetrieTale1.html"
+   ],
+   "note": "Converted Manuel de Codage to Egyptological Unicode; noted that line 2 is from the Ashmolean ostracon (AOS) and the rest from version R; verified against Nederhof and Petrie."
+  },
+  "late-egyptian#identity": {
+   "hash": "e33b45f25982c8e1",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/late1256",
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "late-egyptian#period": {
+   "hash": "6ebdd3bed403db26",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "late-egyptian#homeland": {
+   "hash": "e2ecccfaf90b7293",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages",
+    "https://en.wikipedia.org/wiki/Egyptian_language",
+    "https://en.wikipedia.org/wiki/Amarna"
+   ]
+  },
+  "late-egyptian#attestation:story-of-wenamun": {
+   "hash": "e8c8a661fb769ddf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Story_of_Wenamun",
+    "https://en.wikipedia.org/wiki/El_Hiba"
+   ]
+  },
+  "late-egyptian#scripts": {
+   "hash": "28f23129ac4ee965",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "late-egyptian#story:0": {
+   "hash": "011a5a38278b6476",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "late-egyptian#story:1": {
+   "hash": "43333a1219dee34b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "demotic-egyptian#identity": {
+   "hash": "fd91b152a3db2ab5",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/demo1234",
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ]
+  },
+  "demotic-egyptian#period": {
+   "hash": "c5df5a90df16d50f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language",
+    "https://en.wikipedia.org/wiki/Philae"
+   ]
+  },
+  "demotic-egyptian#homeland": {
+   "hash": "9b4a40f6980dc384",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Demotic_(Egyptian)",
+    "https://en.wikipedia.org/wiki/Saqqara"
+   ]
+  },
+  "demotic-egyptian#attestation:rosetta-stone": {
+   "hash": "9367031a846f3ddd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "https://en.wikipedia.org/wiki/Rosetta"
+   ]
+  },
+  "demotic-egyptian#attestation:philae-last-demotic": {
+   "hash": "bc89f0090b622763",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Philae"
+   ]
+  },
+  "demotic-egyptian#scripts": {
+   "hash": "7b9358b45fc81b4b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Demotic_(Egyptian)"
+   ]
+  },
+  "demotic-egyptian#story:0": {
+   "hash": "cd68686bb808dcdb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language",
+    "https://en.wikipedia.org/wiki/Demotic_(Egyptian)"
+   ]
+  },
+  "demotic-egyptian#story:1": {
+   "hash": "9c03cc9f30da2400",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Demotic_(Egyptian)",
+    "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "https://en.wikipedia.org/wiki/Philae"
+   ]
+  },
+  "coptic#identity": {
+   "hash": "aa727a43c38146d1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/copt1239",
+    "https://en.wikipedia.org/wiki/Coptic_language"
+   ],
+   "note": "Status changed from extinct to classical: no native speakers, in daily liturgical use."
+  },
+  "coptic#period": {
+   "hash": "6d625f304cabb33c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Coptic_language",
+    "https://en.wikipedia.org/wiki/Egyptian_language"
+   ],
+   "note": "period.to set to null (classical); note states liturgical use."
+  },
+  "coptic#homeland": {
+   "hash": "b130c135960445c8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Coptic_language",
+    "https://en.wikipedia.org/wiki/Asyut"
+   ]
+  },
+  "coptic#attestation:nag-hammadi-codices": {
+   "hash": "cb4e095179b1ceb5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nag_Hammadi_library",
+    "https://en.wikipedia.org/wiki/Coptic_language",
+    "https://en.wikipedia.org/wiki/Nag_Hammadi"
+   ]
+  },
+  "coptic#scripts": {
+   "hash": "3f46de9a19d37766",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Coptic_language"
+   ]
+  },
+  "coptic#story:0": {
+   "hash": "f611a170c4482206",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_language",
+    "https://en.wikipedia.org/wiki/Coptic_language"
+   ]
+  },
+  "coptic#story:1": {
+   "hash": "9b416da546556821",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Coptic_language"
+   ]
+  },
+  "proto-semitic#identity": {
+   "hash": "b93f5ca6582a7765",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/semi1276",
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language"
+   ]
+  },
+  "proto-semitic#period": {
+   "hash": "23c5ee36d4881060",
+   "verdict": "verified",
+   "evidence": [
+    "https://iro.uiowa.edu/esploro/outputs/journalArticle/Bayesian-phylogenetic-analysis-of-Semitic-languages/9983983645602771",
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language"
+   ]
+  },
+  "proto-semitic#homeland": {
+   "hash": "d55268d9b7a7128c",
+   "verdict": "verified",
+   "evidence": [
+    "https://iro.uiowa.edu/esploro/outputs/journalArticle/Bayesian-phylogenetic-analysis-of-Semitic-languages/9983983645602771",
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language"
+   ]
+  },
+  "proto-semitic#story:0": {
+   "hash": "7eb3e07f3ab12219",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language"
+   ]
+  },
+  "proto-semitic#note:0": {
+   "hash": "e91ed5926303b3a4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language",
+    "https://iro.uiowa.edu/esploro/outputs/journalArticle/Bayesian-phylogenetic-analysis-of-Semitic-languages/9983983645602771"
+   ]
+  },
+  "proto-semitic#note:1": {
+   "hash": "c96c8fb33ed707f1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language"
+   ]
+  },
+  "akkadian#identity": {
+   "hash": "b985e55c9b103620",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/akka1240",
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "akkadian#period": {
+   "hash": "4c8dd6c601998114",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "akkadian#homeland": {
+   "hash": "2f12c0e4586b8483",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language",
+    "https://glottolog.org/resource/languoid/id/akka1240"
+   ]
+  },
+  "akkadian#attestation:meskiagnunna-bowl": {
+   "hash": "01d749357c368972",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language",
+    "https://en.wikipedia.org/wiki/Ur"
+   ]
+  },
+  "akkadian#attestation:kanesh-tablets": {
+   "hash": "68457120950023e1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language",
+    "https://en.wikipedia.org/wiki/Kültepe"
+   ]
+  },
+  "akkadian#attestation:amarna-letters": {
+   "hash": "c703bce524bf56ab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amarna_letters",
+    "https://en.wikipedia.org/wiki/Akkadian_language",
+    "https://en.wikipedia.org/wiki/Amarna"
+   ]
+  },
+  "akkadian#scripts": {
+   "hash": "2e4430517df17ee4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "akkadian#story:0": {
+   "hash": "bdc9534f544e0856",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "akkadian#story:1": {
+   "hash": "0b711ceb00d24c83",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "akkadian#story:2": {
+   "hash": "6491c269ff32da15",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "akkadian#work:epic-of-gilgamesh": {
+   "hash": "d711cf2f1a9447d2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.ebl.lmu.de/api/texts/L/1/4",
+    "https://www.ebl.lmu.de/api/texts/L/1/4/chapters/SB/I",
+    "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+    "https://www.ebl.lmu.de/corpus/L/1/4/SB/I"
+   ],
+   "note": "Removed unsupported \"some 75 manuscripts\" and \"8th to 2nd century BCE\"; date now the Standard Babylonian compilation c. 1300-1000 BCE (year -1150) per Wikipedia; text checked against eBL."
+  },
+  "akkadian#work:code-of-hammurabi": {
+   "hash": "14d7e3107348478e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+    "https://www.soas.ac.uk/baplar/recordings/codex-hammurabi-part-prologue-read-albert-naccache",
+    "https://en.wikisource.org/wiki/The_Code_of_Hammurabi_(Harper_translation)",
+    "https://en.wikisource.org/wiki/Author:Robert_Francis_Harper"
+   ]
+  },
+  "akkadian#note:0": {
+   "hash": "032d27da98768f14",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Akkadian_language"
+   ]
+  },
+  "eblaite#identity": {
+   "hash": "4437f0bd224e6f69",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/ebla1238",
+    "https://en.wikipedia.org/wiki/Eblaite_language"
+   ]
+  },
+  "eblaite#period": {
+   "hash": "cbb9cbb0ecb8ef04",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ebla_tablets"
+   ]
+  },
+  "eblaite#homeland": {
+   "hash": "4879bd43dfa113bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eblaite_language",
+    "https://en.wikipedia.org/wiki/Ebla"
+   ]
+  },
+  "eblaite#attestation:ebla-palace-g-archive": {
+   "hash": "9ebdba55a1c31b2e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ebla_tablets",
+    "https://en.wikipedia.org/wiki/Ebla"
+   ]
+  },
+  "eblaite#scripts": {
+   "hash": "68371f286f9d2694",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ebla_tablets"
+   ]
+  },
+  "eblaite#story:0": {
+   "hash": "3a2d95e947617c89",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eblaite_language",
+    "https://en.wikipedia.org/wiki/Ebla_tablets"
+   ]
+  },
+  "eblaite#story:1": {
+   "hash": "a9022c5d933388e3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ebla_tablets"
+   ]
+  },
+  "eblaite#note:0": {
+   "hash": "e55c9bb9008200dd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ebla_tablets"
+   ]
+  },
+  "ugaritic#identity": {
+   "hash": "4c3eb196eb3f6f4f",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/ugar1238",
+    "https://en.wikipedia.org/wiki/Ugaritic_language"
+   ]
+  },
+  "ugaritic#period": {
+   "hash": "8a20c1ce84c52c91",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic_language",
+    "https://en.wikipedia.org/wiki/Ugarit"
+   ]
+  },
+  "ugaritic#homeland": {
+   "hash": "da36b5fd4434234d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic_language",
+    "https://en.wikipedia.org/wiki/Ugarit"
+   ]
+  },
+  "ugaritic#attestation:ras-shamra-tablets": {
+   "hash": "12c29d005c1dc315",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic_language"
+   ]
+  },
+  "ugaritic#scripts": {
+   "hash": "ba344f30434b50cc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic_language"
+   ]
+  },
+  "ugaritic#story:0": {
+   "hash": "1c7e510d971cff4c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic_language",
+    "https://en.wikipedia.org/wiki/Ugarit"
+   ]
+  },
+  "ugaritic#story:1": {
+   "hash": "e76c613e16a158dd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ugaritic_language",
+    "https://en.wikipedia.org/wiki/Ugarit"
+   ]
+  },
+  "phoenician#identity": {
+   "hash": "4475142a917f16e5",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/phoe1239",
+    "https://en.wikipedia.org/wiki/Phoenician_language"
+   ]
+  },
+  "phoenician#period": {
+   "hash": "d27ba7edfda44775",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Phoenician_language"
+   ]
+  },
+  "phoenician#homeland": {
+   "hash": "065d3154b8acf883",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Phoenician_language",
+    "https://en.wikipedia.org/wiki/Byblos"
+   ]
+  },
+  "phoenician#attestation:ahiram-sarcophagus": {
+   "hash": "d3ffb972ffbeea29",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ahiram_sarcophagus",
+    "https://en.wikipedia.org/wiki/Byblos"
+   ]
+  },
+  "phoenician#scripts": {
+   "hash": "6fadf2eea01a433b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Phoenician_language"
+   ]
+  },
+  "phoenician#story:0": {
+   "hash": "516cc159f36d07ed",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Phoenician_language"
+   ]
+  },
+  "phoenician#story:1": {
+   "hash": "6ef1cfce8de7c3cd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Phoenician_language"
+   ]
+  },
+  "punic#identity": {
+   "hash": "ff1a2273e51816fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/puni1241",
+    "https://en.wikipedia.org/wiki/Punic_language"
+   ]
+  },
+  "punic#period": {
+   "hash": "e774180c9d4bbc74",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punic_language",
+    "https://en.wikipedia.org/wiki/Phoenician_language"
+   ]
+  },
+  "punic#homeland": {
+   "hash": "3886c808c2056615",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punic_language",
+    "https://en.wikipedia.org/wiki/Carthage"
+   ]
+  },
+  "punic#attestation:lepcis-magna-n19": {
+   "hash": "ba79bc2f9f86e730",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punic_language",
+    "https://en.wikipedia.org/wiki/Lepcis_Magna"
+   ]
+  },
+  "punic#scripts": {
+   "hash": "91e27964b71f06b7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Phoenician_language"
+   ]
+  },
+  "punic#story:0": {
+   "hash": "752099facf823e16",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punic_language"
+   ]
+  },
+  "punic#story:1": {
+   "hash": "d134feea84f10519",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punic_language"
+   ]
+  },
+  "old-aramaic#identity": {
+   "hash": "4e076ed1e1739934",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/olda1246",
+    "https://en.wikipedia.org/wiki/Old_Aramaic"
+   ]
+  },
+  "old-aramaic#period": {
+   "hash": "232c9376a6bd10f5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Aramaic",
+    "https://glottolog.org/resource/languoid/id/olda1246"
+   ]
+  },
+  "old-aramaic#homeland": {
+   "hash": "c772ec0cf1111d76",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Aramaic",
+    "https://en.wikipedia.org/wiki/Damascus"
+   ]
+  },
+  "old-aramaic#attestation:tel-dan-stele": {
+   "hash": "959de9c5a32441a1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tel_Dan_stele",
+    "https://en.wikipedia.org/wiki/Tel_Dan"
+   ]
+  },
+  "old-aramaic#scripts": {
+   "hash": "265b1f9c52230620",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tel_Dan_stele",
+    "https://en.wikipedia.org/wiki/Old_Aramaic"
+   ]
+  },
+  "old-aramaic#story:0": {
+   "hash": "1a1f253bdeb8485e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Aramaic",
+    "https://en.wikipedia.org/wiki/Tell_Fekheriye"
+   ]
+  },
+  "old-aramaic#story:1": {
+   "hash": "a3675529510e229d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Aramaic"
+   ]
+  },
+  "imperial-aramaic#identity": {
+   "hash": "bd07b011f806d9ae",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/impe1235",
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic"
+   ]
+  },
+  "imperial-aramaic#period": {
+   "hash": "1026d3194c2d2f8d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic",
+    "https://glottolog.org/resource/languoid/id/impe1235"
+   ]
+  },
+  "imperial-aramaic#homeland": {
+   "hash": "30604a032ba3978f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic",
+    "https://en.wikipedia.org/wiki/Nineveh"
+   ]
+  },
+  "imperial-aramaic#attestation:elephantine-papyri": {
+   "hash": "1c6e155e332cd9c8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Elephantine_papyri_and_ostraca",
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic",
+    "https://en.wikipedia.org/wiki/Elephantine"
+   ]
+  },
+  "imperial-aramaic#scripts": {
+   "hash": "212860db61e4372a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic"
+   ]
+  },
+  "imperial-aramaic#story:0": {
+   "hash": "7279b6643887486b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic",
+    "https://en.wikipedia.org/wiki/Old_Aramaic"
+   ]
+  },
+  "imperial-aramaic#story:1": {
+   "hash": "cb4701bc9c6d7aae",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Imperial_Aramaic"
+   ]
+  },
+  "syriac#identity": {
+   "hash": "a7d31b2f0b926626",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/clas1252",
+    "https://en.wikipedia.org/wiki/Syriac_language"
+   ],
+   "note": "Status changed from extinct to classical: no native speakers, liturgical use continues."
+  },
+  "syriac#period": {
+   "hash": "b680b8ebb1a15c1f",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Syriac_language"
+   ],
+   "note": "period.to set to null (classical)."
+  },
+  "syriac#homeland": {
+   "hash": "1f39700d819ed2f3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Syriac_language",
+    "https://en.wikipedia.org/wiki/Edessa"
+   ]
+  },
+  "syriac#attestation:old-edessan-inscription-6-ce": {
+   "hash": "73ab64fc05203b00",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Syriac_language",
+    "https://en.wikipedia.org/wiki/Edessa"
+   ]
+  },
+  "syriac#scripts": {
+   "hash": "192433d02585ca14",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Syriac_language"
+   ]
+  },
+  "syriac#story:0": {
+   "hash": "b1cd60070663dd7b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Syriac_language"
+   ]
+  },
+  "syriac#story:1": {
+   "hash": "e6a91379aa1b1d8a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Syriac_language"
+   ],
+   "note": "Added that Syriac remains the sacred language of Syriac Christianity today."
+  },
+  "syriac#work:peshitta-john-1": {
+   "hash": "2d038fc25feb729b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Peshitta",
+    "https://www.dukhrana.com/peshitta/index.php?book=John&chapter=1&verse=1&source=ubs&font=Estrangelo+Edessa&size=125%25",
+    "https://archive.org/details/newtestamentorbo00murd",
+    "https://en.wikipedia.org/wiki/James_Murdock_(scholar)"
+   ]
+  },
+  "biblical-hebrew#identity": {
+   "hash": "64ea9d6841e67be7",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/bibl1238",
+    "https://en.wikipedia.org/wiki/Biblical_Hebrew"
+   ]
+  },
+  "biblical-hebrew#period": {
+   "hash": "4b18521cafe9f48e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Biblical_Hebrew"
+   ]
+  },
+  "biblical-hebrew#homeland": {
+   "hash": "9ae420064f66b2c8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Biblical_Hebrew",
+    "https://en.wikipedia.org/wiki/Jerusalem"
+   ]
+  },
+  "biblical-hebrew#attestation:khirbet-qeiyafa-ostracon": {
+   "hash": "49c5d29306970d5a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Biblical_Hebrew",
+    "https://en.wikipedia.org/wiki/Khirbet_Qeiyafa_ostracon",
+    "https://en.wikipedia.org/wiki/Khirbet_Qeiyafa"
+   ]
+  },
+  "biblical-hebrew#attestation:gezer-calendar": {
+   "hash": "fa3470e4e19ba329",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gezer_calendar",
+    "https://en.wikipedia.org/wiki/Gezer"
+   ]
+  },
+  "biblical-hebrew#attestation:siloam-inscription": {
+   "hash": "47a551ada510c920",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Siloam_inscription",
+    "https://en.wikipedia.org/wiki/Gihon_Spring",
+    "https://en.wikipedia.org/wiki/Pool_of_Siloam"
+   ],
+   "note": "Coordinates checked against the Gihon Spring and Pool of Siloam (the tunnel runs between them); added sources."
+  },
+  "biblical-hebrew#attestation:dead-sea-scrolls": {
+   "hash": "b1f063622ebf579c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
+    "https://en.wikipedia.org/wiki/Qumran"
+   ]
+  },
+  "biblical-hebrew#scripts": {
+   "hash": "8c169defa3a41e3e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Biblical_Hebrew",
+    "https://en.wikipedia.org/wiki/Siloam_inscription"
+   ]
+  },
+  "biblical-hebrew#story:0": {
+   "hash": "0f34ea6c6138eee7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Biblical_Hebrew",
+    "https://en.wikipedia.org/wiki/Siloam_inscription"
+   ]
+  },
+  "biblical-hebrew#story:1": {
+   "hash": "68107a2aa33b4d7e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Biblical_Hebrew"
+   ]
+  },
+  "biblical-hebrew#work:genesis-1": {
+   "hash": "cd0b0ab9f60915f4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Biblical_Hebrew",
+    "https://mechon-mamre.org/p/pt/pt0101.htm",
+    "https://en.wikisource.org/wiki/Bible_(King_James)/Genesis",
+    "https://en.wikipedia.org/wiki/King_James_Version"
+   ]
+  },
+  "hebrew#identity": {
+   "hash": "df155b51ccc2c59d",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/hebr1245",
+    "https://en.wikipedia.org/wiki/Modern_Hebrew"
+   ]
+  },
+  "hebrew#period": {
+   "hash": "db1eebd12f09193e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Revival_of_the_Hebrew_language"
+   ]
+  },
+  "hebrew#homeland": {
+   "hash": "59fe13fb4b24dd96",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Revival_of_the_Hebrew_language",
+    "https://en.wikipedia.org/wiki/Jerusalem"
+   ]
+  },
+  "hebrew#scripts": {
+   "hash": "1460a6b665204d40",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Hebrew"
+   ]
+  },
+  "hebrew#speakers": {
+   "hash": "a781080e3cf01505",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Hebrew"
+   ]
+  },
+  "hebrew#story:0": {
+   "hash": "19555f0b0129c87a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Revival_of_the_Hebrew_language",
+    "https://en.wikipedia.org/wiki/Modern_Hebrew"
+   ]
+  },
+  "hebrew#story:1": {
+   "hash": "6f92817fd2920182",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Revival_of_the_Hebrew_language",
+    "https://en.wikipedia.org/wiki/Modern_Hebrew"
+   ]
+  },
+  "hebrew#note:0": {
+   "hash": "2000e53e1bb61a12",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Hebrew"
+   ]
+  },
+  "arabic#identity": {
+   "hash": "16df6da374731ca9",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/arab1395",
+    "https://en.wikipedia.org/wiki/Arabic"
+   ]
+  },
+  "arabic#attestation:en-avdat-poem": {
+   "hash": "118a4ca92ec7ea5a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Arabic",
+    "https://en.wikipedia.org/wiki/Avdat"
+   ]
+  },
+  "arabic#scripts": {
+   "hash": "93e01d7b86b7270c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Arabic"
+   ]
+  },
+  "arabic#speakers": {
+   "hash": "8d0f3572bfd9a177",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Arabic"
+   ]
+  },
+  "arabic#story:0": {
+   "hash": "dfaf73f0ab602245",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Arabic"
+   ]
+  },
+  "arabic#story:1": {
+   "hash": "b87d84b4c9674c82",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Arabic",
+    "https://en.wikipedia.org/wiki/Namara_inscription"
+   ]
+  },
+  "arabic#note:0": {
+   "hash": "3d50d97a9536f167",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Arabic"
+   ]
+  },
+  "arabic#note:1": {
+   "hash": "c34573a4dd794fb4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Arabic"
+   ]
+  },
+  "classical-arabic#identity": {
+   "hash": "c4ff90653500625d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/clas1259",
+    "https://en.wikipedia.org/wiki/Classical_Arabic"
+   ],
+   "note": "Status changed from extinct to classical: no native speakers, liturgical use."
+  },
+  "classical-arabic#period": {
+   "hash": "73c4b771cc4617b9",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Arabic",
+    "https://en.wikipedia.org/wiki/Modern_Standard_Arabic"
+   ],
+   "note": "period.to set to null (classical)."
+  },
+  "classical-arabic#homeland": {
+   "hash": "fadbb38dab16dc90",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Arabic",
+    "https://en.wikipedia.org/wiki/Mecca"
+   ]
+  },
+  "classical-arabic#scripts": {
+   "hash": "ebd82c2dd01747a4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Arabic"
+   ]
+  },
+  "classical-arabic#story:0": {
+   "hash": "745c8c240b034b71",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Arabic"
+   ]
+  },
+  "classical-arabic#story:1": {
+   "hash": "a8a9827ffe6fe9ca",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Arabic",
+    "https://en.wikipedia.org/wiki/Arabic"
+   ]
+  },
+  "classical-arabic#work:quran-al-fatiha": {
+   "hash": "36166f4f955262d4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Al-Fatiha",
+    "https://api.alquran.cloud/v1/surah/1/quran-simple",
+    "https://archive.org/details/MN40248ucmf_9",
+    "https://en.wikipedia.org/wiki/Marmaduke_Pickthall"
+   ]
+  },
+  "classical-arabic#work:muallaqa-imru-al-qais": {
+   "hash": "1cd2d362908c0511",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mu%27allaqat",
+    "https://en.wikipedia.org/wiki/Imru%27_al-Qais",
+    "https://ar.wikisource.org/wiki/%D9%85%D8%B9%D9%84%D9%82%D8%A9_%D8%A7%D9%85%D8%B1%D8%A6_%D8%A7%D9%84%D9%82%D9%8A%D8%B3",
+    "https://en.wikisource.org/wiki/Arabian_Poetry_for_English_Readers/The_Moallak%C3%A1t/The_Poem_of_Amriolkais",
+    "https://en.wikipedia.org/wiki/William_Jones_(philologist)"
+   ],
+   "note": "Translation year corrected from 1783 to 1782 (Jones, The Moallakat, Calcutta); text matches Wikisource."
+  },
+  "modern-standard-arabic#identity": {
+   "hash": "06ee2020a1f89395",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/stan1318",
+    "https://en.wikipedia.org/wiki/Modern_Standard_Arabic"
+   ]
+  },
+  "modern-standard-arabic#period": {
+   "hash": "2cb1de9329c4ecf6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Standard_Arabic"
+   ]
+  },
+  "modern-standard-arabic#homeland": {
+   "hash": "e2e1558889e9a7d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Standard_Arabic",
+    "https://en.wikipedia.org/wiki/Cairo"
+   ]
+  },
+  "modern-standard-arabic#scripts": {
+   "hash": "f9bec0e7066935bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Standard_Arabic"
+   ]
+  },
+  "modern-standard-arabic#story:0": {
+   "hash": "0e9852339da35cb5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Standard_Arabic"
+   ]
+  },
+  "modern-standard-arabic#story:1": {
+   "hash": "7605ff4e76f4cdf5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Modern_Standard_Arabic"
+   ]
+  },
+  "egyptian-arabic#identity": {
+   "hash": "cad090e4a394155b",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/egyp1253",
+    "https://en.wikipedia.org/wiki/Egyptian_Arabic"
+   ]
+  },
+  "egyptian-arabic#period": {
+   "hash": "551953d00858531c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_Arabic"
+   ]
+  },
+  "egyptian-arabic#homeland": {
+   "hash": "3da3b0c7101106ee",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_Arabic",
+    "https://en.wikipedia.org/wiki/Nile_Delta"
+   ],
+   "note": "Point moved to the Wikipedia Nile Delta coordinates (30.9, 31.117)."
+  },
+  "egyptian-arabic#scripts": {
+   "hash": "0c0abd5c8dd9269c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_Arabic"
+   ]
+  },
+  "egyptian-arabic#speakers": {
+   "hash": "66dba534c6b65575",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_Arabic"
+   ]
+  },
+  "egyptian-arabic#story:0": {
+   "hash": "6243be1d999048ff",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_Arabic"
+   ]
+  },
+  "egyptian-arabic#story:1": {
+   "hash": "70f8dd98d1738bd7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Egyptian_Arabic"
+   ]
+  },
+  "ethiosemitic#identity": {
+   "hash": "82f17acdd56c9e5e",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/ethi1244",
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language"
+   ]
+  },
+  "ethiosemitic#note:0": {
+   "hash": "3350cc8e06e7accf",
+   "verdict": "verified",
+   "evidence": [
+    "https://iro.uiowa.edu/esploro/outputs/journalArticle/Bayesian-phylogenetic-analysis-of-Semitic-languages/9983983645602771",
+    "https://en.wikipedia.org/wiki/Proto-Semitic_language"
+   ]
+  },
+  "geez#identity": {
+   "hash": "40bbf3da7c03a365",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/geez1241",
+    "https://en.wikipedia.org/wiki/Ge%27ez"
+   ],
+   "note": "Status changed from extinct to classical: no native speakers, liturgical use."
+  },
+  "geez#period": {
+   "hash": "30e361737d5335e6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ge%27ez"
+   ],
+   "note": "period.to set to null (classical)."
+  },
+  "geez#homeland": {
+   "hash": "54848bc018a27d43",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ge%27ez",
+    "https://en.wikipedia.org/wiki/Aksum"
+   ]
+  },
+  "geez#attestation:hawulti-obelisk": {
+   "hash": "2c8e75c1e0b1d536",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ge%27ez",
+    "https://en.wikipedia.org/wiki/Matara,_Eritrea"
+   ]
+  },
+  "geez#attestation:ezana-stone": {
+   "hash": "0d67f88896f5afce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ezana_Stone",
+    "https://en.wikipedia.org/wiki/Aksum"
+   ]
+  },
+  "geez#scripts": {
+   "hash": "7d82caa972eb29d2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ge%27ez"
+   ]
+  },
+  "geez#story:0": {
+   "hash": "95cfd3c36c2cf2c8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ge%27ez",
+    "https://en.wikipedia.org/wiki/Ezana_Stone"
+   ]
+  },
+  "geez#story:1": {
+   "hash": "c35996e4af8bbd6d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Garima_Gospels",
+    "https://en.wikipedia.org/wiki/Ge%27ez",
+    "https://en.wikipedia.org/wiki/Kebra_Nagast"
+   ]
+  },
+  "amharic#identity": {
+   "hash": "58e73410d5bfa891",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/amha1245",
+    "https://en.wikipedia.org/wiki/Amharic"
+   ]
+  },
+  "amharic#period": {
+   "hash": "cc10d9e4a64feb80",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amharic",
+    "https://en.wikipedia.org/wiki/Ge%27ez"
+   ]
+  },
+  "amharic#homeland": {
+   "hash": "c71efea394896dd8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amharic",
+    "https://glottolog.org/resource/languoid/id/amha1245"
+   ]
+  },
+  "amharic#scripts": {
+   "hash": "dd45c44641655a2f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amharic"
+   ]
+  },
+  "amharic#speakers": {
+   "hash": "a589dc3b9c60bb7e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amharic"
+   ]
+  },
+  "amharic#story:0": {
+   "hash": "5675c4f2a932cd81",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amharic"
+   ]
+  },
+  "amharic#story:1": {
+   "hash": "35bae7d59ad2d14c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amharic"
+   ]
+  },
+  "tigrinya#identity": {
+   "hash": "5a2d99a1b5906b46",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/tigr1271",
+    "https://en.wikipedia.org/wiki/Tigrinya_language"
+   ]
+  },
+  "tigrinya#period": {
+   "hash": "b388cf476706d694",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tigrinya_language"
+   ]
+  },
+  "tigrinya#homeland": {
+   "hash": "1236f6b202a7a2c7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tigrinya_language"
+   ]
+  },
+  "tigrinya#scripts": {
+   "hash": "b4a3356315102156",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tigrinya_language"
+   ]
+  },
+  "tigrinya#speakers": {
+   "hash": "cc455d5bceeb5b07",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tigrinya_language"
+   ]
+  },
+  "tigrinya#story:0": {
+   "hash": "e2970f22c785fecf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tigrinya_language"
+   ]
+  },
+  "tigrinya#story:1": {
+   "hash": "4901ce808199b208",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tigrinya_language"
+   ]
+  },
+  "berber#identity": {
+   "hash": "c1550514a285469e",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/berb1260",
+    "https://en.wikipedia.org/wiki/Berber_languages"
+   ]
+  },
+  "berber#story:0": {
+   "hash": "902c1b33557be1dd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Berber_languages"
+   ]
+  },
+  "berber#story:1": {
+   "hash": "76ad0bde8220beb5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Berber_languages",
+    "https://en.wikipedia.org/wiki/Tifinagh"
+   ]
+  },
+  "berber#note:0": {
+   "hash": "e8aec64720717e36",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Berber_language"
+   ]
+  },
+  "central-atlas-tamazight#identity": {
+   "hash": "3b6e9f45d4a2f962",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/cent2194",
+    "https://en.wikipedia.org/wiki/Central_Atlas_Tamazight"
+   ]
+  },
+  "central-atlas-tamazight#period": {
+   "hash": "f5f59bde6cea0fd6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Berber_language"
+   ]
+  },
+  "central-atlas-tamazight#homeland": {
+   "hash": "91389e676925a80b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Central_Atlas_Tamazight",
+    "https://en.wikipedia.org/wiki/Khenifra"
+   ]
+  },
+  "central-atlas-tamazight#scripts": {
+   "hash": "8e8a908bda2fafbc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Central_Atlas_Tamazight"
+   ]
+  },
+  "central-atlas-tamazight#speakers": {
+   "hash": "2a20968350a36c46",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Central_Atlas_Tamazight"
+   ]
+  },
+  "central-atlas-tamazight#story:0": {
+   "hash": "13ae7f114af85719",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Central_Atlas_Tamazight"
+   ]
+  },
+  "central-atlas-tamazight#story:1": {
+   "hash": "7815d729858ba513",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Central_Atlas_Tamazight",
+    "https://en.wikipedia.org/wiki/Royal_Institute_of_Amazigh_Culture"
+   ]
+  },
+  "cushitic#identity": {
+   "hash": "8fdc5a3ee057586c",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/cush1243",
+    "https://en.wikipedia.org/wiki/Cushitic_languages"
+   ]
+  },
+  "cushitic#story:0": {
+   "hash": "6eba8ff85121f206",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afroasiatic_languages"
+   ]
+  },
+  "somali#identity": {
+   "hash": "7e7db58584c18da7",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/soma1255",
+    "https://en.wikipedia.org/wiki/Somali_language"
+   ]
+  },
+  "somali#period": {
+   "hash": "a51c24b30a93dd08",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Somali_language",
+    "https://en.wikipedia.org/wiki/Uways_al-Barawi"
+   ],
+   "note": "Start moved from 1850 to 1870: Uways (b. 1847) went to Baghdad c. 1870, so 1850 was too early; still approximate."
+  },
+  "somali#homeland": {
+   "hash": "ee8e95b58dcdc80f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Somali_language",
+    "https://glottolog.org/resource/languoid/id/soma1255"
+   ]
+  },
+  "somali#scripts": {
+   "hash": "bca5330d816c6fc7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Somali_language",
+    "https://en.wikipedia.org/wiki/Osmanya_script"
+   ]
+  },
+  "somali#speakers": {
+   "hash": "e23db0cc0544b7a0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Somali_language"
+   ]
+  },
+  "somali#story:0": {
+   "hash": "0b55d0a97ee3dc42",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Somali_language",
+    "https://en.wikipedia.org/wiki/Uways_al-Barawi"
+   ]
+  },
+  "somali#story:1": {
+   "hash": "532efa48dbcf2586",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Somali_language",
+    "https://en.wikipedia.org/wiki/Osmanya_script"
+   ]
+  },
+  "oromo#identity": {
+   "hash": "6f08ad55cb85c772",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/nucl1736",
+    "https://en.wikipedia.org/wiki/Oromo_language"
+   ]
+  },
+  "oromo#period": {
+   "hash": "0fa0420cdae34f80",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oromo_language"
+   ]
+  },
+  "oromo#homeland": {
+   "hash": "fb5a3c256707196d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oromo_language",
+    "https://en.wikipedia.org/wiki/Oromia"
+   ],
+   "note": "Point moved to the Wikipedia Oromia coordinates (7.989, 39.381)."
+  },
+  "oromo#scripts": {
+   "hash": "2959f67c8ff47843",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oromo_language",
+    "https://en.wikipedia.org/wiki/Qubee"
+   ]
+  },
+  "oromo#speakers": {
+   "hash": "40c860fecd94cd4d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oromo_language"
+   ]
+  },
+  "oromo#story:0": {
+   "hash": "c517517945045eb6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oromo_language"
+   ]
+  },
+  "oromo#story:1": {
+   "hash": "c2f4165f91fce2fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oromo_language",
+    "https://en.wikipedia.org/wiki/Qubee"
+   ]
+  },
+  "oromo#note:0": {
+   "hash": "ff8f4e490f4646ff",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/nucl1736"
+   ]
+  },
+  "chadic#identity": {
+   "hash": "9957333b2cf6c298",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/chad1250",
+    "https://en.wikipedia.org/wiki/Chadic_languages"
+   ]
+  },
+  "chadic#story:0": {
+   "hash": "e10ec4ee76e5599f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chadic_languages"
+   ]
+  },
+  "hausa#identity": {
+   "hash": "e84c3befca29b6b1",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/haus1257",
+    "https://en.wikipedia.org/wiki/Hausa_language"
+   ]
+  },
+  "hausa#period": {
+   "hash": "49a73005686f523a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hausa_language"
+   ]
+  },
+  "hausa#homeland": {
+   "hash": "8068bc5de89f1739",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hausa_language",
+    "https://en.wikipedia.org/wiki/Kano_(city)"
+   ]
+  },
+  "hausa#scripts": {
+   "hash": "49c3b9f07472f6da",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hausa_language"
+   ]
+  },
+  "hausa#speakers": {
+   "hash": "6643d64c06ce0a7e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hausa_language"
+   ]
+  },
+  "hausa#story:0": {
+   "hash": "238d5e33517e17ef",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hausa_language"
+   ]
+  },
+  "hausa#story:1": {
+   "hash": "3036b1c42a094e1a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hausa_language",
+    "https://en.wikipedia.org/wiki/Ajami_script"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:48:15.822Z",
+ "verifier": "verifier-near-east"
+}

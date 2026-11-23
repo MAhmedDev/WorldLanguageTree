@@ -1,0 +1,130 @@
+{
+  "id": "cradle-of-writing",
+  "title": "The Cradle of Writing",
+  "subtitle": "From accounting tablets at Uruk to inscribed stones in the Roman Forum, follow how writing travelled from language to language.",
+  "sources": [
+    {
+      "id": "cuneiform",
+      "title": "Cuneiform",
+      "url": "https://en.wikipedia.org/wiki/Cuneiform",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "pyramid-texts",
+      "title": "Pyramid Texts",
+      "url": "https://en.wikipedia.org/wiki/Pyramid_Texts",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "akkadian",
+      "title": "Akkadian language",
+      "url": "https://en.wikipedia.org/wiki/Akkadian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ebla",
+      "title": "Ebla tablets",
+      "url": "https://en.wikipedia.org/wiki/Ebla_tablets",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ugaritic",
+      "title": "Ugaritic",
+      "url": "https://en.wikipedia.org/wiki/Ugaritic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ahiram",
+      "title": "Ahiram sarcophagus",
+      "url": "https://en.wikipedia.org/wiki/Ahiram_sarcophagus",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "dipylon",
+      "title": "Dipylon inscription",
+      "url": "https://en.wikipedia.org/wiki/Dipylon_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "lapis-niger",
+      "title": "Lapis Niger",
+      "url": "https://en.wikipedia.org/wiki/Lapis_Niger",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "steps": [
+    {
+      "languoid": "sumerian",
+      "year": -3200,
+      "title": "Accounts on clay at Uruk",
+      "text": "Writing is first recorded at Uruk at the end of the fourth millennium BCE. The earliest unequivocal documents, from the Uruk IV period around 3300 BCE, are mostly accounting texts, and their sign list holds 705 elements, 42 of them numerals. Tablets from about 2800 BCE use signs that clearly reflect Sumerian, the first language written in cuneiform.",
+      "sources": [
+        "cuneiform"
+      ]
+    },
+    {
+      "languoid": "eblaite",
+      "year": -2400,
+      "title": "The archives of Ebla",
+      "text": "At Tell Mardikh, the site of ancient Ebla in Syria, Paolo Matthiae's team found the palace archives in 1974 and 1975. They hold as many as 1,800 complete tablets and 4,700 fragments from roughly 2500 BCE to the city's destruction near 2250 BCE. The tablets are in Sumerian and in Eblaite, a language unknown before, written with Sumerian cuneiform signs used for their sounds.",
+      "sources": [
+        "ebla"
+      ]
+    },
+    {
+      "languoid": "old-egyptian",
+      "year": -2350,
+      "title": "Spells on the walls of Unas",
+      "text": "In the Pyramid of Unas at North Saqqara, the subterranean walls were carved with the oldest known Pyramid Texts, written in Old Egyptian. Unas reigned c. 2353 to 2323 BCE, and the texts are dated roughly 2400 to 2300 BCE. Sources count the spells differently, from 226 to 283.",
+      "sources": [
+        "pyramid-texts"
+      ]
+    },
+    {
+      "languoid": "akkadian",
+      "year": -2300,
+      "title": "Sumerian signs for a new language",
+      "text": "From the 24th century BCE the Akkadian Empire, founded by Sargon, adopted the archaic cuneiform script. Scribes used Sumerian phonetic signs to write Akkadian and kept some Sumerian signs as logograms: the sign for sheep was read immerum. Centuries later, in the Amarna period, Akkadian served as the written language of diplomacy, including with Egypt.",
+      "sources": [
+        "cuneiform",
+        "akkadian"
+      ]
+    },
+    {
+      "languoid": "ugaritic",
+      "year": -1300,
+      "title": "An alphabet pressed into clay",
+      "text": "French archaeologists found the Ugaritic texts in 1928 at Ugarit, now Ras Shamra. The script is an alphabetic cuneiform: an abjad with a long form of 30 letters and a short form of 22. The language is attested from the 14th to the early 12th century BCE, in texts such as the Baal Cycle, before the city was destroyed around 1190 BCE.",
+      "sources": [
+        "ugaritic"
+      ]
+    },
+    {
+      "languoid": "phoenician",
+      "year": -1000,
+      "title": "A king's coffin at Byblos",
+      "text": "In 1923 Pierre Montet found the sarcophagus of Ahiram in tomb V of the royal necropolis at Byblos, now in Lebanon. A 38-word inscription on its rim and lid names the maker, a son of Ahiram, and curses anyone who disturbs it. Dated to around 1000 BCE, though the date is debated, it is among the earliest substantial examples of the fully developed Phoenician alphabet.",
+      "sources": [
+        "ahiram"
+      ]
+    },
+    {
+      "languoid": "ancient-greek",
+      "year": -740,
+      "title": "A prize for the best dancer",
+      "text": "Around 740 BCE someone scratched 46 characters around the shoulder of a jug, later found in 1871 in the Dipylon Cemetery in Athens. The first 35 can be read as a hexameter verse marking the jug as a prize for whichever dancer dances most lightly. It is one of the oldest known samples of the Greek alphabet, whose letters still resemble Phoenician forms.",
+      "sources": [
+        "dipylon"
+      ]
+    },
+    {
+      "languoid": "old-latin",
+      "year": -570,
+      "title": "The black stone in the Forum",
+      "text": "Beneath a black marble pavement in the Roman Forum lies a stone bearing one of the earliest known Old Latin inscriptions, dated to about 570 to 550 BCE. Written boustrophedon, line by line in alternating direction, the fragmentary text mentions a rex and seems to threaten curses on anyone who disturbs the site. Giacomo Boni excavated it between 1899 and 1905.",
+      "sources": [
+        "lapis-niger"
+      ]
+    }
+  ]
+}

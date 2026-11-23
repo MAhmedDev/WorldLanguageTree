@@ -1,0 +1,3541 @@
+{
+  "family": {
+    "id": "afroasiatic",
+    "name": "Afroasiatic",
+    "root": "proto-afroasiatic"
+  },
+  "sources": [
+    {
+      "id": "glotto-afro1255",
+      "title": "Glottolog: Afro-Asiatic",
+      "url": "https://glottolog.org/resource/languoid/id/afro1255",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-arch1248",
+      "title": "Glottolog: Archaic Egyptian",
+      "url": "https://glottolog.org/resource/languoid/id/arch1248",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-olde1242",
+      "title": "Glottolog: Old Egyptian",
+      "url": "https://glottolog.org/resource/languoid/id/olde1242",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-midd1369",
+      "title": "Glottolog: Middle Egyptian",
+      "url": "https://glottolog.org/resource/languoid/id/midd1369",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-late1256",
+      "title": "Glottolog: Late Egyptian",
+      "url": "https://glottolog.org/resource/languoid/id/late1256",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-demo1234",
+      "title": "Glottolog: Demotic Egyptian",
+      "url": "https://glottolog.org/resource/languoid/id/demo1234",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-copt1239",
+      "title": "Glottolog: Coptic",
+      "url": "https://glottolog.org/resource/languoid/id/copt1239",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-semi1276",
+      "title": "Glottolog: Semitic",
+      "url": "https://glottolog.org/resource/languoid/id/semi1276",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-akka1240",
+      "title": "Glottolog: Akkadian",
+      "url": "https://glottolog.org/resource/languoid/id/akka1240",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-ebla1238",
+      "title": "Glottolog: Eblaite",
+      "url": "https://glottolog.org/resource/languoid/id/ebla1238",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-ugar1238",
+      "title": "Glottolog: Ugaritic",
+      "url": "https://glottolog.org/resource/languoid/id/ugar1238",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-phoe1239",
+      "title": "Glottolog: Phoenician",
+      "url": "https://glottolog.org/resource/languoid/id/phoe1239",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-puni1241",
+      "title": "Glottolog: Punic",
+      "url": "https://glottolog.org/resource/languoid/id/puni1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-olda1246",
+      "title": "Glottolog: Old Aramaic (up to 700 BCE)",
+      "url": "https://glottolog.org/resource/languoid/id/olda1246",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-impe1235",
+      "title": "Glottolog: Imperial Aramaic (700-300 BCE)",
+      "url": "https://glottolog.org/resource/languoid/id/impe1235",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-clas1252",
+      "title": "Glottolog: Classical Syriac",
+      "url": "https://glottolog.org/resource/languoid/id/clas1252",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-bibl1238",
+      "title": "Glottolog: Biblical Hebrew",
+      "url": "https://glottolog.org/resource/languoid/id/bibl1238",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-hebr1245",
+      "title": "Glottolog: Modern Hebrew",
+      "url": "https://glottolog.org/resource/languoid/id/hebr1245",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-arab1395",
+      "title": "Glottolog: Arabic",
+      "url": "https://glottolog.org/resource/languoid/id/arab1395",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-clas1259",
+      "title": "Glottolog: Classical Arabic",
+      "url": "https://glottolog.org/resource/languoid/id/clas1259",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-stan1318",
+      "title": "Glottolog: Standard Arabic",
+      "url": "https://glottolog.org/resource/languoid/id/stan1318",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-egyp1253",
+      "title": "Glottolog: Egyptian Arabic",
+      "url": "https://glottolog.org/resource/languoid/id/egyp1253",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-ethi1244",
+      "title": "Glottolog: Ethiosemitic",
+      "url": "https://glottolog.org/resource/languoid/id/ethi1244",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-geez1241",
+      "title": "Glottolog: Geez",
+      "url": "https://glottolog.org/resource/languoid/id/geez1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-amha1245",
+      "title": "Glottolog: Amharic",
+      "url": "https://glottolog.org/resource/languoid/id/amha1245",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-tigr1271",
+      "title": "Glottolog: Tigrinya",
+      "url": "https://glottolog.org/resource/languoid/id/tigr1271",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-berb1260",
+      "title": "Glottolog: Berber",
+      "url": "https://glottolog.org/resource/languoid/id/berb1260",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-cent2194",
+      "title": "Glottolog: Central Moroccan Berber",
+      "url": "https://glottolog.org/resource/languoid/id/cent2194",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-cush1243",
+      "title": "Glottolog: Cushitic",
+      "url": "https://glottolog.org/resource/languoid/id/cush1243",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-soma1255",
+      "title": "Glottolog: Somali",
+      "url": "https://glottolog.org/resource/languoid/id/soma1255",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-nucl1736",
+      "title": "Glottolog: Nuclear Oromo",
+      "url": "https://glottolog.org/resource/languoid/id/nucl1736",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-chad1250",
+      "title": "Glottolog: Chadic",
+      "url": "https://glottolog.org/resource/languoid/id/chad1250",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-haus1257",
+      "title": "Glottolog: Hausa",
+      "url": "https://glottolog.org/resource/languoid/id/haus1257",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-afroasiatic",
+      "title": "Afroasiatic languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Afroasiatic_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-egyptian",
+      "title": "Egyptian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-umm-el-qaab",
+      "title": "Umm El Qa'ab (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Umm_El_Qa%27ab",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "thepast-uj",
+      "title": "The discovery of Tomb U-j",
+      "url": "https://the-past.com/shorts/the-picture-desk/the-discovery-of-tomb-u-j/",
+      "publisher": "The Past"
+    },
+    {
+      "id": "wp-hieroglyphs",
+      "title": "Egyptian hieroglyphs (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-narmer",
+      "title": "Narmer Palette (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Narmer_Palette",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nekhen",
+      "title": "Nekhen (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nekhen",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-merer",
+      "title": "Diary of Merer (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Diary_of_Merer",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-wadi-al-jarf",
+      "title": "Wadi al-Jarf (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Wadi_al-Jarf",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-pyramid-texts",
+      "title": "Pyramid Texts (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pyramid_Texts",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-saqqara",
+      "title": "Saqqara (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Saqqara",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-sinuhe",
+      "title": "Story of Sinuhe (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Story_of_Sinuhe",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-thebes",
+      "title": "Thebes, Egypt (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Thebes,_Egypt",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "nederhof-sinuhe",
+      "title": "Sinuhe: transliteration and translation (after Koch 1990)",
+      "url": "https://mjn.host.cs.st-andrews.ac.uk/egyptian/texts/corpus/pdf/Sinuhe.pdf",
+      "author": "Mark-Jan Nederhof",
+      "publisher": "University of St Andrews"
+    },
+    {
+      "id": "petrie-sanehat",
+      "title": "Petrie: The Adventures of Sanehat (Egyptian Tales, First Series)",
+      "url": "https://pages.ucsd.edu/~dkjordan/arch/egypt/Petrie/PetrieTale5.html",
+      "author": "W. M. Flinders Petrie (ed.)",
+      "year": 1899,
+      "publisher": "D. K. Jordan, UC San Diego (web edition)"
+    },
+    {
+      "id": "petrie-index",
+      "title": "W. M. Flinders Petrie: Egyptian Tales (overview and colophon)",
+      "url": "https://pages.ucsd.edu/~dkjordan/arch/egypt/Petrie/PetrieTales.html",
+      "publisher": "D. K. Jordan, UC San Diego (web edition)"
+    },
+    {
+      "id": "petrie-intro",
+      "title": "Petrie: Egyptian Tales, Series 1 Introduction",
+      "url": "https://pages.ucsd.edu/~dkjordan/arch/egypt/Petrie/PetrieTale1.html",
+      "publisher": "D. K. Jordan, UC San Diego (web edition)"
+    },
+    {
+      "id": "wp-wenamun",
+      "title": "Story of Wenamun (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Story_of_Wenamun",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-el-hiba",
+      "title": "El Hiba (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/El_Hiba",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-amarna",
+      "title": "Amarna (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Amarna",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-amarna-letters",
+      "title": "Amarna letters (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Amarna_letters",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-demotic",
+      "title": "Demotic (Egyptian) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Demotic_(Egyptian)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-rosetta-stone",
+      "title": "Rosetta Stone (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-rosetta",
+      "title": "Rosetta (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rosetta",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-philae",
+      "title": "Philae (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Philae",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-coptic",
+      "title": "Coptic language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Coptic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nag-hammadi",
+      "title": "Nag Hammadi library (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nag_Hammadi_library",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nag-hammadi-town",
+      "title": "Nag Hammadi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nag_Hammadi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-semitic",
+      "title": "Proto-Semitic language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Semitic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "kitchen2009",
+      "title": "Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East",
+      "url": "https://iro.uiowa.edu/esploro/outputs/journalArticle/Bayesian-phylogenetic-analysis-of-Semitic-languages/9983983645602771",
+      "author": "Andrew Kitchen, Christopher Ehret, Shiferaw Assefa, Connie J. Mulligan",
+      "year": 2009,
+      "publisher": "Proceedings of the Royal Society B (record at University of Iowa)"
+    },
+    {
+      "id": "wp-akkadian",
+      "title": "Akkadian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Akkadian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ur",
+      "title": "Ur (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ur",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kultepe",
+      "title": "Kültepe (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kültepe",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gilgamesh",
+      "title": "Epic of Gilgamesh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ebl-gilgamesh",
+      "title": "Poem of Gilgameš (eBL corpus text L.1.4)",
+      "url": "https://www.ebl.lmu.de/api/texts/L/1/4",
+      "publisher": "electronic Babylonian Library, LMU Munich"
+    },
+    {
+      "id": "ebl-gilgamesh-sb1",
+      "title": "Poem of Gilgameš, Standard Babylonian Tablet I (eBL edition)",
+      "url": "https://www.ebl.lmu.de/api/texts/L/1/4/chapters/SB/I",
+      "publisher": "electronic Babylonian Library, LMU Munich"
+    },
+    {
+      "id": "wp-hammurabi",
+      "title": "Code of Hammurabi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "soas-hammurabi",
+      "title": "The Codex Hammurabi, part of the Prologue, read by Albert Naccache (BAPLAR)",
+      "url": "https://www.soas.ac.uk/baplar/recordings/codex-hammurabi-part-prologue-read-albert-naccache",
+      "publisher": "SOAS University of London"
+    },
+    {
+      "id": "ws-harper",
+      "title": "The Code of Hammurabi (Harper translation)",
+      "url": "https://en.wikisource.org/wiki/The_Code_of_Hammurabi_(Harper_translation)",
+      "author": "Robert Francis Harper (trans.)",
+      "year": 1904,
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "ws-harper-author",
+      "title": "Author:Robert Francis Harper",
+      "url": "https://en.wikisource.org/wiki/Author:Robert_Francis_Harper",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "wp-eblaite",
+      "title": "Eblaite language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Eblaite_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ebla-tablets",
+      "title": "Ebla tablets (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ebla_tablets",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ebla",
+      "title": "Ebla (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ebla",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ugaritic",
+      "title": "Ugaritic language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ugaritic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ugarit",
+      "title": "Ugarit (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ugarit",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-phoenician",
+      "title": "Phoenician language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Phoenician_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ahiram",
+      "title": "Ahiram sarcophagus (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ahiram_sarcophagus",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-byblos",
+      "title": "Byblos (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Byblos",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-punic",
+      "title": "Punic language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Punic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-carthage",
+      "title": "Carthage (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Carthage",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-lepcis",
+      "title": "Leptis Magna (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lepcis_Magna",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-aramaic",
+      "title": "Old Aramaic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_Aramaic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tel-dan-stele",
+      "title": "Tel Dan stele (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tel_Dan_stele",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tel-dan",
+      "title": "Tel Dan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tel_Dan",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tell-fekheriye",
+      "title": "Tell Fekheriye (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tell_Fekheriye",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-imperial-aramaic",
+      "title": "Imperial Aramaic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Imperial_Aramaic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-elephantine-papyri",
+      "title": "Elephantine papyri and ostraca (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Elephantine_papyri_and_ostraca",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-elephantine",
+      "title": "Elephantine (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Elephantine",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-syriac",
+      "title": "Syriac language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Syriac_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-edessa",
+      "title": "Edessa (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Edessa",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-peshitta",
+      "title": "Peshitta (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Peshitta",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "dukhrana-john1",
+      "title": "Peshitta New Testament: John 1 (BFBS/UBS text, with Etheridge and Murdock translations)",
+      "url": "https://www.dukhrana.com/peshitta/index.php?book=John&chapter=1&verse=1&source=ubs&font=Estrangelo+Edessa&size=125%25",
+      "publisher": "Dukhrana Biblical Research"
+    },
+    {
+      "id": "archive-murdock",
+      "title": "The New Testament ... a literal translation from the Syriac Peschito version (1851)",
+      "url": "https://archive.org/details/newtestamentorbo00murd",
+      "author": "James Murdock (trans.)",
+      "year": 1851,
+      "publisher": "Stanford and Swords (Internet Archive scan)"
+    },
+    {
+      "id": "wp-murdock",
+      "title": "James Murdock (scholar) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/James_Murdock_(scholar)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-biblical-hebrew",
+      "title": "Biblical Hebrew (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Biblical_Hebrew",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-qeiyafa-ostracon",
+      "title": "Khirbet Qeiyafa ostracon (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Khirbet_Qeiyafa_ostracon",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-qeiyafa",
+      "title": "Khirbet Qeiyafa (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Khirbet_Qeiyafa",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-siloam",
+      "title": "Siloam inscription (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Siloam_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-dss",
+      "title": "Dead Sea Scrolls (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-qumran",
+      "title": "Qumran (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Qumran",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "mechon-mamre-gen1",
+      "title": "Genesis Chapter 1 (Hebrew-English Bible)",
+      "url": "https://mechon-mamre.org/p/pt/pt0101.htm",
+      "publisher": "Mechon Mamre"
+    },
+    {
+      "id": "ws-kjv-genesis",
+      "title": "The King James Bible: Genesis (1769 Oxford edition)",
+      "url": "https://en.wikisource.org/wiki/Bible_(King_James)/Genesis",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "wp-kjv",
+      "title": "King James Version (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/King_James_Version",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-modern-hebrew",
+      "title": "Modern Hebrew (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Modern_Hebrew",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-hebrew-revival",
+      "title": "Revival of the Hebrew language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Revival_of_the_Hebrew_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-arabic",
+      "title": "Arabic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Arabic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-avdat",
+      "title": "Avdat (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Avdat",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-namara",
+      "title": "Namara inscription (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Namara_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-classical-arabic",
+      "title": "Classical Arabic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Classical_Arabic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-fatiha",
+      "title": "Al-Fatiha (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Al-Fatiha",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "alquran-fatiha",
+      "title": "Surah 1, Al-Fatiha (Tanzil 'quran-simple' text)",
+      "url": "https://api.alquran.cloud/v1/surah/1/quran-simple",
+      "publisher": "Al Quran Cloud"
+    },
+    {
+      "id": "archive-pickthall",
+      "title": "The Meaning of the Glorious Koran: An Explanatory Translation (1930)",
+      "url": "https://archive.org/details/MN40248ucmf_9",
+      "author": "Marmaduke Pickthall",
+      "year": 1930,
+      "publisher": "Alfred A. Knopf (Internet Archive scan)"
+    },
+    {
+      "id": "wp-pickthall",
+      "title": "Marmaduke Pickthall (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Marmaduke_Pickthall",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-muallaqat",
+      "title": "Mu'allaqat (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mu%27allaqat",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-imru",
+      "title": "Imru' al-Qais (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Imru%27_al-Qais",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ws-ar-muallaqa",
+      "title": "معلقة امرئ القيس (Mu'allaqa of Imru' al-Qais)",
+      "url": "https://ar.wikisource.org/wiki/%D9%85%D8%B9%D9%84%D9%82%D8%A9_%D8%A7%D9%85%D8%B1%D8%A6_%D8%A7%D9%84%D9%82%D9%8A%D8%B3",
+      "publisher": "Arabic Wikisource"
+    },
+    {
+      "id": "ws-jones-amriolkais",
+      "title": "Arabian Poetry for English Readers: The Moallakát: The Poem of Amriolkais (trans. William Jones)",
+      "url": "https://en.wikisource.org/wiki/Arabian_Poetry_for_English_Readers/The_Moallak%C3%A1t/The_Poem_of_Amriolkais",
+      "author": "William Jones (trans.)",
+      "publisher": "Wikisource"
+    },
+    {
+      "id": "wp-william-jones",
+      "title": "William Jones (philologist) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/William_Jones_(philologist)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-msa",
+      "title": "Modern Standard Arabic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Modern_Standard_Arabic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-egyptian-arabic",
+      "title": "Egyptian Arabic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_Arabic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-geez",
+      "title": "Ge'ez (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ge%27ez",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ezana",
+      "title": "Ezana Stone (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ezana_Stone",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-aksum",
+      "title": "Aksum (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Aksum",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-garima",
+      "title": "Garima Gospels (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Garima_Gospels",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-matara",
+      "title": "Matara, Eritrea (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Matara,_Eritrea",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kebra",
+      "title": "Kebra Nagast (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kebra_Nagast",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-amharic",
+      "title": "Amharic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Amharic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tigrinya",
+      "title": "Tigrinya language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tigrinya_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-berber",
+      "title": "Berber languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Berber_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-berber",
+      "title": "Proto-Berber language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Berber_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tifinagh",
+      "title": "Tifinagh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tifinagh",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cat",
+      "title": "Central Atlas Tamazight (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Central_Atlas_Tamazight",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ircam",
+      "title": "Royal Institute of Amazigh Culture (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Royal_Institute_of_Amazigh_Culture",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-khenifra",
+      "title": "Khenifra (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Khenifra",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cushitic",
+      "title": "Cushitic languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cushitic_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-somali",
+      "title": "Somali language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Somali_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-osmanya",
+      "title": "Osmanya script (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Osmanya_script",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-uways",
+      "title": "Uways al-Barawi (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Uways_al-Barawi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-oromo",
+      "title": "Oromo language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Oromo_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-qubee",
+      "title": "Qubee (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Qubee",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-chadic",
+      "title": "Chadic languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Chadic_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-hausa",
+      "title": "Hausa language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hausa_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kano",
+      "title": "Kano (city) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kano_(city)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nineveh",
+      "title": "Nineveh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nineveh",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gezer-calendar",
+      "title": "Gezer calendar (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gezer_calendar",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gezer",
+      "title": "Gezer (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gezer",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ajami",
+      "title": "Ajami script (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ajami_script",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-damascus",
+      "title": "Damascus (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Damascus",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-cairo",
+      "title": "Cairo (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cairo",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-asyut",
+      "title": "Asyut (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Asyut",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-mecca",
+      "title": "Mecca (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mecca",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-jerusalem",
+      "title": "Jerusalem (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jerusalem",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gihon-spring",
+      "title": "Gihon Spring (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gihon_Spring",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-pool-siloam",
+      "title": "Pool of Siloam (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Pool_of_Siloam",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-oromia",
+      "title": "Oromia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Oromia",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-nile-delta",
+      "title": "Nile Delta (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nile_Delta",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "languoids": [
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Afroasiatic is a family of about 400 languages spoken mainly in West Asia, North Africa, the Horn of Africa and parts of the Sahara and Sahel. More than 500 million people speak one natively, making it the fourth-largest language family after Indo-European, Sino-Tibetan and Niger–Congo. Most linguists divide it into six branches: Berber, Chadic, Cushitic, Egyptian, Omotic and Semitic. Arabic is by far its most widely spoken member, followed by Hausa, Oromo, Amharic and Somali.",
+          "sources": [
+            "wp-afroasiatic"
+          ]
+        },
+        {
+          "text": "The branches are recorded very unevenly. Egyptian and Semitic appear in writing as early as the fourth millennium BCE, while Berber, Cushitic and Omotic languages were often not written down until the 19th or 20th centuries. The branches share a common set of pronouns, a prefix m- that forms nouns from verbs, and similar ways of marking gender and plurality. Even the latest plausible date for Proto-Afroasiatic makes it the oldest language family accepted by contemporary linguists.",
+          "sources": [
+            "wp-afroasiatic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "There is no consensus on where Proto-Afroasiatic was spoken. An origin in Africa has broad scholarly support, and most scholars place the homeland near the centre of the family's present range, 'in the southeastern Sahara or adjacent Horn of Africa'; Christopher Ehret argued that the principles of fewest moves and greatest diversity put an origin in the Horn of Africa 'beyond reasonable doubt'.",
+          "sources": [
+            "wp-afroasiatic"
+          ]
+        },
+        {
+          "text": "A significant minority of scholars, most of them specialists in Semitic or Egyptian studies, argue for an Asian origin. The main proponent, Alexander Militarev, links Proto-Afroasiatic to early farmers of the Levantine Post-Natufian culture, a view taken up by Jared Diamond and Peter Bellwood. Estimates of when the proto-language was spoken range from 18,000 to 8,000 BCE, while Tom Güldemann has argued that the branches may have needed less time to diverge than usually assumed.",
+          "sources": [
+            "wp-afroasiatic"
+          ]
+        }
+      ],
+      "id": "proto-afroasiatic",
+      "name": "Proto-Afroasiatic",
+      "glottocode": "afro1255",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glotto-afro1255",
+        "wp-afroasiatic"
+      ],
+      "period": {
+        "from": -10000,
+        "to": -4000,
+        "approx": true,
+        "sources": [
+          "wp-afroasiatic"
+        ],
+        "note": "Scholarly estimates for when Proto-Afroasiatic was spoken range from about 18,000 BCE to 8,000 BCE; the start date here is schematic. The end date is also schematic: Egyptian and Semitic first appear in writing in the fourth millennium BCE, so the proto-language must be older."
+      },
+      "homeland": {
+        "lat": 15.5,
+        "lng": 36.5,
+        "label": "Southeastern Sahara / adjacent Horn of Africa (majority view; the point is schematic)",
+        "sources": [
+          "wp-afroasiatic"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "abydos-tomb-u-j",
+          "year": -3300,
+          "approx": true,
+          "lat": 26.175,
+          "lng": 31.9083,
+          "place": "Tomb U-j, Umm el-Qa'ab, Abydos",
+          "description": "Tomb U-j (Naqada IIIA2, c. 3300 BCE), found in 1988 by a German Archaeological Institute team led by Günter Dreyer, held 186 small pierced ivory tags inscribed with 'proto-hieroglyphic' signs, possibly the earliest evidence of writing in Egypt.",
+          "sources": [
+            "wp-umm-el-qaab",
+            "thepast-uj"
+          ]
+        },
+        {
+          "id": "narmer-palette",
+          "year": -3100,
+          "approx": true,
+          "lat": 25.09722,
+          "lng": 32.77944,
+          "place": "Temple of Horus, Nekhen (Hierakonpolis)",
+          "description": "The Narmer Palette, dating from about the 31st century BCE and found in the temple's Main Deposit in 1897–98, carries some of the earliest hieroglyphic inscriptions ever found.",
+          "sources": [
+            "wp-narmer",
+            "wp-nekhen"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "The first traces of Egyptian writing come from a royal cemetery at Abydos. In 1988 a team from the German Archaeological Institute in Cairo led by Günter Dreyer found tomb U-j at Umm el-Qa'ab. Dated to about 3300 BCE, it contained 186 small ivory tags inscribed with 'proto-hieroglyphic' signs that may be the earliest evidence of writing in Egypt. Ink inscriptions on its jars show a scorpion, possibly the name of a ruler called Scorpion I.",
+          "sources": [
+            "wp-umm-el-qaab",
+            "thepast-uj"
+          ]
+        },
+        {
+          "text": "At this earliest stage, around 3300 BCE, hieroglyphs were not yet a fully developed writing system but a transitional form of proto-writing; over the time leading up to the 27th century BCE, grammatical features such as nisba formation begin to appear. The Narmer Palette, a ceremonial greywacke palette of about the 31st century BCE found at Nekhen (Hierakonpolis), bears some of the earliest hieroglyphic inscriptions known.",
+          "sources": [
+            "wp-egyptian",
+            "wp-narmer"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "archaic-egyptian",
+      "name": "Archaic Egyptian",
+      "glottocode": "arch1248",
+      "parent": "proto-afroasiatic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-arch1248",
+        "wp-egyptian"
+      ],
+      "period": {
+        "from": -3300,
+        "to": -2690,
+        "approx": true,
+        "sources": [
+          "wp-egyptian",
+          "wp-umm-el-qaab"
+        ],
+        "note": "Wikipedia gives Archaic Egyptian as the stage before c. 2600 BCE and dates Old Egyptian from the Peribsen seal (c. 2690 BCE). The start date is that of the earliest inscribed material, tomb U-j at Abydos (c. 3300 BCE); the spoken language is older."
+      },
+      "homeland": {
+        "lat": 26.175,
+        "lng": 31.9083,
+        "label": "Lower Nile Valley, Egypt (Abydos)",
+        "sources": [
+          "wp-afroasiatic",
+          "wp-umm-el-qaab"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Egyptian hieroglyphs",
+            "code": "Egyp"
+          }
+        ],
+        "sources": [
+          "wp-egyptian"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "peribsen-seal",
+          "year": -2690,
+          "approx": true,
+          "lat": 26.175,
+          "lng": 31.9083,
+          "place": "Tomb of Seth-Peribsen, Umm el-Qa'ab, Abydos",
+          "description": "A seal impression from the tomb of the Second Dynasty king Seth-Peribsen carries the oldest known complete sentence in Egyptian: 'He has united the Two Lands for his son, Dual King Peribsen.'",
+          "sources": [
+            "wp-egyptian",
+            "wp-hieroglyphs"
+          ]
+        },
+        {
+          "id": "diary-of-merer",
+          "year": -2560,
+          "approx": true,
+          "lat": 28.89167,
+          "lng": 32.65833,
+          "place": "Wadi al-Jarf, Red Sea coast",
+          "description": "The Diary of Merer, papyrus logbooks of an inspector from the 26th year of Khufu's reign, are the oldest known papyri with text; a French mission led by Pierre Tallet and Gregory Marouard excavated them in 2013.",
+          "sources": [
+            "wp-merer",
+            "wp-wadi-al-jarf"
+          ]
+        },
+        {
+          "id": "pyramid-texts-saqqara",
+          "year": -2350,
+          "approx": true,
+          "lat": 29.87111,
+          "lng": 31.21639,
+          "place": "Royal pyramids at Saqqara",
+          "description": "The Pyramid Texts, the earliest known corpus of Egyptian religious texts, were carved inside royal pyramids at Saqqara from the end of the Fifth Dynasty; the oldest are dated to c. 2400–2300 BCE.",
+          "sources": [
+            "wp-pyramid-texts",
+            "wp-saqqara"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Old Egyptian is dated from the oldest known complete sentence with a finite verb: a seal impression from the tomb of King Seth-Peribsen at Umm el-Qa'ab, dated about 2690 BCE, which reads 'He has united the Two Lands for his son, Dual King Peribsen.' Under the Third Dynasty (c. 2650–2575 BCE) many principles of hieroglyphic writing were regularized, and the system then stayed virtually unchanged, with about 700 signs, for more than 2,000 years.",
+          "sources": [
+            "wp-egyptian"
+          ]
+        },
+        {
+          "text": "Extensive texts appear from about 2600 BCE. An early example is the Diary of Merer, papyrus logbooks kept by an official in the reign of Khufu and found at Wadi al-Jarf on the Red Sea coast in 2013. The largest body of Old Egyptian literature is the Pyramid Texts, spells carved inside royal pyramids at Saqqara from the end of the Fifth Dynasty, the earliest known corpus of Egyptian religious texts.",
+          "sources": [
+            "wp-egyptian",
+            "wp-merer",
+            "wp-pyramid-texts"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "old-egyptian",
+      "name": "Old Egyptian",
+      "glottocode": "olde1242",
+      "parent": "archaic-egyptian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-olde1242",
+        "wp-egyptian"
+      ],
+      "period": {
+        "from": -2690,
+        "to": -2000,
+        "approx": true,
+        "sources": [
+          "wp-egyptian"
+        ],
+        "note": "Wikipedia gives Old Egyptian as c. 2600–2000 BCE and dates its start from the oldest known complete sentence, on a seal from the tomb of Seth-Peribsen (c. 2690 BCE)."
+      },
+      "homeland": {
+        "lat": 29.87111,
+        "lng": 31.21639,
+        "label": "Lower Nile Valley, Egypt (Saqqara)",
+        "sources": [
+          "wp-afroasiatic",
+          "wp-saqqara"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Egyptian hieroglyphs",
+            "code": "Egyp"
+          },
+          {
+            "name": "Hieratic",
+            "code": "Egyh"
+          }
+        ],
+        "sources": [
+          "wp-egyptian"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "ramesseum-sinuhe",
+          "year": -1700,
+          "approx": true,
+          "lat": 25.72056,
+          "lng": 32.61028,
+          "place": "Ramesseum, western Thebes",
+          "description": "The Story of Sinuhe was composed some time after 1971 BCE; one of its oldest copies was found by James Edward Quibell in 1896 among the Ramesseum papyri, fragments dating to the late 13th Dynasty, in Middle Kingdom tombs behind the Ramesseum in western Thebes.",
+          "sources": [
+            "wp-sinuhe",
+            "wp-thebes"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Middle Egyptian was spoken for about 700 years from around 2000 BCE, through the Middle Kingdom and the Second Intermediate Period. As the classical form of the language it is the best documented variety and has drawn by far the most attention from Egyptologists. It was mostly carved in hieroglyphs on monuments, but was also written in cursive hieroglyphs and in the related hieratic script.",
+          "sources": [
+            "wp-egyptian"
+          ]
+        },
+        {
+          "text": "Middle Egyptian became available to modern scholars with the decipherment of hieroglyphs in the early 19th century; Adolf Erman published the first grammar in 1894, surpassed by Alan Gardiner's in 1927. Long after it ceased to be spoken, an imitation of it called 'Égyptien de tradition' remained in use for official and religious texts until the Christianisation of Roman Egypt in the 4th century CE.",
+          "sources": [
+            "wp-egyptian"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "story-of-sinuhe",
+          "title": "The Story of Sinuhe",
+          "author": "Anonymous",
+          "date": "composed after c. 1971 BCE (12th Dynasty)",
+          "year": -1950,
+          "significance": "Written in verse, the tale follows an Egyptian official who flees abroad after the death of Amenemhat I and returns home shortly before his death; its opening imitates the autobiographical texts of Middle Kingdom tombs. The excerpt is the opening in Nederhof's transliteration, following Koch's 1990 edition: line 2 is from the Ashmolean ostracon (AOS) and the rest from the Ramesseum papyrus (version R). Nederhof's Manuel de Codage ASCII (A, a, H, x, S, D) has been converted to the usual Egyptological Unicode letters (ꜣ, ꜥ, ḥ, ḫ, š, ḏ); the translation is Petrie's, which renders the hero's name as Sanehat.",
+          "original": "jrj-pꜥt ḥꜣtj-ꜥ\nḫtmw-bjtj smr wꜥtj\nsꜣb ꜥḏ-mr spꜣwt\njty m tꜣw stjw\nrḫ-nsw mꜣꜥ mry=f šms[w sꜣ-n]ht ḏd=f",
+          "originalScript": "Latn",
+          "translation": "The hereditary prince, royal seal-bearer, confidential friend, judge, keeper of the gate of the foreigners, true and beloved royal acquaintance, the royal follower Sanehat says:—",
+          "translator": "W. M. Flinders Petrie",
+          "translationYear": 1899,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://pages.ucsd.edu/~dkjordan/arch/egypt/Petrie/PetrieTale5.html",
+          "sources": [
+            "wp-sinuhe",
+            "nederhof-sinuhe",
+            "petrie-sanehat",
+            "petrie-index",
+            "petrie-intro"
+          ]
+        }
+      ],
+      "notes": [],
+      "id": "middle-egyptian",
+      "name": "Middle Egyptian",
+      "glottocode": "midd1369",
+      "parent": "old-egyptian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-midd1369",
+        "wp-egyptian"
+      ],
+      "period": {
+        "from": -2000,
+        "to": -1350,
+        "approx": true,
+        "sources": [
+          "wp-egyptian"
+        ],
+        "note": "Spoken c. 2000–1350 BCE. As the classical literary language, and later as 'Égyptien de tradition', it remained in written use for religious texts until the 4th century CE."
+      },
+      "homeland": {
+        "lat": 25.72056,
+        "lng": 32.61028,
+        "label": "Lower Nile Valley, Egypt (Thebes)",
+        "sources": [
+          "wp-afroasiatic",
+          "wp-thebes"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Egyptian hieroglyphs",
+            "code": "Egyp"
+          },
+          {
+            "name": "Hieratic",
+            "code": "Egyh"
+          }
+        ],
+        "sources": [
+          "wp-egyptian"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "story-of-wenamun",
+          "year": -1080,
+          "approx": true,
+          "lat": 28.77361,
+          "lng": 30.92278,
+          "place": "al-Hibah, Middle Egypt",
+          "description": "The Story of Wenamun, a Late Egyptian text in hieratic set in a 'Year 5' generally taken to belong to Ramesses XI, last king of the Twentieth Dynasty, survives in a single copy reportedly found at al-Hibah in 1890.",
+          "sources": [
+            "wp-wenamun",
+            "wp-el-hiba"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Late Egyptian was spoken for about 650 years from around 1350 BCE, beginning in the New Kingdom; the shift from Middle Egyptian took place in the later Eighteenth Dynasty, the Amarna Period. It was the language of New Kingdom administration, and texts written wholly in Late Egyptian date from the Twentieth Dynasty onward. Its relationship to Middle Egyptian has been compared to that between Latin and Italian.",
+          "sources": [
+            "wp-egyptian"
+          ]
+        },
+        {
+          "text": "Its literature includes the Story of Wenamun, the love poems of the Chester Beatty I papyrus and the Instruction of Any. Egyptian had by now changed from a synthetic to an analytic language, and Late Egyptian spelling increasingly dropped weak consonants and the feminine ending -t, apparently because they were no longer pronounced. Around the 8th century BCE it gave rise to Demotic.",
+          "sources": [
+            "wp-egyptian"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "late-egyptian",
+      "name": "Late Egyptian",
+      "glottocode": "late1256",
+      "parent": "middle-egyptian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-late1256",
+        "wp-egyptian"
+      ],
+      "period": {
+        "from": -1350,
+        "to": -700,
+        "approx": true,
+        "sources": [
+          "wp-egyptian"
+        ]
+      },
+      "homeland": {
+        "lat": 27.64528,
+        "lng": 30.89639,
+        "label": "Lower Nile Valley, Egypt (Amarna)",
+        "sources": [
+          "wp-afroasiatic",
+          "wp-egyptian",
+          "wp-amarna"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Egyptian hieroglyphs",
+            "code": "Egyp"
+          },
+          {
+            "name": "Hieratic",
+            "code": "Egyh"
+          }
+        ],
+        "sources": [
+          "wp-egyptian"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "rosetta-stone",
+          "year": -196,
+          "approx": false,
+          "lat": 31.40444,
+          "lng": 30.41639,
+          "place": "Near Rashid (Rosetta), Nile Delta",
+          "description": "The Rosetta Stone carries a decree of 196 BCE for Ptolemy V in hieroglyphic Egyptian, Demotic and Greek; the French officer Pierre-François Bouchard found it near Rashid in July 1799.",
+          "sources": [
+            "wp-rosetta-stone",
+            "wp-rosetta"
+          ]
+        },
+        {
+          "id": "philae-last-demotic",
+          "year": 452,
+          "approx": false,
+          "lat": 24.02083,
+          "lng": 32.88944,
+          "place": "Philae",
+          "description": "Philae was the site of the last known Demotic inscription, written in 452 CE.",
+          "sources": [
+            "wp-philae"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Demotic followed Late Egyptian and preceded Coptic. In its earlier stages it probably represented the spoken language of its time, but as its use became confined to literary and religious purposes, written Demotic drifted away from speech. The Demotic script, which the Egyptians called 'document writing', derived from hieratic from the 7th century BCE; Early Demotic is found especially on stelae from the Serapeum of Saqqara in Lower Egypt.",
+          "sources": [
+            "wp-egyptian",
+            "wp-demotic"
+          ]
+        },
+        {
+          "text": "From the 4th century BCE Demotic was increasingly used for literary and religious texts, although by the end of the 3rd century BCE Greek, the language of administration, had become more important. The Rosetta Stone of 196 BCE carries a royal decree in hieroglyphs, Demotic and Greek and became the key to deciphering Egyptian. Under Roman rule Demotic was used less and less; the last known Demotic inscription was carved at Philae in 452 CE.",
+          "sources": [
+            "wp-demotic",
+            "wp-rosetta-stone",
+            "wp-philae"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "demotic-egyptian",
+      "name": "Demotic Egyptian",
+      "glottocode": "demo1234",
+      "parent": "late-egyptian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-demo1234",
+        "wp-egyptian"
+      ],
+      "period": {
+        "from": -700,
+        "to": 452,
+        "approx": true,
+        "sources": [
+          "wp-egyptian",
+          "wp-philae"
+        ],
+        "note": "Wikipedia gives Demotic as c. 700 BCE – c. 400 CE; the last known Demotic inscription, at Philae, dates to 452 CE."
+      },
+      "homeland": {
+        "lat": 29.87111,
+        "lng": 31.21639,
+        "label": "Lower Egypt (Saqqara)",
+        "sources": [
+          "wp-demotic",
+          "wp-saqqara"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Demotic",
+            "code": "Egyd"
+          }
+        ],
+        "sources": [
+          "wp-demotic"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "nag-hammadi-codices",
+          "year": 350,
+          "approx": true,
+          "lat": 26.05,
+          "lng": 32.25,
+          "place": "Near Nag Hammadi, Upper Egypt",
+          "description": "Twelve leather-bound papyrus codices, generally dated to the 4th century and written mainly in Sahidic Coptic, were found in a sealed jar near Nag Hammadi in 1945.",
+          "sources": [
+            "wp-nag-hammadi",
+            "wp-coptic",
+            "wp-nag-hammadi-town"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Coptic is the last stage of the Egyptian language, written in the Coptic alphabet, a form of the Greek alphabet with seven extra letters borrowed from Demotic. Egyptian phrases written in Greek letters appear from about the 3rd century BCE, and the first known Coptic text, still pagan, dates from the 1st century CE. The language flourished from the time of early Christianity.",
+          "sources": [
+            "wp-egyptian",
+            "wp-coptic"
+          ]
+        },
+        {
+          "text": "Its main dialects included Sahidic, which flourished as a literary language across Egypt from about 325 to 800 CE and is the language of most of the Gnostic texts in the Nag Hammadi library, and Bohairic of Lower Egypt, which rose to prominence in the 9th century. After the Arab conquest Arabic slowly replaced Coptic, and Bohairic survives as the liturgical language of the Coptic Orthodox and Coptic Catholic churches.",
+          "sources": [
+            "wp-coptic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "coptic",
+      "name": "Coptic",
+      "nativeName": "ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ",
+      "nativeScript": "Copt",
+      "glottocode": "copt1239",
+      "iso639_3": "cop",
+      "parent": "demotic-egyptian",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "glotto-copt1239",
+        "wp-coptic"
+      ],
+      "period": {
+        "from": 200,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-coptic",
+          "wp-egyptian"
+        ],
+        "note": "Spoken from the 3rd century CE; it was the majority language of Egypt until sometime between the 10th and 12th centuries and survived as a minority first language until at least the 17th century. It now has no native speakers, but remains in daily use as the liturgical language of the Coptic Orthodox and Coptic Catholic churches."
+      },
+      "homeland": {
+        "lat": 27.183,
+        "lng": 31.167,
+        "label": "Nile Valley, Egypt (Asyut area, home of Sahidic)",
+        "sources": [
+          "wp-coptic",
+          "wp-asyut"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Coptic",
+            "code": "Copt"
+          }
+        ],
+        "sources": [
+          "wp-coptic"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Proto-Semitic is the reconstructed ancestor of the Semitic languages, which include Arabic, Amharic, Tigrinya, Aramaic, Hebrew and Maltese. Its reconstruction was first based mainly on Arabic, because Classical Arabic preserves as distinct 28 of the 29 consonants reconstructed for Proto-Semitic. It must have been spoken some time before the first Akkadian records of the mid-3rd millennium BCE, which places it in the 4th millennium BCE or earlier.",
+          "sources": [
+            "wp-proto-semitic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "Scholars disagree about where Proto-Semitic was spoken: proposals include the Levant, the Sahara, the Horn of Africa, the Arabian Peninsula and northern Africa. A 2009 Bayesian phylogenetic study by Kitchen, Ehret, Assefa and Mulligan estimated an Early Bronze Age origin for Semitic about 5,750 years ago in the Levant, with Akkadian diverging first.",
+          "sources": [
+            "wp-proto-semitic",
+            "kitchen2009"
+          ]
+        },
+        {
+          "text": "The once popular idea of an Arabian homeland has been largely abandoned, on the grounds that the region could not have supported large waves of emigration before camels were domesticated in the 2nd millennium BCE.",
+          "sources": [
+            "wp-proto-semitic"
+          ]
+        }
+      ],
+      "id": "proto-semitic",
+      "name": "Proto-Semitic",
+      "glottocode": "semi1276",
+      "parent": "proto-afroasiatic",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glotto-semi1276",
+        "wp-proto-semitic"
+      ],
+      "period": {
+        "from": -3750,
+        "to": -3000,
+        "approx": true,
+        "sources": [
+          "kitchen2009",
+          "wp-proto-semitic"
+        ],
+        "note": "Kitchen et al. (2009) estimate the origin of Semitic at about 5,750 years ago; Wikipedia places Proto-Semitic in the 4th millennium BCE or earlier. The end date is schematic."
+      },
+      "homeland": {
+        "lat": 33.51306,
+        "lng": 36.30944,
+        "label": "Levant (Kitchen et al. 2009)",
+        "sources": [
+          "kitchen2009",
+          "wp-proto-semitic"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "meskiagnunna-bowl",
+          "year": -2470,
+          "approx": true,
+          "lat": 30.9616529,
+          "lng": 46.1051259,
+          "place": "Ur, southern Mesopotamia",
+          "description": "One of the earliest known Akkadian inscriptions is on a bowl from Ur addressed to the pre-Sargonic king Meskiagnunna (c. 2485–2450 BCE) by his queen Gan-saman.",
+          "sources": [
+            "wp-akkadian",
+            "wp-ur"
+          ]
+        },
+        {
+          "id": "kanesh-tablets",
+          "year": -1900,
+          "approx": true,
+          "lat": 38.85,
+          "lng": 35.633,
+          "place": "Kültepe (ancient Kanesh), Anatolia",
+          "description": "Over 20,000 Old Assyrian cuneiform tablets, the correspondence of Assyrian traders in Anatolia in the 20th–18th centuries BCE, have been recovered at Kültepe.",
+          "sources": [
+            "wp-akkadian",
+            "wp-kultepe"
+          ]
+        },
+        {
+          "id": "amarna-letters",
+          "year": -1350,
+          "approx": true,
+          "lat": 27.64528,
+          "lng": 30.89639,
+          "place": "Amarna, Egypt",
+          "description": "The Amarna letters, clay tablets of diplomatic correspondence from the mid-14th century BCE, show Middle Babylonian as the written language of diplomacy, used even in Egypt.",
+          "sources": [
+            "wp-amarna-letters",
+            "wp-akkadian",
+            "wp-amarna"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Akkadian, named after the city of Akkad, is the earliest documented Semitic language. Akkadian personal names appear in Sumerian texts by the mid-3rd millennium BCE, and one of the earliest Akkadian inscriptions is on a bowl from Ur addressed to King Meskiagnunna (c. 2485–2450 BCE) by his queen Gan-saman. Texts written wholly in Akkadian appear from about the 24th century BCE, after Sargon's Akkadian Empire made it a written language by adapting Sumerian cuneiform.",
+          "sources": [
+            "wp-akkadian"
+          ]
+        },
+        {
+          "text": "By the 20th century BCE Akkadian had developed two main forms, Assyrian and Babylonian. Assyrian merchants trading in Anatolia left more than 20,000 Old Assyrian tablets at Kültepe, and Old Babylonian was the language of Hammurabi and his laws. At its height Middle Babylonian was the written language of diplomacy across the Near East, including Egypt in the Amarna Period.",
+          "sources": [
+            "wp-akkadian"
+          ]
+        },
+        {
+          "text": "From the 8th century BCE Aramaic gradually displaced Akkadian. By the Hellenistic period it was largely confined to scholars and priests in temples, and the latest known text in cuneiform Babylonian is an astronomical almanac of 79/80 CE. Modern study began with Carsten Niebuhr's copies of cuneiform texts in 1767; Edward Hincks, Henry Rawlinson and Jules Oppert achieved the final breakthrough in deciphering the language in the mid-19th century.",
+          "sources": [
+            "wp-akkadian"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "epic-of-gilgamesh",
+          "title": "Epic of Gilgamesh (Standard Babylonian version), Tablet I, lines 1–8",
+          "titleOriginal": "ša nagba īmuru",
+          "author": "Attributed to Sîn-lēqi-unninni",
+          "date": "Standard Babylonian version compiled between c. 1300 and 1000 BCE; the surviving manuscripts are first-millennium BCE",
+          "year": -1150,
+          "significance": "The Epic of Gilgamesh is described as the world's oldest surviving example of narrative literature. Its Standard Babylonian version, compiled by Sîn-lēqi-unninni and found in the library of Ashurbanipal at Nineveh, has twelve tablets: King Gilgameš of Uruk is confronted with mortality by the death of his friend Enkidu, seeks immortality, fails and returns to Uruk. The excerpt is the electronic Babylonian Library's normalized transcription of Tablet I, with its metrical dividers omitted; square brackets mark restored text.",
+          "original": "[ša nagba īmuru i]šdī māti\n[alkakāti īd]û kalāma hass[u]\n[gilgāmeš ša n]agba īmuru išdī mā[ti]\n[alkakāt]i īdû kalāma has[su]\n[ihī]ṭ-ma mithāriš par[akkī]\n[naph]ar nēmeqi ša kalāmi ī[de]\n[ni]ṣirta īmur-ma katimta ipte\nubla ṭēma ša lām abūbi",
+          "originalScript": "Latn",
+          "translation": "[He who saw the Deep], the foundation of the land,\n[who knew the ways], was wise in all things;\n[Gilgamesh, who] saw the Deep, the foundation of the land,\n[who] knew [the ways], was wise in all things.\nHe [searched out] the [sanctuaries] everywhere,\n[the sum] of wisdom about all things he [knew].\nHe saw what was secret and opened what was hidden;\nhe brought back word from before the Flood.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.ebl.lmu.de/corpus/L/1/4/SB/I",
+          "sources": [
+            "ebl-gilgamesh",
+            "ebl-gilgamesh-sb1",
+            "wp-gilgamesh"
+          ]
+        },
+        {
+          "id": "code-of-hammurabi",
+          "title": "Code of Hammurabi, prologue (opening)",
+          "author": "Hammurabi of Babylon (attributed)",
+          "date": "c. 1753 BCE",
+          "year": -1753,
+          "significance": "Composed c. 1753 BCE in the Old Babylonian dialect, the Code is one of the most recognizable legal texts of the ancient Near East. Its main copy, a 2.25 m basalt stele, was rediscovered at Susa in 1901 and is now in the Louvre; in the prologue Hammurabi claims the gods gave him rule 'to prevent the strong from oppressing the weak'. The excerpt is a normalized transcription based on R. Borger's transliteration.",
+          "original": "īnu anum ṣīrum šar anunnakī ellil bēl šamê u erṣetim šāim šīmāt mātim ana marduk māri rēštîm ša ea (illilūt) kiššat nišī išīmušum\nin igigī ušarbiušu\nbābilam šumšu ṣīram ibbiu",
+          "originalScript": "Latn",
+          "translation": "When the lofty Anu, king of the Anunnaki, and Bel, lord of heaven and earth, he who determines the destiny of the land, committed the rule of all mankind to Marduk, the chief son of Ea; when they made him great among the Igigi; when they pronounced the lofty name of Babylon;",
+          "translator": "Robert Francis Harper",
+          "translationYear": 1904,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://en.wikisource.org/wiki/The_Code_of_Hammurabi_(Harper_translation)",
+          "sources": [
+            "wp-hammurabi",
+            "soas-hammurabi",
+            "ws-harper",
+            "ws-harper-author"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Some researchers, such as W. Sommerfeld (2003), argue that the Old Akkadian of the earliest texts is not the ancestor of Assyrian and Babylonian but a separate dialect that was replaced by them and died out. Eblaite, formerly thought to be another Akkadian dialect, is now generally considered a separate East Semitic language.",
+          "sources": [
+            "wp-akkadian"
+          ]
+        }
+      ],
+      "id": "akkadian",
+      "name": "Akkadian",
+      "nativeName": "𒀝𒅗𒁺𒌑",
+      "nativeScript": "Xsux",
+      "glottocode": "akka1240",
+      "iso639_3": "akk",
+      "parent": "proto-semitic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-akka1240",
+        "wp-akkadian"
+      ],
+      "period": {
+        "from": -2500,
+        "to": 100,
+        "approx": true,
+        "sources": [
+          "wp-akkadian"
+        ],
+        "note": "Old Akkadian is dated from c. 2500 BCE and Late Babylonian to c. 100 CE; the last positively identified Akkadian text dates from the 1st century CE."
+      },
+      "homeland": {
+        "lat": 33.1,
+        "lng": 44.1,
+        "label": "Central Mesopotamia (region of Akkad)",
+        "sources": [
+          "wp-akkadian",
+          "glotto-akka1240"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Cuneiform",
+            "code": "Xsux"
+          }
+        ],
+        "sources": [
+          "wp-akkadian"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "ebla-palace-g-archive",
+          "year": -2400,
+          "approx": true,
+          "lat": 35.798,
+          "lng": 36.798,
+          "place": "Palace G, Tell Mardikh (Ebla)",
+          "description": "The palace archives of Ebla, found by Paolo Matthiae's Italian team in 1974–75, held as many as 1,800 complete clay tablets, 4,700 fragments and many thousands of chips, lying where their burning wooden shelves had collapsed.",
+          "sources": [
+            "wp-ebla-tablets",
+            "wp-ebla"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Eblaite is an East Semitic language of the 3rd millennium BCE, named after the city of Ebla in western Syria; variants were also used at Mari and Nagar. It was discovered through the cuneiform tablets of Ebla's palace archives, excavated at Tell Mardikh by Paolo Matthiae's team in 1974–75. According to Cyrus H. Gordon, Eblaite was probably not spoken much but served as a written lingua franca with both East and West Semitic features.",
+          "sources": [
+            "wp-eblaite",
+            "wp-ebla-tablets"
+          ]
+        },
+        {
+          "text": "The archive of 'Palace G' was kept in two rooms off an audience hall: one held economic records, the other ritual, literary and teaching texts. When the palace burned, the fire baked many unfired tablets almost as thoroughly as a kiln. Ebla's scribes used Sumerian signs purely phonetically to write their own language, and bilingual Sumerian–Eblaite word lists among the tablets have been called the world's oldest known dictionaries.",
+          "sources": [
+            "wp-ebla-tablets"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "Giovanni Pettinato, who first deciphered the tablets, at first identified the language as 'proto-Canaanite', then retracted this and called it Eblaite. His claims that the tablets referred to biblical people and places caused a long controversy; the present consensus is that Ebla's role in biblical archaeology is minimal.",
+          "sources": [
+            "wp-ebla-tablets"
+          ]
+        }
+      ],
+      "id": "eblaite",
+      "name": "Eblaite",
+      "glottocode": "ebla1238",
+      "iso639_3": "xeb",
+      "parent": "proto-semitic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-ebla1238",
+        "wp-eblaite"
+      ],
+      "period": {
+        "from": -2500,
+        "to": -2250,
+        "approx": true,
+        "sources": [
+          "wp-ebla-tablets"
+        ],
+        "note": "Dates of the Ebla archive tablets, from c. 2500 BCE to the destruction of the city c. 2250 BCE."
+      },
+      "homeland": {
+        "lat": 35.798,
+        "lng": 36.798,
+        "label": "Ebla (Tell Mardikh), northern Syria",
+        "sources": [
+          "wp-eblaite",
+          "wp-ebla"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Cuneiform",
+            "code": "Xsux"
+          }
+        ],
+        "sources": [
+          "wp-ebla-tablets"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "ras-shamra-tablets",
+          "year": -1300,
+          "approx": true,
+          "lat": 35.602,
+          "lng": 35.782,
+          "place": "Ras Shamra (Ugarit)",
+          "description": "Some 1,800 Ugaritic inscriptions have been unearthed at Ras Shamra since French archaeologists found the first texts in 1928, among them the Baal Cycle and the legends of Kirta and Aqhat.",
+          "sources": [
+            "wp-ugaritic"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Ugaritic is a Northwest Semitic language known from texts that French archaeologists began to find at Ugarit, on the Syrian coast, in 1928. It is attested from the 14th to the early 12th century BCE; the city was destroyed around 1185 BCE in the Late Bronze Age collapse. Some 1,800 inscriptions have come from Ras Shamra and about 150 from the 'Northern Palace' at nearby Ras Ibn Hani.",
+          "sources": [
+            "wp-ugaritic",
+            "wp-ugarit"
+          ]
+        },
+        {
+          "text": "Ugaritic was written in a cuneiform alphabet pressed into clay, an abjad used from the 15th century BCE, and the site has revealed the oldest known systematic use of an alphabet. Its literary texts, including the Baal Cycle and the legends of Kirta and Danel (Aqhat), reveal Northwest Semitic religion in Late Bronze Age Syria-Canaan. One scholar hailed Ugaritic as the greatest literary discovery from antiquity since the decipherment of hieroglyphs and cuneiform.",
+          "sources": [
+            "wp-ugaritic",
+            "wp-ugarit"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "ugaritic",
+      "name": "Ugaritic",
+      "glottocode": "ugar1238",
+      "iso639_3": "uga",
+      "parent": "proto-semitic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-ugar1238",
+        "wp-ugaritic"
+      ],
+      "period": {
+        "from": -1400,
+        "to": -1185,
+        "approx": true,
+        "sources": [
+          "wp-ugaritic",
+          "wp-ugarit"
+        ],
+        "note": "Attested in texts from the 14th to the early 12th century BCE; Ugarit was destroyed c. 1185 BCE."
+      },
+      "homeland": {
+        "lat": 35.602,
+        "lng": 35.782,
+        "label": "Ugarit (Ras Shamra), coastal northern Syria",
+        "sources": [
+          "wp-ugaritic",
+          "wp-ugarit"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Ugaritic alphabet",
+            "code": "Ugar"
+          }
+        ],
+        "sources": [
+          "wp-ugaritic"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "ahiram-sarcophagus",
+          "year": -1000,
+          "approx": true,
+          "lat": 34.12361,
+          "lng": 35.65194,
+          "place": "Royal necropolis, Byblos",
+          "description": "The sarcophagus of Ahiram, king of Byblos (c. 1000 BCE; some scholars date it around 850 BCE), found by Pierre Montet in 1923, bears what is considered the earliest known example of the fully developed Phoenician alphabet.",
+          "sources": [
+            "wp-ahiram",
+            "wp-byblos"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Phoenician is a Canaanite language, similar to and mutually intelligible with Biblical Hebrew. Its speakers called their land Pūt, and its own name for the language meant 'language of Canaan'. Tyro-Sidonian trade made it a lingua franca of the Iron Age Mediterranean, carried from the Levantine coast to colonies in modern Tunisia, Morocco, Libya and Algeria, Malta, western Sicily, Sardinia, the Balearic Islands and southern Spain.",
+          "sources": [
+            "wp-phoenician"
+          ]
+        },
+        {
+          "text": "The Phoenicians were the first state-level society to make extensive use of the Semitic alphabet. Their consonantal script, first attested on inscribed bronze arrowheads by the mid-11th century BCE, spread to Greece and, through an Etruscan adaptation, became the Latin alphabet. In modern times the language was first decoded by Jean-Jacques Barthélemy in 1758.",
+          "sources": [
+            "wp-phoenician"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "phoenician",
+      "name": "Phoenician",
+      "nativeName": "𐤔𐤐𐤕𐤟𐤊𐤍𐤏𐤍",
+      "nativeScript": "Phnx",
+      "glottocode": "phoe1239",
+      "iso639_3": "phn",
+      "parent": "proto-semitic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-phoe1239",
+        "wp-phoenician"
+      ],
+      "period": {
+        "from": -1050,
+        "to": -50,
+        "approx": true,
+        "sources": [
+          "wp-phoenician"
+        ],
+        "note": "The script is conventionally called Phoenician only after c. 1050 BCE. In the eastern Mediterranean the language seems to have died out in the 1st century BCE; its western form, Punic, lasted longer."
+      },
+      "homeland": {
+        "lat": 34.12361,
+        "lng": 35.65194,
+        "label": "Phoenician coast (modern Lebanon)",
+        "sources": [
+          "wp-phoenician",
+          "wp-byblos"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Phoenician alphabet",
+            "code": "Phnx"
+          }
+        ],
+        "sources": [
+          "wp-phoenician"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "lepcis-magna-n19",
+          "year": 92,
+          "approx": false,
+          "lat": 32.63917,
+          "lng": 14.29056,
+          "place": "Lepcis Magna (Leptis Magna), Libya",
+          "description": "Neo-Punic is known mostly from inscriptions such as Lepcis Magna N 19 (KAI 124), dated 92 CE.",
+          "sources": [
+            "wp-punic",
+            "wp-lepcis"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Punic is the western offshoot of Phoenician, spoken around Carthage and along the coasts of North Africa and Iberia, and on Malta, Sicily and Sardinia. It gradually separated from Phoenician around the time Carthage became the leading Phoenician city under Mago I. Punic authors wrote books: Mago's 28 volumes on animal husbandry were so admired by the Roman Senate that, after taking Carthage, it presented them to Berber princes.",
+          "sources": [
+            "wp-punic"
+          ]
+        },
+        {
+          "text": "After Rome destroyed Carthage in 146 BCE, a more cursive Neo-Punic script and dialect spread among the northern Berber peoples, and later Latino-Punic texts were written in the Latin alphabet. Augustine of Hippo, writing around 401, reports that Punic was still spoken in his region, and trilingual Greek, Latin and Punic gravestones survive from the Christian catacombs of Sirte in Libya.",
+          "sources": [
+            "wp-punic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "punic",
+      "name": "Punic",
+      "glottocode": "puni1241",
+      "iso639_3": "xpu",
+      "parent": "phoenician",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-puni1241",
+        "wp-punic"
+      ],
+      "period": {
+        "from": -800,
+        "to": 600,
+        "approx": true,
+        "sources": [
+          "wp-punic",
+          "wp-phoenician"
+        ],
+        "note": "Spoken from the 8th century BCE to the 6th century CE, and possibly into the 9th century."
+      },
+      "homeland": {
+        "lat": 36.8528,
+        "lng": 10.3233,
+        "label": "Carthage (Tunisia)",
+        "sources": [
+          "wp-punic",
+          "wp-carthage"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Phoenician alphabet (Punic and Neo-Punic forms)",
+            "code": "Phnx"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Greek",
+            "code": "Grek"
+          }
+        ],
+        "sources": [
+          "wp-phoenician"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "tel-dan-stele",
+          "year": -850,
+          "approx": true,
+          "lat": 33.249,
+          "lng": 35.652,
+          "place": "Tel Dan, northern Israel",
+          "description": "The Tel Dan Stele, an Old Aramaic inscription in the Phoenician script generally dated to the 9th century BCE, was found in 1993; it is one of the earliest extra-biblical references to a Davidic dynasty.",
+          "sources": [
+            "wp-tel-dan-stele",
+            "wp-tel-dan"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Old Aramaic is the earliest stage of Aramaic, the language of the Aramaean city-states of Damascus, Guzana, Hamath and Arpad in what is now Syria. Its first inscriptions, from the 9th and 8th centuries BCE, are mostly diplomatic documents between these states, in an alphabet based on the Phoenician one. A bilingual inscription from Tell Fekheriye in northern Syria gives the same text in the Assyrian dialect of Akkadian and in Aramaic.",
+          "sources": [
+            "wp-old-aramaic",
+            "wp-tell-fekheriye"
+          ]
+        },
+        {
+          "text": "When the Neo-Assyrian Empire under Tiglath-Pileser III came to dominate Aram-Damascus in the mid-8th century BCE, Aramaic became a lingua franca of the empire rather than being eclipsed by Akkadian. The Bible records that envoys of King Hezekiah of Judah asked Assyrian commanders to negotiate in Aramaic so that the common people would not understand (2 Kings 18:26).",
+          "sources": [
+            "wp-old-aramaic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "old-aramaic",
+      "name": "Old Aramaic",
+      "glottocode": "olda1246",
+      "parent": "proto-semitic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-olda1246",
+        "wp-old-aramaic"
+      ],
+      "period": {
+        "from": -1000,
+        "to": -700,
+        "approx": true,
+        "sources": [
+          "wp-old-aramaic",
+          "glotto-olda1246"
+        ],
+        "note": "Old Aramaic is dated from the 10th to the 8th century BCE; Glottolog's entry covers Old Aramaic up to 700 BCE."
+      },
+      "homeland": {
+        "lat": 33.51306,
+        "lng": 36.30944,
+        "label": "Aramaean city-states of Syria (point: Damascus)",
+        "sources": [
+          "wp-old-aramaic",
+          "wp-damascus"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Phoenician alphabet",
+            "code": "Phnx"
+          }
+        ],
+        "sources": [
+          "wp-tel-dan-stele",
+          "wp-old-aramaic"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "elephantine-papyri",
+          "year": -450,
+          "approx": true,
+          "lat": 24.09,
+          "lng": 32.89,
+          "place": "Elephantine, Aswan",
+          "description": "Thousands of documents from the Egyptian border fortresses of Elephantine and Aswan, spanning the 5th and 4th centuries BCE, include Aramaic letters and legal contracts, the largest group of Imperial Aramaic records.",
+          "sources": [
+            "wp-elephantine-papyri",
+            "wp-imperial-aramaic",
+            "wp-elephantine"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Imperial Aramaic is the modern term for Aramaic used in public life and administration from the mid-8th to the end of the 4th century BCE, under the late Neo-Assyrian, Neo-Babylonian and Achaemenid empires. After the Achaemenid conquest of Mesopotamia, the Persians adopted Aramaic as the vehicle of written communication between the many regions and peoples of their empire. Josef Markwart coined the term in 1927, as Reichsaramäisch.",
+          "sources": [
+            "wp-imperial-aramaic",
+            "wp-old-aramaic"
+          ]
+        },
+        {
+          "text": "Most surviving examples come from Egypt, so the language is also called Egyptian Aramaic; the Elephantine papyri and ostraca from the Nile frontier are the largest group. Outside Egypt it is known mostly from stone and pottery inscriptions across a wide area, and more recently from leather and wooden documents found in Bactria. It later evolved into Biblical Aramaic and the Middle Aramaic dialects, among them Syriac.",
+          "sources": [
+            "wp-imperial-aramaic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "imperial-aramaic",
+      "name": "Imperial Aramaic",
+      "glottocode": "impe1235",
+      "iso639_3": "arc",
+      "parent": "old-aramaic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-impe1235",
+        "wp-imperial-aramaic"
+      ],
+      "period": {
+        "from": -700,
+        "to": -300,
+        "approx": true,
+        "sources": [
+          "wp-imperial-aramaic",
+          "glotto-impe1235"
+        ],
+        "note": "Used as a language of public life and administration from the mid-8th to the end of the 4th century BCE; Glottolog dates Imperial Aramaic to 700–300 BCE."
+      },
+      "homeland": {
+        "lat": 36.35944,
+        "lng": 43.15278,
+        "label": "Assyria and Babylonia (point: Nineveh)",
+        "sources": [
+          "wp-imperial-aramaic",
+          "wp-nineveh"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Aramaic alphabet",
+            "code": "Armi"
+          }
+        ],
+        "sources": [
+          "wp-imperial-aramaic"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "old-edessan-inscription-6-ce",
+          "year": 6,
+          "approx": false,
+          "lat": 37.15,
+          "lng": 38.7825,
+          "place": "Osroene (region of Edessa)",
+          "description": "About eighty early inscriptions in Old Edessan Aramaic survive from the first three centuries CE; the earliest is dated to the year 6 CE.",
+          "sources": [
+            "wp-syriac",
+            "wp-edessa"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Syriac grew out of the Aramaic dialect of Edessa (Urhai), centre of the kingdom of Osroene, and emerged in the 1st century CE. About eighty early inscriptions in Old Edessan Aramaic survive from the first three centuries CE, the earliest dated to 6 CE, and the earliest parchment to 243 CE. In the 3rd century the churches of Edessa began to worship in the local dialect, and early literary effort went into the Peshitta, the Syriac Bible.",
+          "sources": [
+            "wp-syriac"
+          ]
+        },
+        {
+          "text": "Ephrem the Syrian (d. 373) wrote poetry and theology in it, and Syriac became the main literary language of Aramaic-speaking Christians across the Near East. As a liturgical language of Syriac Christianity it reached the Malabar Coast of India and eastern China. It flourished from the 4th to the 8th century, but by the end of the Middle Ages it was reduced to liturgical use as Neo-Aramaic languages took over everyday speech. It remains the sacred language of Syriac Christianity to this day.",
+          "sources": [
+            "wp-syriac"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "peshitta-john-1",
+          "title": "Peshitta: Gospel of John 1:1–3",
+          "titleOriginal": "ܦܫܝܛܬܐ",
+          "author": "Anonymous translators",
+          "date": "New Testament translated probably in the early 5th century CE",
+          "year": 420,
+          "significance": "The Peshitta is the standard Bible of the Syriac churches and one of the best-known works of Syriac literature. Its Old Testament was translated largely from Hebrew by or before the 2nd century CE; its New Testament was translated from Greek, probably in the early 5th century, and had become standard by then.",
+          "original": "ܒ݁ܪܺܫܺܝܬ݂ ܐܺܝܬ݂ܰܘܗ݈ܝ ܗ݈ܘܳܐ ܡܶܠܬ݂ܳܐ ܘܗܽܘ ܡܶܠܬ݂ܳܐ ܐܺܝܬ݂ܰܘܗ݈ܝ ܗ݈ܘܳܐ ܠܘܳܬ݂ ܐܰܠܳܗܳܐ ܘܰܐܠܳܗܳܐ ܐܺܝܬ݂ܰܘܗ݈ܝ ܗ݈ܘܳܐ ܗܽܘ ܡܶܠܬ݂ܳܐ ܀\nܗܳܢܳܐ ܐܺܝܬ݂ܰܘܗ݈ܝ ܗ݈ܘܳܐ ܒ݁ܪܺܫܺܝܬ݂ ܠܘܳܬ݂ ܐܰܠܳܗܳܐ ܀\nܟ݁ܽܠ ܒ݁ܺܐܝܕ݂ܶܗ ܗܘܳܐ ܘܒ݂ܶܠܥܳܕ݂ܰܘܗ݈ܝ ܐܳܦ݂ܠܳܐ ܚܕ݂ܳܐ ܗܘܳܬ݂ ܡܶܕ݁ܶܡ ܕ݁ܰܗܘܳܐ ܀",
+          "originalScript": "Syrc",
+          "translation": "In the beginning, was the Word; and the Word was with God; and the Word was God.\nHe was in the beginning with God.\nEvery thing was by his hand; and without him, was not any thing whatever that existed.",
+          "translator": "James Murdock",
+          "translationYear": 1851,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.dukhrana.com/peshitta/index.php?book=John&chapter=1&verse=1&source=ubs&font=Estrangelo+Edessa&size=125%25",
+          "sources": [
+            "wp-peshitta",
+            "dukhrana-john1",
+            "archive-murdock",
+            "wp-murdock"
+          ]
+        }
+      ],
+      "notes": [],
+      "id": "syriac",
+      "name": "Classical Syriac",
+      "nativeName": "ܠܫܢܐ ܣܘܪܝܝܐ",
+      "nativeScript": "Syrc",
+      "glottocode": "clas1252",
+      "iso639_3": "syc",
+      "parent": "imperial-aramaic",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "glotto-clas1252",
+        "wp-syriac"
+      ],
+      "period": {
+        "from": 1,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-syriac"
+        ],
+        "note": "Emerged in the 1st century CE at Edessa; by the end of the Middle Ages it was reduced to liturgical use as Neo-Aramaic languages took over everyday speech. It has no native speakers today but remains the liturgical language of the Syriac churches."
+      },
+      "homeland": {
+        "lat": 37.15,
+        "lng": 38.7825,
+        "label": "Edessa (Urhai), Osroene",
+        "sources": [
+          "wp-syriac",
+          "wp-edessa"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Syriac alphabet",
+            "code": "Syrc"
+          }
+        ],
+        "sources": [
+          "wp-syriac"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "khirbet-qeiyafa-ostracon",
+          "year": -1000,
+          "approx": true,
+          "lat": 31.69639,
+          "lng": 34.95722,
+          "place": "Khirbet Qeiyafa",
+          "description": "A potsherd with five lines of ink text in the Proto-Canaanite alphabet, found in 2008 and dated to the 10th century BCE, is described in the Biblical Hebrew article as the earliest Hebrew writing yet discovered.",
+          "sources": [
+            "wp-biblical-hebrew",
+            "wp-qeiyafa-ostracon",
+            "wp-qeiyafa"
+          ]
+        },
+        {
+          "id": "gezer-calendar",
+          "year": -950,
+          "approx": true,
+          "lat": 31.859,
+          "lng": 34.919,
+          "place": "Gezer",
+          "description": "A small limestone tablet found by R. A. S. Macalister in 1908 and commonly dated to the 10th century BCE; scholars are divided over whether its language is Phoenician or a northern dialect of Hebrew.",
+          "sources": [
+            "wp-gezer-calendar",
+            "wp-gezer"
+          ]
+        },
+        {
+          "id": "siloam-inscription",
+          "year": -700,
+          "approx": true,
+          "lat": 31.7727,
+          "lng": 35.2357,
+          "place": "Siloam tunnel, City of David, Jerusalem",
+          "description": "The Siloam inscription records the cutting of the water tunnel from the Gihon Spring; dated to the 8th century BCE by its script, it is among the oldest extant Hebrew records in the Paleo-Hebrew alphabet.",
+          "sources": [
+            "wp-siloam",
+            "wp-gihon-spring",
+            "wp-pool-siloam"
+          ]
+        },
+        {
+          "id": "dead-sea-scrolls",
+          "year": -100,
+          "approx": true,
+          "lat": 31.74083,
+          "lng": 35.45861,
+          "place": "Qumran Caves, Dead Sea",
+          "description": "The Dead Sea Scrolls, found between 1946 and 1956 and dating from the 3rd century BCE to the 1st century CE, include the oldest surviving manuscripts of entire books later included in the Hebrew Bible.",
+          "sources": [
+            "wp-dss",
+            "wp-qumran"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Biblical Hebrew, also called Classical Hebrew, is the ancient form of Hebrew spoken by the Israelites west of the Jordan. The Hebrew Bible never calls it 'Hebrew': it is 'the language of Canaan' or 'Judean'. Paleo-Hebrew is attested in inscriptions from about the 10th century BCE, when it was almost identical to Phoenician and other Canaanite languages. The Siloam inscription, carved in a water tunnel in Jerusalem's City of David in the 8th century BCE, is among the oldest Hebrew records.",
+          "sources": [
+            "wp-biblical-hebrew",
+            "wp-siloam"
+          ]
+        },
+        {
+          "text": "The consonantal text of the Hebrew Bible preserves several stages of the language; its earliest portions, parts of Amos, Isaiah, Hosea and Micah, can be dated to the late 8th to early 7th century BCE. After the Babylonian captivity the Aramaic alphabet gradually displaced the Paleo-Hebrew script and became the source of the modern Hebrew alphabet. Hebrew ceased to be spoken around 200 CE; after 600 CE the Masoretes added the vowel and cantillation marks still used today.",
+          "sources": [
+            "wp-biblical-hebrew"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "genesis-1",
+          "title": "Hebrew Bible: Genesis 1:1–3",
+          "titleOriginal": "בְּרֵאשִׁית",
+          "author": "Anonymous",
+          "date": "1st millennium BCE (consonantal text redacted in the Second Temple period)",
+          "year": -500,
+          "significance": "Genesis opens the Hebrew Bible. The Bible's consonantal text, the Masoretic Text, was transmitted in manuscript form and reflects several stages of Biblical Hebrew; the vowel signs of the Tiberian system were added by the Masoretes in the early Middle Ages.",
+          "original": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ.\nוְהָאָרֶץ, הָיְתָה תֹהוּ וָבֹהוּ, וְחֹשֶׁךְ, עַל-פְּנֵי תְהוֹם; וְרוּחַ אֱלֹהִים, מְרַחֶפֶת עַל-פְּנֵי הַמָּיִם.\nוַיֹּאמֶר אֱלֹהִים, יְהִי אוֹר; וַיְהִי-אוֹר.",
+          "originalScript": "Hebr",
+          "translation": "In the beginning God created the heaven and the earth. And the earth was without form and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters. And God said, Let there be light: and there was light.",
+          "translator": "King James Version translators (1611; text of the 1769 Oxford edition)",
+          "translationYear": 1611,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://mechon-mamre.org/p/pt/pt0101.htm",
+          "sources": [
+            "wp-biblical-hebrew",
+            "mechon-mamre-gen1",
+            "ws-kjv-genesis",
+            "wp-kjv"
+          ]
+        }
+      ],
+      "notes": [],
+      "id": "biblical-hebrew",
+      "name": "Biblical Hebrew",
+      "nativeName": "יְהוּדִית",
+      "nativeScript": "Hebr",
+      "glottocode": "bibl1238",
+      "parent": "proto-semitic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glotto-bibl1238",
+        "wp-biblical-hebrew"
+      ],
+      "period": {
+        "from": -1000,
+        "to": 200,
+        "approx": true,
+        "sources": [
+          "wp-biblical-hebrew"
+        ],
+        "note": "Attested in inscriptions from about the 10th century BCE; Hebrew ceased to be spoken around 200 CE and continued as a literary and liturgical language."
+      },
+      "homeland": {
+        "lat": 31.77889,
+        "lng": 35.22556,
+        "label": "Kingdoms of Israel and Judah (point: Jerusalem)",
+        "sources": [
+          "wp-biblical-hebrew",
+          "wp-jerusalem"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Paleo-Hebrew alphabet (a variant of the Phoenician alphabet)",
+            "code": "Phnx"
+          },
+          {
+            "name": "Hebrew alphabet",
+            "code": "Hebr"
+          }
+        ],
+        "sources": [
+          "wp-biblical-hebrew",
+          "wp-siloam"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Hebrew had long ceased to be anyone's native language when Eliezer Ben-Yehuda (1858–1922) set out to revive it. On 13 October 1881, in Paris, he spoke Hebrew with friends in what is believed to be the first modern conversation in the language. In Jerusalem he raised his family in Hebrew, and his son Itamar Ben-Avi, born on 31 July 1882, became the first native speaker of Modern Hebrew.",
+          "sources": [
+            "wp-hebrew-revival",
+            "wp-modern-hebrew"
+          ]
+        },
+        {
+          "text": "What finally brought about the revival was the settlements of the First and Second Aliyah in Ottoman Palestine, where the first Hebrew schools were founded. In Mandatory Palestine Hebrew became one of three official languages, and it is now the official language of Israel. Over 10 million people speak it, more than 6.5 million natively, and it is nearly universally regarded as the most successful language revitalization in history.",
+          "sources": [
+            "wp-hebrew-revival",
+            "wp-modern-hebrew"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "The linguists Haiim Rosén and Haim Blanc describe Modern Hebrew as a koiné combining elements of earlier Hebrew, the native languages of its early speakers and new developments; a minority of scholars argue that substrate influence was so strong that the revived language is genealogically a hybrid.",
+          "sources": [
+            "wp-modern-hebrew"
+          ]
+        }
+      ],
+      "id": "hebrew",
+      "name": "Modern Hebrew",
+      "nativeName": "עִבְרִית",
+      "nativeScript": "Hebr",
+      "glottocode": "hebr1245",
+      "iso639_3": "heb",
+      "parent": "biblical-hebrew",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-hebr1245",
+        "wp-modern-hebrew"
+      ],
+      "period": {
+        "from": 1881,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-hebrew-revival"
+        ],
+        "note": "Dated from Eliezer Ben-Yehuda's first modern Hebrew conversation, in Paris on 13 October 1881; the revival as a spoken language is placed around 1880."
+      },
+      "homeland": {
+        "lat": 31.77889,
+        "lng": 35.22556,
+        "label": "Jerusalem and the Jewish settlements of Ottoman Palestine",
+        "sources": [
+          "wp-hebrew-revival",
+          "wp-jerusalem"
+        ]
+      },
+      "speakers": {
+        "count": 10600000,
+        "year": 2014,
+        "scope": "L1+L2",
+        "sources": [
+          "wp-modern-hebrew"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Hebrew alphabet",
+            "code": "Hebr"
+          }
+        ],
+        "sources": [
+          "wp-modern-hebrew"
+        ]
+      }
+    },
+    {
+      "attestations": [
+        {
+          "id": "en-avdat-poem",
+          "year": 125,
+          "approx": true,
+          "lat": 30.794,
+          "lng": 34.773,
+          "place": "En Avdat (Avdat), Negev",
+          "description": "Three lines of poetry by a man named Garm(')allāhe, dated to around 125 CE, are the earliest continuous Arabic text in an ancestor of the modern Arabic script.",
+          "sources": [
+            "wp-arabic",
+            "wp-avdat"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Arabic is a Central Semitic language spoken mainly in the Arab world; the International Organization for Standardization assigns codes to 32 of its varieties, including the standard form. It is one of the six official languages of the United Nations and the liturgical language of Islam, and its varieties have about 411 million native speakers.",
+          "sources": [
+            "wp-arabic"
+          ]
+        },
+        {
+          "text": "The Safaitic and Hismaic inscriptions of north-western Arabia are considered early forms of Arabic, or Old Arabic. The earliest continuous Arabic text in an ancestor of the Arabic script is a three-line poem from En Avdat in the Negev, dated to around 125 CE, followed by the Namara inscription of 328 CE, the epitaph of the Lakhmid king Imru' al-Qays, found in southern Syria.",
+          "sources": [
+            "wp-arabic",
+            "wp-namara"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "Classical Arabic, the modern Arabic varieties and the Safaitic and Hismaic inscriptions share features pointing to a common ancestor, Proto-Arabic. Because several modern varieties keep features not found in Classical Arabic, they cannot have developed from it: Classical Arabic is a sister of the vernaculars rather than their direct ancestor.",
+          "sources": [
+            "wp-arabic"
+          ]
+        },
+        {
+          "text": "Charles Ferguson's koine theory holds that the modern dialects descend from a single military koine of the Islamic conquests; this has been challenged. Ahmad al-Jallad proposes that there were at least two distinct types of Arabic on the eve of the conquests, and that the modern dialects emerged from the new contact situation that followed.",
+          "sources": [
+            "wp-arabic"
+          ]
+        }
+      ],
+      "id": "arabic",
+      "name": "Arabic",
+      "nativeName": "اَلْعَرَبِيَّةُ",
+      "nativeScript": "Arab",
+      "glottocode": "arab1395",
+      "iso639_3": "ara",
+      "parent": "proto-semitic",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "glotto-arab1395",
+        "wp-arabic"
+      ],
+      "speakers": {
+        "count": 411000000,
+        "year": 2024,
+        "scope": "L1",
+        "sources": [
+          "wp-arabic"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Arabic",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-arabic"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Classical Arabic, also called Quranic Arabic, is the standardized literary Arabic used from the 7th century and throughout the Middle Ages, in Umayyad and Abbasid poetry, prose and oratory, and the liturgical language of Islam. By the late 6th century a fairly uniform intertribal 'poetic koiné', distinct from the spoken vernaculars, had probably developed, and pre-Islamic poems together with the Quran became the foundation of Arabic grammar.",
+          "sources": [
+            "wp-classical-arabic"
+          ]
+        },
+        {
+          "text": "By the 9th century grammarians had standardized the language, and knowledge of it became a prerequisite for rising into the higher classes across the Islamic world, which developed a widespread diglossia. Abu al-Aswad al-Du'ali (c. 603–689) is credited with standardizing Arabic grammar and pioneering diacritics. Classical Arabic is conservative among Semitic languages, keeping the three Proto-Semitic grammatical cases.",
+          "sources": [
+            "wp-classical-arabic",
+            "wp-arabic"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "quran-al-fatiha",
+          "title": "Quran: Surah Al-Fatiha (The Opening)",
+          "titleOriginal": "ٱلۡفَاتِحَةِ",
+          "author": "Quran (Islamic scripture)",
+          "date": "7th century CE",
+          "year": 620,
+          "significance": "Al-Fatiha, the first surah of the Quran, has seven verses forming a prayer for guidance and mercy and is recited in Muslim obligatory and voluntary prayers (salah). Most narrators recorded it as the first complete surah revealed to Muhammad; the most commonly accepted view is that it is a Meccan surah.",
+          "original": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+          "originalScript": "Arab",
+          "translation": "In the name of Allah, the Beneficent, the Merciful.\n1. Praise be to Allah, Lord of the Worlds,\n2. The Beneficent, the Merciful.\n3. Owner of the Day of Judgment,\n4. Thee (alone) we worship; Thee (alone) we ask for help.\n5. Show us the straight path,\n6. The path of those whom Thou hast favoured;\n7. Not (the path) of those who earn Thine anger nor of those who go astray.",
+          "translator": "Marmaduke Pickthall",
+          "translationYear": 1930,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://archive.org/details/MN40248ucmf_9",
+          "sources": [
+            "wp-fatiha",
+            "alquran-fatiha",
+            "archive-pickthall",
+            "wp-pickthall"
+          ]
+        },
+        {
+          "id": "muallaqa-imru-al-qais",
+          "title": "Mu'allaqa of Imru' al-Qais ('Let us stop and weep'), opening",
+          "titleOriginal": "قفا نبك",
+          "author": "Imru' al-Qais",
+          "date": "late 5th – early 6th century CE",
+          "year": 520,
+          "significance": "Imru' al-Qais's qasida 'Let us stop and weep' is one of the seven Mu'allaqat, the 'Hanging Poems' said to have been hung in the Kaaba at Mecca and a primary source for early Arabic poetry. Its poet is sometimes considered the father of Arabic poetry.",
+          "original": "قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ ومَنْزِلِ\nبِسِقْطِ اللِّوَى بَيْنَ الدَّخُول فَحَوْملِ\nفَتُوْضِحَ فَالمِقْراةِ لمْ يَعْفُ رَسْمُها\nلِمَا نَسَجَتْهَا مِنْ جَنُوبٍ وشَمْألِ",
+          "originalScript": "Arab",
+          "translation": "Stay!—Let us weep at the remembrance of our beloved, at the sight of the station where her tent was raised, by the edge of yon bending sands between Dahul and Haumel,\n\"Tudam and Mikra; a station, the marks of which are not wholly effaced, though the south wind and the north have woven the twisted sand.\"",
+          "translator": "William Jones",
+          "translationYear": 1782,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://ar.wikisource.org/wiki/%D9%85%D8%B9%D9%84%D9%82%D8%A9_%D8%A7%D9%85%D8%B1%D8%A6_%D8%A7%D9%84%D9%82%D9%8A%D8%B3",
+          "sources": [
+            "wp-muallaqat",
+            "wp-imru",
+            "ws-ar-muallaqa",
+            "ws-jones-amriolkais",
+            "wp-william-jones"
+          ]
+        }
+      ],
+      "notes": [],
+      "id": "classical-arabic",
+      "name": "Classical Arabic",
+      "nativeName": "العربية الفصحى",
+      "nativeScript": "Arab",
+      "glottocode": "clas1259",
+      "parent": "arabic",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "glotto-clas1259",
+        "wp-classical-arabic"
+      ],
+      "period": {
+        "from": 550,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-classical-arabic",
+          "wp-msa"
+        ],
+        "note": "A uniform poetic koiné is thought to have developed by the late 6th century; Classical Arabic was the standard literary language from the 7th century, and the written language before the mid-19th century is distinguished from Modern Standard Arabic. It is no one's native language but remains the liturgical language of Islam."
+      },
+      "homeland": {
+        "lat": 21.4225,
+        "lng": 39.82333,
+        "label": "Hejaz, western Arabia (point: Mecca)",
+        "sources": [
+          "wp-classical-arabic",
+          "wp-mecca"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Arabic",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-classical-arabic"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Modern Standard Arabic is the standardized literary Arabic that developed in the Arab world in the late 19th and early 20th centuries. Napoleon's invasion of Egypt and Syria (1798–1801) is generally taken as the start of the modern period of Arabic: he brought a printing press to Egypt in 1798, and Muhammad Ali Pasha later reintroduced one. MSA keeps Classical morphology and syntax but differs in vocabulary and style, coining words such as sayyārah 'car' from Arabic roots.",
+          "sources": [
+            "wp-msa"
+          ]
+        },
+        {
+          "text": "MSA is the official language of the Arab League, one of the six official languages of the United Nations, and the only form of Arabic taught in schools at all stages. Most books, newspapers and official documents in the Arab world are written in it, but it is generally not spoken as a first language: Ethnologue counts nearly 335 million users of MSA and no native speakers.",
+          "sources": [
+            "wp-msa"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "modern-standard-arabic",
+      "name": "Modern Standard Arabic",
+      "nativeName": "العربية الفصحى",
+      "nativeScript": "Arab",
+      "glottocode": "stan1318",
+      "iso639_3": "arb",
+      "parent": "classical-arabic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-stan1318",
+        "wp-msa"
+      ],
+      "period": {
+        "from": 1850,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-msa"
+        ],
+        "note": "MSA developed in the late 19th and early 20th centuries; there is no agreed moment at which Classical Arabic turned into MSA."
+      },
+      "homeland": {
+        "lat": 30.04444,
+        "lng": 31.23583,
+        "label": "Arab world (point: Cairo, Egypt)",
+        "sources": [
+          "wp-msa",
+          "wp-cairo"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Arabic",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-msa"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Egyptian Arabic, locally called Masri, originated in the Nile Delta and is the most widely spoken vernacular Arabic in Egypt. Arabic was spoken in parts of the eastern Delta and Sinai before Islam, but Nile Valley Egyptians adopted it only slowly after the Muslim conquest of the 7th century; until then they had spoken Koine Greek or Egyptian in its Coptic form. Some authors argue that Coptic left a substratum in its sounds, grammar and vocabulary.",
+          "sources": [
+            "wp-egyptian-arabic"
+          ]
+        },
+        {
+          "text": "One of the earliest sketches of Cairene Arabic is a 16th-century work by the traveller and lexicographer Yusuf al-Maghribi, 'The Removal of the Burden from the Language of the People of Cairo'. Through Egyptian cinema and music the dialect is understood across most of the Arabic-speaking countries, and it is the most widely studied variety of Arabic. It is written mostly in the Arabic alphabet, in novels, plays, comics and advertising.",
+          "sources": [
+            "wp-egyptian-arabic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "egyptian-arabic",
+      "name": "Egyptian Arabic",
+      "nativeName": "مصرى",
+      "nativeScript": "Arab",
+      "glottocode": "egyp1253",
+      "iso639_3": "arz",
+      "parent": "arabic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-egyp1253",
+        "wp-egyptian-arabic"
+      ],
+      "period": {
+        "from": 650,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-egyptian-arabic"
+        ],
+        "note": "Arabic was spoken in parts of the eastern Nile Delta and Sinai before Islam; Nile Valley Egyptians slowly adopted it after the Muslim conquest of Egypt in the 7th century."
+      },
+      "homeland": {
+        "lat": 30.9,
+        "lng": 31.11667,
+        "label": "Nile Delta, Lower Egypt",
+        "sources": [
+          "wp-egyptian-arabic",
+          "wp-nile-delta"
+        ]
+      },
+      "speakers": {
+        "count": 84000000,
+        "year": 2024,
+        "scope": "L1",
+        "sources": [
+          "wp-egyptian-arabic"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Arabic",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-egyptian-arabic"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [],
+      "works": [],
+      "notes": [
+        {
+          "text": "A 2009 Bayesian analysis by Kitchen and colleagues points to a single introduction of early Ethiosemitic into the Horn of Africa from southern Arabia about 2,800 years ago.",
+          "sources": [
+            "kitchen2009",
+            "wp-proto-semitic"
+          ]
+        }
+      ],
+      "id": "ethiosemitic",
+      "name": "Ethiosemitic",
+      "glottocode": "ethi1244",
+      "parent": "proto-semitic",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "glotto-ethi1244",
+        "wp-proto-semitic"
+      ]
+    },
+    {
+      "attestations": [
+        {
+          "id": "hawulti-obelisk",
+          "year": 400,
+          "approx": true,
+          "lat": 14.674722,
+          "lng": 39.424722,
+          "place": "Hawulti obelisk, Matara, Eritrea",
+          "description": "The Hawulti obelisk at Matara bears the oldest known example of the Ge'ez script, unvocalized and with pagan religious references; Wikipedia dates the monument tentatively to c. 400 CE.",
+          "sources": [
+            "wp-geez",
+            "wp-matara"
+          ]
+        },
+        {
+          "id": "ezana-stone",
+          "year": 350,
+          "approx": true,
+          "lat": 14.12083,
+          "lng": 38.72778,
+          "place": "Aksum, Ethiopia",
+          "description": "The Ezana Stone, probably of the 4th century CE, records King Ezana's conversion to Christianity and his campaigns, in Ge'ez, Sabaic and Greek.",
+          "sources": [
+            "wp-ezana",
+            "wp-aksum"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Ge'ez, sometimes called Classical Ethiopic, is an ancient South Semitic language of what is now Ethiopia and Eritrea. Inscriptions of the Kingdom of Aksum date from as early as the 4th century CE, and its literature begins in the same century with the Christianization of Aksum under King Ezana, whose stele at Aksum records his conversion and campaigns in Ge'ez, Sabaic and Greek.",
+          "sources": [
+            "wp-geez",
+            "wp-ezana"
+          ]
+        },
+        {
+          "text": "The Garima Gospels, the oldest radiocarbon-dated to about 390–570, are the oldest surviving Ethiopian manuscripts of any kind. Ge'ez was no longer a living language by the 14th century, yet that century is sometimes called the golden age of its literature; it produced the Kebra Nagast, the national epic that traces Ethiopia's Solomonic dynasty to Solomon and the Queen of Sheba. Ge'ez remains a liturgical language of Ethiopian and Eritrean churches and of the Beta Israel.",
+          "sources": [
+            "wp-garima",
+            "wp-geez",
+            "wp-kebra"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "geez",
+      "name": "Ge'ez",
+      "nativeName": "ግዕዝ",
+      "nativeScript": "Ethi",
+      "glottocode": "geez1241",
+      "iso639_3": "gez",
+      "parent": "ethiosemitic",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "glotto-geez1241",
+        "wp-geez"
+      ],
+      "period": {
+        "from": 300,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-geez"
+        ],
+        "note": "Inscriptions date from as early as the 4th century CE; Ge'ez died out as a spoken language between the 10th and 14th centuries but remains in use as the main liturgical language of the Ethiopian and Eritrean Orthodox Tewahedo churches."
+      },
+      "homeland": {
+        "lat": 14.12083,
+        "lng": 38.72778,
+        "label": "Kingdom of Aksum (Ethiopia and Eritrea)",
+        "sources": [
+          "wp-geez",
+          "wp-aksum"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Ge'ez script",
+            "code": "Ethi"
+          }
+        ],
+        "sources": [
+          "wp-geez"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Amharic is a South Ethio-Semitic language, spoken natively by the Amhara people and as a lingua franca across Ethiopia, where it is the working language of the federal government. It is not a descendant of Ge'ez, which belongs to the northern branch of Ethio-Semitic. It has a large Cushitic substratum, which the Amharic article attributes to the Cushitic Agaw adopting a South Ethio-Semitic language and eventually absorbing its Semitic-speaking population.",
+          "sources": [
+            "wp-amharic"
+          ]
+        },
+        {
+          "text": "Amharic has been a language of the court, trade and the army since the late 12th century, when the Zagwe king Lalibela made it the 'tongue of the king' (Lisane Negus). Its oldest surviving written examples are soldier songs glorifying the 14th-century emperor Amda Seyon I and his successors. It is written left to right in an extended Ge'ez script called fidäl, an abugida.",
+          "sources": [
+            "wp-amharic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "amharic",
+      "name": "Amharic",
+      "nativeName": "አማርኛ",
+      "nativeScript": "Ethi",
+      "glottocode": "amha1245",
+      "iso639_3": "amh",
+      "parent": "ethiosemitic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-amha1245",
+        "wp-amharic"
+      ],
+      "period": {
+        "from": 1320,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-amharic",
+          "wp-geez"
+        ],
+        "note": "The cited sources give no date for the language's emergence; this is the date of its oldest surviving written examples, from the reign of Emperor Amda Seyon I (1314–1344) and his successors."
+      },
+      "homeland": {
+        "lat": 11.708182,
+        "lng": 39.543456,
+        "label": "Amhara highlands, Ethiopia",
+        "sources": [
+          "wp-amharic",
+          "glotto-amha1245"
+        ]
+      },
+      "speakers": {
+        "count": 35000000,
+        "year": 2020,
+        "scope": "L1",
+        "sources": [
+          "wp-amharic"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Ge'ez script (fidäl)",
+            "code": "Ethi"
+          }
+        ],
+        "sources": [
+          "wp-amharic"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Tigrinya is an Ethio-Semitic language spoken by the Tigrinya people of Eritrea and the Tigrayans of Ethiopia's Tigray Region. It is lexically 68% similar to Ge'ez, slightly more than Amharic, and has kept two pharyngeal consonants of ancient Ge'ez. Because Ge'ez long served as the literary medium, its earliest known text is a 19th-century code of local laws from Loggo Sarda, found inside a Ge'ez Gospel manuscript.",
+          "sources": [
+            "wp-tigrinya"
+          ]
+        },
+        {
+          "text": "Tigrinya and Arabic were official languages of Eritrea during its federation with Ethiopia, until Amharic replaced Tigrinya in 1958. After Eritrea's independence in 1991 Tigrinya kept its status as a working language there, and in 2020 Ethiopia recognized it at the national level. It is the most widely spoken language in Eritrea.",
+          "sources": [
+            "wp-tigrinya"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "tigrinya",
+      "name": "Tigrinya",
+      "nativeName": "ትግርኛ",
+      "nativeScript": "Ethi",
+      "glottocode": "tigr1271",
+      "iso639_3": "tir",
+      "parent": "ethiosemitic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-tigr1271",
+        "wp-tigrinya"
+      ],
+      "period": {
+        "from": 1800,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-tigrinya"
+        ],
+        "note": "The cited sources give no date for the language's emergence; this is the date of its earliest known written text, a 19th-century code of local laws."
+      },
+      "homeland": {
+        "lat": 15.33583,
+        "lng": 38.94111,
+        "label": "Eritrean highlands and Tigray (point: Asmara)",
+        "sources": [
+          "wp-tigrinya"
+        ]
+      },
+      "speakers": {
+        "count": 9900000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-tigrinya"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Ge'ez script",
+            "code": "Ethi"
+          }
+        ],
+        "sources": [
+          "wp-tigrinya"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "The Berber languages, also called Amazigh or Tamazight, are an Afroasiatic branch spoken by communities indigenous to North Africa, from Morocco and Algeria to Libya, Tunisia, northern Mali and Niger, and the Siwa Oasis in Egypt. With few exceptions they form a dialect continuum, with a degree of variety similar to the Romance languages. Morocco and Algeria added Tamazight to their constitutions as an official language in 2011 and 2016.",
+          "sources": [
+            "wp-berber"
+          ]
+        },
+        {
+          "text": "They were historically written in the ancient Libyco-Berber script, found in thousands of stone inscriptions across North Africa and the Canary Islands, whose oldest remains probably date from the 6th century BCE. The script survives as Tifinagh, still used by the Tuareg, though the Latin alphabet is now the most widespread way of writing Berber.",
+          "sources": [
+            "wp-berber",
+            "wp-tifinagh"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "Proto-Berber may be as recent as 3,000 years ago according to glottochronological studies, while Berber's split from the other Afroasiatic branches is far older. Roger Blench suggests that Proto-Berber can be reconstructed only to about 200 CE, and Punic loanwords in Proto-Berber point to diversification of the modern languages after the fall of Carthage in 146 BCE.",
+          "sources": [
+            "wp-proto-berber"
+          ]
+        }
+      ],
+      "id": "berber",
+      "name": "Berber (Amazigh)",
+      "glottocode": "berb1260",
+      "parent": "proto-afroasiatic",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "glotto-berb1260",
+        "wp-berber"
+      ]
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Central Atlas Tamazight is a Berber language spoken by around 2.7 million people, 7.4% of Morocco's population, in the Middle Atlas, the High Atlas and Jbel Saghro. It is the second most spoken Berber language in Morocco after Tachelhit, and its speakers are the only ones who use the name 'Tamazight' exclusively for their language. Like other Afroasiatic languages it has emphatic consonants, and it has many words without vowels.",
+          "sources": [
+            "wp-cat"
+          ]
+        },
+        {
+          "text": "Unlike neighbouring Tashelhit, it had no known significant writing tradition until the 20th century. It is now officially written in Tifinagh for teaching in Moroccan schools; the Royal Institute of Amazigh Culture led the adoption of a 33-letter Tifinagh alphabet inspired by the Neo-Tifinagh of the 1970s. Linguists commonly write it in the Latin alphabet, and the Arabic alphabet has also been used.",
+          "sources": [
+            "wp-cat",
+            "wp-ircam"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "central-atlas-tamazight",
+      "name": "Central Atlas Tamazight",
+      "nativeName": "ⵜⴰⵎⴰⵣⵉⵖⵜ",
+      "nativeScript": "Tfng",
+      "glottocode": "cent2194",
+      "iso639_3": "tzm",
+      "parent": "berber",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-cent2194",
+        "wp-cat"
+      ],
+      "period": {
+        "from": 200,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-proto-berber"
+        ],
+        "note": "No date for the emergence of Central Atlas Tamazight is given in the cited sources; the date follows Roger Blench's suggestion that Proto-Berber, the ancestor of the modern Berber languages, can be reconstructed only to about 200 CE."
+      },
+      "homeland": {
+        "lat": 32.93944,
+        "lng": -5.6675,
+        "label": "Middle Atlas, Morocco (point: Khenifra)",
+        "sources": [
+          "wp-cat",
+          "wp-khenifra"
+        ]
+      },
+      "speakers": {
+        "count": 2700000,
+        "year": 2024,
+        "scope": "L1",
+        "sources": [
+          "wp-cat"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Tifinagh",
+            "code": "Tfng"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Arabic",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-cat"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "There are about 30 Cushitic languages, more if Omotic is included, spoken around the Horn of Africa and in Sudan and Tanzania. Only Oromo has more than 25 million speakers; Somali, Afar, Hadiyya and Sidaama each have more than a million. The oldest text in a Cushitic language probably dates from around 1770, and written orthographies were developed for a few of them only in the early 20th century.",
+          "sources": [
+            "wp-afroasiatic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "cushitic",
+      "name": "Cushitic",
+      "glottocode": "cush1243",
+      "parent": "proto-afroasiatic",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "glotto-cush1243",
+        "wp-cushitic"
+      ]
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Somali is a Lowland East Cushitic language spoken in Somalia, Djibouti, Ethiopia, Kenya and the Somali diaspora, and an official language of Somalia, Somaliland and Ethiopia. It is the best-documented Cushitic language, studied by scholars since the late 19th century. For centuries clerics wrote it in Arabic script, known as Wadaad's writing, mostly for Islamic poems; in the 19th century Sheikh Uways al-Barawi improved this script and applied it to the Maay dialect.",
+          "sources": [
+            "wp-somali",
+            "wp-uways"
+          ]
+        },
+        {
+          "text": "In the 20th century new scripts were invented for Somali, including Osmanya, created by Osman Yusuf Kenadid and published in 1920–1922. The Somali Latin alphabet, developed by scholars including Musa Haji Ismail Galal, B. W. Andrzejewski and Shire Jama Ahmed, was officially adopted in 1972, and in January 1973 Somali became the main language of administration and education of the Somali Democratic Republic.",
+          "sources": [
+            "wp-somali",
+            "wp-osmanya"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "somali",
+      "name": "Somali",
+      "nativeName": "Af Soomaali",
+      "nativeScript": "Latn",
+      "glottocode": "soma1255",
+      "iso639_3": "som",
+      "parent": "cushitic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-soma1255",
+        "wp-somali"
+      ],
+      "period": {
+        "from": 1870,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-somali",
+          "wp-uways"
+        ],
+        "note": "The cited sources give no date for the language's emergence; Somali had been written in Arabic script for centuries. The date approximates the written Somali poems of Sheikh Uways al-Barawi (1847–1909), the earliest named Somali writing in these sources; he studied in Baghdad around 1870, so his poems come after that."
+      },
+      "homeland": {
+        "lat": 4.778704,
+        "lng": 45.152856,
+        "label": "Somali Peninsula, Horn of Africa",
+        "sources": [
+          "wp-somali",
+          "glotto-soma1255"
+        ]
+      },
+      "speakers": {
+        "count": 24000000,
+        "year": 2024,
+        "scope": "L1",
+        "sources": [
+          "wp-somali"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Somali Latin alphabet",
+            "code": "Latn"
+          },
+          {
+            "name": "Osmanya",
+            "code": "Osma"
+          },
+          {
+            "name": "Arabic (Wadaad's writing)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-somali",
+          "wp-osmanya"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Oromo is a Cushitic language spoken by the Oromo people of Ethiopia's Oromia region and northern Kenya, and a lingua franca in Oromia and north-eastern Kenya. It has the largest number of native speakers of any language in Ethiopia and is one of the country's official working languages. Under Haile Selassie's government it was de facto banned in education, in conversation and in administration.",
+          "sources": [
+            "wp-oromo"
+          ]
+        },
+        {
+          "text": "Oromo has a highly developed oral tradition. Written work began in the 19th century: Johann Ludwig Krapf started translating the Gospels of John and Matthew in 1842, and Karl Tutschek produced the first dictionary and grammar in 1844. Late 19th-century Bible translations by Onesimos Nesib and Aster Ganno used the Ge'ez script, but in 1991 a Latin alphabet called Qubee was formally adopted.",
+          "sources": [
+            "wp-oromo",
+            "wp-qubee"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [
+        {
+          "text": "Glottolog treats Oromo as a cluster of closely related languages (Nuclear Oromo), including Borana-Arsi-Guji Oromo, Orma, Waata and Eastern Oromo; this entry covers the cluster as a whole.",
+          "sources": [
+            "glotto-nucl1736"
+          ]
+        }
+      ],
+      "id": "oromo",
+      "name": "Oromo",
+      "nativeName": "Afaan Oromoo",
+      "nativeScript": "Latn",
+      "glottocode": "nucl1736",
+      "iso639_3": "orm",
+      "parent": "cushitic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-nucl1736",
+        "wp-oromo"
+      ],
+      "period": {
+        "from": 1842,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-oromo"
+        ],
+        "note": "The cited sources give no date for the language's emergence; this is the date of the earliest Oromo writing they mention, Johann Ludwig Krapf's Gospel translations begun in 1842."
+      },
+      "homeland": {
+        "lat": 7.98906,
+        "lng": 39.38118,
+        "label": "Oromia, Ethiopia (point: centre of the region)",
+        "sources": [
+          "wp-oromo",
+          "wp-oromia"
+        ]
+      },
+      "speakers": {
+        "count": 45500000,
+        "year": 2024,
+        "scope": "L1",
+        "sources": [
+          "wp-oromo"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Qubee)",
+            "code": "Latn"
+          },
+          {
+            "name": "Ge'ez script",
+            "code": "Ethi"
+          }
+        ],
+        "sources": [
+          "wp-oromo",
+          "wp-qubee"
+        ]
+      }
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "The Chadic languages are an Afroasiatic branch of 196 languages spoken in parts of the Sahel, across northern Nigeria, southern Niger, southern Chad and northern Cameroon. Paul Newman's 1977 division into four groups has been accepted in all later work. Hausa, a lingua franca of much of inland West Africa, is by far the most widely spoken, and the only Chadic language with more than a million speakers.",
+          "sources": [
+            "wp-chadic"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "chadic",
+      "name": "Chadic",
+      "glottocode": "chad1250",
+      "parent": "proto-afroasiatic",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "glotto-chad1250",
+        "wp-chadic"
+      ]
+    },
+    {
+      "attestations": [],
+      "story": [
+        {
+          "text": "Hausa is a Chadic language spoken by over 94 million people in West Africa, mainly by the Hausa people of Niger and northern Nigeria. It is a lingua franca in most of northern Nigeria and southern Niger and is also used in northern Cameroon, Ghana, Benin, Togo and southern Chad. In 2025 it became the sole official language of Niger, replacing French.",
+          "sources": [
+            "wp-hausa"
+          ]
+        },
+        {
+          "text": "Hausa has been written in Ajami, an adapted Arabic script, since the early 17th century; the first known work in Hausa is Riwayar Nabi Musa by Abdullahi Suka. An Islamic revival in the 19th century brought a wave of Ajami writing, but after colonization a Latin orthography, Boko, was adopted and Ajami declined in popularity.",
+          "sources": [
+            "wp-hausa",
+            "wp-ajami"
+          ]
+        }
+      ],
+      "works": [],
+      "notes": [],
+      "id": "hausa",
+      "name": "Hausa",
+      "nativeName": "Harshen Hausa",
+      "nativeScript": "Latn",
+      "glottocode": "haus1257",
+      "iso639_3": "hau",
+      "parent": "chadic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glotto-haus1257",
+        "wp-hausa"
+      ],
+      "period": {
+        "from": 1600,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-hausa"
+        ],
+        "note": "The cited sources give no date for the language's emergence; this is the date of its earliest writing, in Ajami script from the early 17th century."
+      },
+      "homeland": {
+        "lat": 12.0,
+        "lng": 8.517,
+        "label": "Hausaland, northern Nigeria and southern Niger (point: Kano)",
+        "sources": [
+          "wp-hausa",
+          "wp-kano"
+        ]
+      },
+      "speakers": {
+        "count": 58000000,
+        "year": 2024,
+        "scope": "L1",
+        "sources": [
+          "wp-hausa"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Boko)",
+            "code": "Latn"
+          },
+          {
+            "name": "Arabic (Ajami)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-hausa"
+        ]
+      }
+    }
+  ]
+}

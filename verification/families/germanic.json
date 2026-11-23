@@ -1,0 +1,1357 @@
+{
+ "file": "data/families/germanic.json",
+ "claims": {
+  "proto-germanic#identity": {
+   "hash": "07d2ef22405c7367",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Germanic_language",
+    "https://glottolog.org/resource/languoid/id/germ1287"
+   ]
+  },
+  "proto-germanic#period": {
+   "hash": "37f409d6b6d13350",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Germanic_language"
+   ]
+  },
+  "proto-germanic#homeland": {
+   "hash": "a923f0447f96f213",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Germanic_language",
+    "https://en.wikipedia.org/wiki/Germanic_languages"
+   ]
+  },
+  "proto-germanic#story:0": {
+   "hash": "eca0a3c75d748d60",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Germanic_language"
+   ]
+  },
+  "proto-germanic#story:1": {
+   "hash": "50d06a142127ce2b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Germanic_language"
+   ]
+  },
+  "proto-germanic#note:0": {
+   "hash": "c225a76b4ba444c0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Germanic_language"
+   ]
+  },
+  "west-germanic#identity": {
+   "hash": "b9cbf0ab8be35907",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Germanic_languages",
+    "https://glottolog.org/resource/languoid/id/west2793"
+   ]
+  },
+  "gothic#identity": {
+   "hash": "bf3e8666ae68d430",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gothic_language",
+    "https://glottolog.org/resource/languoid/id/goth1244"
+   ]
+  },
+  "gothic#period": {
+   "hash": "471cc9d1b0cfad4b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gothic_language"
+   ]
+  },
+  "gothic#homeland": {
+   "hash": "469669f598f1702d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gothic_language"
+   ]
+  },
+  "gothic#attestation:codex-argenteus": {
+   "hash": "6a8482a7fd40c12a",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.uu.se/en/library/visit-and-contact/exhibitions/codex-argenteus/the-history-of-codex-argenteus",
+    "https://en.wikipedia.org/wiki/Codex_Argenteus"
+   ]
+  },
+  "gothic#attestation:mangup-graffiti": {
+   "hash": "4e5ae36aa11b57aa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gothic_language"
+   ]
+  },
+  "gothic#scripts": {
+   "hash": "770ec7ef91898c2d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gothic_language"
+   ]
+  },
+  "gothic#story:0": {
+   "hash": "7bf9025d277faed7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gothic_language",
+    "https://www.uu.se/en/library/visit-and-contact/exhibitions/codex-argenteus/the-history-of-codex-argenteus"
+   ]
+  },
+  "gothic#story:1": {
+   "hash": "4ff10852f205a6a1",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.uu.se/en/library/visit-and-contact/exhibitions/codex-argenteus/the-history-of-codex-argenteus",
+    "https://en.wikipedia.org/wiki/Codex_Argenteus"
+   ]
+  },
+  "gothic#story:2": {
+   "hash": "65f6edcb5b6b10d6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gothic_language"
+   ]
+  },
+  "gothic#work:wulfila-bible": {
+   "hash": "a824793e2c77f0a3",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.wulfila.be/gothic/browse/text/01/06.html",
+    "https://en.wikipedia.org/wiki/Gothic_language",
+    "https://en.wikipedia.org/wiki/Proto-Germanic_language",
+    "https://www.uu.se/en/library/visit-and-contact/exhibitions/codex-argenteus/the-history-of-codex-argenteus"
+   ]
+  },
+  "gothic#note:0": {
+   "hash": "688ffbf03f60ed9c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gothic_language"
+   ]
+  },
+  "proto-norse#identity": {
+   "hash": "d733183600d4a6ed",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Norse_language",
+    "https://glottolog.org/resource/languoid/id/olde1239"
+   ]
+  },
+  "proto-norse#period": {
+   "hash": "bebe94924883d5f3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Norse_language"
+   ]
+  },
+  "proto-norse#homeland": {
+   "hash": "432f91be16a39151",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Norse_language",
+    "https://en.wikipedia.org/wiki/Vimose_inscriptions"
+   ]
+  },
+  "proto-norse#attestation:vimose-comb": {
+   "hash": "6c5be254ce58475f",
+   "verdict": "corrected",
+   "evidence": [
+    "https://rundata.info/inscription/dr-207/",
+    "https://en.wikipedia.org/wiki/Vimose_inscriptions"
+   ],
+   "note": "Coordinates refined to the Rundata position (55.452, 10.296)."
+  },
+  "proto-norse#attestation:gallehus-horns": {
+   "hash": "1663ac6e916e7eba",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-late-iron-age/the-golden-horns",
+    "https://en.wikipedia.org/wiki/Golden_Horns_of_Gallehus"
+   ]
+  },
+  "proto-norse#scripts": {
+   "hash": "be724d9adf55a6c6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Norse_language"
+   ]
+  },
+  "proto-norse#story:0": {
+   "hash": "25586cbb58901c8f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Norse_language"
+   ]
+  },
+  "proto-norse#story:1": {
+   "hash": "324a866669cbf430",
+   "verdict": "corrected",
+   "evidence": [
+    "https://rundata.info/inscription/dr-207/",
+    "https://en.wikipedia.org/wiki/Vimose_inscriptions",
+    "https://en.wikipedia.org/wiki/Golden_Horns_of_Gallehus",
+    "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-late-iron-age/the-golden-horns"
+   ],
+   "note": "Removed 'bog' for Vimose, which none of the cited sources states."
+  },
+  "proto-norse#note:0": {
+   "hash": "8aea8447b913310e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vimose_inscriptions",
+    "https://en.wikipedia.org/wiki/Proto-Germanic_language"
+   ]
+  },
+  "proto-norse#note:1": {
+   "hash": "a228232ef453ff71",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/olde1239"
+   ],
+   "note": "Note added explaining that olde1239 is Older Runic, the nearest Glottolog match."
+  },
+  "old-norse#identity": {
+   "hash": "98b4925e6b4584ac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Norse",
+    "https://glottolog.org/resource/languoid/id/oldn1244",
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "old-norse#period": {
+   "hash": "ef9b0e59f7a6dfb1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Norse",
+    "https://en.wikipedia.org/wiki/Proto-Norse_language"
+   ]
+  },
+  "old-norse#homeland": {
+   "hash": "9582299bf256d45b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Norse"
+   ]
+  },
+  "old-norse#attestation:rok-runestone": {
+   "hash": "9e088a54c18f4f82",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/R%C3%B6k_runestone",
+    "https://rundata.info/inscription/og-136/"
+   ]
+  },
+  "old-norse#attestation:jelling-stone": {
+   "hash": "865073ada36fb420",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-monuments-at-jelling/the-jelling-stone",
+    "https://en.wikipedia.org/wiki/Jelling_stones"
+   ]
+  },
+  "old-norse#scripts": {
+   "hash": "ccb0ebc103b69253",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Norse"
+   ]
+  },
+  "old-norse#story:0": {
+   "hash": "0317fc932aedd714",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Norse",
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "old-norse#story:1": {
+   "hash": "dc81e4d05402f439",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Norse",
+    "https://en.wikipedia.org/wiki/R%C3%B6k_runestone",
+    "https://rundata.info/inscription/og-136/"
+   ]
+  },
+  "old-norse#story:2": {
+   "hash": "a8c88ba4fe325d17",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-monuments-at-jelling/the-jelling-stone",
+    "https://en.wikipedia.org/wiki/Jelling_stones"
+   ]
+  },
+  "old-norse#work:voluspa": {
+   "hash": "eb89ba8a2fe79cf0",
+   "verdict": "verified",
+   "evidence": [
+    "https://is.wikisource.org/wiki/V%C3%B6lusp%C3%A1",
+    "https://gutenberg.pglaf.org/7/3/5/3/73533/73533-0.txt",
+    "https://www.mimisbrunnr.info/voluspa-bellows",
+    "https://en.wikipedia.org/wiki/V%C3%B6lusp%C3%A1",
+    "https://en.wikipedia.org/wiki/Henry_Adams_Bellows_(businessman)"
+   ]
+  },
+  "old-norse#work:njals-saga": {
+   "hash": "f8c880fc0c0a5b4d",
+   "verdict": "verified",
+   "evidence": [
+    "https://is.wikisource.org/wiki/Brennu-Nj%C3%A1ls_saga/1",
+    "https://gutenberg.pglaf.org/1/7/9/1/17919/17919-8.txt",
+    "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
+    "https://en.wikipedia.org/wiki/George_Webbe_Dasent",
+    "https://en.wikipedia.org/wiki/Icelandic_language"
+   ]
+  },
+  "icelandic#identity": {
+   "hash": "8cf75f2ea3b7987c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Icelandic_language",
+    "https://glottolog.org/resource/languoid/id/icel1247"
+   ]
+  },
+  "icelandic#period": {
+   "hash": "a49a75b8adffd687",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_Icelandic"
+   ]
+  },
+  "icelandic#homeland": {
+   "hash": "b0d5a93783ed9696",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Icelandic_language"
+   ]
+  },
+  "icelandic#scripts": {
+   "hash": "70c8f44c1b63453f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Icelandic_language"
+   ]
+  },
+  "icelandic#story:0": {
+   "hash": "c292c8e48513ba35",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_Icelandic"
+   ]
+  },
+  "icelandic#story:1": {
+   "hash": "499c1e365fcf0c81",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_Icelandic",
+    "https://en.wikipedia.org/wiki/Icelandic_language"
+   ]
+  },
+  "norwegian#identity": {
+   "hash": "2552e3ece711a213",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Norwegian_language",
+    "https://glottolog.org/resource/languoid/id/norw1258"
+   ]
+  },
+  "norwegian#period": {
+   "hash": "dc70edf0a40ea16a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Norwegian"
+   ]
+  },
+  "norwegian#homeland": {
+   "hash": "708b069ea8b0116e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Norwegian_language"
+   ]
+  },
+  "norwegian#scripts": {
+   "hash": "aed13bab86e9689d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Norwegian_language"
+   ]
+  },
+  "norwegian#speakers": {
+   "hash": "1428231fc503c59d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Norwegian_language"
+   ]
+  },
+  "norwegian#story:0": {
+   "hash": "79b931c1326b39e2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Norwegian_language",
+    "https://en.wikipedia.org/wiki/Middle_Norwegian"
+   ]
+  },
+  "norwegian#story:1": {
+   "hash": "93d9e391e2eef75b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Norwegian_language"
+   ]
+  },
+  "swedish#identity": {
+   "hash": "837e56f6c8407893",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swedish_language",
+    "https://glottolog.org/resource/languoid/id/swed1254"
+   ]
+  },
+  "swedish#period": {
+   "hash": "4f9b94e009084102",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swedish_language"
+   ]
+  },
+  "swedish#homeland": {
+   "hash": "48758d34b9bd9d21",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swedish_language"
+   ]
+  },
+  "swedish#attestation:gustav-vasa-bible": {
+   "hash": "020462aa9eb2895f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swedish_language",
+    "https://en.wikipedia.org/wiki/Gustav_Vasa_Bible"
+   ]
+  },
+  "swedish#scripts": {
+   "hash": "7eed5ef4f24d6552",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swedish_language"
+   ]
+  },
+  "swedish#story:0": {
+   "hash": "8f5fb4f719db205d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swedish_language"
+   ]
+  },
+  "swedish#story:1": {
+   "hash": "c1f344401f1ad556",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swedish_language",
+    "https://en.wikipedia.org/wiki/Gustav_Vasa_Bible"
+   ]
+  },
+  "danish#identity": {
+   "hash": "cb21c1622965d7f7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Danish_language",
+    "https://glottolog.org/resource/languoid/id/dani1285"
+   ]
+  },
+  "danish#period": {
+   "hash": "7fa3e43355399416",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "danish#homeland": {
+   "hash": "5a70df1329da1916",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "danish#attestation:code-of-jutland": {
+   "hash": "91e9c3f14e51af28",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Codex_Holmiensis",
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "danish#scripts": {
+   "hash": "fe00a70c8ec12cec",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "danish#speakers": {
+   "hash": "e39f5f6a9d35d389",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "danish#story:0": {
+   "hash": "634f6fd8eb7bcb84",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "danish#story:1": {
+   "hash": "e9fffc5d454a95f0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Codex_Holmiensis",
+    "https://en.wikipedia.org/wiki/Danish_language"
+   ]
+  },
+  "faroese#identity": {
+   "hash": "9b7d29ea812a85d0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faroese_language",
+    "https://glottolog.org/resource/languoid/id/faro1244"
+   ]
+  },
+  "faroese#period": {
+   "hash": "44135f00196b2d22",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faroese_language",
+    "https://en.wikipedia.org/wiki/Sheep_letter"
+   ]
+  },
+  "faroese#homeland": {
+   "hash": "d6b1ac6543f688b6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faroese_language"
+   ]
+  },
+  "faroese#attestation:sheep-letter": {
+   "hash": "791b6941d7510705",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sheep_letter"
+   ]
+  },
+  "faroese#scripts": {
+   "hash": "5d3156b4fd60b42e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faroese_language"
+   ]
+  },
+  "faroese#speakers": {
+   "hash": "3d0d533e1facff57",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faroese_language"
+   ]
+  },
+  "faroese#story:0": {
+   "hash": "bcb2bff6354e13e6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faroese_language",
+    "https://en.wikipedia.org/wiki/Sheep_letter"
+   ]
+  },
+  "faroese#story:1": {
+   "hash": "cecc23463f2e55c4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Faroese_language"
+   ]
+  },
+  "old-english#identity": {
+   "hash": "00141d6d39394dce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_English",
+    "https://glottolog.org/resource/languoid/id/olde1238"
+   ]
+  },
+  "old-english#period": {
+   "hash": "93fcc5eb07d761d4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_English"
+   ]
+  },
+  "old-english#homeland": {
+   "hash": "8507f92b1db63c8d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_English"
+   ]
+  },
+  "old-english#attestation:undley-bracteate": {
+   "hash": "6dcc0d38ce9ca4bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Undley_bracteate"
+   ]
+  },
+  "old-english#attestation:ruthwell-cross": {
+   "hash": "07c8efe92cc95ab8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ruthwell_Cross"
+   ]
+  },
+  "old-english#scripts": {
+   "hash": "355892df07f17260",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_English"
+   ]
+  },
+  "old-english#story:0": {
+   "hash": "7edc2c4372bcffe5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_English"
+   ]
+  },
+  "old-english#story:1": {
+   "hash": "e4c92242719a50d7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_English",
+    "https://en.wikipedia.org/wiki/Undley_bracteate",
+    "https://en.wikipedia.org/wiki/Ruthwell_Cross"
+   ]
+  },
+  "old-english#story:2": {
+   "hash": "f38aa07e7cd9958a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_English",
+    "https://en.wikipedia.org/wiki/Beowulf"
+   ],
+   "note": "Removed unsupported superlative 'best-known'; source calls Beowulf one of the most important and most translated Old English works."
+  },
+  "old-english#work:beowulf": {
+   "hash": "da375fd5287ea5c1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikisource.org/wiki/Beowulf_(Harrison_and_Sharp)",
+    "https://gutenberg.pglaf.org/9/8/981/981.txt",
+    "https://en.wikipedia.org/wiki/Beowulf",
+    "https://en.wikipedia.org/wiki/Francis_Barton_Gummere"
+   ]
+  },
+  "middle-english#identity": {
+   "hash": "92e34ad604b42936",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_English",
+    "https://glottolog.org/resource/languoid/id/midd1317"
+   ]
+  },
+  "middle-english#period": {
+   "hash": "644a19989dacd227",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_English"
+   ]
+  },
+  "middle-english#homeland": {
+   "hash": "6918ac905b673d2a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_English"
+   ]
+  },
+  "middle-english#attestation:chancery-standard": {
+   "hash": "9bd3b9191951c43c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/English_language"
+   ]
+  },
+  "middle-english#scripts": {
+   "hash": "043703341e52a46f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_English"
+   ]
+  },
+  "middle-english#story:0": {
+   "hash": "0343aecef54b1c43",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_English"
+   ]
+  },
+  "middle-english#story:1": {
+   "hash": "b1e78d0c6a509915",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_English",
+    "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
+    "https://en.wikipedia.org/wiki/English_language"
+   ]
+  },
+  "middle-english#work:canterbury-tales": {
+   "hash": "85531875d5dbd174",
+   "verdict": "verified",
+   "evidence": [
+    "https://gutenberg.pglaf.org/2/2/1/2/22120/22120-0.txt",
+    "https://en.wikipedia.org/wiki/The_Canterbury_Tales",
+    "https://en.wikipedia.org/wiki/Middle_English"
+   ]
+  },
+  "english#identity": {
+   "hash": "6bc8b0e69643add8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/English_language",
+    "https://glottolog.org/resource/languoid/id/stan1293"
+   ]
+  },
+  "english#period": {
+   "hash": "9be313bbea708560",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/English_language",
+    "https://en.wikipedia.org/wiki/Early_Modern_English"
+   ]
+  },
+  "english#homeland": {
+   "hash": "046721ec43cbb952",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/English_language"
+   ]
+  },
+  "english#attestation:king-james-version": {
+   "hash": "22bb9034ef657216",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/King_James_Version"
+   ]
+  },
+  "english#scripts": {
+   "hash": "3622e719de035eed",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/English_language"
+   ]
+  },
+  "english#speakers": {
+   "hash": "1c0b6932e1a9e917",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/English_language"
+   ]
+  },
+  "english#story:0": {
+   "hash": "c1de1aca9ca11453",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/English_language"
+   ]
+  },
+  "english#story:1": {
+   "hash": "1a7b185142e49cd9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/English_language"
+   ]
+  },
+  "english#work:sonnet-18": {
+   "hash": "abaa83a8e9e9a785",
+   "verdict": "verified",
+   "evidence": [
+    "https://gutenberg.pglaf.org/1/0/4/1041/1041-0.txt",
+    "https://en.wikipedia.org/wiki/Sonnet_18"
+   ]
+  },
+  "old-saxon#identity": {
+   "hash": "6277cd5c458ec599",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Saxon",
+    "https://glottolog.org/resource/languoid/id/olds1250"
+   ]
+  },
+  "old-saxon#period": {
+   "hash": "9e28f2bc3cfdbff2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Saxon"
+   ]
+  },
+  "old-saxon#homeland": {
+   "hash": "5e8822422a84fc7a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Saxon"
+   ]
+  },
+  "old-saxon#scripts": {
+   "hash": "eae0a5969d46bc6e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Saxon"
+   ]
+  },
+  "old-saxon#story:0": {
+   "hash": "8a9f6297600bcf15",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Saxon"
+   ],
+   "note": "Source says Old Saxon only partially shares the Ingvaeonic nasal spirant law; text now says so."
+  },
+  "old-saxon#story:1": {
+   "hash": "cab46bc3eb45bad2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Saxon",
+    "https://en.wikipedia.org/wiki/Heliand"
+   ]
+  },
+  "old-high-german#identity": {
+   "hash": "c7b94c1d9851da3a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_High_German",
+    "https://glottolog.org/resource/languoid/id/oldh1241"
+   ]
+  },
+  "old-high-german#period": {
+   "hash": "598765191cece8d8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_High_German"
+   ]
+  },
+  "old-high-german#homeland": {
+   "hash": "633d90e3e2532d64",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_High_German"
+   ]
+  },
+  "old-high-german#attestation:hildebrandslied-fulda": {
+   "hash": "4660a86c97f1a613",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hildebrandslied"
+   ]
+  },
+  "old-high-german#scripts": {
+   "hash": "11dd0c03cafd9869",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_High_German"
+   ]
+  },
+  "old-high-german#story:0": {
+   "hash": "800b4ceb7a1cf822",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_High_German"
+   ]
+  },
+  "old-high-german#story:1": {
+   "hash": "4b4233eb7a80eb42",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_High_German",
+    "https://en.wikipedia.org/wiki/Hildebrandslied"
+   ]
+  },
+  "old-high-german#work:hildebrandslied": {
+   "hash": "3603433da786dec0",
+   "verdict": "verified",
+   "evidence": [
+    "https://de.wikisource.org/wiki/Hildebrandslied",
+    "https://en.wikipedia.org/wiki/Hildebrandslied"
+   ]
+  },
+  "middle-high-german#identity": {
+   "hash": "4415a3acacb434bc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_High_German",
+    "https://glottolog.org/resource/languoid/id/midd1343"
+   ]
+  },
+  "middle-high-german#period": {
+   "hash": "94302260400b3c79",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_High_German"
+   ]
+  },
+  "middle-high-german#homeland": {
+   "hash": "f0151202a2c1a80b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_High_German"
+   ]
+  },
+  "middle-high-german#attestation:nibelungenlied-passau": {
+   "hash": "eaeabc94821d7aa0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nibelungenlied"
+   ]
+  },
+  "middle-high-german#scripts": {
+   "hash": "2db6d21fc241c4cf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_High_German"
+   ]
+  },
+  "middle-high-german#story:0": {
+   "hash": "522e28e2621a7086",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_High_German"
+   ]
+  },
+  "middle-high-german#story:1": {
+   "hash": "9f04e6f11ce374b8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nibelungenlied",
+    "https://en.wikipedia.org/wiki/Middle_High_German"
+   ]
+  },
+  "middle-high-german#work:nibelungenlied": {
+   "hash": "32d0829f540980c9",
+   "verdict": "verified",
+   "evidence": [
+    "https://gutenberg.pglaf.org/4/8/8/8/48888/48888-0.txt",
+    "https://gutenberg.pglaf.org/3/6/3/3636/3636-0.txt",
+    "https://en.wikipedia.org/wiki/Nibelungenlied",
+    "https://en.wikipedia.org/wiki/Margaret_Armour"
+   ]
+  },
+  "german#identity": {
+   "hash": "b2b83b2e9cb94385",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/German_language",
+    "https://glottolog.org/resource/languoid/id/stan1295"
+   ]
+  },
+  "german#period": {
+   "hash": "2bcb2e80c6078110",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_New_High_German"
+   ]
+  },
+  "german#homeland": {
+   "hash": "c9ebc287a549f7b0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/German_language"
+   ]
+  },
+  "german#attestation:luther-bible": {
+   "hash": "00d1cc68d1f66329",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Luther_Bible"
+   ]
+  },
+  "german#scripts": {
+   "hash": "450c50df110ce0f5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/German_language"
+   ]
+  },
+  "german#speakers": {
+   "hash": "2ead4a3225b575d6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/German_language"
+   ]
+  },
+  "german#story:0": {
+   "hash": "d6e7b0fab66fedb5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_New_High_German",
+    "https://en.wikipedia.org/wiki/Luther_Bible"
+   ]
+  },
+  "german#story:1": {
+   "hash": "ff846e3271364273",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/German_language"
+   ]
+  },
+  "german#work:faust": {
+   "hash": "82101c8757256143",
+   "verdict": "verified",
+   "evidence": [
+    "https://gutenberg.pglaf.org/2/2/2/2229/2229-0.txt",
+    "https://gutenberg.pglaf.org/1/4/5/9/14591/14591-0.txt",
+    "https://en.wikipedia.org/wiki/Goethe%27s_Faust",
+    "https://en.wikipedia.org/wiki/Bayard_Taylor"
+   ]
+  },
+  "old-dutch#identity": {
+   "hash": "944df1fd8c24b7df",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Dutch",
+    "https://glottolog.org/resource/languoid/id/oldd1238"
+   ]
+  },
+  "old-dutch#period": {
+   "hash": "c713d5edc7eaf1f2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Dutch"
+   ]
+  },
+  "old-dutch#homeland": {
+   "hash": "383953193c94e7c4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Dutch"
+   ]
+  },
+  "old-dutch#scripts": {
+   "hash": "57f232c410a04677",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Dutch"
+   ]
+  },
+  "old-dutch#story:0": {
+   "hash": "3f6559e1d32d7899",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Dutch"
+   ]
+  },
+  "old-dutch#story:1": {
+   "hash": "ae8ff6bfea61939b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Dutch",
+    "https://en.wikipedia.org/wiki/Hebban_olla_vogala"
+   ]
+  },
+  "dutch#identity": {
+   "hash": "26fa377edb7abe0c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dutch_language",
+    "https://glottolog.org/resource/languoid/id/dutc1256"
+   ]
+  },
+  "dutch#period": {
+   "hash": "bb9621926d8151bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Dutch"
+   ]
+  },
+  "dutch#homeland": {
+   "hash": "81c19773f3a780b4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dutch_language"
+   ]
+  },
+  "dutch#attestation:liesvelt-bible": {
+   "hash": "c275076940961e92",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Statenvertaling"
+   ]
+  },
+  "dutch#scripts": {
+   "hash": "ae8f7fc1c27b78a3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dutch_language"
+   ]
+  },
+  "dutch#speakers": {
+   "hash": "997223c09eb725c3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dutch_language"
+   ]
+  },
+  "dutch#story:0": {
+   "hash": "49e08fee98e882fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Dutch",
+    "https://en.wikipedia.org/wiki/Statenvertaling"
+   ]
+  },
+  "dutch#story:1": {
+   "hash": "7367f7c6f919a226",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Statenvertaling",
+    "https://en.wikipedia.org/wiki/Dutch_language"
+   ]
+  },
+  "afrikaans#identity": {
+   "hash": "c0b8f191c7b1a0af",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans",
+    "https://glottolog.org/resource/languoid/id/afri1274"
+   ]
+  },
+  "afrikaans#period": {
+   "hash": "c1f5b98e4cd954b9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans"
+   ]
+  },
+  "afrikaans#homeland": {
+   "hash": "a7e85410f475503e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans"
+   ]
+  },
+  "afrikaans#attestation:afrikaans-language-monument": {
+   "hash": "752ea2bbdf518b48",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans"
+   ]
+  },
+  "afrikaans#scripts": {
+   "hash": "bbabcfcd355721d0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans"
+   ]
+  },
+  "afrikaans#speakers": {
+   "hash": "e91291361f207142",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans"
+   ]
+  },
+  "afrikaans#story:0": {
+   "hash": "6ae8cf009b4eaf52",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans"
+   ]
+  },
+  "afrikaans#story:1": {
+   "hash": "2b47bc3721ae6954",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans"
+   ]
+  },
+  "afrikaans#note:0": {
+   "hash": "db8b494611411e8c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Afrikaans"
+   ]
+  },
+  "yiddish#identity": {
+   "hash": "4acaa3e422126592",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish",
+    "https://en.wikipedia.org/wiki/Middle_High_German"
+   ]
+  },
+  "yiddish#period": {
+   "hash": "a87fa3978a31d072",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish"
+   ]
+  },
+  "yiddish#homeland": {
+   "hash": "9bd2728765df53cc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish"
+   ]
+  },
+  "yiddish#attestation:worms-mahzor": {
+   "hash": "03821fbe4ce19060",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish",
+    "https://en.wikipedia.org/wiki/Mahzor_of_Worms"
+   ]
+  },
+  "yiddish#scripts": {
+   "hash": "b1b942e6752c8e32",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish"
+   ]
+  },
+  "yiddish#story:0": {
+   "hash": "6ab42a74e005180c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish"
+   ]
+  },
+  "yiddish#story:1": {
+   "hash": "e12ab787cb67e7c8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish",
+    "https://en.wikipedia.org/wiki/Mahzor_of_Worms"
+   ]
+  },
+  "yiddish#story:2": {
+   "hash": "0350c4b644111d50",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish",
+    "https://en.wikipedia.org/wiki/Germanic_languages"
+   ]
+  },
+  "yiddish#note:0": {
+   "hash": "4db18c188376d6fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yiddish"
+   ]
+  },
+  "yiddish#note:1": {
+   "hash": "3df992f09630f945",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/east2295",
+    "https://glottolog.org/resource/languoid/id/west2361"
+   ],
+   "note": "Note added explaining why Yiddish has no glottocode (Glottolog lists only Eastern and Western Yiddish)."
+  },
+  "old-frisian#identity": {
+   "hash": "dd2e8fc5bfbc4c02",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Frisian",
+    "https://glottolog.org/resource/languoid/id/oldf1241"
+   ]
+  },
+  "old-frisian#period": {
+   "hash": "00e19981d994ee0a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Frisian"
+   ]
+  },
+  "old-frisian#homeland": {
+   "hash": "e9a761f3e9cffc52",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Frisian"
+   ]
+  },
+  "old-frisian#scripts": {
+   "hash": "484ecfddef140b05",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Frisian"
+   ]
+  },
+  "old-frisian#story:0": {
+   "hash": "895c01d183ffde32",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Frisian"
+   ]
+  },
+  "old-frisian#story:1": {
+   "hash": "052c2c5c5464c6cd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Frisian"
+   ]
+  },
+  "west-frisian#identity": {
+   "hash": "704c06b057bd4ae7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/West_Frisian_language",
+    "https://glottolog.org/resource/languoid/id/west2354"
+   ]
+  },
+  "west-frisian#period": {
+   "hash": "7e7ae8268f21486f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/West_Frisian_language"
+   ]
+  },
+  "west-frisian#homeland": {
+   "hash": "2b2a87a4e40a205a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/West_Frisian_language"
+   ]
+  },
+  "west-frisian#scripts": {
+   "hash": "651b2cc2f5f09f8d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/West_Frisian_language"
+   ]
+  },
+  "west-frisian#speakers": {
+   "hash": "f38adb13b24f43f7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/West_Frisian_language"
+   ]
+  },
+  "west-frisian#story:0": {
+   "hash": "8a13b702458d7926",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/West_Frisian_language"
+   ]
+  },
+  "west-frisian#story:1": {
+   "hash": "ddf1e2b65d31653b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/West_Frisian_language"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:49:13.576Z",
+ "verifier": "auditor-west-ie-stories"
+}

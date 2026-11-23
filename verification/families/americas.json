@@ -1,0 +1,1471 @@
+{
+ "file": "data/families/americas.json",
+ "claims": {
+  "proto-mayan#identity": {
+   "hash": "953091a0bb63e825",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/maya1287",
+    "https://en.wikipedia.org/wiki/Proto-Mayan_language",
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-mayan#period": {
+   "hash": "58e62a560e14ccf7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-mayan#homeland": {
+   "hash": "23f063d7085146b2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-mayan#story:0": {
+   "hash": "bba64cf5620c2b0d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Mayan_language",
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Softened \"30 living Mayan languages\" to \"roughly 30 Mayan languages\" (source: family consists of thirty languages, not all living)."
+  },
+  "proto-mayan#story:1": {
+   "hash": "8686222557efa6d3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-mayan#note:0": {
+   "hash": "4f5a2d22d5c916cd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-mayan#note:1": {
+   "hash": "858e0c559d5c2e1f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classic-maya#identity": {
+   "hash": "f024f3232661fdec",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/epig1241",
+    "https://en.wikipedia.org/wiki/Classic_Maya_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classic-maya#period": {
+   "hash": "eb6a7fd2826db3a9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classic_Maya_language",
+    "https://glottolog.org/resource/languoid/id/epig1241"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classic-maya#homeland": {
+   "hash": "ebf1aff36a794978",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classic_Maya_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classic-maya#attestation:temple-of-the-inscriptions": {
+   "hash": "82486c490d242678",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Temple_of_the_Inscriptions"
+   ],
+   "note": "Source says \"extraordinary sample of hieroglyphic text\", not \"one of the largest\"; wording changed."
+  },
+  "classic-maya#scripts": {
+   "hash": "e57912140218975a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classic_Maya_language",
+    "https://en.wikipedia.org/wiki/Maya_script"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classic-maya#story:0": {
+   "hash": "1336be4ae5270030",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classic_Maya_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classic-maya#story:1": {
+   "hash": "9696ca35080344ca",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classic_Maya_language",
+    "https://en.wikipedia.org/wiki/Maya_script"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classic-maya#note:0": {
+   "hash": "1594339edd0287bf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classic_Maya_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "kiche#identity": {
+   "hash": "907859954dbff050",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/kich1262",
+    "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_language",
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "kiche#period": {
+   "hash": "e96e96890b4f04ae",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Popol_Vuh"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "kiche#homeland": {
+   "hash": "cacadd2bb7351d90",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_language",
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "kiche#attestation:ximenez-popol-vuh": {
+   "hash": "97b2a6ed8dacfaf4",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.newberry.org/collection/research-guide/popol-vuh",
+    "https://en.wikipedia.org/wiki/Popol_Vuh"
+   ],
+   "note": "Newberry says possibly the earliest surviving copy; \"oldest known text\" softened."
+  },
+  "kiche#scripts": {
+   "hash": "c7d97264f1b0e16f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "kiche#story:0": {
+   "hash": "2fa1144782868517",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "kiche#story:1": {
+   "hash": "c3346d4d1026fa29",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mayan_languages",
+    "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "kiche#work:popol-vuh": {
+   "hash": "cc48d3a679ca2d94",
+   "verdict": "corrected",
+   "evidence": [
+    "https://archive.org/details/Ayer_F1465_P814_1861",
+    "https://en.wikipedia.org/wiki/Popol_Vuh",
+    "https://www.newberry.org/collection/research-guide/popol-vuh",
+    "https://archive.org/details/popolvuhlelivres01bras"
+   ],
+   "note": "Copyright fix: replaced the Christenson modern-orthography excerpt with the opening lines of the K'iche' text from Brasseur de Bourbourg (Paris 1861, p. 1 of the text; checked against the page image on Internet Archive), a public-domain edition of the Ximenez text (Brasseur d. 1874). Literal translation rewritten to match; fullTextUrl and sources updated; Christenson source removed."
+  },
+  "yucatec-maya#identity": {
+   "hash": "2cfa0d3529a8b9ba",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/yuca1254",
+    "https://en.wikipedia.org/wiki/Yucatec_Maya_language",
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "yucatec-maya#period": {
+   "hash": "d629381832ded462",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chilam_Balam"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "yucatec-maya#homeland": {
+   "hash": "3e949ebeb8a312e2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yucatec_Maya_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "yucatec-maya#attestation:chilam-balam-chumayel": {
+   "hash": "79d271721ab58f10",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chilam_Balam"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "yucatec-maya#scripts": {
+   "hash": "9f6ad1cb5abbaaf7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chilam_Balam"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "yucatec-maya#speakers": {
+   "hash": "a40740b76d9e4d9b",
+   "verdict": "verified",
+   "evidence": [
+    "https://pressbooks.txst.edu/minoritylanguages/?p=160"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "yucatec-maya#story:0": {
+   "hash": "b493c2dbf130e961",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yucatec_Maya_language",
+    "https://en.wikipedia.org/wiki/Mayan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "yucatec-maya#story:1": {
+   "hash": "38cbc3d68e061c37",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chilam_Balam",
+    "https://pressbooks.txst.edu/minoritylanguages/?p=160"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-uto-aztecan#identity": {
+   "hash": "56e324fffe5637b6",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/utoa1244",
+    "https://en.wikipedia.org/wiki/Proto-Uto-Aztecan_language",
+    "https://en.wikipedia.org/wiki/Uto-Aztecan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-uto-aztecan#period": {
+   "hash": "dbfbdce211f3edce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uto-Aztecan_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-uto-aztecan#homeland": {
+   "hash": "a1fbad38011ee6aa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uto-Aztecan_language",
+    "https://en.wikipedia.org/wiki/Uto-Aztecan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-uto-aztecan#story:0": {
+   "hash": "f6de7694c271d24b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uto-Aztecan_language",
+    "https://en.wikipedia.org/wiki/Uto-Aztecan_languages"
+   ],
+   "note": "Source says authorities have \"usually placed\" the homeland there, not \"most authorities\"."
+  },
+  "proto-uto-aztecan#story:1": {
+   "hash": "c77e89c57e13cef3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uto-Aztecan_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-uto-aztecan#note:0": {
+   "hash": "dc4688d9826493c9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uto-Aztecan_language",
+    "https://en.wikipedia.org/wiki/Uto-Aztecan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "nahuatl#identity": {
+   "hash": "16cc7986d60b71e1",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/azte1234",
+    "https://en.wikipedia.org/wiki/Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "nahuatl#period": {
+   "hash": "13a5a5934fc8bedc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "nahuatl#homeland": {
+   "hash": "11f5799d777721ca",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "nahuatl#scripts": {
+   "hash": "5f75a102d4141cc6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "nahuatl#speakers": {
+   "hash": "2cf6c6327053dea2",
+   "verdict": "verified",
+   "evidence": [
+    "https://amp.milenio.com/politica/comunidad/cuantos-indigenas-y-afrodescendientes-hay-en-mexico-inegi-2021"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "nahuatl#story:0": {
+   "hash": "c7e58fcfa5e11ef6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "nahuatl#story:1": {
+   "hash": "0a4d5189c23e1fbf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nahuatl",
+    "https://amp.milenio.com/politica/comunidad/cuantos-indigenas-y-afrodescendientes-hay-en-mexico-inegi-2021"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#identity": {
+   "hash": "c5baa3d12f68adc4",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/clas1250",
+    "https://en.wikipedia.org/wiki/Classical_Nahuatl",
+    "https://en.wikipedia.org/wiki/Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#period": {
+   "hash": "104d6dd70823f531",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Nahuatl",
+    "https://en.wikipedia.org/wiki/Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#homeland": {
+   "hash": "563b29ebf0ae800a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#attestation:florentine-codex": {
+   "hash": "b4531309e1b2d87f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Florentine_Codex"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#attestation:molina-vocabulario": {
+   "hash": "a88737ddd237aa85",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vocabulario_en_lengua_castellana_y_mexicana"
+   ],
+   "note": "Removed unsupported superlative \"most important dictionary\"; source says the 1571 edition is the most famous."
+  },
+  "classical-nahuatl#scripts": {
+   "hash": "2df6b026d0a7e8da",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#story:0": {
+   "hash": "7b3b5c6b814212c1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Nahuatl",
+    "https://en.wikipedia.org/wiki/Nahuatl"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#story:1": {
+   "hash": "26314e3dcd1f1169",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vocabulario_en_lengua_castellana_y_mexicana",
+    "https://en.wikipedia.org/wiki/Florentine_Codex",
+    "https://en.wikipedia.org/wiki/Cantares_Mexicanos"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#work:song-of-nezahualcoyotl": {
+   "hash": "cd94a3ce8bf4d594",
+   "verdict": "verified",
+   "evidence": [
+    "https://gutenberg.pglaf.org/1/2/2/1/12219/12219-h/12219-h.htm",
+    "https://en.wikipedia.org/wiki/Nezahualcoyotl_(tlatoani)",
+    "https://en.wikipedia.org/wiki/Cantares_Mexicanos",
+    "https://www.gutenberg.org/ebooks/12219"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-nahuatl#note:0": {
+   "hash": "c6a3599d53addbbf",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Nahuatl",
+    "https://en.wikipedia.org/wiki/Nahuatl",
+    "https://glottolog.org/resource/languoid/id/clas1250",
+    "https://glottolog.org/resource/languoid/id/azte1234"
+   ],
+   "note": "Added explanation of why Classical Nahuatl is modelled as a child of Nahuatl and how Glottolog treats clas1250/azte1234."
+  },
+  "proto-quechuan#identity": {
+   "hash": "9bc1d73ff0acf243",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/quec1387",
+    "https://en.wikipedia.org/wiki/Proto-Quechuan_language",
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-quechuan#period": {
+   "hash": "123293c1a3365236",
+   "verdict": "corrected",
+   "evidence": [
+    "https://es.wikipedia.org/wiki/Idioma_protoquechua",
+    "https://en.wikipedia.org/wiki/Proto-Quechuan_language",
+    "https://scholarlypublications.universiteitleiden.nl/access/item%3A2901489/view"
+   ],
+   "note": "Sources disagree: English Wikipedia infobox gives before 500 BCE, Spanish Wikipedia 1st-8th c. CE; start changed from 1 to -500 and the note now states the disagreement; Torero 5th-century split kept as end."
+  },
+  "proto-quechuan#homeland": {
+   "hash": "8ddd2271adaedf72",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Quechuan_language",
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-quechuan#story:0": {
+   "hash": "c6ce78816b9ee605",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Quechuan_language",
+    "https://es.wikipedia.org/wiki/Idioma_protoquechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-quechuan#story:1": {
+   "hash": "54b902ec3f97cb97",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-quechuan#note:0": {
+   "hash": "19807146e13e4013",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#identity": {
+   "hash": "59131226c72c4d20",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/clas1251",
+    "https://en.wikipedia.org/wiki/Classical_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#period": {
+   "hash": "c9fdd63d04978106",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#homeland": {
+   "hash": "7abefe8225f56c04",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#attestation:doctrina-christiana-1584": {
+   "hash": "6b3e423833cab6af",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Antonio_Ricardo",
+    "https://en.wikipedia.org/wiki/Third_Council_of_Lima"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#attestation:huarochiri-manuscript": {
+   "hash": "1413edb6b53f7edb",
+   "verdict": "verified",
+   "evidence": [
+    "https://storre.stir.ac.uk/retrieve/39a72e69-4f7f-4586-b2d0-06c256b2272a/Dedenbach%20-%20Andean%20Voices%20Huarochiri.pdf",
+    "https://en.wikipedia.org/wiki/Huarochir%C3%AD_Manuscript",
+    "https://en.wikipedia.org/wiki/Classical_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#scripts": {
+   "hash": "2eacb7e615fecda5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#story:0": {
+   "hash": "efd11ef47ab84f16",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#story:1": {
+   "hash": "a3e16563d2dac1ef",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Third_Council_of_Lima",
+    "https://en.wikipedia.org/wiki/Antonio_Ricardo",
+    "https://en.wikipedia.org/wiki/Huarochir%C3%AD_Manuscript"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "classical-quechua#note:0": {
+   "hash": "94c27e9806109384",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "southern-quechua#identity": {
+   "hash": "bed7da8937e1b759",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/quec1389",
+    "https://en.wikipedia.org/wiki/Southern_Quechua",
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "southern-quechua#period": {
+   "hash": "7c9dc066884e5733",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Classical_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "southern-quechua#homeland": {
+   "hash": "6b2946875c129ea9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "southern-quechua#scripts": {
+   "hash": "1e4c5d4aadc33e68",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Southern_Quechua"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "southern-quechua#story:0": {
+   "hash": "14000fab04801f68",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "southern-quechua#story:1": {
+   "hash": "ad12df64066d7448",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Quechuan_languages"
+   ],
+   "note": "\"Roughly 7 million\" replaced by the source figure (just under 7 million, latest census data to 2011; 8-10 million estimated for 2004)."
+  },
+  "aymaran#identity": {
+   "hash": "34b01036f792ee90",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/ayma1253",
+    "https://en.wikipedia.org/wiki/Aymaran_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymaran#story:0": {
+   "hash": "84724c0ae6944c72",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aymaran_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymaran#note:0": {
+   "hash": "b7d4e859a49e4deb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aymaran_languages",
+    "https://en.wikipedia.org/wiki/Aymara_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymara#identity": {
+   "hash": "864bff92feba0701",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/nucl1667",
+    "https://en.wikipedia.org/wiki/Aymara_language",
+    "https://en.wikipedia.org/wiki/Aymaran_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymara#period": {
+   "hash": "9cbe0a2d51f7163b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Antonio_Ricardo"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymara#homeland": {
+   "hash": "6471c46d13097736",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aymara_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymara#attestation:doctrina-christiana-aymara": {
+   "hash": "2bbb885c4a135ae6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Antonio_Ricardo",
+    "https://en.wikipedia.org/wiki/Third_Council_of_Lima"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymara#attestation:bertonio-vocabulario": {
+   "hash": "e8efa0a1832242e6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ludovico_Bertonio"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymara#scripts": {
+   "hash": "c6ff890711c63878",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aymara_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymara#story:0": {
+   "hash": "a9fb47a441943076",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aymara_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "aymara#story:1": {
+   "hash": "05180ba3a18db456",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aymara_language",
+    "https://en.wikipedia.org/wiki/Antonio_Ricardo",
+    "https://en.wikipedia.org/wiki/Ludovico_Bertonio"
+   ],
+   "note": "Wikipedia lists the 1603 grammar as printed in Rome, not Juli; text now says published a grammar in 1603 and printed the 1612 Vocabulario at Juli."
+  },
+  "aymara#note:0": {
+   "hash": "a87e719771b9e9ba",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/nucl1667",
+    "https://glottolog.org/resource/languoid/id/ayma1253"
+   ],
+   "note": "New note explaining glottocode nucl1667 (Central-Southern Aymara, iso aym). Checked against Glottolog."
+  },
+  "proto-tupian#identity": {
+   "hash": "c9a6d7295a674140",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/tupi1275",
+    "https://en.wikipedia.org/wiki/Proto-Tupian_language",
+    "https://en.wikipedia.org/wiki/Tupian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-tupian#period": {
+   "hash": "186a940f7d87093c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tupian_languages",
+    "https://en.wikipedia.org/wiki/Proto-Tupian_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-tupian#homeland": {
+   "hash": "f7b9ceef8dbb8113",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Tupian_language",
+    "https://en.wikipedia.org/wiki/Tupian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-tupian#story:0": {
+   "hash": "80b4248f55848b70",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Tupian_language",
+    "https://en.wikipedia.org/wiki/Tupian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-tupian#story:1": {
+   "hash": "25f0d56b8d676ee6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tupian_languages",
+    "https://en.wikipedia.org/wiki/Proto-Tupian_language",
+    "https://en.wikipedia.org/wiki/Tupi_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "guarani#identity": {
+   "hash": "bdc90753612192f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/para1311",
+    "https://en.wikipedia.org/wiki/Guarani_language",
+    "https://en.wikipedia.org/wiki/Tupian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "guarani#period": {
+   "hash": "ca048bb25af816e6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Third_Council_of_Lima",
+    "https://en.wikipedia.org/wiki/Guarani_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "guarani#homeland": {
+   "hash": "e0ea94a14137f55f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Guarani_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "guarani#attestation:synod-of-asuncion-catechism": {
+   "hash": "4405ef97ab7bcc97",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Third_Council_of_Lima"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "guarani#attestation:tesoro-guarani": {
+   "hash": "bf0f0acb0092472e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Antonio_Ruiz_de_Montoya"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "guarani#scripts": {
+   "hash": "dff0211ed57ec0f4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Guarani_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "guarani#story:0": {
+   "hash": "5b8f1ff8355fa1ce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Guarani_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "guarani#story:1": {
+   "hash": "ef2dee68552d10e7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Guarani_language",
+    "https://en.wikipedia.org/wiki/Antonio_Ruiz_de_Montoya"
+   ],
+   "note": "Gabelentz judgement concerns Ruiz de Montoya's grammar and vocabulary, not all his works."
+  },
+  "guarani#note:0": {
+   "hash": "2b6d0ba695acb47f",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/para1311",
+    "https://en.wikipedia.org/wiki/Guarani_language"
+   ],
+   "note": "New note explaining glottocode para1311 (Paraguayan Guarani, gug). Checked against Glottolog."
+  },
+  "proto-eskimo-aleut#identity": {
+   "hash": "43189b92b533835d",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/eski1264",
+    "https://en.wikipedia.org/wiki/Proto-Eskaleut_language",
+    "https://en.wikipedia.org/wiki/Eskaleut_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-eskimo-aleut#period": {
+   "hash": "3f010bb39c61b84a",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.2.pdf"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-eskimo-aleut#homeland": {
+   "hash": "e8f4e9606821f9ac",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.2.pdf"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-eskimo-aleut#story:0": {
+   "hash": "7512931c602dddc7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Eskaleut_language",
+    "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.2.pdf"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-eskimo-aleut#story:1": {
+   "hash": "5dcb4207cf86a2ef",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eskaleut_languages",
+    "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.2.pdf",
+    "https://www.uaf.edu/anla/collections/cea/about/"
+   ],
+   "note": "The ANLC page cited does not give the 4,000-year figure; it is reported via Wikipedia, so attributed as \"is reported to believe\"."
+  },
+  "proto-eskimo-aleut#note:0": {
+   "hash": "6c90f2e017df11ac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Eskaleut_language",
+    "https://en.wikipedia.org/wiki/Eskaleut_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-eskimo-aleut#note:1": {
+   "hash": "c2f1aaf2d5f89411",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eskaleut_languages",
+    "https://www.ebsco.com/research-starters/language-and-linguistics/eskimo-aleut-language-family"
+   ],
+   "note": "Same attribution fix for the ANLC 4,000-year figure."
+  },
+  "inuktitut#identity": {
+   "hash": "e4d17beb790172f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/east2534",
+    "https://en.wikipedia.org/wiki/Inuktitut",
+    "https://en.wikipedia.org/wiki/Inuit_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "inuktitut#period": {
+   "hash": "17c3a4d8b759ac00",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eskaleut_languages",
+    "https://en.wikipedia.org/wiki/Inuit_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "inuktitut#homeland": {
+   "hash": "9fc679a10b475e0d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Inuktitut"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "inuktitut#attestation:peck-little-whale-river": {
+   "hash": "e4783eaa7bf69d22",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Edmund_Peck",
+    "https://en.wikipedia.org/wiki/Little_Whale_River"
+   ],
+   "note": "Peck did not develop the syllabics; he arrived Oct 1876 and used the Cree-derived syllabics (adapted 1865 by Horden and Watkins). Wording fixed."
+  },
+  "inuktitut#attestation:nunavut-1999": {
+   "hash": "dd632a49af291662",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Inuktitut"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "inuktitut#scripts": {
+   "hash": "fe3f9baf9c1501ba",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Inuktitut"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "inuktitut#story:0": {
+   "hash": "f7a610ed4dfda23c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Inuktitut",
+    "https://en.wikipedia.org/wiki/Inuit_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "inuktitut#story:1": {
+   "hash": "fb1bd7168d572bac",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Inuktitut_syllabics",
+    "https://en.wikipedia.org/wiki/Edmund_Peck",
+    "https://en.wikipedia.org/wiki/Inuktitut"
+   ],
+   "note": "Added that Horden and Watkins adapted Cree syllabics to Inuktitut in the 1860s; Peck printed to that standard in the 1870s."
+  },
+  "proto-iroquoian#identity": {
+   "hash": "a226c080b368affe",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/iroq1247",
+    "https://en.wikipedia.org/wiki/Proto-Iroquoian_language",
+    "https://en.wikipedia.org/wiki/Iroquoian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-iroquoian#period": {
+   "hash": "5aa10d674a207a4b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Iroquoian_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-iroquoian#homeland": {
+   "hash": "81d2410a3bd313be",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cherokee_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-iroquoian#story:0": {
+   "hash": "19c6f087c0abbd50",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Iroquoian_language",
+    "https://www.ebsco.com/research-starters/history/iroquoian-language-family",
+    "https://en.wikipedia.org/wiki/Cherokee_language",
+    "https://en.wikipedia.org/wiki/Iroquoian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-iroquoian#story:1": {
+   "hash": "67fe1e839a228e00",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cherokee_language",
+    "https://en.wikipedia.org/wiki/Proto-Iroquoian_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-iroquoian#note:0": {
+   "hash": "c262b9c7e627ef41",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cherokee_language",
+    "https://en.wikipedia.org/wiki/Iroquoian_peoples"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cherokee#identity": {
+   "hash": "1aff2f064ca378af",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/cher1273",
+    "https://en.wikipedia.org/wiki/Cherokee_language",
+    "https://en.wikipedia.org/wiki/Iroquoian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cherokee#period": {
+   "hash": "b6b3e56fb9b43d11",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Iroquoian_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cherokee#homeland": {
+   "hash": "45b2997e5c6703aa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Iroquoian_peoples"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cherokee#attestation:cherokee-phoenix": {
+   "hash": "66618c6bee077cc8",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.georgiaencyclopedia.org/articles/history-archaeology/cherokee-phoenix/",
+    "https://en.wikipedia.org/wiki/Cherokee_Phoenix",
+    "https://en.wikipedia.org/wiki/Cherokee_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cherokee#scripts": {
+   "hash": "b0767a776acba1aa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cherokee_language",
+    "https://en.wikipedia.org/wiki/Cherokee_syllabary"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cherokee#story:0": {
+   "hash": "fafdef64bdc214fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cherokee_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cherokee#story:1": {
+   "hash": "3f1622b755fa2b0c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sequoyah",
+    "https://www.nps.gov/kemo/learn/historyculture/cherokeelanguage.htm",
+    "https://en.wikipedia.org/wiki/Cherokee_syllabary",
+    "https://www.georgiaencyclopedia.org/articles/history-archaeology/cherokee-phoenix/"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "na-dene#identity": {
+   "hash": "5d8b224fef981eac",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/atha1245",
+    "https://en.wikipedia.org/wiki/Na-Dene_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "na-dene#story:0": {
+   "hash": "5eb2457091a58ec9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Na-Dene_languages",
+    "https://glottolog.org/resource/languoid/id/atha1245"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "na-dene#note:0": {
+   "hash": "3868fd37969d98c8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Na-Dene_languages",
+    "https://glottolog.org/resource/languoid/id/atha1245",
+    "https://glottolog.org/resource/languoid/id/haid1248"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "na-dene#note:1": {
+   "hash": "1160fc129ddd5cc1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dene%E2%80%93Yeniseian_languages",
+    "https://en.wikipedia.org/wiki/Na-Dene_languages"
+   ],
+   "note": "Added critiques in the 2010 volume and Vajda's own description of it as a hypothesis of relatedness, for neutrality."
+  },
+  "proto-athabaskan#identity": {
+   "hash": "50cb534c7d62bd26",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/atha1247",
+    "https://en.wikipedia.org/wiki/Proto-Athabaskan_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-athabaskan#period": {
+   "hash": "f29b575ec41f73ce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Athabaskan_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-athabaskan#homeland": {
+   "hash": "ae59f06854f8d12f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Athabaskan_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-athabaskan#story:0": {
+   "hash": "530293965d9b7f4b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Athabaskan_language",
+    "https://en.wikipedia.org/wiki/Navajo_language"
+   ],
+   "note": "\"No tones\" was stated as fact; it is Krauss's hypothesis. Reworded and attributed."
+  },
+  "proto-athabaskan#story:1": {
+   "hash": "4c3692a255f6a1d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Athabaskan_language",
+    "https://en.wikipedia.org/wiki/Navajo_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-athabaskan#note:0": {
+   "hash": "584d94387d459df4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Athabaskan_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "navajo#identity": {
+   "hash": "515997d450371930",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/nava1243",
+    "https://en.wikipedia.org/wiki/Navajo_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "navajo#period": {
+   "hash": "35eb1d825e2ac17d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Athabaskan_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "navajo#homeland": {
+   "hash": "6433037814a892e7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Navajo_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "navajo#attestation:navajo-code-camp-pendleton": {
+   "hash": "5cdfabf6cb45270b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Code_talker"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "navajo#scripts": {
+   "hash": "24c1a9b44f891bbe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Navajo_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "navajo#speakers": {
+   "hash": "5542099766b8d523",
+   "verdict": "verified",
+   "evidence": [
+    "https://www2.census.gov/library/publications/2013/acs/acs-22/acs-22.pdf"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "navajo#story:0": {
+   "hash": "94f6683ae00f9339",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Navajo_language",
+    "https://www2.census.gov/library/publications/2013/acs/acs-22/acs-22.pdf"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "navajo#story:1": {
+   "hash": "1a9851053463cd61",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Code_talker",
+    "https://en.wikipedia.org/wiki/Navajo_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-algonquian#identity": {
+   "hash": "bb0c926afd326882",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/algo1257",
+    "https://en.wikipedia.org/wiki/Proto-Algonquian_language",
+    "https://en.wikipedia.org/wiki/Algonquian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-algonquian#period": {
+   "hash": "f584dee817bc40d9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Algonquian_language",
+    "https://en.wikipedia.org/wiki/Algonquian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-algonquian#homeland": {
+   "hash": "301a7bc70a752fdc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Algonquian_language",
+    "https://en.wikipedia.org/wiki/Algic_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-algonquian#story:0": {
+   "hash": "fafb2decf2205e03",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Algonquian_language",
+    "https://en.wikipedia.org/wiki/Algonquian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-algonquian#note:0": {
+   "hash": "5e0301dc89dbd79a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Algonquian_language",
+    "https://en.wikipedia.org/wiki/Algonquian_languages"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "proto-algonquian#note:1": {
+   "hash": "19392d284883b618",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Algic_languages",
+    "https://glottolog.org/resource/languoid/id/algo1257"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cree#identity": {
+   "hash": "4c1559db8d4cce33",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/cree1272",
+    "https://en.wikipedia.org/wiki/Cree_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cree#period": {
+   "hash": "0de9a62bd11554f2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cree_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cree#homeland": {
+   "hash": "0470caaf07644bc3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cree_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cree#attestation:evans-cree-syllabics": {
+   "hash": "7ac15ec9a948e234",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cree_syllabics",
+    "https://en.wikipedia.org/wiki/James_Evans_(linguist)"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cree#scripts": {
+   "hash": "3eaaa3de725da006",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cree_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cree#story:0": {
+   "hash": "fd7df8b171083f1a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cree_language",
+    "https://en.wikipedia.org/wiki/Cree_syllabics",
+    "https://en.wikipedia.org/wiki/James_Evans_(linguist)"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "cree#story:1": {
+   "hash": "14a7bb68721bd6a1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cree_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "massachusett#identity": {
+   "hash": "ca34d8e1526fb115",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/wamp1249",
+    "https://en.wikipedia.org/wiki/Massachusett_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "massachusett#period": {
+   "hash": "62d4653c2d53ffc1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eliot_Indian_Bible",
+    "https://en.wikipedia.org/wiki/Massachusett_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "massachusett#homeland": {
+   "hash": "71efcd83b18bc592",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Massachusett_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "massachusett#attestation:eliot-indian-bible": {
+   "hash": "3bb0a92cc42fb3bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.library.illinois.edu/rbx/2006/04/03/the-first-bible-printed-in-the-western-hemisphere/",
+    "https://en.wikipedia.org/wiki/Eliot_Indian_Bible"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "massachusett#scripts": {
+   "hash": "cc220b6a5b4f4a7e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Massachusett_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "massachusett#story:0": {
+   "hash": "0ba4860ee9aa6da1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eliot_Indian_Bible",
+    "https://en.wikipedia.org/wiki/Massachusett_language",
+    "https://glottolog.org/resource/languoid/id/wamp1249"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  },
+  "massachusett#story:1": {
+   "hash": "11a0a5dd57926ebb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Massachusett_language"
+   ],
+   "note": "Checked against cited sources and an independent source where it is a date, number or surprising claim."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:35:12.365Z",
+ "verifier": "verifier-pacific-africa-americas"
+}

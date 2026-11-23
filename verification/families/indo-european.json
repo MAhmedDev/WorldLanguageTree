@@ -1,0 +1,72 @@
+{
+ "file": "data/families/indo-european.json",
+ "claims": {
+  "proto-indo-european#identity": {
+   "hash": "2f9e695628625334",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/indo1319",
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+   ]
+  },
+  "proto-indo-european#period": {
+   "hash": "ad94c50993cd1cd2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+   ]
+  },
+  "proto-indo-european#homeland": {
+   "hash": "4ca25ef64d12531d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_language",
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_homeland"
+   ],
+   "note": "47N 43E lies on the Pontic-Caspian steppe (lower Volga-Don)."
+  },
+  "proto-indo-european#story:0": {
+   "hash": "b7f24f86cbe6d59e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+   ]
+  },
+  "proto-indo-european#story:1": {
+   "hash": "af5ee17887620462",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+   ]
+  },
+  "proto-indo-european#story:2": {
+   "hash": "42f17d4c14cb7fce",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_homeland",
+    "https://arxiv.org/abs/1502.02783"
+   ],
+   "note": "Softened 'supports' to 'is consistent with'."
+  },
+  "proto-indo-european#note:0": {
+   "hash": "782e5f0ed4c69806",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_homeland",
+    "https://www.mpg.de/20666229/0725-evan-origin-of-the-indo-european-languages-150495-x"
+   ],
+   "note": "Wheel argument attributed to Anthony and Ringe 2015 and stated precisely."
+  },
+  "proto-indo-european#note:1": {
+   "hash": "52ea17bcd07c0afe",
+   "verdict": "corrected",
+   "evidence": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11922553/",
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_homeland"
+   ],
+   "note": "Replaced unsourced 'renewed interest' with Haak 2015 statement; stated Lazaridis 2025 wording precisely and added the Nature source."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:34:38.968Z",
+ "verifier": "verifier-east-ie"
+}

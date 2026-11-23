@@ -1,0 +1,138 @@
+{
+  "id": "austronesian-voyages",
+  "title": "Austronesian Voyages",
+  "subtitle": "Follow one language family from Taiwan across the Indian and Pacific oceans, from Madagascar to Hawaii and New Zealand.",
+  "sources": [
+    {
+      "id": "austronesian",
+      "title": "Austronesian languages",
+      "url": "https://en.wikipedia.org/wiki/Austronesian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "pmp",
+      "title": "Proto-Malayo-Polynesian language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Malayo-Polynesian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "lapita",
+      "title": "Lapita culture",
+      "url": "https://en.wikipedia.org/wiki/Lapita_culture",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "malagasy",
+      "title": "Malagasy language",
+      "url": "https://en.wikipedia.org/wiki/Malagasy_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "kedukan-bukit",
+      "title": "Kedukan Bukit inscription",
+      "url": "https://en.wikipedia.org/wiki/Kedukan_Bukit_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "hawaii-history",
+      "title": "History of Hawaii",
+      "url": "https://en.wikipedia.org/wiki/History_of_Hawaii",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "nz-history",
+      "title": "History of New Zealand",
+      "url": "https://en.wikipedia.org/wiki/History_of_New_Zealand",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "austronesian-peoples",
+      "title": "Austronesian peoples",
+      "url": "https://en.wikipedia.org/wiki/Austronesian_peoples",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "uh-polynesia",
+      "title": "East Polynesia colonized faster and more recently than previously thought",
+      "url": "https://manoa.hawaii.edu/news/article.php?aId=4097",
+      "publisher": "University of Hawaii at Manoa"
+    }
+  ],
+  "steps": [
+    {
+      "languoid": "proto-austronesian",
+      "year": -3500,
+      "title": "A homeland on Taiwan",
+      "text": "The homeland of Proto-Austronesian is most likely the main island of Taiwan, since the Formosan languages show deep divisions over small distances. Sagart dates the language to about 5200 years before present, and Blust puts the start of migration from Taiwan around 6,000 years ago. Alternatives exist, including an Asian mainland origin and Peiros's dissenting analysis.",
+      "sources": [
+        "austronesian"
+      ]
+    },
+    {
+      "languoid": "proto-malayo-polynesian",
+      "year": -2200,
+      "title": "Reaching the northern Philippines",
+      "text": "Proto-Malayo-Polynesian is the reconstructed ancestor of all Austronesian languages spoken outside Taiwan, as well as Yami on Orchid Island. Austronesians reached the Batanes Islands in the northernmost Philippines by around 2200 BCE, though dates vary by study. Roger Blench argues that multi-ethnic crews settled maritime Southeast Asia and doubts that a single unitary language existed.",
+      "sources": [
+        "pmp",
+        "austronesian-peoples"
+      ]
+    },
+    {
+      "languoid": "proto-oceanic",
+      "year": -1500,
+      "title": "Lapita pots in the Bismarcks",
+      "text": "Classic Lapita pottery, decorated with a toothed stamp, was made in the Bismarck Archipelago between 1600 and 1200 BCE. The culture appears there fully developed, which the article takes as evidence that it arrived with migrants. Researchers theorize that the Lapita people spoke Proto-Oceanic, though the specific language is unknown.",
+      "sources": [
+        "lapita"
+      ]
+    },
+    {
+      "languoid": "proto-polynesian",
+      "year": -900,
+      "title": "Into Tonga and Samoa",
+      "text": "Lapita pottery of about 1000 BCE appears in Fiji and Western Polynesia. Early Tongan sites date to about 900 BCE, and the Mulifanua site in Samoa to about 1000 BCE. Lapita sites range over more than 4,000 km from Island Melanesia to Fiji and Tonga, with Samoa the easternmost limit of the culture.",
+      "sources": [
+        "lapita"
+      ]
+    },
+    {
+      "languoid": "malagasy",
+      "year": 500,
+      "title": "Across the Indian Ocean to Madagascar",
+      "text": "Malagasy belongs to the Barito branch of Austronesian and is most closely related to Ma'anyan, spoken in Borneo. Settlers from the Sunda Islands reached Madagascar, perhaps directly across the Indian Ocean. Estimates for their arrival run from about the 5th century to between the 7th and 13th centuries. After about 1000 CE Malagasy took in Bantu and Arabic loanwords, among them sambo, ship.",
+      "sources": [
+        "malagasy"
+      ]
+    },
+    {
+      "languoid": "old-malay",
+      "year": 683,
+      "title": "The Kedukan Bukit stone",
+      "text": "On 29 November 1920 C.J. Batenburg found a small stone on the bank of the Tatang River in South Sumatra. Its Old Malay text, in Pallava script, is dated 1 May 683 CE and records Dapunta Hiyang setting out on a siddhayatra with a large force, reportedly 20,000 troops. It is the oldest surviving specimen of the Malay language.",
+      "sources": [
+        "kedukan-bukit"
+      ]
+    },
+    {
+      "languoid": "hawaiian",
+      "year": 1250,
+      "title": "Settling Hawaii",
+      "text": "Dates for the Polynesian settlement of Hawaii vary. The History of Hawaii article gives about 940 to 1200 CE, with the latest carbon-dating survey pointing to roughly 940 to 1130, while a 2011 high-precision radiocarbon study placed the colonization of Hawaii, New Zealand and Rapa Nui between 1190 and 1290. Tradition credits the priest Pa'ao, said to have sailed north from Tahiti, with bringing a new social order around 1200.",
+      "sources": [
+        "hawaii-history",
+        "uh-polynesia"
+      ]
+    },
+    {
+      "languoid": "maori",
+      "year": 1300,
+      "title": "The last great landfall",
+      "text": "Genetic evidence places the first Polynesian settlement of New Zealand at about 1250 to 1300 CE, and current opinion favours the decades after the Kaharoa Tephra eruption of about 1314. The settlers were eastern Polynesians. The story of a single great fleet from Hawaiki is a European synthesis of oral accounts, increasingly treated as myth, though whakapapa genealogies point to about 1350 as a probable arrival date for many founding waka.",
+      "sources": [
+        "nz-history",
+        "uh-polynesia"
+      ]
+    }
+  ]
+}

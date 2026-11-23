@@ -1,0 +1,2819 @@
+{
+  "family": {
+    "id": "indo-iranian",
+    "name": "Indo-Iranian"
+  },
+  "sources": [
+    {"id":"wp-surasena","title":"Surasena","publisher":"Wikipedia","url":"https://en.wikipedia.org/wiki/Surasena"},
+    {"id":"wp-dullu","title":"Dullu","publisher":"Wikipedia","url":"https://en.wikipedia.org/wiki/Dullu"},
+    {
+      "id": "wp-pii",
+      "title": "Proto-Indo-Iranian language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proto-Indo-Iranian_language"
+    },
+    {
+      "id": "wp-sintashta",
+      "title": "Sintashta culture",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sintashta_culture"
+    },
+    {
+      "id": "wp-pia",
+      "title": "Proto-Indo-Aryan language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proto-Indo-Aryan_language"
+    },
+    {
+      "id": "wp-vedic",
+      "title": "Vedic Sanskrit",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vedic_Sanskrit"
+    },
+    {
+      "id": "wp-sanskrit",
+      "title": "Sanskrit",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sanskrit"
+    },
+    {
+      "id": "wp-rigveda",
+      "title": "Rigveda",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rigveda"
+    },
+    {
+      "id": "wp-gita",
+      "title": "Bhagavad Gita",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bhagavad_Gita"
+    },
+    {
+      "id": "wp-meghaduta",
+      "title": "Meghadūta",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Meghaduta"
+    },
+    {
+      "id": "wp-junagadh",
+      "title": "Junagadh rock inscription of Rudradaman",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Junagadh_rock_inscription_of_Rudradaman"
+    },
+    {
+      "id": "wp-mia",
+      "title": "Middle Indo-Aryan languages",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Middle_Indo-Aryan_languages"
+    },
+    {
+      "id": "wp-pali",
+      "title": "Pali",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pali"
+    },
+    {
+      "id": "wp-dhammapada",
+      "title": "Dhammapada",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dhammapada"
+    },
+    {
+      "id": "wp-maharashtri",
+      "title": "Maharashtri Prakrit",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maharashtri_Prakrit"
+    },
+    {
+      "id": "wp-shauraseni",
+      "title": "Shauraseni Prakrit",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shauraseni_Prakrit"
+    },
+    {
+      "id": "wp-magadhi",
+      "title": "Magadhi Prakrit",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Magadhi_Prakrit"
+    },
+    {
+      "id": "wp-hindustani",
+      "title": "Hindustani language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hindustani_language"
+    },
+    {
+      "id": "wp-hindi",
+      "title": "Hindi",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hindi"
+    },
+    {
+      "id": "wp-kabir",
+      "title": "Kabir",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kabir"
+    },
+    {
+      "id": "wp-urdu",
+      "title": "Urdu",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Urdu"
+    },
+    {
+      "id": "wp-ghalib",
+      "title": "Ghalib",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mirza_Ghalib"
+    },
+    {
+      "id": "wp-bengali",
+      "title": "Bengali language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bengali_language"
+    },
+    {
+      "id": "wp-charyapada",
+      "title": "Charyapada",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charyapada"
+    },
+    {
+      "id": "wp-tagore",
+      "title": "Rabindranath Tagore",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rabindranath_Tagore"
+    },
+    {
+      "id": "wp-chitto",
+      "title": "Chitto Jetha Bhayshunyo",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chitto_Jetha_Bhayshunyo"
+    },
+    {
+      "id": "wp-punjabi",
+      "title": "Punjabi language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Punjabi_language"
+    },
+    {
+      "id": "wp-ggs",
+      "title": "Guru Granth Sahib",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guru_Granth_Sahib"
+    },
+    {
+      "id": "wp-japji",
+      "title": "Japji Sahib",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Japji_Sahib"
+    },
+    {
+      "id": "wp-guru-nanak",
+      "title": "Guru Nanak",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guru_Nanak"
+    },
+    {
+      "id": "wp-marathi",
+      "title": "Marathi language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marathi_language"
+    },
+    {
+      "id": "wp-gujarati",
+      "title": "Gujarati language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gujarati_language"
+    },
+    {
+      "id": "wp-nepali",
+      "title": "Nepali language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nepali_language"
+    },
+    {
+      "id": "wp-sinhala",
+      "title": "Sinhala language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sinhala_language"
+    },
+    {
+      "id": "wp-romani",
+      "title": "Romani language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Romani_language"
+    },
+    {
+      "id": "ws-rv-sa",
+      "title": "ऋग्वेदः सूक्तं १.१ (Rigveda 1.1, Sanskrit text)",
+      "publisher": "Sanskrit Wikisource",
+      "url": "https://sa.wikisource.org/wiki/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%A6%E0%A4%83_%E0%A4%B8%E0%A5%82%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%82_%E0%A5%A7.%E0%A5%A7"
+    },
+    {
+      "id": "ws-rv-griffith",
+      "title": "The Hymns of the Rigveda, Book 1, Hymn 1",
+      "author": "Ralph T. H. Griffith (translator)",
+      "year": 1896,
+      "publisher": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda/Book_1/Hymn_1"
+    },
+    {
+      "id": "ws-mbh-bhishma-25",
+      "title": "महाभारतम्-06-भीष्मपर्व-025 (Mahabharata, Bhishma Parva 25 = Bhagavad Gita ch. 1)",
+      "publisher": "Sanskrit Wikisource",
+      "url": "https://sa.wikisource.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A4%AE%E0%A5%8D-06-%E0%A4%AD%E0%A5%80%E0%A4%B7%E0%A5%8D%E0%A4%AE%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%B5-025"
+    },
+    {
+      "id": "ws-gita-arnold",
+      "title": "The Bhagavad Gita (Arnold translation), Chapter 1",
+      "author": "Edwin Arnold (translator)",
+      "year": 1885,
+      "publisher": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/The_Bhagavad_Gita_(Arnold_translation)/Chapter_1"
+    },
+    {
+      "id": "ws-meghaduta-sa",
+      "title": "मेघदूतम् - पूर्वमेघः (Meghaduta, Purvamegha)",
+      "publisher": "Sanskrit Wikisource",
+      "url": "https://sa.wikisource.org/wiki/%E0%A4%AE%E0%A5%87%E0%A4%98%E0%A4%A6%E0%A5%82%E0%A4%A4%E0%A4%AE%E0%A5%8D/%E0%A4%AE%E0%A5%87%E0%A4%98%E0%A4%A6%E0%A5%82%E0%A4%A4%E0%A4%AE%E0%A5%8D_-_%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%AE%E0%A5%87%E0%A4%98:"
+    },
+    {
+      "id": "ws-meghaduta-ouvry",
+      "title": "The Megha Dūta, or, Cloud Messenger",
+      "author": "Henry Aimé Ouvry (translator)",
+      "year": 1868,
+      "publisher": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/The_Megha_D%C5%ABta,_or,_Cloud_Messenger"
+    },
+    {
+      "id": "sc-dhp",
+      "title": "Dhammapada 1–20 (Yamakavagga), Pali text (Mahāsaṅgīti)",
+      "publisher": "SuttaCentral",
+      "url": "https://suttacentral.net/dhp1-20/pli/ms"
+    },
+    {
+      "id": "ws-dhp-muller",
+      "title": "The Dhammapada (Sacred Books of the East, vol. 10)",
+      "author": "F. Max Müller (translator)",
+      "year": 1881,
+      "publisher": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/Dhammapada_(Muller)"
+    },
+    {
+      "id": "ws-kabir",
+      "title": "कबीर ग्रंथावली/(१) गुरुदेव कौ अंग (Kabir Granthavali, Gurudev ko ang)",
+      "publisher": "Hindi Wikisource",
+      "url": "https://hi.wikisource.org/wiki/%E0%A4%95%E0%A4%AC%E0%A5%80%E0%A4%B0_%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%82%E0%A4%A5%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80/(%E0%A5%A7)_%E0%A4%97%E0%A5%81%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%87%E0%A4%B5_%E0%A4%95%E0%A5%8C_%E0%A4%85%E0%A4%82%E0%A4%97"
+    },
+    {
+      "id": "ws-ghalib",
+      "title": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے (Ghalib)",
+      "publisher": "Urdu Wikisource",
+      "url": "https://ur.wikisource.org/wiki/%DB%81%D8%B2%D8%A7%D8%B1%D9%88%DA%BA_%D8%AE%D9%88%D8%A7%DB%81%D8%B4%DB%8C%DA%BA_%D8%A7%DB%8C%D8%B3%DB%8C_%DA%A9%DB%81_%DB%81%D8%B1_%D8%AE%D9%88%D8%A7%DB%81%D8%B4_%D9%BE%DB%81_%D8%AF%D9%85_%D9%86%DA%A9%D9%84%DB%92"
+    },
+    {
+      "id": "ws-naivedya-72",
+      "title": "নৈবেদ্য (রবীন্দ্রনাথ ঠাকুর)/৭২ (Naivedya, poem 72)",
+      "publisher": "Bengali Wikisource",
+      "url": "https://bn.wikisource.org/wiki/%E0%A6%A8%E0%A7%88%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A7%8D%E0%A6%AF_(%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0)/%E0%A7%AD%E0%A7%A8"
+    },
+    {
+      "id": "srigranth-1",
+      "title": "Sri Guru Granth Sahib, page 1 (Japji Sahib), with word glosses",
+      "publisher": "SriGranth.org",
+      "url": "https://www.srigranth.org/servlet/gurbani.gurbani?Action=Page&Param=1&english=t&id=1"
+    },
+    {
+      "id": "glottolog-indo1320",
+      "title": "Glottolog 5: Indo-Iranian",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/indo1320"
+    },
+    {
+      "id": "glottolog-indo1321",
+      "title": "Glottolog 5: Indo-Aryan",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/indo1321"
+    },
+    {
+      "id": "glottolog-vedi1234",
+      "title": "Glottolog 5: Vedic Sanskrit",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/vedi1234"
+    },
+    {
+      "id": "glottolog-clas1258",
+      "title": "Glottolog 5: Classical Sanskrit",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/clas1258"
+    },
+    {
+      "id": "glottolog-midd1375",
+      "title": "Glottolog 5: Middle-Modern Indo-Aryan",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/midd1375"
+    },
+    {
+      "id": "glottolog-pali1273",
+      "title": "Glottolog 5: Pali",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/pali1273"
+    },
+    {
+      "id": "glottolog-maha1305",
+      "title": "Glottolog 5: Maharastri Prakrit",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/maha1305"
+    },
+    {
+      "id": "glottolog-saur1252",
+      "title": "Glottolog 5: Sauraseni Prakrit",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/saur1252"
+    },
+    {
+      "id": "glottolog-hind1270",
+      "title": "Glottolog 5: Hindustani",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/hind1270"
+    },
+    {
+      "id": "glottolog-hind1269",
+      "title": "Glottolog 5: Hindi",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/hind1269"
+    },
+    {
+      "id": "glottolog-urdu1245",
+      "title": "Glottolog 5: Urdu",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/urdu1245"
+    },
+    {
+      "id": "glottolog-beng1280",
+      "title": "Glottolog 5: Bengali",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/beng1280"
+    },
+    {
+      "id": "glottolog-lahn1241",
+      "title": "Glottolog 5: Greater Panjabic",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/lahn1241"
+    },
+    {
+      "id": "glottolog-mara1378",
+      "title": "Glottolog 5: Marathi",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/mara1378"
+    },
+    {
+      "id": "glottolog-guja1252",
+      "title": "Glottolog 5: Gujarati",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/guja1252"
+    },
+    {
+      "id": "glottolog-nepa1254",
+      "title": "Glottolog 5: Nepali",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/nepa1254"
+    },
+    {
+      "id": "glottolog-sinh1246",
+      "title": "Glottolog 5: Sinhala",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/sinh1246"
+    },
+    {
+      "id": "glottolog-roma1329",
+      "title": "Glottolog 5: Romani",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/roma1329"
+    },
+    {
+      "id": "ir-wp-proto-iranian",
+      "title": "Proto-Iranian language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Iranian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-andronovo",
+      "title": "Andronovo culture",
+      "url": "https://en.wikipedia.org/wiki/Andronovo_culture",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-iranian",
+      "title": "Iranian languages",
+      "url": "https://en.wikipedia.org/wiki/Iranian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-avestan",
+      "title": "Avestan",
+      "url": "https://en.wikipedia.org/wiki/Avestan",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-gathas",
+      "title": "Gathas",
+      "url": "https://en.wikipedia.org/wiki/Gathas",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-old-persian",
+      "title": "Old Persian",
+      "url": "https://en.wikipedia.org/wiki/Old_Persian",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-behistun",
+      "title": "Behistun inscription",
+      "url": "https://en.wikipedia.org/wiki/Behistun_Inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-persepolis",
+      "title": "Persepolis",
+      "url": "https://en.wikipedia.org/wiki/Persepolis",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-middle-persian",
+      "title": "Middle Persian",
+      "url": "https://en.wikipedia.org/wiki/Middle_Persian",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-paikuli",
+      "title": "Paikuli inscription",
+      "url": "https://en.wikipedia.org/wiki/Paikuli_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-persian",
+      "title": "Persian language",
+      "url": "https://en.wikipedia.org/wiki/Persian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-iranian-persian",
+      "title": "Iranian Persian",
+      "url": "https://en.wikipedia.org/wiki/Iranian_Persian",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-shahnameh",
+      "title": "Shahnameh",
+      "url": "https://en.wikipedia.org/wiki/Shahnameh",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-ferdowsi",
+      "title": "Ferdowsi",
+      "url": "https://en.wikipedia.org/wiki/Ferdowsi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-tus",
+      "title": "Tus, Iran",
+      "url": "https://en.wikipedia.org/wiki/Tus,_Iran",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-masnavi",
+      "title": "Masnavi",
+      "url": "https://en.wikipedia.org/wiki/Masnavi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-rumi",
+      "title": "Rumi",
+      "url": "https://en.wikipedia.org/wiki/Rumi",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-konya",
+      "title": "Konya",
+      "url": "https://en.wikipedia.org/wiki/Konya",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-pashto",
+      "title": "Pashto",
+      "url": "https://en.wikipedia.org/wiki/Pashto",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-kurmanji",
+      "title": "Kurmanji",
+      "url": "https://en.wikipedia.org/wiki/Kurmanji",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-kurdish",
+      "title": "Kurdish language",
+      "url": "https://en.wikipedia.org/wiki/Kurdish_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-kurdish-alphabets",
+      "title": "Kurdish alphabets",
+      "url": "https://en.wikipedia.org/wiki/Kurdish_alphabets",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-xani",
+      "title": "Ehmedê Xanî",
+      "url": "https://en.wikipedia.org/wiki/Ehmed%C3%AA_Xan%C3%AE",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-ossetian",
+      "title": "Ossetian language",
+      "url": "https://en.wikipedia.org/wiki/Ossetian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-alanic",
+      "title": "Alanic language",
+      "url": "https://en.wikipedia.org/wiki/Alanic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-arkhyz",
+      "title": "Arkhyz",
+      "url": "https://en.wikipedia.org/wiki/Arkhyz",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-khetagurov",
+      "title": "Kosta Khetagurov",
+      "url": "https://en.wikipedia.org/wiki/Kosta_Khetagurov",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-vladikavkaz",
+      "title": "Vladikavkaz",
+      "url": "https://en.wikipedia.org/wiki/Vladikavkaz",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-sogdian",
+      "title": "Sogdian language",
+      "url": "https://en.wikipedia.org/wiki/Sogdian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-wp-yumen",
+      "title": "Yumen Pass",
+      "url": "https://en.wikipedia.org/wiki/Yumen_Pass",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ir-silkroad-ancient-letters",
+      "title": "The Sogdian Ancient Letters (translated by Nicholas Sims-Williams)",
+      "url": "https://depts.washington.edu/silkroad/texts/sogdlet.html",
+      "publisher": "Silk Road Seattle, University of Washington"
+    },
+    {
+      "id": "ir-lrc-old-iranian",
+      "title": "Old Iranian Online: Series Introduction",
+      "url": "https://lrc.la.utexas.edu/eieol/aveol",
+      "author": "Scott L. Harvey and Jonathan Slocum",
+      "publisher": "Linguistics Research Center, University of Texas at Austin"
+    },
+    {
+      "id": "ir-lrc-yasna29",
+      "title": "Old Iranian Online, Lesson 1: Old Avestan, Yasna 29, the Cow's Lament",
+      "url": "https://lrc.la.utexas.edu/eieol/aveol/10",
+      "author": "Scott L. Harvey and Jonathan Slocum",
+      "publisher": "Linguistics Research Center, University of Texas at Austin"
+    },
+    {
+      "id": "ir-lrc-db1",
+      "title": "Old Iranian Online, Lesson 8: Old Persian, excerpt from DB I",
+      "url": "https://lrc.la.utexas.edu/eieol/aveol/80",
+      "author": "Scott L. Harvey, Winfred P. Lehmann and Jonathan Slocum",
+      "publisher": "Linguistics Research Center, University of Texas at Austin"
+    },
+    {
+      "id": "ir-mills-sbe31",
+      "title": "The Zend-Avesta, Part III (Sacred Books of the East, vol. 31)",
+      "url": "https://archive.org/details/zendavesta03darm",
+      "author": "L. H. Mills (translator)",
+      "year": 1887,
+      "publisher": "Clarendon Press, Oxford (scan at Internet Archive)"
+    },
+    {
+      "id": "ir-king-thompson-1907",
+      "title": "The Sculptures and Inscription of Darius the Great on the Rock of Behistûn in Persia",
+      "url": "https://archive.org/details/sculpturesinscri00brituoft",
+      "author": "L. W. King and R. C. Thompson",
+      "year": 1907,
+      "publisher": "British Museum (scan at Internet Archive)"
+    },
+    {
+      "id": "ir-ganjoor-shahnameh",
+      "title": "Ferdowsi, Shahnameh: Aghaz-e ketab, section 1",
+      "url": "https://ganjoor.net/ferdousi/shahname/aghaz/sh1",
+      "publisher": "Ganjoor"
+    },
+    {
+      "id": "ir-ganjoor-masnavi",
+      "title": "Rumi, Masnavi-ye Ma'navi, Book 1, section 1 (Proem)",
+      "url": "https://ganjoor.net/moulavi/masnavi/daftar1/sh1",
+      "publisher": "Ganjoor"
+    },
+    {
+      "id": "ir-glotto-iran1269",
+      "title": "Glottolog 5.4: Iranian",
+      "url": "https://glottolog.org/resource/languoid/id/iran1269",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ir-glotto-aves1237",
+      "title": "Glottolog 5.4: Avestan",
+      "url": "https://glottolog.org/resource/languoid/id/aves1237",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ir-glotto-oldp1254",
+      "title": "Glottolog 5.4: Old Persian (ca. 600-400 B.C.)",
+      "url": "https://glottolog.org/resource/languoid/id/oldp1254",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ir-glotto-pahl1241",
+      "title": "Glottolog 5.4: Pahlavi",
+      "url": "https://glottolog.org/resource/languoid/id/pahl1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ir-glotto-west2369",
+      "title": "Glottolog 5.4: Iranian Persian",
+      "url": "https://glottolog.org/resource/languoid/id/west2369",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ir-glotto-pash1269",
+      "title": "Glottolog 5.4: Pashto",
+      "url": "https://glottolog.org/resource/languoid/id/pash1269",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ir-glotto-nort2641",
+      "title": "Glottolog 5.4: Northern Kurdish",
+      "url": "https://glottolog.org/resource/languoid/id/nort2641",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ir-glotto-osse1243",
+      "title": "Glottolog 5.4: Modern Ossetic",
+      "url": "https://glottolog.org/resource/languoid/id/osse1243",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "ir-glotto-sogd1245",
+      "title": "Glottolog 5.4: Sogdian",
+      "url": "https://glottolog.org/resource/languoid/id/sogd1245",
+      "publisher": "Glottolog"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-indo-iranian",
+      "name": "Proto-Indo-Iranian",
+      "glottocode": "indo1320",
+      "parent": "proto-indo-european",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-pii",
+        "glottolog-indo1320"
+      ],
+      "period": {
+        "from": -2200,
+        "to": -1800,
+        "approx": true,
+        "note": "Its speakers are assumed to have lived in the late 3rd millennium BCE; the split into Proto-Iranian and Proto-Indo-Aryan is estimated at around or before 1800 BCE.",
+        "sources": [
+          "wp-pii",
+          "wp-vedic"
+        ]
+      },
+      "homeland": {
+        "lat": 52.5,
+        "lng": 60.0,
+        "label": "Southern Urals (Sintashta culture)",
+        "sources": [
+          "wp-pii",
+          "wp-sintashta"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Indo-Iranian, also called Proto-Aryan, is the reconstructed ancestor of the Indo-Aryan, Iranian and Nuristani languages. It was a satem language: the Proto-Indo-European palatal stops were fronted or affricated, while the labiovelars merged with the plain velars. Its most distinctive change was the collapse of the vowels *e and *o into a single *a. It probably stood less than a millennium from late Proto-Indo-European, and less than a millennium from its descendants Vedic Sanskrit and Old Avestan.",
+          "sources": [
+            "wp-pii"
+          ]
+        },
+        {
+          "text": "Its speakers are often connected with the Sintashta culture of the Southern Urals, dated to about 2200–1900 BCE in the article's infobox (its chronology section extends the range to about 1750 BCE), and with the early Andronovo horizon. Sintashta burials contain the earliest known chariots, and its fortified settlements show intense copper mining and bronze metallurgy. The archaeologist David Anthony has argued that Sintashta people probably spoke 'Common Indo-Iranian', mainly because of similarities between passages of the Rigveda and Sintashta funeral rites.",
+          "sources": [
+            "wp-pii",
+            "wp-sintashta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-indo-aryan",
+      "name": "Proto-Indo-Aryan",
+      "glottocode": "indo1321",
+      "parent": "proto-indo-iranian",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-pia",
+        "glottolog-indo1321"
+      ],
+      "period": {
+        "from": -1800,
+        "to": -1500,
+        "approx": true,
+        "note": "Separation from Proto-Iranian is estimated at around or before 1800 BCE; its successor, Old Indo-Aryan, is dated 1500–300 BCE.",
+        "sources": [
+          "wp-vedic",
+          "wp-pia"
+        ]
+      },
+      "homeland": {
+        "lat": 38.2,
+        "lng": 62.0,
+        "label": "Bactria–Margiana Archaeological Complex, Central Asia (locus of the Indo-Aryan–Iranian split in Parpola's and Mallory's models)",
+        "sources": [
+          "wp-vedic"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Indo-Aryan is the reconstructed ancestor of the Indo-Aryan languages. It preceded Old Indo-Aryan, which is attested in Vedic and Classical Sanskrit and in the Indo-Aryan superstrate of the Mitanni kingdom. Vedic Sanskrit is very close to it, yet some Prakrits keep a few Proto-Indo-Aryan features that had already disappeared in Vedic. The language is usually associated with the Fedorovo culture of the Andronovo horizon.",
+          "sources": [
+            "wp-pia"
+          ]
+        },
+        {
+          "text": "On linguistic grounds the split between Proto-Indo-Aryan and Proto-Iranian is dated around or before 1800 BCE. Asko Parpola and J. P. Mallory both place it in the Bronze Age Bactria–Margiana Archaeological Complex. In Parpola's model, 'Proto-Rigvedic' Indo-Aryans entered the BMAC around 1700 BCE and reached the Punjab with the Gandhara grave culture from about 1700 BCE.",
+          "sources": [
+            "wp-vedic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vedic-sanskrit",
+      "name": "Vedic Sanskrit",
+      "glottocode": "vedi1234",
+      "iso639_3": "vsn",
+      "parent": "proto-indo-aryan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-vedic",
+        "glottolog-vedi1234"
+      ],
+      "period": {
+        "from": -1500,
+        "to": -600,
+        "approx": true,
+        "note": "Era given as c. 1500–600 BCE. The Vedas were compiled over the mid-2nd to mid-1st millennium BCE and preserved orally before writing reached the region.",
+        "sources": [
+          "wp-sanskrit",
+          "wp-vedic"
+        ]
+      },
+      "homeland": {
+        "lat": 31.0,
+        "lng": 73.5,
+        "label": "Northwestern Indian subcontinent (where most of the Rigveda was composed)",
+        "sources": [
+          "wp-rigveda"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Devanagari",
+            "code": "Deva"
+          }
+        ],
+        "sources": [
+          "wp-sanskrit"
+        ]
+      },
+      "story": [
+        {
+          "text": "Vedic Sanskrit is the earliest attested form of the Sanskrit and Prakrit languages. It is the language of the Vedas, compiled over the mid-2nd to mid-1st millennium BCE and preserved orally for centuries before writing reached the region. Its oldest text, the Rigveda, holds 1,028 hymns in ten books; most of it was probably composed in the northwest of the subcontinent between about 1500 and 1000 BCE.",
+          "sources": [
+            "wp-vedic",
+            "wp-rigveda"
+          ]
+        },
+        {
+          "text": "Scholars distinguish five layers in the Vedic language: Rigvedic, Mantra, Samhita prose, Brahmana prose and Sutras. Many Rigvedic words have close counterparts in Avestan that do not appear in post-Rigvedic Indian texts. The late Sutra language formed the basis of Pāṇini's codification of Classical Sanskrit. Vedic literature is a major source of information for reconstructing Proto-Indo-European and Proto-Indo-Iranian.",
+          "sources": [
+            "wp-vedic",
+            "wp-sanskrit"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "rigveda-1-1",
+          "title": "Rigveda, Hymn 1.1 (to Agni)",
+          "titleOriginal": "ऋग्वेदः सूक्तं १.१",
+          "author": "Anonymous; Sanskrit Wikisource names the seer Madhuchchhandas Vaishvamitra",
+          "date": "c. 1500–1000 BCE",
+          "year": -1250,
+          "significance": "The Rigveda is the oldest known Vedic Sanskrit text, and its early layers are among the oldest extant texts in any Indo-European language. Its hymns are notably similar to the most archaic Avestan and Greek poetry.",
+          "original": "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् ।\nहोतारं रत्नधातमम् ॥१॥\nअग्निः पूर्वेभिरृषिभिरीड्यो नूतनैरुत ।\nस देवाँ एह वक्षति ॥२॥",
+          "originalScript": "Deva",
+          "translation": "I laud Agni, the chosen Priest, God, minister of sacrifice,\nThe Hotar, lavishest of wealth.\nWorthy is Agni to be praised by living as by ancient seers:\nHe shall bring hitherward the Gods.",
+          "translator": "Ralph T. H. Griffith",
+          "translationYear": 1896,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda",
+          "sources": [
+            "ws-rv-sa",
+            "ws-rv-griffith",
+            "wp-rigveda",
+            "wp-sanskrit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classical-sanskrit",
+      "name": "Classical Sanskrit",
+      "nativeName": "संस्कृतम्",
+      "nativeScript": "Deva",
+      "glottocode": "clas1258",
+      "iso639_3": "cls",
+      "parent": "vedic-sanskrit",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "wp-sanskrit",
+        "glottolog-clas1258"
+      ],
+      "period": {
+        "from": -500,
+        "to": null,
+        "approx": true,
+        "note": "Emerged in the mid-1st millennium BCE; Wikipedia's infobox gives 700 BCE–1350 CE for Classical Sanskrit after Masica. Wikipedia's 1350 CE end date marks the end of the classical literary period, not of the language: Sanskrit has no first-language speakers but is still widely used as a ceremonial and ritual language in Hindu and Buddhist hymns and chants, so it is classed as classical and period.to is null.",
+        "sources": [
+          "wp-sanskrit"
+        ]
+      },
+      "homeland": {
+        "lat": 27.0,
+        "lng": 79.0,
+        "label": "Madhyadeśa, northern India (the Old Indo-Aryan dialect area on which Classical Sanskrit was mainly based)",
+        "sources": [
+          "wp-shauraseni"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Devanagari",
+            "code": "Deva"
+          }
+        ],
+        "sources": [
+          "wp-sanskrit"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "junagadh-rudradaman",
+          "year": 150,
+          "approx": true,
+          "lat": 21.526,
+          "lng": 70.479,
+          "place": "Girnar rock near Junagadh, Gujarat, India",
+          "description": "The Junagadh rock inscription of the Western Satrap ruler Rudradaman I: twenty lines of Sanskrit prose cut above a version of Ashoka's edicts, dated shortly after 150 CE.",
+          "sources": [
+            "wp-junagadh"
+          ]
+        }
+      ],
+      "notes": [
+{"text": "Status: classical, not extinct. Sanskrit has no first-language speakers, but Wikipedia says it 'continues to be widely used as a ceremonial and ritual language in Hindu and Buddhist hymns and chants' and it is widely taught at secondary-school level in India.", "sources": ["wp-sanskrit"]},
+{"text": "Mother-tongue census figures: respondents reporting Sanskrit as their mother tongue in the Census of India numbered 6,106 in 1981, 49,736 in 1991, 14,135 in 2001 and 24,821 in 2011. These numbers are thought to signal a wish to be aligned with the prestige of the language and do not indicate first-language speakers.", "sources": ["wp-sanskrit"]}
+      ],
+      "story": [
+        {
+          "text": "Classical Sanskrit is the refined, standardised form of Old Indo-Aryan that emerged in the mid-1st millennium BCE and was codified in Pāṇini's Aṣṭādhyāyī ('Eight chapters'), the most comprehensive of ancient grammars. Kālidāsa, the greatest Sanskrit dramatist, wrote in it, and the foundations of modern arithmetic were first described in it. The epics Mahābhārata and Rāmāyaṇa were composed in a related register, Epic Sanskrit, used in northern India between 400 BCE and 300 CE.",
+          "sources": [
+            "wp-sanskrit"
+          ]
+        },
+        {
+          "text": "Sanskrit was a link language of ancient and medieval South Asia. Carried with Hindu and Buddhist culture to Southeast, East and Central Asia, it became a language of religion, high culture and political elites there. It has no native script: from around the turn of the 1st millennium CE it was written in various Brahmic scripts, today most often Devanagari. In Indian inscriptions it appears from about the second half of the 1st century BCE and gradually displaced Prakrit.",
+          "sources": [
+            "wp-sanskrit",
+            "wp-vedic"
+          ]
+        },
+        {
+          "text": "Over the centuries Sanskrit became tradition-bound and stopped being learned as a first language. It is listed in the Eighth Schedule of the Constitution of India, but there are no first-language speakers; the several thousand people who report it as their mother tongue in each census are thought to be signalling its prestige. It is widely taught in secondary schools and is still used in Hindu and Buddhist hymns and chants.",
+          "sources": [
+            "wp-sanskrit"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "bhagavad-gita",
+          "title": "Bhagavad Gita, opening verse",
+          "titleOriginal": "भगवद्गीता",
+          "author": "Traditionally attributed to Vyasa; regarded by historians as a composite work",
+          "date": "c. 2nd–1st century BCE",
+          "year": -100,
+          "significance": "Part of the epic Mahabharata (where it forms chapter 25 of the Bhishma Parva in this edition), the Gita is a dialogue between Arjuna and Krishna before the Kurukshetra war. It holds a unique pan-Hindu influence as the most prominent sacred text and is central to the Vedanta and Vaishnava traditions.",
+          "original": "धृतराष्ट्र उवाच।\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ।।",
+          "originalScript": "Deva",
+          "translation": "Dhritirashtra. Ranged thus for battle on the sacred plain-\nOn Kurukshetra- say, Sanjaya! say\nWhat wrought my people, and the Pandavas?",
+          "translator": "Edwin Arnold",
+          "translationYear": 1885,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://en.wikisource.org/wiki/The_Bhagavad_Gita_(Arnold_translation)",
+          "sources": [
+            "wp-gita",
+            "ws-mbh-bhishma-25",
+            "ws-gita-arnold"
+          ]
+        },
+        {
+          "id": "meghaduta",
+          "title": "Meghadūta (The Cloud Messenger), stanza 1",
+          "titleOriginal": "मेघदूतम्",
+          "author": "Kālidāsa",
+          "date": "c. 4th–5th century CE",
+          "year": 400,
+          "significance": "A lyric poem of about 120 stanzas in which a yakṣa, exiled for a year, asks a passing cloud to carry a message of love to his wife. It became well known and inspired other poets to write 'messenger poems' (Sandesha Kavya) on similar themes.",
+          "original": "कश्चित्कान्ताविरहगुरुणा स्वाधिकारात्प्रमत्तः\nशापेनास्तङ्गमितमहिमा वर्षभोग्येण भर्तुः ।\nयक्षश्चक्रे जनकतनयास्नानपुण्योदकेषु\nस्निग्धच्छायातरुषु वसतिं रामगिर्याश्रमेषु॥१.१॥",
+          "originalScript": "Deva",
+          "translation": "A certain Yaksha having been negligent of his charge, and having had his greatness set to decay by a curse of his master, to be endured for one year, which was heavy on account of its separating him from his wife, he took up his abode at the Hermitages of Ramagiri, where the waters had been sanctified by the baths of Janaka’s daughter, where there were lovely shadow trees.",
+          "translator": "Henry Aimé Ouvry",
+          "translationYear": 1868,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://en.wikisource.org/wiki/The_Megha_D%C5%ABta,_or,_Cloud_Messenger",
+          "sources": [
+            "wp-meghaduta",
+            "ws-meghaduta-sa",
+            "ws-meghaduta-ouvry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "middle-modern-indo-aryan",
+      "name": "Middle–Modern Indo-Aryan",
+      "glottocode": "midd1375",
+      "parent": "proto-indo-aryan",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "wp-mia",
+        "glottolog-midd1375"
+      ],
+      "story": [
+        {
+          "text": "The Middle Indo-Aryan languages descend from Old Indo-Aryan and are the predecessors of modern languages such as Hindi-Urdu, Bengali and Punjabi. The stage is thought to span more than a millennium, from about 600 BCE to 1000 CE. Its early phase is represented by the Ardhamagadhi of Ashoka's edicts (c. 250 BCE) and by Pali; its middle phase by literary Prakrits such as Shauraseni, Maharashtri and Magadhi; its late phase by the Apabhraṃśas of the 6th century CE and later.",
+          "sources": [
+            "wp-mia"
+          ]
+        },
+        {
+          "text": "Prākṛta literally means 'natural', as opposed to saṃskṛta, 'constructed' or 'refined'. According to Thomas Oberlies, a number of sound and word features show that the Middle Indo-Aryan languages are not direct continuations of Vedic Sanskrit. They descend instead from other dialects that were similar to Vedic, but in some ways more archaic.",
+          "sources": [
+            "wp-mia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pali",
+      "name": "Pali",
+      "glottocode": "pali1273",
+      "iso639_3": "pli",
+      "parent": "middle-modern-indo-aryan",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "wp-pali",
+        "glottolog-pali1273"
+      ],
+      "period": {
+        "from": -300,
+        "to": null,
+        "approx": true,
+        "note": "Era given as 3rd century BCE to the present: Pali is used today as the liturgical language of Theravada Buddhism, studied mainly for access to Buddhist scriptures and chanted in ritual. Status is classical rather than living: the source describes a liturgical and scholarly language, not the mother tongue of a community, and it remains in continuous use in Theravada practice, so period.to is null.",
+        "sources": [
+          "wp-pali"
+        ]
+      },
+      "homeland": {
+        "lat": 23.18,
+        "lng": 75.78,
+        "label": "Avanti, western India (A. K. Warder's proposal; the origin is debated)",
+        "sources": [
+          "wp-pali"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Sinhala",
+            "code": "Sinh"
+          },
+          {
+            "name": "Thai", "code": "Thai"}, {"name": "Burmese", "code": "Mymr"}, {"name": "Khmer", "code": "Khmr"}, {"name": "Devanagari", "code": "Deva"}, {"name": "Latin (romanised editions)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-sinhala",
+          "wp-pali"
+        ]
+      },
+      "story": [
+        {
+          "text": "Pali is the sacred language of Theravada Buddhism and the language of its canon, the Tipiṭaka. The name does not occur in the canon itself; it seems to have arisen in Sri Lanka early in the 2nd millennium CE, perhaps from reading pāli-bhāsā, 'the language of the texts', as the name of a language. Theravada commentaries called it Magadhi, but modern scholars see a mix of 3rd-century-BCE Prakrits, probably from a western dialect.",
+          "sources": [
+            "wp-pali"
+          ]
+        },
+        {
+          "text": "With few exceptions, every known Pali text is believed to derive from the Anuradhapura Maha Viharaya in Sri Lanka, where the work of the commentator Buddhaghosa helped revive the language. Pali inscriptions in central Thailand and lower Myanmar are dated to the 5th–8th centuries, and the oldest surviving Pali manuscript, four palm-leaf folios found in Nepal, to the 9th century. The Pali Text Society, founded in 1881, publishes romanised editions.",
+          "sources": [
+            "wp-pali"
+          ]
+        }
+      ],
+      "notes": [
+{"text": "Status: classical, not living. Wikipedia describes Pali as the liturgical language of Theravada Buddhism, 'studied mainly to gain access to Buddhist scriptures' and 'frequently chanted in a ritual context', and gives its era as the 3rd century BCE to the present. This is continuous liturgical and scholarly use without a native-speaking community.", "sources": ["wp-pali"]},
+        {
+          "text": "Pali's origin is debated. Theravada commentaries identified it with Magadhi, the language of Magadha, and in the 19th century Robert Caesar Childers argued the same. Most modern scholars instead derive it from a western dialect: A. K. Warder links it with Avanti. T. W. Rhys Davids and Wilhelm Geiger suggested it began as a lingua franca of north India in the Buddha's time.",
+          "sources": [
+            "wp-pali"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "dhammapada",
+          "title": "Dhammapada, verse 1",
+          "titleOriginal": "Dhammapada",
+          "author": "Anonymous (verses traditionally attributed to the Buddha)",
+          "date": "Pali Canon; its source may go back to the 3rd century BCE",
+          "year": -250,
+          "significance": "A collection of the Buddha's sayings in verse, the Dhammapada is one of the most widely read and best known Buddhist scriptures. The Pali version, 423 verses in 26 chapters, belongs to the Khuddaka Nikāya of the Pali Canon.",
+          "original": "Manopubbaṅgamā dhammā,\nmanoseṭṭhā manomayā;\nManasā ce paduṭṭhena,\nbhāsati vā karoti vā;\nTato naṁ dukkhamanveti,\ncakkaṁva vahato padaṁ.",
+          "originalScript": "Latn",
+          "translation": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts. If a man speaks or acts with an evil thought, pain follows him, as the wheel follows the foot of the ox that draws the carriage.",
+          "translator": "F. Max Müller",
+          "translationYear": 1881,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://suttacentral.net/dhp1-20/pli/ms",
+          "sources": [
+            "wp-dhammapada",
+            "sc-dhp",
+            "ws-dhp-muller"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maharashtri-prakrit",
+      "name": "Maharashtri Prakrit",
+      "glottocode": "maha1305",
+      "iso639_3": "pmh",
+      "parent": "middle-modern-indo-aryan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-maharashtri",
+        "glottolog-maha1305"
+      ],
+      "period": {
+        "from": -200,
+        "to": 875,
+        "approx": true,
+        "note": "The literary Prakrits belong to the middle phase of Middle Indo-Aryan (200 BCE–700 CE); Maharashtri was commonly spoken until 875 CE (Wikipedia's wording, which that article itself flags as needing a better source, so the end date is approximate).",
+        "sources": [
+          "wp-mia",
+          "wp-maharashtri"
+        ]
+      },
+      "homeland": {
+        "lat": 19.0,
+        "lng": 75.0,
+        "label": "Western Deccan (modern Maharashtra)",
+        "sources": [
+          "wp-maharashtri"
+        ]
+      },
+      "story": [
+        {
+          "text": "Maharashtri was the most widely used Prakrit of western and southern India and the official language of the Satavahana dynasty, under whose patronage it became the most widespread Prakrit of its time. Vararuchi, the oldest known Prakrit grammarian, gave it four chapters of his Prākṛta-Prakāśa, against one each for Shauraseni, Magadhi, Ardhamagadhi and Paishachi, and the poet Daṇḍin ranked it highest among the Prakrits.",
+          "sources": [
+            "wp-maharashtri"
+          ]
+        },
+        {
+          "text": "Its literature includes the Gaha Sattasai anthology, attributed to King Hāla, and the Paumachariyam of Vimalasuri, the earliest known Jain version of the Ramayana. Sanskrit dramatists, Kālidāsa above all, used it for the songs and dialogue of low-class characters. The Jain scholar Hemachandra is named as the grammarian of Maharashtri Prakrit, and Marathi developed from it.",
+          "sources": [
+            "wp-maharashtri",
+            "wp-marathi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shauraseni-prakrit",
+      "name": "Shauraseni Prakrit",
+      "glottocode": "saur1252",
+      "iso639_3": "psu",
+      "parent": "middle-modern-indo-aryan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-shauraseni",
+        "glottolog-saur1252"
+      ],
+      "period": {
+        "from": 200,
+        "to": 1000,
+        "approx": true,
+        "note": "period.from of 200 is not the language's emergence: it follows the infobox range 'c. 3rd to 10th centuries' for most of the surviving material, and the article says the language itself is older.",
+        "sources": [
+          "wp-shauraseni"
+        ]
+      },
+      "homeland": {
+        "lat": 27.5,
+        "lng": 77.7,
+        "label": "Śūrasena region, northern India (point placed at Mathura, the region's capital)",
+        "sources": [
+          "wp-shauraseni",
+          "wp-surasena"
+        ]
+      },
+      "story": [
+        {
+          "text": "Shauraseni was the vernacular of the Śūrasena region and the chief language of drama in medieval northern India, including Jain Shauraseni literature. Most surviving material dates from the 3rd to the 10th centuries. Among the Prakrits it is said to be the closest to Classical Sanskrit, because it 'is derived from the Old Indian Indo-Aryan dialect of the Madhyadeśa on which Classical Sanskrit was mainly based.'",
+          "sources": [
+            "wp-shauraseni"
+          ]
+        },
+        {
+          "text": "It gave rise to several Apabhraṃśas: Shauraseni Apabhraṃśa, from which Old Hindi and then Hindi-Urdu descend; Gurjara Apabhraṃśa, ancestral to Gujarati and Rajasthani; and Takka Apabhraṃśa, ancestral to Punjabi. Punjabi's link is debated: Mangat Bhardwaj suggests the western (Lahnda) zone spoke mainly Paiśācī Apabhraṃśa, while the eastern Punjabi area was a transitional zone where Śaurasenī merged into Paiśācī.",
+          "sources": [
+            "wp-shauraseni"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magadhi-prakrit",
+      "name": "Magadhi Prakrit",
+      "glottocode": null,
+      "parent": "middle-modern-indo-aryan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-magadhi",
+        "wp-mia"
+      ],
+      "period": {
+        "from": -300,
+        "to": 700,
+        "approx": true,
+        "note": "Some of Ashoka's edicts (3rd century BCE) were composed in it; the Dramatic Prakrits belong to the middle Middle Indo-Aryan phase, 200 BCE–700 CE.",
+        "sources": [
+          "wp-magadhi",
+          "wp-mia"
+        ]
+      },
+      "homeland": {
+        "lat": 25.0,
+        "lng": 85.4,
+        "label": "Magadha (modern Bihar)",
+        "sources": [
+          "wp-magadhi",
+          "wp-pali"
+        ]
+      },
+      "story": [
+        {
+          "text": "Magadhi Prakrit, one of the three Dramatic Prakrits, was spoken across the east of the subcontinent, in today's Bihar, Bengal, Assam, Odisha, Jharkhand and eastern Uttar Pradesh. Associated with ancient Magadha, it is believed to have been the language of the Buddha and of Mahavira, and of the courts of Magadha and the Maurya Empire; some of Ashoka's edicts were composed in it. In Prakrit dramas it stood for vernacular dialogue.",
+          "sources": [
+            "wp-magadhi"
+          ]
+        },
+        {
+          "text": "Magadhi later evolved into the Eastern Indo-Aryan languages: Bengali–Assamese, Bihari, Halbic and Odia. The linguist Suniti Kumar Chatterji called the Prakrit varieties of Bengal 'eastern Magadhi Prakrit'. Where the other Middle Indo-Aryan languages reduced Old Indo-Aryan's three sibilants to s, Magadhi reduced them to ś.",
+          "sources": [
+            "wp-magadhi",
+            "wp-bengali",
+            "wp-mia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hindustani",
+      "name": "Hindustani (Hindi–Urdu)",
+      "glottocode": "hind1270",
+      "parent": "shauraseni-prakrit",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "wp-hindustani",
+        "glottolog-hind1270"
+      ],
+      "story": [
+        {
+          "text": "Hindustani is a pluricentric language with two standard registers: Hindi, Sanskritised and written in Devanagari, and Urdu, Persianised and written in Perso-Arabic script. Its first written poetry, in Old Hindi, is traced to the Delhi Sultanate in the 12th and 13th centuries, when its Prakrit base took in loanwords from Persian, Arabic and Turkic. Mahatma Gandhi endorsed Hindustani as a 'unifying language' tied to neither Hindus nor Muslims.",
+          "sources": [
+            "wp-hindustani"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "nativeName": "हिन्दी",
+      "nativeScript": "Deva",
+      "glottocode": "hind1269",
+      "iso639_3": "hin",
+      "parent": "hindustani",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-hindi",
+        "glottolog-hind1269"
+      ],
+      "period": {
+        "from": 1200,
+        "to": null,
+        "approx": true,
+        "note": "period.from of 1200 is the date of first written poetry in Old Hindi (12th–13th centuries), the shared ancestor of Hindi and Urdu, so it is a first-attestation date and not the emergence of the language, whose early forms the Hindustani article traces to Apabhraṃśa vernaculars of the 7th–13th centuries; Modern Standard Hindi developed later on the Khariboli dialect.",
+        "sources": [
+          "wp-hindustani",
+          "wp-hindi"
+        ]
+      },
+      "homeland": {
+        "lat": 29.0,
+        "lng": 77.7,
+        "label": "Ganges–Yamuna Doab around Delhi, Meerut and Saharanpur (Khariboli area)",
+        "sources": [
+          "wp-hindi"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Devanagari",
+            "code": "Deva"
+          }
+        ],
+        "sources": [
+          "wp-hindi"
+        ]
+      },
+      "speakers": {
+        "count": 345000000,
+        "year": 2011,
+        "scope": "L1",
+        "sources": [
+          "wp-hindi"
+        ]
+      },
+      "notes": [
+{"text": "Speaker figure: 345 million is the L1 figure Wikipedia gives from the 2011 Census of India (345,365,030). It counts speakers of Hindi and various related languages who reported their language as 'Hindi', and the census cannot separate them, so it overstates speakers of Standard Hindi in the narrow sense.", "sources": ["wp-hindi"]}
+      ],
+      "story": [
+        {
+          "text": "Modern Standard Hindi is the Sanskritised register of Hindustani, written in Devanagari and mutually intelligible with standard Urdu apart from script and formal vocabulary. It is based on the Khariboli dialect of the Ganges–Yamuna Doab around Delhi, Meerut and Saharanpur, whose vernacular gradually replaced older prestige languages such as Awadhi and Braj. The name comes from Classical Persian Hindī, 'of Hind (India)'; Amir Khusrau called the language Hindavī.",
+          "sources": [
+            "wp-hindi"
+          ]
+        },
+        {
+          "text": "On 14 September 1949 the Constituent Assembly of India adopted Hindi in Devanagari as the official language of the Republic, replacing Hindustani in Perso-Arabic script. Under Article 343 it is an official language of the Union alongside English; the constitution names no national language. Hindi is official in ten states and six union territories and is one of India's 22 scheduled languages. Ethnologue (2025) ranks it third in the world counting first- and second-language speakers.",
+          "sources": [
+            "wp-hindi"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "kabir-gurudev-ko-ang",
+          "title": "Kabir, sakhi from 'Gurudev ko ang' (the chapter on the Guru), couplet 3",
+          "titleOriginal": "कबीर ग्रंथावली — गुरुदेव कौ अंग",
+          "author": "Kabir",
+          "date": "15th century",
+          "year": 1450,
+          "significance": "Kabir, a 15th-century mystic poet born in Varanasi, influenced the Bhakti movement, and his verses are found in the Sikh Guru Granth Sahib. He wrote in Sadhukkadi, an idiom mixing Khari Boli, Braj, Bhojpuri, Marwari and Awadhi.",
+          "original": "सतगुरु की महिमा अनँत अनँत उपकार।\nलोचन अनँत उघाड़िया अनँत दिखावण्हआर॥३॥",
+          "originalScript": "Deva",
+          "translation": "Infinite is the greatness of the true Guru, infinite his kindness;\nhe opened eyes without end, and showed the Infinite.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://hi.wikisource.org/wiki/%E0%A4%95%E0%A4%AC%E0%A5%80%E0%A4%B0_%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%82%E0%A4%A5%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80",
+          "sources": [
+            "wp-kabir",
+            "wp-hindi",
+            "ws-kabir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urdu",
+      "name": "Urdu",
+      "nativeName": "اُردُو",
+      "nativeScript": "Arab",
+      "glottocode": "urdu1245",
+      "iso639_3": "urd",
+      "parent": "hindustani",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-urdu",
+        "glottolog-urdu1245"
+      ],
+      "period": {
+        "from": 1200,
+        "to": null,
+        "approx": true,
+        "note": "period.from of 1200 is a first-attestation date: it shares its early history with Hindi (Old Hindi poetry of the 12th–13th centuries), and is not the date Urdu emerged as a distinct language; its literature is traced to Amir Khusrau in the late 13th century.",
+        "sources": [
+          "wp-hindustani",
+          "wp-urdu"
+        ]
+      },
+      "homeland": {
+        "lat": 28.65,
+        "lng": 77.23,
+        "label": "Upper Ganga–Yamuna Doab, in and around Delhi",
+        "sources": [
+          "wp-urdu"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Urdu alphabet (Perso-Arabic, Nastaliq style)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-urdu"
+        ]
+      },
+      "speakers": {
+        "count": 78000000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-urdu"
+        ]
+      },
+      "notes": [
+{"text": "Speaker figure: 78 million L1 is the figure in Wikipedia's infobox, attributed to Ethnologue and dated '2011–2023'; the year field uses the end of that range, and the figure is rounded to two significant figures there (77.68 million).", "sources": ["wp-urdu"]}
+      ],
+      "story": [
+        {
+          "text": "Urdu originated in the upper Ganga–Yamuna Doab, in and around Delhi, where Khari Boli was spoken. It shares its grammar and core Sanskrit- and Prakrit-derived vocabulary with Hindi, but is written in a Perso-Arabic script and draws formal vocabulary from Persian and Arabic. The name, from Turkic ordu 'army', was first used for the language by the poet Ghulam Hamadani Mushafi around 1780; earlier names included Hindavi, Dehlavi and Rekhta.",
+          "sources": [
+            "wp-urdu"
+          ]
+        },
+        {
+          "text": "Amir Khusrau, who founded a literary tradition of Hindavi in the late 13th century, has been called 'the father of Urdu literature'. By the 16th century its southern form, Deccani, was a court language of the Deccan sultanates, and Urdu became a literary language in the 18th century with standards in Delhi and Lucknow. In 1837 it replaced Persian as an official language of the East India Company. In 1973 it became the sole national language of Pakistan.",
+          "sources": [
+            "wp-urdu"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "ghalib-hazaron-khwahishen",
+          "title": "Ghazal: 'Thousands of desires', opening couplet",
+          "titleOriginal": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے",
+          "author": "Mirza Ghalib",
+          "date": "19th century (Ghalib lived 1797–1869)",
+          "year": 1840,
+          "significance": "Ghalib wrote in both Urdu and Persian; although his Persian output is at least five times longer, his fame rests on his Urdu poetry, and he remains popular across the Indian subcontinent and its diaspora.",
+          "original": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے\nبہت نکلے مرے ارمان لیکن پھر بھی کم نکلے",
+          "originalScript": "Arab",
+          "translation": "Thousands of desires, each one such that I would give my life for it;\nmany of my longings were fulfilled, and yet too few.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ur.wikisource.org/wiki/%DB%81%D8%B2%D8%A7%D8%B1%D9%88%DA%BA_%D8%AE%D9%88%D8%A7%DB%81%D8%B4%DB%8C%DA%BA_%D8%A7%DB%8C%D8%B3%DB%8C_%DA%A9%DB%81_%DB%81%D8%B1_%D8%AE%D9%88%D8%A7%DB%81%D8%B4_%D9%BE%DB%81_%D8%AF%D9%85_%D9%86%DA%A9%D9%84%DB%92",
+          "sources": [
+            "wp-ghalib",
+            "ws-ghalib"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bengali",
+      "name": "Bengali",
+      "nativeName": "বাংলা",
+      "nativeScript": "Beng",
+      "glottocode": "beng1280",
+      "iso639_3": "ben",
+      "parent": "magadhi-prakrit",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-bengali",
+        "glottolog-beng1280"
+      ],
+      "period": {
+        "from": 782,
+        "to": null,
+        "approx": true,
+        "note": "period.from of 782 is a first-attestation date: a Sanskrit–Chinese dictionary compiled by Li-Yen in 782 CE contains Bengali words, and Old Bengali is thought to have existed by the 8th century or earlier, so the language may be older.",
+        "sources": [
+          "wp-bengali"
+        ]
+      },
+      "homeland": {
+        "lat": 23.7,
+        "lng": 89.5,
+        "label": "Bengal region",
+        "sources": [
+          "wp-bengali"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Bengali–Assamese script",
+            "code": "Beng"
+          }
+        ],
+        "sources": [
+          "wp-bengali"
+        ]
+      },
+      "speakers": {
+        "count": 242000000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-bengali"
+        ]
+      },
+      "notes": [
+{"text": "Speaker figure: 242 million L1 is Wikipedia's infobox figure dated '2011–2023' (its lead says 'over 242 million native speakers' as of 2025); the year field uses the end of the range.", "sources": ["wp-bengali"]}
+      ],
+      "story": [
+        {
+          "text": "Bengali, or Bangla, grew out of the eastern Middle Indo-Aryan vernaculars that the linguist Suniti Kumar Chatterji called 'eastern Magadhi Prakrit'. A Sanskrit–Chinese dictionary compiled by Li-Yen in 782 CE contains Bengali words, suggesting Old Bengali existed by the 8th century. Its ancestor was the language of the Pala Empire and the Sena dynasty, and scholars find features of Bengali, among other eastern languages, in the Buddhist songs of the Charyapada.",
+          "sources": [
+            "wp-bengali",
+            "wp-charyapada"
+          ]
+        },
+        {
+          "text": "Under the Sultans of Bengal the language gained prominence over Persian at court. Middle Bengali (1400–1800) produced works such as Shah Muhammad Sagir's Yusuf-Zulekha and the Srikrishna Kirtana of the Chandidas poets. The modern standard took shape in the 19th and early 20th centuries on the west-central dialect of the Shantipur region of Nadia. Rabindranath Tagore wrote the national anthems of both India and Bangladesh in Bengali.",
+          "sources": [
+            "wp-bengali"
+          ]
+        },
+        {
+          "text": "In 1948 Pakistan's government tried to make Urdu the sole state language, sparking the Bengali language movement in East Bengal. On 21 February 1952 five students and activists were killed in protests near the University of Dhaka. Bengali became a state language of Pakistan in 1956, and UNESCO has marked 21 February as International Mother Language Day since 2000. Bengali is now the sole official language of Bangladesh.",
+          "sources": [
+            "wp-bengali"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "tagore-chitto-jetha-bhayshunyo",
+          "title": "'Where the mind is without fear' (Naivedya, poem 72), opening lines",
+          "titleOriginal": "চিত্ত যেথা ভয়শূন্য",
+          "author": "Rabindranath Tagore",
+          "date": "Published in Naivedya, July 1901",
+          "year": 1901,
+          "significance": "A prayer for an awakened India, the poem appeared in Naivedya in 1901; Tagore's own freer English version became poem 35 of the English Gitanjali (1912). Tagore (1861–1941) became in 1913 the first non-European to win the Nobel Prize in Literature.",
+          "original": "চিত্ত যেথা ভয়শূন্য, উচ্চ যেথা শির,\nজ্ঞান যেথা মুক্ত, যেথা গৃহের প্রাচীর\nআপন প্রাঙ্গণতলে দিবসশর্বরী\nবসুধারে রাখে নাই খণ্ড ক্ষুদ্র করি,",
+          "originalScript": "Beng",
+          "translation": "Where the mind is without fear, where the head is held high,\nwhere knowledge is free, where the walls of the house\nhave not, day and night, within their own courtyards\nkept the earth broken into small fragments,",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://bn.wikisource.org/wiki/%E0%A6%A8%E0%A7%88%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A7%8D%E0%A6%AF_(%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0)",
+          "sources": [
+            "wp-chitto",
+            "wp-tagore",
+            "ws-naivedya-72"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "punjabi",
+      "name": "Punjabi",
+      "nativeName": "ਪੰਜਾਬੀ",
+      "nativeScript": "Guru",
+      "glottocode": "lahn1241",
+      "iso639_3": "pan",
+      "parent": "middle-modern-indo-aryan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-punjabi",
+        "glottolog-lahn1241"
+      ],
+      "period": {
+        "from": 850,
+        "to": null,
+        "approx": true,
+        "note": "period.from of 850 is a first-attestation date, not the emergence of the language: the earliest Punjabi writings are traced to the 9th century (Nath jogis of the Pothohar Plateau), and the Old Punjabi phase is dated 1000–1400 CE.",
+        "sources": [
+          "wp-punjabi"
+        ]
+      },
+      "homeland": {
+        "lat": 33.0,
+        "lng": 73.0,
+        "label": "Punjab region (earliest writings from the Pothohar Plateau)",
+        "sources": [
+          "wp-punjabi"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Gurmukhi",
+            "code": "Guru"
+          },
+          {
+            "name": "Shahmukhi (Perso-Arabic)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-punjabi"
+        ]
+      },
+      "speakers": {
+        "count": 156700000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-punjabi"
+        ]
+      },
+      "story": [
+        {
+          "text": "Punjabi is native to the Punjab region of Pakistan and India and belongs to the Northwestern group of Indo-Aryan, closest to Sindhi. It is thought to be the only Indo-Aryan language descended from more than one Prakrit. Its earliest writings are traced to the Nath jogis of the Pothohar Plateau from the 9th century, and its Old Punjabi phase (1000–1400) includes works attributed, though disputedly, to Fariduddin Ganjshakar (Baba Farid).",
+          "sources": [
+            "wp-punjabi"
+          ]
+        },
+        {
+          "text": "Middle Punjabi produced the great works of Punjabi folklore and helped shape Sant Bhasha, the language of the Guru Granth Sahib. That scripture, first compiled by Guru Arjan and completed on 29 August 1604, is written in the Gurmukhi script in several languages including Punjabi. Today Punjabi is written in Gurmukhi in India and in Perso-Arabic Shahmukhi in Pakistan. Unusually for an Indo-Aryan language, it has lexical tones, one falling and one rising.",
+          "sources": [
+            "wp-punjabi",
+            "wp-ggs"
+          ]
+        },
+        {
+          "text": "Punjabi is the most widely spoken native language in Pakistan, with 123.2 million speakers of all its varieties in the 2023 census (88.9 million Punjabi, 28.8 million Saraiki and 5.5 million Hindko), and it had 31.1 million native speakers in India in the 2011 census. A large diaspora lives in Canada, the United Kingdom, the United States, Australia and the Gulf states.",
+          "sources": [
+            "wp-punjabi"
+          ]
+        }
+      ],
+      "notes": [
+{"text": "Speaker figure and scope: 156.7 million is Wikipedia's infobox figure, dated 2011–2023 (the year field uses 2023, the end of the range). It combines the 2011 Indian census with the 2023 Pakistani census and explicitly includes Saraiki and Hindko, which Pakistan's censuses count separately; Punjabi in the narrow sense is 88.9 million in Pakistan (2023) plus 31.1 million in India (2011). The Glottolog code lahn1241, Greater Panjabic, is the family that covers Punjabi together with Lahnda varieties such as Saraiki and Hindko, which matches the scope of this figure; Eastern Panjabi alone is panj1256.", "sources": ["wp-punjabi", "glottolog-lahn1241"]},
+        {
+          "text": "Which Middle Indo-Aryan language underlies Punjabi is debated: Paishachi, Shauraseni and Gandhari Prakrits have all been proposed. One account derives Punjabi from Takka Apabhraṃśa; Suniti Kumar Chatterji traced Sindhi, Lahndi and Punjabi to north-western (Udicya) dialects, with Shauraseni influence on Punjabi; Prabodh Pandit saw eastern Punjabi as a north-western language later influenced by the central zone.",
+          "sources": [
+            "wp-punjabi",
+            "wp-shauraseni"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "japji-sahib",
+          "title": "Japji Sahib: the Mul Mantar and opening salok",
+          "titleOriginal": "ਜਪੁ",
+          "author": "Guru Nanak",
+          "date": "Before 1539 (Guru Nanak, 1469–1539); compiled in the Adi Granth in 1604",
+          "year": 1520,
+          "significance": "Japji Sahib, Guru Nanak's first composition, opens the Guru Granth Sahib, the Sikh scripture, and is recited as the first prayer of daily devotion; it is regarded as the comprehensive essence of Sikhism.",
+          "original": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥\n॥ ਜਪੁ ॥\nਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ ॥\nਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ ॥੧॥",
+          "originalScript": "Guru",
+          "translation": "One Creator. Truth is the Name. The Maker, the Being; without fear, without enmity; timeless in form, unborn, self-existent; [known] by the Guru's grace.\n|| Jap ||\nTrue in the beginning, true through the ages,\ntrue even now, O Nanak, and true it shall ever be.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.srigranth.org/servlet/gurbani.gurbani?Action=Page&Param=1&english=t&id=1",
+          "sources": [
+            "wp-japji",
+            "wp-guru-nanak",
+            "wp-ggs",
+            "srigranth-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marathi",
+      "name": "Marathi",
+      "nativeName": "मराठी",
+      "nativeScript": "Deva",
+      "glottocode": "mara1378",
+      "iso639_3": "mar",
+      "parent": "maharashtri-prakrit",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-marathi",
+        "glottolog-mara1378"
+      ],
+      "period": {
+        "from": 739,
+        "to": null,
+        "approx": true,
+        "note": "First attestation: Marathi is probably first attested in a 739 CE copper-plate inscription found in Satara.",
+        "sources": [
+          "wp-marathi"
+        ]
+      },
+      "homeland": {
+        "lat": 18.5,
+        "lng": 75.5,
+        "label": "Maharashtra (western Deccan)",
+        "sources": [
+          "wp-marathi",
+          "wp-maharashtri"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Devanagari (Balbodh)",
+            "code": "Deva"
+          },
+          {
+            "name": "Modi",
+            "code": "Modi"
+          }
+        ],
+        "sources": [
+          "wp-marathi"
+        ]
+      },
+      "speakers": {
+        "count": 83000000,
+        "year": 2011,
+        "scope": "L1",
+        "sources": [
+          "wp-marathi"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "akshi-inscription",
+          "year": 1012,
+          "approx": true,
+          "lat": 18.62,
+          "lng": 72.88,
+          "place": "Akshi, Raigad district, Maharashtra",
+          "description": "Stone inscription of the Shilahara period, one of the earliest inscriptions written entirely in Marathi.",
+          "sources": [
+            "wp-marathi"
+          ]
+        }
+      ],
+      "story": [
+        {
+          "text": "Marathi descends from Maharashtri Prakrit, usually traced through Apabhraṃśa, although Bloch argued that Marathi had separated before Apabhraṃśa formed. It is probably first attested in a copper-plate inscription of 739 CE found in Satara. The earliest inscriptions wholly in Marathi date from Shilahara rule, among them a stone at Akshi in Raigad district (c. 1012) and a copper plate from Dive recording a land grant.",
+          "sources": [
+            "wp-marathi"
+          ]
+        },
+        {
+          "text": "After 1187 the Yadava kings increasingly used Marathi in their inscriptions. The Varkari saint Dnyaneshwar (1275–1296) wrote the Dnyaneshwari, a Marathi treatise on the Bhagavad Gita. From the 13th century until 1950 Marathi was also written in the cursive Modi script, especially in administration and business. On 1 May 1960 the Marathi-speaking state of Maharashtra was created, and Marathi is its official language.",
+          "sources": [
+            "wp-marathi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gujarati",
+      "name": "Gujarati",
+      "nativeName": "ગુજરાતી",
+      "nativeScript": "Gujr",
+      "glottocode": "guja1252",
+      "iso639_3": "guj",
+      "parent": "shauraseni-prakrit",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-gujarati",
+        "wp-shauraseni",
+        "glottolog-guja1252"
+      ],
+      "period": {
+        "from": 1100,
+        "to": null,
+        "approx": true,
+        "note": "Gujarati descends from Old Gujarati, dated c. 1100–1500 CE in the article's lead (its history section gives 1200–1500 CE), so period.from is approximate.",
+        "sources": [
+          "wp-gujarati"
+        ]
+      },
+      "homeland": {
+        "lat": 22.7,
+        "lng": 71.6,
+        "label": "Gujarat",
+        "sources": [
+          "wp-gujarati"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Gujarati",
+            "code": "Gujr"
+          }
+        ],
+        "sources": [
+          "wp-gujarati"
+        ]
+      },
+      "speakers": {
+        "count": 57000000,
+        "year": 2011,
+        "scope": "L1",
+        "sources": [
+          "wp-gujarati"
+        ]
+      },
+      "story": [
+        {
+          "text": "Gujarati is native to the Indian state of Gujarat. Through Gurjara Apabhraṃśa it descends from Shauraseni Prakrit, and its ancestor Old Gujarati (c. 1100–1500), also the ancestor of Rajasthani, was used as a literary language as early as the 12th century. Middle Gujarati (1500–1800) split off from Rajasthani.",
+          "sources": [
+            "wp-gujarati",
+            "wp-shauraseni",
+            "wp-marathi"
+          ]
+        },
+        {
+          "text": "Mahatma Gandhi used Gujarati as a medium of literary expression and helped inspire a renewal of its literature; in 1936 he introduced the current spelling convention at the 12th meeting of the Gujarati Literary Society. As of 2011 Gujarati was the sixth most widely spoken language in India by native speakers. Its diaspora is large in Britain, North America and southeast Africa, and it is the fourth most commonly spoken language in London.",
+          "sources": [
+            "wp-gujarati"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nepali",
+      "name": "Nepali",
+      "nativeName": "नेपाली",
+      "nativeScript": "Deva",
+      "glottocode": "nepa1254",
+      "iso639_3": "npi",
+      "parent": "middle-modern-indo-aryan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-nepali",
+        "glottolog-nepa1254"
+      ],
+      "period": {
+        "from": 981,
+        "to": null,
+        "approx": true,
+        "note": "period.from of 981 is a first-attestation date: the earliest known inscription in Nepali, at Dullu, is dated around 981 CE. Early forms developed from Apabhraṃśa vernaculars of western Nepal in the 10th–14th centuries, so the language may be slightly older.",
+        "sources": [
+          "wp-nepali"
+        ]
+      },
+      "homeland": {
+        "lat": 29.4,
+        "lng": 82.0,
+        "label": "Sinja Valley, western Nepal (capital of the Khasa Kingdom)",
+        "sources": [
+          "wp-nepali"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Devanagari",
+            "code": "Deva"
+          }
+        ],
+        "sources": [
+          "wp-nepali"
+        ]
+      },
+      "speakers": {
+        "count": 19000000,
+        "year": 2021,
+        "scope": "L1",
+        "sources": [
+          "wp-nepali"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "dullu-inscription",
+          "year": 981,
+          "approx": true,
+          "lat": 28.86,
+          "lng": 81.62,
+          "place": "Dullu, Dailekh District, Nepal",
+          "description": "Inscription from around the reign of King Bhupal Damupal, believed to be the earliest known inscription in Nepali.",
+          "sources": [
+            "wp-nepali",
+            "wp-dullu"
+          ]
+        }
+      ],
+      "notes": [
+{"text": "Speaker figure: 19 million L1 is Wikipedia's infobox figure dated '2011–2021', combining census and other counts from several countries; the year field uses the end of the range.", "sources": ["wp-nepali"]}
+      ],
+      "story": [
+        {
+          "text": "Nepali began as Khas Kura, the speech of the Khas people, in the Sinja Valley, the capital of the Khasa Kingdom around the 10th to 14th centuries. Its early forms grew out of the Middle Indo-Aryan Apabhraṃśa vernaculars of western Nepal. The earliest known inscription believed to be in Nepali, at Dullu in Dailekh District, dates to around 981 CE, during the reign of King Bhupal Damupal.",
+          "sources": [
+            "wp-nepali"
+          ]
+        },
+        {
+          "text": "The Shah kings of the Gorkha Kingdom began institutionalising the language in the 16th century, and after the unification of Nepal it became the state language at court, known as Gorakhā Bhāṣā. The government adopted the name Nepali in 1933. Its literature flourished in the 19th century, notably with Bhanubhakta Acharya's version of the Ramayana. On 31 August 1992 Nepali became a scheduled language of India.",
+          "sources": [
+            "wp-nepali"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sinhala",
+      "name": "Sinhala",
+      "nativeName": "සිංහල",
+      "nativeScript": "Sinh",
+      "glottocode": "sinh1246",
+      "iso639_3": "sin",
+      "parent": "middle-modern-indo-aryan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-sinhala",
+        "glottolog-sinh1246"
+      ],
+      "period": {
+        "from": -300,
+        "to": null,
+        "approx": true,
+        "note": "Early forms are attested in inscriptions from the 3rd century BCE (the Elu Prakrit stage, 3rd century BCE to 4th century CE).",
+        "sources": [
+          "wp-sinhala"
+        ]
+      },
+      "homeland": {
+        "lat": 7.9,
+        "lng": 80.7,
+        "label": "Sri Lanka",
+        "sources": [
+          "wp-sinhala"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Sinhala",
+            "code": "Sinh"
+          }
+        ],
+        "sources": [
+          "wp-sinhala"
+        ]
+      },
+      "speakers": {
+        "count": 18000000,
+        "year": 2021,
+        "scope": "L1",
+        "sources": [
+          "wp-sinhala"
+        ]
+      },
+      "story": [
+        {
+          "text": "Sinhala is the language of the Sinhalese, the largest ethnic group of Sri Lanka, and one of the island's two national languages alongside Tamil. The Pali chronicle Mahāvaṃsa tells of Prince Vijaya of the Vanga kingdom settling on the island. Its earliest form appears in inscriptions of the 3rd century BCE, in a Prakrit similar to Magadhi.",
+          "sources": [
+            "wp-sinhala"
+          ]
+        },
+        {
+          "text": "Scholars divide its history into Elu Prakrit (3rd century BCE–4th century CE), Proto-Sinhala (4th–8th centuries), Medieval Sinhala (8th–13th centuries) and Modern Sinhala. The Maldivian languages and Vedda are named as its closest relatives, and Old Sinhalese borrowed from Vedda. Sinhala is written in its own Brahmi-derived script and shows marked diglossia between written and spoken forms. With Pali, it played a major role in the development of Theravada Buddhist literature.",
+          "sources": [
+            "wp-sinhala"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romani",
+      "name": "Romani",
+      "nativeName": "rromani ćhib",
+      "nativeScript": "Latn",
+      "glottocode": "roma1329",
+      "iso639_3": "rom",
+      "parent": "middle-modern-indo-aryan",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-romani",
+        "glottolog-roma1329"
+      ],
+      "period": {
+        "from": 1000,
+        "to": null,
+        "approx": true,
+        "note": "Early Romani, spoken in the Byzantine Empire, is dated to the 10th–13th centuries (period.from is therefore an approximate date for Early Romani); the language is first attested in 1542.",
+        "sources": [
+          "wp-romani"
+        ]
+      },
+      "homeland": {
+        "lat": 39.5,
+        "lng": 32.0,
+        "label": "Byzantine Empire (point placed in central Anatolia, a proposed region of the Romani ancestors' long stay; the article names the Byzantine Empire as Early Romani's last largely unitary territory)",
+        "sources": [
+          "wp-romani"
+        ]
+      },
+      "story": [
+        {
+          "text": "Romani is the language of the Romani people and, with Domari, the only Indo-Aryan language spoken entirely outside the Indian subcontinent. In 1763 István Vályi, a Calvinist pastor from Transylvania, first noticed its likeness to Indo-Aryan, and in 1782 Johann Rüdiger argued that it descended from Sanskrit. Work by Pott and Miklosich in the 19th century showed it to be a New Indo-Aryan language, so the Roma's ancestors cannot have left India much before that stage.",
+          "sources": [
+            "wp-romani"
+          ]
+        },
+        {
+          "text": "Contact with Persian, Armenian and especially Medieval Greek shaped Early Romani, spoken in the Byzantine Empire in the 10th–13th centuries; Romani numerals seven to nine are Greek loans. The language is first attested in western Europe in 1542. Dispersal from the Balkans from the 14th century produced today's dialects, the largest being Balkan, Vlax and Sinte Romani. It has official status only regionally, in Kosovo and Skopje's Šuto Orizari municipality.",
+          "sources": [
+            "wp-romani"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-iranian",
+      "name": "Proto-Iranian",
+      "glottocode": "iran1269",
+      "parent": "proto-indo-iranian",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "ir-glotto-iran1269",
+        "ir-wp-proto-iranian",
+        "ir-wp-iranian"
+      ],
+      "period": {
+        "from": -2000,
+        "to": -1500,
+        "approx": true,
+        "note": "Proto-Iranian is dated to after the break-up of Proto-Indo-Iranian, in the early 2nd millennium BCE, and its speakers are assumed to have lived in the 2nd millennium BCE. The end date is a rough approximation for its split into the Old Iranian languages, which predates the oldest Avestan texts.",
+        "sources": [
+          "ir-wp-proto-iranian",
+          "ir-wp-iranian",
+          "ir-wp-avestan"
+        ]
+      },
+      "homeland": {
+        "lat": 49.0,
+        "lng": 61.0,
+        "label": "Central Asian steppe (present-day Kazakhstan), within the Andronovo horizon that most researchers associate with early Indo-Iranian speakers",
+        "sources": [
+          "ir-wp-andronovo",
+          "ir-wp-proto-iranian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Iranian is the reconstructed ancestor of the Iranian languages, among them Persian, Pashto, Kurdish, Ossetian, Sogdian and Zazaki. It descends from Proto-Indo-Iranian, the shared ancestor of the Iranian and Indo-Aryan languages. Its speakers are assumed to have lived in the 2nd millennium BCE and are usually connected with the Andronovo archaeological horizon. The Andronovo horizon stretched from the southern Urals across Kazakhstan, and most researchers associate it with early Indo-Iranian languages.",
+          "sources": [
+            "ir-wp-proto-iranian",
+            "ir-wp-iranian",
+            "ir-wp-andronovo"
+          ]
+        },
+        {
+          "text": "A few sound changes set Proto-Iranian apart from its parent. In most positions the sibilant *s became the glottal *h, the voiced aspirates *bʰ and *dʰ lost their aspiration, and the voiceless aspirates *pʰ, *tʰ and *kʰ became the fricatives *f, *θ and *x. Direct evidence survives for only two Old Iranian languages, Avestan and Old Persian.",
+          "sources": [
+            "ir-wp-iranian",
+            "ir-wp-avestan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avestan",
+      "name": "Avestan",
+      "glottocode": "aves1237",
+      "iso639_3": "ave",
+      "parent": "proto-iranian",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "ir-glotto-aves1237",
+        "ir-wp-avestan"
+      ],
+      "period": {
+        "from": -1500,
+        "to": null,
+        "approx": true,
+        "note": "Avestan was spoken during the Avestan period, c. 1500 – c. 400 BCE: Old Avestan c. 1500–900 BCE and Younger Avestan c. 900–400 BCE. These dates rest on internal evidence and remain uncertain. Avestan has no native speakers and became extinct as a spoken language, but it is classed as classical, with no end date, because the liturgies composed in it are still recited by Zoroastrian priests (see notes).",
+        "sources": [
+          "ir-wp-avestan"
+        ]
+      },
+      "homeland": {
+        "lat": 34.217,
+        "lng": 62.112,
+        "label": "Eastern Greater Iran (present-day Afghanistan and neighbouring lands), the horizon of Younger Avestan place names",
+        "sources": [
+          "ir-wp-avestan",
+          "ir-glotto-aves1237"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Avestan alphabet (Din dabireh)",
+            "code": "Avst"
+          },
+          {
+            "name": "Gujarati script (modern Parsi typesetting)",
+            "code": "Gujr"
+          }
+        ],
+        "sources": [
+          "ir-wp-avestan"
+        ]
+      },
+      "story": [
+        {
+          "text": "Avestan is the liturgical language of Zoroastrianism, known only from the Avesta. It survives in two forms: Old or Gathic Avestan, the language of the Gathas traditionally attributed to Zarathustra, and Younger Avestan. Old Avestan is quite close in grammar and vocabulary to Vedic Sanskrit, the oldest preserved Indo-Aryan language, since both descend from Proto-Indo-Iranian. The texts never name the language, so its own name is unknown; 'Avestan' simply means the language of the Avesta.",
+          "sources": [
+            "ir-wp-avestan",
+            "ir-wp-gathas"
+          ]
+        },
+        {
+          "text": "The hymns were passed down by memory for many centuries. Only around the 3rd or 4th century CE was a new alphabet, the 'religion writing' (Din dabireh), developed to record them with high phonetic precision. It has 53 characters, many adapted from the cursive Pahlavi script, and is written right to left. A large part of the literature was lost after the 10th century CE. Today the Zoroastrians of India most commonly typeset Avestan in the Gujarati script.",
+          "sources": [
+            "ir-wp-avestan"
+          ]
+        },
+        {
+          "text": "The place names of the Younger Avestan texts point to eastern Greater Iran, roughly present-day Afghanistan and Tajikistan with parts of Turkmenistan, Uzbekistan and Pakistan. Older scholarship dated Zarathustra to the 6th century BCE. More recent work, comparing the Gathas with the Rigveda, often places them around 1000 BCE or even as early as 1500 BCE.",
+          "sources": [
+            "ir-wp-avestan"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Status: Avestan was extinct as a spoken language, but the Avesta's liturgies were memorised by the priesthood and are still recited by rote today. Under the project convention for continuous liturgical use it is therefore marked classical with no end date, like Pali and Classical Sanskrit; the c. 1500–400 BCE dates are the period of the living language.",
+          "sources": ["ir-wp-avestan"]
+        }
+      ],
+      "works": [
+        {
+          "id": "gathas-yasna-29",
+          "title": "The Gathas: Yasna 29, the Lament of the Cow's Soul",
+          "titleOriginal": "Gāθā",
+          "author": "Attributed to Zarathustra",
+          "date": "Old Avestan; dated by different scholars between c. 1500 and 1000 BCE",
+          "year": -1200,
+          "significance": "The Gathas are the central texts of Zoroastrianism and the oldest attestation of any Iranian language, among the oldest remnants of Indo-European literature. They form the core of the Yasna liturgy (chapters 28–34, 43–51 and 53).",
+          "original": "xšmaibyā gə̄uš urvā gərəždā kahmāi mā θwarōždūm kə̄ mā tašaṯ\nā mā aēšəmō hazas-cā rəmō āhišāyā dərəš-cā təviš-cā\nnōiṯ mōi vāstā xšmaṯ anyō aθā mōi sąstā vohū vāstryā",
+          "originalScript": "Latn",
+          "transliteration": "Romanized Avestan as given in Old Iranian Online, Lesson 1 (University of Texas at Austin). The Avesta is written in the Avestan alphabet (Avst).",
+          "translation": "Unto you (O Ahura and Asha!) the Soul of the Kine (our sacred herds and folk) cried aloud: For whom did ye create me, and by whom did ye fashion me? On me comes the assault of wrath, and of violent power, the blow of desolation, audacious insolence, and (thievish) might. None other pasture-giver have I than you, therefore do ye teach me good (tillage) for the fields (my only hope of welfare)!",
+          "translator": "L. H. Mills",
+          "translationYear": 1887,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://archive.org/details/zendavesta03darm",
+          "sources": [
+            "ir-wp-gathas",
+            "ir-lrc-yasna29",
+            "ir-mills-sbe31",
+            "ir-lrc-old-iranian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-persian",
+      "name": "Old Persian",
+      "glottocode": "oldp1254",
+      "iso639_3": "peo",
+      "parent": "proto-iranian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "ir-glotto-oldp1254",
+        "ir-wp-old-persian"
+      ],
+      "period": {
+        "from": -600,
+        "to": -300,
+        "approx": true,
+        "note": "These are the dates of the written record: inscriptions, clay tablets and seals of the Achaemenid era, c. 600–300 BCE. P. O. Skjærvø considers it probable that Old Persian was already spoken during most of the first half of the 1st millennium BCE.",
+        "sources": [
+          "ir-wp-old-persian"
+        ]
+      },
+      "homeland": {
+        "lat": 29.935,
+        "lng": 52.89,
+        "label": "Fārs (Pārsa), southwestern Iran, homeland of the Achaemenids",
+        "sources": [
+          "ir-wp-old-persian",
+          "ir-wp-persepolis"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "behistun-inscription",
+          "year": -520,
+          "approx": true,
+          "lat": 34.3906,
+          "lng": 47.4358,
+          "place": "Mount Behistun (Bisotun), Kermanshah Province, Iran",
+          "description": "Darius the Great's trilingual rock inscription in Old Persian, Elamite and Babylonian, about 100 m up a limestone cliff. Its Old Persian text runs to 414 lines in five columns and is the longest known trilingual cuneiform inscription.",
+          "sources": [
+            "ir-wp-behistun",
+            "ir-wp-old-persian"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Old Persian cuneiform",
+            "code": "Xpeo"
+          }
+        ],
+        "sources": [
+          "ir-wp-old-persian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Persian was the language of the Persians of Fārs, the home of the Achaemenid kings, and became the official language of their empire. Its speakers called it ariya, 'Iranian'. Assyrian records of the 9th century BCE mention a people called Parsuwash near Lake Urmia, a name that matches Old Persian pārsa. Old Persian borrowed many words from Median, another Iranian language that is otherwise known almost only from such loans.",
+          "sources": [
+            "ir-wp-old-persian"
+          ]
+        },
+        {
+          "text": "The language was written in a cuneiform script of 36 phonetic signs and 8 logograms that was not simply inherited from Mesopotamia; Schmitt calls it a 'deliberate creation of the sixth century BCE'. Its most important monument is Darius the Great's inscription at Behistun. In 2007 research on the Persepolis Administrative Archives at the University of Chicago's Oriental Institute identified Old Persian tablets, suggesting the language was also used for practical record-keeping.",
+          "sources": [
+            "ir-wp-old-persian",
+            "ir-wp-behistun"
+          ]
+        },
+        {
+          "text": "By the 4th century BCE the inscriptions of Artaxerxes II and Artaxerxes III differ enough from Darius's language to be called 'pre-Middle Persian'. Old Persian then evolved into Middle Persian, the ancestor of New Persian. Gilbert Lazard describes Old, Middle and New Persian as one and the same language at three stages of its history.",
+          "sources": [
+            "ir-wp-old-persian"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "behistun-inscription-text",
+          "title": "The Behistun Inscription",
+          "titleOriginal": "Bagastana",
+          "author": "Darius I (the Great)",
+          "date": "Between 522 and 486 BCE",
+          "year": -520,
+          "significance": "The longest known trilingual cuneiform inscription (Old Persian, Elamite and Babylonian), it was important to the decipherment of cuneiform. In it Darius recounts his ancestry and the nineteen battles by which he put down the revolts that followed the death of Cambyses II.",
+          "original": "θātiy Dārayavauš xšāyaθiya ima tya manā kartam pasāva yaθā xšāyaθiya\nabavam Kabūjiya nāma Kūrauš puça amāxam taumāyā\nhauvam idā xšāyaθiya āha avahyā Kabūjiyahyā brātā\nBardiya nāma āha hamātā hamapitā Kabūjiyahyā",
+          "originalScript": "Latn",
+          "transliteration": "Column I, lines 26–30 (§10), romanized as in Old Iranian Online, Lesson 8 (University of Texas at Austin). The inscription itself is in Old Persian cuneiform (Xpeo).",
+          "translation": "(Thus) saith Darius, the king: This is what was done by me after I became king. He who was named Cambyses, the son of Cyrus, one of our race, was king here before me. That Cambyses had a brother, Smerdis by name, of the same mother and the same father as Cambyses.",
+          "translator": "L. W. King and R. C. Thompson",
+          "translationYear": 1907,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://archive.org/details/sculpturesinscri00brituoft",
+          "sources": [
+            "ir-wp-behistun",
+            "ir-lrc-db1",
+            "ir-king-thompson-1907"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "middle-persian",
+      "name": "Middle Persian",
+      "nativeName": "𐭯𐭠𐭫𐭮𐭩𐭪",
+      "nativeScript": "Phli",
+      "glottocode": "pahl1241",
+      "iso639_3": "pal",
+      "parent": "old-persian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "ir-glotto-pahl1241",
+        "ir-wp-middle-persian",
+        "ir-wp-old-persian"
+      ],
+      "period": {
+        "from": 224,
+        "to": 900,
+        "approx": true,
+        "note": "The start is the Sasanian era (224 CE), within which the first Middle Persian inscriptions fall (Inscriptional Pahlavi, 3rd–4th centuries); the Middle Iranian stage as a whole is dated c. 400 BCE – 900 CE. Middle Persian had evolved into Early New Persian by the 9th century, though Middle Persian texts were still intelligible in the 10th–11th centuries.",
+        "sources": [
+          "ir-wp-middle-persian",
+          "ir-wp-iranian"
+        ]
+      },
+      "homeland": {
+        "lat": 29.935,
+        "lng": 52.89,
+        "label": "Fārs (Persis), southwestern Iran",
+        "sources": [
+          "ir-wp-middle-persian",
+          "ir-wp-persian",
+          "ir-wp-persepolis"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "paikuli-inscription",
+          "year": 295,
+          "approx": true,
+          "lat": 35.0983,
+          "lng": 45.5905,
+          "place": "Paikuli, Sulaymaniyah Governorate, Iraqi Kurdistan",
+          "description": "A bilingual Parthian and Middle Persian inscription on the stone blocks of a tower, set up by the Sasanian king Narseh (r. 293–303) to justify his overthrow of Bahram III. The inscribed blocks are now in the Sulaymaniyah Museum.",
+          "sources": [
+            "ir-wp-paikuli"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Inscriptional Pahlavi",
+            "code": "Phli"
+          },
+          {
+            "name": "Book Pahlavi",
+            "code": "Phlv"
+          },
+          {
+            "name": "Psalter Pahlavi",
+            "code": "Phlp"
+          },
+          {
+            "name": "Manichaean",
+            "code": "Mani"
+          }
+        ],
+        "sources": [
+          "ir-wp-middle-persian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Middle Persian, called Pārsīg by its speakers, was the native language of the Sasanian dynasty (224–651 CE) and the literary language of their empire. In the Kaʿba-ye Zartosht inscription, the high priest Kartir speaks of 'ērānīg ud anērānīg', the language of Iranians and non-Iranians. Middle Persian descends from Old Persian and is the ancestor of New Persian, the official language of Iran, Afghanistan (as Dari) and Tajikistan (as Tajik).",
+          "sources": [
+            "ir-wp-middle-persian"
+          ]
+        },
+        {
+          "text": "It was written in scripts derived from Aramaic that also used whole Aramaic words to stand for Persian ones. Inscriptional Pahlavi appears in royal inscriptions of the 3rd and 4th centuries; Book Pahlavi was used for Zoroastrian books from the 5th century, most of them reflecting the language of the 6th to 10th centuries. The prophet Mani (216–274 CE) devised his own alphabet from his native Aramaic script, which Manichaeans used for Middle Persian until the 9th century.",
+          "sources": [
+            "ir-wp-middle-persian"
+          ]
+        },
+        {
+          "text": "After the fall of the Sasanians, Middle Persian kept its prestige for some time. In the 10th and 11th centuries Middle Persian texts were still intelligible to speakers of Early New Persian, and the sources of Ferdowsi's Shahnameh go back to a late Sasanian Middle Persian 'Book of Kings', the Khwadāy-Nāmag.",
+          "sources": [
+            "ir-wp-middle-persian",
+            "ir-wp-shahnameh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "persian",
+      "name": "Persian",
+      "nativeName": "فارسی",
+      "nativeScript": "Arab",
+      "glottocode": "west2369",
+      "iso639_3": "pes",
+      "parent": "middle-persian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "ir-glotto-west2369",
+        "ir-wp-persian",
+        "ir-wp-iranian-persian"
+      ],
+      "period": {
+        "from": 800,
+        "to": null,
+        "approx": true,
+        "note": "The start is the first attestation: New Persian texts written in the Arabic script first appear in the 9th century.",
+        "sources": [
+          "ir-wp-persian"
+        ]
+      },
+      "homeland": {
+        "lat": 29.935,
+        "lng": 52.89,
+        "label": "Fārs (Persia), southwestern Iran",
+        "sources": [
+          "ir-wp-persian",
+          "ir-wp-persepolis"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "shahnameh-tus",
+          "year": 1010,
+          "approx": false,
+          "lat": 36.4792,
+          "lng": 59.5097,
+          "place": "Tus, Razavi Khorasan Province, Iran",
+          "description": "Ferdowsi, born near Tus in 940, completed the Shahnameh, the national epic of Greater Iran, in 1010 after decades of work. He is buried at Tus.",
+          "sources": [
+            "ir-wp-shahnameh",
+            "ir-wp-ferdowsi",
+            "ir-wp-tus"
+          ]
+        },
+        {
+          "id": "masnavi-konya",
+          "year": 1258,
+          "approx": true,
+          "lat": 37.8744,
+          "lng": 32.4931,
+          "place": "Konya, Turkey",
+          "description": "In Konya, under the Persianate Seljuk Sultanate of Rum, Rumi began dictating the Masnavi around 1258 and kept composing it until his death in 1273.",
+          "sources": [
+            "ir-wp-masnavi",
+            "ir-wp-rumi",
+            "ir-wp-konya"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Persian alphabet (Perso-Arabic)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "ir-wp-persian",
+          "ir-wp-iranian-persian"
+        ]
+      },
+      "speakers": {
+        "count": 65000000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "ir-wp-iranian-persian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Persian, Farsi to its speakers, continues Middle Persian and, before it, Old Persian; it originated in Fārs in southwestern Iran. New Persian texts in the Arabic script first appear in the 9th century, after the Muslim conquest of Persia. Under the Tahirid, Saffarid and Samanid dynasties the transition to New Persian was complete, and Rudaki, the first significant Persian poet, flourished at the Samanid court in the 10th century.",
+          "sources": [
+            "ir-wp-persian"
+          ]
+        },
+        {
+          "text": "Persian was the first language to break Arabic's monopoly on writing in the Muslim world. It became a language of administration far beyond Iran, used by the Ottomans in Anatolia, the Delhi Sultanate and the Mughals in South Asia, and the Pashtuns in Afghanistan, and it left many words in Hindi-Urdu, Punjabi and Bengali. Its classics include Ferdowsi's Shahnameh, the works of Rumi, the Rubaiyat of Omar Khayyam, Nizami's Panj Ganj, the Divan of Hafez, and Saadi's Gulistan and Bustan.",
+          "sources": [
+            "ir-wp-persian"
+          ]
+        },
+        {
+          "text": "Today Persian is a pluricentric language with three mutually intelligible standards: Iranian Persian, Dari in Afghanistan and Tajik in Tajikistan. Iran and Afghanistan write it in the Persian alphabet, a form of the Arabic script, while Tajikistan uses Cyrillic. There are about 130 million Persian speakers worldwide; Iranian Persian alone had about 65 million native speakers in 2023, according to Ethnologue figures.",
+          "sources": [
+            "ir-wp-persian",
+            "ir-wp-iranian-persian"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "shahnameh",
+          "title": "Shahnameh (The Book of Kings)",
+          "titleOriginal": "شاهنامه",
+          "author": "Ferdowsi",
+          "date": "c. 977–1010 CE",
+          "year": 1010,
+          "significance": "The national epic of Greater Iran: some 50,000 couplets telling Iran's mainly mythical, partly historical past from the creation of the world to the Muslim conquest. It is one of the world's longest epic poems and is central to Persian culture and language.",
+          "original": "به نام خداوندِ جان و خرد\nکز این برتر، اندیشه، بر نگذرد\nخداوندِ نام و خداوندِ جای\nخداوندِ روزی‌دِهِ رهنمای\nخداوندِ کیوان و گَردان‌سپهر\nفروزندهٔ ماه و ناهید و مِهر",
+          "originalScript": "Arab",
+          "translation": "In the name of the Lord of soul and wisdom,\nbeyond whom thought does not pass;\nLord of name and Lord of place,\nLord who gives daily bread, the guide;\nLord of Saturn and the turning sky,\nwho lights the Moon, Venus and the Sun.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ganjoor.net/ferdousi/shahname/aghaz/sh1",
+          "sources": [
+            "ir-wp-shahnameh",
+            "ir-ganjoor-shahnameh"
+          ]
+        },
+        {
+          "id": "masnavi",
+          "title": "Masnavi (The Spiritual Couplets)",
+          "titleOriginal": "مثنوی معنوی",
+          "author": "Jalāl al-Dīn Rumi",
+          "date": "c. 1258–1273 CE",
+          "year": 1265,
+          "significance": "A poem in six books of about 25,000 verses, the Masnavi is one of the most influential works in the history of Sufism; it is sometimes described as a 'Quran in Persian'.",
+          "original": "بشنو این نی چون شکایت می‌کند\nاز جدایی‌ها حکایت می‌کند\nکز نِیِستان تا مرا بُبْریده‌اند\nدر نَفیرم مرد و زن نالیده‌اند\nسینه خواهم شَرحه‌شَرحه از فراق\nتا بگویم شرحِ دردِ اشتیاق\nهر کسی کو دور ماند از اصلِ خویش\nباز جوید روزگارِ وصلِ خویش",
+          "originalScript": "Arab",
+          "translation": "Listen to this reed, how it complains,\nhow it tells of separations:\n\"Ever since I was cut from the reed-bed,\nmen and women have wept at my lament.\nI want a breast torn to shreds by parting,\nso that I may explain the pain of longing.\nEveryone who is left far from his origin\nseeks again the time of union with it.\"",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ganjoor.net/moulavi/masnavi/daftar1/sh1",
+          "sources": [
+            "ir-wp-masnavi",
+            "ir-wp-rumi",
+            "ir-ganjoor-masnavi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pashto",
+      "name": "Pashto",
+      "nativeName": "پښتو",
+      "nativeScript": "Arab",
+      "glottocode": "pash1269",
+      "iso639_3": "pus",
+      "parent": "proto-iranian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "ir-glotto-pash1269",
+        "ir-wp-pashto"
+      ],
+      "period": {
+        "from": 1500,
+        "to": null,
+        "approx": true,
+        "note": "Sources give no date for the emergence of Pashto as a distinct language. The date used here is that of its secure written tradition: Pashto poetry became popular from the 16th century, when Bayazid Pir Roshan added 13 letters to the Pashto alphabet. Claims of 8th-century Pashto poetry rest on the disputed Pata Khazana manuscript.",
+        "sources": [
+          "ir-wp-pashto"
+        ]
+      },
+      "homeland": {
+        "lat": 31.26,
+        "lng": 68.33,
+        "label": "Southern and eastern Afghanistan and northwestern Pakistan, the core of the Pashto-speaking area",
+        "sources": [
+          "ir-wp-pashto",
+          "ir-glotto-pash1269"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Pashto alphabet (Perso-Arabic)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "ir-wp-pashto"
+        ]
+      },
+      "speakers": {
+        "count": 51000000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "ir-wp-pashto"
+        ]
+      },
+      "story": [
+        {
+          "text": "Pashto is an Eastern Iranian language, the largest one spoken today, native to southern and eastern Afghanistan and northwestern Pakistan. It is one of the two official languages of Afghanistan, alongside Dari, and is the first language of about 18.1% of Pakistan's population according to the 2023 census. Its origins are debated: some linguists derive it from Avestan or a close relative, others place it nearer to Bactrian, and scholars agree only that it shares features with Eastern Middle Iranian languages such as Bactrian, Khwarezmian and Sogdian.",
+          "sources": [
+            "ir-wp-pashto"
+          ]
+        },
+        {
+          "text": "In 1944 the scholar Abdul Hai Habibi claimed to have found an 18th-century anthology, the Pata Khazana, with verses of Pashto poets stretching back to the 8th century; its authenticity is disputed by scholars such as David Neil MacKenzie. Written Pashto literature grew from the 16th century, when Bayazid Pir Roshan added new letters to the alphabet, and flourished in the 17th century with Khushal Khan Khattak (1613–1689) and Rahman Baba (1650–1715), both counted among the notable Pashto poets. Ahmad Shah Durrani (1722–1772), founder of the Durrani Empire, also wrote Pashto poetry.",
+          "sources": [
+            "ir-wp-pashto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "northern-kurdish",
+      "name": "Northern Kurdish (Kurmanji)",
+      "nativeName": "Kurmancî",
+      "nativeScript": "Latn",
+      "glottocode": "nort2641",
+      "iso639_3": "kmr",
+      "parent": "proto-iranian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "ir-glotto-nort2641",
+        "ir-wp-kurmanji",
+        "ir-wp-kurdish"
+      ],
+      "period": {
+        "from": 1500,
+        "to": null,
+        "approx": true,
+        "note": "Sources give no date for the emergence of Kurmanji. The date used here is the rise of its written literary tradition in the 16th century; the orally transmitted Yazidi hymns in Kurmanji are traditionally placed in the 12th century.",
+        "sources": [
+          "ir-wp-kurmanji"
+        ]
+      },
+      "homeland": {
+        "lat": 37.0,
+        "lng": 43.0,
+        "label": "Kurdistan: southeastern Turkey and the adjoining parts of Iraq, Syria and Iran",
+        "sources": [
+          "ir-wp-kurmanji",
+          "ir-glotto-nort2641"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Hawar (Bedirxan) Latin alphabet",
+            "code": "Latn"
+          },
+          {
+            "name": "Kurdo-Arabic alphabet",
+            "code": "Arab"
+          },
+          {
+            "name": "Cyrillic (former Soviet Union)",
+            "code": "Cyrl"
+          },
+          {
+            "name": "Armenian (former Soviet Union)",
+            "code": "Armn"
+          }
+        ],
+        "sources": [
+          "ir-wp-kurdish-alphabets"
+        ]
+      },
+      "story": [
+        {
+          "text": "Kurmanji, or Northern Kurdish, is the northernmost and most widely spoken form of Kurdish, used in southeastern Turkey, northern Iraq and Syria, northwestern and northeastern Iran, and the Caucasus and Khorasan. Ludwig Paul concludes that Kurdish seems to be Northwestern Iranian in origin, though it shares many traits with Persian through long and intense contact. Kurmanji is also the main liturgical language of Yazidism: the qewls, sacred hymns traditionally placed in the 12th century, are recited from memory by the Yazidi clergy.",
+          "sources": [
+            "ir-wp-kurmanji",
+            "ir-wp-kurdish"
+          ]
+        },
+        {
+          "text": "A Kurmanji literary tradition arose in the 16th century. Its prominent figures include Melayê Cizîrî, Feqiyê Teyran and Ehmedê Xanî (1650–1707), whose romantic epic Mem and Zin is sometimes viewed as the Kurdish national epic. In 1932 Celadet Alî Bedirxan introduced a Latin alphabet, popularized through the magazine Hawar; it is used primarily in Turkey and Syria, while the Kurdo-Arabic alphabet is common in Iraq and Iran.",
+          "sources": [
+            "ir-wp-kurmanji",
+            "ir-wp-xani",
+            "ir-wp-kurdish-alphabets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ossetian",
+      "name": "Ossetian",
+      "nativeName": "ирон ӕвзаг",
+      "nativeScript": "Cyrl",
+      "glottocode": "osse1243",
+      "iso639_3": "oss",
+      "parent": "proto-iranian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "ir-glotto-osse1243",
+        "ir-wp-ossetian",
+        "ir-wp-alanic"
+      ],
+      "period": {
+        "from": 950,
+        "to": null,
+        "approx": true,
+        "note": "The start is the first attestation: the 10th-century Zelenchuk inscription is the earliest known written sample, read either as Alanic or as the oldest Ossetic text. Ossetian descends from Alanic, spoken by the Alans from about the 1st to the 13th centuries AD.",
+        "sources": [
+          "ir-wp-ossetian",
+          "ir-wp-alanic",
+          "ir-wp-arkhyz"
+        ]
+      },
+      "homeland": {
+        "lat": 42.98,
+        "lng": 44.61,
+        "label": "Ossetia, on both sides of the Greater Caucasus (Russia–Georgia border)",
+        "sources": [
+          "ir-wp-ossetian",
+          "ir-glotto-osse1243"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "zelenchuk-inscription",
+          "year": 950,
+          "approx": true,
+          "lat": 43.565,
+          "lng": 41.2789,
+          "place": "Bolshoy Zelenchuk river, near Arkhyz, Karachay-Cherkessia, Russia",
+          "description": "A short gravestone inscription in Greek letters, found in 1888 within 30 km of Nizhny Arkhyz and dated to 941 or 963. Vasily Abayev read it as the earliest preserved Ossetic text.",
+          "sources": [
+            "ir-wp-arkhyz",
+            "ir-wp-alanic",
+            "ir-wp-ossetian"
+          ]
+        },
+        {
+          "id": "iron-gazet",
+          "year": 1906,
+          "approx": false,
+          "lat": 43.04,
+          "lng": 44.6775,
+          "place": "Vladikavkaz, North Ossetia–Alania, Russia",
+          "description": "The first Ossetian newspaper, Iron Gazet, appeared on 23 July 1906 in Vladikavkaz.",
+          "sources": [
+            "ir-wp-ossetian",
+            "ir-wp-vladikavkaz"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Cyrillic",
+            "code": "Cyrl"
+          },
+          {
+            "name": "Georgian",
+            "code": "Geor"
+          },
+          {
+            "name": "Latin (official 1923–1938)",
+            "code": "Latn"
+          },
+          {
+            "name": "Greek (Zelenchuk inscription)",
+            "code": "Grek"
+          }
+        ],
+        "sources": [
+          "ir-wp-ossetian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Ossetian is an Eastern Iranian language spoken in Ossetia, on both sides of the Greater Caucasus along the Russia–Georgia border. It descends from Alanic, the language of the medieval Alans, whose language descended from the earlier Scytho-Sarmatian languages, and it is the sole survivor of the branch of Iranian languages known as Scythian. After the Mongols destroyed the Alan state in the northern Caucasus in 1240, some Alans retreated into the mountains and mixed with the local population, becoming the Ossetians.",
+          "sources": [
+            "ir-wp-ossetian",
+            "ir-wp-alanic"
+          ]
+        },
+        {
+          "text": "The earliest known written sample is the Zelenchuk inscription, a 10th-century gravestone in Greek letters found in 1888. The first printed book in Ossetian, a short catechism, appeared in Moscow in 1798, and in 1844 Andreas Sjögren revised the Cyrillic alphabet. The poet Kosta Khetagurov (1859–1906), whose collection The Ossetian Lyre was first published in 1899, is regarded as the father of the modern literary language. Ossetian is the only Cyrillic-script language to use the letter Æ.",
+          "sources": [
+            "ir-wp-ossetian",
+            "ir-wp-arkhyz",
+            "ir-wp-khetagurov"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sogdian",
+      "name": "Sogdian",
+      "glottocode": "sogd1245",
+      "iso639_3": "sog",
+      "parent": "proto-iranian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "ir-glotto-sogd1245",
+        "ir-wp-sogdian"
+      ],
+      "period": {
+        "from": -400,
+        "to": 1000,
+        "approx": true,
+        "note": "Sogdian is a Middle Iranian language; the Middle Iranian stage is dated from about 400 BCE. Its oldest finds, fragments from Kultobe in Kazakhstan, are significantly earlier than the 4th century AD. Most Sogdian religious texts date from the 9th and 10th centuries; a dialect survives as modern Yaghnobi.",
+        "sources": [
+          "ir-wp-iranian",
+          "ir-wp-sogdian"
+        ]
+      },
+      "homeland": {
+        "lat": 39.7,
+        "lng": 66.983,
+        "label": "Sogdia, Central Asia (around Samarkand, present-day Uzbekistan)",
+        "sources": [
+          "ir-wp-sogdian",
+          "ir-glotto-sogd1245"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "ancient-letters",
+          "year": 313,
+          "approx": true,
+          "lat": 40.3535,
+          "lng": 93.864,
+          "place": "Watchtower just west of the Jade Gate (Yumen Pass), about 90 km west of Dunhuang, Gansu, China",
+          "description": "The 'Ancient Letters', Sogdian letters found by Aurel Stein in 1907 in a Chinese watchtower; the most persuasive arguments date them to 313–314 CE.",
+          "sources": [
+            "ir-silkroad-ancient-letters",
+            "ir-wp-sogdian",
+            "ir-wp-yumen"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Sogdian alphabet",
+            "code": "Sogd"
+          },
+          {
+            "name": "Manichaean alphabet",
+            "code": "Mani"
+          }
+        ],
+        "sources": [
+          "ir-wp-sogdian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Sogdian was the Eastern Iranian language of Sogdia, the Central Asian land of Samarkand, Panjakent and Bukhara. It was the most important lingua franca of Mongolia, China and Inner Asia, and in the Tang period (around the 7th century CE) the lingua franca of the Silk Road in Central Asia. It was an official language of the First Turkic Khanate and absorbed loanwords such as tym 'hotel' from Middle Chinese. Its script, derived from Aramaic, is the ancestor of the Old Uyghur and traditional Mongolian alphabets.",
+          "sources": [
+            "ir-wp-sogdian"
+          ]
+        },
+        {
+          "text": "In 1907 Aurel Stein found five Sogdian letters, the 'Ancient Letters', in a watchtower near Dunhuang. Large finds of Buddhist, Manichaean and Christian texts followed at Dunhuang and Turfan, and in the early 1930s business documents of the Sogdian ruler Divashtich came to light near Mount Mugh in Tajikistan. Sogdian survived some centuries after the Muslim conquest of Sogdia in the early 8th century, and a dialect from Osrushana lives on as Yaghnobi.",
+          "sources": [
+            "ir-wp-sogdian",
+            "ir-silkroad-ancient-letters"
+          ]
+        }
+      ]
+    }
+  ]
+}

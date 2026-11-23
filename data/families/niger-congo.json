@@ -1,0 +1,1473 @@
+{
+  "family": {
+    "id": "niger-congo",
+    "name": "Niger–Congo",
+    "root": "niger-congo"
+  },
+  "sources": [
+    {
+      "id": "wp-niger-congo",
+      "title": "Niger–Congo languages",
+      "url": "https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-atlantic-congo",
+      "title": "Atlantic–Congo languages",
+      "url": "https://en.wikipedia.org/wiki/Atlantic%E2%80%93Congo_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-atla1278",
+      "title": "Glottolog: Atlantic-Congo",
+      "url": "https://glottolog.org/resource/languoid/id/atla1278",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-bantu",
+      "title": "Bantu languages",
+      "url": "https://en.wikipedia.org/wiki/Bantu_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-bantu-expansion",
+      "title": "Bantu expansion",
+      "url": "https://en.wikipedia.org/wiki/Bantu_expansion",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-bantu",
+      "title": "Proto-Bantu language",
+      "url": "https://en.wikipedia.org/wiki/Proto-Bantu_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-narr1281",
+      "title": "Glottolog: Narrow Bantu",
+      "url": "https://glottolog.org/resource/languoid/id/narr1281",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "louwrens-1988",
+      "title": "Contributions made by the Portuguese to the development of Bantu linguistics between 1500 and 1917",
+      "url": "https://scientiamilitaria.journals.ac.za/pub/article/download/404/439",
+      "publisher": "Scientia Militaria 18(3)",
+      "author": "L. J. Louwrens",
+      "year": 1988
+    },
+    {
+      "id": "wp-yoruba",
+      "title": "Yoruba language",
+      "url": "https://en.wikipedia.org/wiki/Yoruba_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-yoru1245",
+      "title": "Glottolog: Yoruba",
+      "url": "https://glottolog.org/resource/languoid/id/yoru1245",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-bowdich-1819",
+      "title": "Glottolog reference: Bowdich, Thomas Edward 1819, Mission from Cape Coast Castle to Ashantee",
+      "url": "https://glottolog.org/resource/reference/id/59412",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-crowther",
+      "title": "Samuel Ajayi Crowther",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Ajayi_Crowther",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-townsend",
+      "title": "Henry Townsend (missionary)",
+      "url": "https://en.wikipedia.org/wiki/Henry_Townsend_(missionary)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-igbo",
+      "title": "Igbo language",
+      "url": "https://en.wikipedia.org/wiki/Igbo_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-nucl1417",
+      "title": "Glottolog: Igbo",
+      "url": "https://glottolog.org/resource/languoid/id/nucl1417",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-twi-fante",
+      "title": "Twi-Fante language (Akan)",
+      "url": "https://en.wikipedia.org/wiki/Twi-Fante_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-akan1250",
+      "title": "Glottolog: Akan",
+      "url": "https://glottolog.org/resource/languoid/id/akan1250",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "christaller-1875",
+      "title": "A Grammar of the Asante and Fante Language Called Tshi (Chwee, Twi)",
+      "url": "https://archive.org/details/agrammarasantea00chrigoog",
+      "publisher": "Basel Evangelical Missionary Society",
+      "author": "Johann Gottlieb Christaller",
+      "year": 1875
+    },
+    {
+      "id": "wp-christaller",
+      "title": "Johann Gottlieb Christaller",
+      "url": "https://en.wikipedia.org/wiki/Johann_Gottlieb_Christaller",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-wolof",
+      "title": "Wolof language",
+      "url": "https://en.wikipedia.org/wiki/Wolof_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-nucl1347",
+      "title": "Glottolog: Wolof",
+      "url": "https://glottolog.org/resource/languoid/id/nucl1347",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-wolof-people",
+      "title": "Wolof people",
+      "url": "https://en.wikipedia.org/wiki/Wolof_people",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-wolofal",
+      "title": "Wolofal alphabet",
+      "url": "https://en.wikipedia.org/wiki/Wolofal_alphabet",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-jean-dard",
+      "title": "Jean Dard",
+      "url": "https://en.wikipedia.org/wiki/Jean_Dard",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-fula",
+      "title": "Fula language",
+      "url": "https://en.wikipedia.org/wiki/Fula_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-fula1264",
+      "title": "Glottolog: Fula",
+      "url": "https://glottolog.org/resource/languoid/id/fula1264",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-fula-people",
+      "title": "Fula people",
+      "url": "https://en.wikipedia.org/wiki/Fula_people",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-usman",
+      "title": "Usman dan Fodio",
+      "url": "https://en.wikipedia.org/wiki/Usman_dan_Fodio",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-adlam",
+      "title": "Adlam script",
+      "url": "https://en.wikipedia.org/wiki/Adlam_script",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-swahili",
+      "title": "Swahili language",
+      "url": "https://en.wikipedia.org/wiki/Swahili",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-swah1253",
+      "title": "Glottolog: Swahili",
+      "url": "https://glottolog.org/resource/languoid/id/swah1253",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-utendi",
+      "title": "Utendi wa Tambuka",
+      "url": "https://en.wikipedia.org/wiki/Utendi_wa_Tambuka",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-steere",
+      "title": "Edward Steere",
+      "url": "https://en.wikipedia.org/wiki/Edward_Steere",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "unesco-kiswahili",
+      "title": "World Kiswahili Language Day",
+      "url": "https://www.unesco.org/en/days/kiswahili-language",
+      "publisher": "UNESCO"
+    },
+    {
+      "id": "ws-swahili-tales",
+      "title": "Swahili Tales, as told by natives of Zanzibar (Wikisource)",
+      "url": "https://en.wikisource.org/wiki/Swahili_Tales",
+      "publisher": "Wikisource",
+      "author": "Edward Steere",
+      "year": 1870
+    },
+    {
+      "id": "ws-swahili-tales-sw",
+      "title": "Swahili Tales, page 22 (Swahili text, 'Kisa cha Punda wa Dobi')",
+      "url": "https://wikisource.org/wiki/Page:Swahili_tales.djvu/22",
+      "publisher": "Multilingual Wikisource",
+      "author": "Edward Steere",
+      "year": 1870
+    },
+    {
+      "id": "ws-swahili-tales-en",
+      "title": "Swahili Tales, page 23 (English translation, 'The Story of the Washerman's Donkey')",
+      "url": "https://en.wikisource.org/wiki/Page:Swahili_tales.djvu/23",
+      "publisher": "Wikisource",
+      "author": "Edward Steere",
+      "year": 1870
+    },
+    {
+      "id": "ia-swahili-tales",
+      "title": "Swahili tales: as told by natives of Zanzibar (scan)",
+      "url": "https://archive.org/details/swahilitalesasto00stee",
+      "publisher": "Internet Archive",
+      "author": "Edward Steere",
+      "year": 1870
+    },
+    {
+      "id": "wp-zulu",
+      "title": "Zulu language",
+      "url": "https://en.wikipedia.org/wiki/Zulu_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-zulu1248",
+      "title": "Glottolog: Zulu",
+      "url": "https://glottolog.org/resource/languoid/id/zulu1248",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-xhosa",
+      "title": "Xhosa language",
+      "url": "https://en.wikipedia.org/wiki/Xhosa_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-xhos1239",
+      "title": "Glottolog: Xhosa",
+      "url": "https://glottolog.org/resource/languoid/id/xhos1239",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-bennie",
+      "title": "John Bennie (missionary)",
+      "url": "https://en.wikipedia.org/wiki/John_Bennie_(missionary)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-shona",
+      "title": "Shona language",
+      "url": "https://en.wikipedia.org/wiki/Shona_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-shon1251",
+      "title": "Glottolog: Shona",
+      "url": "https://glottolog.org/resource/languoid/id/shon1251",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-mutapa",
+      "title": "Mutapa Empire",
+      "url": "https://en.wikipedia.org/wiki/Mutapa_Empire",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-lingala",
+      "title": "Lingala",
+      "url": "https://en.wikipedia.org/wiki/Lingala",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-ling1269",
+      "title": "Glottolog: Lingala-Bangala",
+      "url": "https://glottolog.org/resource/languoid/id/ling1269",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-makanza",
+      "title": "Makanza",
+      "url": "https://en.wikipedia.org/wiki/Makanza",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kongo",
+      "title": "Kongo language",
+      "url": "https://en.wikipedia.org/wiki/Kongo_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "glotto-kiko1235",
+      "title": "Glottolog: Kikongo Language Cluster",
+      "url": "https://glottolog.org/resource/languoid/id/kiko1235",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-mbanza-kongo",
+      "title": "Mbanza Kongo",
+      "url": "https://en.wikipedia.org/wiki/Mbanza_Kongo",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "niger-congo",
+      "name": "Niger–Congo",
+      "glottocode": null,
+      "parent": null,
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "wp-niger-congo"
+      ],
+      "story": [
+        {
+          "text": "Niger–Congo is a proposed language family spoken over most of sub-Saharan Africa. It unites the Mande languages, the Atlantic–Congo languages and possibly several smaller groups that are difficult to classify. Ethnologue lists 1,540 named Niger–Congo languages, and if the family is valid it would be the world's largest by number of member languages. Similar groupings go back to Diedrich Westermann in 1922, and Joseph Greenberg named the family Niger–Congo in work published between 1949 and 1954, later revised in his 1963 book The Languages of Africa.",
+          "sources": [
+            "wp-niger-congo"
+          ]
+        },
+        {
+          "text": "The core Atlantic–Congo languages share a characteristic noun-class system. Within the family, the Bantu languages alone account for about 350 million people (2015), roughly half of all Niger–Congo speakers. The most widely spoken Niger–Congo languages by native speakers include Yoruba, Fula, Igbo, Lingala, Zulu, Shona and Xhosa; by total number of speakers the largest is Swahili, a lingua franca in parts of eastern and southeastern Africa.",
+          "sources": [
+            "wp-niger-congo"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Niger–Congo is a hypothesis rather than a demonstrated family. Jeff Good (2020) notes that the term is used as a label for over 1,500 languages but also embodies a hypothesis of genealogical relationship that has not been proven, and no definitive Proto-Niger–Congo lexicon or grammar has been developed. Dixon (1997) suggested that Niger–Congo may be merely a typological rather than a genetic unity; Roger Blench, in a working paper, writes that this view is not held by any specialists in the phylum.",
+          "sources": [
+            "wp-niger-congo"
+          ]
+        },
+        {
+          "text": "Glottolog accepts Atlantic–Congo as a family but not its inclusion within a broader Niger–Congo, and treats Mande, Dogon and Ijoid as independent families that have not been shown to be related to each other. It also does not accept that the Kordofanian branches have been demonstrated to be Atlantic–Congo. The genetic unity of the Atlantic–Congo core is widely accepted, and Pozdniakov and Vydrin (2026) argue on lexical grounds that Mande is related to Bantu and so to the other Niger–Congo languages.",
+          "sources": [
+            "wp-niger-congo",
+            "wp-atlantic-congo",
+            "glotto-atla1278"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atlantic-congo",
+      "name": "Atlantic–Congo",
+      "glottocode": "atla1278",
+      "parent": "niger-congo",
+      "kind": "group",
+      "status": "living",
+      "sources": [
+        "wp-atlantic-congo",
+        "glotto-atla1278",
+        "wp-niger-congo"
+      ],
+      "story": [
+        {
+          "text": "Atlantic–Congo is the largest demonstrated family of languages in Africa and forms the core of the Niger–Congo hypothesis. Its languages have characteristic noun-class systems. It comprises all of Niger–Congo apart from Mande, Dogon, Ijoid, Siamou, Kru, the Katla and Rashad languages and perhaps some or all of the Ubangian languages. Glottolog, based mainly on Güldemann (2018), recognizes a narrower Atlantic–Congo consisting basically of Volta–Congo and the former West Atlantic languages.",
+          "sources": [
+            "wp-atlantic-congo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yoruba",
+      "name": "Yoruba",
+      "nativeName": "Èdè Yorùbá",
+      "nativeScript": "Latn",
+      "glottocode": "yoru1245",
+      "iso639_3": "yor",
+      "parent": "atlantic-congo",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-yoruba",
+        "glotto-yoru1245"
+      ],
+      "period": {
+        "from": 1819,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "glotto-bowdich-1819"
+        ],
+        "note": "First attestation: Thomas Edward Bowdich's Mission from Cape Coast Castle to Ashantee (1819) contains the first known vocabulary of Yoruba, listed under the names 'Hio' and 'Eyo'. The language itself is older; the sources used give no date for its emergence."
+      },
+      "homeland": {
+        "lat": 7.15345,
+        "lng": 3.67225,
+        "label": "Yorubaland, southwestern Nigeria",
+        "sources": [
+          "wp-yoruba",
+          "glotto-yoru1245"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "iwe-irohin",
+          "year": 1859,
+          "approx": false,
+          "lat": 7.1608,
+          "lng": 3.3483,
+          "place": "Abeokuta, Nigeria",
+          "description": "Henry Townsend, an Anglican missionary who based his mission in Abeokuta from 1846 to 1867, published the Yoruba newspaper Iwe Irohin there in 1859.",
+          "sources": [
+            "wp-townsend"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Yoruba alphabet)",
+            "code": "Latn"
+          },
+          {
+            "name": "Arabic (Ajami)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-yoruba"
+        ]
+      },
+      "speakers": {
+        "count": 48000000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-yoruba"
+        ]
+      },
+      "story": [
+        {
+          "text": "Yoruba is spoken mainly in southwestern Nigeria and in Benin and parts of Togo, by roughly 50 million people, including around 2 million second-language speakers. As the principal Yoruboid language it is most closely related to Itsekiri, spoken in the Niger Delta, and Igala, spoken in central Nigeria. Its dialect continuum is commonly divided into five areas: Northwest, Northeast, Central, Southwest and Southeast. Standard Yoruba, the written and school variety, is based largely on the Ọyọ and Ibadan dialects.",
+          "sources": [
+            "wp-yoruba"
+          ]
+        },
+        {
+          "text": "The first known vocabulary of Yoruba appeared in Thomas Bowdich's 1819 account of his mission to Ashanti. Standard Yoruba orthography grew out of the work of Church Mission Society missionaries among the Yoruba, called Aku, of Freetown. One of their informants was Samuel Ajayi Crowther, who had been captured and sold to slave traders as a boy in 1821. Crowther published a grammar in 1843 and A Vocabulary of the Yoruba Language, with many proverbs, in 1852, and became the first African Anglican bishop of West Africa.",
+          "sources": [
+            "glotto-bowdich-1819",
+            "wp-yoruba",
+            "wp-crowther"
+          ]
+        },
+        {
+          "text": "Yoruba also crossed the Atlantic: many enslaved people trafficked to the Americas, particularly to Latin America, spoke it. Its vocabulary lives on in African diaspora religions such as Candomblé in Brazil and Santería in the Caribbean, where the liturgical Lucumí language preserves Yoruba words and phrases in songs and chants, even though most practitioners are not fluent speakers.",
+          "sources": [
+            "wp-yoruba"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "igbo",
+      "name": "Igbo",
+      "nativeName": "Ásụ̀sụ́ Ìgbò",
+      "nativeScript": "Latn",
+      "glottocode": "nucl1417",
+      "iso639_3": "ibo",
+      "parent": "atlantic-congo",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-igbo",
+        "glotto-nucl1417"
+      ],
+      "period": {
+        "from": 1777,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "wp-igbo"
+        ],
+        "note": "First attestation: the first book to publish Igbo terms, a history of the mission of the Evangelical Brethren in the Caribbean, appeared in 1777. The language itself is older; the sources used give no date for its emergence."
+      },
+      "homeland": {
+        "lat": 5.485,
+        "lng": 7.035,
+        "label": "Igboland (Imo State), southeastern Nigeria",
+        "sources": [
+          "wp-igbo"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "isoama-ibo-primer",
+          "year": 1857,
+          "approx": false,
+          "lat": 5.5519,
+          "lng": 6.5261,
+          "place": "Aboh, on the Niger, Nigeria",
+          "description": "Samuel Ajayi Crowther published an Igbo primer in 1857, after the Niger expedition of that year. Simon Jonas, a young Igbo missionary, travelled with Crowther to Aboh in 1857, and some accounts credit him with preparing the primer.",
+          "sources": [
+            "wp-igbo",
+            "wp-crowther"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Ọnwụ alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-igbo"
+        ]
+      },
+      "speakers": {
+        "count": 34000000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-igbo"
+        ]
+      },
+      "story": [
+        {
+          "text": "Igbo is the principal native language of the Igbo people of southeastern Nigeria and the dominant language of Abia, Anambra, Ebonyi, Enugu and Imo states. It is a tonal language in which words may differ only in tone: ákwá means 'cry' and àkwà 'bed'. The core Igbo cluster is generally thought to be one language, although mutual intelligibility between its northern, western, southern and eastern groupings is limited.",
+          "sources": [
+            "wp-igbo"
+          ]
+        },
+        {
+          "text": "Igbo terms first appeared in print in 1777, in a history of the Evangelical Brethren's mission in the Caribbean, and in 1789 Olaudah Equiano's Interesting Narrative, published in London, included 79 Igbo words. The Union Igbo Bible of 1913 standardized the language for church use; Ida C. Ward proposed Central Igbo as a literary form in 1939, and a general standard, Igbo izugbe, was adopted around 1972. Chinua Achebe denounced these standardization efforts in a 1999 lecture in Owerri.",
+          "sources": [
+            "wp-igbo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "akan",
+      "name": "Akan (Twi-Fante)",
+      "nativeName": "Twi",
+      "nativeScript": "Latn",
+      "glottocode": "akan1250",
+      "iso639_3": "aka",
+      "parent": "atlantic-congo",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-twi-fante",
+        "glotto-akan1250"
+      ],
+      "period": {
+        "from": 1673,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "christaller-1875"
+        ],
+        "note": "First attestation: W. J. Müller's book on Fetu, published in Hamburg in 1673, contains about 500 words of the Fante dialect of Cape Coast, which Christaller (1875) called the earliest specimens of the language. The language itself is older."
+      },
+      "homeland": {
+        "lat": 6.34756,
+        "lng": -1.33254,
+        "label": "southern Ghana",
+        "sources": [
+          "wp-twi-fante",
+          "glotto-akan1250"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "muller-fetu-vocabulary",
+          "year": 1673,
+          "approx": false,
+          "lat": 5.1,
+          "lng": -1.25,
+          "place": "Cape Coast, Ghana",
+          "description": "W. J. Müller, a Danish chaplain in 1662–70 at Frederiksborg, a fort near Cape Coast Castle, published his book on Fetu in Hamburg in 1673 with a vocabulary of about 500 words in the Fante dialect of Cape Coast.",
+          "sources": [
+            "christaller-1875"
+          ]
+        },
+        {
+          "id": "christaller-akropong",
+          "year": 1875,
+          "approx": false,
+          "lat": 5.9748,
+          "lng": -0.0878,
+          "place": "Akropong, Akuapem, Ghana",
+          "description": "Johann Gottlieb Christaller, a Basel missionary posted to Akropong in 1853, published his grammar of Twi based on the Akuapem dialect in 1875.",
+          "sources": [
+            "wp-christaller",
+            "christaller-1875"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-twi-fante"
+        ]
+      },
+      "speakers": {
+        "count": 8900000,
+        "year": 2013,
+        "scope": "L1",
+        "sources": [
+          "wp-twi-fante"
+        ]
+      },
+      "story": [
+        {
+          "text": "Akan, which its speakers usually call Twi or Fante, is the main native language of the Akan people and is spoken over much of the southern half of Ghana. About 44% of Ghanaians are native speakers, and about 80% speak it as a first or second language. Asante Twi, Akuapem Twi and Fante each developed as a literary standard with its own orthography, until the Akan Orthography Committee created a common orthography in 1978, based mainly on Akuapem.",
+          "sources": [
+            "wp-twi-fante"
+          ]
+        },
+        {
+          "text": "The earliest specimens of the language are about 500 Fante words from Cape Coast, printed in W. J. Müller's book on Fetu in 1673. Akuapem, the first Akan variety used for Bible translation, became the prestige dialect. The Basel missionary Johann Gottlieb Christaller, posted to Akropong in 1853, worked with David Asante and Theophilus Opoku on the Twi Bible and published a grammar in 1875 and a two-volume dictionary in 1881.",
+          "sources": [
+            "christaller-1875",
+            "wp-twi-fante",
+            "wp-christaller"
+          ]
+        },
+        {
+          "text": "Through the Atlantic slave trade, Twi and Fante were carried to the Caribbean and South America, notably to Suriname and Jamaica, where they heavily influenced the language of the Ndyuka people and of the Jamaican Maroons. Maroon communities still keep the Akan practice of naming children after the day of the week on which they were born, and Ananse spider stories remain well known there.",
+          "sources": [
+            "wp-twi-fante"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wolof",
+      "name": "Wolof",
+      "nativeName": "Wolof làkk",
+      "nativeScript": "Latn",
+      "glottocode": "nucl1347",
+      "iso639_3": "wol",
+      "parent": "atlantic-congo",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-wolof",
+        "glotto-nucl1347"
+      ],
+      "period": {
+        "from": 1826,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "wp-wolof",
+          "wp-wolof-people"
+        ],
+        "note": "Earliest dated record found in the sources used: Jean Dard's Grammaire wolofe of 1826. The language is much older; the Jolof (Wolof) Empire ruled from about 1350."
+      },
+      "homeland": {
+        "lat": 15.2534,
+        "lng": -15.383,
+        "label": "Central Senegal (former Jolof kingdom; Wolof origins are obscure)",
+        "sources": [
+          "glotto-nucl1347",
+          "wp-wolof-people"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "dard-grammaire-wolofe",
+          "year": 1826,
+          "approx": false,
+          "lat": 16.033,
+          "lng": -16.5,
+          "place": "Saint-Louis, Senegal",
+          "description": "Jean Dard, a French teacher who opened a school in Saint-Louis in 1817 where children learned to read and write in Wolof, compiled a Wolof grammar; his Grammaire wolofe of 1826 was later the source of over 200 Wolof proverbs printed by Richard Burton.",
+          "sources": [
+            "wp-jean-dard",
+            "wp-wolof"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Wolof alphabet)",
+            "code": "Latn"
+          },
+          {
+            "name": "Arabic (Wolofal)",
+            "code": "Arab"
+          },
+          {
+            "name": "Garay",
+            "code": "Gara"
+          }
+        ],
+        "sources": [
+          "wp-wolof"
+        ]
+      },
+      "speakers": {
+        "count": 8200000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-wolof"
+        ]
+      },
+      "story": [
+        {
+          "text": "Wolof is spoken by the Wolof people across Senegambia, in Senegal, the Gambia and Mauritania. It is the most widely spoken language of Senegal: the Wolof are about 40% of the population, and most other Senegalese speak it as a second language. Like its neighbours Serer and Fula it belongs to the Senegambian branch, but unlike most languages of its family it is not tonal. The main dialect of Dakar is an urban mixture of Wolof, French and Arabic.",
+          "sources": [
+            "wp-wolof"
+          ]
+        },
+        {
+          "text": "The Jolof or Wolof Empire ruled parts of present-day Senegal, southern Mauritania and the Gambia from about 1350 to 1890. Wolof is written in the Latin alphabet and in Wolofal, a form of the Arabic script. Jean Dard's Grammaire wolofe of 1826 supplied over 200 Wolof proverbs that Richard Francis Burton printed with English translations in Wit and Wisdom from West Africa (1865), and David Boilat's grammar of 1858 added proverbs, riddles and folktales.",
+          "sources": [
+            "wp-wolof-people",
+            "wp-wolofal",
+            "wp-wolof"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fula",
+      "name": "Fula (Fulfulde)",
+      "nativeName": "Fulfulde",
+      "nativeScript": "Latn",
+      "glottocode": "fula1264",
+      "iso639_3": "ful",
+      "parent": "atlantic-congo",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-fula",
+        "glotto-fula1264"
+      ],
+      "period": {
+        "from": 1787,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-usman",
+          "wp-fula"
+        ],
+        "note": "Earliest dated written use found in the sources used: by 1787 Usman dan Fodio was composing long poems in Fulfulde. Fula was written in Ajami before European colonization, and the language itself is older."
+      },
+      "homeland": {
+        "lat": 16.15,
+        "lng": -13.5,
+        "label": "Futa Toro, middle Senegal River valley",
+        "sources": [
+          "wp-fula-people"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Adlam",
+            "code": "Adlm"
+          },
+          {
+            "name": "Arabic (Ajami)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-fula",
+          "wp-adlam"
+        ]
+      },
+      "speakers": {
+        "count": 37000000,
+        "year": 2021,
+        "scope": "L1",
+        "sources": [
+          "wp-fula"
+        ]
+      },
+      "story": [
+        {
+          "text": "Fula, natively Fulfulde, Pulaar or Pular, is a Senegambian language spoken by around 36.8 million people as a continuum of dialects stretching across some 18 countries of West and Central Africa. It is related to Serer and Wolof. Fula oral historians speak of an 'Old Fuuta' that includes Futa Toro, and a 'New Fuuta' that includes Futa Djallon, Massina, Sokoto and the Adamawa region; some Fulani traditions hold Futa Toro to be their homeland, a view supported by linguistic evidence.",
+          "sources": [
+            "wp-fula",
+            "wp-wolof",
+            "wp-fula-people"
+          ]
+        },
+        {
+          "text": "Fula was written in the Arabic-based Ajami script before European colonization. By 1787 the scholar Usman dan Fodio, who led the jihad that founded the Sokoto Caliphate in the early 1800s, was composing long poems in Fulfulde. In the Latin alphabet, Fula uses hooked letters such as ɓ, ɗ and ƴ. In the late 1980s two teenage brothers, Ibrahima and Abdoulaye Barry, devised Adlam, whose name stands for 'the alphabet that protects the peoples from vanishing'; it is now taught in Guinea, Nigeria and Liberia and beyond.",
+          "sources": [
+            "wp-fula",
+            "wp-usman",
+            "wp-adlam"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Glottolog treats Fula (fula1264) as a family rather than a single language, so the code stands for the Fula dialect continuum as a whole; the ISO 639-3 code ful covers the same grouping.",
+          "sources": [
+            "glotto-fula1264"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proto-bantu",
+      "name": "Proto-Bantu",
+      "glottocode": "narr1281",
+      "parent": "atlantic-congo",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-proto-bantu",
+        "wp-bantu",
+        "glotto-narr1281"
+      ],
+      "period": {
+        "from": -4000,
+        "to": -2000,
+        "approx": true,
+        "sources": [
+          "wp-proto-bantu"
+        ],
+        "note": "Proto-Bantu split from Proto-Southern Bantoid about 6,000 years ago. Its reconstructed vocabulary (agriculture, fishing and boats, but not iron-working) places the start of the expansion somewhere between 3000 and 800 BCE; the end date used here is a round figure within that range."
+      },
+      "homeland": {
+        "lat": 5.96,
+        "lng": 10.15,
+        "label": "Cameroon–Nigeria borderland highlands (Bamenda highlands, Cameroon)",
+        "sources": [
+          "wp-bantu-expansion"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Bantu is the reconstructed ancestor of the Bantu languages, which form the largest branch of Southern Bantoid. Its descendants number between 440 and 680 languages, spoken by around 350 million people (2015) across Central, Eastern and Southern Africa. The name comes from its word for 'people': Wilhelm Bleek identified the term Bâ-ntu in 1857 or 1858, from the plural class prefix *ba- and the root *ntʊ̀-, still seen in Zulu and Xhosa abantu 'people'.",
+          "sources": [
+            "wp-bantu",
+            "wp-proto-bantu"
+          ]
+        },
+        {
+          "text": "Linguists reconstruct a small sound system of 11 consonants and 7 vowels, with open syllables only. The reconstructed vocabulary shows that agriculture, fishing and boats were known before the expansion began, but iron-working was not. Speakers spread from the Cameroon area in two streams: a Western Stream that reached central Angola around 500 BCE, and an Eastern Stream that reached the area west of Lake Victoria at about the same time. The expansion probably reached South Africa as early as 300 CE.",
+          "sources": [
+            "wp-proto-bantu",
+            "wp-bantu-expansion"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The exact homeland is debated. Many Bantuists place the start of the expansion in the highlands between Cameroon and Nigeria, where the Mambilla region has been described as holding remnants of 'the Bantu who stayed home'. Bostoen and colleagues (2015) instead locate the homeland of Proto-Bantu in the upland forest fringes around the Sanaga and Nyong rivers of southern Cameroon.",
+          "sources": [
+            "wp-bantu-expansion",
+            "wp-proto-bantu"
+          ]
+        },
+        {
+          "text": "A minority view doubts that Proto-Bantu existed as a unified language before the Bantu expansion, and suggests it may have been a group of related dialects. Roger Blench (2012) argues that no genuine reconstruction links the highly diverse languages of zone A, and that most claimed Proto-Bantu is either confined to particular subgroups or widely attested outside Bantu proper. On this view Bantu is a polyphyletic group of smaller families within Southern Bantoid.",
+          "sources": [
+            "wp-proto-bantu"
+          ]
+        },
+        {
+          "text": "Glottolog has no entry for the reconstructed Proto-Bantu, so the glottocode given here (narr1281) is that of Glottolog's Narrow Bantu family, which has more than 500 languages and is the family descended from the proto-language.",
+          "sources": [
+            "glotto-narr1281",
+            "wp-proto-bantu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swahili",
+      "name": "Swahili",
+      "nativeName": "Kiswahili",
+      "nativeScript": "Latn",
+      "glottocode": "swah1253",
+      "iso639_3": "swh",
+      "parent": "proto-bantu",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-swahili",
+        "glotto-swah1253"
+      ],
+      "period": {
+        "from": 1711,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "wp-swahili"
+        ],
+        "note": "First attestation: letters written at Kilwa in 1711 are the earliest known documents in Swahili. The language itself is older."
+      },
+      "homeland": {
+        "lat": -4.05,
+        "lng": 39.67,
+        "label": "Swahili coast of East Africa (point placed at Mombasa, Kenya)",
+        "sources": [
+          "wp-swahili"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "kilwa-letters",
+          "year": 1711,
+          "approx": false,
+          "lat": -8.96,
+          "lng": 39.5128,
+          "place": "Kilwa Kisiwani, Tanzania",
+          "description": "The earliest known documents in Swahili are letters written at Kilwa in 1711 in the Arabic script and sent to the Portuguese of Mozambique and their local allies; the originals are kept in the Historical Archives of Goa.",
+          "sources": [
+            "wp-swahili"
+          ]
+        },
+        {
+          "id": "utendi-wa-tambuka-pate",
+          "year": 1728,
+          "approx": false,
+          "lat": -2.1,
+          "lng": 41.05,
+          "place": "Pate Island, Lamu archipelago, Kenya",
+          "description": "The oldest manuscript of the epic Utendi wa Tambuka, dated 1141 AH (1728 CE), was written at Yunga, a royal palace in the old town of Pate, by Bwana Mwengo at the request of the Sultan of Pate.",
+          "sources": [
+            "wp-utendi"
+          ]
+        },
+        {
+          "id": "swahili-tales-zanzibar",
+          "year": 1870,
+          "approx": false,
+          "lat": -6.1622,
+          "lng": 39.1921,
+          "place": "Zanzibar",
+          "description": "Edward Steere published Swahili Tales, as told by natives of Zanzibar, with the Swahili text and an English translation, in 1870.",
+          "sources": [
+            "ws-swahili-tales",
+            "wp-steere"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Arabic (Swahili Ajami)",
+            "code": "Arab"
+          }
+        ],
+        "sources": [
+          "wp-swahili"
+        ]
+      },
+      "story": [
+        {
+          "text": "Swahili, or Kiswahili, is a Bantu language of the Sabaki branch, originally spoken by the Swahili people along the East African coast and its islands in Tanzania, Kenya and Mozambique. Its name comes from an Arabic word meaning 'coasts', and about 40% of its vocabulary consists of Arabic loanwords, alongside words from Portuguese, English and German. It spread as a regional lingua franca, and estimates of its native and second-language speakers range from 40 million to 200 million.",
+          "sources": [
+            "wp-swahili"
+          ]
+        },
+        {
+          "text": "The earliest known Swahili documents are letters written at Kilwa in 1711 in the Arabic script. Classical Swahili poetry, traditionally written in Ajami, is based on Kiamu, the dialect of Lamu. Its best-known early work is the Utendi wa Tambuka, an epic of the wars between the Muslims and the Byzantines whose oldest manuscript was written at the palace of Yunga in Pate in 1728. Its verse form, the utenzi, uses four-line stanzas with eight syllables in each line.",
+          "sources": [
+            "wp-swahili",
+            "wp-utendi"
+          ]
+        },
+        {
+          "text": "The Latin alphabet was introduced by Christian missionaries and colonial administrators. Edward Steere, who spent several periods in Zanzibar between 1864 and 1882, published a Handbook of Swahili and a collection of Swahili tales in 1870. After Tanganyika became independent in 1961, its government chose Swahili to unify the new nation, and in 2021 UNESCO proclaimed 7 July World Kiswahili Language Day, the first such UN recognition of an African language.",
+          "sources": [
+            "wp-swahili",
+            "wp-steere",
+            "ws-swahili-tales",
+            "unesco-kiswahili"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "kisa-cha-punda-wa-dobi",
+          "title": "The Story of the Washerman's Donkey (from Swahili Tales)",
+          "titleOriginal": "Kisa cha Punda wa Dobi",
+          "author": "Anonymous (traditional tale told by natives of Zanzibar; recorded by Edward Steere)",
+          "date": "published 1870",
+          "year": 1870,
+          "significance": "The opening tale of Swahili Tales (1870), a collection of stories told by natives of Zanzibar that Edward Steere printed with the Swahili text and an English translation; Steere is especially known for his work on the Swahili language.",
+          "original": "Aliondokea kima akafanya urafiki na papa. Pana mti mkubwa, jina lake mkuyu, umeota katika kilindi, matawi yake nussu yako mjini, na nussu yako baharini. Yule kima kulla siku kwenda akila kuyu, na yule rafiki yake papa huwapo chini ya mti. Humwambia, utupie nami rafiki yangu vyakula; humtupia siku nyingi na miezi mingi.",
+          "originalScript": "Latn",
+          "translation": "There was once a monkey which made friends with a shark. There was a great tree, of the sort called mkuyu, which grew near the deep water; half its branches were over the town and half over the sea. The monkey used to go every day and eat the kuyu fruit, and his friend the shark was there under the tree. He used to say, \"Throw me some food, my friend;\" and he used to throw to him, many days and many months.",
+          "translator": "Edward Steere",
+          "translationYear": 1870,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://archive.org/details/swahilitalesasto00stee",
+          "sources": [
+            "ws-swahili-tales-sw",
+            "ws-swahili-tales-en",
+            "ws-swahili-tales",
+            "ia-swahili-tales",
+            "wp-steere"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zulu",
+      "name": "Zulu",
+      "nativeName": "isiZulu",
+      "nativeScript": "Latn",
+      "glottocode": "zulu1248",
+      "iso639_3": "zul",
+      "parent": "proto-bantu",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-zulu",
+        "glotto-zulu1248"
+      ],
+      "period": {
+        "from": 1850,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "wp-zulu"
+        ],
+        "note": "Earliest dated record found in the sources used: the first grammar of Zulu, published in Norway in 1850 by Hans Schreuder. The language itself is older."
+      },
+      "homeland": {
+        "lat": -28.9,
+        "lng": 30.2,
+        "label": "KwaZulu-Natal, South Africa",
+        "sources": [
+          "wp-zulu",
+          "glotto-zulu1248"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "callaway-nursery-tales",
+          "year": 1868,
+          "approx": false,
+          "lat": -29.62,
+          "lng": 30.38,
+          "place": "Colony of Natal (now KwaZulu-Natal), South Africa (map point at Pietermaritzburg)",
+          "description": "Henry Callaway published a collection of traditional Zulu tales told by storytellers in the Colony of Natal, with the Zulu text and an English translation.",
+          "sources": [
+            "wp-zulu"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Zulu alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-zulu"
+        ]
+      },
+      "speakers": {
+        "count": 12000000,
+        "year": 2017,
+        "scope": "L1",
+        "sources": [
+          "wp-zulu"
+        ]
+      },
+      "story": [
+        {
+          "text": "Zulu, or isiZulu, is a Southern Bantu language of the Nguni branch, indigenous to Southern Africa. Most of its native speakers live in the province of KwaZulu-Natal, and it is the most widely spoken home language in South Africa, used by 24% of the population and understood by over half. It became one of South Africa's official languages in 1994. Zulu is often considered mutually intelligible with Xhosa.",
+          "sources": [
+            "wp-zulu",
+            "wp-xhosa"
+          ]
+        },
+        {
+          "text": "The Norwegian missionary Hans Schreuder published the first grammar of Zulu in Norway in 1850. In 1868 Henry Callaway printed traditional tales told by storytellers in the Colony of Natal, with the Zulu text and an English translation, and John Colenso's Zulu–English Dictionary followed in 1884. John Dube, who founded the Ohlange Institute in 1901, wrote Insila kaShaka (1930), the first novel in Zulu, and Reginald Dhlomo wrote historical novels on 19th-century Zulu leaders from Dingane to Dinizulu.",
+          "sources": [
+            "wp-zulu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xhosa",
+      "name": "Xhosa",
+      "nativeName": "isiXhosa",
+      "nativeScript": "Latn",
+      "glottocode": "xhos1239",
+      "iso639_3": "xho",
+      "parent": "proto-bantu",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-xhosa",
+        "glotto-xhos1239"
+      ],
+      "period": {
+        "from": 1823,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "wp-bennie"
+        ],
+        "note": "First attestation in print: the first sheets of printed Xhosa, produced on 19 December 1823. The language itself is older."
+      },
+      "homeland": {
+        "lat": -31.0389,
+        "lng": 28.0769,
+        "label": "Eastern Cape, South Africa",
+        "sources": [
+          "wp-xhosa",
+          "glotto-xhos1239"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "tyhume-press",
+          "year": 1823,
+          "approx": false,
+          "lat": -32.685,
+          "lng": 26.905,
+          "place": "Tyhume valley, Eastern Cape, South Africa",
+          "description": "John Ross brought a printing press to Tyhume in December 1823, and the first sheets of printed Xhosa were produced there on 19 December 1823. The oldest piece of continuous printed Xhosa known is John Bennie's one-page Xhosa reading sheet, printed in 1823.",
+          "sources": [
+            "wp-bennie",
+            "wp-xhosa"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Xhosa alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-xhosa"
+        ]
+      },
+      "speakers": {
+        "count": 8000000,
+        "year": 2013,
+        "scope": "L1",
+        "sources": [
+          "wp-xhosa"
+        ]
+      },
+      "story": [
+        {
+          "text": "Xhosa, or isiXhosa, is a Bantu language of the Nguni branch, indigenous to Southern Africa and an official language of South Africa and Zimbabwe. About 8 million people speak it as a first language, especially in the Eastern Cape. It has perhaps the heaviest functional load of click consonants in a Bantu language: one count found clicks in 10% of basic vocabulary items. It is often considered mutually intelligible with Zulu.",
+          "sources": [
+            "wp-xhosa"
+          ]
+        },
+        {
+          "text": "Xhosa had a rich history of oral traditions before it was printed. The Scottish missionary John Bennie had already produced a transcription of the language when John Ross brought a printing press to the Tyhume valley in December 1823, and the first sheets of printed Xhosa were produced on 19 December that year. The first Bible translation followed in 1859, produced in part by Henry Hare Dugmore.",
+          "sources": [
+            "wp-xhosa",
+            "wp-bennie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shona",
+      "name": "Shona",
+      "nativeName": "chiShona",
+      "nativeScript": "Latn",
+      "glottocode": "shon1251",
+      "iso639_3": "sna",
+      "parent": "proto-bantu",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-shona",
+        "glotto-shon1251"
+      ],
+      "period": {
+        "from": 1561,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "louwrens-1988"
+        ],
+        "note": "Earliest recorded words used here: a 1561 Portuguese account of Gonçalo da Silveira's mission to the Monomotapa records words such as engangas, compared with Shona nanga 'diviner'. Karanga place and royal names already appear in a Portuguese letter of 1506. The language itself is older."
+      },
+      "homeland": {
+        "lat": -17.20849,
+        "lng": 29.75725,
+        "label": "Zimbabwean plateau, Zimbabwe",
+        "sources": [
+          "wp-shona",
+          "glotto-shon1251"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "silveira-account",
+          "year": 1561,
+          "approx": false,
+          "lat": -16.5,
+          "lng": 31.5,
+          "place": "Mutapa kingdom, north of the Zimbabwean Plateau",
+          "description": "In 1561 the Jesuit Gonçalo da Silveira reached the court of the Mutapa ruler, where he was killed; an account of his mission compiled that year records Bantu words such as engangas 'wizards who cast lots' (compare Shona nanga 'diviner') and moroo 'wizard' (compare Shona muroyi).",
+          "sources": [
+            "louwrens-1988",
+            "wp-mutapa"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Shona alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-shona"
+        ]
+      },
+      "speakers": {
+        "count": 9600000,
+        "year": 2023,
+        "scope": "L1",
+        "sources": [
+          "wp-shona"
+        ]
+      },
+      "story": [
+        {
+          "text": "Shona, or chiShona, is a Bantu language of the Shona people of Zimbabwe and Mozambique. The name is used both for the Central Shona varieties, including Zezuru, Manyika, Korekore and Karanga, and more narrowly for Standard Shona, a variety codified in the mid-20th century; in the broader sense it has over 14 million speakers. With Ndau and Kalanga it forms the Shonic group, zone S.10 in Malcolm Guthrie's classification of the Bantu languages.",
+          "sources": [
+            "wp-shona"
+          ]
+        },
+        {
+          "text": "Portuguese writers recorded words of the language from the 16th century. A Jesuit account of Gonçalo da Silveira's mission to the Mutapa ruler in 1561 notes words such as engangas, comparable with Shona nanga 'diviner'. The linguist Clement Doke surveyed the dialects in 1930, and from 1931 to 1955 Unified Shona was written with an alphabet he developed. The first novel in Shona, Solomon Mutswairo's Feso, was published in 1957.",
+          "sources": [
+            "louwrens-1988",
+            "wp-mutapa",
+            "wp-shona"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lingala",
+      "name": "Lingala",
+      "nativeName": "Lingála",
+      "nativeScript": "Latn",
+      "glottocode": "ling1269",
+      "iso639_3": "lin",
+      "parent": "proto-bantu",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-lingala",
+        "glotto-ling1269"
+      ],
+      "period": {
+        "from": 1880,
+        "to": null,
+        "approx": true,
+        "sources": [
+          "wp-lingala"
+        ],
+        "note": "Lingala developed from a restructured trade variety of Bobangi that arose when Europeans founded state posts on the Congo River in the early 1880s; it was introduced at Bangala Station in 1884."
+      },
+      "homeland": {
+        "lat": 1.677922,
+        "lng": 19.166336,
+        "label": "Bangala Station (now Makanza), Congo River, DR Congo",
+        "sources": [
+          "wp-lingala",
+          "wp-makanza"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "de-boeck-lingala",
+          "year": 1901,
+          "approx": true,
+          "lat": 1.677922,
+          "lng": 19.166336,
+          "place": "Bangala Station (Nouvelle-Anvers, now Makanza), DR Congo",
+          "description": "The name Lingala first appears in writing in a 1901–02 publication by the CICM missionary Égide De Boeck, who arrived at Bangala Station (Nouvelle-Anvers) in 1901.",
+          "sources": [
+            "wp-lingala",
+            "wp-makanza"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (African Reference Alphabet)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-lingala"
+        ]
+      },
+      "speakers": {
+        "count": 21000000,
+        "year": 2021,
+        "scope": "L1",
+        "sources": [
+          "wp-lingala"
+        ]
+      },
+      "story": [
+        {
+          "text": "Lingala is a Bantu language of the northwest of the Democratic Republic of the Congo and the northern half of the Republic of the Congo, spoken in both capitals, Kinshasa and Brazzaville. It has about 20 million native speakers and is used by another 20 million as a second language. Large parts of the Congolese diasporas also speak it in Belgium, France and the United States.",
+          "sources": [
+            "wp-lingala"
+          ]
+        },
+        {
+          "text": "Before 1880, Bobangi was an important trade language on the Congo River between Stanley Pool and the Ubangi confluence. Europeans founding state posts in the early 1880s learned it imperfectly, producing a restructured 'language of the river', which they introduced at Bangala Station in 1884 and which became known as Bangala. After 1901 Catholic missionaries of the CICM, among them Égide De Boeck, set out to 'purify' it and proposed the name Lingala.",
+          "sources": [
+            "wp-lingala",
+            "wp-makanza"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The glottocode ling1269 is Glottolog's Lingala-Bangala family. Glottolog's only language-level entries for Lingala are Kinshasa Lingala (ling1263) and Northwestern Lingala, so the family code is used for Lingala as a whole.",
+          "sources": [
+            "glotto-ling1269"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kongo",
+      "name": "Kongo (Kikongo)",
+      "nativeName": "Kikongo",
+      "nativeScript": "Latn",
+      "glottocode": "kiko1235",
+      "iso639_3": "kon",
+      "parent": "proto-bantu",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-kongo",
+        "glotto-kiko1235"
+      ],
+      "period": {
+        "from": 1624,
+        "to": null,
+        "approx": false,
+        "sources": [
+          "wp-kongo",
+          "louwrens-1988"
+        ],
+        "note": "First surviving attestation: the Kongo catechism printed in 1624. An earlier catechism produced under Diogo Gomes does not survive. The language itself is older."
+      },
+      "homeland": {
+        "lat": -6.2678,
+        "lng": 14.2481,
+        "label": "Kingdom of Kongo (Mbanza Kongo, northern Angola)",
+        "sources": [
+          "wp-kongo",
+          "wp-mbanza-kongo"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "kongo-catechism-1624",
+          "year": 1624,
+          "approx": false,
+          "lat": -6.2678,
+          "lng": 14.2481,
+          "place": "Mbanza Kongo (São Salvador), Angola",
+          "description": "Mateus Cardoso's Kongo translation of Marcos Jorge's Portuguese catechism was printed in Lisbon in 1624 with the Kongo text interlinear to the Portuguese; its preface says the translation was made by Kongo teachers from São Salvador (Mbanza Kongo).",
+          "sources": [
+            "wp-kongo",
+            "louwrens-1988"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-kongo"
+        ]
+      },
+      "story": [
+        {
+          "text": "Kongo, or Kikongo, is a tonal Bantu language of the Kongo people of the Democratic Republic of the Congo, the Republic of the Congo, Gabon and Angola. It was the language of the Kingdom of Kongo, whose capital was Mbanza Kongo, called São Salvador by the Portuguese. Many Africans taken across the Atlantic and enslaved in the Americas spoke it, and creolized forms survive in the ritual speech of Afro-American religions in Brazil, Cuba and Haiti; it is also a major source of Palenquero in Colombia.",
+          "sources": [
+            "wp-kongo",
+            "wp-mbanza-kongo"
+          ]
+        },
+        {
+          "text": "Kongo was the earliest Bantu language to be written in Latin characters. In 1624 the Jesuit Mateus Cardoso, rector of the college at São Salvador, published a Kongo translation of a Portuguese catechism, printed in Lisbon; the linguist Doke called it 'the first bit of continuous Bantu of which we know'. A dictionary of some 10,000 words was written in about 1648 for Capuchin missionaries, and W. Holman Bentley's Dictionary and Grammar of the Kongo Language was published in 1887.",
+          "sources": [
+            "wp-kongo",
+            "louwrens-1988"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Glottolog's code kiko1235 is the Kikongo Language Cluster, a family level entry, so it stands for Kongo as a whole rather than for one of its varieties.",
+          "sources": [
+            "glotto-kiko1235"
+          ]
+        }
+      ]
+    }
+  ]
+}

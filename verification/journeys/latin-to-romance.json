@@ -1,0 +1,62 @@
+{
+ "file": "data/journeys/latin-to-romance.json",
+ "claims": {
+  "latin-to-romance#step:0": {
+   "hash": "b8b5f67bed4cfd75",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Duenos_inscription"
+   ],
+   "note": "Found by workers, bought by Dressel; date wording hedged; 'support the early date' removed."
+  },
+  "latin-to-romance#step:1": {
+   "hash": "fc7b356d1194f6af",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aeneid"
+   ]
+  },
+  "latin-to-romance#step:2": {
+   "hash": "3d4f61152d3fb46a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vulgar_Latin"
+   ],
+   "note": "Year moved from 600 to 650: the 7th-century regional differences and Fredegar fit better; Vulgar Latin runs to 800."
+  },
+  "latin-to-romance#step:3": {
+   "hash": "5f15596646420c51",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oaths_of_Strasbourg"
+   ],
+   "note": "Source quotes Walter calling it the oldest extant French text; hedged as 'regarded as'."
+  },
+  "latin-to-romance#step:4": {
+   "hash": "88132a762cb53945",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Placiti_Cassinesi"
+   ],
+   "note": "Source says first extant documents, not strictly 'earliest'; reworded."
+  },
+  "latin-to-romance#step:5": {
+   "hash": "3a142f87ddb4ee2b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Cantar_de_mio_Cid"
+   ],
+   "note": "Year moved from 1150 to 1140, the start of the debated 1140-1207 range; added Per Abbad colophon 1207; removed 'anonymous'."
+  },
+  "latin-to-romance#step:6": {
+   "hash": "363a5cadb6bef71a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Neac%C8%99u%27s_letter"
+   ],
+   "note": "Source says oldest Old Romanian document that can be precisely dated; date most probably 29 or 30 June."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:40:48.607Z",
+ "verifier": "verifier-journeys"
+}

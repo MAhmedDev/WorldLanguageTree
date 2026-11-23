@@ -1,0 +1,304 @@
+{
+  "family": {
+    "id": "armenian",
+    "name": "Armenian"
+  },
+  "sources": [
+    {
+      "id": "glottolog-clas1256",
+      "title": "Glottolog 5.4: Classical Armenian",
+      "url": "https://glottolog.org/resource/languoid/id/clas1256",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-east2768",
+      "title": "Glottolog 5.4: Eastern-Western Armenian",
+      "url": "https://glottolog.org/resource/languoid/id/east2768",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-classical-armenian",
+      "title": "Classical Armenian (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Classical_Armenian",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-armenian-language",
+      "title": "Armenian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Armenian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-armenian-alphabet",
+      "title": "Armenian alphabet (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Armenian_alphabet",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-mesrop",
+      "title": "Mesrop Mashtots (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mesrop_Mashtots",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tekor",
+      "title": "Tekor Basilica (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tekor_Basilica",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-gregory-narek",
+      "title": "Gregory of Narek (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gregory_of_Narek",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-wounds-of-armenia",
+      "title": "Wounds of Armenia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Wounds_of_Armenia",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "hywikisource-narek",
+      "title": "Մատեան Ողբերգութեան (գրաբար), Գրիգոր Նարեկացի",
+      "url": "https://hy.wikisource.org/wiki/%D5%84%D5%A1%D5%BF%D5%A5%D5%A1%D5%B6_%D5%88%D5%B2%D5%A2%D5%A5%D6%80%D5%A3%D5%B8%D6%82%D5%A9%D5%A5%D5%A1%D5%B6",
+      "publisher": "Wikisource (Armenian)"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "classical-armenian",
+      "name": "Classical Armenian",
+      "nativeName": "գրաբար",
+      "nativeScript": "Armn",
+      "glottocode": "clas1256",
+      "iso639_3": "xcl",
+      "parent": "proto-indo-european",
+      "kind": "language",
+      "status": "classical",
+      "sources": [
+        "glottolog-clas1256",
+        "wp-classical-armenian",
+        "wp-armenian-language"
+      ],
+      "period": {
+        "from": 405,
+        "to": null,
+        "approx": true,
+        "note": "Date of first attestation: Armenian was first written down at the beginning of the 5th century, after Mesrop Mashtots created the alphabet around 405. Grabar was also spoken, in several varieties, up to the 11th century and remained the literary standard until the 19th. It has no native speakers but is still in continuous liturgical use (see notes), so it is marked classical.",
+        "sources": [
+          "wp-classical-armenian",
+          "wp-armenian-language",
+          "wp-mesrop"
+        ]
+      },
+      "homeland": {
+        "lat": 40.1617,
+        "lng": 44.2917,
+        "label": "Armenian Highlands",
+        "sources": [
+          "wp-armenian-language"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "tekor-inscription",
+          "year": 485,
+          "approx": true,
+          "lat": 40.374,
+          "lng": 43.413,
+          "place": "Church of Saint Sarkis, Tekor (near Digor, Kars Province)",
+          "description": "A dedicatory inscription over the west door of the church, dated to the 480s, is the earliest known example of the Armenian script in use.",
+          "sources": [
+            "wp-armenian-alphabet",
+            "wp-tekor"
+          ]
+        },
+        {
+          "id": "jerusalem-mosaic",
+          "year": 550,
+          "approx": true,
+          "lat": 31.785,
+          "lng": 35.229,
+          "place": "Chapel of St Polyeuctos, Jerusalem",
+          "description": "A mid-6th-century mosaic inscription, the earliest known surviving use of the Armenian script outside Armenia.",
+          "sources": [
+            "wp-armenian-alphabet"
+          ]
+        },
+        {
+          "id": "narekavank",
+          "year": 1002,
+          "approx": true,
+          "lat": 38.297,
+          "lng": 42.928,
+          "place": "Narekavank, southern shore of Lake Van",
+          "description": "Gregory of Narek, who was educated and taught at the monastery of Narek, completed his Book of Lamentations, 95 chapters of prayer addressed to God, around 1002–03.",
+          "sources": [
+            "wp-gregory-narek"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Armenian",
+            "code": "Armn"
+          }
+        ],
+        "sources": [
+          "wp-armenian-alphabet"
+        ]
+      },
+      "story": [
+        {
+          "text": "Classical Armenian, grabar ('literary [language]'), is the oldest attested form of Armenian. It was first written down at the beginning of the 5th century, after Mesrop Mashtots created the Armenian alphabet around 405; the script began with 36 letters. By tradition the first sentence he wrote in it was the opening line of Solomon's Book of Proverbs. The earliest known inscription, over the west door of the church of Saint Sarkis at Tekor, dates to the 480s.",
+          "sources": [
+            "wp-classical-armenian",
+            "wp-mesrop",
+            "wp-armenian-alphabet"
+          ]
+        },
+        {
+          "text": "The oldest surviving Armenian text is a 5th-century translation of the Bible, and many ancient works first written in Greek, Hebrew, Syriac and Latin now survive only in Armenian translation. Grabar borrowed many words from Middle Iranian languages, above all Parthian. It was also spoken until about the 11th century and stayed the literary standard into the 19th.",
+          "sources": [
+            "wp-classical-armenian",
+            "wp-armenian-language"
+          ]
+        },
+        {
+          "text": "Around 1002–03 Gregory of Narek, who taught at the monastery of Narek on the southern shore of Lake Van, completed his Book of Lamentations, 95 chapters of prayer addressed to God. He added well over a thousand new words to the literary language. Classical Armenian remains the liturgical language of the Armenian Apostolic and Armenian Catholic Churches, and it is important for reconstructing Proto-Indo-European.",
+          "sources": [
+            "wp-gregory-narek",
+            "wp-armenian-language",
+            "wp-classical-armenian"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Armenian forms its own branch of Indo-European. Some linguists see Armenian, Greek (and Phrygian), Albanian and Indo-Iranian as dialectally close. Armenian and Greek share phonological, morphological and lexical features, but scholars differ on whether these reflect a common Graeco-Armenian subgroup, prolonged contact, or both. Donald Ringe and Tandy Warnow proposed that Pre-Armenian and Pre-Greek formed a closely related subgroup after 2500 BC, while Ronald I. Kim has noted morphological developments linking Armenian with Balto-Slavic.",
+          "sources": [
+            "wp-armenian-language"
+          ]
+        },
+        {
+          "text": "Status: Classical Armenian has no native speakers, but it remains the liturgical language of the Armenian Apostolic and Armenian Catholic Churches and is studied by biblical and patristic scholars, so it is marked classical rather than extinct. As a spoken language it is placed up to the 11th century.",
+          "sources": [
+            "wp-classical-armenian",
+            "wp-armenian-language"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "narek-book-of-lamentations",
+          "title": "Book of Lamentations (Narek)",
+          "titleOriginal": "Մատեան ողբերգութեան",
+          "author": "Grigor Narekatsi (Gregory of Narek)",
+          "date": "c. 1002–1003",
+          "year": 1002,
+          "significance": "Widely considered Gregory's masterpiece, it serves as a confessional prayer book in many Armenian religious households. Manuk Abeghian compared Gregory's mark on Armenian Christian literature to that of Homer on Greek and Dante on Italian.",
+          "original": "Ձա՜յն հառաչանաց հեծութեան ողբոց սրտից աղաղակի\nՔեզ վերընծայեմ, տեսողդ գաղտնեաց,",
+          "originalScript": "Armn",
+          "translation": "The voice of sighs, of groaning, of laments, the cry of the heart,\nI offer up to you, Seer of hidden things,",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://hy.wikisource.org/wiki/%D5%84%D5%A1%D5%BF%D5%A5%D5%A1%D5%B6_%D5%88%D5%B2%D5%A2%D5%A5%D6%80%D5%A3%D5%B8%D6%82%D5%A9%D5%A5%D5%A1%D5%B6",
+          "sources": [
+            "hywikisource-narek",
+            "wp-gregory-narek"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "armenian",
+      "name": "Armenian",
+      "nativeName": "հայերեն",
+      "nativeScript": "Armn",
+      "glottocode": "east2768",
+      "iso639_3": "hye",
+      "parent": "classical-armenian",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "glottolog-east2768",
+        "wp-armenian-language"
+      ],
+      "period": {
+        "from": 1100,
+        "to": null,
+        "approx": true,
+        "note": "Covers Middle Armenian, attested from the 12th to the 18th century, and Modern Armenian, whose Eastern and Western literary standards took shape in the 19th century.",
+        "sources": [
+          "wp-armenian-language"
+        ]
+      },
+      "homeland": {
+        "lat": 40.1792,
+        "lng": 44.4991,
+        "label": "Armenian Highlands (Yerevan)",
+        "sources": [
+          "wp-armenian-language"
+        ]
+      },
+      "speakers": {
+        "count": 5300000,
+        "year": 2021,
+        "scope": "L1",
+        "sources": [
+          "wp-armenian-language"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "wounds-of-armenia",
+          "year": 1858,
+          "approx": false,
+          "lat": 41.7151,
+          "lng": 44.8271,
+          "place": "Tiflis (Tbilisi)",
+          "description": "Khachatur Abovian's novel Wounds of Armenia, written in 1841 in the Araratian (Yerevan) dialect, the first modern Eastern Armenian literary work, was first published in Tiflis in 1858.",
+          "sources": [
+            "wp-wounds-of-armenia"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Armenian",
+            "code": "Armn"
+          }
+        ],
+        "sources": [
+          "wp-armenian-alphabet"
+        ]
+      },
+      "story": [
+        {
+          "text": "Armenian is the sole member of an independent branch of Indo-European, the native language of the Armenian people and the official language of Armenia. Historically spoken in the Armenian Highlands, it is now also widely spoken in the diaspora. Classical Armenian was partly superseded by Middle Armenian, attested from the 12th to the 18th century, and in Bagratid Armenia and the Armenian Kingdom of Cilicia two letters, օ and ֆ, were added, bringing the alphabet to 38.",
+          "sources": [
+            "wp-armenian-language",
+            "wp-armenian-alphabet"
+          ]
+        },
+        {
+          "text": "In the 19th century Eastern Armenia was conquered by the Russian Empire while Western Armenia stayed under Ottoman rule, and Tbilisi and Istanbul became the two poles of Armenian intellectual life. Writers raised the vernacular, Ashkharhabar, into a modern literary language. Khachatur Abovian's Wounds of Armenia, written in 1841 in the Yerevan dialect, is considered the first modern Eastern Armenian literary work.",
+          "sources": [
+            "wp-armenian-language",
+            "wp-wounds-of-armenia"
+          ]
+        },
+        {
+          "text": "Two standards emerged: Eastern Armenian, built mainly on the Yerevan dialect, and Western Armenian, formed among Armenians in Istanbul. The Armenian SSR (1920–1990) used Eastern Armenian as its official language, while the diaspora formed after the Armenian genocide preserved Western Armenian. The two differ considerably but are mutually intelligible after significant exposure. Estimates put Armenian speakers worldwide at between five and seven million.",
+          "sources": [
+            "wp-armenian-language"
+          ]
+        }
+      ]
+    }
+  ]
+}

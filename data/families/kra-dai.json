@@ -1,0 +1,299 @@
+{
+  "family": { "id": "kra-dai", "name": "Kra-Dai", "root": "proto-tai" },
+  "sources": [
+    { "id": "glottolog-daic1237", "title": "Glottolog 5: Daic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/daic1237" },
+    { "id": "glottolog-thai1261", "title": "Glottolog 5: Thai", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/thai1261" },
+    { "id": "glottolog-laoo1244", "title": "Glottolog 5: Lao", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/laoo1244" },
+    { "id": "wp-proto-tai", "title": "Proto-Tai language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proto-Tai_language" },
+    { "id": "wp-tai", "title": "Tai languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tai_languages" },
+    { "id": "wp-kra-dai", "title": "Kra–Dai languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kra%E2%80%93Dai_languages" },
+    { "id": "pittayaporn-2014", "title": "Layers of Chinese loanwords in Proto-Southwestern Tai as evidence for the dating of the spread of Southwestern Tai", "author": "Pittayawat Pittayaporn", "year": 2014, "publisher": "MANUSYA: Journal of Humanities, Special Issue 20 (Chulalongkorn University)", "url": "https://www.arts.chula.ac.th/chulaseal/wp-content/uploads/2014/11/Pittayawat-47-68.pdf" },
+    { "id": "wp-thai", "title": "Thai language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Thai_language" },
+    { "id": "wp-ram-khamhaeng", "title": "Ram Khamhaeng Inscription", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ramkhamhaeng_Inscription" },
+    { "id": "vickery-1995", "title": "Piltdown 3: Further Discussion of the Ram Khamhaeng Inscription", "author": "Michael Vickery", "year": 1995, "publisher": "Journal of the Siam Society, vol. 83", "url": "https://thesiamsociety.org/wp-content/uploads/1995/03/JSS_083_0j_Vickery_Piltdown3RamKhamhaengInscription.pdf" },
+    { "id": "ws-ram-khamhaeng", "title": "ประชุมจารึกสยาม ภาคที่ 1, หลักที่ 1 (จารึกพ่อขุนรามคำแหง) [Collected Inscriptions of Siam, Part 1, Inscription 1], 1934 edition", "publisher": "Wikisource (Thai)", "url": "https://th.wikisource.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%97%E0%B8%B5%E0%B9%88_1/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%97%E0%B8%B5%E0%B9%88_1" },
+    { "id": "wp-lao", "title": "Lao language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lao_language" },
+    { "id": "wp-lao-script", "title": "Lao script", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lao_script" },
+    { "id": "lorrillard-2021", "title": "Regards croisés sur l'historiographie et l'épigraphie du Lān Xāng : le cas d'édits royaux relatifs à la pratique religieuse au XVIe siècle", "author": "Michel Lorrillard", "year": 2021, "publisher": "Péninsule n° 82", "url": "https://www.luangprabangculture.com/uploads/1/8/3/0/18306261/perspectives_on_history___epigraphy_of_lan_xang_2021.pdf" },
+    { "id": "wp-zhuang", "title": "Zhuang languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Zhuang_languages" },
+    { "id": "wp-sawndip", "title": "Sawndip", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sawndip" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-tai",
+      "name": "Proto-Tai",
+      "glottocode": "daic1237",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["glottolog-daic1237", "wp-proto-tai", "wp-tai"],
+      "period": {
+        "from": -200,
+        "to": 500,
+        "approx": true,
+        "note": "No firm dates are given for Proto-Tai itself. Chinese loanwords show Tai in contact with Chinese from at least the Western Han period, toward the end of the first millennium BCE (Pittayaporn 2014), and Edmondson places the split between Zhuang and Southwestern Tai no earlier than 112 BCE and no later than the 5th–6th century CE.",
+        "sources": ["pittayaporn-2014", "wp-tai"]
+      },
+      "homeland": {
+        "lat": 23.0,
+        "lng": 108.3,
+        "label": "Guangxi, southern China (Pittayaporn: Guangxi or eastern Yunnan)",
+        "sources": ["wp-lao", "pittayaporn-2014"]
+      },
+      "story": [
+        {
+          "text": "Proto-Tai is the reconstructed common ancestor of the Tai languages, among them Standard Thai, Northern Thai, Lao, Shan, Tai Lü, Tai Dam, Ahom, Bouyei and Zhuang. No texts survive in it. Li Fang-Kuei reconstructed it in 1977 and Pittayawat Pittayaporn in 2009. Proto-Tai had three contrasting tones on syllables ending in a sonorant and no tone contrast on syllables ending in a stop, a system much like that of Middle Chinese.",
+          "sources": ["wp-proto-tai"]
+        },
+        {
+          "text": "Chinese loanwords help date the Tai expansion. Pittayaporn identified four layers of Chinese loans in Proto-Southwestern Tai, from Pre-Later Han to Late Middle Chinese, showing more than a thousand years of contact with Chinese. He concluded that Southwestern Tai speakers began to spread southward from their homeland in southern China, in present-day Guangxi or eastern Yunnan, sometime between the 8th and 10th centuries CE. That spread produced a Tai-speaking territory stretching from northern Vietnam to Northeast India and from southern China down to Malaysia.",
+          "sources": ["pittayaporn-2014"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Proto-Tai is given the Glottolog code daic1237. In Glottolog, 'Daic' is the node that holds the Tai languages (Zhuang varieties, Thai, Lao, Shan, Ahom and others); it sits inside the larger Tai-Kadai family (taik1256), which is what this file calls Kra-Dai. Wikipedia likewise notes that the Tai languages are also called Zhuang–Tai or Daic and gives daic1237 as their Glottolog code. Glottolog's comments on the node cite Pittayaporn (2009) and Edmondson and Solnit (1997).",
+          "sources": ["glottolog-daic1237", "wp-tai"]
+        },
+        {
+          "text": "Scholars disagree on when Tai speakers moved into mainland Southeast Asia. As summarised by Pittayaporn (2014), O'Connor placed the migration in the first millennium CE, Diller in the 10th century, Saraya in the 12th century at the latest, and Diskul before Kublai Khan's southern campaign of the 13th century, while Wongthes speculated that it began around the 1st century BCE. Pittayaporn's loanword evidence points to the 8th–10th centuries.",
+          "sources": ["pittayaporn-2014"]
+        },
+        {
+          "text": "The origin of the wider Kra–Dai family is also debated. James Chamberlain (2016) proposes that it formed in the middle Yangtze basin as early as the 12th century BCE. Weera Ostapirat treats Kra–Dai and Austronesian as sister families, while Laurent Sagart proposes that Kra–Dai descends from an Austronesian branch in Taiwan whose speakers migrated back to Guangdong, Hainan and northern Vietnam in the second half of the 3rd millennium BCE.",
+          "sources": ["wp-kra-dai"]
+        }
+      ]
+    },
+    {
+      "id": "thai",
+      "name": "Thai",
+      "nativeName": "ภาษาไทย",
+      "nativeScript": "Thai",
+      "glottocode": "thai1261",
+      "iso639_3": "tha",
+      "parent": "proto-tai",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-thai1261", "wp-thai"],
+      "period": {
+        "from": 1292,
+        "to": null,
+        "approx": true,
+        "note": "First attestation: inscriptions in Thai writing began to appear around 1292 CE. The Ram Khamhaeng inscription, generally dated to 1292, is traditionally regarded as the earliest example, but its authenticity is debated.",
+        "sources": ["wp-thai", "wp-ram-khamhaeng"]
+      },
+      "homeland": {
+        "lat": 17.017,
+        "lng": 99.704,
+        "label": "Sukhothai, north-central Thailand",
+        "sources": ["wp-ram-khamhaeng", "wp-thai"]
+      },
+      "attestations": [
+        {
+          "id": "ram-khamhaeng-inscription",
+          "year": 1292,
+          "approx": true,
+          "lat": 17.017,
+          "lng": 99.704,
+          "place": "Sukhothai, Thailand",
+          "description": "The Ram Khamhaeng inscription, found by the future King Mongkut at Sukhothai in 1833 and generally dated to 1292, has traditionally been regarded as the earliest example of the Thai script. Its authenticity has been debated since 1987. It is now in the Bangkok National Museum and on UNESCO's Memory of the World Register (2003).",
+          "sources": ["wp-ram-khamhaeng"]
+        },
+        {
+          "id": "ayutthaya-ma-huan",
+          "year": 1433,
+          "approx": true,
+          "lat": 14.356,
+          "lng": 100.568,
+          "place": "Ayutthaya, Thailand",
+          "description": "The Ming Chinese account Yingya Shenglan (1405–1433) by Ma Huan reports that the language of Xianluo, the Ayutthaya Kingdom, somewhat resembled a local speech of Guangdong. Ayutthaya, capital from 1351 to 1767, was bilingual in Thai and Khmer.",
+          "sources": ["wp-thai"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Thai script", "code": "Thai" }],
+        "sources": ["wp-thai"]
+      },
+      "speakers": { "count": 71000000, "year": 2024, "scope": "L1+L2", "sources": ["wp-thai"] },
+      "story": [
+        {
+          "text": "Thai, also called Central Thai and historically Siamese, is a Tai language of the Kra–Dai family and the sole official language of Thailand. It is tonal and analytic. Over half of its vocabulary comes from Pali, Sanskrit, Mon and Old Khmer. Spoken Thai is partly mutually intelligible with Lao and Isan, and most people in northern, southern and northeastern Thailand speak Central Thai alongside their regional variety, because it is the language of education, television and the news.",
+          "sources": ["wp-thai"]
+        },
+        {
+          "text": "Ayutthaya, the capital from 1351 to 1767, was bilingual from its beginning, with both Thai and Khmer spoken there. Thai armies brought Khmer-speaking captives from Angkor Thom after victories in 1369, 1388 and 1431. Toward the end of the Ayutthaya period Khmer fell out of everyday use, but a great many Khmer words, expressions and word-building rules passed into Thai, and the royal vocabulary, rajasap, was expanded using Khmer rules.",
+          "sources": ["wp-thai"]
+        },
+        {
+          "text": "The Thais adapted the Khmer script to create their own writing system, and Thai inscriptions began to appear around 1292. Old Thai had three tones on syllables not ending in a stop. Later, voiced and voiceless initial consonants merged, and every old tone split into a higher and a lower variant. The modern spelling still records the older sounds, which is why Thai consonant letters fall into high, mid and low classes that affect tone.",
+          "sources": ["wp-thai"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The authenticity of the Ram Khamhaeng inscription is disputed. In 1987 the historian Michael Vickery questioned it in a paper titled \"A Piltdown Skull of Southeast Asian History?\", and he later argued that it is not a genuine source for 13th-century Thailand and was probably composed in the late 18th or early 19th century. In 1988 the art historian Piriya Krairiksh argued that King Mongkut himself wrote it.",
+          "sources": ["wp-ram-khamhaeng", "vickery-1995"]
+        },
+        {
+          "text": "Defenders of the traditional date have answered these arguments, and a 1990 analysis using scanning electron microscopy and energy-dispersive X-ray spectroscopy found the stone to be about the same age as four other Sukhothai inscriptions. Some proponents of the forgery theory remain convinced, and the debate has not been definitively settled.",
+          "sources": ["wp-ram-khamhaeng", "vickery-1995"]
+        }
+      ],
+      "works": [
+        {
+          "id": "ram-khamhaeng-inscription-text",
+          "title": "Ram Khamhaeng Inscription (Sukhothai Inscription No. 1)",
+          "titleOriginal": "จารึกพ่อขุนรามคำแหง",
+          "author": "Anonymous (written in the voice of King Ram Khamhaeng; authorship and date debated)",
+          "date": "generally dated 1292 (authenticity debated)",
+          "year": 1292,
+          "significance": "Traditionally regarded as the earliest example of the Thai script and inscribed on UNESCO's Memory of the World Register in 2003; since 1987 some historians have argued that it is a later composition.",
+          "original": "พ่อกูชื่อศรีอินทราทิตย์ แม่กูชื่อนางเสือง พี่กูชื่อบานเมือง ตูพี่น้องท้องเดียว ๕ คน ผู้ชายสาม ผู้หญิงสอง",
+          "originalScript": "Thai",
+          "transliteration": "Pho ku chue Si Inthrathit, mae ku chue Nang Sueang, phi ku chue Ban Mueang. Tu phi nong thong diao ha khon, phu chai sam, phu ying song.",
+          "translation": "My father's name was Si Inthrathit, my mother's name was Nang Sueang, my elder brother's name was Ban Mueang. We siblings born of one womb were five: three men, two women.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://th.wikisource.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%97%E0%B8%B5%E0%B9%88_1/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%97%E0%B8%B5%E0%B9%88_1",
+          "sources": ["ws-ram-khamhaeng", "wp-ram-khamhaeng"]
+        }
+      ]
+    },
+    {
+      "id": "lao",
+      "name": "Lao",
+      "nativeName": "ພາສາລາວ",
+      "nativeScript": "Laoo",
+      "glottocode": "laoo1244",
+      "iso639_3": "lao",
+      "parent": "proto-tai",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-laoo1244", "wp-lao"],
+      "period": {
+        "from": 1354,
+        "to": null,
+        "approx": true,
+        "note": "The sources give no date for Lao becoming distinct from neighbouring Southwestern Tai varieties. 1354 is the founding of the kingdom of Lan Xang; many hallmarks of contemporary Lao were established in the 16th century.",
+        "sources": ["wp-lao"]
+      },
+      "homeland": {
+        "lat": 19.885,
+        "lng": 102.135,
+        "label": "Middle Mekong valley (Luang Prabang), Laos",
+        "sources": ["wp-lao"]
+      },
+      "attestations": [
+        {
+          "id": "ban-don-sing-stele-1555",
+          "year": 1555,
+          "approx": false,
+          "lat": 19.892,
+          "lng": 102.137,
+          "place": "Luang Prabang, Laos (stele of Vat Ban Don Sing, kept at Vat Saen Sukharam)",
+          "description": "A stele from the temple of Ban Don Sing, about 20 km downstream of Luang Prabang, records a royal measure on religious practice; its date, 1 September 1555, is given in both Pali and Lao.",
+          "sources": ["lorrillard-2021"]
+        },
+        {
+          "id": "isan-tai-noi-1871",
+          "year": 1871,
+          "approx": false,
+          "lat": 16.43,
+          "lng": 102.83,
+          "place": "Isan, northeastern Thailand",
+          "description": "The ethnic Lao of Isan wrote their language in the Tai Noi script, an older form of the Lao script, until, according to Wikipedia, the Thai government banned its use in 1871 and replaced it with the Thai alphabet; sources differ on how strictly this was enforced.",
+          "sources": ["wp-lao-script"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Lao script", "code": "Laoo" },
+          { "name": "Thai script (in Thailand)", "code": "Thai" }
+        ],
+        "sources": ["wp-lao"]
+      },
+      "speakers": { "count": 3685170, "year": 2015, "scope": "L1", "sources": ["wp-lao"] },
+      "story": [
+        {
+          "text": "Lao is a Southwestern Tai language and the official language of Laos. It is also spoken in the Isan region of northeastern Thailand, where it is usually called Isan; the Lao-speaking population was divided along the Mekong by the Franco-Siamese crisis of 1893. Lao is tonal and analytic, and it is highly mutually intelligible with Thai. Its closest relatives are Phu Thai and Tai Yo.",
+          "sources": ["wp-lao"]
+        },
+        {
+          "text": "The ancestors of the Lao spoke Southwestern Tai dialects and migrated from what is now Guangxi and northern Vietnam, following the Mekong. In 1354 Fa Ngoum united the Tai mueang of present-day Laos and Isan into the kingdom of Lan Xang. In the 16th century scribes stopped writing Khmer and adopted a simplified cursive script, Tai Noi, which survives with a few changes as the Lao script. After the capital moved in 1560, written Lao came to be based on Vientiane speech.",
+          "sources": ["wp-lao"]
+        },
+        {
+          "text": "After a small stele from Sanakham in Vientiane Province dated 1510/1511, the oldest fairly precisely datable inscription of Lan Xang is the 1527 stele of Vat Sangkhalok in Luang Prabang, the oldest inscription in the Tham script found in Laos. A stele from Ban Don Sing near Luang Prabang gives its date of 1555 in both Pali and Lao. The Lao script was later reformed: Maha Sila Viravong added letters for Pali and Sanskrit in the 1930s, and reforms in the 1960s and in 1975 simplified the spelling.",
+          "sources": ["lorrillard-2021", "wp-lao-script"]
+        }
+      ]
+    },
+    {
+      "id": "zhuang",
+      "name": "Zhuang",
+      "nativeName": "Vahcuengh",
+      "nativeScript": "Latn",
+      "glottocode": null,
+      "iso639_3": "zha",
+      "parent": "proto-tai",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-zhuang", "wp-tai"],
+      "period": {
+        "from": 500,
+        "to": null,
+        "approx": true,
+        "note": "Edmondson places the split between Zhuang (Central Tai) and the Southwestern Tai languages no earlier than 112 BCE and no later than the 5th–6th century CE; 500 is used here as an approximate date.",
+        "sources": ["wp-tai"]
+      },
+      "homeland": {
+        "lat": 23.8,
+        "lng": 108.5,
+        "label": "Guangxi, southern China",
+        "sources": ["wp-zhuang", "wp-tai"]
+      },
+      "attestations": [
+        {
+          "id": "wuming-standard-1957",
+          "year": 1957,
+          "approx": false,
+          "lat": 23.16,
+          "lng": 108.27,
+          "place": "Wuming, Guangxi, China",
+          "description": "The official romanised Zhuang script introduced in 1957 is based on the Northern Zhuang dialect of Wuming, the basis of Standard Zhuang.",
+          "sources": ["wp-sawndip", "wp-zhuang"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Zhuang Latin alphabet", "code": "Latn" },
+          { "name": "Sawndip (Chinese-character-based)", "code": "Hani" }
+        ],
+        "sources": ["wp-zhuang", "wp-sawndip"]
+      },
+      "speakers": { "count": 15900000, "year": 2007, "scope": "L1", "sources": ["wp-zhuang"] },
+      "story": [
+        {
+          "text": "Zhuang is the name for a group of Tai languages spoken by the Zhuang people, mainly in Guangxi and in neighbouring parts of Yunnan and Guangdong. The Zhuang are China's largest minority ethnic group. The varieties belong to the Northern and Central Tai branches, and northern and southern Zhuang are more closely related to other Tai languages than to each other. SIL research found some varieties mutually unintelligible and assigned them 16 separate ISO 639-3 codes.",
+          "sources": ["wp-zhuang", "wp-tai"]
+        },
+        {
+          "text": "For over a thousand years Zhuang has been written in Sawndip, a script built from Chinese characters. Two Tang dynasty steles, dated 682 and 697, are cited as early evidence; both are written in Chinese, but the 697 stele contains a Sawndip character for naz, 'paddy field'. Singers and shamans used Sawndip to record poems, scriptures, folktales, myths, songs, play scripts, medical prescriptions, family genealogies and contracts.",
+          "sources": ["wp-sawndip"]
+        },
+        {
+          "text": "In 1957 an official romanised script was introduced for Standard Zhuang, based on the Northern Zhuang dialect of Wuming. It mixed Latin letters with letters derived from Cyrillic and the IPA, and in 1982 it was revised to use only Latin letters. Because the varieties differ so much, many speakers still prefer Sawndip.",
+          "sources": ["wp-sawndip", "wp-zhuang"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the early 1980s the Zhuang linguist Wei Qingwen proposed that the Song of the Yue Boatman, a non-Chinese song written down in Chinese characters in the Shuoyuan, in an account that Wikipedia dates to 528 BCE, records a language ancestral to Zhuang, and Zhengzhang Shangfang (1991) extended the comparison using Thai. Laurent Sagart criticises this reading as anachronistic, because Thai was written down some 2,000 years after the song was recorded.",
+          "sources": ["wp-kra-dai", "wp-tai"]
+        }
+      ]
+    }
+  ]
+}

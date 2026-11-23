@@ -1,0 +1,836 @@
+{
+ "file": "data/families/niger-congo.json",
+ "claims": {
+  "niger-congo#identity": {
+   "hash": "734db841197c89bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages"
+   ]
+  },
+  "niger-congo#story:0": {
+   "hash": "22b9b4a1924031c9",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages",
+    "https://www.britannica.com/biography/Joseph-H-Greenberg"
+   ],
+   "note": "Greenberg 1960s wording replaced: Niger-Congo named 1949-54, revised 1963."
+  },
+  "niger-congo#story:1": {
+   "hash": "8cd3fe4e2460ddbb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages"
+   ]
+  },
+  "niger-congo#note:0": {
+   "hash": "86f42d6f77f13120",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages"
+   ],
+   "note": "Blench attributed as working paper statement; wording made exact."
+  },
+  "niger-congo#note:1": {
+   "hash": "67663e1d5d9101b2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Niger%E2%80%93Congo_languages",
+    "https://en.wikipedia.org/wiki/Atlantic%E2%80%93Congo_languages"
+   ]
+  },
+  "atlantic-congo#identity": {
+   "hash": "4331d16869881605",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Atlantic%E2%80%93Congo_languages",
+    "https://glottolog.org/resource/languoid/id/atla1278"
+   ]
+  },
+  "atlantic-congo#story:0": {
+   "hash": "788770cd04c7c9e2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Atlantic%E2%80%93Congo_languages"
+   ]
+  },
+  "yoruba#identity": {
+   "hash": "a144fe0de5719e43",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yoruba_language",
+    "https://glottolog.org/resource/languoid/id/yoru1245"
+   ]
+  },
+  "yoruba#period": {
+   "hash": "8b7e28ccd7b06cad",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/reference/id/59412"
+   ]
+  },
+  "yoruba#homeland": {
+   "hash": "f4407ade6a561d92",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yoruba_language",
+    "https://glottolog.org/resource/languoid/id/yoru1245"
+   ]
+  },
+  "yoruba#attestation:iwe-irohin": {
+   "hash": "b4dc1587fb1cd8be",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Henry_Townsend_(missionary)"
+   ]
+  },
+  "yoruba#scripts": {
+   "hash": "0927407df02f05f6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yoruba_language"
+   ]
+  },
+  "yoruba#speakers": {
+   "hash": "2d3ae803016ac88a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yoruba_language"
+   ]
+  },
+  "yoruba#story:0": {
+   "hash": "d3fca5fcd3b6035b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yoruba_language"
+   ]
+  },
+  "yoruba#story:1": {
+   "hash": "3f150814d1698962",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/reference/id/59412",
+    "https://en.wikipedia.org/wiki/Yoruba_language"
+   ]
+  },
+  "yoruba#story:2": {
+   "hash": "bfa064b06d45df1b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Yoruba_language"
+   ]
+  },
+  "igbo#identity": {
+   "hash": "060787be63813631",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Igbo_language",
+    "https://glottolog.org/resource/languoid/id/nucl1417"
+   ]
+  },
+  "igbo#period": {
+   "hash": "22efa117fddac845",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Igbo_language"
+   ]
+  },
+  "igbo#homeland": {
+   "hash": "8efad2b9e290e88b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Igbo_language"
+   ]
+  },
+  "igbo#attestation:isoama-ibo-primer": {
+   "hash": "ff289e718a958a59",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Samuel_Ajayi_Crowther",
+    "https://en.wikipedia.org/wiki/Igbo_language"
+   ],
+   "note": "Authorship contested: Crowther credited with primer; Jonas travelled to Aboh 1857 and is credited by some. Reworded neutrally."
+  },
+  "igbo#scripts": {
+   "hash": "86da6dae5e8e79fe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Igbo_language"
+   ]
+  },
+  "igbo#speakers": {
+   "hash": "c41e07ceb2c73572",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Igbo_language"
+   ]
+  },
+  "igbo#story:0": {
+   "hash": "4f6586535b9fe1bc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Igbo_language"
+   ]
+  },
+  "igbo#story:1": {
+   "hash": "b873ea7baeb94324",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Igbo_language"
+   ]
+  },
+  "akan#identity": {
+   "hash": "9ecc389779a71b76",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Twi-Fante_language",
+    "https://glottolog.org/resource/languoid/id/akan1250"
+   ]
+  },
+  "akan#period": {
+   "hash": "9efd94c98e1a1de8",
+   "verdict": "verified",
+   "evidence": [
+    "https://archive.org/details/agrammarasantea00chrigoog"
+   ]
+  },
+  "akan#homeland": {
+   "hash": "cc37017339cfbeb5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Twi-Fante_language",
+    "https://glottolog.org/resource/languoid/id/akan1250"
+   ]
+  },
+  "akan#attestation:muller-fetu-vocabulary": {
+   "hash": "dddc6c36653d2659",
+   "verdict": "verified",
+   "evidence": [
+    "https://archive.org/details/agrammarasantea00chrigoog"
+   ]
+  },
+  "akan#attestation:christaller-akropong": {
+   "hash": "53960b3510841518",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Johann_Gottlieb_Christaller",
+    "https://archive.org/details/agrammarasantea00chrigoog"
+   ]
+  },
+  "akan#scripts": {
+   "hash": "5a1b4e2172f46b10",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Twi-Fante_language"
+   ]
+  },
+  "akan#speakers": {
+   "hash": "ed82804052e671c1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Twi-Fante_language"
+   ]
+  },
+  "akan#story:0": {
+   "hash": "868f1078b001c8a3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Twi-Fante_language"
+   ]
+  },
+  "akan#story:1": {
+   "hash": "ef2981e98c1a5868",
+   "verdict": "verified",
+   "evidence": [
+    "https://archive.org/details/agrammarasantea00chrigoog",
+    "https://en.wikipedia.org/wiki/Twi-Fante_language"
+   ]
+  },
+  "akan#story:2": {
+   "hash": "c689cc8f430254a4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Twi-Fante_language"
+   ]
+  },
+  "wolof#identity": {
+   "hash": "73a8a2a9b87973f7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wolof_language",
+    "https://glottolog.org/resource/languoid/id/nucl1347"
+   ]
+  },
+  "wolof#period": {
+   "hash": "1db39f706878ebd3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wolof_language",
+    "https://en.wikipedia.org/wiki/Wolof_people"
+   ]
+  },
+  "wolof#homeland": {
+   "hash": "01192bdd337a44ba",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wolof_people"
+   ],
+   "note": "Wikipedia places Jolof in central Senegal but calls Wolof origins obscure; label qualified."
+  },
+  "wolof#attestation:dard-grammaire-wolofe": {
+   "hash": "c00039dd702addde",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Jean_Dard",
+    "https://en.wikipedia.org/wiki/Wolof_language"
+   ]
+  },
+  "wolof#scripts": {
+   "hash": "64870499a820b595",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wolof_language"
+   ]
+  },
+  "wolof#speakers": {
+   "hash": "3d553db26cb918df",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wolof_language"
+   ]
+  },
+  "wolof#story:0": {
+   "hash": "d13ae000d8af0cff",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wolof_language"
+   ]
+  },
+  "wolof#story:1": {
+   "hash": "99ca83af6bdc014c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Wolof_people",
+    "https://en.wikipedia.org/wiki/Wolofal_alphabet"
+   ]
+  },
+  "fula#identity": {
+   "hash": "e2ed1f4aec7e0a5d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fula_language",
+    "https://glottolog.org/resource/languoid/id/fula1264"
+   ]
+  },
+  "fula#period": {
+   "hash": "bca404655e535e24",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Usman_dan_Fodio",
+    "https://en.wikipedia.org/wiki/Fula_language"
+   ]
+  },
+  "fula#homeland": {
+   "hash": "9c7519d61cb05a26",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fula_people"
+   ]
+  },
+  "fula#scripts": {
+   "hash": "dc0cfb9a0e6ca6d6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fula_language",
+    "https://en.wikipedia.org/wiki/Adlam_script"
+   ]
+  },
+  "fula#speakers": {
+   "hash": "4d09ae548ba38a04",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fula_language"
+   ]
+  },
+  "fula#story:0": {
+   "hash": "b542b3c2865386be",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fula_language",
+    "https://en.wikipedia.org/wiki/Wolof_language"
+   ]
+  },
+  "fula#story:1": {
+   "hash": "33a378f639cb3001",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.britannica.com/biography/Usman-dan-Fodio"
+   ],
+   "note": "Sokoto founding date varies 1803/1804 across sources; reworded to early 1800s, jihad leader."
+  },
+  "fula#note:0": {
+   "hash": "a8081ae7279f1d60",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/fula1264"
+   ]
+  },
+  "proto-bantu#identity": {
+   "hash": "32265533282ad07f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Bantu_language",
+    "https://en.wikipedia.org/wiki/Bantu_languages"
+   ]
+  },
+  "proto-bantu#period": {
+   "hash": "01f655457826c2f7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Bantu_language"
+   ]
+  },
+  "proto-bantu#homeland": {
+   "hash": "5b152e9ccc14733d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bantu_expansion"
+   ]
+  },
+  "proto-bantu#story:0": {
+   "hash": "9e3663a7d76b3b00",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bantu_languages"
+   ],
+   "note": "It is the Bantu languages, not Proto-Bantu itself, that form the largest Southern Bantoid branch."
+  },
+  "proto-bantu#story:1": {
+   "hash": "fb8b64a51776b5c3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Bantu_language",
+    "https://en.wikipedia.org/wiki/Bantu_expansion"
+   ]
+  },
+  "proto-bantu#note:0": {
+   "hash": "55093fd585515f3e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bantu_expansion"
+   ],
+   "note": "Removed unsupported \"next to the Bamenda highlands\" phrase."
+  },
+  "proto-bantu#note:1": {
+   "hash": "700dd01784366854",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Bantu_language"
+   ]
+  },
+  "proto-bantu#note:2": {
+   "hash": "938ac4cc004bfc90",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/narr1281"
+   ],
+   "note": "New note explaining glottocode is the Narrow Bantu family."
+  },
+  "swahili#identity": {
+   "hash": "a8606a375f83f794",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swahili",
+    "https://glottolog.org/resource/languoid/id/swah1253"
+   ]
+  },
+  "swahili#period": {
+   "hash": "c4349af07e00d2ab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swahili"
+   ]
+  },
+  "swahili#homeland": {
+   "hash": "e69932701b650f62",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swahili"
+   ],
+   "note": "Label now says the point is at Mombasa on the Swahili coast; source names a coast, not a single point."
+  },
+  "swahili#attestation:kilwa-letters": {
+   "hash": "0c9ce22df68a2e80",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swahili"
+   ]
+  },
+  "swahili#attestation:utendi-wa-tambuka-pate": {
+   "hash": "5cae0f2a5babe824",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Utendi_wa_Tambuka"
+   ]
+  },
+  "swahili#attestation:swahili-tales-zanzibar": {
+   "hash": "ac1923387113ba0d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikisource.org/wiki/Swahili_Tales",
+    "https://en.wikipedia.org/wiki/Edward_Steere"
+   ]
+  },
+  "swahili#scripts": {
+   "hash": "bcc95fb7e65f58be",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swahili"
+   ]
+  },
+  "swahili#story:0": {
+   "hash": "2c8dfa47ca95b351",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swahili"
+   ]
+  },
+  "swahili#story:1": {
+   "hash": "13b08bd3836cd6cc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swahili",
+    "https://en.wikipedia.org/wiki/Utendi_wa_Tambuka"
+   ]
+  },
+  "swahili#story:2": {
+   "hash": "c6d02574345090e3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Swahili",
+    "https://en.wikipedia.org/wiki/Edward_Steere"
+   ]
+  },
+  "swahili#work:kisa-cha-punda-wa-dobi": {
+   "hash": "d30747a0308c5444",
+   "verdict": "verified",
+   "evidence": [
+    "https://wikisource.org/wiki/Page:Swahili_tales.djvu/22",
+    "https://en.wikisource.org/wiki/Page:Swahili_tales.djvu/23"
+   ]
+  },
+  "zulu#identity": {
+   "hash": "bf3238346e4bab43",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zulu_language",
+    "https://glottolog.org/resource/languoid/id/zulu1248"
+   ]
+  },
+  "zulu#period": {
+   "hash": "868310bd974dbd7b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zulu_language"
+   ]
+  },
+  "zulu#homeland": {
+   "hash": "804576ffd114a9e9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zulu_language",
+    "https://glottolog.org/resource/languoid/id/zulu1248"
+   ]
+  },
+  "zulu#attestation:callaway-nursery-tales": {
+   "hash": "9bdd0caca46090d9",
+   "verdict": "corrected",
+   "evidence": [
+    "https://archive.org/details/nurserytalestra00callgoog"
+   ],
+   "note": "Callaway book was printed at Springvale, Natal; map point at Pietermaritzburg is a marker for the colony, now stated."
+  },
+  "zulu#scripts": {
+   "hash": "6993aca2c7605ae5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zulu_language"
+   ]
+  },
+  "zulu#speakers": {
+   "hash": "03b5c843ebaad6ce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zulu_language"
+   ]
+  },
+  "zulu#story:0": {
+   "hash": "fe9972de9e5491c2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zulu_language"
+   ],
+   "note": "Source says often considered mutually intelligible; softened."
+  },
+  "zulu#story:1": {
+   "hash": "656b483d04c69ef9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zulu_language"
+   ]
+  },
+  "xhosa#identity": {
+   "hash": "2b15cb0ee4ade066",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Xhosa_language",
+    "https://glottolog.org/resource/languoid/id/xhos1239"
+   ]
+  },
+  "xhosa#period": {
+   "hash": "440f79f8204fe5f7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/John_Bennie_(missionary)"
+   ]
+  },
+  "xhosa#homeland": {
+   "hash": "4816dff8576481fd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Xhosa_language",
+    "https://glottolog.org/resource/languoid/id/xhos1239"
+   ]
+  },
+  "xhosa#attestation:tyhume-press": {
+   "hash": "1d63fb14746f22b9",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/John_Bennie_(missionary)"
+   ],
+   "note": "Source says Bennie reading sheet is oldest continuous printed Xhosa, not that it was in the 19 Dec batch."
+  },
+  "xhosa#scripts": {
+   "hash": "7d8bfa876db57abf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Xhosa_language"
+   ]
+  },
+  "xhosa#speakers": {
+   "hash": "480bdda103f3659a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Xhosa_language"
+   ]
+  },
+  "xhosa#story:0": {
+   "hash": "259b14c0fa536548",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Xhosa_language"
+   ],
+   "note": "Source: heaviest click load in a Bantu language (not of any); intelligibility softened."
+  },
+  "xhosa#story:1": {
+   "hash": "6d939aeed785453a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Xhosa_language",
+    "https://en.wikipedia.org/wiki/John_Bennie_(missionary)"
+   ]
+  },
+  "shona#identity": {
+   "hash": "45553ba9b9bd30e6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shona_language",
+    "https://glottolog.org/resource/languoid/id/shon1251"
+   ]
+  },
+  "shona#period": {
+   "hash": "9b77ca8d07951e2c",
+   "verdict": "verified",
+   "evidence": [
+    "https://scientiamilitaria.journals.ac.za/pub/article/download/404/439"
+   ]
+  },
+  "shona#homeland": {
+   "hash": "befb39e0dc692ff2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shona_language",
+    "https://glottolog.org/resource/languoid/id/shon1251"
+   ]
+  },
+  "shona#attestation:silveira-account": {
+   "hash": "592d1f1d38d0a1ec",
+   "verdict": "verified",
+   "evidence": [
+    "https://scientiamilitaria.journals.ac.za/pub/article/download/404/439",
+    "https://en.wikipedia.org/wiki/Mutapa_Empire"
+   ]
+  },
+  "shona#scripts": {
+   "hash": "43670a0a7df656e7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shona_language"
+   ]
+  },
+  "shona#speakers": {
+   "hash": "24d8421c2d5fdfee",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shona_language"
+   ]
+  },
+  "shona#story:0": {
+   "hash": "1528b1debcd0aefb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shona_language"
+   ]
+  },
+  "shona#story:1": {
+   "hash": "db6a2032649c7264",
+   "verdict": "verified",
+   "evidence": [
+    "https://scientiamilitaria.journals.ac.za/pub/article/download/404/439",
+    "https://en.wikipedia.org/wiki/Mutapa_Empire"
+   ]
+  },
+  "lingala#identity": {
+   "hash": "0d9eaf2392e4858d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/ling1269"
+   ],
+   "note": "ling1263 is Kinshasa Lingala only; changed to Lingala-Bangala family ling1269."
+  },
+  "lingala#period": {
+   "hash": "2c9df6454e8551b1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lingala"
+   ]
+  },
+  "lingala#homeland": {
+   "hash": "db903f52c1b2ca52",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lingala",
+    "https://en.wikipedia.org/wiki/Makanza"
+   ]
+  },
+  "lingala#attestation:de-boeck-lingala": {
+   "hash": "fe10f493e5e56fe7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lingala",
+    "https://en.wikipedia.org/wiki/Makanza"
+   ]
+  },
+  "lingala#scripts": {
+   "hash": "094ed196c4948dec",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lingala"
+   ]
+  },
+  "lingala#speakers": {
+   "hash": "5e16568144e28fb1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lingala"
+   ]
+  },
+  "lingala#story:0": {
+   "hash": "f99e786553aaf885",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lingala"
+   ]
+  },
+  "lingala#story:1": {
+   "hash": "fcc3a6fc4674f82f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lingala",
+    "https://en.wikipedia.org/wiki/Makanza"
+   ]
+  },
+  "lingala#note:0": {
+   "hash": "966a6f691ab73b77",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/ling1269"
+   ]
+  },
+  "kongo#identity": {
+   "hash": "b50028f01d771346",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kongo_language",
+    "https://glottolog.org/resource/languoid/id/kiko1235"
+   ]
+  },
+  "kongo#period": {
+   "hash": "aa11d334d8aa5bde",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kongo_language",
+    "https://scientiamilitaria.journals.ac.za/pub/article/download/404/439"
+   ]
+  },
+  "kongo#homeland": {
+   "hash": "4dc60dae29a1a590",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kongo_language",
+    "https://en.wikipedia.org/wiki/Mbanza_Kongo"
+   ]
+  },
+  "kongo#attestation:kongo-catechism-1624": {
+   "hash": "f907446312063b9f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kongo_language",
+    "https://scientiamilitaria.journals.ac.za/pub/article/download/404/439"
+   ]
+  },
+  "kongo#scripts": {
+   "hash": "14b6168df15ceb9b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kongo_language"
+   ]
+  },
+  "kongo#story:0": {
+   "hash": "2a8cb4ba422619b2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kongo_language",
+    "https://en.wikipedia.org/wiki/Mbanza_Kongo"
+   ]
+  },
+  "kongo#story:1": {
+   "hash": "f111c76dceaf088d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kongo_language",
+    "https://scientiamilitaria.journals.ac.za/pub/article/download/404/439"
+   ]
+  },
+  "kongo#note:0": {
+   "hash": "780cfc21fe39632c",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/kiko1235"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:26:08.387Z",
+ "verifier": "verifier-pacific-africa-americas"
+}

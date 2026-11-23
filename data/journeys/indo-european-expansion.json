@@ -1,0 +1,129 @@
+{
+  "id": "indo-european-expansion",
+  "title": "The Indo-European Expansion",
+  "subtitle": "Trace one reconstructed ancestor through the oldest and most distant records of its descendants, from Anatolia to the Tarim Basin and Great Moravia.",
+  "sources": [
+    {
+      "id": "pie-homeland",
+      "title": "Proto-Indo-European homeland",
+      "url": "https://en.wikipedia.org/wiki/Proto-Indo-European_homeland",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "hittite",
+      "title": "Hittite language",
+      "url": "https://en.wikipedia.org/wiki/Hittite_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "linear-b",
+      "title": "Linear B",
+      "url": "https://en.wikipedia.org/wiki/Linear_B",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "duenos",
+      "title": "Duenos inscription",
+      "url": "https://en.wikipedia.org/wiki/Duenos_inscription",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "gaulish",
+      "title": "Gaulish language",
+      "url": "https://en.wikipedia.org/wiki/Gaulish_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "codex-argenteus",
+      "title": "Codex Argenteus",
+      "url": "https://en.wikipedia.org/wiki/Codex_Argenteus",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "tocharian",
+      "title": "Tocharian languages",
+      "url": "https://en.wikipedia.org/wiki/Tocharian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ocs",
+      "title": "Old Church Slavonic",
+      "url": "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "steps": [
+    {
+      "languoid": "proto-indo-european",
+      "year": -3500,
+      "title": "A language no one wrote down",
+      "text": "No text survives in Proto-Indo-European; it is reconstructed from its descendants. The mainstream Steppe view places its speakers on the Pontic-Caspian steppe around 4000 to 3000 BCE, with David Anthony naming the Yamnaya culture as the most likely community. Alternatives exist: Colin Renfrew proposed Anatolia with early farmers, and Gamkrelidze and Ivanov looked south of the Caucasus.",
+      "sources": [
+        "pie-homeland"
+      ]
+    },
+    {
+      "languoid": "hittite",
+      "year": -1650,
+      "title": "The oldest recorded branch",
+      "text": "Hittite is the oldest attested Indo-European language. The Anitta proclamation, its oldest known text, dates from between the end of the 17th and the mid-16th century BCE. More than 30,000 tablets or fragments have come from the royal archives of Hattusa. In 1915 Bedrich Hrozny argued that the cuneiform language was Indo-European.",
+      "sources": [
+        "hittite"
+      ]
+    },
+    {
+      "languoid": "mycenaean-greek",
+      "year": -1200,
+      "title": "Greek in the palace ledgers",
+      "text": "The Pylos tablets, uncovered by Carl Blegen in 1939, were fired in the blaze that destroyed the palace around 1200 BCE. They are written in Linear B, a syllabic script that records Mycenaean Greek, the earliest attested form of Greek. Michael Ventris showed in 1952 that the language was Greek, revealing Greek writing centuries earlier than previously accepted.",
+      "sources": [
+        "linear-b"
+      ]
+    },
+    {
+      "languoid": "old-latin",
+      "year": -550,
+      "title": "A vessel with an Old Latin riddle",
+      "text": "In 1880 workers digging a building foundation on the south slope of the Quirinal in Rome unearthed a three-part clay vessel, a kernos, which Heinrich Dressel soon bought. Its inscription, often dated to about 550 BCE though estimates run from the 7th to the 5th century, is written right to left without word spaces. It is among the earliest known Old Latin texts, and scholars have proposed over 50 interpretations, none accepted as certain.",
+      "sources": [
+        "duenos"
+      ]
+    },
+    {
+      "languoid": "gaulish",
+      "year": 150,
+      "title": "A Celtic calendar in bronze",
+      "text": "In 1897 a fragmented bronze tablet came to light at Coligny, France, near a statue identified as Mars. Dated to the 2nd century CE, it records Celtic month names in a lunisolar calendar. It is one of more than 760 Gaulish inscriptions, which are written in Greek, Old Italic and Latin letters and found across France and northern Italy.",
+      "sources": [
+        "gaulish"
+      ]
+    },
+    {
+      "languoid": "gothic",
+      "year": 520,
+      "title": "The Silver Bible",
+      "text": "The Codex Argenteus, made in the 6th century and probably for the Ostrogothic king Theodoric the Great, is written in gold and silver ink on purple-dyed vellum. It preserves the Gospels from the 4th-century Gothic Bible traditionally attributed to Bishop Wulfila, in the Gothic alphabet. Of its original 336 leaves, 187 survived at Werden Abbey and one more was found in Speyer Cathedral in 1970. It is kept at Uppsala University Library.",
+      "sources": [
+        "codex-argenteus"
+      ]
+    },
+    {
+      "languoid": "tocharian-b",
+      "year": 600,
+      "title": "Indo-European at the edge of China",
+      "text": "Manuscripts in Tocharian, the easternmost Indo-European branch, came from oasis towns on the northern edge of the Tarim Basin, such as Kucha, in what is now Xinjiang. They date from about the 5th to 8th century CE and are written in a script derived from Brahmi. Many are translations of Buddhist works from Sanskrit, and the language's existence had not been suspected before their discovery.",
+      "sources": [
+        "tocharian"
+      ]
+    },
+    {
+      "languoid": "old-church-slavonic",
+      "year": 863,
+      "title": "Cyril and Methodius in Moravia",
+      "text": "In 863 the Byzantine missionaries Cyril and Methodius went to Great Moravia, and for that mission they standardized a Slavic literary language to translate the Gospels and liturgical books. It is thought to have been based on the dialect spoken near Thessaloniki and was first written in the Glagolitic alphabet. Their exiled students brought the alphabet to the Bulgarian Empire, and the language later spread to Croatia, Serbia, Bohemia and Kievan Rus.",
+      "sources": [
+        "ocs"
+      ]
+    }
+  ]
+}

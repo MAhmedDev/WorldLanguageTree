@@ -1,0 +1,1602 @@
+{
+ "file": "data/families/indo-iranian.json",
+ "claims": {
+  "proto-indo-iranian#identity": {
+   "hash": "6fece7f7a6abfc2d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-Iranian_language",
+    "https://glottolog.org/resource/languoid/id/indo1320"
+   ]
+  },
+  "proto-indo-iranian#period": {
+   "hash": "cf0a842b518985a3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-Iranian_language",
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit"
+   ]
+  },
+  "proto-indo-iranian#homeland": {
+   "hash": "beae2619cd580688",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-Iranian_language",
+    "https://en.wikipedia.org/wiki/Sintashta_culture"
+   ]
+  },
+  "proto-indo-iranian#story:0": {
+   "hash": "b75164df2dbb3b80",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-Iranian_language"
+   ]
+  },
+  "proto-indo-iranian#story:1": {
+   "hash": "f530bb0d04c4d12c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-Iranian_language",
+    "https://en.wikipedia.org/wiki/Sintashta_culture"
+   ],
+   "note": "Sintashta date now stated as the infobox range with the chronology-section extension to ~1750 BCE."
+  },
+  "proto-indo-aryan#identity": {
+   "hash": "b6ffc7af423a5d33",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-Aryan_language",
+    "https://glottolog.org/resource/languoid/id/indo1321"
+   ]
+  },
+  "proto-indo-aryan#period": {
+   "hash": "4146fe97838da095",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit",
+    "https://en.wikipedia.org/wiki/Proto-Indo-Aryan_language"
+   ]
+  },
+  "proto-indo-aryan#homeland": {
+   "hash": "18a23f1a80971ae5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit"
+   ]
+  },
+  "proto-indo-aryan#story:0": {
+   "hash": "f3499914e8913273",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-Aryan_language"
+   ]
+  },
+  "proto-indo-aryan#story:1": {
+   "hash": "f4ec77db72e697fd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit"
+   ]
+  },
+  "vedic-sanskrit#identity": {
+   "hash": "40052c1b6bbaa914",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit",
+    "https://glottolog.org/resource/languoid/id/vedi1234"
+   ]
+  },
+  "vedic-sanskrit#period": {
+   "hash": "5d83efc60e4df946",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit",
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit"
+   ]
+  },
+  "vedic-sanskrit#homeland": {
+   "hash": "cd4697762f706c4f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Rigveda"
+   ]
+  },
+  "vedic-sanskrit#scripts": {
+   "hash": "e99038f9ace79609",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ]
+  },
+  "vedic-sanskrit#story:0": {
+   "hash": "2bf1844b2cd8f856",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit",
+    "https://en.wikipedia.org/wiki/Rigveda"
+   ]
+  },
+  "vedic-sanskrit#story:1": {
+   "hash": "d36c7be1c93590ee",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit",
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ],
+   "note": "Removed unsupported 'memorised with exceptional rigour/no variant readings' claim; reworded Avestan-cognate sentence to match source."
+  },
+  "vedic-sanskrit#work:rigveda-1-1": {
+   "hash": "815482e235891437",
+   "verdict": "verified",
+   "evidence": [
+    "https://sa.wikisource.org/wiki/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%A6%E0%A4%83_%E0%A4%B8%E0%A5%82%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%82_%E0%A5%A7.%E0%A5%A7",
+    "https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda/Book_1/Hymn_1",
+    "https://en.wikipedia.org/wiki/Rigveda",
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ]
+  },
+  "classical-sanskrit#identity": {
+   "hash": "69f7471b80941df2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit",
+    "https://glottolog.org/resource/languoid/id/clas1258"
+   ],
+   "note": "Status changed extinct -> classical (no L1 speakers but continuous ceremonial/ritual and scholarly use)."
+  },
+  "classical-sanskrit#period": {
+   "hash": "b74b2d96ea0edf0e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ],
+   "note": "period.to 1350 -> null; note explains classical status."
+  },
+  "classical-sanskrit#homeland": {
+   "hash": "f4d4bc64a81bd36f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit"
+   ]
+  },
+  "classical-sanskrit#attestation:junagadh-rudradaman": {
+   "hash": "abd76d98b84b89b4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Junagadh_rock_inscription_of_Rudradaman"
+   ]
+  },
+  "classical-sanskrit#scripts": {
+   "hash": "e99038f9ace79609",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ]
+  },
+  "classical-sanskrit#story:0": {
+   "hash": "38beca124130b641",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ]
+  },
+  "classical-sanskrit#story:1": {
+   "hash": "4c01caeb0f165691",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit",
+    "https://en.wikipedia.org/wiki/Vedic_Sanskrit"
+   ]
+  },
+  "classical-sanskrit#story:2": {
+   "hash": "f8666a5f1ba6a12a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ]
+  },
+  "classical-sanskrit#work:bhagavad-gita": {
+   "hash": "5666ea733ae77d0b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bhagavad_Gita",
+    "https://sa.wikisource.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4%E0%A4%AE%E0%A5%8D-06-%E0%A4%AD%E0%A5%80%E0%A4%B7%E0%A5%8D%E0%A4%AE%E0%A4%AA%E0%A4%B0%E0%A5%8D%E0%A4%B5-025",
+    "https://en.wikisource.org/wiki/The_Bhagavad_Gita_(Arnold_translation)/Chapter_1"
+   ]
+  },
+  "classical-sanskrit#work:meghaduta": {
+   "hash": "eb066473d45da27c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Meghaduta",
+    "https://sa.wikisource.org/wiki/%E0%A4%AE%E0%A5%87%E0%A4%98%E0%A4%A6%E0%A5%82%E0%A4%A4%E0%A4%AE%E0%A5%8D/%E0%A4%AE%E0%A5%87%E0%A4%98%E0%A4%A6%E0%A5%82%E0%A4%A4%E0%A4%AE%E0%A5%8D_-_%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%AE%E0%A5%87%E0%A4%98:",
+    "https://en.wikisource.org/wiki/The_Megha_D%C5%ABta,_or,_Cloud_Messenger"
+   ]
+  },
+  "classical-sanskrit#note:0": {
+   "hash": "71b023d4047b6802",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ]
+  },
+  "classical-sanskrit#note:1": {
+   "hash": "e0cc3824742c614f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sanskrit"
+   ]
+  },
+  "middle-modern-indo-aryan#identity": {
+   "hash": "ff582c8bac8fd6b2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Indo-Aryan_languages",
+    "https://glottolog.org/resource/languoid/id/midd1375"
+   ]
+  },
+  "middle-modern-indo-aryan#story:0": {
+   "hash": "8ffbe593d86fa28b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Indo-Aryan_languages"
+   ]
+  },
+  "middle-modern-indo-aryan#story:1": {
+   "hash": "8e0b0bd06504c188",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Indo-Aryan_languages"
+   ]
+  },
+  "pali#identity": {
+   "hash": "e174046072560dd2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pali",
+    "https://glottolog.org/resource/languoid/id/pali1273"
+   ],
+   "note": "Status changed living -> classical (liturgical/scholarly language, no mother-tongue community)."
+  },
+  "pali#period": {
+   "hash": "d99067fa439394ef",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pali"
+   ],
+   "note": "Note now explains classical status."
+  },
+  "pali#homeland": {
+   "hash": "9021e1ca85419a26",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pali"
+   ]
+  },
+  "pali#scripts": {
+   "hash": "d5a7e20b1399db42",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sinhala_language",
+    "https://en.wikipedia.org/wiki/Pali"
+   ],
+   "note": "Added Thai, Burmese, Khmer, Devanagari scripts listed in the Pali infobox."
+  },
+  "pali#story:0": {
+   "hash": "7fdfe96f844fc6bb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pali"
+   ]
+  },
+  "pali#story:1": {
+   "hash": "b888fb0ec7059a5c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pali"
+   ]
+  },
+  "pali#work:dhammapada": {
+   "hash": "9733a7c1c4a372b0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dhammapada",
+    "https://suttacentral.net/dhp1-20/pli/ms",
+    "https://en.wikisource.org/wiki/Dhammapada_(Muller)"
+   ]
+  },
+  "pali#note:0": {
+   "hash": "cb8f7ccee643f709",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pali"
+   ]
+  },
+  "pali#note:1": {
+   "hash": "aea5c6436d7ed058",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pali"
+   ]
+  },
+  "maharashtri-prakrit#identity": {
+   "hash": "16498453c0c01b9f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Maharashtri_Prakrit",
+    "https://glottolog.org/resource/languoid/id/maha1305"
+   ]
+  },
+  "maharashtri-prakrit#period": {
+   "hash": "29e4fa6165dbbd9a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Indo-Aryan_languages",
+    "https://en.wikipedia.org/wiki/Maharashtri_Prakrit"
+   ],
+   "note": "Note flags the 875 CE end date as approximate/weakly sourced."
+  },
+  "maharashtri-prakrit#homeland": {
+   "hash": "ef5203047c7a4d40",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Maharashtri_Prakrit"
+   ]
+  },
+  "maharashtri-prakrit#story:0": {
+   "hash": "2a39ff5189442a96",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Maharashtri_Prakrit"
+   ]
+  },
+  "maharashtri-prakrit#story:1": {
+   "hash": "6d8295ae4b9893e4",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Maharashtri_Prakrit",
+    "https://en.wikipedia.org/wiki/Marathi_language"
+   ],
+   "note": "Removed unsupported '11th-century' for Hemachandra and 'standard grammar'; 'derived' -> 'developed'."
+  },
+  "shauraseni-prakrit#identity": {
+   "hash": "23682633194422f4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit",
+    "https://glottolog.org/resource/languoid/id/saur1252"
+   ]
+  },
+  "shauraseni-prakrit#period": {
+   "hash": "55342a830dd9bd60",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit"
+   ],
+   "note": "Note explains from=200 is start of surviving material, not emergence."
+  },
+  "shauraseni-prakrit#homeland": {
+   "hash": "9662a1224cb989b0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit",
+    "https://en.wikipedia.org/wiki/Surasena"
+   ],
+   "note": "Label now says point is at Mathura, capital of Surasena (added source)."
+  },
+  "shauraseni-prakrit#story:0": {
+   "hash": "399a8d5e5520f0e3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit"
+   ]
+  },
+  "shauraseni-prakrit#story:1": {
+   "hash": "d36febd0ac3f2edc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit"
+   ]
+  },
+  "magadhi-prakrit#identity": {
+   "hash": "64aab0ff9bf441e7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Magadhi_Prakrit",
+    "https://en.wikipedia.org/wiki/Middle_Indo-Aryan_languages"
+   ]
+  },
+  "magadhi-prakrit#period": {
+   "hash": "ca16d022dc34d830",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Magadhi_Prakrit",
+    "https://en.wikipedia.org/wiki/Middle_Indo-Aryan_languages"
+   ]
+  },
+  "magadhi-prakrit#homeland": {
+   "hash": "221d12a7531884da",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Magadhi_Prakrit",
+    "https://en.wikipedia.org/wiki/Pali"
+   ]
+  },
+  "magadhi-prakrit#story:0": {
+   "hash": "c85aa88c298cad72",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Magadhi_Prakrit"
+   ]
+  },
+  "magadhi-prakrit#story:1": {
+   "hash": "a5f6f22362853a04",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Magadhi_Prakrit",
+    "https://en.wikipedia.org/wiki/Bengali_language",
+    "https://en.wikipedia.org/wiki/Middle_Indo-Aryan_languages"
+   ]
+  },
+  "hindustani#identity": {
+   "hash": "9e7bd17bc3679dce",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindustani_language",
+    "https://glottolog.org/resource/languoid/id/hind1270"
+   ]
+  },
+  "hindustani#story:0": {
+   "hash": "19c14fc07d1f1084",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindustani_language"
+   ]
+  },
+  "hindi#identity": {
+   "hash": "0a6bb5a7f588d7e4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindi",
+    "https://glottolog.org/resource/languoid/id/hind1269"
+   ]
+  },
+  "hindi#period": {
+   "hash": "14362469e7404a8e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindustani_language",
+    "https://en.wikipedia.org/wiki/Hindi"
+   ],
+   "note": "Note explains 1200 is first-attestation (first written poetry) date."
+  },
+  "hindi#homeland": {
+   "hash": "ab76e95917be7c53",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindi"
+   ]
+  },
+  "hindi#scripts": {
+   "hash": "0f136bc9f7f25310",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindi"
+   ]
+  },
+  "hindi#speakers": {
+   "hash": "9c80ff252fdfb95d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindi"
+   ]
+  },
+  "hindi#story:0": {
+   "hash": "155bcbc1b1b945aa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindi"
+   ]
+  },
+  "hindi#story:1": {
+   "hash": "a2046f1fbbfd75aa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindi"
+   ]
+  },
+  "hindi#work:kabir-gurudev-ko-ang": {
+   "hash": "0e5a5892a8153a0b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kabir",
+    "https://en.wikipedia.org/wiki/Hindi",
+    "https://hi.wikisource.org/wiki/%E0%A4%95%E0%A4%AC%E0%A5%80%E0%A4%B0_%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%82%E0%A4%A5%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80/(%E0%A5%A7)_%E0%A4%97%E0%A5%81%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%87%E0%A4%B5_%E0%A4%95%E0%A5%8C_%E0%A4%85%E0%A4%82%E0%A4%97"
+   ],
+   "note": "Removed unsupported claim that Kabir is counted among Hindi Bhakti poets."
+  },
+  "hindi#note:0": {
+   "hash": "4e33a7c639bff29c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindi"
+   ]
+  },
+  "urdu#identity": {
+   "hash": "e5d760c4ad38dee9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urdu",
+    "https://glottolog.org/resource/languoid/id/urdu1245"
+   ]
+  },
+  "urdu#period": {
+   "hash": "1adc48e205b09a6b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hindustani_language",
+    "https://en.wikipedia.org/wiki/Urdu"
+   ],
+   "note": "Note explains 1200 is first-attestation date."
+  },
+  "urdu#homeland": {
+   "hash": "b227e3f3fc444d3d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urdu"
+   ]
+  },
+  "urdu#scripts": {
+   "hash": "831e0ace1005e2d6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urdu"
+   ]
+  },
+  "urdu#speakers": {
+   "hash": "d5f64966c0b9937f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urdu"
+   ]
+  },
+  "urdu#story:0": {
+   "hash": "e5b78cb712b5c8f8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urdu"
+   ]
+  },
+  "urdu#story:1": {
+   "hash": "997b9e9eef2a629d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urdu"
+   ]
+  },
+  "urdu#work:ghalib-hazaron-khwahishen": {
+   "hash": "8bfb7f3422ecab5b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mirza_Ghalib",
+    "https://ur.wikisource.org/wiki/%DB%81%D8%B2%D8%A7%D8%B1%D9%88%DA%BA_%D8%AE%D9%88%D8%A7%DB%81%D8%B4%DB%8C%DA%BA_%D8%A7%DB%8C%D8%B3%DB%8C_%DA%A9%DB%81_%DB%81%D8%B1_%D8%AE%D9%88%D8%A7%DB%81%D8%B4_%D9%BE%DB%81_%D8%AF%D9%85_%D9%86%DA%A9%D9%84%DB%92"
+   ]
+  },
+  "urdu#note:0": {
+   "hash": "5bb6e48a7f309f24",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Urdu"
+   ]
+  },
+  "bengali#identity": {
+   "hash": "d0539f42281a3761",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language",
+    "https://glottolog.org/resource/languoid/id/beng1280"
+   ]
+  },
+  "bengali#period": {
+   "hash": "f67001929f0bc244",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language"
+   ],
+   "note": "from 700 (unsourced) -> 782 (Li-Yen dictionary, first attestation); note explains."
+  },
+  "bengali#homeland": {
+   "hash": "b58181d04b4fcd35",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language"
+   ]
+  },
+  "bengali#scripts": {
+   "hash": "4aece69295fd28a0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language"
+   ]
+  },
+  "bengali#speakers": {
+   "hash": "8f5277979f6b1e7e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language"
+   ]
+  },
+  "bengali#story:0": {
+   "hash": "3029cb75f808584a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language",
+    "https://en.wikipedia.org/wiki/Charyapada"
+   ]
+  },
+  "bengali#story:1": {
+   "hash": "d95786950d642f33",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language"
+   ]
+  },
+  "bengali#story:2": {
+   "hash": "b3161469012013a1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language"
+   ]
+  },
+  "bengali#work:tagore-chitto-jetha-bhayshunyo": {
+   "hash": "4757a1d8088cd70a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Chitto_Jetha_Bhayshunyo",
+    "https://en.wikipedia.org/wiki/Rabindranath_Tagore",
+    "https://bn.wikisource.org/wiki/%E0%A6%A8%E0%A7%88%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A7%8D%E0%A6%AF_(%E0%A6%B0%E0%A6%AC%E0%A7%80%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A6%A5_%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0)/%E0%A7%AD%E0%A7%A8"
+   ],
+   "note": "Nobel claim corrected: first non-European to win the Nobel Prize in Literature (not any Nobel Prize)."
+  },
+  "bengali#note:0": {
+   "hash": "faf3a450baeb1b5e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bengali_language"
+   ]
+  },
+  "punjabi#identity": {
+   "hash": "e06e4ea6b3c0ba2d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language",
+    "https://glottolog.org/resource/languoid/id/lahn1241"
+   ]
+  },
+  "punjabi#period": {
+   "hash": "d4831c345c66c22d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language"
+   ],
+   "note": "Note explains 850 is first-attestation date."
+  },
+  "punjabi#homeland": {
+   "hash": "92ad32b25825b06e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language"
+   ]
+  },
+  "punjabi#scripts": {
+   "hash": "55f53d7b6928ea2f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language"
+   ]
+  },
+  "punjabi#speakers": {
+   "hash": "8bce00939c3e213a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language"
+   ]
+  },
+  "punjabi#story:0": {
+   "hash": "6f1112e675a1b48f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language"
+   ]
+  },
+  "punjabi#story:1": {
+   "hash": "dc6d1c2b53cf4963",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language",
+    "https://en.wikipedia.org/wiki/Guru_Granth_Sahib"
+   ]
+  },
+  "punjabi#story:2": {
+   "hash": "22e5489c7be61ddc",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language"
+   ],
+   "note": "Added breakdown of 123.2M (Punjabi/Saraiki/Hindko) so scope is honest."
+  },
+  "punjabi#work:japji-sahib": {
+   "hash": "9f8a261ecc8bd8fe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japji_Sahib",
+    "https://en.wikipedia.org/wiki/Guru_Nanak",
+    "https://en.wikipedia.org/wiki/Guru_Granth_Sahib",
+    "https://www.srigranth.org/servlet/gurbani.gurbani?Action=Page&Param=1&english=t&id=1"
+   ]
+  },
+  "punjabi#note:0": {
+   "hash": "bd030c852470d7c2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language",
+    "https://glottolog.org/resource/languoid/id/lahn1241"
+   ]
+  },
+  "punjabi#note:1": {
+   "hash": "219fe7ce956924c0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Punjabi_language",
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit"
+   ]
+  },
+  "marathi#identity": {
+   "hash": "111c8caba526c2d4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Marathi_language",
+    "https://glottolog.org/resource/languoid/id/mara1378"
+   ]
+  },
+  "marathi#period": {
+   "hash": "eca791d188c6733a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Marathi_language"
+   ]
+  },
+  "marathi#homeland": {
+   "hash": "8e6f6ba49931953c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Marathi_language",
+    "https://en.wikipedia.org/wiki/Maharashtri_Prakrit"
+   ]
+  },
+  "marathi#attestation:akshi-inscription": {
+   "hash": "73f51f0c272a832b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Marathi_language"
+   ]
+  },
+  "marathi#scripts": {
+   "hash": "c60d812cee06ff4b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Marathi_language"
+   ]
+  },
+  "marathi#speakers": {
+   "hash": "f0397b566d0826fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Marathi_language"
+   ]
+  },
+  "marathi#story:0": {
+   "hash": "61e07e45d8f628c3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Marathi_language"
+   ]
+  },
+  "marathi#story:1": {
+   "hash": "8a2b03fb367acc41",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Marathi_language"
+   ]
+  },
+  "gujarati#identity": {
+   "hash": "81792cc128ece787",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gujarati_language",
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit",
+    "https://glottolog.org/resource/languoid/id/guja1252"
+   ]
+  },
+  "gujarati#period": {
+   "hash": "fef1f788a4b8166c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gujarati_language"
+   ],
+   "note": "Note records 1100 vs 1200 inconsistency in source; start approximate."
+  },
+  "gujarati#homeland": {
+   "hash": "47b5ab0605d1e9e4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gujarati_language"
+   ]
+  },
+  "gujarati#scripts": {
+   "hash": "2047755d8c1bd1a6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gujarati_language"
+   ]
+  },
+  "gujarati#speakers": {
+   "hash": "0e79480b4fbe7b66",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gujarati_language"
+   ]
+  },
+  "gujarati#story:0": {
+   "hash": "9e013b3ea0f70b3e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gujarati_language",
+    "https://en.wikipedia.org/wiki/Shauraseni_Prakrit",
+    "https://en.wikipedia.org/wiki/Marathi_language"
+   ],
+   "note": "Removed unsupported 'father of the Gujarati language' Hemachandra sentence."
+  },
+  "gujarati#story:1": {
+   "hash": "464b3de47e85f15f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gujarati_language"
+   ]
+  },
+  "nepali#identity": {
+   "hash": "36773745f6e9ecb1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language",
+    "https://glottolog.org/resource/languoid/id/nepa1254"
+   ]
+  },
+  "nepali#period": {
+   "hash": "7891c61ce49dacf6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language"
+   ],
+   "note": "from 950 (unsourced) -> 981 (Dullu inscription, first attestation); note explains."
+  },
+  "nepali#homeland": {
+   "hash": "392cb87dfe1b27aa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language"
+   ]
+  },
+  "nepali#attestation:dullu-inscription": {
+   "hash": "ea4383cb8478dc46",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language",
+    "https://en.wikipedia.org/wiki/Dullu"
+   ],
+   "note": "Coordinates corrected to Dullu (28.86N, 81.62E) per Wikipedia; source added."
+  },
+  "nepali#scripts": {
+   "hash": "bb51c11243f17eb7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language"
+   ]
+  },
+  "nepali#speakers": {
+   "hash": "f7932252fdcc72b5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language"
+   ]
+  },
+  "nepali#story:0": {
+   "hash": "36db0f3c6b490564",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language"
+   ]
+  },
+  "nepali#story:1": {
+   "hash": "f1be806c3506d851",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language"
+   ]
+  },
+  "nepali#note:0": {
+   "hash": "71bba6dda65a0045",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nepali_language"
+   ]
+  },
+  "sinhala#identity": {
+   "hash": "06d82f0fe413843a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sinhala_language",
+    "https://glottolog.org/resource/languoid/id/sinh1246"
+   ]
+  },
+  "sinhala#period": {
+   "hash": "cea98d69e59de449",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sinhala_language"
+   ]
+  },
+  "sinhala#homeland": {
+   "hash": "41b79f828cb70298",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sinhala_language"
+   ]
+  },
+  "sinhala#scripts": {
+   "hash": "c65ec92aa3f7b3ec",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sinhala_language"
+   ]
+  },
+  "sinhala#speakers": {
+   "hash": "5238f30bc2d4626b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sinhala_language"
+   ]
+  },
+  "sinhala#story:0": {
+   "hash": "1923562be08eec72",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sinhala_language"
+   ],
+   "note": "Removed 'citation needed' migrant sentence."
+  },
+  "sinhala#story:1": {
+   "hash": "90fc3066763b2a4c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sinhala_language"
+   ],
+   "note": "Fixed Vedda/Maldivian relatives and borrowing wording."
+  },
+  "romani#identity": {
+   "hash": "649a6f5bdd8c3678",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romani_language",
+    "https://glottolog.org/resource/languoid/id/roma1329"
+   ]
+  },
+  "romani#period": {
+   "hash": "eb5f854e3364e8fc",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romani_language"
+   ],
+   "note": "Note clarifies from=1000 approximates Early Romani."
+  },
+  "romani#homeland": {
+   "hash": "61f89e1f12087d92",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romani_language"
+   ],
+   "note": "Label no longer claims Asia Minor as stated origin; explains point placement."
+  },
+  "romani#story:0": {
+   "hash": "03802ac2f0997b8a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romani_language"
+   ]
+  },
+  "romani#story:1": {
+   "hash": "92653f514c0ab822",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Romani_language"
+   ]
+  },
+  "proto-iranian#identity": {
+   "hash": "db9d9926760a5930",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/iran1269",
+    "https://en.wikipedia.org/wiki/Proto-Iranian_language",
+    "https://en.wikipedia.org/wiki/Iranian_languages"
+   ]
+  },
+  "proto-iranian#period": {
+   "hash": "921291e446aa0f26",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Iranian_language",
+    "https://en.wikipedia.org/wiki/Iranian_languages",
+    "https://en.wikipedia.org/wiki/Avestan"
+   ]
+  },
+  "proto-iranian#homeland": {
+   "hash": "972e28f2106e54ce",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Andronovo_culture",
+    "https://en.wikipedia.org/wiki/Proto-Iranian_language"
+   ],
+   "note": "Label and sources changed: Proto-Iranian page gives no location; Andronovo page supports Kazakhstan/Urals steppe association with early Indo-Iranian speakers."
+  },
+  "proto-iranian#story:0": {
+   "hash": "ec7641d2d1e7c1be",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Iranian_language",
+    "https://en.wikipedia.org/wiki/Iranian_languages",
+    "https://en.wikipedia.org/wiki/Andronovo_culture"
+   ],
+   "note": "Unsupported 'western Central Asia bordering Russia' sentence replaced with Andronovo-sourced statement."
+  },
+  "proto-iranian#story:1": {
+   "hash": "0ae97ade7bde7c11",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Iranian_languages",
+    "https://en.wikipedia.org/wiki/Avestan"
+   ],
+   "note": "Removed unsupported spread across SE Europe; corrected sound-change description (voiceless aspirates became fricatives, not voiceless stops before consonants)."
+  },
+  "avestan#identity": {
+   "hash": "c552b711f2d6a5fe",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/aves1237",
+    "https://en.wikipedia.org/wiki/Avestan"
+   ],
+   "note": "Status changed extinct -> classical: liturgies still recited by Zoroastrian priests (continuous liturgical use)."
+  },
+  "avestan#period": {
+   "hash": "5668d15fc41614fb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Avestan"
+   ],
+   "note": "to set to null; note explains spoken period vs continuing liturgical use."
+  },
+  "avestan#homeland": {
+   "hash": "e343dad4712d07ad",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Avestan",
+    "https://glottolog.org/resource/languoid/id/aves1237"
+   ]
+  },
+  "avestan#scripts": {
+   "hash": "d4f57068c94c36a9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Avestan"
+   ]
+  },
+  "avestan#story:0": {
+   "hash": "d55e40242c87348c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Avestan"
+   ],
+   "note": "Source says Old Avestan is quite close in grammar and lexicon to Vedic Sanskrit; the claim that only a limited time separates them was not in the cited pages and was reworded to what the source states."
+  },
+  "avestan#story:1": {
+   "hash": "68dcbdb870210859",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Avestan"
+   ],
+   "note": "Script date softened to 3rd or 4th century CE per source (Sasanian attribution not stated)."
+  },
+  "avestan#story:2": {
+   "hash": "e23c42f6f02b5a61",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Avestan"
+   ]
+  },
+  "avestan#work:gathas-yasna-29": {
+   "hash": "b39332b6a1d4af06",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gathas",
+    "https://lrc.la.utexas.edu/eieol/aveol/10",
+    "https://archive.org/details/zendavesta03darm",
+    "https://lrc.la.utexas.edu/eieol/aveol"
+   ]
+  },
+  "avestan#note:0": {
+   "hash": "e927d9e2512dd7b7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Avestan"
+   ],
+   "note": "New note explaining classical status; supported by Avestan article (liturgies memorised, recited by rote, still so today)."
+  },
+  "old-persian#identity": {
+   "hash": "2536d2615b32a4d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/oldp1254",
+    "https://en.wikipedia.org/wiki/Old_Persian"
+   ]
+  },
+  "old-persian#period": {
+   "hash": "4c469af6c45ca692",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Persian"
+   ]
+  },
+  "old-persian#homeland": {
+   "hash": "d2d0967ad627fc4b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Persian",
+    "https://en.wikipedia.org/wiki/Persepolis"
+   ]
+  },
+  "old-persian#attestation:behistun-inscription": {
+   "hash": "d3acca8aee5c0bab",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Behistun_Inscription",
+    "https://en.wikipedia.org/wiki/Old_Persian"
+   ],
+   "note": "Removed unsupported 'most important Old Persian record'."
+  },
+  "old-persian#scripts": {
+   "hash": "5004383b82d608e7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Persian"
+   ]
+  },
+  "old-persian#story:0": {
+   "hash": "fa799ee786aeccb2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Persian"
+   ]
+  },
+  "old-persian#story:1": {
+   "hash": "672f1bf9d167e3eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Persian",
+    "https://en.wikipedia.org/wiki/Behistun_Inscription"
+   ]
+  },
+  "old-persian#story:2": {
+   "hash": "203186031f68e5f7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Persian"
+   ]
+  },
+  "old-persian#work:behistun-inscription-text": {
+   "hash": "10ea1b803ff165f5",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Behistun_Inscription",
+    "https://lrc.la.utexas.edu/eieol/aveol/80",
+    "https://archive.org/details/sculpturesinscri00brituoft"
+   ],
+   "note": "'central to decipherment' softened to 'important to' per source. Excerpt and King & Thompson 1907 translation checked verbatim."
+  },
+  "middle-persian#identity": {
+   "hash": "fdabbf7bd9f088ed",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/pahl1241",
+    "https://en.wikipedia.org/wiki/Middle_Persian",
+    "https://en.wikipedia.org/wiki/Old_Persian"
+   ]
+  },
+  "middle-persian#period": {
+   "hash": "d27c871015b8c7d0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Persian",
+    "https://en.wikipedia.org/wiki/Iranian_languages"
+   ],
+   "note": "from changed -400 to 224 (Sasanian era; Middle Persian inscriptions 3rd-4th c.); note rewritten."
+  },
+  "middle-persian#homeland": {
+   "hash": "448d771a2c65eb50",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Persian",
+    "https://en.wikipedia.org/wiki/Persian_language",
+    "https://en.wikipedia.org/wiki/Persepolis"
+   ]
+  },
+  "middle-persian#attestation:paikuli-inscription": {
+   "hash": "e3c62fad92003fac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Paikuli_inscription"
+   ]
+  },
+  "middle-persian#scripts": {
+   "hash": "647932f8c1cef345",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Persian"
+   ]
+  },
+  "middle-persian#story:0": {
+   "hash": "ea80ffe5935b2783",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Persian"
+   ]
+  },
+  "middle-persian#story:1": {
+   "hash": "0c15fa621dab4ceb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Persian"
+   ]
+  },
+  "middle-persian#story:2": {
+   "hash": "cd4f3026c4dee981",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Middle_Persian",
+    "https://en.wikipedia.org/wiki/Shahnameh"
+   ]
+  },
+  "persian#identity": {
+   "hash": "449c834fa5d1e23a",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/west2369",
+    "https://en.wikipedia.org/wiki/Persian_language",
+    "https://en.wikipedia.org/wiki/Iranian_Persian"
+   ]
+  },
+  "persian#period": {
+   "hash": "6df263355cd041d6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Persian_language"
+   ]
+  },
+  "persian#homeland": {
+   "hash": "1894f8085f5697ae",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Persian_language",
+    "https://en.wikipedia.org/wiki/Persepolis"
+   ]
+  },
+  "persian#attestation:shahnameh-tus": {
+   "hash": "456db07e426f2f71",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shahnameh",
+    "https://en.wikipedia.org/wiki/Ferdowsi",
+    "https://en.wikipedia.org/wiki/Tus,_Iran"
+   ],
+   "note": "'more than thirty years' changed to 'decades' (sources vary 25-35 years)."
+  },
+  "persian#attestation:masnavi-konya": {
+   "hash": "cc91b8855863c561",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Masnavi",
+    "https://en.wikipedia.org/wiki/Rumi",
+    "https://en.wikipedia.org/wiki/Konya"
+   ]
+  },
+  "persian#scripts": {
+   "hash": "15e10650e12a2069",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Persian_language",
+    "https://en.wikipedia.org/wiki/Iranian_Persian"
+   ]
+  },
+  "persian#speakers": {
+   "hash": "61bcc58a8c55a364",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Iranian_Persian"
+   ]
+  },
+  "persian#story:0": {
+   "hash": "88a2abe000ccfa24",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Persian_language"
+   ]
+  },
+  "persian#story:1": {
+   "hash": "a7b3a2afc5bcb961",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Persian_language"
+   ]
+  },
+  "persian#story:2": {
+   "hash": "df3d01f77f20ba38",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Persian_language",
+    "https://en.wikipedia.org/wiki/Iranian_Persian"
+   ]
+  },
+  "persian#work:shahnameh": {
+   "hash": "95ca187bacca95cf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Shahnameh",
+    "https://ganjoor.net/ferdousi/shahname/aghaz/sh1"
+   ]
+  },
+  "persian#work:masnavi": {
+   "hash": "e421f1579f809341",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Masnavi",
+    "https://en.wikipedia.org/wiki/Rumi",
+    "https://ganjoor.net/moulavi/masnavi/daftar1/sh1"
+   ],
+   "note": "Nicholson 1926 translation not PD under project rule (translator d. 1945): replaced with project-literal translation; 'some Muslims call it' softened to 'sometimes described as'."
+  },
+  "pashto#identity": {
+   "hash": "3b95ab7c2ac9d1b4",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/pash1269",
+    "https://en.wikipedia.org/wiki/Pashto"
+   ]
+  },
+  "pashto#period": {
+   "hash": "d0bcfbaef833ef6b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pashto"
+   ]
+  },
+  "pashto#homeland": {
+   "hash": "23af2ffe700b51b8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pashto",
+    "https://glottolog.org/resource/languoid/id/pash1269"
+   ]
+  },
+  "pashto#scripts": {
+   "hash": "5c1615ec15062478",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pashto"
+   ]
+  },
+  "pashto#speakers": {
+   "hash": "57b6c8c5c1a3fc45",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pashto"
+   ]
+  },
+  "pashto#story:0": {
+   "hash": "bc68fd912da6c3f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pashto"
+   ]
+  },
+  "pashto#story:1": {
+   "hash": "d77cf848c2797483",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pashto"
+   ],
+   "note": "'widely regarded as among the greatest' replaced with 'notable', not supported."
+  },
+  "northern-kurdish#identity": {
+   "hash": "8ad14abf6268511a",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/nort2641",
+    "https://en.wikipedia.org/wiki/Kurmanji",
+    "https://en.wikipedia.org/wiki/Kurdish_language"
+   ]
+  },
+  "northern-kurdish#period": {
+   "hash": "bb153c6492515ca8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kurmanji"
+   ]
+  },
+  "northern-kurdish#homeland": {
+   "hash": "ed1fa6ac8b40e7fe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kurmanji",
+    "https://glottolog.org/resource/languoid/id/nort2641"
+   ]
+  },
+  "northern-kurdish#scripts": {
+   "hash": "075e0b60a3217523",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kurdish_alphabets"
+   ]
+  },
+  "northern-kurdish#story:0": {
+   "hash": "04b7e636709a8c80",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kurmanji",
+    "https://en.wikipedia.org/wiki/Kurdish_language"
+   ]
+  },
+  "northern-kurdish#story:1": {
+   "hash": "6ada7601cd6f6839",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kurmanji",
+    "https://en.wikipedia.org/wiki/Ehmed%C3%AA_Xan%C3%AE",
+    "https://en.wikipedia.org/wiki/Kurdish_alphabets"
+   ],
+   "note": "Removed unsupported 'relative stability'; Hawar alphabet use stated as 'primarily in Turkey and Syria'; Xani source URL fixed."
+  },
+  "ossetian#identity": {
+   "hash": "834b64330670317b",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/osse1243",
+    "https://en.wikipedia.org/wiki/Ossetian_language",
+    "https://en.wikipedia.org/wiki/Alanic_language"
+   ]
+  },
+  "ossetian#period": {
+   "hash": "6fd18658110d8bcb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ossetian_language",
+    "https://en.wikipedia.org/wiki/Alanic_language",
+    "https://en.wikipedia.org/wiki/Arkhyz"
+   ]
+  },
+  "ossetian#homeland": {
+   "hash": "0048fd4669f805d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ossetian_language",
+    "https://glottolog.org/resource/languoid/id/osse1243"
+   ]
+  },
+  "ossetian#attestation:zelenchuk-inscription": {
+   "hash": "9d7b6b060d53e60e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Arkhyz",
+    "https://en.wikipedia.org/wiki/Alanic_language",
+    "https://en.wikipedia.org/wiki/Ossetian_language"
+   ]
+  },
+  "ossetian#attestation:iron-gazet": {
+   "hash": "50f19255981ebea5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ossetian_language",
+    "https://en.wikipedia.org/wiki/Vladikavkaz"
+   ]
+  },
+  "ossetian#scripts": {
+   "hash": "37f2d0ec0741f4fb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ossetian_language"
+   ]
+  },
+  "ossetian#story:0": {
+   "hash": "8dfe87fc2f4dac93",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ossetian_language",
+    "https://en.wikipedia.org/wiki/Alanic_language"
+   ],
+   "note": "'emerged from Sarmatians' corrected to language descended from Scytho-Sarmatian languages per Alanic article."
+  },
+  "ossetian#story:1": {
+   "hash": "b05d7a3a9d14e3dc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ossetian_language",
+    "https://en.wikipedia.org/wiki/Arkhyz",
+    "https://en.wikipedia.org/wiki/Kosta_Khetagurov"
+   ]
+  },
+  "sogdian#identity": {
+   "hash": "775a737522d14423",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/sogd1245",
+    "https://en.wikipedia.org/wiki/Sogdian_language"
+   ]
+  },
+  "sogdian#period": {
+   "hash": "437a39a76d995719",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Iranian_languages",
+    "https://en.wikipedia.org/wiki/Sogdian_language"
+   ]
+  },
+  "sogdian#homeland": {
+   "hash": "fa49a66cce820951",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sogdian_language",
+    "https://glottolog.org/resource/languoid/id/sogd1245"
+   ]
+  },
+  "sogdian#attestation:ancient-letters": {
+   "hash": "2dc30735aeeaccf1",
+   "verdict": "verified",
+   "evidence": [
+    "https://depts.washington.edu/silkroad/texts/sogdlet.html",
+    "https://en.wikipedia.org/wiki/Sogdian_language",
+    "https://en.wikipedia.org/wiki/Yumen_Pass"
+   ]
+  },
+  "sogdian#scripts": {
+   "hash": "1e6c0db129520419",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sogdian_language"
+   ]
+  },
+  "sogdian#story:0": {
+   "hash": "4a091eaf32456074",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sogdian_language"
+   ]
+  },
+  "sogdian#story:1": {
+   "hash": "9febdc22940d99a2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sogdian_language",
+    "https://depts.washington.edu/silkroad/texts/sogdlet.html"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T21:14:10.938Z",
+ "verifier": "auditor-east-ie"
+}

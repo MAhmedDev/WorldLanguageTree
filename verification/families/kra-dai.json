@@ -1,0 +1,405 @@
+{
+ "file": "data/families/kra-dai.json",
+ "claims": {
+  "proto-tai#identity": {
+   "hash": "bb60da6558030029",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://en.wikipedia.org/wiki/Proto-Tai_language",
+    "https://en.wikipedia.org/wiki/Tai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "proto-tai#period": {
+   "hash": "c3d87b2702ab8218",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.arts.chula.ac.th/chulaseal/wp-content/uploads/2014/11/Pittayawat-47-68.pdf",
+    "https://en.wikipedia.org/wiki/Tai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "proto-tai#homeland": {
+   "hash": "c6a7239bb0644e11",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lao_language",
+    "https://www.arts.chula.ac.th/chulaseal/wp-content/uploads/2014/11/Pittayawat-47-68.pdf",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "Label now notes Pittayaporn places the Southwestern Tai homeland in Guangxi or eastern Yunnan."
+  },
+  "proto-tai#story:0": {
+   "hash": "97e60242087db55c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Tai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "proto-tai#story:1": {
+   "hash": "0be0a16167586ac1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.arts.chula.ac.th/chulaseal/wp-content/uploads/2014/11/Pittayawat-47-68.pdf",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "Source says spread began from southern China, 'in present-day Guangxi or eastern Yunnan', not simply Guangxi; wording fixed."
+  },
+  "proto-tai#note:0": {
+   "hash": "29a5d0d31fa5a841",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://en.wikipedia.org/wiki/Tai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "New note added explaining Proto-Tai uses Glottolog Daic (daic1237) = Tai languages, inside Tai-Kadai (taik1256); verified via Glottolog newick tree and Wikipedia."
+  },
+  "proto-tai#note:1": {
+   "hash": "0e25588db3941273",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.arts.chula.ac.th/chulaseal/wp-content/uploads/2014/11/Pittayawat-47-68.pdf",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "proto-tai#note:2": {
+   "hash": "25ad7c6fad064964",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kra%E2%80%93Dai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#identity": {
+   "hash": "03653c1cab2d1bcc",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/thai1261",
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#period": {
+   "hash": "3c21ca3de28bdda9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://en.wikipedia.org/wiki/Ramkhamhaeng_Inscription",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#homeland": {
+   "hash": "eee7eb7137a09064",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ramkhamhaeng_Inscription",
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#attestation:ram-khamhaeng-inscription": {
+   "hash": "8d1adbf0b64b974b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ramkhamhaeng_Inscription",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#attestation:ayutthaya-ma-huan": {
+   "hash": "9aeab087507d6aba",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#scripts": {
+   "hash": "244b64a95b3b83ef",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#speakers": {
+   "hash": "c4980b1ce1207268",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "71 million (2024), L1 27M + L2 44M per Wikipedia infobox; scope L1+L2 confirmed."
+  },
+  "thai#story:0": {
+   "hash": "5a72e845d80f579c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#story:1": {
+   "hash": "8f4e7d031ea2928a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#story:2": {
+   "hash": "cc54af373e5ec116",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Thai_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#work:ram-khamhaeng-inscription-text": {
+   "hash": "d91bf13254d6186f",
+   "verdict": "verified",
+   "evidence": [
+    "https://th.wikisource.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%97%E0%B8%B5%E0%B9%88_1/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%97%E0%B8%B5%E0%B9%88_1",
+    "https://en.wikipedia.org/wiki/Ramkhamhaeng_Inscription",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#note:0": {
+   "hash": "0ff6d4ae6539d818",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ramkhamhaeng_Inscription",
+    "https://thesiamsociety.org/wp-content/uploads/1995/03/JSS_083_0j_Vickery_Piltdown3RamKhamhaengInscription.pdf",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "thai#note:1": {
+   "hash": "59af3864993f50b0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ramkhamhaeng_Inscription",
+    "https://thesiamsociety.org/wp-content/uploads/1995/03/JSS_083_0j_Vickery_Piltdown3RamKhamhaengInscription.pdf",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "lao#identity": {
+   "hash": "9305f224211ec4cb",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/laoo1244",
+    "https://en.wikipedia.org/wiki/Lao_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "lao#period": {
+   "hash": "050d53beee91a60f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lao_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "lao#homeland": {
+   "hash": "b7c37d9d461a61d4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lao_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "lao#attestation:ban-don-sing-stele-1555": {
+   "hash": "56fc5ad01782ef39",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.luangprabangculture.com/uploads/1/8/3/0/18306261/perspectives_on_history___epigraphy_of_lan_xang_2021.pdf",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "lao#attestation:isan-tai-noi-1871": {
+   "hash": "4723c7d309c41153",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lao_script",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "1871 ban attributed to Wikipedia and hedged; enforcement varies by source."
+  },
+  "lao#scripts": {
+   "hash": "c064a1fb623189d6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lao_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "lao#speakers": {
+   "hash": "fd8116d8c68b8b4d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lao_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "Count changed from rounded 3,700,000 to the underlying 3,685,170 (L1, 2015). Omniglot gives 3.4M, so figures vary."
+  },
+  "lao#story:0": {
+   "hash": "fa322f572d0d7f2b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lao_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "lao#story:1": {
+   "hash": "2b5d08ab20b24ca4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lao_language",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "lao#story:2": {
+   "hash": "d3ea5fded18b0477",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.luangprabangculture.com/uploads/1/8/3/0/18306261/perspectives_on_history___epigraphy_of_lan_xang_2021.pdf",
+    "https://en.wikipedia.org/wiki/Lao_script",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "zhuang#identity": {
+   "hash": "31bf03652aa537ca",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zhuang_languages",
+    "https://en.wikipedia.org/wiki/Tai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "zhuang#period": {
+   "hash": "b075a16f4db87dac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "zhuang#homeland": {
+   "hash": "1214f13fcb5ffa7a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zhuang_languages",
+    "https://en.wikipedia.org/wiki/Tai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "zhuang#attestation:wuming-standard-1957": {
+   "hash": "8f13fdcb7a815d62",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sawndip",
+    "https://en.wikipedia.org/wiki/Zhuang_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "zhuang#scripts": {
+   "hash": "c021ac18370651ee",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zhuang_languages",
+    "https://en.wikipedia.org/wiki/Sawndip",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "zhuang#speakers": {
+   "hash": "c9f282d75e8a4464",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zhuang_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "Count changed from rounded 16,000,000 to underlying 15.9 million (2007); source label says 'all Northern Zhuang languages'."
+  },
+  "zhuang#story:0": {
+   "hash": "291b35e1b6bc2b69",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Zhuang_languages",
+    "https://en.wikipedia.org/wiki/Tai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "Removed outdated 15.55 million population figure (not tied to a year); kept 'largest minority ethnic group'."
+  },
+  "zhuang#story:1": {
+   "hash": "498e174604f371c8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sawndip",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "zhuang#story:2": {
+   "hash": "397756bd104ab4f6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sawndip",
+    "https://en.wikipedia.org/wiki/Zhuang_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ]
+  },
+  "zhuang#note:0": {
+   "hash": "9441d599fe65f1e2",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kra%E2%80%93Dai_languages",
+    "https://en.wikipedia.org/wiki/Tai_languages",
+    "https://glottolog.org/resource/languoid/id/daic1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture"
+   ],
+   "note": "Song of the Yue Boatman 528 BCE date rephrased: Shuoyuan (Han era) account dated 528 BCE, not a 528 BCE transcription."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:28:38.079Z",
+ "verifier": "verifier-asia"
+}

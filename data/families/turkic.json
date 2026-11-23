@@ -1,0 +1,834 @@
+{
+  "family": { "id": "turkic", "name": "Turkic", "root": "proto-turkic" },
+  "sources": [
+    { "id": "glottolog-turkic", "title": "Glottolog 5: Turkic (turk1311)", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/turk1311" },
+    { "id": "glottolog-azer1255", "title": "Glottolog 5: Central Oghuz (azer1255)", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/azer1255" },
+    { "id": "glottolog-turkic-tree", "title": "Glottolog 5: Turkic classification tree (Newick)", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/turk1311.newick.txt" },
+    { "id": "wp-proto-turkic", "title": "Proto-Turkic language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proto-Turkic_language" },
+    { "id": "wp-turkic", "title": "Turkic languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Turkic_languages" },
+    { "id": "wp-old-turkic", "title": "Old Turkic", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Turkic" },
+    { "id": "wp-orkhon", "title": "Orkhon inscriptions", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Orkhon_inscriptions" },
+    { "id": "wp-tonyukuk", "title": "Tonyukuk inscription", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tonyukuk_inscription" },
+    { "id": "thomsen-1896", "title": "Inscriptions de l'Orkhon déchiffrées", "author": "Vilhelm Thomsen", "year": 1896, "publisher": "Internet Archive (scan)", "url": "https://archive.org/stream/inscriptionsdel00thomgoog/inscriptionsdel00thomgoog_djvu.txt" },
+    { "id": "wp-karakhanid", "title": "Karakhanid language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Karakhanid_language" },
+    { "id": "wp-kutadgu", "title": "Kutadgu Bilig", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kutadgu_Bilig" },
+    { "id": "wp-chagatai", "title": "Chagatai language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Chagatai_language" },
+    { "id": "wp-navai", "title": "Ali-Shir Nava'i", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ali-Shir_Nava%27i" },
+    { "id": "wp-uzbek", "title": "Uzbek language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Uzbek_language" },
+    { "id": "wp-uyghur", "title": "Uyghur language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Uyghur_language" },
+    { "id": "wp-oat", "title": "Old Anatolian Turkish", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Anatolian_Turkish" },
+    { "id": "wp-yunus", "title": "Yunus Emre", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yunus_Emre" },
+    { "id": "wp-ottoman", "title": "Ottoman Turkish", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ottoman_Turkish" },
+    { "id": "wp-turkish", "title": "Turkish language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Turkish_language" },
+    { "id": "wp-azerbaijani", "title": "Azerbaijani language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Azerbaijani_language" },
+    { "id": "wp-turkmen", "title": "Turkmen language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Turkmen_language" },
+    { "id": "wp-kazakh", "title": "Kazakh language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kazakh_language" },
+    { "id": "wp-kyrgyz", "title": "Kyrgyz language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kyrgyz_language" },
+    { "id": "wp-tatar", "title": "Tatar language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tatar_language" },
+    { "id": "wp-old-tatar", "title": "Old Tatar language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Tatar_language" },
+    { "id": "wp-yakut", "title": "Yakut language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yakut_language" },
+    { "id": "wp-yakuts", "title": "Yakuts", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yakuts" },
+    { "id": "wp-chuvash", "title": "Chuvash language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Chuvash_language" },
+    { "id": "wp-chuvash-lit", "title": "Chuvash literature", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Chuvash_literature" },
+    { "id": "wp-bulgar-epigraphy", "title": "Bulgarian epigraphic monuments", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bulgarian_epigraphic_monuments" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-turkic",
+      "name": "Proto-Turkic",
+      "glottocode": "turk1311",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-proto-turkic", "glottolog-turkic"],
+      "period": {
+        "from": -3000,
+        "to": 0,
+        "approx": true,
+        "note": "The Wikipedia infobox gives c. 3000 – c. 500 BCE. The same article reports Uchiyama et al. (2020) placing the break-up of Proto-Turkic at the end of the first millennium BCE, and a glottochronological date of around 56 BCE–48 CE for the r/z split; the end date here follows the split.",
+        "sources": ["wp-proto-turkic"]
+      },
+      "homeland": {
+        "lat": 47.5,
+        "lng": 112.0,
+        "label": "Eastern Mongolia",
+        "sources": ["wp-proto-turkic", "wp-turkic"]
+      },
+      "story": [
+        {
+          "text": "Proto-Turkic is the linguistic reconstruction of the common ancestor of the Turkic languages, which some 200 million people speak today. No texts survive from it; it is rebuilt by comparing its descendants. Several scholars, among them Juha Janhunen, place its homeland in modern-day Mongolia, and Uchiyama and colleagues (2020) call Eastern Mongolia its most likely ultimate homeland. From there Turkic languages expanded to Central Asia and farther west during the first millennium.",
+          "sources": ["wp-proto-turkic", "wp-turkic"]
+        },
+        {
+          "text": "According to Uchiyama and colleagues, nomadic activity from around 1200 BCE carried Proto-Turkic into a wider area. The family then separated into two branches: a western branch, Oghur, whose only surviving member is Chuvash, and an eastern branch, Common Turkic, which includes all the other Turkic languages. A glottochronological estimate places this division, known as the r/z split, at around 56 BCE–48 CE.",
+          "sources": ["wp-proto-turkic", "wp-turkic"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The homeland is debated. Candidates proposed by different scholars range from western Central Asia to Manchuria. Robbeets and Savelyev (2017) note that Janhunen locates the homeland fairly precisely in Eastern Mongolia, while András Róna-Tas (1998) places it in west and central Siberia and the region south of it. Another suggestion puts it somewhere between the Transcaspian steppe and Northeastern Asia.",
+          "sources": ["wp-proto-turkic", "wp-turkic"]
+        },
+        {
+          "text": "Similarities with the Mongolic, Tungusic, Koreanic and Japonic languages led some linguists, such as the Turkologist Talât Tekin, to propose an 'Altaic' family. Altaic currently lacks support from a majority of linguists and is widely rejected by historical linguists, who attribute the shared features to prehistoric language contact, so Turkic is treated here as an independent family.",
+          "sources": ["wp-turkic", "wp-proto-turkic"]
+        }
+      ]
+    },
+    {
+      "id": "chuvash",
+      "name": "Chuvash",
+      "nativeName": "Чӑваш чӗлхи",
+      "nativeScript": "Cyrl",
+      "glottocode": "chuv1255",
+      "iso639_3": "chv",
+      "parent": "proto-turkic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-chuvash", "wp-turkic", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1200,
+        "to": null,
+        "approx": true,
+        "note": "No emergence date was found; this uses the oldest known Chuvash texts, on Volga Bulgar gravestones of the 13th and 14th centuries.",
+        "sources": ["wp-chuvash-lit"]
+      },
+      "homeland": {
+        "lat": 55.5,
+        "lng": 47.2,
+        "label": "Middle Volga (Chuvashia)",
+        "sources": ["wp-chuvash"]
+      },
+      "attestations": [
+        {
+          "id": "bulgar-gravestones",
+          "year": 1300,
+          "approx": true,
+          "lat": 54.98,
+          "lng": 49.05,
+          "place": "Bulgar settlement, Tatarstan",
+          "description": "Volga Bulgar gravestones of the 13th–14th centuries, many carrying Arabic text alongside Turkic text, with dated examples from Bolgar of 1308 and 1348; 26 are kept in the Northern Mausoleum. Their r-type Turkic texts match Chuvash sound patterns, and they are described as the oldest known Chuvash texts.",
+          "sources": ["wp-bulgar-epigraphy", "wp-chuvash-lit"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Cyrillic", "code": "Cyrl" },
+          { "name": "Arabic", "code": "Arab" }
+        ],
+        "sources": ["wp-chuvash"]
+      },
+      "speakers": { "count": 740000, "year": 2020, "scope": "L1", "sources": ["wp-chuvash"] },
+      "story": [
+        {
+          "text": "Chuvash is the only surviving member of the Oghur branch, one of the two principal branches of the Turkic languages. It is classed with the long-extinct Bulgar language as Oghuric, but the surviving records of Bulgar and the other Oghuric languages are so scant that Chuvash's exact position within the branch cannot be determined. Chuvash is spoken in Russia's Volga-Ural region, mainly in the Chuvash Republic, where it is an official language.",
+          "sources": ["wp-chuvash", "wp-turkic"]
+        },
+        {
+          "text": "The oldest known Chuvash texts appear on gravestones left by the Volga Bulgars in the 13th and 14th centuries, under the Golden Horde. Most of these epitaphs are in Oghur speech, and in 1863 Husain Faizkhanov read them with the help of Chuvash. The modern alphabet, the Russian Cyrillic alphabet with four added letters (Ӑ, Ӗ, Ҫ, Ӳ), was devised in 1873 by the school inspector Ivan Yakovlevich Yakovlev.",
+          "sources": ["wp-chuvash-lit", "wp-bulgar-epigraphy", "wp-chuvash"]
+        }
+      ]
+    },
+    {
+      "id": "common-turkic",
+      "name": "Common Turkic",
+      "glottocode": "comm1245",
+      "parent": "proto-turkic",
+      "kind": "group",
+      "status": "living",
+      "sources": ["glottolog-turkic-tree", "wp-turkic"]
+    },
+    {
+      "id": "old-turkic",
+      "name": "Old Turkic",
+      "nativeName": "𐱅𐰇𐰼𐰚 𐱅𐰃𐰠𐰃",
+      "nativeScript": "Orkh",
+      "glottocode": "oldu1238",
+      "parent": "common-turkic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-old-turkic", "glottolog-turkic-tree"],
+      "period": {
+        "from": 700,
+        "to": 1250,
+        "approx": true,
+        "note": "Dated by its surviving written sources, from slightly before 720 CE to the Mongol invasions of the 13th century. The Wikipedia infobox gives a wider era of the 5th–13th centuries.",
+        "sources": ["wp-old-turkic"]
+      },
+      "homeland": {
+        "lat": 47.56,
+        "lng": 102.84,
+        "label": "Orkhon Valley, Mongolia",
+        "sources": ["wp-old-turkic", "wp-orkhon"]
+      },
+      "attestations": [
+        {
+          "id": "bain-tsokto",
+          "year": 716,
+          "approx": true,
+          "lat": 47.7,
+          "lng": 107.47,
+          "place": "Bain Tsokto, Tuul River valley, Nalaikh, Mongolia",
+          "description": "Inscriptions erected around 716 by Tonyukuk, counsellor to four khagans of the Second Turkic Khaganate; one of the oldest written attestations of the Turkic language family.",
+          "sources": ["wp-tonyukuk"]
+        },
+        {
+          "id": "kul-tigin-stele",
+          "year": 732,
+          "approx": true,
+          "lat": 47.5606,
+          "lng": 102.8411,
+          "place": "Orkhon Valley, Mongolia",
+          "description": "The Kül Tigin inscription, erected around 732 in honour of the prince Kul Tigin, one of the Orkhon inscriptions of the Göktürks.",
+          "sources": ["wp-old-turkic", "wp-orkhon"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Old Turkic", "code": "Orkh" },
+          { "name": "Old Uyghur", "code": "Ougr" },
+          { "name": "Brahmi", "code": "Brah" },
+          { "name": "Manichaean", "code": "Mani" }
+        ],
+        "sources": ["wp-old-turkic"]
+      },
+      "story": [
+        {
+          "text": "Old Turkic was spoken around East Turkistan and Mongolia and first appears in inscriptions of the Second Turkic Khaganate, and later of the Uyghur Khaganate. The Bain Tsokto inscriptions, erected around 716 by the statesman Tonyukuk in the Tuul River valley, are among the oldest written records of the Turkic family. The Orkhon inscriptions of the Göktürks, dated to the eighth century, are counted as the first established records of the Turkic languages.",
+          "sources": ["wp-old-turkic", "wp-tonyukuk", "wp-turkic"]
+        },
+        {
+          "text": "The two Orkhon steles commemorate the brothers Bilge Qaghan and Kul Tigin, and stand in what is now the Orkhon Valley Cultural Landscape World Heritage Site. Nikolai Yadrintsev's expedition found them in 1889, and Vilhelm Thomsen deciphered the script in 1893. Old Turkic was also written in the Old Uyghur alphabet and in Brahmi and Manichaean scripts. Modern Uyghur does not descend from Old Uyghur; Gerard Clauson considered Western Yugur its true descendant.",
+          "sources": ["wp-orkhon", "wp-old-turkic", "wp-uyghur"]
+        }
+      ],
+      "works": [
+        {
+          "id": "kul-tigin-inscription",
+          "title": "Kül Tigin inscription",
+          "author": "Written by Yollıg Tigin, in the voice of Bilge Qaghan",
+          "date": "c. 732 CE",
+          "year": 732,
+          "significance": "One of the Orkhon inscriptions, which are counted as the first established records of the Turkic languages. This sentence opens the south face of the Kül Tigin stele (I S 1 in Thomsen's 1896 edition).",
+          "original": "𐱅𐰭𐰼𐰃 : 𐱅𐰏 : 𐱅𐰭𐰼𐰃𐰓𐰀 : 𐰉𐰆𐰞𐰢𐱁 : 𐱅𐰇𐰼𐰜 : 𐰋𐰃𐰠𐰏𐰀 : 𐰴𐰍𐰣 : 𐰉𐰆 : 𐰇𐰓𐰚𐰀 : 𐰆𐰞𐰺𐱃𐰢",
+          "originalScript": "Orkh",
+          "transliteration": "Teŋri teg teŋride bolmïš türk bilge qaγan bu ödke olurtïm.",
+          "translation": "I, the heaven-like Turk Bilge Qaghan, come into being in heaven, sat [on the throne] at this time.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://archive.org/stream/inscriptionsdel00thomgoog/inscriptionsdel00thomgoog_djvu.txt",
+          "sources": ["wp-old-turkic", "thomsen-1896", "wp-turkic"]
+        }
+      ]
+    },
+    {
+      "id": "sakha",
+      "name": "Yakut (Sakha)",
+      "nativeName": "саха тыла",
+      "nativeScript": "Cyrl",
+      "glottocode": "yaku1245",
+      "iso639_3": "sah",
+      "parent": "common-turkic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-yakut", "wp-turkic", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1200,
+        "to": null,
+        "approx": true,
+        "note": "No emergence date was found. The date marks the migration of the Yakuts' ancestors to the basins of the Middle Lena, which began in the 13th century.",
+        "sources": ["wp-yakuts"]
+      },
+      "homeland": {
+        "lat": 62.03,
+        "lng": 129.73,
+        "label": "Middle Lena basin (Sakha Republic)",
+        "sources": ["wp-yakuts", "wp-yakut"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Cyrillic", "code": "Cyrl" },
+          { "name": "Latin", "code": "Latn" }
+        ],
+        "sources": ["wp-yakut"]
+      },
+      "story": [
+        {
+          "text": "Yakut, or Sakha, is a Northern Siberian Turkic language spoken mainly in the Sakha Republic of Russia, where it is one of the official languages; it is also used in Khabarovsk Region and by a small diaspora. Dolgan is a close relative. Yakut has a large number of loanwords of Mongolic origin and has been influenced by Tungusic and Mongolian languages, and some scholars link its lack of a genitive case to contact with Evenki.",
+          "sources": ["wp-yakut", "wp-yakuts"]
+        },
+        {
+          "text": "One hypothesis, proposed by Vasily Radlov in 1893, links the Yakuts to the Kurykans, whom Chinese records place on the Angara and around Lake Baikal in the 7th century. Beginning in the 13th century, pushed by the rising Mongols, the Yakuts' ancestors migrated to the basins of the Middle Lena and, many researchers conclude, mixed with native Yukaghir and Tungusic peoples around the Lena. Yakut is written in a Cyrillic alphabet established in 1939, after earlier alphabets including the Novgorodov alphabet (1920–1929) and Yañalif (1929–1939).",
+          "sources": ["wp-yakuts", "wp-yakut"]
+        }
+      ]
+    },
+    {
+      "id": "oghuz",
+      "name": "Oghuz",
+      "glottocode": "oghu1243",
+      "parent": "common-turkic",
+      "kind": "group",
+      "status": "living",
+      "sources": ["glottolog-turkic-tree", "wp-turkic"]
+    },
+    {
+      "id": "old-anatolian-turkish",
+      "name": "Old Anatolian Turkish",
+      "glottocode": null,
+      "parent": "oghuz",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-oat"],
+      "period": {
+        "from": 1000,
+        "to": 1500,
+        "approx": true,
+        "note": "The form of Turkish spoken in Anatolia from the 11th to 15th centuries.",
+        "sources": ["wp-oat"]
+      },
+      "homeland": {
+        "lat": 37.87,
+        "lng": 32.49,
+        "label": "Anatolia",
+        "sources": ["wp-oat", "wp-turkish"]
+      },
+      "scripts": {
+        "list": [{ "name": "Perso-Arabic", "code": "Arab" }],
+        "sources": ["wp-oat"]
+      },
+      "story": [
+        {
+          "text": "Old Anatolian Turkish is the form of Turkish spoken in Anatolia from the 11th to the 15th centuries. Oghuz Turks brought their language, the direct ancestor of today's Turkish, into Anatolia during the 11th century. It was written in the Perso-Arabic script and, unlike later Ottoman Turkish, used diacritics for short vowels. It had no official status until 1277, when Mehmet I of Karaman issued a firman meant to reduce the dominance of Persian.",
+          "sources": ["wp-oat", "wp-turkish"]
+        },
+        {
+          "text": "Yunus Emre (1238–1320), a Sufi folk poet, was one of the first known poets to compose in spoken Old Anatolian Turkish, and he greatly influenced Turkish literature. UNESCO declared 1991, the 750th anniversary of his birth, International Yunus Emre Year. Old Anatolian Turkish later developed into Early Ottoman Turkish and into Ajemi Turkic, also called Middle Azerbaijani.",
+          "sources": ["wp-yunus", "wp-oat"]
+        }
+      ]
+    },
+    {
+      "id": "ottoman-turkish",
+      "name": "Ottoman Turkish",
+      "nativeName": "لسان عثمانی",
+      "nativeScript": "Arab",
+      "glottocode": "otto1234",
+      "iso639_3": "ota",
+      "parent": "old-anatolian-turkish",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-ottoman"],
+      "period": {
+        "from": 1300,
+        "to": 1928,
+        "approx": true,
+        "note": "The article's lead gives the 14th to 20th centuries; Ottoman Turkish was displaced as a literary standard by modern Turkish in 1928.",
+        "sources": ["wp-ottoman"]
+      },
+      "homeland": {
+        "lat": 39.93,
+        "lng": 32.86,
+        "label": "Anatolia",
+        "sources": ["wp-ottoman"]
+      },
+      "scripts": {
+        "list": [{ "name": "Ottoman Turkish alphabet (Perso-Arabic)", "code": "Arab" }],
+        "sources": ["wp-ottoman"]
+      },
+      "story": [
+        {
+          "text": "Ottoman Turkish, Lisân-ı Osmânî or 'the Ottoman language', was the standardized register of the Ottoman Empire in the Ottoman Empire (14th to 20th centuries). Its earliest stage was nearly identical to the Turkish of the Seljuk empire and the Anatolian beyliks. It is divided into Old, Middle (Classical) and New Ottoman Turkish; Middle Ottoman was the language of poetry and administration from the 16th century until the Tanzimat.",
+          "sources": ["wp-ottoman"]
+        },
+        {
+          "text": "It was written in the Ottoman Turkish alphabet, a variant of the Perso-Arabic script, and Arabic and Persian words reportedly made up up to 88% of its vocabulary, many entering through Persian. Ottoman Turkish was largely unintelligible to rural Turks, who continued to use kaba Türkçe ('raw' or 'vulgar' Turkish), which used far fewer foreign loanwords and is the basis of the modern standard. Under Atatürk's reforms of 1928 the script was replaced with an extended Latin alphabet.",
+          "sources": ["wp-ottoman"]
+        }
+      ]
+    },
+    {
+      "id": "turkish",
+      "name": "Turkish",
+      "nativeName": "Türkçe",
+      "nativeScript": "Latn",
+      "glottocode": "nucl1301",
+      "iso639_3": "tur",
+      "parent": "ottoman-turkish",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-turkish", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1928,
+        "to": null,
+        "approx": true,
+        "note": "Dated from 1928, when modern Turkish displaced Ottoman Turkish as the literary standard; Wikipedia lists Old Anatolian Turkish and Ottoman Turkish as its early forms.",
+        "sources": ["wp-ottoman", "wp-turkish"]
+      },
+      "homeland": {
+        "lat": 39.93,
+        "lng": 32.86,
+        "label": "Turkey",
+        "sources": ["wp-turkish"]
+      },
+      "scripts": {
+        "list": [{ "name": "Turkish alphabet (Latin)", "code": "Latn" }],
+        "sources": ["wp-turkish"]
+      },
+      "speakers": { "count": 85000000, "year": 2021, "scope": "L1", "sources": ["wp-turkish"] },
+      "story": [
+        {
+          "text": "Turkish is the most widely spoken of the Turkic languages, with about 90 million speakers, most of them in Turkey; its native speakers account for about 38% of all Turkic speakers. A member of the Oghuz group, it is the national language of Turkey and one of the two official languages of Cyprus. Turkish is highly agglutinative, has vowel harmony and a basic subject–object–verb word order, and has no grammatical gender.",
+          "sources": ["wp-turkish", "wp-turkic"]
+        },
+        {
+          "text": "In 1928, as one of Atatürk's reforms in the early years of the Republic of Turkey, the Perso-Arabic Ottoman alphabet was replaced by a Latin-based Turkish alphabet. The Turkish Language Association, founded in 1932, then led a language reform that replaced many Arabic and Persian loanwords with Turkish coinages, and it still regulates the language today.",
+          "sources": ["wp-turkish"]
+        }
+      ]
+    },
+    {
+      "id": "azerbaijani",
+      "name": "Azerbaijani",
+      "nativeName": "Azərbaycan dili",
+      "nativeScript": "Latn",
+      "glottocode": "azer1255",
+      "iso639_3": "aze",
+      "parent": "old-anatolian-turkish",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-azerbaijani", "wp-oat", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1300,
+        "to": null,
+        "approx": true,
+        "note": "Dated from its emergence as a literary language in the 14th century; the earliest known literary piece is a ghazal by Izzeddin Hasanoghlu.",
+        "sources": ["wp-azerbaijani"]
+      },
+      "homeland": {
+        "lat": 39.5,
+        "lng": 47.0,
+        "label": "Caucasus and northern Iran",
+        "sources": ["wp-azerbaijani"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Latin", "code": "Latn" },
+          { "name": "Perso-Arabic", "code": "Arab" },
+          { "name": "Cyrillic", "code": "Cyrl" }
+        ],
+        "sources": ["wp-azerbaijani"]
+      },
+      "speakers": { "count": 24000000, "year": 2022, "scope": "L1", "sources": ["wp-azerbaijani"] },
+      "story": [
+        {
+          "text": "Azerbaijani is an Oghuz Turkic language with about 24 million native speakers, chiefly in Iran and the Republic of Azerbaijan, where it is the sole official language; it is also one of the official languages of Dagestan in Russia. Its roots lie in the Oghuz Turkic that spread into the Caucasus and northern Iran during the medieval Turkic migrations. Old Anatolian Turkish developed into Ajemi Turkic, or Middle Azerbaijani, which is described as the direct historical predecessor of modern Azerbaijani; the modern period is dated from the 18th century.",
+          "sources": ["wp-azerbaijani", "wp-oat"]
+        },
+        {
+          "text": "The earliest known literary piece is a ghazal by Izzeddin Hasanoghlu, 'Apardı Könlümü', preserved in an anthology of 1391. In the 14th century Kadi Burhan al-Din, Hasanoghlu and Imadaddin Nasimi helped establish it as a literary language; the ruler Ismail I wrote poetry under the pen name Khatā'ī, and Fuzûlî wrote mainly in Azerbaijani in the 16th century. North Azerbaijani was written in a Latin alphabet from 1929, in Cyrillic from 1938 and in the current Latin alphabet from 1991; Iran uses the Perso-Arabic script.",
+          "sources": ["wp-azerbaijani"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Glottolog classifies Azerbaijani differently from the parent used here. In its Turkic tree, Azerbaijani sits under Nuclear Oghuz as the family-level node Central Oghuz (azer1255), which holds North Azerbaijani and South Azerbaijani. Its sister nodes are East Oghuz (including Turkmen), Qashqai and West Oghuz (including Turkish, with Ottoman Turkish as a dialect of Turkish), so Glottolog does not make Azerbaijani a descendant of Turkish or Ottoman. Here Azerbaijani follows the Wikipedia article on Old Anatolian Turkish, which says that stage developed into Ajemi Turkic (Middle Azerbaijani). The Wikipedia article on Azerbaijani itself cites Glottolog's Central Oghuz and also lists Western Oghuz in its infobox.",
+          "sources": ["glottolog-turkic-tree", "glottolog-azer1255", "wp-oat", "wp-azerbaijani"]
+        }
+      ]
+    },
+    {
+      "id": "turkmen",
+      "name": "Turkmen",
+      "nativeName": "türkmen dili",
+      "nativeScript": "Latn",
+      "glottocode": "turk1304",
+      "iso639_3": "tuk",
+      "parent": "oghuz",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-turkmen", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1700,
+        "to": null,
+        "approx": true,
+        "note": "No emergence date was found; this uses the 18th century, when modern Turkmen literature is said to have originated with Magtymguly Pyragy. The Arabic script was already used extensively for Turkmen in the 13th–14th centuries.",
+        "sources": ["wp-turkmen"]
+      },
+      "homeland": {
+        "lat": 37.95,
+        "lng": 58.38,
+        "label": "Turkmenistan",
+        "sources": ["wp-turkmen"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Latin", "code": "Latn" },
+          { "name": "Perso-Arabic", "code": "Arab" },
+          { "name": "Cyrillic", "code": "Cyrl" }
+        ],
+        "sources": ["wp-turkmen"]
+      },
+      "speakers": { "count": 6800000, "year": 2023, "scope": "L1", "sources": ["wp-turkmen"] },
+      "story": [
+        {
+          "text": "Turkmen is spoken by the Turkmens of Central Asia. It is the official language of Turkmenistan and is also spoken in northeastern Iran, northwestern Afghanistan and, to a lesser degree, Uzbekistan and Tajikistan. It belongs to the eastern subbranch of the Oghuz languages. The Arabic script was used extensively in the 13th and 14th centuries, and modern Turkmen literature is said to have originated in the 18th century with the poetry of Magtymguly Pyragy, considered its father.",
+          "sources": ["wp-turkmen"]
+        },
+        {
+          "text": "Its 20th-century history can be followed through its alphabets. A revised Latin alphabet was approved on 3 January 1928. In May 1940 the Council of People's Commissars adopted a resolution on a transition to a new, Cyrillic alphabet. On 12 April 1993 the Mejlis of Turkmenistan approved a presidential decree on a new Latin alphabet.",
+          "sources": ["wp-turkmen"]
+        }
+      ]
+    },
+    {
+      "id": "karluk",
+      "name": "Karluk",
+      "glottocode": "uygh1241",
+      "parent": "common-turkic",
+      "kind": "group",
+      "status": "living",
+      "sources": ["wp-turkic", "wp-uzbek", "glottolog-turkic-tree"]
+    },
+    {
+      "id": "karakhanid",
+      "name": "Karakhanid",
+      "glottocode": "qara1244",
+      "iso639_3": "xqa",
+      "parent": "karluk",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-karakhanid"],
+      "period": {
+        "from": 1000,
+        "to": 1300,
+        "approx": true,
+        "note": "It developed in the 11th century and remained the literary language of the region's Turks until the beginning of the 14th century.",
+        "sources": ["wp-karakhanid"]
+      },
+      "homeland": {
+        "lat": 39.47,
+        "lng": 75.99,
+        "label": "Kashgar, Kara-Khanid Khanate",
+        "sources": ["wp-karakhanid"]
+      },
+      "attestations": [
+        {
+          "id": "kutadgu-bilig",
+          "year": 1070,
+          "approx": true,
+          "lat": 39.47,
+          "lng": 75.99,
+          "place": "Kashgar",
+          "description": "Yusuf Khass Hajib wrote the Kutadgu Bilig in 1069–1070 and presented it to Tavghach Bughra Khan, the prince of Kashgar.",
+          "sources": ["wp-kutadgu"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Arabic", "code": "Arab" },
+          { "name": "Old Uyghur", "code": "Ougr" }
+        ],
+        "sources": ["wp-karakhanid", "wp-kutadgu"]
+      },
+      "story": [
+        {
+          "text": "Karakhanid, also called Khaqani Turkic or the Old Kashgar language, was used under the Kara-Khanid Khanate in Central Asia and is described as the first literary Islamic Turkic language. It developed in the 11th century, was written in the Arabic script and took in Arabic and Persian loanwords. Scholars place it either in the Karluk group of Middle Turkic or under Old Turkic, and it is very close to Old Uyghur.",
+          "sources": ["wp-karakhanid", "wp-old-turkic"]
+        },
+        {
+          "text": "Two important works in it come from the same century. Yusuf Khass Hajib, born in Balasagun near present-day Tokmok in Kyrgyzstan, wrote the Kutadgu Bilig in 1069–1070 in couplets of rhyming 11-syllable lines and presented it to Tavghach Bughra Khan, prince of Kashgar. Mahmud al-Kashgari, a scholar from Kashgar, published a Turkic dictionary, the Dīwān Lughāt al-Turk, probably around 1077. Khorezmian Turkic and later Chagatai descend from Karakhanid.",
+          "sources": ["wp-kutadgu", "wp-uyghur", "wp-karakhanid"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Classification differs between sources. Glottolog lists Qarakhanid under Old Turkic, while Wikipedia places Karakhanid in the Karluk group of Middle Turkic and notes that some scholars treat it as an Old Turkic dialect. It is placed under Karluk here to show its link to Chagatai.",
+          "sources": ["glottolog-turkic-tree", "wp-karakhanid", "wp-old-turkic"]
+        }
+      ]
+    },
+    {
+      "id": "chagatai",
+      "name": "Chagatai",
+      "nativeName": "چغتای",
+      "nativeScript": "Arab",
+      "glottocode": "chag1247",
+      "iso639_3": "chg",
+      "parent": "karakhanid",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-chagatai", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1300,
+        "to": 1921,
+        "approx": true,
+        "note": "Mehmet Fuat Köprülü's periodization begins with Early Chagatai in the 13th–14th centuries; the article's infobox says it developed in the late 15th century and ended c. 1921.",
+        "sources": ["wp-chagatai"]
+      },
+      "homeland": {
+        "lat": 39.65,
+        "lng": 66.96,
+        "label": "Central Asia (modern Uzbekistan)",
+        "sources": ["wp-chagatai"]
+      },
+      "attestations": [
+        {
+          "id": "muhakamat-al-lughatayn",
+          "year": 1499,
+          "approx": false,
+          "lat": 34.35,
+          "lng": 62.2,
+          "place": "Herat",
+          "description": "Ali-Shir Nava'i, the Timurid poet of Herat, completed the Muhakamat al-Lughatayn, his comparison of Chagatai and Persian, in December 1499.",
+          "sources": ["wp-navai", "wp-chagatai"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Perso-Arabic (Nastaliq)", "code": "Arab" }],
+        "sources": ["wp-chagatai"]
+      },
+      "story": [
+        {
+          "text": "Chagatai takes its name from the Chagatai Khanate, a descendant empire of the Mongol Empire left to Genghis Khan's second son, Chagatai Khan. With Karakhanid and Khorezmian Turkic as its early forms, it was written in the Perso-Arabic script in Nastaliq style. It remained the shared literary language of Central Asia, used as far afield as Eastern Turkestan, Crimea and the Volga-Ural region, until the early 20th century, when it went extinct.",
+          "sources": ["wp-chagatai"]
+        },
+        {
+          "text": "Ali-Shir Nava'i (1441–1501), a Timurid poet and statesman of Herat who served Sultan Husayn Bayqara, is generally regarded as its greatest representative; Chagatai came to be called 'the language of Nava'i'. His last work, the Muhakamat al-Lughatayn, completed in 1499, compared Turkic with Persian and argued that Turkic was superior for literary purposes. Babur, the Timurid founder of the Mughal Empire, wrote his Baburnama in Chagatai. Before the 1924 founding of the Soviet Republic of Uzbekistan, Chagatai was officially renamed 'Old Uzbek'.",
+          "sources": ["wp-navai", "wp-chagatai"]
+        }
+      ]
+    },
+    {
+      "id": "uzbek",
+      "name": "Uzbek",
+      "nativeName": "ўзбек тили",
+      "nativeScript": "Cyrl",
+      "glottocode": "uzbe1247",
+      "iso639_3": "uzb",
+      "parent": "chagatai",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-uzbek", "wp-uyghur", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1924,
+        "to": null,
+        "approx": true,
+        "note": "Standard Uzbek was developed from dialects of the Chagatai-speaking region after Chagatai declined; 1924, the founding of the Soviet Republic of Uzbekistan, is used as an approximate start. Turkic speakers had settled the region from at least 600–650 AD.",
+        "sources": ["wp-uyghur", "wp-uzbek"]
+      },
+      "homeland": {
+        "lat": 41.31,
+        "lng": 69.24,
+        "label": "Tashkent region, Uzbekistan",
+        "sources": ["wp-uzbek"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Latin", "code": "Latn" },
+          { "name": "Cyrillic", "code": "Cyrl" },
+          { "name": "Arabic", "code": "Arab" }
+        ],
+        "sources": ["wp-uzbek"]
+      },
+      "speakers": { "count": 36000000, "year": 2024, "scope": "L1", "sources": ["wp-uzbek"] },
+      "story": [
+        {
+          "text": "Uzbek is the western member of the Karluk branch of the Turkic languages, spoken natively by about 36 million people, counting both Northern and Southern Uzbek, in Uzbekistan, Afghanistan, Tajikistan, Kyrgyzstan, Turkmenistan and China. Turkic speakers probably settled the Amu Darya, Syr Darya and Zarafshon river basins from at least 600–650 AD. The Karluk dialects centred on Tashkent, Samarkand, Bukhara and the Ferghana Valley form the basis of the standard language.",
+          "sources": ["wp-uzbek"]
+        },
+        {
+          "text": "Uzbek counts Karakhanid and Chagatai among its early forms. It was written in Arabic script until the 1920s, in the Latin-based Yañalif from 1928 to 1940, and in Cyrillic from 1940 to 1992. After independence the government chose to switch from Cyrillic to Latin script, but the reform was never fully implemented and both alphabets remain widely used.",
+          "sources": ["wp-uzbek"]
+        }
+      ]
+    },
+    {
+      "id": "uyghur",
+      "name": "Uyghur",
+      "nativeName": "ئۇيغۇر تىلى",
+      "nativeScript": "Arab",
+      "glottocode": "uigh1240",
+      "iso639_3": "uig",
+      "parent": "chagatai",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-uyghur", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1922,
+        "to": null,
+        "approx": true,
+        "note": "Standard Uyghur was developed from dialects of the Chagatai-speaking region after Chagatai declined; 1922 is when the name 'Uyghur' was applied to the language, formerly called Eastern Turki, in the Soviet Union.",
+        "sources": ["wp-uyghur"]
+      },
+      "homeland": {
+        "lat": 41.0,
+        "lng": 82.0,
+        "label": "Xinjiang, China",
+        "sources": ["wp-uyghur"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Uyghur Arabic alphabet", "code": "Arab" },
+          { "name": "Cyrillic", "code": "Cyrl" },
+          { "name": "Latin", "code": "Latn" }
+        ],
+        "sources": ["wp-uyghur"]
+      },
+      "story": [
+        {
+          "text": "Uyghur is a Karluk Turkic language spoken mainly in the Xinjiang Uyghur Autonomous Region of western China, where it is a lingua franca used in both social and official spheres; significant communities of Uyghur speakers also live in Kazakhstan, Kyrgyzstan and Uzbekistan. Despite its name, modern Uyghur is not descended from Old Uyghur: it is a descendant of the Karluk language spoken in the Kara-Khanid Khanate. Gerard Clauson considered Western Yugur the true descendant of Old Uyghur.",
+          "sources": ["wp-uyghur"]
+        },
+        {
+          "text": "After Chagatai, a literary language used across Central Asia until the early 20th century, declined, standard Uyghur and Uzbek were developed from dialects of the Chagatai-speaking region. The name 'Uyghur' was applied to the language previously called Eastern Turki in the Soviet Union in 1922 and in Xinjiang in 1934. Its Perso-Arabic script, the only standard in China, was modified in the 20th century so that all vowels must be marked.",
+          "sources": ["wp-uyghur"]
+        }
+      ]
+    },
+    {
+      "id": "kipchak",
+      "name": "Kipchak",
+      "glottocode": "kipc1239",
+      "parent": "common-turkic",
+      "kind": "group",
+      "status": "living",
+      "sources": ["glottolog-turkic-tree", "wp-turkic"]
+    },
+    {
+      "id": "kazakh",
+      "name": "Kazakh",
+      "nativeName": "қазақ тілі",
+      "nativeScript": "Cyrl",
+      "glottocode": "kaza1248",
+      "iso639_3": "kaz",
+      "parent": "kipchak",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-kazakh", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1465,
+        "to": null,
+        "approx": true,
+        "note": "Modern Kazakh is thought to have taken shape around 1465, during the formation of the Kazakh Khanate.",
+        "sources": ["wp-kazakh"]
+      },
+      "homeland": {
+        "lat": 48.0,
+        "lng": 68.0,
+        "label": "Kazakh steppe (Kazakhstan)",
+        "sources": ["wp-kazakh"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Cyrillic", "code": "Cyrl" },
+          { "name": "Latin", "code": "Latn" },
+          { "name": "Perso-Arabic", "code": "Arab" }
+        ],
+        "sources": ["wp-kazakh"]
+      },
+      "speakers": { "count": 16000000, "year": 2021, "scope": "L1", "sources": ["wp-kazakh"] },
+      "story": [
+        {
+          "text": "Kazakh is a Kipchak Turkic language of the Kipchak–Nogai group, closely related to Nogai, Kyrgyz and Karakalpak. It is the official language of Kazakhstan and is also spoken in the Altai Republic of Russia, the Ili Kazakh Autonomous Prefecture in Xinjiang, China, and Bayan-Ölgii Province in Mongolia. The Kipchak branch was largely consolidated under the Golden Horde, and modern Kazakh is thought to have taken shape around 1465, during the formation of the Kazakh Khanate, where Persian served as a lingua franca.",
+          "sources": ["wp-kazakh"]
+        },
+        {
+          "text": "Kazakh was written in Arabic script until approximately 1929, and in the early 1900s Akhmet Baitursynuly reformed the Kazakh–Arabic alphabet. Under the Soviet regime a Latin script was imposed and then, in the 1940s, a Cyrillic one, which is mostly used today; a modified Perso-Arabic script is used in Xinjiang. A 2017 presidential decree ordered a move from Cyrillic to Latin, but the transition has since been delayed.",
+          "sources": ["wp-kazakh"]
+        }
+      ]
+    },
+    {
+      "id": "kyrgyz",
+      "name": "Kyrgyz",
+      "nativeName": "Кыргыз тили",
+      "nativeScript": "Cyrl",
+      "glottocode": "kirg1245",
+      "iso639_3": "kir",
+      "parent": "kipchak",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-kyrgyz", "glottolog-turkic-tree"],
+      "period": {
+        "from": 925,
+        "to": null,
+        "approx": true,
+        "note": "No single emergence date was found. After 925 some Kyrgyz elites settled in the Altai and Xinjiang and mixed with local Kipchaks, resulting in a language shift; after the Mongol conquest of 1207, Kyrgyz-speaking tribes migrated to the Tian Shan.",
+        "sources": ["wp-kyrgyz"]
+      },
+      "homeland": {
+        "lat": 41.5,
+        "lng": 75.0,
+        "label": "Tian Shan (Kyrgyzstan)",
+        "sources": ["wp-kyrgyz"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Cyrillic", "code": "Cyrl" },
+          { "name": "Perso-Arabic", "code": "Arab" },
+          { "name": "Latin", "code": "Latn" },
+          { "name": "Old Turkic", "code": "Orkh" }
+        ],
+        "sources": ["wp-kyrgyz"]
+      },
+      "speakers": { "count": 5600000, "year": 2024, "scope": "L1", "sources": ["wp-kyrgyz"] },
+      "story": [
+        {
+          "text": "Kyrgyz is the official language of Kyrgyzstan and a significant minority language in the Kizilsu Kyrgyz Autonomous Prefecture in Xinjiang, China; a dialect, Pamiri Kyrgyz, is spoken in northeastern Afghanistan and northern Pakistan. It belongs to the East Kipchak group of Common Turkic and should not be confused with Old Kyrgyz, or Yenisei Kyrgyz, which is classed as a South Siberian Turkic language.",
+          "sources": ["wp-kyrgyz"]
+        },
+        {
+          "text": "In 925, when the Liao dynasty defeated the Yenisei Kyrgyz and expelled them from the Mongolian steppes, some Kyrgyz elites settled in the Altai and Xinjiang, where they mixed with local Kipchaks, resulting in a language shift. After the Mongol conquest in 1207, Kyrgyz-speaking tribes began to migrate to the Tian Shan. Kyrgyz was first written in the Göktürk script, then in the Perso-Arabic alphabet until 1928, in a Latin alphabet from 1928 to 1940, and in Cyrillic since 1940.",
+          "sources": ["wp-kyrgyz"]
+        }
+      ]
+    },
+    {
+      "id": "tatar",
+      "name": "Tatar",
+      "nativeName": "татар теле",
+      "nativeScript": "Cyrl",
+      "glottocode": "tata1255",
+      "iso639_3": "tat",
+      "parent": "kipchak",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-tatar", "glottolog-turkic-tree"],
+      "period": {
+        "from": 1250,
+        "to": null,
+        "approx": true,
+        "note": "No emergence date for modern Tatar was found; this uses the start of Old Tatar (Volga Türki), its literary predecessor, used from the middle of the 13th century.",
+        "sources": ["wp-old-tatar", "wp-tatar"]
+      },
+      "homeland": {
+        "lat": 55.79,
+        "lng": 49.12,
+        "label": "Middle Volga (Kazan, Tatarstan)",
+        "sources": ["wp-tatar"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Cyrillic", "code": "Cyrl" },
+          { "name": "Arabic", "code": "Arab" },
+          { "name": "Latin (Yañalif)", "code": "Latn" }
+        ],
+        "sources": ["wp-tatar"]
+      },
+      "speakers": { "count": 4000000, "year": 2020, "scope": "L1", "sources": ["wp-tatar"] },
+      "story": [
+        {
+          "text": "Tatar is a Turkic language of the Kipchak branch, in the Kipchak–Bulgar subgroup, spoken mainly in the Republic of Tatarstan and the wider Volga-Ural region. Its ancestors are the extinct Bulgar and Kipchak languages. The Tatars joined the Islamic world in the 10th century, and during the Golden Horde (1242–1502) the ancestors of modern Tatars used Persian alongside their Turkic speech. The literary language is based on the Central (Kazan) dialect and on Volga Türki, also known as Old Tatar.",
+          "sources": ["wp-tatar"]
+        },
+        {
+          "text": "Old Tatar, written in Arabic script, was a literary language of the Idel-Ural region from the middle of the 13th century to the beginning of the 20th, used by Tatars and Bashkirs, and it developed into Tatar and Bashkir. It was actively used in publishing until 1905, when the first newspapers in modern Tatar and Bashkir appeared. Tatar itself was written in Arabic script until 1928, in the Latin alphabet Jaꞑalif from 1928, and in Cyrillic since 1939.",
+          "sources": ["wp-old-tatar", "wp-tatar"]
+        }
+      ]
+    }
+  ]
+}

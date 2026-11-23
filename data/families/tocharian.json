@@ -1,0 +1,333 @@
+{
+  "family": {
+    "id": "tocharian",
+    "name": "Tocharian"
+  },
+  "sources": [
+    {
+      "id": "glottolog-tokh1241",
+      "title": "Glottolog 5.4: Tokharian",
+      "url": "https://glottolog.org/resource/languoid/id/tokh1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-tokh1242",
+      "title": "Glottolog 5.4: Tokharian A",
+      "url": "https://glottolog.org/resource/languoid/id/tokh1242",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glottolog-tokh1243",
+      "title": "Glottolog 5.4: Tokharian B",
+      "url": "https://glottolog.org/resource/languoid/id/tokh1243",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-tocharian",
+      "title": "Tocharian languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tocharian_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-proto-tocharian",
+      "title": "Proto-Tocharian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Tocharian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kucha",
+      "title": "Kucha (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kucha",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-kizil",
+      "title": "Kizil Caves (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kizil_Caves",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "lrc-tocharian-online",
+      "title": "Tocharian Online: Series Introduction",
+      "author": "Todd B. Krause and Jonathan Slocum",
+      "url": "https://lrc.la.utexas.edu/eieol/tokol/00",
+      "publisher": "Linguistics Research Center, University of Texas at Austin"
+    },
+    {
+      "id": "mallory-2010",
+      "title": "Bronze Age Languages of the Tarim Basin",
+      "author": "J. P. Mallory",
+      "year": 2010,
+      "url": "https://www.penn.museum/documents/publications/expedition/52-3/mallory.pdf",
+      "publisher": "Expedition 52(3), Penn Museum"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-tocharian",
+      "name": "Proto-Tocharian",
+      "glottocode": "tokh1241",
+      "parent": "proto-indo-european",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "glottolog-tokh1241",
+        "wp-proto-tocharian",
+        "wp-tocharian"
+      ],
+      "period": {
+        "from": -3300,
+        "to": -200,
+        "approx": true,
+        "note": "The start is a proxy, not a date for the language itself: it reflects the Afanasievo culture (c. 3300–2500 BC), with which most scholars identify the ancestors of the Tocharians; the last common Proto-Tocharian stage before the split into A and B probably dates to the late 1st millennium BC.",
+        "sources": [
+          "wp-tocharian"
+        ]
+      },
+      "homeland": {
+        "lat": 53.71,
+        "lng": 91.69,
+        "label": "Altai–Minusinsk region, South Siberia (Afanasievo culture)",
+        "sources": [
+          "wp-tocharian",
+          "mallory-2010"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Tocharian is the reconstructed ancestor of the extinct Tocharian branch of Indo-European, known only through its two daughters, Tocharian A and Tocharian B. The two are mutually unintelligible, so their common ancestor must precede the manuscripts by several centuries, probably dating to the late 1st millennium BC. Tocharian B is the more conservative in sound and the main source for reconstructing Proto-Tocharian: only B keeps stress distinctions, final vowels, diphthongs and the contrast between o and e.",
+          "sources": [
+            "wp-tocharian",
+            "wp-proto-tocharian"
+          ]
+        },
+        {
+          "text": "Proto-Tocharian underwent sweeping changes from Proto-Indo-European, including major vowel developments, simplified consonants and widespread palatalisation. Its descendants have only voiceless stops and rebuilt their case system with agglutinative endings, features that lead many scholars to suspect long contact with western and central Asian language groups such as Uralic, Turkic and Mongolian. One possible Tocharian loan into Chinese is the word for 'honey', Old Chinese *mit, from Proto-Tocharian *ḿət(ə).",
+          "sources": [
+            "wp-proto-tocharian",
+            "lrc-tocharian-online",
+            "wp-tocharian"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Most scholars identify the ancestors of the Tocharians with the Afanasievo culture of South Siberia (c. 3300–2500 BC), an early eastern offshoot of the steppe cultures of the Don–Volga area, with Tocharian speakers reaching the Tarim Basin at some later point. J. P. Mallory notes that the culture's start date is a serious problem and that the hypothesis requires an enormous trek from the Volga–Ural region to the Yenisei with very little evidence of stops along the way.",
+          "sources": [
+            "wp-tocharian",
+            "mallory-2010"
+          ]
+        },
+        {
+          "text": "The discovery of Tocharian, a centum language at the eastern edge of the Indo-European world, undermined the older idea that the centum–satem division was a simple split between west and east. Most scholars reject Walter Bruno Henning's proposed link between Tocharian and Gutian, a language of the Iranian plateau in the 22nd century BC known only from personal names.",
+          "sources": [
+            "wp-tocharian",
+            "lrc-tocharian-online"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tocharian-a",
+      "name": "Tocharian A",
+      "glottocode": "tokh1242",
+      "iso639_3": "xto",
+      "parent": "proto-tocharian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-tokh1242",
+        "wp-tocharian",
+        "lrc-tocharian-online"
+      ],
+      "period": {
+        "from": 500,
+        "to": 1000,
+        "approx": true,
+        "note": "Dates of the surviving documents (roughly 6th–8th centuries AD). Tocharian probably died out after 840, and both Tocharian languages were extinct before about 1000.",
+        "sources": [
+          "lrc-tocharian-online",
+          "wp-tocharian",
+          "wp-kucha"
+        ]
+      },
+      "homeland": {
+        "lat": 42.06,
+        "lng": 86.57,
+        "label": "Agni (Qarašähär, Yanqi) and Turfan, north-eastern Tarim Basin",
+        "sources": [
+          "wp-tocharian",
+          "lrc-tocharian-online"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "turfan-manuscripts",
+          "year": 700,
+          "approx": true,
+          "lat": 42.85,
+          "lng": 89.53,
+          "place": "Turfan region",
+          "description": "Tocharian A is found at Turfan, on the north-eastern edge of the Tarim Basin, one of the two main sites of Tocharian A manuscripts; Tocharian documents date roughly to the 6th–8th centuries.",
+          "sources": [
+            "mallory-2010",
+            "lrc-tocharian-online"
+          ]
+        },
+        {
+          "id": "yanqi-maitreyasamiti",
+          "year": 700,
+          "approx": true,
+          "lat": 42.06,
+          "lng": 86.57,
+          "place": "Yanqi (ancient Agni, Qarašähär)",
+          "description": "In 1974 fragments of a Tocharian Maitreyasamiti-Nāṭaka, a Buddhist drama, were discovered at Yanqi, in the area where Tocharian A is found; Ji Xianlin published a translation in 1998.",
+          "sources": [
+            "wp-tocharian",
+            "lrc-tocharian-online"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Tocharian (North Turkestan Brāhmī)",
+            "code": "Brah"
+          }
+        ],
+        "sources": [
+          "wp-tocharian",
+          "lrc-tocharian-online"
+        ]
+      },
+      "story": [
+        {
+          "text": "Tocharian A, also called East Tocharian, Turfanian or Agnean, is known from the oases of Qarašähär (ancient Agni, Chinese Yanqi) and Turfan on the north-eastern edge of the Tarim Basin. Its texts use the term ārśi, apparently a self-designation. All surviving Tocharian A texts are religious, mostly translations of Buddhist works, while secular documents are all in Tocharian B, so many scholars think A was by then a liturgical language no longer spoken natively.",
+          "sources": [
+            "wp-tocharian",
+            "lrc-tocharian-online"
+          ]
+        },
+        {
+          "text": "Its name rests on a misidentification. A late-8th-century Old Turkic translation of the Buddhist drama Maitreyasamiti-Nāṭaka says it was made from the twγry language, and in 1907 Emil Sieg and F. W. K. Müller linked that name with the Tócharoi of Bactria. Those people are now known to have spoken Bactrian, an Iranian language, but 'Tocharian' stayed in use. In 1974 fragments of a Tocharian Maitreyasamiti-Nāṭaka were found at Yanqi.",
+          "sources": [
+            "wp-tocharian",
+            "lrc-tocharian-online"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tocharian-b",
+      "name": "Tocharian B",
+      "glottocode": "tokh1243",
+      "iso639_3": "txb",
+      "parent": "proto-tocharian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "glottolog-tokh1243",
+        "wp-tocharian",
+        "lrc-tocharian-online"
+      ],
+      "period": {
+        "from": 400,
+        "to": 1000,
+        "approx": true,
+        "note": "The oldest Tocharian B manuscripts are dated to the 5th or even late 4th century AD. Tocharian probably died out after 840, and both Tocharian languages were extinct before about 1000.",
+        "sources": [
+          "wp-tocharian",
+          "wp-kucha"
+        ]
+      },
+      "homeland": {
+        "lat": 41.7178,
+        "lng": 82.9631,
+        "label": "Kucha, northern Tarim Basin",
+        "sources": [
+          "wp-kucha",
+          "wp-tocharian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "kucha-oldest-stage",
+          "year": 450,
+          "approx": true,
+          "lat": 41.7178,
+          "lng": 82.9631,
+          "place": "Kucha",
+          "description": "The oldest linguistic stage of Tocharian B is attested only in Kucha, and its oldest manuscripts are dated to the 5th or even late 4th century AD.",
+          "sources": [
+            "wp-tocharian"
+          ]
+        },
+        {
+          "id": "kizil-love-poem",
+          "year": 700,
+          "approx": true,
+          "lat": 41.785,
+          "lng": 82.505,
+          "place": "Kizil, west of Kucha",
+          "description": "A fragment of a love poem in Tocharian B, manuscript B-496, was found at Kizil, site of the largest Buddhist cave complex of the Kucha kingdom; most Tocharian texts are religious.",
+          "sources": [
+            "wp-tocharian",
+            "wp-kizil"
+          ]
+        },
+        {
+          "id": "tumshuq",
+          "year": 700,
+          "approx": true,
+          "lat": 39.87,
+          "lng": 79.07,
+          "place": "Tumshuq",
+          "description": "Tumshuq marks the extreme western boundary of Tocharian finds; Tocharian B is found from Turfan in the east to Tumshuq in the west.",
+          "sources": [
+            "lrc-tocharian-online"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Tocharian (North Turkestan Brāhmī)",
+            "code": "Brah"
+          },
+          {
+            "name": "Manichaean",
+            "code": "Mani"
+          }
+        ],
+        "sources": [
+          "wp-tocharian",
+          "lrc-tocharian-online"
+        ]
+      },
+      "story": [
+        {
+          "text": "Tocharian B, also called West Tocharian or Kuchean, was the language of Kucha, a Buddhist kingdom on the Silk Road along the northern edge of the Taklamakan Desert. Its texts describe it with the adjective kuśiññe, from the name Kuśi or Kuči. Unlike Tocharian A it is found across the whole Tocharian area, from Turfan in the east to Tumshuq in the west, and in both religious and secular writing.",
+          "sources": [
+            "wp-tocharian",
+            "wp-kucha",
+            "lrc-tocharian-online"
+          ]
+        },
+        {
+          "text": "Its oldest manuscripts are dated to the 5th or even late 4th century AD, making it a language of late antiquity, contemporary with Gothic and Classical Armenian. Most texts are in a slanting form of the Indian Brahmi script, and some are in Manichaean script. Besides Buddhist translations, the documents include monastery letters and accounts, commercial records, caravan permits, medical and magical texts, and one love poem, found at Kizil.",
+          "sources": [
+            "wp-tocharian",
+            "lrc-tocharian-online"
+          ]
+        },
+        {
+          "text": "Under Uyghur domination Kucha gradually became Turkic-speaking, and Kuchean was forgotten until the early 20th century, when manuscripts in two related but mutually unintelligible languages came to light in the Tarim Basin. Tocharian probably died out after 840, when the Uyghurs, expelled from Mongolia by the Kyrgyz, moved into the Tarim Basin.",
+          "sources": [
+            "wp-kucha",
+            "wp-tocharian"
+          ]
+        }
+      ]
+    }
+  ]
+}

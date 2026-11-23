@@ -1,0 +1,511 @@
+{
+ "file": "data/families/japonic.json",
+ "claims": {
+  "proto-japonic#identity": {
+   "hash": "2e540d2880f06075",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://en.wikipedia.org/wiki/Proto-Japonic_language",
+    "https://glottolog.org/resource/languoid/id/japo1237",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "proto-japonic#period": {
+   "hash": "16bfc19b3e0ff1db",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://en.wikipedia.org/wiki/Proto-Japonic_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "proto-japonic#homeland": {
+   "hash": "c732c3ec1c2e3f01",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://en.wikipedia.org/wiki/Proto-Japonic_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "proto-japonic#story:0": {
+   "hash": "48e0476ff1d864dc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://en.wikipedia.org/wiki/Proto-Japonic_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "proto-japonic#story:1": {
+   "hash": "3c17737ce78ea7d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "proto-japonic#note:0": {
+   "hash": "a33e5a5a2e9585b3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "proto-japonic#note:1": {
+   "hash": "a66502e542a2945d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8612925/",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ],
+   "note": "Robbeets claim narrowed: replaced unverified 'rice, barley, wheat and millet reached Kyushu in third millennium BP' with the MPG summary (rice and wheat to Japan c. 3,000 years ago); added source."
+  },
+  "old-japanese#identity": {
+   "hash": "5f626dc6dbb7b218",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://glottolog.org/resource/languoid/id/oldj1239",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#period": {
+   "hash": "8543cd08d632cbbd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#homeland": {
+   "hash": "7dd18340d22a820e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://en.wikipedia.org/wiki/Heij%C5%8D-ky%C5%8D",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#attestation:kojiki": {
+   "hash": "1fe12cbe4ca3b7c3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://en.wikipedia.org/wiki/Kojiki",
+    "https://en.wikipedia.org/wiki/Heij%C5%8D-ky%C5%8D",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#attestation:bussokuseki-kahi": {
+   "hash": "39a43c7abbdc9bcd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://en.wikipedia.org/wiki/Bussokuseki-kahi",
+    "https://en.wikipedia.org/wiki/Yakushi-ji",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#scripts": {
+   "hash": "03e4c37ec6340fcd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#story:0": {
+   "hash": "14319c8c963fa97d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#story:1": {
+   "hash": "7e88d2dbc007b380",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://en.wikipedia.org/wiki/Inariyama_Sword",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#story:2": {
+   "hash": "cf4bd20e785a8a4b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Japanese",
+    "https://en.wikipedia.org/wiki/Bussokuseki-kahi",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "old-japanese#work:manyoshu": {
+   "hash": "57868f35263fb279",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB",
+    "https://ja.wikisource.org/wiki/%E4%B8%87%E8%91%89%E9%9B%86/%E7%AC%AC%E4%B8%80%E5%B7%BB",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ],
+   "note": "Excerpt matches ja.wikisource Man'yōshū book 1 poem 1 exactly; significance reworded to 'small number of figures' and '20 volumes' per Wikipedia."
+  },
+  "early-middle-japanese#identity": {
+   "hash": "d7140541410a2152",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "early-middle-japanese#period": {
+   "hash": "21c4c68e83ea9b22",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "early-middle-japanese#homeland": {
+   "hash": "118bee2700d2ba4f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Heian-ky%C5%8D",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "early-middle-japanese#attestation:tale-of-genji": {
+   "hash": "d51966dbcc0ea5a6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+    "https://en.wikipedia.org/wiki/Heian-ky%C5%8D",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "early-middle-japanese#scripts": {
+   "hash": "91af06e250c9539f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Middle_Japanese",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "early-middle-japanese#story:0": {
+   "hash": "b34f63e354e63469",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "early-middle-japanese#story:1": {
+   "hash": "e61c9e108e64b5de",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Middle_Japanese",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "early-middle-japanese#work:tale-of-genji": {
+   "hash": "0304334482c4b211",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+    "https://ja.wikisource.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E/%E6%A1%90%E5%A3%BA",
+    "https://archive.sacred-texts.com/shi/gen/gen03.htm",
+    "https://en.wikipedia.org/wiki/Suematsu_Kench%C5%8D",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ],
+   "note": "Original exact match to ja.wikisource Kiritsubo; Suematsu translation (1882, d.1920) matches text; PD ok."
+  },
+  "late-middle-japanese#identity": {
+   "hash": "3c1a95b037e04984",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Late_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "late-middle-japanese#period": {
+   "hash": "ea9c7df92bd9ca82",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://en.wikipedia.org/wiki/Late_Middle_Japanese",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "late-middle-japanese#homeland": {
+   "hash": "8a2190d6b96c5ec3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Late_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Heian-ky%C5%8D",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "late-middle-japanese#attestation:nippo-jisho": {
+   "hash": "0cccb9d2f3b4072a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nippo_Jisho",
+    "https://en.wikipedia.org/wiki/Nagasaki",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "late-middle-japanese#scripts": {
+   "hash": "db4a76f01c0bcb21",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Early_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Nippo_Jisho",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "late-middle-japanese#story:0": {
+   "hash": "7495aa0a172c4736",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Late_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "late-middle-japanese#story:1": {
+   "hash": "e429ea97530115b5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Late_Middle_Japanese",
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://en.wikipedia.org/wiki/Nippo_Jisho",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "japanese#identity": {
+   "hash": "3295c0284997d3d0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://glottolog.org/resource/languoid/id/nucl1643",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "japanese#period": {
+   "hash": "0c4e4e09b6f7d451",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "japanese#homeland": {
+   "hash": "df8efb2f3ed4fba1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://en.wikipedia.org/wiki/Fukagawa,_Tokyo",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "japanese#attestation:kawazu-awase": {
+   "hash": "b4994e2ed0caf609",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+    "https://ja.wikipedia.org/wiki/%E5%8F%A4%E6%B1%A0%E3%82%84%E8%9B%99%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%80%E6%B0%B4%E3%81%AE%E9%9F%B3",
+    "https://en.wikipedia.org/wiki/Fukagawa,_Tokyo",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "japanese#scripts": {
+   "hash": "6a13c290ea3945fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "japanese#speakers": {
+   "hash": "3fe880ddf415a13c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ],
+   "note": "123 million (2020) native speakers per Wikipedia infobox."
+  },
+  "japanese#story:0": {
+   "hash": "ef229f7e61495f9f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "japanese#story:1": {
+   "hash": "8b765e920186ebb7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+    "https://ja.wikipedia.org/wiki/%E5%8F%A4%E6%B1%A0%E3%82%84%E8%9B%99%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%80%E6%B0%B4%E3%81%AE%E9%9F%B3",
+    "https://en.wikipedia.org/wiki/Japanese_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "japanese#work:furuike-ya": {
+   "hash": "1b1144c1b49df124",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D",
+    "https://ja.wikipedia.org/wiki/%E5%8F%A4%E6%B1%A0%E3%82%84%E8%9B%99%E9%A3%9B%E3%81%B3%E8%BE%BC%E3%82%80%E6%B0%B4%E3%81%AE%E9%9F%B3",
+    "https://ja.wikisource.org/wiki/%E8%8A%AD%E8%95%89%E4%BF%B3%E5%8F%A5%E5%85%A8%E9%9B%86",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ],
+   "note": "Excerpt matches 1903 Wikisource edition (蛙とびこむ). Removed unsupported 'became famous at once' (ja Wikipedia says it first won repute in Basho's circle); now cites shofu-establishing and epitome-of-haiku."
+  },
+  "okinawan#identity": {
+   "hash": "497b28a53e7c519b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://glottolog.org/resource/languoid/id/cent2126",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "okinawan#period": {
+   "hash": "05b4e2aeee314017",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://en.wikipedia.org/wiki/Japonic_languages",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "okinawan#homeland": {
+   "hash": "bf994820bae5c08b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "okinawan#attestation:tamaudun-stele": {
+   "hash": "4726228a3cdffdac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://en.wikipedia.org/wiki/Tamaudun",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "okinawan#attestation:omoro-soshi": {
+   "hash": "0853a9e1359a21ab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Omoro_S%C5%8Dshi",
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "okinawan#scripts": {
+   "hash": "21a83f58caa8efa6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "okinawan#story:0": {
+   "hash": "645a3ac268afe2fc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "okinawan#story:1": {
+   "hash": "b654f36b0e6e5f5b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://en.wikipedia.org/wiki/Omoro_S%C5%8Dshi",
+    "https://en.wikipedia.org/wiki/Tamaudun",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ]
+  },
+  "okinawan#story:2": {
+   "hash": "ca9c9f820359ec8b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://glottolog.org/resource/languoid/id/cent2126",
+    "https://www.shh.mpg.de/2071364/robbeets-transeurasian-agriculture",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/shi/gen/gen03.htm"
+   ],
+   "note": "Glottolog status is 'moribund' (AES), not 'severely endangered' (that is Campbell et al. 2022 comment)."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:23:44.075Z",
+ "verifier": "verifier-asia"
+}

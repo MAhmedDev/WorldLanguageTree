@@ -1,0 +1,425 @@
+{
+ "file": "data/families/austroasiatic.json",
+ "claims": {
+  "proto-austroasiatic#identity": {
+   "hash": "c811868097e62c8e",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/aust1305",
+    "https://en.wikipedia.org/wiki/Austroasiatic_languages"
+   ]
+  },
+  "proto-austroasiatic#period": {
+   "hash": "1788bf379f85949d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austroasiatic_languages"
+   ]
+  },
+  "proto-austroasiatic#homeland": {
+   "hash": "3fcd20348f695602",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austroasiatic_languages",
+    "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.7.pdf"
+   ]
+  },
+  "proto-austroasiatic#story:0": {
+   "hash": "d5a21cd9b7b440a3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austroasiatic_languages"
+   ]
+  },
+  "proto-austroasiatic#story:1": {
+   "hash": "5400870c23d40b5b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austroasiatic_languages",
+    "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.7.pdf"
+   ]
+  },
+  "proto-austroasiatic#note:0": {
+   "hash": "01a04fc33ed6bdf4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austroasiatic_languages"
+   ]
+  },
+  "proto-austroasiatic#note:1": {
+   "hash": "996e217b9fc8f001",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w01.7.pdf",
+    "https://en.wikipedia.org/wiki/Austroasiatic_languages"
+   ],
+   "note": "Removed unsupported claim that the Chaubey result agrees with Sidwell's coastal-migration model."
+  },
+  "old-khmer#identity": {
+   "hash": "3845899a81d5d780",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/oldk1249",
+    "https://en.wikipedia.org/wiki/Old_Khmer"
+   ]
+  },
+  "old-khmer#period": {
+   "hash": "74282f3cb91b8f44",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Khmer",
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "old-khmer#homeland": {
+   "hash": "4c50c84a46e56306",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Khmer",
+    "https://en.wikipedia.org/wiki/Angkor_Borei_and_Phnom_Da"
+   ]
+  },
+  "old-khmer#attestation:angkor-borei-611": {
+   "hash": "bb09d969f82d9ce3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Khmer",
+    "https://en.wikipedia.org/wiki/Angkor_Borei_and_Phnom_Da"
+   ]
+  },
+  "old-khmer#scripts": {
+   "hash": "f8ed18d4f9c45ac2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Khmer"
+   ]
+  },
+  "old-khmer#story:0": {
+   "hash": "bc1f589ec4691bdb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Khmer"
+   ]
+  },
+  "old-khmer#story:1": {
+   "hash": "6841388141f58c3a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Khmer"
+   ]
+  },
+  "middle-khmer#identity": {
+   "hash": "a7e72d22b2396396",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/midd1376",
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "middle-khmer#period": {
+   "hash": "9a4ebee2691f38bb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "middle-khmer#homeland": {
+   "hash": "8ea02a11db26f970",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "middle-khmer#scripts": {
+   "hash": "92dbbfe9c87d38ab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "middle-khmer#story:0": {
+   "hash": "1e5d363f469cada4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "middle-khmer#story:1": {
+   "hash": "03db46d010e1809a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Reamker"
+   ]
+  },
+  "khmer#identity": {
+   "hash": "21160c9edf685edc",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/cent1989",
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "khmer#period": {
+   "hash": "b59595f15957ce17",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "khmer#homeland": {
+   "hash": "8ea02a11db26f970",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "khmer#scripts": {
+   "hash": "92dbbfe9c87d38ab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "khmer#speakers": {
+   "hash": "f8f3817d0e140408",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ],
+   "note": "Count changed from rounded 19,000,000 to source value 19,477,730 (L1, 2019)."
+  },
+  "khmer#story:0": {
+   "hash": "21cc72bda8cea278",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "khmer#story:1": {
+   "hash": "8197d86b10c14f1a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Khmer_language"
+   ]
+  },
+  "vietnamese#identity": {
+   "hash": "054edf53fd67a2bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/viet1252",
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ]
+  },
+  "vietnamese#period": {
+   "hash": "e73f39024ae1dd90",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ]
+  },
+  "vietnamese#homeland": {
+   "hash": "5cb0777f3d19526f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ]
+  },
+  "vietnamese#attestation:van-ban-bell-1076": {
+   "hash": "36f431bb45ee2749",
+   "verdict": "verified",
+   "evidence": [
+    "https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m"
+   ]
+  },
+  "vietnamese#attestation:thap-mieu-stele-1210": {
+   "hash": "b9b2084b87d7e4b5",
+   "verdict": "verified",
+   "evidence": [
+    "https://vi.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m",
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ]
+  },
+  "vietnamese#scripts": {
+   "hash": "eb81bd2b804584fd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ]
+  },
+  "vietnamese#speakers": {
+   "hash": "f86b8a6d491bad27",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ],
+   "note": "Count changed from rounded 86,000,000 to source value 86,130,550 (L1, 2019-2023)."
+  },
+  "vietnamese#story:0": {
+   "hash": "34e0617981ecab83",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ]
+  },
+  "vietnamese#story:1": {
+   "hash": "9b7f2e8628a7c6e2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ]
+  },
+  "vietnamese#story:2": {
+   "hash": "441d7750ff0084cf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Vietnamese_language"
+   ]
+  },
+  "vietnamese#work:truyen-kieu": {
+   "hash": "dbe2660170d2321f",
+   "verdict": "corrected",
+   "evidence": [
+    "https://vi.wikisource.org/wiki/Truy%E1%BB%87n_Ki%E1%BB%81u",
+    "https://en.wikipedia.org/wiki/The_Tale_of_Kieu",
+    "https://vi.wikipedia.org/wiki/Truy%E1%BB%87n_Ki%E1%BB%81u"
+   ],
+   "note": "Superlative 'most significant' softened to 'generally considered the pinnacle', per the source."
+  },
+  "mon#identity": {
+   "hash": "39f8e182c63fd449",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/monn1252",
+    "https://en.wikipedia.org/wiki/Mon_language"
+   ]
+  },
+  "mon#period": {
+   "hash": "718f014e247c6c08",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mon_script"
+   ]
+  },
+  "mon#homeland": {
+   "hash": "1c4ae7b0d4e2a290",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mon_script",
+    "https://en.wikipedia.org/wiki/Mon_language"
+   ]
+  },
+  "mon#attestation:dvaravati-old-mon": {
+   "hash": "e115beb1999645cc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mon_script",
+    "https://en.wikipedia.org/wiki/Mon_language"
+   ]
+  },
+  "mon#attestation:myazedi-1113": {
+   "hash": "420c8b38ad8bd608",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Myazedi_inscription"
+   ]
+  },
+  "mon#scripts": {
+   "hash": "7e0f94569760a792",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mon_language"
+   ]
+  },
+  "mon#story:0": {
+   "hash": "b3e18549776f86a4",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mon_language"
+   ],
+   "note": "Conflicting speaker figures (Ethnologue ~1.1M, 2000-2014, vs 1.8-2M in 2007) now both stated."
+  },
+  "mon#story:1": {
+   "hash": "2ae48a44dc9ad644",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mon_language"
+   ]
+  },
+  "mon#story:2": {
+   "hash": "d95f8f9870fbae7d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mon_script",
+    "https://en.wikipedia.org/wiki/Mon_language"
+   ]
+  },
+  "santali#identity": {
+   "hash": "7e85d38bed95fe66",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/sant1410",
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  },
+  "santali#period": {
+   "hash": "e70250760578a662",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  },
+  "santali#homeland": {
+   "hash": "5bfec4dd7abe3b97",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  },
+  "santali#attestation:ol-chiki-1939": {
+   "hash": "fb0bf159fdd12734",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ol_Chiki_script",
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  },
+  "santali#scripts": {
+   "hash": "76fee0dbd9100712",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  },
+  "santali#speakers": {
+   "hash": "45d45e4b3f3efe5d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  },
+  "santali#story:0": {
+   "hash": "560c054977275154",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  },
+  "santali#story:1": {
+   "hash": "0f9690b4d09ff070",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  },
+  "santali#story:2": {
+   "hash": "326877d0e5ead947",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ol_Chiki_script",
+    "https://en.wikipedia.org/wiki/Santali_language"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:31:42.127Z",
+ "verifier": "verifier-asia"
+}

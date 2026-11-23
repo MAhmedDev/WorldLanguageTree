@@ -1,0 +1,163 @@
+{
+  "family": { "id": "mongolic", "name": "Mongolic", "root": "mongolic" },
+  "sources": [
+    { "id": "glotto-mong1329", "title": "Glottolog: Mongolic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/mong1329" },
+    { "id": "glotto-midd1351", "title": "Glottolog: Middle Mongol", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/midd1351" },
+    { "id": "glotto-halh1238", "title": "Glottolog: Halh Mongolian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/halh1238" },
+    { "id": "wp-mongolic", "title": "Mongolic languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mongolic_languages" },
+    { "id": "wp-proto-mongolic", "title": "Proto-Mongolic language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proto-Mongolic_language" },
+    { "id": "wp-altaic", "title": "Altaic languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Altaic_languages" },
+    { "id": "wp-middle-mongol", "title": "Middle Mongol", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Middle_Mongol" },
+    { "id": "wp-mongolian", "title": "Mongolian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mongolian_language" },
+    { "id": "wp-khalkha", "title": "Khalkha Mongolian", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Khalkha_Mongolian" },
+    { "id": "wp-secret-history", "title": "The Secret History of the Mongols", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Secret_History_of_the_Mongols" },
+    { "id": "wp-yisungge", "title": "Stele of Yisüngge", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Stele_of_Yis%C3%BCngge" },
+    { "id": "kradin-khirkhira", "title": "Issues of planigraphy of the Khirkhira city in comparative perspective", "author": "N. N. Kradin", "publisher": "Archaeology of Eurasian Steppes (evrazstep.ru)", "url": "https://evrazstep.ru/index.php/aes/article/download/1256/1143/2389" },
+    { "id": "rachewiltz-sino-mongolica", "title": "Sino-Mongolica Remota", "author": "Igor de Rachewiltz", "publisher": "East Asian History 42 (Australian National University)", "url": "https://eah.anu.edu.au/sites/default/files/article-content/42/pdfs/EAH42-Igor-de-Rachewiltz_1.pdf" },
+    { "id": "kradin-builder", "title": "Who was the builder of Mongol towns in Transbaikalia?", "author": "N. N. Kradin et al.", "publisher": "Golden Horde Review (via CyberLeninka)", "url": "https://cyberleninka.ru/article/n/who-was-the-builder-of-mongol-towns-in-transbaikalia" },
+    { "id": "zhws-yuanchao", "title": "元朝秘史 / 卷一 (Yuanchao Mishi, chapter 1)", "publisher": "Chinese Wikisource", "url": "https://zh.wikisource.org/wiki/%E5%85%83%E6%9C%9D%E7%A7%98%E5%8F%B2/%E5%8D%B701" }
+  ],
+  "languoids": [
+    {
+      "id": "mongolic",
+      "name": "Mongolic",
+      "glottocode": "mong1329",
+      "parent": null,
+      "kind": "group",
+      "status": "living",
+      "sources": ["wp-mongolic", "glotto-mong1329"],
+      "story": [
+        {
+          "text": "The Mongolic languages are spoken by the Mongolic peoples in North Asia, East Asia, Central Asia and Eastern Europe, mostly in Mongolia and nearby areas, and also in Kalmykia and Buryatia. Their reconstructed common ancestor, Proto-Mongolic, is very close to Middle Mongol, the language spoken in the time of Genghis Khan; Juha Janhunen dates the end of its unity to no earlier than the 13th century, after the Mongols dispersed under Chinggis Khan.",
+          "sources": ["wp-mongolic", "wp-proto-mongolic"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The closest relatives of Mongolic appear to be the extinct para-Mongolic languages, which include Khitan; a direct affiliation of Khitan to Mongolic is now considered most likely or even demonstrated. Glottolog groups Mongolic with Khitan as Mongolic-Khitan.",
+          "sources": ["wp-mongolic", "glotto-mong1329"]
+        },
+        {
+          "text": "A few linguists have grouped Mongolic with Turkic and Tungusic in an 'Altaic' family. The majority of linguists now consider Altaic obsolete, treating the resemblances as a sprachbund, and the related Transeurasian proposal has been severely criticized. This atlas treats Mongolic as an independent family.",
+          "sources": ["wp-altaic", "wp-mongolic"]
+        }
+      ]
+    },
+    {
+      "id": "middle-mongol",
+      "name": "Middle Mongol",
+      "glottocode": "midd1351",
+      "iso639_3": "xng",
+      "parent": "mongolic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-middle-mongol", "glotto-midd1351"],
+      "period": {
+        "from": 1200,
+        "to": 1600,
+        "approx": true,
+        "note": "Definitions vary: some date Middle Mongol from the 13th to the early 15th century, others to the late 16th century; it developed into Classical Mongolian by the 17th century.",
+        "sources": ["wp-middle-mongol"]
+      },
+      "homeland": {
+        "lat": 48.5,
+        "lng": 110.5,
+        "label": "Northeastern Mongolia, Genghis Khan's home region",
+        "sources": ["wp-middle-mongol"]
+      },
+      "attestations": [
+        {
+          "id": "stele-of-yisungge",
+          "year": 1225,
+          "approx": true,
+          "lat": 50.32,
+          "lng": 118.3,
+          "place": "Khirkhira site, near the mouth of the Khirkhira River into the Urulyungui, Priargunsky District, Transbaikalia (approximate)",
+          "description": "The Stele of Yisüngge, c. 1224–1225, the first known inscription in Mongolian script, records an arrow shot of 335 alds by Genghis Khan's nephew Yisüngge. It stood near the 13th-century settlement of Khirkhira until the early 19th century and had been removed by 1818; it has been held in the Hermitage Museum since 1936.",
+          "sources": ["wp-yisungge", "kradin-khirkhira", "rachewiltz-sino-mongolica", "kradin-builder"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Mongolian", "code": "Mong" },
+          { "name": "ʼPhags-pa", "code": "Phag" },
+          { "name": "Chinese characters", "code": "Hani" },
+          { "name": "Arabic", "code": "Arab" }
+        ],
+        "sources": ["wp-middle-mongol"]
+      },
+      "story": [
+        {
+          "text": "Middle Mongol was the language of the Mongol Empire. It originated in Genghis Khan's home region of northeastern Mongolia and is the earliest directly attested ancestor of modern Mongolian. Its first surviving monument is usually taken to be the Stele of Yisüngge, most often dated to 1224–1225, which records an archery feat at a gathering of nobles after the conquest of the Khwarazmian Empire.",
+          "sources": ["wp-middle-mongol", "wp-yisungge"]
+        },
+        {
+          "text": "It was written in the Mongolian script, in ʼPhags-pa, in Chinese characters and in the Arabic alphabet. The Secret History of the Mongols, the oldest surviving literary work in the Mongolic languages, was composed some time after Genghis Khan's death in 1227; its full text survives in a Ming-era version that transcribes the Mongolian sounds in Chinese characters. After the empire collapsed, Middle Mongol diversified into several Mongolic languages.",
+          "sources": ["wp-middle-mongol", "wp-secret-history"]
+        }
+      ],
+      "works": [
+        {
+          "id": "secret-history-of-the-mongols",
+          "title": "The Secret History of the Mongols",
+          "titleOriginal": "元朝秘史 (Yuanchao Mishi)",
+          "author": "Anonymous",
+          "date": "13th century (after 1227; dates from 1228 to 1264 have been proposed)",
+          "year": 1240,
+          "significance": "The oldest surviving literary work in the Mongolic languages, it opens with the semi-mythical genealogy of Genghis Khan's line and survives in full only in a Ming-era transcription of the Mongolian in Chinese characters.",
+          "original": "成吉思 蛤罕訥 忽札兀兒 迭額列 騰格理 額扯 札牙阿秃 脱列舌克先 孛兒帖 赤那 阿主兀 格而該 亦訥 豁中埃 馬闌舌勒 阿只埃",
+          "originalScript": "Hani",
+          "translation": "The origin of Chinggis Qahan: there was a blue-grey wolf, born with a destiny from Heaven above. His wife was a pale-white doe.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://zh.wikisource.org/wiki/%E5%85%83%E6%9C%9D%E7%A7%98%E5%8F%B2",
+          "sources": ["zhws-yuanchao", "wp-secret-history"]
+        }
+      ]
+    },
+    {
+      "id": "mongolian",
+      "name": "Mongolian (Khalkha)",
+      "nativeName": "Монгол хэл",
+      "nativeScript": "Cyrl",
+      "glottocode": "halh1238",
+      "iso639_3": "khk",
+      "parent": "middle-mongol",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-mongolian", "wp-khalkha", "glotto-halh1238"],
+      "period": {
+        "from": 1600,
+        "to": null,
+        "approx": true,
+        "note": "Approximate: Middle Mongol diversified after the collapse of the Mongol Empire and had developed into Classical Mongolian, the written language, by the 17th century. Glottolog classifies Halh Mongolian under Eastern Mongolic > Khalkha-Buriat > Mongolian and lists Middle Mongol as a separate Mongolic language.",
+        "sources": ["wp-middle-mongol", "wp-mongolian", "glotto-halh1238"]
+      },
+      "homeland": {
+        "lat": 48.32,
+        "lng": 106.29,
+        "label": "Central Mongolia (Glottolog's location for Halh Mongolian)",
+        "sources": ["wp-khalkha", "glotto-halh1238"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Cyrillic", "code": "Cyrl" },
+          { "name": "Mongolian", "code": "Mong" }
+        ],
+        "sources": ["wp-mongolian"]
+      },
+      "speakers": { "count": 2900000, "year": 2020, "scope": "L1", "sources": ["wp-khalkha"] },
+      "story": [
+        {
+          "text": "Khalkha is the dialect of central Mongolian widely spoken in Mongolia, named after the Khalkha Mongols and the Khalkha River. Because it was the basis for the Cyrillic orthography of Mongolian, it is in effect the national language of Mongolia. Mongolian is the official language of Mongolia and of the Chinese autonomous region of Inner Mongolia.",
+          "sources": ["wp-khalkha", "wp-mongolian"]
+        },
+        {
+          "text": "The Cyrillic script was made mandatory by government decree in 1941, after an attempt at a Latin script that same year lasted only two months. An attempt to bring back the traditional Mongolian script in 1991–1994 failed, but the government later announced plans to use both Cyrillic and the traditional script in official documents by 2025. In Inner Mongolia the traditional script remains in use.",
+          "sources": ["wp-mongolian"]
+        }
+      ]
+    }
+  ]
+}

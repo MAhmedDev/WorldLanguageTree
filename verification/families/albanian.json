@@ -1,0 +1,112 @@
+{
+ "file": "data/families/albanian.json",
+ "claims": {
+  "albanian#identity": {
+   "hash": "356f4a1dedbe3e1f",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/alba1267",
+    "https://en.wikipedia.org/wiki/Albanian_language"
+   ]
+  },
+  "albanian#period": {
+   "hash": "490c4413915ad466",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Albanian_language",
+    "https://en.wikipedia.org/wiki/Formula_e_pag%C3%ABzimit"
+   ]
+  },
+  "albanian#homeland": {
+   "hash": "19836bde92f55be6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Albanian_language"
+   ]
+  },
+  "albanian#attestation:baptismal-formula": {
+   "hash": "15507aef0b2f363e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Albanian_language",
+    "https://en.wikipedia.org/wiki/Formula_e_pag%C3%ABzimit"
+   ]
+  },
+  "albanian#attestation:meshari": {
+   "hash": "a6ff47615fd23d04",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gjon_Buzuku",
+    "https://en.wikipedia.org/wiki/Meshari"
+   ],
+   "note": "Softened 'first book' to 'oldest published book' (source: Wikipedia Gjon Buzuku says translation ran Mar 1554 to Jan 1555, oldest published book, origin 'thought to be')"
+  },
+  "albanian#attestation:matrenga-doctrine": {
+   "hash": "fbcbbe9780aadf17",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lek%C3%AB_Matr%C3%ABnga",
+    "https://en.wikipedia.org/wiki/Albanian_language"
+   ],
+   "note": "Removed unsupported 'first printed work in Tosk'; source says second major book published in Albanian, home-town speech with modified phonetics"
+  },
+  "albanian#attestation:congress-of-manastir": {
+   "hash": "76f355ea56db9b53",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Congress_of_Manastir",
+    "https://en.wikipedia.org/wiki/Albanian_language"
+   ],
+   "note": "Congress adopted a compromise between Istanbul and Bashkimi alphabets; wording corrected"
+  },
+  "albanian#scripts": {
+   "hash": "499c7c99a30536a3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Albanian_language"
+   ]
+  },
+  "albanian#speakers": {
+   "hash": "e8af894fa781a5a1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Albanian_language"
+   ]
+  },
+  "albanian#story:0": {
+   "hash": "579218a572849054",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Albanian_language"
+   ]
+  },
+  "albanian#story:1": {
+   "hash": "ce3c2f90d704fab6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Albanian_language",
+    "https://en.wikipedia.org/wiki/Lek%C3%AB_Matr%C3%ABnga"
+   ],
+   "note": "'first books' changed to oldest published book followed by Matranga's"
+  },
+  "albanian#story:2": {
+   "hash": "6765c70b78d7e726",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Albanian_language",
+    "https://en.wikipedia.org/wiki/Congress_of_Manastir"
+   ]
+  },
+  "albanian#work:bageti-e-bujqesija": {
+   "hash": "5694815b7ee40faf",
+   "verdict": "corrected",
+   "evidence": [
+    "https://wikisource.org/wiki/Bag%C3%ABti_e_Bujq%C3%ABsija",
+    "https://en.wikipedia.org/wiki/Naim_Frash%C3%ABri"
+   ],
+   "note": "Removed unsupported 'long' from significance; original lines 1-6 checked against Page:...djvu/3 on Wikisource; Frashëri d.1900 so PD"
+  }
+ },
+ "verifiedAt": "2026-11-23T20:37:48.417Z",
+ "verifier": "verifier-east-ie"
+}

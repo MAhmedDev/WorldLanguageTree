@@ -1,0 +1,566 @@
+{
+  "family": { "id": "uralic", "name": "Uralic", "root": "proto-uralic" },
+  "sources": [
+    { "id": "wp-proto-uralic", "title": "Proto-Uralic language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proto-Uralic_language" },
+    { "id": "wp-uralic", "title": "Uralic languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Uralic_languages" },
+    { "id": "glotto-ural1272", "title": "Glottolog: Uralic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/ural1272" },
+    { "id": "glotto-finn1317", "title": "Glottolog: Finnic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/finn1317" },
+    { "id": "glotto-finn1318", "title": "Glottolog: Finnish", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/finn1318" },
+    { "id": "glotto-esto1258", "title": "Glottolog: Estonian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/esto1258" },
+    { "id": "glotto-oldh1242", "title": "Glottolog: Old Hungarian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/oldh1242" },
+    { "id": "glotto-hung1274", "title": "Glottolog: Hungarian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/hung1274" },
+    { "id": "glotto-nort2671", "title": "Glottolog: North Saami", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/nort2671" },
+    { "id": "glotto-mari1278", "title": "Glottolog: Mari", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/mari1278" },
+    { "id": "glotto-udmu1245", "title": "Glottolog: Udmurt", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/udmu1245" },
+    { "id": "wp-proto-finnic", "title": "Proto-Finnic language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proto-Finnic_language" },
+    { "id": "wp-finnish", "title": "Finnish language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Finnish_language" },
+    { "id": "wp-agricola", "title": "Mikael Agricola", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mikael_Agricola" },
+    { "id": "wp-abckiria", "title": "Abckiria", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Abckiria" },
+    { "id": "wp-kalevala", "title": "Kalevala", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kalevala" },
+    { "id": "ws-kalevala-fi", "title": "Kalevala – Ensimmäinen runo", "author": "Elias Lönnrot (compiler)", "year": 1849, "publisher": "Finnish Wikisource", "url": "https://fi.wikisource.org/wiki/Kalevala_-_Ensimm%C3%A4inen_runo" },
+    { "id": "pg-kirby-kalevala", "title": "Kalevala, Volume I (of 2), translated by W. F. Kirby (Project Gutenberg eBook 25953)", "author": "W. F. Kirby (translator)", "year": 1907, "publisher": "Project Gutenberg (pglaf mirror)", "url": "https://aleph.pglaf.org/2/5/9/5/25953/25953.txt" },
+    { "id": "wp-kirby", "title": "William Forsell Kirby", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/William_Forsell_Kirby" },
+    { "id": "wp-estonian", "title": "Estonian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Estonian_language" },
+    { "id": "etwp-kullamaa", "title": "Kullamaa käsikiri", "publisher": "Estonian Wikipedia", "url": "https://et.wikipedia.org/wiki/Kullamaa_k%C3%A4sikiri" },
+    { "id": "wp-kalevipoeg", "title": "Kalevipoeg", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kalevipoeg" },
+    { "id": "sonaveeb-lausa", "title": "lausa (Sõnaveeb dictionary entry)", "publisher": "Institute of the Estonian Language", "url": "https://sonaveeb.ee/search/unif/dlall/dsall/lausa" },
+    { "id": "ws-kalevipoeg", "title": "Kalevipoeg – Esimene lugu", "author": "Friedrich Reinhold Kreutzwald", "publisher": "Estonian Wikisource", "url": "https://et.wikisource.org/wiki/Kalevipoeg/I" },
+    { "id": "wp-hungarian", "title": "Hungarian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hungarian_language" },
+    { "id": "wp-old-hungarian", "title": "Old Hungarian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Hungarian_language" },
+    { "id": "wp-funeral-sermon", "title": "Funeral Sermon and Prayer", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Funeral_Sermon_and_Prayer" },
+    { "id": "ws-halotti", "title": "Halotti beszéd és könyörgés", "publisher": "Hungarian Wikisource", "url": "https://hu.wikisource.org/wiki/Halotti_besz%C3%A9d_%C3%A9s_k%C3%B6ny%C3%B6rg%C3%A9s" },
+    { "id": "huwp-halotti", "title": "Halotti beszéd és könyörgés", "publisher": "Hungarian Wikipedia", "url": "https://hu.wikipedia.org/wiki/Halotti_besz%C3%A9d_%C3%A9s_k%C3%B6ny%C3%B6rg%C3%A9s" },
+    { "id": "wp-nemzeti-dal", "title": "Nemzeti dal", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Nemzeti_dal" },
+    { "id": "ws-nemzeti-dal", "title": "Nemzeti dal", "author": "Petőfi Sándor", "publisher": "Hungarian Wikisource", "url": "https://hu.wikisource.org/wiki/Nemzeti_dal" },
+    { "id": "wp-petofi", "title": "Sándor Petőfi", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/S%C3%A1ndor_Pet%C5%91fi" },
+    { "id": "wp-northern-sami", "title": "Northern Sámi", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Northern_Sami" },
+    { "id": "wp-mari", "title": "Mari language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mari_language" },
+    { "id": "rudn-mari-grammar", "title": "“Works Belonging to the Grammar of the Cheremis Language” (1775): Linguocultural Aspect", "publisher": "Polylinguality and Transcultural Practices (RUDN University)", "url": "https://journals.rudn.ru/polylinguality/article/view/43990/en_US" },
+    { "id": "wp-udmurt", "title": "Udmurt language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Udmurt_language" },
+    { "id": "wp-udmurt-alphabet", "title": "Udmurt alphabet", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Udmurt_alphabet" },
+    { "id": "cinii-votyak-grammar", "title": "The first Votyak grammar: text in Russian (facsimile of the St. Petersburg 1775 original)", "publisher": "CiNii Books", "url": "https://ci.nii.ac.jp/ncid/BA05497996?l=en" },
+    { "id": "wp-lamentations-of-mary", "title": "Lamentations of Mary", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lamentations_of_Mary" },
+    { "id": "index-marcius-15", "title": "Tények és tévhitek 1848. március 15-ről", "author": "Somkuti Bálint", "publisher": "Index.hu", "year": 2021, "url": "https://index.hu/techtud/2021/03/15/tenyek-tevhitek-1848-marcius-15/" },
+    { "id": "gac-nemzeti-dal", "title": "National Song (manuscript)", "publisher": "Petőfi Literary Museum, via Google Arts & Culture", "url": "https://artsandculture.google.com/asset/national-song/7QHDPR-_0oFHwA" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-uralic",
+      "name": "Proto-Uralic",
+      "glottocode": "ural1272",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-proto-uralic", "glotto-ural1272"],
+      "period": {
+        "from": -2500,
+        "to": -2000,
+        "approx": true,
+        "note": "Wikipedia gives 2500–2000 BCE as the recent consensus, citing Häkkinen (2023).",
+        "sources": ["wp-proto-uralic"]
+      },
+      "homeland": {
+        "lat": 58.5,
+        "lng": 59.5,
+        "label": "Vicinity of the Ural Mountains",
+        "sources": ["wp-proto-uralic"]
+      },
+      "story": [
+        {
+          "text": "Proto-Uralic is the unattested, reconstructed ancestor of the Uralic family, the family of Finnish, Estonian, Hungarian, the Sámi languages, Mari and Udmurt. No text survives; linguists rebuild it by comparing its descendants. Recent consensus dates it to about 2500–2000 BCE, and the vicinity of the Ural Mountains is generally viewed as the most likely place where it was spoken, in a small area.",
+          "sources": ["wp-proto-uralic"]
+        },
+        {
+          "text": "The family's name comes from that purported original homeland: the term Uralic was first proposed by Julius Klaproth in his Asia Polyglotta of 1823. The first plausible mention of a people speaking a Uralic language is in Tacitus's Germania, written around AD 98. Today the Uralic languages have an estimated 21.3 million native speakers.",
+          "sources": ["wp-uralic"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The homeland is debated. Péter Hajdú suggested western and northwestern Siberia; Juha Janhunen places it between the Ob and Yenisei basins in Central Siberia; Grünthal et al. (2022) traced it to a region east of the Urals in Siberia; E. N. Setälä and M. Zsirai placed it between the Volga and Kama rivers; Gyula László placed it in the forest zone between the Oka River and central Poland; and E. Itkonen argued the ancestral area extended to the Baltic Sea.",
+          "sources": ["wp-uralic"]
+        },
+        {
+          "text": "The internal tree is also debated. The traditional binary model splits Proto-Uralic into Proto-Samoyedic and Proto-Finno-Ugric, but this tree has been challenged, and a 'comb' model treats the second-order branches as equals. Glottolog classifies Finnic, Saamic, Mari, Permian (with Udmurt) and Hungaric directly under Uralic, without a Finno-Ugric node, and this atlas follows that flat arrangement.",
+          "sources": ["wp-proto-uralic", "glotto-finn1318", "glotto-hung1274", "glotto-nort2671", "glotto-udmu1245"]
+        }
+      ]
+    },
+    {
+      "id": "proto-finnic",
+      "name": "Proto-Finnic",
+      "glottocode": "finn1317",
+      "parent": "proto-uralic",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-proto-finnic", "glotto-finn1317"],
+      "period": {
+        "from": -1800,
+        "to": 1000,
+        "approx": true,
+        "note": "Dates follow Kallio (2012–2014): Early Proto-Finnic c. 1800–500 BC, Middle c. 500 BC–AD 200, split by the end of the first millennium AD. Other scholars give different ranges (see notes).",
+        "sources": ["wp-proto-finnic"]
+      },
+      "homeland": {
+        "lat": 59.4,
+        "lng": 27.6,
+        "label": "Around the Gulf of Finland",
+        "sources": ["wp-proto-finnic"]
+      },
+      "story": [
+        {
+          "text": "Proto-Finnic, also called Proto-Baltic-Finnic, is the common ancestor of the Finnic languages, which include the national languages Finnish and Estonian. It is not attested in any text but has been reconstructed by linguists, and it descends ultimately from Proto-Uralic. It is thought to have been spoken around the Gulf of Finland.",
+          "sources": ["wp-proto-finnic"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Views on when and where Proto-Finnic was spoken have varied. Décsy (1965) dated its early stage to c. 400 BC–AD 1; Korhonen (1981) to c. 1500–1000 BC; Kallio (2012–2014) to c. 1800–500 BC; Lang (2018) to c. 1200–800/500 BC, with a late stage to c. AD 800. Traditionally it was held to have arrived first on the eastern coast of the Gulf of Finland, but it has also been suggested that Middle Proto-Finnic was spoken in modern-day Estonia and northeastern Latvia.",
+          "sources": ["wp-proto-finnic"]
+        }
+      ]
+    },
+    {
+      "id": "finnish",
+      "name": "Finnish",
+      "nativeName": "suomi",
+      "nativeScript": "Latn",
+      "glottocode": "finn1318",
+      "iso639_3": "fin",
+      "parent": "proto-finnic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-finnish", "glotto-finn1318"],
+      "period": {
+        "from": 1000,
+        "to": null,
+        "approx": true,
+        "note": "Approximate: Proto-Finnic split by the end of the first millennium AD (Kallio). The earliest known written Finnish sentence dates from c. 1450.",
+        "sources": ["wp-proto-finnic", "wp-finnish"]
+      },
+      "homeland": {
+        "lat": 62.0,
+        "lng": 25.0,
+        "label": "Finland",
+        "sources": ["wp-finnish"]
+      },
+      "attestations": [
+        {
+          "id": "abckiria",
+          "year": 1543,
+          "approx": false,
+          "lat": 60.4517,
+          "lng": 22.2786,
+          "place": "Turku (where Agricola worked)",
+          "description": "Mikael Agricola, who returned to Turku in 1539 as rector of the Turku Cathedral School, published the Abckiria, a reading primer and the first book published in Finnish, first printed in 1543.",
+          "sources": ["wp-agricola", "wp-abckiria"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-finnish"]
+      },
+      "speakers": { "count": 5000000, "year": 2020, "scope": "L1", "sources": ["wp-finnish"] },
+      "story": [
+        {
+          "text": "Finnish, suomi in its own name, is spoken by about five million people and is one of the two official languages of Finland, alongside Swedish. Birch bark letter no. 292, from the early 13th century, is the first known document in any Finnic language, and the earliest known written Finnish sentence appears in a German travel journal dating back to c. 1450.",
+          "sources": ["wp-finnish"]
+        },
+        {
+          "text": "The first comprehensive writing system for Finnish was created in the 16th century by Mikael Agricola, often called the father of literary Finnish. Sent by the bishop of Turku to study in Wittenberg in 1536, he began translating the New Testament in 1538. His primer Abckiria, first printed in 1543, was the first book published in Finnish, and his New Testament manuscript was completed in 1548.",
+          "sources": ["wp-finnish", "wp-agricola", "wp-abckiria"]
+        },
+        {
+          "text": "In the 19th century Elias Lönnrot collected folk poetry in Karelia and Eastern Finland and compiled it into the Kalevala, which became Finland's national epic. Finnish gained official standing through the Language Rescript of 1863, an imperial decree, and the Kalevala contributed to the language strife that eventually led to Finland's independence from Russia in 1917.",
+          "sources": ["wp-finnish", "wp-kalevala"]
+        }
+      ],
+      "works": [
+        {
+          "id": "kalevala",
+          "title": "Kalevala",
+          "titleOriginal": "Kalevala",
+          "author": "Elias Lönnrot (compiler, from Finnish, Karelian and Ingrian oral poetry)",
+          "date": "1835 (Old Kalevala); 1849 (standard edition)",
+          "year": 1849,
+          "significance": "Compiled by Elias Lönnrot from Finnish, Karelian and Ingrian folklore, the 1849 Kalevala of fifty poems is Finland's national epic and was instrumental in the development of Finnish national identity.",
+          "original": "Mieleni minun tekevi, aivoni ajattelevi\nlähteäni laulamahan, saa'ani sanelemahan,\nsukuvirttä suoltamahan, lajivirttä laulamahan.\nSanat suussani sulavat, puhe'et putoelevat,\nkielelleni kerkiävät, hampahilleni hajoovat.",
+          "originalScript": "Latn",
+          "translation": "I am driven by my longing,\nAnd my understanding urges\nThat I should commence my singing;\nAnd begin my recitation.\nI will sing the people's legends,\nAnd the ballads of the nation.\nTo my mouth the words are flowing,\nAnd the words are gently falling,\nQuickly as my tongue can shape them,\nAnd between my teeth emerging.",
+          "translator": "W. F. Kirby",
+          "translationYear": 1907,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://fi.wikisource.org/wiki/Kalevala",
+          "sources": ["ws-kalevala-fi", "pg-kirby-kalevala", "wp-kalevala", "wp-kirby"]
+        }
+      ]
+    },
+    {
+      "id": "estonian",
+      "name": "Estonian",
+      "nativeName": "eesti keel",
+      "nativeScript": "Latn",
+      "glottocode": "esto1258",
+      "iso639_3": "ekk",
+      "parent": "proto-finnic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-estonian", "glotto-esto1258"],
+      "period": {
+        "from": 1000,
+        "to": null,
+        "approx": true,
+        "note": "Approximate: Proto-Finnic split by the end of the first millennium AD (Kallio). The oldest written records of Estonian date from the 13th century.",
+        "sources": ["wp-proto-finnic", "wp-estonian"]
+      },
+      "homeland": {
+        "lat": 58.6,
+        "lng": 25.5,
+        "label": "Estonia",
+        "sources": ["wp-estonian"]
+      },
+      "attestations": [
+        {
+          "id": "kullamaa-manuscript",
+          "year": 1524,
+          "approx": true,
+          "lat": 58.883,
+          "lng": 24.083,
+          "place": "Kullamaa, western Estonia",
+          "description": "The Kullamaa manuscript, written by Johannes Lelow and probably his successor at Kullamaa's St John's parish, holds the earliest extant connected (north) Estonian text: the Lord's Prayer, the Hail Mary and the Creed, written c. 1524–1532.",
+          "sources": ["wp-estonian", "etwp-kullamaa"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-estonian"]
+      },
+      "speakers": { "count": 1200000, "year": 2022, "scope": "L1", "sources": ["wp-estonian"] },
+      "story": [
+        {
+          "text": "Estonian, eesti keel, is a Finnic language of the Uralic family, typically classed as Southern Finnic. Its oldest written records date from the 13th century: the Livonian Chronicle of Henry contains Estonian place names, words and fragments of sentences. The earliest extant connected Estonian texts, prayers in the Kullamaa manuscript, were written between about 1524 and 1532, and the first extant Estonian book is a bilingual German–Estonian Lutheran catechism by S. Wanradt and J. Koell from 1535.",
+          "sources": ["wp-estonian", "etwp-kullamaa"]
+        },
+        {
+          "text": "Modern standard Estonian evolved in the 18th and 19th centuries from the dialects of northern Estonia. In the 19th century Friedrich Reinhold Kreutzwald composed the Kalevipoeg, published in 1857–1861 and considered the Estonian national epic. When the Republic of Estonia was established in 1918, Estonian became the official language of the newly independent country.",
+          "sources": ["wp-estonian", "wp-kalevipoeg"]
+        }
+      ],
+      "works": [
+        {
+          "id": "kalevipoeg",
+          "title": "Kalevipoeg",
+          "titleOriginal": "Kalevipoeg",
+          "author": "Friedrich Reinhold Kreutzwald",
+          "date": "1857–1861",
+          "year": 1859,
+          "significance": "Kreutzwald's epic in twenty cantos, published with a German translation by the Learned Estonian Society in 1857–1861, is considered the Estonian national epic.",
+          "original": "Sõua, laulik, lausa suuga,\nSõua laululaevakesta,\nPajataja paadikesta —\nSõua neid senna kaldale,",
+          "originalScript": "Latn",
+          "translation": "Row, singer, with plain-spoken mouth,\nRow the little song-ship,\nThe storyteller's little boat —\nRow them to that shore,",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://et.wikisource.org/wiki/Kalevipoeg",
+          "sources": ["ws-kalevipoeg", "wp-kalevipoeg", "sonaveeb-lausa"]
+        }
+      ]
+    },
+    {
+      "id": "old-hungarian",
+      "name": "Old Hungarian",
+      "glottocode": "oldh1242",
+      "iso639_3": "ohu",
+      "parent": "proto-uralic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-old-hungarian", "glotto-oldh1242"],
+      "period": {
+        "from": 896,
+        "to": 1526,
+        "approx": false,
+        "note": "Conventional dates: by convention the Old Hungarian period runs from the invasion of Pannonia in AD 896 to the Battle of Mohács in 1526.",
+        "sources": ["wp-old-hungarian"]
+      },
+      "homeland": {
+        "lat": 47.46,
+        "lng": 18.99,
+        "label": "Carpathian Basin (Pannonia)",
+        "sources": ["wp-old-hungarian", "glotto-oldh1242"]
+      },
+      "attestations": [
+        {
+          "id": "tihany-charter",
+          "year": 1055,
+          "approx": false,
+          "lat": 46.9137,
+          "lng": 17.8893,
+          "place": "Tihany Abbey, Lake Balaton",
+          "description": "The Latin founding charter of the abbey of Tihany (1055) contains some of the earliest surviving fragments of Hungarian: 3 Hungarian sentences, 58 words and 33 suffixes, among them 'feheruuaru rea meneh hodu utu rea'.",
+          "sources": ["wp-hungarian", "wp-old-hungarian"]
+        },
+        {
+          "id": "funeral-sermon",
+          "year": 1192,
+          "approx": true,
+          "lat": 48.218,
+          "lng": 20.789,
+          "place": "Boldva (probable place of writing of the Pray Codex)",
+          "description": "The Funeral Sermon and Prayer, written in 1192–1195 on a page of the Pray Codex, probably at the Benedictine monastery of Boldva, is the oldest known surviving contiguous Hungarian text.",
+          "sources": ["wp-funeral-sermon", "huwp-halotti"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Old Hungarian", "code": "Hung" },
+          { "name": "Latin", "code": "Latn" }
+        ],
+        "sources": ["wp-old-hungarian", "wp-hungarian"]
+      },
+      "story": [
+        {
+          "text": "Old Hungarian is the language of the Hungarians from their invasion of Pannonia in AD 896 until the Battle of Mohács in 1526. Its records begin fragmentarily in the 10th century with inscriptions in the Old Hungarian script; after the country became Christian, the Latin script replaced these runes. Among its earliest surviving fragments are the Hungarian words and phrases inside the Latin founding charter of the abbey of Tihany from 1055.",
+          "sources": ["wp-old-hungarian", "wp-hungarian"]
+        },
+        {
+          "text": "The first extant text written fully in Hungarian is the Funeral Sermon and Prayer, copied in 1192–1195 by one scribe onto a page of the Pray Codex, now in the National Széchényi Library in Budapest. The sermon runs to 26 lines, followed by a 6-line prayer. The oldest existing Hungarian poem, the Old Hungarian Laments of Mary, was copied into a Latin codex around 1300.",
+          "sources": ["wp-funeral-sermon", "huwp-halotti", "wp-lamentations-of-mary"]
+        }
+      ],
+      "works": [
+        {
+          "id": "halotti-beszed",
+          "title": "Funeral Sermon and Prayer",
+          "titleOriginal": "Halotti beszéd és könyörgés",
+          "author": "Anonymous",
+          "date": "1192–1195",
+          "year": 1193,
+          "significance": "Written by one scribe on a page of the Pray Codex in 1192–1195, it is the oldest known surviving contiguous Hungarian text.",
+          "original": "Latiatuc feleym zumtuchel mic vogmuc. yſa pur eſ chomuv uogmuc. Menyi miloſtben terumteve eleve miv iſemucut adamut. eſ odutta vola neki paradiſumut hazoa.",
+          "originalScript": "Latn",
+          "translation": "You see, my brethren, with your eyes, what we are: behold, dust and ashes we are. In how much grace did [God] create our forefather Adam in the beginning, and he gave him paradise for a home.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://hu.wikisource.org/wiki/Halotti_besz%C3%A9d_%C3%A9s_k%C3%B6ny%C3%B6rg%C3%A9s",
+          "sources": ["ws-halotti", "huwp-halotti", "wp-funeral-sermon"]
+        }
+      ]
+    },
+    {
+      "id": "hungarian",
+      "name": "Hungarian",
+      "nativeName": "magyar nyelv",
+      "nativeScript": "Latn",
+      "glottocode": "hung1274",
+      "iso639_3": "hun",
+      "parent": "old-hungarian",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-hungarian", "glotto-hung1274"],
+      "period": {
+        "from": 1526,
+        "to": null,
+        "approx": true,
+        "note": "Modelled from the end of the Old Hungarian period at the Battle of Mohács (1526).",
+        "sources": ["wp-old-hungarian"]
+      },
+      "homeland": {
+        "lat": 46.9,
+        "lng": 19.66,
+        "label": "Carpathian Basin (Hungary)",
+        "sources": ["wp-hungarian", "glotto-hung1274"]
+      },
+      "attestations": [
+        {
+          "id": "nemzeti-dal-recital",
+          "year": 1848,
+          "approx": false,
+          "lat": 47.4911,
+          "lng": 19.0626,
+          "place": "Hungarian National Museum, Pest (rally of 15 March 1848)",
+          "description": "On 15 March 1848 Sándor Petőfi recited his Nemzeti dal (National Song), written two days earlier, several times in Pest, including at the university and in front of the Landerer and Heckenast press, where it was printed that day. In the afternoon a large crowd gathered in front of the Hungarian National Museum, where Petőfi gave a speech; the popular story that he recited the poem on the museum steps is a later legend.",
+          "sources": ["index-marcius-15", "gac-nemzeti-dal", "wp-petofi"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-hungarian"]
+      },
+      "speakers": { "count": 12000000, "year": 2023, "scope": "L1", "sources": ["wp-hungarian"] },
+      "story": [
+        {
+          "text": "Hungarian, magyar nyelv, is assigned to the Ugric branch of Uralic along with Mansi and Khanty of western Siberia, though the validity of that grouping is still debated. On the traditional view, it diverged from its Ugric relatives in the first half of the 1st millennium BC, east of the southern Urals in western Siberia. After the Hungarians arrived in the Carpathian Basin, the language came into contact with the speech communities there.",
+          "sources": ["wp-hungarian"]
+        },
+        {
+          "text": "In the 19th century a movement of writers led by Ferenc Kazinczy set out to expand the language; it produced more than ten thousand words, most still in active use. Sándor Petőfi, considered Hungary's national poet, wrote the Nemzeti dal, said to have inspired the revolution of 1848. Today Hungarian is the official language of Hungary and one of the 24 official languages of the European Union.",
+          "sources": ["wp-hungarian", "wp-petofi"]
+        }
+      ],
+      "works": [
+        {
+          "id": "nemzeti-dal",
+          "title": "National Song",
+          "titleOriginal": "Nemzeti dal",
+          "author": "Sándor Petőfi",
+          "date": "1848",
+          "year": 1848,
+          "significance": "Written on 13 March 1848, it was recited by Petőfi several times in Pest on 15 March 1848 and printed that day; it is said to have inspired the Hungarian Revolution of 1848.",
+          "original": "Talpra magyar, hí a haza!\nItt az idő, most vagy soha!\nRabok legyünk, vagy szabadok?\nEz a kérdés, válasszatok! -\nA magyarok istenére\nEsküszünk,\nEsküszünk, hogy rabok tovább\nNem leszünk!",
+          "originalScript": "Latn",
+          "translation": "On your feet, Hungarian, the homeland calls!\nThe time is here, now or never!\nShall we be slaves, or free?\nThis is the question, choose! –\nBy the God of the Hungarians\nWe swear,\nWe swear that slaves any longer\nWe shall not be!",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://hu.wikisource.org/wiki/Nemzeti_dal",
+          "sources": ["ws-nemzeti-dal", "wp-nemzeti-dal", "wp-petofi", "index-marcius-15", "gac-nemzeti-dal"]
+        }
+      ]
+    },
+    {
+      "id": "north-saami",
+      "name": "Northern Sámi",
+      "nativeName": "davvisámegiella",
+      "nativeScript": "Latn",
+      "glottocode": "nort2671",
+      "iso639_3": "sme",
+      "parent": "proto-uralic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-northern-sami", "glotto-nort2671"],
+      "period": {
+        "from": 1638,
+        "to": null,
+        "approx": true,
+        "note": "First attestation, not emergence: the Swenske och Lappeske ABC Book (1638, 1640) is written in Swedish and what is likely a form of Northern Sámi. Glottolog places it in Saamic > Western Saamic > Central Western Saamic.",
+        "sources": ["wp-northern-sami", "glotto-nort2671"]
+      },
+      "homeland": {
+        "lat": 69.0,
+        "lng": 23.0,
+        "label": "Northern Norway, Sweden and Finland",
+        "sources": ["wp-northern-sami"]
+      },
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-northern-sami"]
+      },
+      "speakers": { "count": 25000, "year": 2013, "scope": "L1", "sources": ["wp-northern-sami"] },
+      "story": [
+        {
+          "text": "Northern Sámi, davvisámegiella, is the most widely spoken of all the Sámi languages, used across the northern parts of Norway, Sweden and Finland. Estimates of its speakers range from 15,000 to 25,000. Among the first printed Sámi texts is the Swenske och Lappeske ABC Book, in Swedish and what is likely a form of Northern Sámi, published in 1638 and 1640 with 30 pages of prayers and confessions of Protestant faith.",
+          "sources": ["wp-northern-sami"]
+        },
+        {
+          "text": "Northern Sámi was first described by Knud Leem in 1748, with dictionaries following in 1752 and 1768. In 1832 Rasmus Rask published his influential Ræsonneret lappisk Sproglære, and Northern Sámi orthography is said, according to E. N. Setälä, to be based on his notation. In the 1980s a Northern Sámi Braille alphabet was developed.",
+          "sources": ["wp-northern-sami"]
+        }
+      ]
+    },
+    {
+      "id": "mari",
+      "name": "Mari",
+      "nativeName": "марий йылме",
+      "nativeScript": "Cyrl",
+      "glottocode": "mari1278",
+      "parent": "proto-uralic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-mari", "glotto-mari1278"],
+      "period": {
+        "from": 1775,
+        "to": null,
+        "approx": true,
+        "note": "First substantial record, not emergence: the first grammar of Mari was published in 1775. Glottolog treats Mari as a branch of Uralic containing Eastern (Meadow) and Western (Hill) Mari.",
+        "sources": ["rudn-mari-grammar", "glotto-mari1278"]
+      },
+      "homeland": {
+        "lat": 56.63,
+        "lng": 47.9,
+        "label": "Mari El, middle Volga",
+        "sources": ["wp-mari"]
+      },
+      "attestations": [
+        {
+          "id": "cheremis-grammar-1775",
+          "year": 1775,
+          "approx": false,
+          "lat": 59.9415,
+          "lng": 30.3045,
+          "place": "St Petersburg",
+          "description": "The first Mari grammar, 'Works Belonging to the Grammar of the Cheremis Language', was published at the Imperial Academy of Sciences in St Petersburg in 1775; it marks the beginning of the history of the Mari written language.",
+          "sources": ["rudn-mari-grammar"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Cyrillic", "code": "Cyrl" }],
+        "sources": ["wp-mari"]
+      },
+      "speakers": { "count": 320000, "year": 2020, "scope": "L1", "sources": ["wp-mari"] },
+      "story": [
+        {
+          "text": "Mari, марий йылме, is spoken primarily in the Mari Republic (Mari El) of the Russian Federation, and also along the Vyatka River basin and eastward to the Urals. Its main varieties are Meadow Mari, the predominant one, and Hill Mari. It is the titular language of its republic and official there alongside Russian, and it is mostly written in Cyrillic with some modified letters.",
+          "sources": ["wp-mari"]
+        },
+        {
+          "text": "The history of the Mari written language is traced to a grammar published at the Imperial Academy of Sciences in St Petersburg in 1775; Archbishop Veniamin (Putsek-Grigorovich), rector of the Kazan Spiritual Seminary, is credited with a key role in its creation. About 136 pages long, with a vocabulary of over 1,000 words, it served as a textbook in schools for Mari children and marks the beginning of Mari book publishing.",
+          "sources": ["rudn-mari-grammar"]
+        }
+      ]
+    },
+    {
+      "id": "udmurt",
+      "name": "Udmurt",
+      "nativeName": "удмурт кыл",
+      "nativeScript": "Cyrl",
+      "glottocode": "udmu1245",
+      "iso639_3": "udm",
+      "parent": "proto-uralic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-udmurt", "glotto-udmu1245"],
+      "period": {
+        "from": 1726,
+        "to": null,
+        "approx": true,
+        "note": "First attestation, not emergence: the first known record of Udmurt language material dates to 1726. Glottolog places Udmurt in the Permian branch of Uralic.",
+        "sources": ["wp-udmurt-alphabet", "glotto-udmu1245"]
+      },
+      "homeland": {
+        "lat": 57.0,
+        "lng": 53.0,
+        "label": "Udmurtia, Russia",
+        "sources": ["wp-udmurt", "glotto-udmu1245"]
+      },
+      "attestations": [
+        {
+          "id": "votyak-grammar-1775",
+          "year": 1775,
+          "approx": false,
+          "lat": 59.9415,
+          "lng": 30.3045,
+          "place": "St Petersburg",
+          "description": "The first Udmurt grammar, 'Works Belonging to the Grammar of the Votyak Language', was published in St Petersburg in 1775 in the Cyrillic alphabet.",
+          "sources": ["wp-udmurt-alphabet", "cinii-votyak-grammar"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Cyrillic", "code": "Cyrl" }],
+        "sources": ["wp-udmurt"]
+      },
+      "speakers": { "count": 270000, "year": 2020, "scope": "L1", "sources": ["wp-udmurt"] },
+      "story": [
+        {
+          "text": "Udmurt, удмурт кыл, belongs to the Permic branch of Uralic; its closest relative is Komi. It is co-official with Russian in Udmurtia and is written in the Cyrillic alphabet with five letters not used in Russian. The whole Bible was first translated into Udmurt in 2013.",
+          "sources": ["wp-udmurt"]
+        },
+        {
+          "text": "The first known record of Udmurt dates to 1726, when Daniel Messerschmidt wrote down a 400-word dictionary in the Latin alphabet; it remained unknown to science until it was published in 2001. Philip Strahlenberg's book of 1730 was the first printed work with Udmurt words. The first Udmurt grammar appeared in 1775 in Cyrillic, and the first Udmurt books, five titles at once, followed in 1847–1849.",
+          "sources": ["wp-udmurt-alphabet"]
+        }
+      ]
+    }
+  ]
+}

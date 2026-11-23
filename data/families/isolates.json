@@ -1,0 +1,682 @@
+{
+  "family": {
+    "id": "isolates",
+    "name": "Language isolates and small ancient families"
+  },
+  "sources": [
+    { "id": "glotto-sumerian", "title": "Glottolog 5.4: Sumerian (sume1241)", "url": "https://glottolog.org/resource/languoid/id/sume1241", "publisher": "Glottolog" },
+    { "id": "glotto-elamite", "title": "Glottolog 5.4: Elamite (elam1244)", "url": "https://glottolog.org/resource/languoid/id/elam1244", "publisher": "Glottolog" },
+    { "id": "glotto-hurro-urartian", "title": "Glottolog 5.4: Hurro-Urartian (hurr1239)", "url": "https://glottolog.org/resource/languoid/id/hurr1239", "publisher": "Glottolog" },
+    { "id": "glotto-hurrian", "title": "Glottolog 5.4: Hurrian (hurr1240)", "url": "https://glottolog.org/resource/languoid/id/hurr1240", "publisher": "Glottolog" },
+    { "id": "glotto-urartian", "title": "Glottolog 5.4: Urartian (urar1245)", "url": "https://glottolog.org/resource/languoid/id/urar1245", "publisher": "Glottolog" },
+    { "id": "glotto-etruscan", "title": "Glottolog 5.4: Etruscan (etru1241)", "url": "https://glottolog.org/resource/languoid/id/etru1241", "publisher": "Glottolog" },
+    { "id": "glotto-basque", "title": "Glottolog 5.4: Basque (basq1248)", "url": "https://glottolog.org/resource/languoid/id/basq1248", "publisher": "Glottolog" },
+    { "id": "glotto-burushaski", "title": "Glottolog 5.4: Burushaski (buru1296)", "url": "https://glottolog.org/resource/languoid/id/buru1296", "publisher": "Glottolog" },
+
+    { "id": "wp-sumerian", "title": "Sumerian language", "url": "https://en.wikipedia.org/wiki/Sumerian_language", "publisher": "Wikipedia" },
+    { "id": "wp-proto-cuneiform", "title": "Proto-cuneiform", "url": "https://en.wikipedia.org/wiki/Proto-cuneiform", "publisher": "Wikipedia" },
+    { "id": "wp-uruk", "title": "Uruk", "url": "https://en.wikipedia.org/wiki/Uruk", "publisher": "Wikipedia" },
+    { "id": "wp-shuruppak", "title": "Shuruppak", "url": "https://en.wikipedia.org/wiki/Shuruppak", "publisher": "Wikipedia" },
+    { "id": "wp-gudea-cylinders", "title": "Gudea cylinders", "url": "https://en.wikipedia.org/wiki/Gudea_cylinders", "publisher": "Wikipedia" },
+    { "id": "wp-enheduanna", "title": "Enheduanna", "url": "https://en.wikipedia.org/wiki/Enheduanna", "publisher": "Wikipedia" },
+    { "id": "etcsl-c4072", "title": "The exaltation of Inana (Inana B), ETCSL transliteration c.4.07.2 (Internet Archive copy)", "url": "https://web.archive.org/web/20240813055243/https://etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi?text=c.4.07.2&display=Crit&charenc=gcirc", "publisher": "The Electronic Text Corpus of Sumerian Literature, University of Oxford" },
+    { "id": "etcsl-t4072", "title": "The exaltation of Inana (Inana B), ETCSL translation t.4.07.2 (Internet Archive copy)", "url": "https://web.archive.org/web/20230603021035/https://etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi?text=t.4.07.2", "publisher": "The Electronic Text Corpus of Sumerian Literature, University of Oxford" },
+
+    { "id": "wp-elamite", "title": "Elamite language", "url": "https://en.wikipedia.org/wiki/Elamite_language", "publisher": "Wikipedia" },
+    { "id": "wp-linear-elamite", "title": "Linear Elamite", "url": "https://en.wikipedia.org/wiki/Linear_Elamite", "publisher": "Wikipedia" },
+    { "id": "wp-puzur-inshushinak", "title": "Puzur-Inshushinak", "url": "https://en.wikipedia.org/wiki/Kutik-Inshushinak", "publisher": "Wikipedia" },
+    { "id": "wp-persepolis-archives", "title": "Persepolis Administrative Archives", "url": "https://en.wikipedia.org/wiki/Persepolis_Administrative_Archives", "publisher": "Wikipedia" },
+    { "id": "wp-behistun", "title": "Behistun inscription", "url": "https://en.wikipedia.org/wiki/Behistun_Inscription", "publisher": "Wikipedia" },
+    { "id": "unesco-bisotun", "title": "Bisotun", "url": "https://whc.unesco.org/en/list/1222/", "publisher": "UNESCO World Heritage Centre" },
+    { "id": "unesco-tchogha-zanbil", "title": "Tchogha Zanbil", "url": "https://whc.unesco.org/en/list/113/", "publisher": "UNESCO World Heritage Centre" },
+
+    { "id": "wp-hurro-urartian", "title": "Hurro-Urartian languages", "url": "https://en.wikipedia.org/wiki/Hurro-Urartian_languages", "publisher": "Wikipedia" },
+    { "id": "wp-hurrian", "title": "Hurrian language", "url": "https://en.wikipedia.org/wiki/Hurrian_language", "publisher": "Wikipedia" },
+    { "id": "wp-hurrian-pegs", "title": "Hurrian foundation pegs", "url": "https://en.wikipedia.org/wiki/Hurrian_foundation_pegs", "publisher": "Wikipedia" },
+    { "id": "louvre-tish-atal", "title": "Clou de fondation en forme de lion au nom du roi Tish-atal", "url": "https://www.louvre.fr/agenda/expositions/the-met-au-louvre/oeuvres-en-lumiere/clou-de-fondation-en-forme-de-lion-au-nom-du-roi-tish-atal", "publisher": "Musée du Louvre" },
+    { "id": "wp-mitanni-letter", "title": "Mitanni Letter", "url": "https://en.wikipedia.org/wiki/Amarna_letter_EA_24", "publisher": "Wikipedia" },
+    { "id": "wp-hurrian-songs", "title": "Hurrian songs", "url": "https://en.wikipedia.org/wiki/Hurrian_songs", "publisher": "Wikipedia" },
+
+    { "id": "wp-urartian", "title": "Urartian language", "url": "https://en.wikipedia.org/wiki/Urartian_language", "publisher": "Wikipedia" },
+    { "id": "wp-urartu", "title": "Urartu", "url": "https://en.wikipedia.org/wiki/Urartu", "publisher": "Wikipedia" },
+    { "id": "wp-erebuni", "title": "Erebuni Fortress", "url": "https://en.wikipedia.org/wiki/Erebuni_Fortress", "publisher": "Wikipedia" },
+    { "id": "wp-kelishin", "title": "Kelashin Stele", "url": "https://en.wikipedia.org/wiki/Kelishin_stele", "publisher": "Wikipedia" },
+
+    { "id": "wp-etruscan", "title": "Etruscan language", "url": "https://en.wikipedia.org/wiki/Etruscan_language", "publisher": "Wikipedia" },
+    { "id": "wp-tyrsenian", "title": "Tyrsenian languages", "url": "https://en.wikipedia.org/wiki/Tyrsenian_languages", "publisher": "Wikipedia" },
+    { "id": "wp-lemnian", "title": "Lemnian language", "url": "https://en.wikipedia.org/wiki/Lemnos_stele", "publisher": "Wikipedia" },
+    { "id": "wp-pyrgi", "title": "Pyrgi Tablets", "url": "https://en.wikipedia.org/wiki/Pyrgi_Tablets", "publisher": "Wikipedia" },
+    { "id": "wp-liber-linteus", "title": "Liber Linteus", "url": "https://en.wikipedia.org/wiki/Liber_Linteus", "publisher": "Wikipedia" },
+    { "id": "wp-cippus-perusinus", "title": "Cippus Perusinus", "url": "https://en.wikipedia.org/wiki/Cippus_Perusinus", "publisher": "Wikipedia" },
+
+    { "id": "wp-basque", "title": "Basque language", "url": "https://en.wikipedia.org/wiki/Basque_language", "publisher": "Wikipedia" },
+    { "id": "basque-survey-2021", "title": "Seventh Sociolinguistic Survey 2021: Basque Country", "url": "https://euskadi.eus/contenidos/informacion/eas_ikerketak/en_def/adjuntos/Seventh_Sociolinguistic_Survey_2021.pdf", "year": 2021, "publisher": "Basque Government, Government of Navarre and Office Public de la Langue Basque" },
+    { "id": "wp-aquitanian", "title": "Aquitanian language", "url": "https://en.wikipedia.org/wiki/Aquitanian_language", "publisher": "Wikipedia" },
+    { "id": "wp-irulegi", "title": "Hand of Irulegi", "url": "https://en.wikipedia.org/wiki/Hand_of_Irulegi", "publisher": "Wikipedia" },
+    { "id": "wp-glosas", "title": "Glosas Emilianenses", "url": "https://en.wikipedia.org/wiki/Glosas_Emilianenses", "publisher": "Wikipedia" },
+    { "id": "wp-etxepare", "title": "Bernard Etxepare", "url": "https://en.wikipedia.org/wiki/Bernard_Etxepare", "publisher": "Wikipedia" },
+    { "id": "wp-lvp", "title": "Linguae Vasconum Primitiae", "url": "https://en.wikipedia.org/wiki/Linguae_Vasconum_Primitiae", "publisher": "Wikipedia" },
+    { "id": "lvp-euskaltzaindia", "title": "Linguae Vasconum Primitiae 1545–1995 (facsimile and multilingual edition)", "author": "Bernat Dechepare", "year": 1995, "url": "https://www.euskaltzaindia.eus/dok/iker_jagon_tegiak/13964.pdf", "publisher": "Euskaltzaindia" },
+    { "id": "wp-kartvelian", "title": "Kartvelian languages", "url": "https://en.wikipedia.org/wiki/Kartvelian_languages", "publisher": "Wikipedia" },
+
+    { "id": "wp-burushaski", "title": "Burushaski", "url": "https://en.wikipedia.org/wiki/Burushaski", "publisher": "Wikipedia" },
+    { "id": "soas-burushaski", "title": "Jammu and Kashmir: speakers of the Burushaski language", "url": "https://glocal.soas.ac.uk/burushaski/", "publisher": "SOAS University of London" },
+    { "id": "casule-2009", "title": "Burushaski Shepherd Vocabulary of Indo-European Origin", "author": "Ilija Čašule", "year": 2009, "publisher": "Acta Orientalia 70", "url": "https://wisdomlib.org/uploads/journals/acta-orie/vol-70-2009/5338-4678-15571.pdf" }
+  ],
+  "languoids": [
+    {
+      "id": "sumerian",
+      "name": "Sumerian",
+      "nativeName": "𒅴𒂠",
+      "nativeScript": "Xsux",
+      "glottocode": "sume1241",
+      "iso639_3": "sux",
+      "parent": null,
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glotto-sumerian", "wp-sumerian"],
+      "period": {
+        "from": -3200,
+        "to": 100,
+        "approx": true,
+        "note": "The start is the proto-literate period of Uruk (c. 3200–3000 BCE), whose tablets may or may not record Sumerian; grammatical elements make the language certain from the Archaic Sumerian period (c. 3000–2500 BCE). Akkadian replaced Sumerian in speech around 2000 BCE (the date is debated); the end date reflects its use as a written learned language until the 1st century CE. The native name shown is eme-gir15, the standard variety (Emegir).",
+        "sources": ["wp-sumerian"]
+      },
+      "homeland": {
+        "lat": 31.324,
+        "lng": 45.637,
+        "label": "Sumer, southern Mesopotamia (Uruk)",
+        "sources": ["wp-sumerian", "wp-uruk"]
+      },
+      "attestations": [
+        {
+          "id": "uruk-proto-cuneiform",
+          "year": -3200,
+          "approx": true,
+          "lat": 31.324,
+          "lng": 45.637,
+          "place": "Uruk (Eanna district), southern Iraq",
+          "description": "Thousands of proto-cuneiform tablets of the Uruk IV and Uruk III phases, mostly administrative records and sign lists. They are the precursors of Sumerian cuneiform, though whether they already write Sumerian is debated.",
+          "sources": ["wp-proto-cuneiform", "wp-uruk", "wp-sumerian"]
+        },
+        {
+          "id": "fara-abu-salabikh-texts",
+          "year": -2600,
+          "approx": true,
+          "lat": 31.777,
+          "lng": 45.51,
+          "place": "Shuruppak (Tell Fara), southern Iraq",
+          "description": "Texts from Shuruppak and Abu Salabikh (2600–2500 BCE) that span many genres: incantations, legal and literary texts, proverbs, and early versions of The Instructions of Shuruppak and the Kesh temple hymn.",
+          "sources": ["wp-sumerian", "wp-shuruppak"]
+        },
+        {
+          "id": "gudea-cylinders",
+          "year": -2125,
+          "approx": true,
+          "lat": 31.562,
+          "lng": 46.178,
+          "place": "Girsu (Tello), southern Iraq",
+          "description": "The Gudea cylinders, two terracotta cylinders telling of the construction of the temple of Ningirsu at Girsu, c. 2125 BCE; now in the Louvre.",
+          "sources": ["wp-gudea-cylinders", "wp-sumerian"]
+        },
+        {
+          "id": "nippur-old-babylonian-copies",
+          "year": -1750,
+          "approx": true,
+          "lat": 32.126,
+          "lng": 45.233,
+          "place": "Nippur, central Iraq",
+          "description": "Old Babylonian school copies of Sumerian literature, including the hymns attributed to Enheduanna, which survived in many manuscripts because they belonged to the Decad, an advanced scribal curriculum of the 18th and 17th centuries BCE.",
+          "sources": ["wp-enheduanna", "etcsl-c4072"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Cuneiform", "code": "Xsux" }],
+        "sources": ["wp-sumerian"]
+      },
+      "story": [
+        {
+          "text": "Sumerian was the language of ancient Sumer, in what is now southern Iraq, and it is among the oldest attested languages. Its story is bound up with the invention of writing. At Uruk, scribes of the late fourth millennium BCE pressed signs into clay tablets now called proto-cuneiform. Most record the movement of goods and name people or offices; others are sign lists used to train scribes. Whether these first tablets encode Sumerian at all is still debated, but by about 2800 BCE some tablets use syllabic elements that clearly point to the Sumerian language.",
+          "sources": ["wp-sumerian", "wp-proto-cuneiform"]
+        },
+        {
+          "text": "Between 2600 and 2500 BCE, texts from Shuruppak and Abu Salabikh widen into incantations, legal texts, proverbs and early versions of The Instructions of Shuruppak and the Kesh temple hymn. Rulers left long inscriptions: Gudea of the Second Dynasty of Lagash in the 22nd century BCE, then the Third Dynasty of Ur, which used Sumerian as its sole official written language and left meticulous administrative records, royal inscriptions, legal documents and letters.",
+          "sources": ["wp-sumerian"]
+        },
+        {
+          "text": "Akkadian, a Semitic language, gradually replaced Sumerian in everyday speech, around 2000 BCE by most estimates, although the date is debated and Sumerian may have been spoken around Nippur until about 1900 BCE or later. It lived on as a sacred, ceremonial, literary and scientific language in Babylonia and Assyria until the 1st century CE. The cuneiform script first used for Sumerian was adopted for Akkadian, Elamite, Eblaite, Hittite, Hurrian, Luwian, Urartian and other languages.",
+          "sources": ["wp-sumerian"]
+        },
+        {
+          "text": "Afterwards the language fell into obscurity until Assyriologists began to decipher cuneiform in the 19th century. By 1850 Edward Hincks suspected that cuneiform was of non-Semitic origin, and in 1855 Henry Rawlinson announced non-Semitic inscriptions at Nippur, Larsa and Uruk. On 17 January 1869 the scholar Oppert proposed the name Sumerian, and the language is now recognised as an isolate with no known relatives.",
+          "sources": ["wp-sumerian"]
+        }
+      ],
+      "works": [
+        {
+          "id": "exaltation-of-inanna",
+          "title": "The Exaltation of Inanna (Inana B)",
+          "titleOriginal": "nin me šar2-ra",
+          "author": "Enheduanna (attributed)",
+          "date": "c. 2300 BCE (attributed); known from Old Babylonian copies",
+          "year": -2300,
+          "significance": "The hymn is one of three works that explicitly name Enheduanna, daughter of Sargon of Akkad and high priestess of the moon god Nanna at Ur, as their author, a rarity in a largely anonymous literature; whether she composed them herself is debated. It survived in many copies as part of the Decad, an advanced Old Babylonian scribal curriculum. The excerpt is the ETCSL transliteration of the cuneiform.",
+          "original": "nin me šar2-ra ud dalla e3-a\nmunus zid me-lem4 gur3-ru ki aĝ2 an uraš-a\nnu-gig an-na suḫ-gir11 gal-gal-la\naga zid-de3 ki aĝ2 nam-en-na tum2-ma\nme 7-bi šu sa2 dug4-ga",
+          "originalScript": "Latn",
+          "translation": "Lady of all the divine powers, light coming forth,\nrighteous woman clothed in awe-inspiring radiance, beloved of An and Uraš,\nhigh-status woman of heaven, with the great diadems,\nwho loves the rightful crown befitting the office of en priestess,\nwho has grasped its seven divine powers.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://web.archive.org/web/20230603021035/https://etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi?text=t.4.07.2",
+          "sources": ["etcsl-c4072", "etcsl-t4072", "wp-enheduanna"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Sumerian is generally treated as a language isolate; an older view that it was Indo-European has been almost universally rejected. Some scholars posit a 'Proto-Euphratean' substratum language, or several, behind un-Sumerian-looking loanwords, and Gordon Whittaker has argued that the Late Uruk proto-literary texts record an early Indo-European language he calls 'Euphratic', a view rejected by mainstream opinion.",
+          "sources": ["wp-sumerian", "glotto-sumerian"]
+        }
+      ]
+    },
+    {
+      "id": "elamite",
+      "name": "Elamite",
+      "glottocode": "elam1244",
+      "iso639_3": "elx",
+      "parent": null,
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glotto-elamite", "wp-elamite"],
+      "period": {
+        "from": -2600,
+        "to": 330,
+        "approx": true,
+        "note": "These are the limits of the written record (c. 2600 BCE to 330 CE). Old Elamite documents are scarce. A language called Khuzi, reported in Khuzistan by Arabic authors until about 988 CE, may have been a late form of Elamite.",
+        "sources": ["wp-elamite"]
+      },
+      "homeland": {
+        "lat": 32.191,
+        "lng": 48.258,
+        "label": "Elam, southwestern Iran (Susa)",
+        "sources": ["wp-elamite"]
+      },
+      "attestations": [
+        {
+          "id": "puzur-inshushinak-linear-elamite",
+          "year": -2120,
+          "approx": true,
+          "lat": 32.191,
+          "lng": 48.258,
+          "place": "Susa, Khuzestan, Iran",
+          "description": "Monumental inscriptions in Linear Elamite of Puzur-Inshushinak, king of Elam and the first historical figure in Elamite history, who reigned c. 2125 to c. 2110 BCE.",
+          "sources": ["wp-linear-elamite", "wp-puzur-inshushinak"]
+        },
+        {
+          "id": "tchogha-zanbil-bricks",
+          "year": -1260,
+          "approx": true,
+          "lat": 32.008,
+          "lng": 48.521,
+          "place": "Tchogha Zanbil (Dur-Untash), Khuzestan, Iran",
+          "description": "Baked bricks of the ziggurat founded by King Untash-Napirisha (1275–1240 BCE) bear cuneiform inscriptions naming deities in Elamite and Akkadian.",
+          "sources": ["unesco-tchogha-zanbil"]
+        },
+        {
+          "id": "bisotun-inscription",
+          "year": -521,
+          "approx": true,
+          "lat": 34.391,
+          "lng": 47.436,
+          "place": "Bisotun, Kermanshah Province, Iran",
+          "description": "Darius I's trilingual rock inscription in Old Persian, Elamite and Babylonian, composed after his accession in 522 BCE and recounting the events of his first year of rule, to December 521 BCE.",
+          "sources": ["unesco-bisotun", "wp-behistun"]
+        },
+        {
+          "id": "persepolis-fortification-archive",
+          "year": -500,
+          "approx": true,
+          "lat": 29.935,
+          "lng": 52.89,
+          "place": "Persepolis, Fars, Iran",
+          "description": "The Persepolis administrative archives: remains of more than 15,000 Elamite cuneiform records, with some 1,000 in Aramaic, from a single administrative system running from 509 to 457 BCE.",
+          "sources": ["wp-elamite", "wp-persepolis-archives"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Cuneiform (Elamite cuneiform)", "code": "Xsux" }],
+        "sources": ["wp-elamite"]
+      },
+      "story": [
+        {
+          "text": "Elamite was the language of the Elamites of what is now southwestern Iran, recorded from about 2600 BCE. Its first named historical figure, Puzur-Inshushinak, who reigned at Susa c. 2125 to c. 2110 BCE, left monumental inscriptions in Linear Elamite, a script used between about 2300 and 1850 BCE. Linear Elamite long resisted decipherment; a team led by François Desset published a proposed near-complete decipherment in 2022, welcomed by some researchers and treated with caution by others.",
+          "sources": ["wp-elamite", "wp-linear-elamite", "wp-puzur-inshushinak"]
+        },
+        {
+          "text": "From about 2500 BCE the Elamites also wrote in a cuneiform adapted from Akkadian, mostly a syllabary of some 130 signs at any one time. Middle Elamite (c. 1500–1000 BCE) is considered the classical period of the language. At Tchogha Zanbil, the religious centre founded by King Untash-Napirisha (1275–1240 BCE), bricks of the great ziggurat name gods in Elamite and Akkadian.",
+          "sources": ["wp-elamite", "unesco-tchogha-zanbil"]
+        },
+        {
+          "text": "Under the Achaemenid Persian kings, Elamite served for official inscriptions and administrative records. On the cliff at Bisotun, Darius I's inscription, composed after his accession in 522 BCE, was carved in three languages: Old Persian, Elamite and Babylonian. At Persepolis, archaeologists of the Oriental Institute of the University of Chicago found in the 1930s the remains of more than 15,000 administrative records in Elamite, with about 1,000 in Aramaic, covering the years 509 to 457 BCE.",
+          "sources": ["wp-elamite", "unesco-bisotun", "wp-persepolis-archives"]
+        },
+        {
+          "text": "Elamite may have outlived the Persian empire. Arabic authors between the 8th and 13th centuries refer to Khuzi, a language spoken in Khuzistan unlike any they knew, which may have been a late variant of Elamite; the last original report, by al-Maqdisi around 988, describes an incomprehensible language at Ramhormoz. In modern scholarship, a major step was Edwin Norris's publication of the Elamite version of the Bisotun inscription in 1855, when the language was still thought to be Scythian.",
+          "sources": ["wp-elamite"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Elamite is regarded by most linguists as a language isolate. Igor Diakonoff (1967) and David McAlpin (from 1974) proposed an Elamo-Dravidian family linking it with Brahui and the Dravidian languages, and in 2012 Southworth proposed a 'Zagrosian' family. A 2023 reassessment by Pedron found the proposed cognates unconvincing, and neither this nor other proposals, such as Václav Blažek's link with the Semitic languages, has been accepted by mainstream historical linguists.",
+          "sources": ["wp-elamite", "glotto-elamite"]
+        }
+      ]
+    },
+    {
+      "id": "hurro-urartian",
+      "name": "Hurro-Urartian",
+      "glottocode": "hurr1239",
+      "parent": null,
+      "kind": "group",
+      "status": "extinct",
+      "sources": ["glotto-hurro-urartian", "wp-hurro-urartian"],
+      "story": [
+        {
+          "text": "Hurro-Urartian is an extinct family of the ancient Near East with only two known members, Hurrian and Urartian. Their relationship was recognised as early as 1890 by Sayce and 1891 by Jensen, and it is undisputed. Urartian is not a direct continuation of any attested Hurrian dialect: the two languages developed independently from about the beginning of the second millennium BCE.",
+          "sources": ["wp-hurro-urartian", "wp-hurrian", "wp-urartian"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The consensus view is that Hurro-Urartian is not demonstrably related to any other family. Proposals link it with the Northeast Caucasian languages (the 'Alarodian' family of Diakonoff and Starostin) or with Indo-European (Fournet and Bomhard); neither has gained much traction. One model places Proto-Hurro-Urartian among people of the Kura-Araxes culture. The poorly known Kassite language may have been Hurro-Urartian or an isolate.",
+          "sources": ["wp-hurro-urartian"]
+        }
+      ]
+    },
+    {
+      "id": "hurrian",
+      "name": "Hurrian",
+      "glottocode": "hurr1240",
+      "iso639_3": "xhu",
+      "parent": "hurro-urartian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glotto-hurrian", "wp-hurrian", "wp-hurro-urartian"],
+      "period": {
+        "from": -2300,
+        "to": -1000,
+        "approx": true,
+        "note": "The Hurrians entered northern Mesopotamia around 2300 BCE; the earliest Hurrian fragments (names) date to the end of the third millennium BCE, and the language had mostly vanished by 1000 BCE.",
+        "sources": ["wp-hurrian"]
+      },
+      "homeland": {
+        "lat": 37.057,
+        "lng": 40.997,
+        "label": "Northern Mesopotamia (Urkesh, Khabur region), where Hurrian is first attested",
+        "sources": ["wp-hurrian", "wp-hurrian-pegs"]
+      },
+      "attestations": [
+        {
+          "id": "urkesh-lions",
+          "year": -2150,
+          "approx": true,
+          "lat": 37.057,
+          "lng": 40.997,
+          "place": "Urkesh (Tell Mozan), northeastern Syria",
+          "description": "Twin copper lion foundation pegs and a limestone tablet of Tish-atal, king of Urkesh, recording the building of a temple for the god Nergal: the oldest known text in Hurrian. The Met and the Louvre date them c. 2200–2100 BCE.",
+          "sources": ["wp-hurrian-pegs", "louvre-tish-atal"]
+        },
+        {
+          "id": "ugarit-hurrian-songs",
+          "year": -1400,
+          "approx": true,
+          "lat": 35.602,
+          "lng": 35.782,
+          "place": "Ugarit (Ras Shamra), Syria",
+          "description": "The Hurrian songs, music written in cuneiform on clay tablets of about 1400 BCE, including the Hymn to Nikkal (h.6), the oldest surviving substantially complete work of notated music.",
+          "sources": ["wp-hurrian-songs"]
+        },
+        {
+          "id": "mitanni-letter",
+          "year": -1360,
+          "approx": true,
+          "lat": 27.645,
+          "lng": 30.896,
+          "place": "Tell el-Amarna, Egypt (find-spot)",
+          "description": "The Mitanni Letter, written in Hurrian by Tushratta of Mitanni to Pharaoh Amenhotep III in the first half of the 14th century BCE about the marriage of his daughter Tadukhipa; found at Amarna in 1887.",
+          "sources": ["wp-mitanni-letter"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Cuneiform", "code": "Xsux" }],
+        "sources": ["wp-hurrian"]
+      },
+      "story": [
+        {
+          "text": "Hurrian was spoken by the Hurrians, who entered northern Mesopotamia around 2300 BCE. Its oldest known text comes from a pair of copper foundation pegs shaped as snarling lions, probably from Urkesh, modern Tell Mozan in Syria. With them went a white limestone tablet in which Tish-atal, king of Urkesh, records that he built a temple for Nergal and calls on the god Nubadag to protect it. One lion and the tablet are in the Louvre; its twin is in the Metropolitan Museum of Art.",
+          "sources": ["wp-hurrian", "wp-hurrian-pegs", "louvre-tish-atal"]
+        },
+        {
+          "text": "Hurrian became the main language of administration of the kingdom of Mitanni (1450–1270 BCE), even though names and loanwords show that its elite had Indo-Aryan roots. Spells, incantations, prophecies and letters in Hurrian have been found at Hattusa, Mari, Tuttul, Babylon and Ugarit. Strong Hurrian influence on Hittite culture explains why so many Hurrian texts were kept at Hittite centres, including a multi-tablet Hurrian literary work with a Hittite translation found at Hattusa in 1983.",
+          "sources": ["wp-hurrian", "wp-hurro-urartian"]
+        },
+        {
+          "text": "Two finds stand out. The Mitanni Letter, sent by King Tushratta to Pharaoh Amenhotep III about the marriage of his daughter Tadukhipa, was found at Amarna in 1887 and remains a primary source for the language. Tablets from Ugarit of about 1400 BCE preserve Hurrian songs with musical notation, among them the oldest surviving substantially complete notated music. In the 13th century BCE Hittite and Assyrian invasions ended Mitanni, and by about 1000 BCE Hurrian had mostly vanished.",
+          "sources": ["wp-mitanni-letter", "wp-hurrian-songs", "wp-hurrian"]
+        }
+      ]
+    },
+    {
+      "id": "urartian",
+      "name": "Urartian",
+      "glottocode": "urar1245",
+      "iso639_3": "xur",
+      "parent": "hurro-urartian",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glotto-urartian", "wp-urartian", "wp-hurro-urartian"],
+      "period": {
+        "from": -820,
+        "to": -585,
+        "approx": true,
+        "note": "First attested in the 9th century BCE (the oldest recorded texts date from the reign of Sarduri I, late 9th century BCE). It ceased to be written after the fall of the Urartian state in 585 BCE.",
+        "sources": ["wp-urartian", "wp-urartu"]
+      },
+      "homeland": {
+        "lat": 38.5,
+        "lng": 43.343,
+        "label": "Lake Van region, eastern Anatolia (Tushpa)",
+        "sources": ["wp-urartian"]
+      },
+      "attestations": [
+        {
+          "id": "kelishin-stele",
+          "year": -800,
+          "approx": true,
+          "lat": 36.9,
+          "lng": 44.883,
+          "place": "Kelishin pass, Iraq–Iran border",
+          "description": "The Kelishin stele, an Urartian–Akkadian bilingual of c. 800 BCE describing King Ishpuini's acquisition of Musasir; bilinguals such as this one helped decipherment.",
+          "sources": ["wp-kelishin", "wp-urartian"]
+        },
+        {
+          "id": "erebuni-foundation-inscription",
+          "year": -782,
+          "approx": true,
+          "lat": 40.141,
+          "lng": 44.538,
+          "place": "Erebuni (Arin Berd), Yerevan, Armenia",
+          "description": "Cuneiform inscription of Argishti I recording the founding of the fortress-city of Erebuni in 782 BCE, discovered at Arin Berd in 1950.",
+          "sources": ["wp-erebuni", "wp-urartu"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Cuneiform (simplified Neo-Assyrian)", "code": "Xsux" },
+          { "name": "Anatolian hieroglyphs (rare, at Altıntepe)", "code": "Hluw" }
+        ],
+        "sources": ["wp-urartian"]
+      },
+      "story": [
+        {
+          "text": "Urartian, also called Vannic, was the language of the kingdom of Urartu, called Biainili in Urartian, centred on Lake Van with its capital at Tushpa near the modern town of Van in eastern Turkey. Its scribes used a standardised simplification of Neo-Assyrian cuneiform. The oldest recorded Urartian texts date from the reign of Sarduri I, in the late 9th century BCE, and writing continued until the fall of the kingdom.",
+          "sources": ["wp-urartian", "wp-urartu"]
+        },
+        {
+          "text": "Royal inscriptions followed the kingdom's expansion. Ishpuini's acquisition of the city of Musasir is recorded on the Kelishin stele, an Urartian–Akkadian bilingual of about 800 BCE. In 782 BCE Argishti I founded Erebuni on the Arin Berd hill, in what is now Yerevan, and recorded the founding in an inscription that archaeologists found in 1950. The name Yerevan itself is derived from Erebuni.",
+          "sources": ["wp-kelishin", "wp-erebuni", "wp-urartu"]
+        },
+        {
+          "text": "Scholars disagree about who spoke Urartian: some think it was dominant around Lake Van and the upper Zab valley, others that it belonged to a small ruling class. After Urartu fell in 585 BCE it ceased to be written, and it was gradually replaced by an early form of Armenian. Its inscriptions, first copied by Friedrich Eduard Schulz around Van in 1826, were deciphered by A. H. Sayce in 1882.",
+          "sources": ["wp-urartian"]
+        }
+      ]
+    },
+    {
+      "id": "etruscan",
+      "name": "Etruscan",
+      "glottocode": "etru1241",
+      "iso639_3": "ett",
+      "parent": null,
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glotto-etruscan", "wp-etruscan"],
+      "period": {
+        "from": -700,
+        "to": 50,
+        "approx": true,
+        "note": "The span of the inscriptions (c. 700 BCE to 50 CE). Scholars place the extinction of Etruscan in the late 1st century BCE or the early 1st century CE.",
+        "sources": ["wp-etruscan"]
+      },
+      "homeland": {
+        "lat": 42.6,
+        "lng": 11.8,
+        "label": "Etruria, central Italy",
+        "sources": ["wp-etruscan"]
+      },
+      "attestations": [
+        {
+          "id": "pyrgi-tablets",
+          "year": -500,
+          "approx": true,
+          "lat": 42.015,
+          "lng": 11.963,
+          "place": "Pyrgi (Santa Severa), Lazio, Italy",
+          "description": "Three gold plates of c. 500 BCE, two in Etruscan and one in Phoenician, recording the dedication of a temple to Uni-Astarte by Thefarie Velianas, ruler of Caere; found in 1964 and now in the National Etruscan Museum, Villa Giulia, Rome.",
+          "sources": ["wp-pyrgi"]
+        },
+        {
+          "id": "liber-linteus",
+          "year": -250,
+          "approx": true,
+          "lat": 43.14,
+          "lng": 12.1,
+          "place": "Area of Lake Trasimeno, southeastern Tuscany (place of production)",
+          "description": "The Liber Linteus, the longest Etruscan text and the only surviving linen book, a probable ritual calendar dated on palaeographic grounds to about 250 BCE. It survived as mummy wrappings in Ptolemaic Egypt and is now in the Archaeological Museum in Zagreb.",
+          "sources": ["wp-liber-linteus"]
+        },
+        {
+          "id": "cippus-perusinus",
+          "year": -200,
+          "approx": true,
+          "lat": 43.128,
+          "lng": 12.366,
+          "place": "Perugia, Umbria, Italy",
+          "description": "The Cippus Perusinus, a stone boundary marker of the 3rd or 2nd century BCE with 46 lines (about 130 words) of Etruscan, apparently a legal agreement between the Velthina and Afuna families.",
+          "sources": ["wp-cippus-perusinus"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Etruscan alphabet (Old Italic)", "code": "Ital" }],
+        "sources": ["wp-etruscan"]
+      },
+      "story": [
+        {
+          "text": "Etruscan was the language of the Etruscan civilization of Etruria, in present-day Tuscany, northern Lazio and western Umbria, with inscriptions also in the Po Valley and Campania. About 13,000 inscriptions survive, dating from about 700 BCE, most of them short dedications and epitaphs. The Etruscans wrote with an alphabet taken from the Euboean Greek script, so scholars know roughly how the words sounded, but much of their meaning is still not understood.",
+          "sources": ["wp-etruscan"]
+        },
+        {
+          "text": "A few objects carry most of what is known. The Pyrgi Tablets, three gold plates of about 500 BCE found in 1964, record in Etruscan and Phoenician the dedication of a temple to the goddess Uni, identified with Astarte. The Liber Linteus, the longest Etruscan text and most likely a ritual calendar, survived because its linen was used to wrap a mummy in Ptolemaic Egypt; since 1867 it has been in Zagreb.",
+          "sources": ["wp-pyrgi", "wp-liber-linteus"]
+        },
+        {
+          "text": "Latin gradually displaced Etruscan. Veii, destroyed and repopulated by Rome in 396 BCE, was the first Etruscan site to be Latinized, while inscriptions continued longer in northern Etruria. Scholars place the language's extinction in the late 1st century BCE or the early 1st century CE. The emperor Claudius may still have been able to read Etruscan, and he wrote the Tyrrhenika, a lost treatise on Etruscan history.",
+          "sources": ["wp-etruscan"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In 1998 Helmut Rix proposed a Tyrsenian family uniting Etruscan with Raetic, spoken in the Alps, and Lemnian, known from inscriptions on the Aegean island of Lemnos; the proposal is supported by scholars such as Carlo De Simone, Simona Marchesini and Rex Wallace and has gained acceptance. Glottolog, citing Marchesini (2009), takes a more cautious position on the relationship of Raetic with Etruscan and lists Etruscan without a family.",
+          "sources": ["wp-tyrsenian", "wp-lemnian", "wp-etruscan", "glotto-etruscan"]
+        }
+      ]
+    },
+    {
+      "id": "basque",
+      "name": "Basque",
+      "nativeName": "euskara",
+      "nativeScript": "Latn",
+      "glottocode": "basq1248",
+      "iso639_3": "eus",
+      "parent": null,
+      "kind": "language",
+      "status": "living",
+      "sources": ["glotto-basque", "wp-basque"],
+      "period": {
+        "from": -100,
+        "to": null,
+        "approx": true,
+        "note": "This is the first possible attestation, not the language's origin: the Hand of Irulegi (1st century BCE) may carry a short Vasconic inscription. The mainstream view is that early forms of Basque were spoken in the region before Indo-European languages arrived.",
+        "sources": ["wp-irulegi", "wp-aquitanian", "wp-basque"]
+      },
+      "homeland": {
+        "lat": 43.0,
+        "lng": -1.6,
+        "label": "Western Pyrenees (Basque Country)",
+        "sources": ["wp-basque"]
+      },
+      "attestations": [
+        {
+          "id": "hand-of-irulegi",
+          "year": -75,
+          "approx": true,
+          "lat": 42.77,
+          "lng": -1.55,
+          "place": "Irulegi, Aranguren, Navarre, Spain",
+          "description": "A bronze hand of the 1st century BCE, found in 2021, with five lines of text, probably five or more words, in the northeastern Iberian script; it may be a short inscription in a Vasconic language related to Basque.",
+          "sources": ["wp-irulegi", "wp-aquitanian"]
+        },
+        {
+          "id": "glosas-emilianenses",
+          "year": 1000,
+          "approx": true,
+          "lat": 42.326,
+          "lng": -2.865,
+          "place": "San Millán de la Cogolla, La Rioja, Spain",
+          "description": "Glosses written in the 10th or 11th century in a Latin codex from the monastery of San Millán, early attestations of medieval Basque and of Ibero-Romance.",
+          "sources": ["wp-glosas"]
+        },
+        {
+          "id": "linguae-vasconum-primitiae-1545",
+          "year": 1545,
+          "approx": false,
+          "lat": 44.84,
+          "lng": -0.58,
+          "place": "Bordeaux, France",
+          "description": "Bernard Etxepare's Linguae Vasconum Primitiae, printed in Bordeaux in 1545, generally regarded as the first book printed in Basque.",
+          "sources": ["wp-etxepare"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-basque"]
+      },
+      "speakers": {
+        "count": 809341,
+        "year": 2021,
+        "scope": "L1+L2",
+        "sources": ["basque-survey-2021"]
+      },
+      "story": [
+        {
+          "text": "Basque, euskara to its speakers, is spoken in the Basque Country, which straddles the western Pyrenees in northern Spain and southwestern France. It is Europe's only known language isolate and the only surviving language of Paleo-European origin: the mainstream view is that early forms of Basque developed before the arrival of Indo-European languages such as Celtic and Latin. Its agglutinative morphology and ergative-absolutive alignment set it apart from the Romance languages that surround it.",
+          "sources": ["wp-basque"]
+        },
+        {
+          "text": "Its ancient form survives only in fragments. Latin inscriptions of the 1st to 3rd centuries CE preserve roughly 200 personal names and 60 deity names of Aquitanian, a related language; names such as Nescato and Cison echo modern neskato 'young girl' and gizon 'man'. In 2021 excavators at Irulegi in Navarre found a bronze hand of the 1st century BCE inscribed in the northeastern Iberian script, which may hold a short Vasconic text.",
+          "sources": ["wp-aquitanian", "wp-basque", "wp-irulegi"]
+        },
+        {
+          "text": "Medieval Basque appears in glosses written in the 10th or 11th century in a Latin codex from the monastery of San Millán de la Cogolla. In 1545 Bernard Etxepare, a priest from Lower Navarre, published a collection of poems in Bordeaux, Linguae Vasconum Primitiae, generally regarded as the first book printed in Basque. In one poem he declares that Basque, once thought impossible to write, has now been printed, and calls on it to go out into the world.",
+          "sources": ["wp-glosas", "wp-etxepare", "wp-lvp"]
+        },
+        {
+          "text": "Under Franco, Basque was suppressed in official life, education and publishing. From the late 1960s the Basque Academy, Euskaltzaindia, developed a standard language, Euskara Batua, and Basque is co-official in the Basque Autonomous Community. A sociolinguistic survey of 2021 counted 809,341 Basque speakers aged 16 or over across the Basque Country, 30.2% of that population.",
+          "sources": ["wp-basque", "basque-survey-2021"]
+        }
+      ],
+      "works": [
+        {
+          "id": "contrapas",
+          "title": "Contrapas (from Linguae Vasconum Primitiae)",
+          "titleOriginal": "Contrapas",
+          "author": "Bernard Etxepare",
+          "date": "1545",
+          "year": 1545,
+          "significance": "Linguae Vasconum Primitiae, printed in Bordeaux in 1545, is generally regarded as the first book printed in Basque. In the Contrapas Etxepare celebrates that Basque has been printed at last and calls on it to go out into the world.",
+          "original": "Heuscara ialgui adi cãpora.\nGaracico herria\nBenedicadadila\nHeuscarari emandio\nBeharduyen thornuya.",
+          "originalScript": "Latn",
+          "translation": "Basque, go forth outside!\nMay the town of Garazi\nbe blessed:\nit has given Basque\nthe standing it deserves.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.euskaltzaindia.eus/dok/iker_jagon_tegiak/13964.pdf",
+          "sources": ["wp-lvp", "wp-etxepare", "lvp-euskaltzaindia"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Many relatives have been proposed for Basque without winning acceptance. Iberian shows similarities with Aquitanian and Basque, but most scholars find the evidence insufficient to separate geographical contact from kinship. Theo Vennemann's Vasconic substratum hypothesis holds that Basque is the last survivor of a family once spread across western Europe. Basque has also been placed in the contested Dené–Caucasian macrofamily, and grammatical similarities with the Kartvelian case system have been noted but are generally considered inconclusive.",
+          "sources": ["wp-basque", "wp-burushaski", "wp-kartvelian"]
+        }
+      ]
+    },
+    {
+      "id": "burushaski",
+      "name": "Burushaski",
+      "nativeName": "بُرُݸشَسْکِݵ",
+      "nativeScript": "Arab",
+      "glottocode": "buru1296",
+      "iso639_3": "bsk",
+      "parent": null,
+      "kind": "language",
+      "status": "living",
+      "sources": ["glotto-burushaski", "wp-burushaski"],
+      "period": {
+        "from": 1854,
+        "to": null,
+        "approx": true,
+        "note": "Burushaski has no early written records. The date is its first documentation (Cunningham's word list of 1854), not its origin.",
+        "sources": ["casule-2009"]
+      },
+      "homeland": {
+        "lat": 36.333,
+        "lng": 74.666,
+        "label": "Northern Gilgit-Baltistan, Pakistan (Hunza, Nagar and Yasin valleys)",
+        "sources": ["wp-burushaski", "soas-burushaski"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Urdu-based Arabic script", "code": "Arab" },
+          { "name": "Latin (Berger's transcription)", "code": "Latn" }
+        ],
+        "sources": ["wp-burushaski"]
+      },
+      "speakers": {
+        "count": 90000,
+        "year": 1990,
+        "scope": "L1",
+        "sources": ["casule-2009"]
+      },
+      "story": [
+        {
+          "text": "Burushaski is a language isolate spoken by the Burusho people in the Hunza, Nagar and Yasin valleys of Gilgit-Baltistan in northern Pakistan. A community of a few hundred speakers also lives in Srinagar, in the Kashmir Valley of India. Its speakers call it [miɕáːski], 'our language'. Because the Hunza-Nagar and Yasin areas are separated by country where the Indo-Aryan language Shina is spoken, it is generally believed that Burushaski was once spoken over a wider area.",
+          "sources": ["wp-burushaski", "soas-burushaski"]
+        },
+        {
+          "text": "The varieties of Hunza and Nagar differ slightly but are clearly dialects of one language. Yasin Burushaski, known by the Khowar name Werchikwar, is much more divergent, and its speakers sometimes regard it as the original form. The Srinagar variety has been described as heavily influenced by other languages of the Kashmir Valley. Burushaski has four noun classes, and a verb can take up to four prefixes and six suffixes.",
+          "sources": ["wp-burushaski"]
+        },
+        {
+          "text": "Burushaski has mostly been a spoken language. The earliest sketchy descriptions and word lists date from the mid to late 19th century, beginning with Cunningham in 1854. In the 1940s the poet and scholar Allamah Nasiruddin Nasir Hunzai began writing Burushaski verse in an Urdu-based alphabet, adding new letters for sounds Urdu lacks, while linguists often use a Latin transcription devised by Hermann Berger.",
+          "sources": ["casule-2009", "wp-burushaski"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Links have been proposed with the North Caucasian, Kartvelian, Yeniseian and Indo-European languages, including the contested Dené–Caucasian macrofamily and a 'Karasuk' grouping with Yeniseian. Ilija Čašule argues for an Indo-European origin, which Eric Hamp accepted in a more remote form. None of these proposals has been accepted by a majority of linguists, and Blench (2008) suggests that much of the supposed evidence reflects borrowing.",
+          "sources": ["wp-burushaski", "casule-2009"]
+        }
+      ]
+    }
+  ]
+}

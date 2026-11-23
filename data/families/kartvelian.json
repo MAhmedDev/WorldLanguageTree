@@ -1,0 +1,237 @@
+{
+  "family": {
+    "id": "kartvelian",
+    "name": "Kartvelian",
+    "root": "proto-kartvelian"
+  },
+  "sources": [
+    { "id": "glotto-kartvelian", "title": "Glottolog 5.4: Kartvelian (kart1248)", "url": "https://glottolog.org/resource/languoid/id/kart1248", "publisher": "Glottolog" },
+    { "id": "glotto-old-georgian", "title": "Glottolog 5.4: Old Georgian (oldg1234)", "url": "https://glottolog.org/resource/languoid/id/oldg1234", "publisher": "Glottolog" },
+    { "id": "glotto-georgian", "title": "Glottolog 5.4: Georgian (nucl1302)", "url": "https://glottolog.org/resource/languoid/id/nucl1302", "publisher": "Glottolog" },
+    { "id": "wp-kartvelian", "title": "Kartvelian languages", "url": "https://en.wikipedia.org/wiki/Kartvelian_languages", "publisher": "Wikipedia" },
+    { "id": "wp-proto-kartvelian", "title": "Proto-Kartvelian language", "url": "https://en.wikipedia.org/wiki/Proto-Kartvelian_language", "publisher": "Wikipedia" },
+    { "id": "wp-old-georgian", "title": "Old Georgian", "url": "https://en.wikipedia.org/wiki/Old_Georgian_language", "publisher": "Wikipedia" },
+    { "id": "wp-georgian", "title": "Georgian language", "url": "https://en.wikipedia.org/wiki/Georgian_language", "publisher": "Wikipedia" },
+    { "id": "wp-georgian-scripts", "title": "Georgian scripts", "url": "https://en.wikipedia.org/wiki/Georgian_scripts", "publisher": "Wikipedia" },
+    { "id": "wp-bir-el-qutt", "title": "Bir el Qutt inscriptions", "url": "https://en.wikipedia.org/wiki/Bir_el_Qutt_inscriptions", "publisher": "Wikipedia" },
+    { "id": "wp-bolnisi", "title": "Bolnisi inscriptions", "url": "https://en.wikipedia.org/wiki/Bolnisi_inscriptions", "publisher": "Wikipedia" },
+    { "id": "wp-shushanik", "title": "Martyrdom of the Holy Queen Shushanik", "url": "https://en.wikipedia.org/wiki/Martyrdom_of_the_Holy_Queen_Shushanik", "publisher": "Wikipedia" },
+    { "id": "ws-shushanik", "title": "შუშანიკის წამება (The Martyrdom of Shushanik)", "author": "Iakob Tsurtaveli", "url": "https://ka.wikisource.org/wiki/%E1%83%A8%E1%83%A3%E1%83%A8%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%98%E1%83%A1_%E1%83%AC%E1%83%90%E1%83%9B%E1%83%94%E1%83%91%E1%83%90", "publisher": "Georgian Wikisource" },
+    { "id": "wp-knight", "title": "The Knight in the Panther's Skin", "url": "https://en.wikipedia.org/wiki/The_Knight_in_the_Panther%27s_Skin", "publisher": "Wikipedia" },
+    { "id": "ws-vepkhistqaosani", "title": "ვეფხისტყაოსანი (The Knight in the Panther's Skin)", "author": "Shota Rustaveli", "url": "https://ka.wikisource.org/wiki/%E1%83%95%E1%83%94%E1%83%A4%E1%83%AE%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A7%E1%83%90%E1%83%9D%E1%83%A1%E1%83%90%E1%83%9C%E1%83%98", "publisher": "Georgian Wikisource" },
+    { "id": "ws-vepkhistqaosani-opening", "title": "ვეფხისტყაოსანი / დასაწყისი (opening quatrains)", "author": "Shota Rustaveli", "url": "https://ka.wikisource.org/wiki/%E1%83%95%E1%83%94%E1%83%A4%E1%83%AE%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A7%E1%83%90%E1%83%9D%E1%83%A1%E1%83%90%E1%83%9C%E1%83%98/%E1%83%93%E1%83%90%E1%83%A1%E1%83%90%E1%83%AC%E1%83%A7%E1%83%98%E1%83%A1%E1%83%98", "publisher": "Georgian Wikisource" },
+    { "id": "wardrop-quatrains", "title": "The Man in the Panther's Skin: Introductory Quatrains (Internet Archive copy of sacred-texts.com)", "author": "Shot'ha Rust'haveli, translated by Marjory Scott Wardrop", "year": 1912, "publisher": "Royal Asiatic Society (Oriental Translation Fund, New Series, vol. XXI)", "url": "https://web.archive.org/web/20231226222450/https://sacred-texts.com/asia/mps/mps03.htm" },
+    { "id": "wardrop-title", "title": "The Man in the Panther's Skin: Title Page (Internet Archive copy of sacred-texts.com)", "author": "Marjory Scott Wardrop", "year": 1912, "publisher": "Royal Asiatic Society", "url": "https://web.archive.org/web/20250622061901/https://sacred-texts.com/asia/mps/mps00.htm" },
+    { "id": "ws-wardrop-intro", "title": "The Man in the Panther's Skin/Introduction (English Wikisource)", "author": "Shota Rustaveli, translated by Marjory Scott Wardrop", "year": 1912, "url": "https://en.wikisource.org/wiki/The_Man_in_the_Panther%27s_Skin/Introduction", "publisher": "English Wikisource" },
+    { "id": "wp-wardrop", "title": "Marjory Wardrop", "url": "https://en.wikipedia.org/wiki/Marjory_Wardrop", "publisher": "Wikipedia" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-kartvelian",
+      "name": "Proto-Kartvelian",
+      "glottocode": "kart1248",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["glotto-kartvelian", "wp-proto-kartvelian", "wp-kartvelian"],
+      "period": {
+        "from": -3000,
+        "to": -2000,
+        "approx": true,
+        "note": "Traditional (lexicostatistical) estimates place the first split, the separation of Svan, in the third millennium BCE, usually around 2000 BCE; the span shown is the third millennium BCE ending at that split. A 2023 Bayesian phylogenetic study instead estimated a mean split date of 7,641 years before present (about 5700 BCE), with a wide credible interval.",
+        "sources": ["wp-proto-kartvelian", "wp-kartvelian"]
+      },
+      "homeland": {
+        "lat": 42.25,
+        "lng": 42.7,
+        "label": "Western Georgia (Colchis), one of several proposed homelands",
+        "sources": ["wp-kartvelian"]
+      },
+      "story": [
+        {
+          "text": "Proto-Kartvelian is the reconstructed common ancestor of Georgian, Svan, Mingrelian and Laz, spoken by the ancestors of the Kartvelian peoples. Svan broke away first; the later stage, Karto-Zan, split into Georgian and Zan, the branch of Mingrelian and Laz. The distinction between an inclusive 'we' and an exclusive one survives only in Svan. Proto-Kartvelian ablaut patterns are highly similar to those of Indo-European, which has been taken to suggest early contact, and *mḳerd- 'breast' is possibly related to Proto-Indo-European *ḱerd- 'heart'.",
+          "sources": ["wp-proto-kartvelian"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The homeland is debated. Scholars have placed it in western or southwestern Georgia, northeastern Anatolia, the Lesser Caucasus or the Armenian Highlands, and reconstructed vocabulary for plants, animals, herding, farming and textiles has been used to argue for the uplands of western Georgia and eastern Anatolia. A 2023 study combining linguistic phylogeny with ecological, archaeological and genetic evidence proposed a homeland largely overlapping the Colchis glacial refugium in western Georgia.",
+          "sources": ["wp-kartvelian"]
+        },
+        {
+          "text": "No relationship between Kartvelian and any other family, including the Northwest and Northeast Caucasian languages, has been demonstrated. Attempts to place it in the proposed Nostratic family have fallen out of favour, and grammatical similarities with Basque are generally considered to lack conclusive evidence; shared features may reflect areal contact.",
+          "sources": ["wp-kartvelian"]
+        }
+      ]
+    },
+    {
+      "id": "old-georgian",
+      "name": "Old Georgian",
+      "nativeName": "ႤႬႠჂ ႵႠႰႧႭჃႪႨ",
+      "nativeScript": "Geok",
+      "glottocode": "oldg1234",
+      "iso639_3": "oge",
+      "parent": "proto-kartvelian",
+      "kind": "language",
+      "status": "classical",
+      "sources": ["glotto-old-georgian", "wp-old-georgian", "wp-georgian"],
+      "period": {
+        "from": 400,
+        "to": null,
+        "approx": true,
+        "note": "Attested from the 5th century (first attestation, not origin). Spoken Old Georgian gave way to Middle Georgian in the 11th century; it has no native speakers but remains in continuous use as the liturgical language of the Georgian Orthodox Church.",
+        "sources": ["wp-old-georgian"]
+      },
+      "homeland": {
+        "lat": 41.846,
+        "lng": 44.719,
+        "label": "Kartli (Kingdom of Iberia), eastern Georgia",
+        "sources": ["wp-georgian", "wp-kartvelian"]
+      },
+      "attestations": [
+        {
+          "id": "bir-el-qutt-inscriptions",
+          "year": 430,
+          "approx": true,
+          "lat": 31.723,
+          "lng": 35.206,
+          "place": "Bir el Qutt, near Bethlehem",
+          "description": "Asomtavruli mosaic inscriptions from a Georgian monastery of Saint Theodore, excavated in 1952; the first two, dated to about 430, are the oldest known Georgian inscriptions. One names Maruan, the lay name of Peter the Iberian.",
+          "sources": ["wp-bir-el-qutt", "wp-kartvelian"]
+        },
+        {
+          "id": "bolnisi-sioni-inscriptions",
+          "year": 493,
+          "approx": true,
+          "lat": 41.389,
+          "lng": 44.513,
+          "place": "Bolnisi Sioni Cathedral, Kvemo Kartli, Georgia",
+          "description": "Asomtavruli inscriptions on the Bolnisi Sioni basilica, dated 493/494; the earliest securely dated written records inside Georgia.",
+          "sources": ["wp-bolnisi", "wp-kartvelian"]
+        },
+        {
+          "id": "ateni-sioni-inscriptions",
+          "year": 835,
+          "approx": false,
+          "lat": 41.904,
+          "lng": 44.096,
+          "place": "Ateni Sioni Church, Shida Kartli, Georgia",
+          "description": "The church holds the oldest Nuskhuri inscription, dated 835, and the oldest Mkhedruli inscription, dated 982.",
+          "sources": ["wp-georgian-scripts"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Asomtavruli", "code": "Geok" },
+          { "name": "Nuskhuri", "code": "Geok" }
+        ],
+        "sources": ["wp-old-georgian", "wp-georgian-scripts"]
+      },
+      "story": [
+        {
+          "text": "Georgian became a written language after the Christianization of Kartli, the Kingdom of Iberia, in the mid-4th century, when it replaced Aramaic as the literary language. Its own alphabet, Asomtavruli, follows largely the order of the Greek alphabet, with letters for distinctly Georgian sounds placed at the end. Scholars most probably place its creation between the conversion of Iberia and the Bir el Qutt inscriptions of 430; a medieval tradition crediting King Pharnavaz I in the 3rd century BCE is considered legendary.",
+          "sources": ["wp-georgian", "wp-georgian-scripts", "wp-old-georgian"]
+        },
+        {
+          "text": "The oldest Georgian writing lies outside Georgia. In 1952 the archaeologist Virgilio Corbo excavated a Georgian monastery at Bir el Qutt, between Jerusalem and Bethlehem, whose mosaic floor carries Asomtavruli inscriptions; the first two, dated to 430, ask Christ and Saint Theodore for mercy on named Georgians, one of them probably Peter the Iberian under his lay name, Maruan. Inside Georgia, the oldest securely dated records are the inscriptions of the Bolnisi Sioni basilica, from 493/494.",
+          "sources": ["wp-bir-el-qutt", "wp-bolnisi", "wp-kartvelian"]
+        },
+        {
+          "text": "The oldest surviving original Georgian literary work is the Martyrdom of the Holy Queen Shushanik by Iakob Tsurtaveli, purported to have been written between 476 and 483. Scholars divide the language into Early Old Georgian (5th–8th centuries), known from a dozen inscriptions and eight manuscripts, and Classical Old Georgian (9th–11th centuries), whose literature extends to philosophy and history. Spoken Old Georgian gave way to Middle Georgian in the 11th century, but it is still the liturgical language of the Georgian Orthodox Church.",
+          "sources": ["wp-shushanik", "wp-old-georgian"]
+        }
+      ],
+      "works": [
+        {
+          "id": "martyrdom-of-shushanik",
+          "title": "The Martyrdom of the Holy Queen Shushanik",
+          "titleOriginal": "წამებაჲ წმიდისა შუშანიკისი დედოფლისაჲ",
+          "author": "Iakob Tsurtaveli",
+          "date": "purportedly 476–483 CE",
+          "year": 480,
+          "significance": "The earliest surviving piece of original Georgian literature. Its author, a contemporary of and participant in the events, tells how Shushanik, wife of Varsken, ruler of Gogarene, refused to follow him when he abandoned Christianity for Zoroastrianism, and died a martyr. The excerpt follows the Georgian Wikisource text, which is printed in modern Mkhedruli letters.",
+          "original": "იყო, მერვესა წელსა სპარსთა მეფისასა, კარად სამეფოდ წარემართა ვარსქენ პიტიახში, ძჱ არშუშაჲსი, რამეთუ პირველ იგიცა იყო ქრისტიანე, ნაშობი მამისა და დედისა ქრისტიანეთაჲ.",
+          "originalScript": "Geor",
+          "translation": "It was in the eighth year of the king of the Persians that Varsken the pitiakhsh, son of Arshusha, set out for the royal court; for formerly he too had been a Christian, born of a Christian father and mother.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ka.wikisource.org/wiki/%E1%83%A8%E1%83%A3%E1%83%A8%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%98%E1%83%A1_%E1%83%AC%E1%83%90%E1%83%9B%E1%83%94%E1%83%91%E1%83%90",
+          "sources": ["ws-shushanik", "wp-shushanik"]
+        }
+      ]
+    },
+    {
+      "id": "georgian",
+      "name": "Georgian",
+      "nativeName": "ქართული ენა",
+      "nativeScript": "Geor",
+      "glottocode": "nucl1302",
+      "iso639_3": "kat",
+      "parent": "old-georgian",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glotto-georgian", "wp-georgian", "wp-kartvelian"],
+      "period": {
+        "from": 1100,
+        "to": null,
+        "approx": true,
+        "note": "This entry covers Middle Georgian (11th/12th to 17th/18th centuries) and Modern Georgian (from the 17th/18th century).",
+        "sources": ["wp-georgian", "wp-old-georgian"]
+      },
+      "homeland": {
+        "lat": 41.967,
+        "lng": 44.1,
+        "label": "Kartli, eastern Georgia (basis of the standard language)",
+        "sources": ["wp-georgian"]
+      },
+      "scripts": {
+        "list": [
+          { "name": "Mkhedruli", "code": "Geor" },
+          { "name": "Asomtavruli and Nuskhuri (Khutsuri, ecclesiastical)", "code": "Geok" }
+        ],
+        "sources": ["wp-georgian-scripts"]
+      },
+      "speakers": {
+        "count": 3760000,
+        "year": 2020,
+        "scope": "L1",
+        "sources": ["wp-georgian"]
+      },
+      "story": [
+        {
+          "text": "Georgian is the most widely spoken Kartvelian language and the official language of Georgia, where it is the native or primary language of 88% of the population. It is the only literary language of its family: speakers of related languages such as Mingrelian have traditionally relied on standard Georgian for writing. The standard is based on the Kartlian dialect, and Georgian's at least 18 dialects are generally mutually intelligible.",
+          "sources": ["wp-georgian", "wp-kartvelian"]
+        },
+        {
+          "text": "By the 11th century Old Georgian had developed into Middle Georgian. Its most famous work is The Knight in the Panther's Skin by Shota Rustaveli, an epic of over 1,600 quatrains written in the 12th or 13th century, during the Golden Age of the Kingdom of Georgia under Queen Tamar, whom the poet praises in his prologue. Until the early 20th century, a copy of the poem was part of the dowry of every bride.",
+          "sources": ["wp-georgian", "wp-knight"]
+        },
+        {
+          "text": "Georgian has been written in three scripts that share letter names and alphabetical order: Asomtavruli; Nuskhuri, which appeared in the 9th century; and Mkhedruli, first found in an inscription of 982 at Ateni Sioni Church. In 1629 Nikoloz Cholokashvili produced the first printed books partly in Georgian, and in the 19th century, with printed Georgian type, Mkhedruli became the universal script outside the Church. In 2016 UNESCO inscribed the living culture of the three Georgian writing systems on its intangible heritage list.",
+          "sources": ["wp-georgian-scripts", "wp-georgian"]
+        }
+      ],
+      "works": [
+        {
+          "id": "knight-in-the-panthers-skin",
+          "title": "The Knight in the Panther's Skin",
+          "titleOriginal": "ვეფხისტყაოსანი",
+          "author": "Shota Rustaveli",
+          "date": "12th or 13th century",
+          "year": 1200,
+          "significance": "Georgia's national epic, a major work of the Georgian Golden Age, written in the reign of Queen Tamar and regarded as a masterpiece of Georgian literature. Marjory Scott Wardrop (1869–1909) made its first English prose translation, published by the Royal Asiatic Society in 1912 after her death.",
+          "original": "რომელმან შექმნა სამყარო ძალითა მით ძლიერითა,\nზეგარდმო არსნი სულითა ყვნა ზეცით მონაბერითა,\nჩვენ, კაცთა, მოგვცა ქვეყანა, გვაქვს უთვალავი ფერითა,\nმისგან არს ყოვლი ხელმწიფე სახითა მის მიერითა.",
+          "originalScript": "Geor",
+          "translation": "He who created the firmament, by that mighty power made beings inspired from on high with souls celestial; to us men He has given the world, infinite in variety we possess it; from Him is every monarch in His likeness.",
+          "translator": "Marjory Scott Wardrop",
+          "translationYear": 1912,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://ka.wikisource.org/wiki/%E1%83%95%E1%83%94%E1%83%A4%E1%83%AE%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A7%E1%83%90%E1%83%9D%E1%83%A1%E1%83%90%E1%83%9C%E1%83%98",
+          "sources": ["ws-vepkhistqaosani-opening", "ws-vepkhistqaosani", "wardrop-quatrains", "wardrop-title", "ws-wardrop-intro", "wp-wardrop", "wp-knight"]
+        }
+      ]
+    }
+  ]
+}

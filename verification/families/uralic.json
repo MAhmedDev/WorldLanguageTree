@@ -1,0 +1,605 @@
+{
+ "file": "data/families/uralic.json",
+ "claims": {
+  "proto-uralic#identity": {
+   "hash": "01482ca6d92e6535",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uralic_language",
+    "https://glottolog.org/resource/languoid/id/ural1272"
+   ]
+  },
+  "proto-uralic#period": {
+   "hash": "61055eb8d4093d1a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uralic_language",
+    "https://journal.fi/fuf/article/view/120910"
+   ],
+   "note": "Infobox: 2500-2000 BCE (recent consensus), citing Häkkinen 2023; Häkkinen's FUF 68 article dates Late Proto-Uralic c. 2500-2000 BCE."
+  },
+  "proto-uralic#homeland": {
+   "hash": "b893cf388ea603af",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uralic_language",
+    "https://journal.fi/fuf/article/view/120910"
+   ],
+   "note": "58.5N 59.5E lies in the Central Urals (Sverdlovsk Oblast), consistent with 'vicinity of the Ural Mountains'."
+  },
+  "proto-uralic#story:0": {
+   "hash": "7a96c68297202120",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uralic_language",
+    "https://journal.fi/fuf/article/view/120910"
+   ]
+  },
+  "proto-uralic#story:1": {
+   "hash": "a90019dd037a2be2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uralic_languages"
+   ],
+   "note": "Klaproth 1823, Tacitus c. AD 98, infobox est. 21.3 million native speakers."
+  },
+  "proto-uralic#note:0": {
+   "hash": "13a47fbd53841c0d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Uralic_languages"
+   ],
+   "note": "Removed the unsourced, garbled lead-in 'Beyond the Urals view,'; scholar attributions match the source."
+  },
+  "proto-uralic#note:1": {
+   "hash": "01e1eba8b7a0506a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Uralic_language",
+    "https://glottolog.org/resource/languoid/id/finn1318",
+    "https://glottolog.org/resource/languoid/id/hung1274",
+    "https://glottolog.org/resource/languoid/id/nort2671",
+    "https://glottolog.org/resource/languoid/id/udmu1245",
+    "https://glottolog.org/resource/languoid/id/mari1278"
+   ],
+   "note": "Glottolog JSON classifications: Finnish Uralic>Finnic..., Hungarian Uralic>Hungaric, North Saami Uralic>Saamic..., Udmurt Uralic>Permian, Mari family directly under Uralic."
+  },
+  "proto-finnic#identity": {
+   "hash": "42c3f9553d61d58b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Finnic_language",
+    "https://glottolog.org/resource/languoid/id/finn1317"
+   ]
+  },
+  "proto-finnic#period": {
+   "hash": "7c90ad315eef4a84",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Finnic_language"
+   ],
+   "note": "Matches Kallio 2012-2014 row of the dating table."
+  },
+  "proto-finnic#homeland": {
+   "hash": "bc0bc3d7ac97c938",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Finnic_language"
+   ],
+   "note": "59.4N 27.6E is on the southern shore of the Gulf of Finland (Ida-Viru, Estonia)."
+  },
+  "proto-finnic#story:0": {
+   "hash": "c0872541e9626f20",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Finnic_language"
+   ]
+  },
+  "proto-finnic#note:0": {
+   "hash": "fae8bcd0bbf7b0d2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Finnic_language"
+   ],
+   "note": "Décsy, Korhonen, Kallio and Lang figures match the dating table."
+  },
+  "finnish#identity": {
+   "hash": "eb85e7c384ddbcd6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Finnish_language",
+    "https://glottolog.org/resource/languoid/id/finn1318"
+   ]
+  },
+  "finnish#period": {
+   "hash": "49979c5d6e9b3539",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Finnic_language",
+    "https://en.wikipedia.org/wiki/Finnish_language"
+   ]
+  },
+  "finnish#homeland": {
+   "hash": "2af9c59580a6701e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Finnish_language"
+   ],
+   "note": "62N 25E is in central Finland."
+  },
+  "finnish#attestation:abckiria": {
+   "hash": "57562c06fa337c61",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mikael_Agricola",
+    "https://en.wikipedia.org/wiki/Abckiria",
+    "https://blogit.utu.fi/reformationfinland/?p=105"
+   ],
+   "note": "Agricola's books were printed in Stockholm, not Turku; place relabelled 'Turku (where Agricola worked)' and description tied to his 1539 return as rector, so the point no longer implies printing in Turku."
+  },
+  "finnish#scripts": {
+   "hash": "b295f99bcc763840",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Finnish_language"
+   ]
+  },
+  "finnish#speakers": {
+   "hash": "f06d6ebcc0331311",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Finnish_language"
+   ],
+   "note": "Infobox gives about 5 million dated 2020; the 2023 date belonged to the separate Finland-only figure (4.75 million). Year changed 2023 to 2020."
+  },
+  "finnish#story:0": {
+   "hash": "fcd126994025921e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Finnish_language"
+   ]
+  },
+  "finnish#story:1": {
+   "hash": "2cbcfc5d3e5497fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Finnish_language",
+    "https://en.wikipedia.org/wiki/Mikael_Agricola",
+    "https://en.wikipedia.org/wiki/Abckiria"
+   ]
+  },
+  "finnish#story:2": {
+   "hash": "1e1d149ee1a7354b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Finnish_language",
+    "https://en.wikipedia.org/wiki/Kalevala"
+   ]
+  },
+  "finnish#work:kalevala": {
+   "hash": "80b47dd0e5c6e189",
+   "verdict": "verified",
+   "evidence": [
+    "https://fi.wikisource.org/wiki/Kalevala_-_Ensimm%C3%A4inen_runo",
+    "https://aleph.pglaf.org/2/5/9/5/25953/25953.txt",
+    "https://en.wikipedia.org/wiki/Kalevala",
+    "https://en.wikipedia.org/wiki/William_Forsell_Kirby"
+   ],
+   "note": "Finnish lines match fi.wikisource runo 1 exactly; English matches Kirby's 1907 Everyman text verbatim; Kirby died 1912, Lönnrot 1884: public domain."
+  },
+  "estonian#identity": {
+   "hash": "a2241e8ecd08540a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Estonian_language",
+    "https://glottolog.org/resource/languoid/id/esto1258"
+   ]
+  },
+  "estonian#period": {
+   "hash": "0efc8cd1b6bb09ed",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Finnic_language",
+    "https://en.wikipedia.org/wiki/Estonian_language"
+   ]
+  },
+  "estonian#homeland": {
+   "hash": "0888f8a064e3b447",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Estonian_language"
+   ],
+   "note": "58.6N 25.5E is in central Estonia."
+  },
+  "estonian#attestation:kullamaa-manuscript": {
+   "hash": "76741a1e6d33500b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://et.wikipedia.org/wiki/Kullamaa_k%C3%A4sikiri",
+    "https://en.wikipedia.org/wiki/Kullamaa",
+    "https://en.wikipedia.org/wiki/Estonian_language"
+   ],
+   "note": "Coordinates moved from 58.873/24.071 (about 1.3 km SW of the village) to Kullamaa village 58.883/24.083; dating changed from 'the 1520s' to c. 1524-1532 (the Credo portion was written 1528-1532)."
+  },
+  "estonian#scripts": {
+   "hash": "a23ffc2186b815e6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Estonian_language"
+   ]
+  },
+  "estonian#speakers": {
+   "hash": "f6cadef17bb41829",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Estonian_language"
+   ],
+   "note": "Infobox: 1.2 million (2022) native speakers."
+  },
+  "estonian#story:0": {
+   "hash": "2d7dcd94340ba76e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Estonian_language",
+    "https://et.wikipedia.org/wiki/Kullamaa_k%C3%A4sikiri"
+   ],
+   "note": "Kullamaa prayers dated 'between about 1524 and 1532' instead of '1524 and 1528' (et-wiki and Estonian scholarship date the Credo portion to 1528-1532); added et-wiki source."
+  },
+  "estonian#story:1": {
+   "hash": "f855b4d8181a54b8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Estonian_language",
+    "https://en.wikipedia.org/wiki/Kalevipoeg"
+   ],
+   "note": "'In the same century' was ambiguous after '18th and 19th centuries'; now 'In the 19th century'."
+  },
+  "estonian#work:kalevipoeg": {
+   "hash": "65a81d96468a445b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://et.wikisource.org/wiki/Kalevipoeg/I",
+    "https://sonaveeb.ee/search/unif/dlall/dsall/lausa"
+   ],
+   "note": "Excerpt matches Wikisource. 'lausa suuga' rendered 'with open mouth' without support; Sonaveeb gives 'lausa' as completely or plainly/frankly, so now 'plain-spoken mouth'. Source added."
+  },
+  "old-hungarian#identity": {
+   "hash": "db9baa546a569807",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Hungarian_language",
+    "https://glottolog.org/resource/languoid/id/oldh1242"
+   ]
+  },
+  "old-hungarian#period": {
+   "hash": "c7240981362ae149",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Hungarian_language"
+   ],
+   "note": "Note now states the dates are conventional (source: 'by convention covers ... from AD 896' to Mohács 1526)."
+  },
+  "old-hungarian#homeland": {
+   "hash": "79484f97895fe7e6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Hungarian_language",
+    "https://glottolog.org/resource/languoid/id/oldh1242"
+   ],
+   "note": "47.46N 18.99E (Glottolog point) is in Buda, west of the Danube, inside former Pannonia."
+  },
+  "old-hungarian#attestation:tihany-charter": {
+   "hash": "6b8656d41b943da8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Hungarian_language",
+    "https://en.wikipedia.org/wiki/Hungarian_language"
+   ],
+   "note": "'the earliest surviving fragments' softened to 'some of the earliest', since Hungarian names in De Administrando Imperio and 10th-century runic epigraphy are older. Counts and phrase verified; 46.9137N 17.8893E is Tihany Abbey."
+  },
+  "old-hungarian#attestation:funeral-sermon": {
+   "hash": "216a95b44ff2f50c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Funeral_Sermon_and_Prayer",
+    "https://hu.wikipedia.org/wiki/Halotti_besz%C3%A9d_%C3%A9s_k%C3%B6ny%C3%B6rg%C3%A9s"
+   ],
+   "note": "hu-wiki: probably written at the Benedictine monastery of Boldva, 1192-1195; 48.218N 20.789E matches Boldva village coordinates (48.217, 20.789) from the Boldva Wikipedia article (via search)."
+  },
+  "old-hungarian#scripts": {
+   "hash": "d0e48fa52ebf53d5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Hungarian_language",
+    "https://en.wikipedia.org/wiki/Hungarian_language"
+   ]
+  },
+  "old-hungarian#story:0": {
+   "hash": "aa6c1588d77efdc1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Hungarian_language",
+    "https://en.wikipedia.org/wiki/Hungarian_language"
+   ],
+   "note": "'The earliest surviving Hungarian words' contradicted the paragraph's own 10th-century records; now 'Among its earliest surviving fragments are the Hungarian words and phrases' in the Tihany charter."
+  },
+  "old-hungarian#story:1": {
+   "hash": "5a3aaa9a8e7f28c6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Funeral_Sermon_and_Prayer",
+    "https://hu.wikipedia.org/wiki/Halotti_besz%C3%A9d_%C3%A9s_k%C3%B6ny%C3%B6rg%C3%A9s",
+    "https://en.wikipedia.org/wiki/Lamentations_of_Mary"
+   ],
+   "note": "Dropped the 227-word count (hu-wiki gives 190 Hungarian words; no independent confirmation), added the 6-line prayer; Laments of Mary corrected from '14th century' to copied around 1300 per the Lamentations of Mary article; sources added."
+  },
+  "old-hungarian#work:halotti-beszed": {
+   "hash": "d50b7b1598b8047d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://hu.wikisource.org/wiki/Halotti_besz%C3%A9d_%C3%A9s_k%C3%B6ny%C3%B6rg%C3%A9s",
+    "https://hu.wikipedia.org/wiki/Halotti_besz%C3%A9d_%C3%A9s_k%C3%B6ny%C3%B6rg%C3%A9s",
+    "https://en.wikipedia.org/wiki/Funeral_Sermon_and_Prayer"
+   ],
+   "note": "Excerpt matches hu.wikisource exactly. Translation made more literal: 'Latiatuc' (látjátok) is indicative 'You see', not a question; implied subject of 'terumteve' is God (Isten), not 'the Lord'; word order follows the original."
+  },
+  "hungarian#identity": {
+   "hash": "3d7f6672505ce7bd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hungarian_language",
+    "https://glottolog.org/resource/languoid/id/hung1274"
+   ]
+  },
+  "hungarian#period": {
+   "hash": "02a42f9d9bac7d06",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Hungarian_language"
+   ]
+  },
+  "hungarian#homeland": {
+   "hash": "ed7a84adf9e255c3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hungarian_language",
+    "https://glottolog.org/resource/languoid/id/hung1274"
+   ],
+   "note": "46.9N 19.66E (Glottolog point) is near Kecskemét, central Hungary."
+  },
+  "hungarian#attestation:nemzeti-dal-recital": {
+   "hash": "bb4d8860afe52ca8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://index.hu/techtud/2021/03/15/tenyek-tevhitek-1848-marcius-15/",
+    "https://artsandculture.google.com/asset/national-song/7QHDPR-_0oFHwA",
+    "https://en.wikipedia.org/wiki/S%C3%A1ndor_Pet%C5%91fi"
+   ],
+   "note": "The museum-steps recital is a legend (from Vahot Imre's 1880s memoirs): Petőfi recited the poem at the Pilvax, the university and the Landerer press, and gave a speech, not the poem, at the museum rally. Description rewritten, place relabelled as the 15 March rally site, sources replaced."
+  },
+  "hungarian#scripts": {
+   "hash": "9c6875be000acc46",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hungarian_language"
+   ]
+  },
+  "hungarian#speakers": {
+   "hash": "47478b2826451782",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hungarian_language"
+   ],
+   "note": "Infobox: 12 million native speakers (2021-2023); the year 2023 is the end of that range."
+  },
+  "hungarian#story:0": {
+   "hash": "7a2af41b04e8d5b0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hungarian_language"
+   ],
+   "note": "The first-half-of-1st-millennium-BC divergence is the article's 'traditional view', not settled fact; wording now attributes it."
+  },
+  "hungarian#story:1": {
+   "hash": "8667b6f9cdff3e93",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hungarian_language",
+    "https://en.wikipedia.org/wiki/S%C3%A1ndor_Pet%C5%91fi"
+   ]
+  },
+  "hungarian#work:nemzeti-dal": {
+   "hash": "c425b375d3a47988",
+   "verdict": "corrected",
+   "evidence": [
+    "https://hu.wikisource.org/wiki/Nemzeti_dal",
+    "https://index.hu/techtud/2021/03/15/tenyek-tevhitek-1848-marcius-15/",
+    "https://artsandculture.google.com/asset/national-song/7QHDPR-_0oFHwA",
+    "https://en.wikipedia.org/wiki/Nemzeti_dal"
+   ],
+   "note": "Significance claimed a museum-steps reading (legend); now 'written 13 March 1848, recited several times in Pest on 15 March and printed that day'. Excerpt matches hu.wikisource; literal translation checked line by line; Petőfi died 1849."
+  },
+  "north-saami#identity": {
+   "hash": "97c2f4acc7fefcaf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Northern_Sami",
+    "https://glottolog.org/resource/languoid/id/nort2671"
+   ]
+  },
+  "north-saami#period": {
+   "hash": "4c009764ae295bb6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Northern_Sami",
+    "https://glottolog.org/resource/languoid/id/nort2671"
+   ]
+  },
+  "north-saami#homeland": {
+   "hash": "d1af89601453427c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Northern_Sami"
+   ],
+   "note": "69N 23E is at Kautokeino, northern Norway, inside the named region."
+  },
+  "north-saami#scripts": {
+   "hash": "5bb602b8984adfb8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Northern_Sami"
+   ]
+  },
+  "north-saami#speakers": {
+   "hash": "3c52f0815284feab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Northern_Sami"
+   ],
+   "note": "Infobox: c. 25,000 native speakers, cited 1992-2013; the year 2013 is the latest citation."
+  },
+  "north-saami#story:0": {
+   "hash": "258be4c0e8209ca6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Northern_Sami"
+   ]
+  },
+  "north-saami#story:1": {
+   "hash": "214001320fa85415",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Northern_S%C3%A1mi"
+   ],
+   "note": "Article says Northern Sami orthography is based on Rask's notation 'according to E. N. Setala'; the 'laid the roots' claim is now attributed."
+  },
+  "mari#identity": {
+   "hash": "352321ba8c8401d4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mari_language",
+    "https://glottolog.org/resource/languoid/id/mari1278"
+   ]
+  },
+  "mari#period": {
+   "hash": "722ae721c2122b6a",
+   "verdict": "verified",
+   "evidence": [
+    "https://journals.rudn.ru/polylinguality/article/view/43990/en_US",
+    "https://glottolog.org/resource/languoid/id/mari1278"
+   ],
+   "note": "Glottolog CSV: mari1278 family under ural1272 with Eastern Mari (mhr) and Western Mari (mrj)."
+  },
+  "mari#homeland": {
+   "hash": "890abb8a4d26b07b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mari_language"
+   ],
+   "note": "56.63N 47.9E is Yoshkar-Ola, Mari El."
+  },
+  "mari#attestation:cheremis-grammar-1775": {
+   "hash": "30a94344a5bb31c9",
+   "verdict": "verified",
+   "evidence": [
+    "https://journals.rudn.ru/polylinguality/article/view/43990/en_US"
+   ],
+   "note": "59.9415N 30.3045E is the Kunstkamera / Academy of Sciences building on Vasilievsky Island, St Petersburg."
+  },
+  "mari#scripts": {
+   "hash": "884b74482835b896",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mari_language"
+   ]
+  },
+  "mari#speakers": {
+   "hash": "3eaff661483ee3cd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mari_language"
+   ],
+   "note": "Infobox: 320,000 (2020) native speakers."
+  },
+  "mari#story:0": {
+   "hash": "5910e63254b47cd2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mari_language"
+   ]
+  },
+  "mari#story:1": {
+   "hash": "8ca95d91ccd6c258",
+   "verdict": "corrected",
+   "evidence": [
+    "https://journals.rudn.ru/polylinguality/article/view/43990/en_US"
+   ],
+   "note": "The grammar's title page names no author; 'attributed to Veniamin' now reads that Archbishop Veniamin (Putsek-Grigorovich) is credited with a key role, as the RUDN article says. 'Usually traced' replaced by the source's own framing."
+  },
+  "udmurt#identity": {
+   "hash": "bfd9de74c8083389",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Udmurt_language",
+    "https://glottolog.org/resource/languoid/id/udmu1245"
+   ]
+  },
+  "udmurt#period": {
+   "hash": "653c7af717f6f243",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Udmurt_alphabet",
+    "https://glottolog.org/resource/languoid/id/udmu1245"
+   ]
+  },
+  "udmurt#homeland": {
+   "hash": "be1960eb688ab064",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Udmurt_language",
+    "https://glottolog.org/resource/languoid/id/udmu1245"
+   ],
+   "note": "57N 53E is inside Udmurtia, north of Izhevsk."
+  },
+  "udmurt#attestation:votyak-grammar-1775": {
+   "hash": "46a35b5683001529",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Udmurt_alphabet",
+    "https://ci.nii.ac.jp/ncid/BA05497996?l=en"
+   ],
+   "note": "CiNii: facsimile of the original published in St. Petersburg, 1775."
+  },
+  "udmurt#scripts": {
+   "hash": "27e0a3dabba440a4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Udmurt_language"
+   ]
+  },
+  "udmurt#speakers": {
+   "hash": "e15f39c8b4cdcd3d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Udmurt_language"
+   ],
+   "note": "Infobox: 270,000 (2020 census), cited to Rosstat table 6, 'population by native language', so L1 is right."
+  },
+  "udmurt#story:0": {
+   "hash": "5998f5832933af56",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Udmurt_language"
+   ]
+  },
+  "udmurt#story:1": {
+   "hash": "4a095090c00e7e37",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Udmurt_alphabet"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T21:01:37.437Z",
+ "verifier": "auditor-north-eurasia"
+}

@@ -1,0 +1,67 @@
+{
+ "file": "data/journeys/voices-of-asia.json",
+ "claims": {
+  "voices-of-asia#step:0": {
+   "hash": "24b0f047d8515f46",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oracle_bone_script"
+   ],
+   "note": "Bones and turtle plastrons were exposed to flame, and the interpretation was inscribed; not 'shells' generally."
+  },
+  "voices-of-asia#step:1": {
+   "hash": "8be5ae0a8030674c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Khmer",
+    "https://en.wikipedia.org/wiki/Sadnalegs",
+    "https://encyclopediaofbuddhism.org/wiki/Sadnalegs"
+   ]
+  },
+  "voices-of-asia#step:2": {
+   "hash": "7ef1595719e6a810",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tang_poetry"
+   ]
+  },
+  "voices-of-asia#step:3": {
+   "hash": "afc1ac277cad66dd",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB"
+   ],
+   "note": "Authors include many unknown; reworded 'by people of many ranks'; kana 'eventually led to'."
+  },
+  "voices-of-asia#step:4": {
+   "hash": "f846fc5171bf7a8c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Tibetan",
+    "https://en.wikipedia.org/wiki/Sadnalegs",
+    "https://encyclopediaofbuddhism.org/wiki/Sadnalegs"
+   ],
+   "note": "Source dates standardization to 816 under Sadnalegs but his death is probably 815 (Blue Annals 814); wording hedged."
+  },
+  "voices-of-asia#step:5": {
+   "hash": "939b928ae415b35b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hunminjeongeum"
+   ],
+   "note": "UNESCO listing refers to a copy of the full text including the Haerye."
+  },
+  "voices-of-asia#step:6": {
+   "hash": "7d97961210b1c2ec",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/The_Tale_of_Kieu",
+    "https://en.wikipedia.org/wiki/Sadnalegs",
+    "https://encyclopediaofbuddhism.org/wiki/Sadnalegs"
+   ],
+   "note": "Source gives 1820 as issue date, not 1820s; 'adapted' changed to 'made use of the plot'; 20 languages."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:40:49.108Z",
+ "verifier": "verifier-journeys"
+}

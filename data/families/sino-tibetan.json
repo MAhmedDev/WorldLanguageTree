@@ -1,0 +1,1105 @@
+{
+  "family": { "id": "sino-tibetan", "name": "Sino-Tibetan", "root": "proto-sino-tibetan" },
+  "sources": [
+    { "id": "glottolog-sino1245", "title": "Glottolog 5: Sino-Tibetan", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/sino1245" },
+    { "id": "glottolog-oldc1244", "title": "Glottolog 5: Old Chinese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/oldc1244" },
+    { "id": "glottolog-midd1344", "title": "Glottolog 5: Middle Chinese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/midd1344" },
+    { "id": "glottolog-mand1415", "title": "Glottolog 5: Mandarin Chinese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/mand1415" },
+    { "id": "glottolog-yuec1235", "title": "Glottolog 5: Yue Chinese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/yuec1235" },
+    { "id": "glottolog-wuch1236", "title": "Glottolog 5: Wu Chinese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/wuch1236" },
+    { "id": "glottolog-minn1241", "title": "Glottolog 5: Min Nan Chinese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/minn1241" },
+    { "id": "glottolog-hakk1236", "title": "Glottolog 5: Hakka Chinese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/hakk1236" },
+    { "id": "glottolog-clas1254", "title": "Glottolog 5: Classical Tibetan", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/clas1254" },
+    { "id": "glottolog-tibe1272", "title": "Glottolog 5: Tibetan", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/tibe1272" },
+    { "id": "glottolog-oldb1235", "title": "Glottolog 5: Old Burmese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/oldb1235" },
+    { "id": "glottolog-nucl1310", "title": "Glottolog 5: Burmese", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/nucl1310" },
+    { "id": "glottolog-tang1334", "title": "Glottolog 5: Tangut", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/tang1334" },
+    { "id": "glottolog-newa1246", "title": "Glottolog 5: Kathmandu Valley Newari", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/newa1246" },
+    { "id": "zhang-2019", "title": "Phylogenetic evidence for Sino-Tibetan origin in northern China in the Late Neolithic (Nature 569, abstract via Europe PMC)", "author": "Menghan Zhang, Shi Yan, Wuyun Pan, Li Jin", "year": 2019, "publisher": "Europe PMC", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31019300&resultType=core&format=json" },
+    { "id": "sagart-2019", "title": "Dated language phylogenies shed light on the ancestry of Sino-Tibetan (PNAS 116, abstract via Europe PMC)", "author": "Laurent Sagart, Guillaume Jacques, Yunfan Lai, Robin J. Ryder, Valentin Thouzeau, Simon J. Greenhill, Johann-Mattis List", "year": 2019, "publisher": "Europe PMC", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31061123&resultType=core&format=json" },
+    { "id": "wp-sino-tibetan", "title": "Sino-Tibetan languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sino-Tibetan_languages" },
+    { "id": "wp-old-chinese", "title": "Old Chinese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Chinese" },
+    { "id": "wp-yinxu", "title": "Yinxu", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yinxu" },
+    { "id": "wp-kang-hou-gui", "title": "Kang Hou gui", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kang_Hou_gui" },
+    { "id": "wp-analects", "title": "Analects", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Analects" },
+    { "id": "wp-classic-of-poetry", "title": "Classic of Poetry", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Classic_of_Poetry" },
+    { "id": "wp-guan-ju", "title": "Guan ju", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Guan_ju" },
+    { "id": "wp-tao-te-ching", "title": "Tao Te Ching", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tao_Te_Ching" },
+    { "id": "wp-james-legge", "title": "James Legge", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/James_Legge" },
+    { "id": "ws-guan-ju", "title": "The She King: Guan ju (translated by James Legge)", "publisher": "Wikisource", "url": "https://en.wikisource.org/wiki/Guan_ju" },
+    { "id": "ws-legge-author", "title": "Author:James Legge", "publisher": "Wikisource", "url": "https://en.wikisource.org/wiki/Author:James_Legge" },
+    { "id": "ws-analects-legge", "title": "The Chinese Classics, Volume 1, Confucian Analects, Book I (translated by James Legge)", "publisher": "Wikisource", "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/I" },
+    { "id": "ws-tao-teh-king", "title": "Tâo Teh King (translated by James Legge, Sacred Books of the East vol. 39)", "publisher": "Wikisource", "url": "https://en.wikisource.org/wiki/T%C3%A2o_Teh_King" },
+    { "id": "zhws-analects", "title": "論語/學而第一", "publisher": "Wikisource (Chinese)", "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E5%AD%B8%E8%80%8C%E7%AC%AC%E4%B8%80" },
+    { "id": "zhws-daodejing", "title": "道德經 (王弼本)", "publisher": "Wikisource (Chinese)", "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_(%E7%8E%8B%E5%BC%BC%E6%9C%AC)" },
+    { "id": "wp-middle-chinese", "title": "Middle Chinese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Middle_Chinese" },
+    { "id": "wp-qieyun", "title": "Qieyun", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Qieyun" },
+    { "id": "wp-li-bai", "title": "Li Bai", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Li_Bai" },
+    { "id": "wp-quiet-night-thought", "title": "Quiet Night Thought", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Quiet_Night_Thought" },
+    { "id": "zhws-jingyesi", "title": "靜夜思", "publisher": "Wikisource (Chinese)", "url": "https://zh.wikisource.org/wiki/%E9%9D%9C%E5%A4%9C%E6%80%9D" },
+    { "id": "wp-du-fu", "title": "Du Fu", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Du_Fu" },
+    { "id": "zhws-chunwang", "title": "春望", "publisher": "Wikisource (Chinese)", "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B" },
+    { "id": "wp-mandarin", "title": "Mandarin Chinese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mandarin_Chinese" },
+    { "id": "wp-lu-xun", "title": "Lu Xun", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lu_Xun" },
+    { "id": "wp-diary-of-a-madman", "title": "Diary of a Madman (Lu Xun)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Diary_of_a_Madman_(Lu_Xun)" },
+    { "id": "zhws-kuangren-riji", "title": "狂人日記", "publisher": "Wikisource (Chinese)", "url": "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98" },
+    { "id": "wp-yue", "title": "Yue Chinese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yue_Chinese" },
+    { "id": "wp-cantonese", "title": "Cantonese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cantonese" },
+    { "id": "wp-wu", "title": "Wu Chinese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Wu_Chinese" },
+    { "id": "wp-sing-song-girls", "title": "The Sing-song Girls of Shanghai", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Sing-song_Girls_of_Shanghai" },
+    { "id": "wp-southern-min", "title": "Southern Min", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Southern_Min" },
+    { "id": "wp-hokkien", "title": "Hokkien", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hokkien" },
+    { "id": "wp-hakka", "title": "Hakka Chinese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hakka_Chinese" },
+    { "id": "wp-old-tibetan", "title": "Old Tibetan", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Tibetan" },
+    { "id": "wp-tibetic", "title": "Tibetic languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tibetic_languages" },
+    { "id": "wp-tibetan-script", "title": "Tibetan script", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tibetan_script" },
+    { "id": "wp-tibetan-annals", "title": "Tibetan Annals", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tibetan_Annals" },
+    { "id": "wp-zhol-pillar", "title": "Lhasa Zhol Pillar", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lhasa_Zhol_Pillar" },
+    { "id": "wp-classical-tibetan", "title": "Classical Tibetan", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Classical_Tibetan" },
+    { "id": "wp-milarepa", "title": "Milarepa", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Milarepa" },
+    { "id": "wp-hundred-thousand-songs", "title": "The Hundred Thousand Songs of Milarepa", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Hundred_Thousand_Songs_of_Milarepa" },
+    { "id": "lotsawa-milarepa", "title": "ང་འཆི་བས་འཇིགས་སོགས། (In horror of death…), attributed to Milarepa", "publisher": "Lotsawa House", "url": "https://www.lotsawahouse.org/bo/tibetan-masters/milarepa/in-horror-of-death" },
+    { "id": "wp-lhasa-tibetan", "title": "Lhasa Tibetan", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lhasa_Tibetan" },
+    { "id": "wp-old-burmese", "title": "Old Burmese", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Burmese" },
+    { "id": "wp-myazedi", "title": "Myazedi inscription", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Myazedi_inscription" },
+    { "id": "wp-burmese", "title": "Burmese language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Burmese_language" },
+    { "id": "wp-tangut", "title": "Tangut language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tangut_language" },
+    { "id": "wp-tangut-script", "title": "Tangut script", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tangut_script" },
+    { "id": "wp-western-xia", "title": "Western Xia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Western_Xia" },
+    { "id": "wp-khara-khoto", "title": "Khara-Khoto", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Khara-Khoto" },
+    { "id": "wp-newar", "title": "Newar language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Newar_language" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-sino-tibetan",
+      "name": "Proto-Sino-Tibetan",
+      "glottocode": "sino1245",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["glottolog-sino1245", "wp-sino-tibetan"],
+      "period": {
+        "from": -5250,
+        "to": -3950,
+        "approx": true,
+        "note": "Sagart et al. (2019) estimate a root age of about 7,200 years before present; Zhang et al. (2019) date the first split, between Sinitic and Tibeto-Burman, to about 4,200–7,800 years before present (average about 5,900). The end date here is that average.",
+        "sources": ["sagart-2019", "zhang-2019", "wp-sino-tibetan"]
+      },
+      "homeland": {
+        "lat": 35.0,
+        "lng": 112.0,
+        "label": "Yellow River basin, northern China",
+        "sources": ["zhang-2019", "sagart-2019", "wp-sino-tibetan"]
+      },
+      "story": [
+        {
+          "text": "Sino-Tibetan, also called Trans-Himalayan, is a family of more than 400 languages, second only to Indo-European in its number of native speakers. Around 1.4 billion people speak one of its languages, the great majority of them the 1.3 billion native speakers of the Sinitic, or Chinese, languages. Burmese, with 33 million speakers, and the Tibetic languages, with 6 million, come next. Most of the other members are spoken by small communities in the Himalayas, the Southeast Asian Massif and the eastern edge of the Tibetan Plateau, and many are poorly documented.",
+          "sources": ["wp-sino-tibetan"]
+        },
+        {
+          "text": "Where and when the ancestral language was spoken is still argued over. Two computational studies published in 2019 compared vocabulary across the family. Menghan Zhang and colleagues, analysing 109 languages, placed the first split between Sinitic and Tibeto-Burman about 4,200 to 7,800 years ago in the Yellow River basin of northern China. Laurent Sagart and colleagues estimated an older root of about 7,200 years ago and linked the first speakers to north Chinese millet farmers of the late Cishan and early Yangshao cultures.",
+          "sources": ["zhang-2019", "sagart-2019", "wp-sino-tibetan"]
+        },
+        {
+          "text": "Reconstructing the parent language is still at an early stage. Several low-level subgroups have been securely reconstructed, but the higher-level structure of the family remains unclear: it is traditionally divided into Sinitic and Tibeto-Burman branches, yet a common origin of the non-Sinitic languages has never been demonstrated. Early classifications also included the Kra–Dai and Hmong–Mien languages, a grouping still supported by Chinese linguists but rejected by the international community since the 1940s.",
+          "sources": ["wp-sino-tibetan"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The homeland is debated. The most commonly cited hypothesis ties the family to the Neolithic Yangshao culture (7000–5000 years before present) of the Yellow River basin, with expansion driven by millet farming, and both 2019 phylogenetic studies (Zhang et al.; Sagart et al.) point to northern China. Georg Orlandi (2021) criticised both studies for relying on lexical items, which are not seen as robust indicators of language ancestry.",
+          "sources": ["wp-sino-tibetan", "zhang-2019", "sagart-2019"]
+        },
+        {
+          "text": "A 'southwestern' origin is the main alternative. George van Driem proposes a homeland in the Sichuan Basin before 9000 years before present. Roger Blench and Mark Post argue that agriculture cannot be reconstructed for the proto-language and that its first speakers were diverse foragers in the eastern Himalayan foothills of Northeast India, the area of greatest diversity, around 9000 years before present.",
+          "sources": ["wp-sino-tibetan", "zhang-2019"]
+        }
+      ]
+    },
+    {
+      "id": "old-chinese",
+      "name": "Old Chinese",
+      "glottocode": "oldc1244",
+      "iso639_3": "och",
+      "parent": "proto-sino-tibetan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glottolog-oldc1244", "wp-old-chinese"],
+      "period": {
+        "from": -1250,
+        "to": 220,
+        "approx": true,
+        "note": "The start is the date of the earliest records, the late Shang oracle bones. Authors assign different spans to Old Chinese: some limit it to the early Zhou, while others also include the Qin and Han. The end date here is the close of the Han dynasty (206 BCE–220 CE).",
+        "sources": ["wp-old-chinese", "wp-analects"]
+      },
+      "homeland": {
+        "lat": 36.13,
+        "lng": 114.31,
+        "label": "Yinxu, the late Shang capital near Anyang (Henan)",
+        "sources": ["wp-old-chinese", "wp-yinxu"]
+      },
+      "attestations": [
+        {
+          "id": "yinxu-oracle-bones",
+          "year": -1250,
+          "approx": true,
+          "lat": 36.127,
+          "lng": 114.317,
+          "place": "Yinxu, near Anyang, Henan",
+          "description": "Divinatory inscriptions carved on turtle plastrons and ox scapulae at the last Shang capital: the earliest known written records of Chinese. Only about half of the 4,000 characters used have been identified with certainty.",
+          "sources": ["wp-old-chinese", "wp-yinxu"]
+        },
+        {
+          "id": "kang-hou-gui",
+          "year": -1040,
+          "approx": true,
+          "lat": 35.46,
+          "lng": 113.8,
+          "place": "Near Huixian, Henan (the Zhou state of Wey)",
+          "description": "Western Zhou bronze food vessel whose inscription records how King Wu's brother, the Marquis of Kang, received the territory of Wey; dated to the 11th century BCE and now in the British Museum.",
+          "sources": ["wp-kang-hou-gui"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Chinese characters (oracle bone, bronze and seal scripts)", "code": "Hani" }],
+        "sources": ["wp-old-chinese"]
+      },
+      "story": [
+        {
+          "text": "Old Chinese is the oldest attested stage of Chinese and the ancestor of all its modern varieties. Its earliest examples are divinatory inscriptions on oracle bones from around 1250 BCE, found at Yinxu near Anyang, the last capital of the Shang dynasty. The language they record is undoubtedly an early form of Chinese, but it is hard to interpret because of its limited subject matter and many proper names. From around 1000 BCE, in the Western Zhou, long bronze inscriptions become the most important texts.",
+          "sources": ["wp-old-chinese"]
+        },
+        {
+          "text": "The four centuries before the unification of China in 221 BCE form the classical period. Its literature was written in ink on bamboo and wooden slips and, toward the end, on silk, and includes the Analects, the Mencius and the Commentary of Zuo. Later generations admired these works as models of prose, so the vocabulary and syntax of late Old Chinese lived on in Literary Chinese, the standard for formal writing in China and neighbouring countries until the early 20th century.",
+          "sources": ["wp-old-chinese"]
+        },
+        {
+          "text": "Most scholars agree that Old Chinese differed from Middle Chinese in having initial consonant clusters of some sort and voiceless nasals and liquids, and in lacking retroflex and palatal obstruents. Most recent reconstructions describe it as a language without tones, whose syllable-final consonants later developed into the tones of Middle Chinese. Most researchers trace its core vocabulary to Sino-Tibetan, citing cognates such as the words for 'I', 'not' and 'two' shared with Old Tibetan and Old Burmese.",
+          "sources": ["wp-old-chinese"]
+        }
+      ],
+      "works": [
+        {
+          "id": "shijing-guan-ju",
+          "title": "Classic of Poetry (Shijing), ode 1: \"Guan ju\"",
+          "titleOriginal": "詩經·關雎",
+          "author": "Anonymous",
+          "date": "c. 7th century BCE (the anthology spans the 11th–7th centuries BCE)",
+          "year": -650,
+          "significance": "The Classic of Poetry is the oldest existing collection of Chinese poetry, 305 works from the 11th to 7th centuries BCE, and one of the Five Classics; its rhymes are studied for Old Chinese phonology. \"Guan ju\", its first poem, is one of the best known in Chinese literature.",
+          "original": "關關雎鳩、在河之洲。\n窈窕淑女、君子好逑。\n參差荇菜、左右流之。\n窈窕淑女、寤寐求之。",
+          "originalScript": "Hant",
+          "transliteration": "Guānguān jūjiū, zài hé zhī zhōu.\nYǎotiǎo shūnǚ, jūnzǐ hǎoqiú.\nCēncī xìngcài, zuǒyòu liú zhī.\nYǎotiǎo shūnǚ, wùmèi qiú zhī.",
+          "translation": "Guan-guan go the ospreys,\nOn the islet in the river.\nThe modest, retiring, virtuous, young lady: ―\nFor our prince a good mate she.\n\nHere long, there short, is the duckweed,\nTo the left, to the right, borne about by the current.\nThe modest, retiring, virtuous, young lady: ―\nWaking and sleeping, he sought her.",
+          "translator": "James Legge",
+          "translationYear": 1871,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://en.wikisource.org/wiki/Guan_ju",
+          "sources": ["ws-guan-ju", "ws-legge-author", "wp-classic-of-poetry", "wp-guan-ju", "wp-james-legge"]
+        },
+        {
+          "id": "analects-1-1",
+          "title": "Analects, Book I, chapter 1",
+          "titleOriginal": "論語·學而第一",
+          "author": "Followers of Confucius (sayings attributed to Confucius)",
+          "date": "Largely composed in the Warring States period (475–221 BCE); final form in the mid-Han",
+          "year": -300,
+          "significance": "The Analects collects sayings attributed to Confucius and his contemporaries. In the late Song dynasty it was ranked among the Four Books, and it has been one of the most widely read and studied books in China for more than two millennia.",
+          "original": "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」",
+          "originalScript": "Hant",
+          "translation": "The Master said, \"Is it not pleasant to learn with a constant perseverance and application?\n\"Is it not delightful to have friends coming from distant quarters?\n\"Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?\"",
+          "translator": "James Legge",
+          "translationYear": 1893,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/I",
+          "sources": ["ws-analects-legge", "zhws-analects", "wp-analects", "wp-james-legge"]
+        },
+        {
+          "id": "dao-de-jing-1",
+          "title": "Dao De Jing (Tao Te Ching), chapter 1",
+          "titleOriginal": "道德經·第一章",
+          "author": "Traditionally attributed to Laozi",
+          "date": "4th century BCE (oldest manuscript fragments c. 300 BCE)",
+          "year": -350,
+          "significance": "The foundational Taoist text, traditionally attributed to the sage Laozi. Its oldest excavated fragments, the Guodian Chu slips, date to around 300 BCE, and it is one of the most translated texts in world literature. The Chinese here follows the edition with Wang Bi's commentary.",
+          "original": "道可道，非常道，名可名，非常名；\n無名，天地之始，有名，萬物之母。",
+          "originalScript": "Hant",
+          "translation": "The Tao that can be described is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.\n\n(Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things.",
+          "translator": "James Legge",
+          "translationYear": 1891,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://en.wikisource.org/wiki/T%C3%A2o_Teh_King",
+          "sources": ["ws-tao-teh-king", "zhws-daodejing", "wp-tao-te-ching", "wp-james-legge"]
+        }
+      ]
+    },
+    {
+      "id": "middle-chinese",
+      "name": "Middle Chinese",
+      "glottocode": "midd1344",
+      "iso639_3": "ltc",
+      "parent": "old-chinese",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glottolog-midd1344", "wp-middle-chinese"],
+      "period": {
+        "from": 300,
+        "to": 1200,
+        "approx": true,
+        "note": "Wikipedia gives its era as the 4th–12th centuries. Its best-documented form is the system of the Qieyun rhyme dictionary of 601 (Early Middle Chinese); the variant shown in the rime tables of the Song dynasty is called Late Middle Chinese.",
+        "sources": ["wp-middle-chinese"]
+      },
+      "homeland": {
+        "lat": 34.27,
+        "lng": 108.94,
+        "label": "Chang'an (modern Xi'an), where the Qieyun was planned",
+        "sources": ["wp-middle-chinese", "wp-qieyun"]
+      },
+      "attestations": [
+        {
+          "id": "qieyun",
+          "year": 601,
+          "approx": false,
+          "lat": 34.27,
+          "lng": 108.94,
+          "place": "Chang'an (Xi'an)",
+          "description": "Lu Fayan's rhyme dictionary, planned in a discussion at his home in Chang'an and published in 601 under the Sui. It gave pronunciations with the fanqie method and became the standard reading pronunciation of the Tang dynasty.",
+          "sources": ["wp-qieyun", "wp-middle-chinese"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Chinese characters", "code": "Hani" }],
+        "sources": ["wp-qieyun"]
+      },
+      "story": [
+        {
+          "text": "Middle Chinese is the stage of Chinese recorded in the Qieyun, a rhyme dictionary published in 601 under the Sui dynasty. Its compiler, Lu Fayan, traced the plan to a discussion with eight friends at his home in Chang'an twenty years earlier; five of them spoke northern dialects and three southern. Based on the dictionary's preface, most scholars now believe it records a compromise between northern and southern reading and poetic traditions, not the speech of a single city.",
+          "sources": ["wp-qieyun", "wp-middle-chinese"]
+        },
+        {
+          "text": "As Tang poetry flourished, the Qieyun became the authority for literary pronunciation and was revised and enlarged many times, eventually being absorbed into the Song dynasty's Guangyun (1008). The dictionaries describe sounds only in relative terms. The Swedish linguist Bernhard Karlgren was the first to try to reconstruct their actual values, comparing modern Chinese varieties with the Sino-Xenic readings of Chinese words used in Japan, Korea and Vietnam.",
+          "sources": ["wp-qieyun", "wp-middle-chinese"]
+        },
+        {
+          "text": "Middle Chinese had four tones, the fourth a checked 'entering tone' on syllables ending in -p, -t or -k, and its initial stops contrasted tenuis, aspirated and voiced consonants. Apart from the Min varieties, which show independent developments from Old Chinese, modern Chinese varieties can largely be treated as divergent descendants of Middle Chinese, and its study also helps readers analyse Tang poetry.",
+          "sources": ["wp-mandarin", "wp-middle-chinese"]
+        }
+      ],
+      "works": [
+        {
+          "id": "li-bai-quiet-night-thought",
+          "title": "Quiet Night Thought",
+          "titleOriginal": "靜夜思",
+          "author": "Li Bai (c. 701–762)",
+          "date": "8th century",
+          "year": 730,
+          "significance": "Li Bai is acclaimed as one of the most important poets of the Tang dynasty, and \"Quiet Night Thought\" is among his most famous poems, still taught in schools in China. Editions differ: the Three Hundred Tang Poems text shown here has 'bright moon' (明月) in line 3, where the Quan Tangshi and Li Bai's collected works have 'mountain moon' (山月).",
+          "original": "牀前明月光，\n疑是地上霜。\n舉頭望明月，\n低頭思故鄉。",
+          "originalScript": "Hant",
+          "transliteration": "Chuáng qián míngyuè guāng,\nyí shì dìshang shuāng.\nJǔ tóu wàng míngyuè,\ndī tóu sī gùxiāng.",
+          "translation": "Before my bed, the bright moonlight;\nI wonder if it is frost on the ground.\nRaising my head, I gaze at the bright moon;\nlowering my head, I think of my old home.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://zh.wikisource.org/wiki/%E9%9D%9C%E5%A4%9C%E6%80%9D",
+          "sources": ["zhws-jingyesi", "wp-li-bai", "wp-quiet-night-thought"]
+        },
+        {
+          "id": "du-fu-spring-view",
+          "title": "The View in Spring",
+          "titleOriginal": "春望",
+          "author": "Du Fu (712–770)",
+          "date": "756–757, during his captivity in rebel-held Chang'an",
+          "year": 757,
+          "significance": "Du Fu was one of the prominent poets of the Tang. During the An Lushan rebellion, which began in December 755, he was captured by the rebels and taken to Chang'an; this well-known poem conveys life in the capital under rebel occupation.",
+          "original": "國破山河在，城春草木深。\n感時花濺淚，恨別鳥驚心。\n烽火連三月，家書抵萬金。\n白頭搔更短，渾欲不勝簪。",
+          "originalScript": "Hant",
+          "transliteration": "Guó pò shān hé zài, chéng chūn cǎo mù shēn.\nGǎn shí huā jiàn lèi, hèn bié niǎo jīng xīn.\nFēnghuǒ lián sān yuè, jiā shū dǐ wàn jīn.\nBái tóu sāo gèng duǎn, hún yù bù shèng zān.",
+          "translation": "The state is broken; mountains and rivers remain.\nIn the city it is spring; grass and trees grow deep.\nMoved by the times, the flowers splash tears;\ngrieving at parting, the birds startle the heart.\nThe beacon fires have burned for three months on end;\na letter from home is worth ten thousand in gold.\nI scratch my white head and the hair grows shorter still,\nso thin it can scarcely hold a hairpin.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B",
+          "sources": ["zhws-chunwang", "wp-du-fu", "wp-li-bai"]
+        }
+      ]
+    },
+    {
+      "id": "mandarin",
+      "name": "Mandarin",
+      "nativeName": "官话",
+      "nativeScript": "Hans",
+      "glottocode": "mand1415",
+      "iso639_3": "cmn",
+      "parent": "middle-chinese",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-mand1415", "wp-mandarin"],
+      "period": {
+        "from": 1200,
+        "to": null,
+        "approx": true,
+        "note": "The earliest form, Old Mandarin, developed as a common speech of the North China Plain under the Jin (1115–1234) and Yuan dynasties; its rhymes were codified in the Zhongyuan Yinyun of 1324.",
+        "sources": ["wp-mandarin"]
+      },
+      "homeland": {
+        "lat": 38.0,
+        "lng": 115.5,
+        "label": "North China Plain",
+        "sources": ["wp-mandarin"]
+      },
+      "attestations": [
+        {
+          "id": "beijing-standard-1932",
+          "year": 1932,
+          "approx": false,
+          "lat": 39.9,
+          "lng": 116.4,
+          "place": "Beijing",
+          "description": "The National Language Unification Commission settled on the Beijing dialect as the basis of the national standard language in 1932.",
+          "sources": ["wp-mandarin"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Simplified Chinese characters", "code": "Hans" },
+          { "name": "Traditional Chinese characters", "code": "Hant" },
+          { "name": "Latin (Pinyin transcription)", "code": "Latn" }
+        ],
+        "sources": ["wp-mandarin"]
+      },
+      "speakers": { "count": 990000000, "year": 2022, "scope": "L1", "sources": ["wp-mandarin"] },
+      "story": [
+        {
+          "text": "Mandarin is the largest branch of the Sinitic languages. Mandarin varieties are the native speech of 71 percent of all Chinese speakers, across an area stretching from Yunnan in the southwest to Xinjiang in the northwest and Heilongjiang in the northeast. Many of them, such as those of the Southwest and the Lower Yangtze, are not mutually intelligible with the Beijing dialect. Most have four lexical tones, and in most the final stops of Middle Chinese have disappeared.",
+          "sources": ["wp-mandarin"]
+        },
+        {
+          "text": "After the fall of the Northern Song, a common speech based on the dialects around the capital grew up in northern China under the Jin and Yuan dynasties. This Old Mandarin was the language of new vernacular verse, drama and stories, and its rhymes were codified in the Zhongyuan Yinyun of 1324. Officials of the Ming and Qing, whose native varieties were often mutually unintelligible, communicated in a koiné called Guānhuà, 'the language of officials', which 16th-century Jesuit missionaries called 'Mandarin'.",
+          "sources": ["wp-mandarin"]
+        },
+        {
+          "text": "In the early Republic, intellectuals of the New Culture Movement such as Hu Shih and Chen Duxiu campaigned to replace Literary Chinese with written vernacular Chinese, based on northern dialects. In 1932 the National Language Unification Commission settled on the Beijing dialect as the standard. Standard Chinese is now the official language of China and Taiwan, one of four official languages of Singapore and one of the six official languages of the United Nations.",
+          "sources": ["wp-mandarin"]
+        }
+      ],
+      "works": [
+        {
+          "id": "lu-xun-diary-of-a-madman",
+          "title": "Diary of a Madman",
+          "titleOriginal": "狂人日記",
+          "author": "Lu Xun (1881–1936)",
+          "date": "1918",
+          "year": 1918,
+          "significance": "Often called China's first modern short story, this story by Lu Xun, a leading figure of modern Chinese literature, is an early work in written vernacular Chinese, the northern-based written standard championed by the New Culture Movement. Only its framing preface is in Classical Chinese; the diary entries are vernacular.",
+          "original": "今天晚上，很好的月光。\n我不見他，已是三十多年；今天見了，精神分外爽快。纔知道以前的三十多年，全是發昏；然而須十分小心。不然，那趙家的狗，何以看我兩眼呢？\n我怕得有理。",
+          "originalScript": "Hant",
+          "translation": "Tonight, the moonlight is very fine.\nI have not seen it for more than thirty years; seeing it today, my spirits are unusually refreshed. Only now do I know that the past thirty-odd years were all spent in a daze; but I must be very careful. Otherwise, why would the Zhao family's dog look at me twice?\nMy fear has good reason.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+          "sources": ["zhws-kuangren-riji", "wp-diary-of-a-madman", "wp-lu-xun", "wp-mandarin"]
+        }
+      ]
+    },
+    {
+      "id": "cantonese",
+      "name": "Cantonese (Yue)",
+      "nativeName": "廣東話",
+      "nativeScript": "Hant",
+      "glottocode": "yuec1235",
+      "iso639_3": "yue",
+      "parent": "middle-chinese",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-yuec1235", "wp-yue", "wp-cantonese"],
+      "period": {
+        "from": 1127,
+        "to": null,
+        "approx": true,
+        "note": "Sources give no date for Yue becoming distinct. 1127 is the start of the Southern Song, the period in which Guangzhou became the cultural centre of the region.",
+        "sources": ["wp-cantonese", "wp-yue"]
+      },
+      "homeland": {
+        "lat": 23.13,
+        "lng": 113.26,
+        "label": "Guangzhou (Canton), Pearl River Delta",
+        "sources": ["wp-yue", "wp-cantonese"]
+      },
+      "attestations": [
+        {
+          "id": "morrison-canton-vocabulary",
+          "year": 1828,
+          "approx": false,
+          "lat": 23.13,
+          "lng": 113.26,
+          "place": "Guangzhou",
+          "description": "Robert Morrison's Vocabulary of the Canton Dialect, one of the sources for early Cantonese written in Guangzhou when the city was China's key centre of foreign trade, alongside the 18th-century rime dictionary Fenyun Cuoyao.",
+          "sources": ["wp-cantonese"]
+        },
+        {
+          "id": "hong-kong-1842",
+          "year": 1842,
+          "approx": false,
+          "lat": 22.28,
+          "lng": 114.16,
+          "place": "Hong Kong",
+          "description": "After Hong Kong was ceded to Britain in 1842, migrants from Guangzhou and its surroundings made Cantonese the main language of the colony; Hong Kong Cantonese is an offshoot of the Guangzhou dialect.",
+          "sources": ["wp-yue", "wp-cantonese"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Chinese characters, including written Cantonese characters", "code": "Hant" },
+          { "name": "Latin (Jyutping and Yale romanisation)", "code": "Latn" }
+        ],
+        "sources": ["wp-cantonese"]
+      },
+      "speakers": { "count": 85169490, "year": 2024, "scope": "L1", "sources": ["wp-yue"] },
+      "story": [
+        {
+          "text": "Yue is a branch of the Sinitic languages spoken mainly in Guangdong and Guangxi, Hong Kong and Macau. Linguists prefer to keep the name Cantonese for the prestige variety of Guangzhou (Canton), Wuzhou, Hong Kong and Macau, although in English the word is often used for the whole branch. Yue languages are not mutually intelligible with other Chinese languages, and they are among the most conservative in keeping the final consonants and tonal categories of Middle Chinese.",
+          "sources": ["wp-yue"]
+        },
+        {
+          "text": "The Lingnan region was originally home to peoples the Chinese called the Hundred Yue. Large-scale Han Chinese migration began after the Qin conquest in 214 BCE, and further waves followed the collapse of the Han, Tang and Song dynasties. Today's Yue speakers descend from both groups, and colloquial Yue contains elements from the Tai languages once widely spoken in the area and still spoken by the Zhuang and Dong.",
+          "sources": ["wp-yue"]
+        },
+        {
+          "text": "Guangzhou, where the Xi, Bei and Dong rivers meet in the Pearl River Delta, was the largest port in China by 660 and became the centre of foreign trade in the 1700s, so Cantonese was the Chinese variety in closest contact with the West. Migrants took it to Hong Kong after 1842 and, in the 19th century, to Southeast Asia and the Chinatowns of the Americas. Cantonese-language media, Cantopop and Hong Kong cinema have since spread it further.",
+          "sources": ["wp-yue", "wp-cantonese"]
+        }
+      ]
+    },
+    {
+      "id": "wu-chinese",
+      "name": "Wu (Shanghainese)",
+      "nativeName": "吳語",
+      "nativeScript": "Hant",
+      "glottocode": "wuch1236",
+      "iso639_3": "wuu",
+      "parent": "middle-chinese",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-wuch1236", "wp-wu"],
+      "period": {
+        "from": 320,
+        "to": null,
+        "approx": true,
+        "note": "Wikipedia traces the vernacular that became modern Wu to the large northern migration of the early 4th century, when the imperial court moved to Jiankang (Nanjing). All modern Wu varieties nonetheless fit the Qieyun system of Middle Chinese.",
+        "sources": ["wp-wu"]
+      },
+      "homeland": {
+        "lat": 31.3,
+        "lng": 120.62,
+        "label": "Yangtze Delta (Jiangnan), around Suzhou",
+        "sources": ["wp-wu"]
+      },
+      "attestations": [
+        {
+          "id": "sing-song-girls-of-shanghai",
+          "year": 1892,
+          "approx": false,
+          "lat": 31.23,
+          "lng": 121.47,
+          "place": "Shanghai",
+          "description": "Han Bangqing's novel The Sing-song Girls of Shanghai, the first such novel to be serially published, with all of its dialogue in Wu.",
+          "sources": ["wp-sing-song-girls", "wp-wu"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Chinese characters", "code": "Hani" },
+          { "name": "Latin", "code": "Latn" }
+        ],
+        "sources": ["wp-wu"]
+      },
+      "speakers": { "count": 83397340, "year": 2021, "scope": "L1", "sources": ["wp-wu"] },
+      "story": [
+        {
+          "text": "Wu is a major group of Chinese languages spoken in Shanghai, Zhejiang and parts of Jiangsu, mostly south of the Yangtze. Foreigners often meet it as Shanghainese. The Suzhou variety was the prestige form of Wu in the 19th century, but by the turn of the 20th it had been replaced by Shanghai's, as the city's economy boomed. Wu varieties typically keep all the voiced initials of medieval Chinese and a checked tone in the form of a glottal stop.",
+          "sources": ["wp-wu"]
+        },
+        {
+          "text": "Before Han Chinese settlement, the Jiangnan region was inhabited by Kra-Dai or Austroasiatic peoples, and Wu inherited many Kra-Dai loanwords: a study of Maqiao, a suburb of Shanghai, found 126 among about a thousand words surveyed. Two great northern migrations shaped the language, one in the 4th century, when the court moved to Jiankang (Nanjing), and one in the 12th, when the Southern Song capital moved to Lin'an (Hangzhou).",
+          "sources": ["wp-wu"]
+        },
+        {
+          "text": "Wu's history becomes much clearer after the Mongol conquest, when vernacular texts appear. In the Ming dynasty Feng Menglong collected the folk songs of the Shange in southern Jiangsu and northern Zhejiang, which already show modern Wu vocabulary. In the Qing, missionaries translated the Bible into local varieties, and late Qing novels such as The Sing-song Girls of Shanghai (1892) were written with dialogue in Wu.",
+          "sources": ["wp-wu", "wp-sing-song-girls"]
+        }
+      ]
+    },
+    {
+      "id": "southern-min",
+      "name": "Southern Min (Hokkien)",
+      "nativeName": "閩南語",
+      "nativeScript": "Hant",
+      "glottocode": "minn1241",
+      "iso639_3": "nan",
+      "parent": "old-chinese",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-minn1241", "wp-southern-min", "wp-hokkien"],
+      "period": {
+        "from": -110,
+        "to": null,
+        "approx": true,
+        "note": "Linguists estimate that the oldest layers of the Min varieties diverged from the rest of Chinese around the time of the Han dynasty; Fujian was opened to Han settlement after the defeat of the Minyue state in 110 BCE.",
+        "sources": ["wp-southern-min"]
+      },
+      "homeland": {
+        "lat": 24.91,
+        "lng": 118.59,
+        "label": "Southern Fujian (Quanzhou and Zhangzhou)",
+        "sources": ["wp-hokkien", "wp-southern-min"]
+      },
+      "attestations": [
+        {
+          "id": "litchi-mirror",
+          "year": 1566,
+          "approx": false,
+          "lat": 24.91,
+          "lng": 118.59,
+          "place": "Southern Fujian (Quanzhou dialect area)",
+          "description": "The Romance of the Litchi Mirror, the most important of several late 16th-century playscripts written in a mixture of Quanzhou and Chaozhou dialects; its extant manuscripts date from 1566 and 1581.",
+          "sources": ["wp-hokkien"]
+        },
+        {
+          "id": "amoy-port",
+          "year": 1690,
+          "approx": true,
+          "lat": 24.48,
+          "lng": 118.09,
+          "place": "Xiamen (Amoy), Fujian",
+          "description": "When sea bans were lifted in the late 17th century, Xiamen became Fujian's main port, and the Amoy dialect became the main prestige form of Hokkien and the principal variety spoken overseas.",
+          "sources": ["wp-hokkien"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Chinese characters", "code": "Hani" },
+          { "name": "Latin (Pe̍h-ōe-jī, Tâi-lô)", "code": "Latn" }
+        ],
+        "sources": ["wp-hokkien"]
+      },
+      "speakers": { "count": 33995290, "year": 2022, "scope": "L1", "sources": ["wp-southern-min"] },
+      "story": [
+        {
+          "text": "Southern Min is a branch of Min Chinese spoken in southern Fujian, most of Taiwan, eastern Guangdong, Hainan and southern Zhejiang, and by emigrant communities in Southeast Asia and beyond. Its most widely spoken language is Hokkien, which includes Taiwanese and is also called Quanzhang, after the cities of Quanzhou and Zhangzhou. Teochew is said to be broadly intelligible with Hokkien, while varieties such as Qiong-Lei are so divergent that linguists tend to treat them as separate languages.",
+          "sources": ["wp-southern-min", "wp-hokkien"]
+        },
+        {
+          "text": "Min stands apart in the history of Chinese. Fujian was opened to Han settlement after the armies of Emperor Wu of Han defeated the Minyue state in 110 BCE, and its rugged terrain meant less later northern influence than elsewhere in the south. Most Chinese varieties can be traced to the Middle Chinese of the Qieyun, but Min keeps traces of older distinctions, and linguists estimate that its oldest layers diverged from the rest of Chinese around the Han dynasty.",
+          "sources": ["wp-southern-min"]
+        },
+        {
+          "text": "Several playscripts survive from the late 16th century, most importantly the Romance of the Litchi Mirror, with manuscripts dated 1566 and 1581. Emigrants from southern Fujian took Hokkien to Taiwan, first as workers under Dutch rule, and to what are now Myanmar, Vietnam, Indonesia, Malaysia and Singapore. Taiwanese Hokkien is one of the national languages of Taiwan, and Hokkien is also widely spoken among overseas Chinese communities in Singapore, Malaysia, the Philippines, Indonesia and elsewhere.",
+          "sources": ["wp-hokkien"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Southern Min is attached directly to Old Chinese rather than to Middle Chinese because Wikipedia notes that, unlike other modern Chinese varieties, the Min varieties show independent developments from Old Chinese, and linguists estimate that their oldest layers diverged around the Han dynasty. Glottolog also treats Min as its own branch of Sinitic, beside Old Chinese and the branch containing Middle Chinese, so the placement under Old Chinese here is a simplification.",
+          "sources": ["wp-southern-min", "wp-middle-chinese", "glottolog-minn1241"]
+        }
+      ]
+    },
+    {
+      "id": "hakka",
+      "name": "Hakka",
+      "nativeName": "客家话",
+      "nativeScript": "Hans",
+      "glottocode": "hakk1236",
+      "iso639_3": "hak",
+      "parent": "middle-chinese",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-hakk1236", "wp-hakka"],
+      "period": {
+        "from": 1000,
+        "to": null,
+        "approx": true,
+        "note": "Laurent Sagart (2002) derives Hakka and Gan from a common ancestral language spoken in central Jiangxi during the Song dynasty; sources give no firmer date.",
+        "sources": ["wp-hakka"]
+      },
+      "homeland": {
+        "lat": 27.6,
+        "lng": 115.4,
+        "label": "Central Jiangxi (proposed ancestral area of Hakka and Gan)",
+        "sources": ["wp-hakka"]
+      },
+      "attestations": [
+        {
+          "id": "meixian-romanization",
+          "year": 1960,
+          "approx": false,
+          "lat": 24.29,
+          "lng": 116.12,
+          "place": "Meixian, Meizhou, northeastern Guangdong",
+          "description": "The Guangdong Provincial Education Department created an official romanization of the Meixian (Moiyen) dialect, which the government of mainland China takes as Hakka's standard.",
+          "sources": ["wp-hakka"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Chinese characters", "code": "Hani" },
+          { "name": "Latin (Pha̍k-fa-sṳ and other romanizations)", "code": "Latn" }
+        ],
+        "sources": ["wp-hakka"]
+      },
+      "speakers": { "count": 43862230, "year": 2023, "scope": "L1", "sources": ["wp-hakka"] },
+      "story": [
+        {
+          "text": "Hakka is the language of the Hakka people, spoken in parts of southern China, especially eastern Guangdong, western Fujian and southern Jiangxi, in Taiwan, and in diaspora communities in Southeast Asia and beyond. Because it is used mainly in isolated areas, it has developed many dialects, a few of them mutually unintelligible. It is not mutually intelligible with Yue, Wu, Min or Mandarin, and is most closely related to Gan.",
+          "sources": ["wp-hakka"]
+        },
+        {
+          "text": "The Hakka are commonly believed to descend from several waves of migration from North China into the south in times of war and unrest, going back as far as the end of the Western Jin (266–316). Laurent Sagart (2002) argues that Hakka and Gan descend from one ancestral language spoken in central Jiangxi during the Song dynasty, over a possibly Hmong–Mien substratum. Like other southern varieties, Hakka keeps the final consonants -p, -t and -k that Mandarin has lost.",
+          "sources": ["wp-hakka"]
+        },
+        {
+          "text": "In mainland China the Meixian dialect of northeastern Guangdong is taken as the standard, and in 1960 the Guangdong Provincial Education Department created an official romanization for it. Taiwan designates Hakka as one of its national languages. Its two main varieties there are Sixian, whose speakers come mainly from four counties of Jiaying Prefecture, and Hailu, named after Haifeng and Lufeng counties.",
+          "sources": ["wp-hakka"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Hakka is sometimes classified as a variety of Gan, and a few northern Hakka varieties are partly intelligible with southern Gan. The similarities may, however, simply result from shared areal features rather than a closer common ancestry.",
+          "sources": ["wp-hakka"]
+        }
+      ]
+    },
+    {
+      "id": "old-tibetan",
+      "name": "Old Tibetan",
+      "glottocode": null,
+      "iso639_3": "otb",
+      "parent": "proto-sino-tibetan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-old-tibetan", "wp-tibetic"],
+      "period": {
+        "from": 650,
+        "to": 816,
+        "approx": true,
+        "note": "Old Tibetan is reflected in documents from the adoption of writing by the Tibetan Empire in the mid-7th century to the early 9th century; the standardization of 816 marks the start of Classical Tibetan.",
+        "sources": ["wp-old-tibetan"]
+      },
+      "homeland": {
+        "lat": 29.65,
+        "lng": 91.12,
+        "label": "Central Tibet (Lhasa), heart of the Tibetan Empire",
+        "sources": ["wp-old-tibetan", "wp-zhol-pillar"]
+      },
+      "attestations": [
+        {
+          "id": "old-tibetan-annals",
+          "year": 764,
+          "approx": true,
+          "lat": 40.04,
+          "lng": 94.81,
+          "place": "Library cave of the Mogao Grottoes, near Dunhuang (Gansu)",
+          "description": "The Old Tibetan Annals, Tibet's earliest extant history, give a dated year-by-year précis of events from 650 to 764. The two manuscripts were found in the early 20th century in the cave library, believed sealed in the 11th century.",
+          "sources": ["wp-tibetan-annals"]
+        },
+        {
+          "id": "zhol-pillar",
+          "year": 775,
+          "approx": true,
+          "lat": 29.655,
+          "lng": 91.118,
+          "place": "Zhol, below the Potala, Lhasa",
+          "description": "Stone pillar erected in the reign of King Trisong Detsen (755–797); the sources give no exact year, so 775 is only the approximate midpoint of the reign (one source ties the pillar to a 783 treaty). It is inscribed with an old example of Tibetan writing; it records the services of the minister Nganlam Takdra Lukhong, including the brief capture of Chang'an in 763.",
+          "sources": ["wp-zhol-pillar"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Tibetan script", "code": "Tibt" }],
+        "sources": ["wp-old-tibetan", "wp-tibetan-script"]
+      },
+      "story": [
+        {
+          "text": "Old Tibetan is the earliest attested form of Tibetan, written from the mid-7th century, when the Tibetan Empire adopted writing, to the early 9th. Tibetan tradition credits the script to Thonmi Sambhota, a minister of King Songtsen Gampo, who is said to have adapted it from the Indian Gupta script. Van Schaik (2011) concludes that the script was probably finalized in the 630s or 640s, as the empire began formally developing its written administration.",
+          "sources": ["wp-old-tibetan", "wp-tibetan-script"]
+        },
+        {
+          "text": "Its best-known records come from the library cave of the Mogao Grottoes near Dunhuang, believed sealed in the 11th century. There the Old Tibetan Annals, generally accepted as sober court records, give a year-by-year account from 650 to 764, including the fifteen days in 763 when Tibetan soldiers held the Tang capital, Chang'an. In Lhasa, the Zhol pillar below the Potala carries an inscription recounting the same campaign.",
+          "sources": ["wp-tibetan-annals", "wp-zhol-pillar"]
+        },
+        {
+          "text": "Old Tibetan spelling had no silent letters: words were pronounced as written. Syllables could be complex, with up to three consonants before the vowel, as in bsgrigs, 'arranged'. In 816, under King Sadnalegs, literary Tibetan was comprehensively standardized, giving rise to Classical Tibetan. The linguist Nicolas Tournadre defines the Tibetic languages spoken today as the family descended from Old Tibetan.",
+          "sources": ["wp-old-tibetan", "wp-tibetic"]
+        }
+      ]
+    },
+    {
+      "id": "classical-tibetan",
+      "name": "Classical Tibetan",
+      "nativeName": "ཆོས་སྐད",
+      "nativeScript": "Tibt",
+      "glottocode": "clas1254",
+      "iso639_3": "xct",
+      "parent": "old-tibetan",
+      "kind": "language",
+      "status": "classical",
+      "sources": ["glottolog-clas1254", "wp-classical-tibetan"],
+      "period": {
+        "from": 816,
+        "to": null,
+        "approx": false,
+        "note": "Created by the standardization of literary Tibetan in 816 under King Sadnalegs. It remains the liturgical and literary language of Tibetan Buddhism.",
+        "sources": ["wp-classical-tibetan"]
+      },
+      "homeland": {
+        "lat": 29.65,
+        "lng": 91.12,
+        "label": "Tibet",
+        "sources": ["wp-classical-tibetan"]
+      },
+      "scripts": {
+        "list": [{ "name": "Tibetan script", "code": "Tibt" }],
+        "sources": ["wp-classical-tibetan"]
+      },
+      "story": [
+        {
+          "text": "Classical Tibetan, chos skad or 'doctrine language', is the liturgical language of Tibetan Buddhism. It arose from a comprehensive standardization of literary Tibetan in 816, under King Sadnalegs, and is above all the language of early canonical texts translated from Sanskrit. The bilingual Tibetan–Sanskrit lexicons known as the Mahāvyutpatti and Madhyavyutpatti, together with the collection of the rest of the Tibetan Buddhist canon, fixed the key features of this literary standard.",
+          "sources": ["wp-classical-tibetan"]
+        },
+        {
+          "text": "Even through the Era of Fragmentation, unbroken monastic education kept Classical Tibetan the language of scholarship. The Second Diffusion of Buddhism (10th–12th centuries) brought a new wave of monastic learning, and in the 17th century the 5th Dalai Lama, Ngawang Lobsang Gyatso, consolidated it as the language of administration and scholarship as well as religion. New philosophical works and commentaries are still written in it, beside Modern Standard Tibetan.",
+          "sources": ["wp-classical-tibetan"]
+        }
+      ],
+      "works": [
+        {
+          "id": "milarepa-in-horror-of-death",
+          "title": "\"In horror of death…\" (song attributed to Milarepa)",
+          "titleOriginal": "ང་འཆི་བས་འཇིགས་སོགས།",
+          "author": "Milarepa (attributed; 1052–1135)",
+          "date": "11th–12th century",
+          "year": 1100,
+          "significance": "Milarepa is generally considered one of Tibet's most famous yogis and spiritual poets; his songs of realization were compiled by Tsangnyön Heruka (1452–1507) as The Hundred Thousand Songs of Milarepa. This quatrain attributed to him is quoted in Orgyen Jigme Chökyi Wangpo's guide to the preliminary practices, the kun bzang bla ma'i zhal lung.",
+          "original": "ང་འཆི་བས་འཇིགས་ནས་རི་ལ་ཕྱིན། །\nནམ་འཆི་ཆ་མེད་བསྒོམས་བསྒོམས་པས། །\nའཆི་མེད་གཉུགས་མའི་བཙན་ས་ཟིན། །\nད་འཆི་བའི་འཇིགས་པ་བོར་ཏེ་ཐལ། །",
+          "originalScript": "Tibt",
+          "transliteration": "nga 'chi bas 'jigs nas ri la phyin/\nnam 'chi cha med bsgoms bsgoms pas/\n'chi med gnyugs ma'i btsan sa zin/\nda 'chi ba'i 'jigs pa bor te thal/",
+          "translation": "Afraid of death, I went to the mountains.\nBy meditating again and again on the uncertain hour of death,\nI seized the stronghold of the deathless, innate nature.\nNow I have cast off the fear of death, and it is gone.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://www.lotsawahouse.org/bo/tibetan-masters/milarepa/in-horror-of-death",
+          "sources": ["lotsawa-milarepa", "wp-milarepa", "wp-hundred-thousand-songs"]
+        }
+      ]
+    },
+    {
+      "id": "lhasa-tibetan",
+      "name": "Tibetan (Lhasa / Standard Tibetan)",
+      "nativeName": "བོད་སྐད",
+      "nativeScript": "Tibt",
+      "glottocode": "tibe1272",
+      "iso639_3": "bod",
+      "parent": "classical-tibetan",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-tibe1272", "wp-lhasa-tibetan", "wp-tibetic"],
+      "period": {
+        "from": 1900,
+        "to": null,
+        "approx": true,
+        "note": "The date is the emergence of the Lhasa-based Modern Standard Tibetan in the 20th century; sources give no date for the Lhasa dialect itself.",
+        "sources": ["wp-classical-tibetan"]
+      },
+      "homeland": {
+        "lat": 29.65,
+        "lng": 91.12,
+        "label": "Lhasa",
+        "sources": ["wp-lhasa-tibetan"]
+      },
+      "scripts": {
+        "list": [{ "name": "Tibetan script", "code": "Tibt" }],
+        "sources": ["wp-lhasa-tibetan"]
+      },
+      "speakers": { "count": 1200000, "year": 1990, "scope": "L1", "sources": ["wp-lhasa-tibetan"] },
+      "story": [
+        {
+          "text": "Lhasa Tibetan, or Standard Tibetan, is the standardized form of Tibetan spoken by the people of Lhasa and an official language of the Tibet Autonomous Region. In the traditional three-branched classification of the Tibetic languages it belongs to the Central branch, beside Khams and Amdo. Khams speakers can communicate with it at a basic level, but Amdo speakers cannot. Like Khams, it has become tonal and has lost the word-initial consonant clusters of Classical Tibetan.",
+          "sources": ["wp-lhasa-tibetan"]
+        },
+        {
+          "text": "Lhasa Tibetan is an ergative language with subject–object–verb word order. Speakers move between several registers: phal skad, the vernacular; zhe sa, the honorific style, particularly prominent in Lhasa; yig skad, the literary style; and chos skad, the religious language of the scriptures. That scriptural language, Classical Tibetan, continues alongside Modern Standard Tibetan and the local spoken varieties in a diglossic situation.",
+          "sources": ["wp-lhasa-tibetan", "wp-classical-tibetan"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The chain Old Tibetan → Classical Tibetan → Lhasa Tibetan follows the literary history. Linguists such as Nicolas Tournadre define the Tibetic languages as descendants of Old Tibetan, with Classical Tibetan as their major literary language, and reconstructed Proto-Tibetic is similar but not identical to written Classical Tibetan.",
+          "sources": ["wp-tibetic"]
+        },
+        {
+          "text": "Glottolog does not use this chain. It places Classical Tibetan as a branch of Early Old Tibetan, and places Tibetan (the code used here for Lhasa Tibetan) lower in the Old Tibetan clade, within Central Tibetan and not under Classical Tibetan. The chain here follows the literary history described by Wikipedia.",
+          "sources": ["glottolog-clas1254", "glottolog-tibe1272", "wp-lhasa-tibetan"]
+        }
+      ]
+    },
+    {
+      "id": "old-burmese",
+      "name": "Old Burmese",
+      "glottocode": "oldb1235",
+      "iso639_3": "obr",
+      "parent": "proto-sino-tibetan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glottolog-oldb1235", "wp-old-burmese"],
+      "period": {
+        "from": 1035,
+        "to": 1550,
+        "approx": true,
+        "note": "Old Burmese is dated from the 11th to the 16th century; the earliest evidence of the Burmese alphabet dates to 1035. The transition to Middle Burmese occurred in the 16th century.",
+        "sources": ["wp-burmese", "wp-old-burmese"]
+      },
+      "homeland": {
+        "lat": 21.17,
+        "lng": 94.86,
+        "label": "Pagan (Bagan), Upper Irrawaddy valley",
+        "sources": ["wp-old-burmese", "wp-burmese"]
+      },
+      "attestations": [
+        {
+          "id": "myazedi-inscription",
+          "year": 1113,
+          "approx": false,
+          "lat": 21.155,
+          "lng": 94.86,
+          "place": "Myazedi pagoda, Myinkaba, Bagan",
+          "description": "The same proclamation in Old Burmese, Pali, Old Mon and Pyu on two stone pillars, telling of Prince Yazakumar and King Kyansittha. Discovered by Emanuel Forchhammer in 1886–1887, it is on UNESCO's Memory of the World Register for Asia and the Pacific.",
+          "sources": ["wp-myazedi"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Mon–Burmese script", "code": "Mymr" }],
+        "sources": ["wp-old-burmese", "wp-myazedi"]
+      },
+      "story": [
+        {
+          "text": "Old Burmese is the oldest phase of the Burmese language, known from the stone inscriptions of Pagan (Bagan). The earliest evidence of the Burmese alphabet dates to 1035. Its best-known monument is the Myazedi inscription of 1113, which repeats a single proclamation in Old Burmese, Pali, Old Mon and Pyu on two stone pillars, telling how Prince Yazakumar gave a golden Buddha image to his ailing father, King Kyansittha.",
+          "sources": ["wp-old-burmese", "wp-burmese", "wp-myazedi"]
+        },
+        {
+          "text": "Because Pyu carried great prestige in the Pagan kingdom, Old Burmese borrowed much Pali vocabulary by way of Pyu. Its spelling kept distinctions later lost, such as a written medial -l-: 'school', now ကျောင်း, was written က္လောင် [klɔŋ]. In the mid-15th century, bilingual Pali–Burmese texts called nissaya began to shape the standard language. The transition to Middle Burmese, with sound mergers and matching spelling changes, came in the 16th century.",
+          "sources": ["wp-burmese", "wp-old-burmese"]
+        }
+      ]
+    },
+    {
+      "id": "burmese",
+      "name": "Burmese",
+      "nativeName": "မြန်မာဘာသာစကား",
+      "nativeScript": "Mymr",
+      "glottocode": "nucl1310",
+      "iso639_3": "mya",
+      "parent": "old-burmese",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-nucl1310", "wp-burmese"],
+      "period": {
+        "from": 1550,
+        "to": null,
+        "approx": true,
+        "note": "The transition from Old to Middle Burmese occurred in the 16th century; Modern Burmese emerged in the mid-18th century.",
+        "sources": ["wp-burmese"]
+      },
+      "homeland": {
+        "lat": 21.5,
+        "lng": 95.5,
+        "label": "Upper Irrawaddy valley",
+        "sources": ["wp-burmese"]
+      },
+      "attestations": [
+        {
+          "id": "lower-burma-shift",
+          "year": 1830,
+          "approx": true,
+          "lat": 16.8,
+          "lng": 95.2,
+          "place": "Lower Burma (Irrawaddy Delta)",
+          "description": "After the Konbaung dynasty defeated the Mon-speaking Restored Hanthawaddy Kingdom in 1757, Lower Burma shifted from Mon to Burmese; by 1830 an estimated 90% of its population identified as Burmese-speaking Bamars.",
+          "sources": ["wp-burmese"]
+        },
+        {
+          "id": "university-of-rangoon",
+          "year": 1920,
+          "approx": false,
+          "lat": 16.83,
+          "lng": 96.13,
+          "place": "Rangoon (Yangon)",
+          "description": "The founding of an independent University of Rangoon in 1920, where Pe Maung Tin created a Burmese language major, helped bring about a revival of Burmese in the 1930s.",
+          "sources": ["wp-burmese"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Burmese alphabet (Mon–Burmese script)", "code": "Mymr" }],
+        "sources": ["wp-burmese"]
+      },
+      "speakers": { "count": 32900000, "year": 2019, "scope": "L1", "sources": ["wp-burmese"] },
+      "story": [
+        {
+          "text": "Burmese is the first language of about 33 million people and the language of Myanmar. Its spelling conventions largely go back to Middle Burmese (16th–18th centuries), when literacy spread, laymen began writing legal and historical documents, and the script moved from square block letters to the round, cursive forms used on palm leaves. Modern Burmese emerged in the mid-18th century, when male literacy in Burma stood at nearly 50 percent.",
+          "sources": ["wp-burmese"]
+        },
+        {
+          "text": "As late as the mid-1700s, Mon was the principal language of Lower Burma. After the Burmese-speaking Konbaung dynasty defeated the Mon-speaking Restored Hanthawaddy Kingdom in 1757, the region shifted: by 1830 an estimated 90 percent of its people identified as Burmese-speaking Bamars. The change has been put down to population displacement, intermarriage and shifting self-identification among increasingly bilingual Mon–Burmese communities.",
+          "sources": ["wp-burmese"]
+        },
+        {
+          "text": "Under British rule, Burmese was subordinated to English in education. A revival followed the founding of an independent University of Rangoon in 1920, and the 1948 Constitution of Burma made Burmese the official language of the new nation. In 1963 the government set up a commission to standardize spelling, diction and terminology, and in 1978 it compiled the current spelling authority, the Myanma Salonpaung Thatpon Kyan.",
+          "sources": ["wp-burmese"]
+        }
+      ]
+    },
+    {
+      "id": "tangut",
+      "name": "Tangut",
+      "nativeName": "𗼇𗟲",
+      "nativeScript": "Tang",
+      "glottocode": "tang1334",
+      "iso639_3": "txg",
+      "parent": "proto-sino-tibetan",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["glottolog-tang1334", "wp-tangut"],
+      "period": {
+        "from": 1036,
+        "to": 1502,
+        "approx": true,
+        "note": "Dates of attestation: the Tangut script was designed in 1036, and the latest known Tangut text, on the dharani pillars at Baoding, dates to 1502.",
+        "sources": ["wp-tangut", "wp-tangut-script"]
+      },
+      "homeland": {
+        "lat": 38.47,
+        "lng": 106.27,
+        "label": "Xingqing (modern Yinchuan), capital of the Western Xia",
+        "sources": ["wp-western-xia"]
+      },
+      "attestations": [
+        {
+          "id": "khara-khoto-texts",
+          "year": 1150,
+          "approx": true,
+          "lat": 41.76,
+          "lng": 101.07,
+          "place": "Khara-Khoto, Inner Mongolia",
+          "description": "Most extant Tangut texts were excavated here by Pyotr Kozlov in 1909: about 10,000 volumes of mostly Buddhist texts, law codes and legal documents from the mid-11th to the early 13th centuries, now in Saint Petersburg.",
+          "sources": ["wp-tangut", "wp-khara-khoto"]
+        },
+        {
+          "id": "baoding-dharani-pillars",
+          "year": 1502,
+          "approx": false,
+          "lat": 38.87,
+          "lng": 115.46,
+          "place": "Baoding, Hebei",
+          "description": "A pair of Tangut dharani pillars erected in 1502, the last known example of the Tangut script, nearly three centuries after the fall of the Western Xia.",
+          "sources": ["wp-tangut-script", "wp-tangut"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Tangut script", "code": "Tang" }],
+        "sources": ["wp-tangut-script"]
+      },
+      "story": [
+        {
+          "text": "Tangut was one of the official languages of the Western Xia, a state founded by the Tangut people in northwestern China, with its capital at Xingqing, modern Yinchuan. According to the History of Song, the official Yeli Renrong designed its script in 1036: a logographic system that looks like Chinese writing but forms characters differently, with 5,863 characters known in a 2004 count. Government schools taught it, and Buddhist scriptures were translated from Tibetan and Chinese and block-printed in it.",
+          "sources": ["wp-tangut", "wp-western-xia", "wp-tangut-script"]
+        },
+        {
+          "text": "The Mongol Empire annexed the Western Xia in 1227, but the language outlived the state: the latest known text, on a pair of dharani pillars at Baoding in Hebei, dates to 1502. Most surviving texts were excavated at Khara-Khoto in 1909 by Pyotr Kozlov and are kept in Saint Petersburg, about 10,000 volumes of mostly Buddhist texts, law codes and legal documents.",
+          "sources": ["wp-tangut", "wp-tangut-script"]
+        },
+        {
+          "text": "The Tangut–Chinese glossary Pearl in the Palm allowed the first reconstructions, and Nikolai Nevsky (1892–1937) compiled the first Tangut dictionary and worked out the meaning of many grammatical particles; his work was published after his death, in 1960, and posthumously won the Lenin Prize. Parts of Tangut morphology and grammar are understood, but its syntax remains largely unexplored.",
+          "sources": ["wp-tangut"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Since the 2010s Tangut has commonly been classified as Qiangic or Gyalrongic. Lai et al. (2020) place it in West Gyalrongic, and Beaudouin (2023) argues that it is a Horpa language, tentatively locating its homeland near where the Erkai variety is spoken today in Ngawa, Sichuan.",
+          "sources": ["wp-tangut"]
+        }
+      ]
+    },
+    {
+      "id": "newar",
+      "name": "Newar (Nepal Bhasa)",
+      "nativeName": "𑐣𑐾𑐥𑐵𑐮 𑐨𑐵𑐲𑐵",
+      "nativeScript": "Newa",
+      "glottocode": "newa1246",
+      "iso639_3": "new",
+      "parent": "proto-sino-tibetan",
+      "kind": "language",
+      "status": "living",
+      "sources": ["glottolog-newa1246", "wp-newar"],
+      "period": {
+        "from": 464,
+        "to": null,
+        "approx": true,
+        "note": "Newar is first attested indirectly, through Tibeto-Burman place names and other words in Sanskrit inscriptions of the Licchavi period; K. P. Malla's analysis covers inscriptions from 464 to 877 CE. The earliest dated document written entirely in Newar is from 1114.",
+        "sources": ["wp-newar"]
+      },
+      "homeland": {
+        "lat": 27.7,
+        "lng": 85.32,
+        "label": "Kathmandu Valley (Nepal Mandala)",
+        "sources": ["wp-newar"]
+      },
+      "attestations": [
+        {
+          "id": "uku-baha-palm-leaf",
+          "year": 1114,
+          "approx": false,
+          "lat": 27.672,
+          "lng": 85.324,
+          "place": "Uku Bāhā monastery, Lalitpur",
+          "description": "A palm-leaf manuscript preserved in this Buddhist monastery, the earliest dated document written entirely in Newar; it deals mostly with a business transaction.",
+          "sources": ["wp-newar"]
+        },
+        {
+          "id": "bajrayogini-edict",
+          "year": 1173,
+          "approx": false,
+          "lat": 27.7497,
+          "lng": 85.4858,
+          "place": "Bajrayogini Temple, Kathmandu Valley",
+          "description": "An edict of King Rudradeva, the earliest dated royal inscription in Newar, marking its use as a language of royal epigraphy from the 12th century.",
+          "sources": ["wp-newar"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Newar script", "code": "Newa" },
+          { "name": "Devanagari", "code": "Deva" }
+        ],
+        "sources": ["wp-newar"]
+      },
+      "speakers": { "count": 877000, "year": 2021, "scope": "L1", "sources": ["wp-newar"] },
+      "story": [
+        {
+          "text": "Newar, which its speakers prefer to call Nepal Bhasa, is a Tibeto-Burman language spoken natively by the Newar people of Nepal Mandala, the Kathmandu Valley and its surroundings. It is distinct from Nepali, an Indo-Aryan language. Newar is one of four Tibeto-Burman languages with an old literary tradition, with Tibetan, Burmese and Meitei, and works written in it, such as the Gopal Raj Vamshavali, are important for the study of Nepal's history.",
+          "sources": ["wp-newar"]
+        },
+        {
+          "text": "Its earliest traces are place names in Sanskrit inscriptions of the Licchavi period: khopṛiṅa, attested in 561 CE, survives as Khopa, the Newar name of Bhaktapur. The oldest dated document written entirely in Newar is a palm-leaf manuscript of 1114 kept in Uku Bāhā, a Buddhist monastery in Lalitpur. Jayasthiti Malla gave Newar official status in the 14th century, and the years 1428–1769 are considered a golden age of Newar literature.",
+          "sources": ["wp-newar"]
+        },
+        {
+          "text": "After the Shah dynasty's conquest of Nepal, Nepali replaced Newar as the national language, and from the start of the Rana dynasty in the 1840s until democratization Newar suffered official suppression. Between 1952 and 1991 the share of Newar speakers in the Kathmandu Valley fell from 75 to 44 percent, and UNESCO lists the language as definitely endangered. In May 2024 it became an official language of Bagmati Province, alongside Tamang and Nepali.",
+          "sources": ["wp-newar"]
+        }
+      ]
+    }
+  ]
+}

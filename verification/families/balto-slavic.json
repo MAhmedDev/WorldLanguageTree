@@ -1,0 +1,1264 @@
+{
+ "file": "data/families/balto-slavic.json",
+ "claims": {
+  "proto-balto-slavic#identity": {
+   "hash": "96eb14de2bbf7c06",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Balto-Slavic_language",
+    "https://glottolog.org/resource/languoid/id/balt1263"
+   ]
+  },
+  "proto-balto-slavic#period": {
+   "hash": "eb77b9942d21887b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Balto-Slavic_language"
+   ]
+  },
+  "proto-balto-slavic#homeland": {
+   "hash": "0fa19f4de81c89fb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Balto-Slavic_language"
+   ]
+  },
+  "proto-balto-slavic#story:0": {
+   "hash": "fb524bfef0e473b4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Balto-Slavic_language"
+   ]
+  },
+  "proto-balto-slavic#story:1": {
+   "hash": "b9687a7a24a587eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Balto-Slavic_language"
+   ]
+  },
+  "proto-balto-slavic#note:0": {
+   "hash": "ffbf0e015e80e9d5",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Baltic_languages"
+   ],
+   "note": "Removed the sentence on independent satemization: it is uncited ('citation needed') in Wikipedia and the Baltic article does not mention it; dropped wp-pbs from sources."
+  },
+  "proto-balto-slavic#note:1": {
+   "hash": "a4a1ea6ba1acfff6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Balto-Slavic_language"
+   ]
+  },
+  "proto-slavic#identity": {
+   "hash": "40d56b9ca064bed4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Slavic_language",
+    "https://glottolog.org/resource/languoid/id/slav1255"
+   ]
+  },
+  "proto-slavic#period": {
+   "hash": "c453bafd85c48aa0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Slavic_language"
+   ]
+  },
+  "proto-slavic#homeland": {
+   "hash": "66d45ef735b016fb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slavic_homeland"
+   ]
+  },
+  "proto-slavic#story:0": {
+   "hash": "2d6b6ea8fb073634",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Slavic_language"
+   ]
+  },
+  "proto-slavic#story:1": {
+   "hash": "babe6e17010edbf6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Slavic_language"
+   ]
+  },
+  "proto-slavic#note:0": {
+   "hash": "be22aceb48bb08dd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slavic_homeland"
+   ]
+  },
+  "east-slavic#identity": {
+   "hash": "bc45c1ff2b561238",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/east1426",
+    "https://en.wikipedia.org/wiki/Old_East_Slavic"
+   ]
+  },
+  "old-east-slavic#identity": {
+   "hash": "0d597e9119bf3973",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_East_Slavic",
+    "https://glottolog.org/resource/languoid/id/oldr1238"
+   ]
+  },
+  "old-east-slavic#period": {
+   "hash": "ed17e7f7409846d4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_East_Slavic"
+   ]
+  },
+  "old-east-slavic#homeland": {
+   "hash": "975bf8e7dcdbac7d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ukrainian_language",
+    "https://en.wikipedia.org/wiki/Old_East_Slavic"
+   ]
+  },
+  "old-east-slavic#attestation:onfim-birch-bark": {
+   "hash": "1505f097b93dfc06",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Onfim"
+   ]
+  },
+  "old-east-slavic#scripts": {
+   "hash": "9edebb43f1a37fe4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_East_Slavic"
+   ]
+  },
+  "old-east-slavic#story:0": {
+   "hash": "6ab88bd5234a4ecf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_East_Slavic",
+    "https://en.wikipedia.org/wiki/Ukrainian_language"
+   ]
+  },
+  "old-east-slavic#story:1": {
+   "hash": "d4f7b425d73a5d3d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Birch_bark_manuscript",
+    "https://en.wikipedia.org/wiki/Onfim"
+   ]
+  },
+  "old-east-slavic#story:2": {
+   "hash": "d1085fe1d0dd7cb0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ostromir_Gospels",
+    "https://en.wikipedia.org/wiki/Old_East_Slavic"
+   ],
+   "note": "'many spellings that reflect East Slavic' -> 'local version of Church Slavonic ... Old Russian phonological features' (source wording); unsourced 'best-known work in the vernacular' replaced by sourced list of surviving literature (Russkaya Pravda, Igor)."
+  },
+  "old-east-slavic#work:tale-of-igors-campaign": {
+   "hash": "fc03560b46b966f1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/The_Tale_of_Igor%27s_Campaign",
+    "https://ru.wikisource.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE_%D0%BE_%D0%BF%D0%BE%D0%BB%D0%BA%D1%83_%D0%98%D0%B3%D0%BE%D1%80%D0%B5%D0%B2%D0%B5/%D0%A2%D0%B5%D0%BA%D1%81%D1%82",
+    "https://archive.org/stream/taleofarmamento00magn/taleofarmamento00magn_djvu.txt",
+    "https://en.wikipedia.org/wiki/Leonard_Arthur_Magnus",
+    "https://archive.org/download/taleofarmamento00magn/taleofarmamento00magn_jp2.zip/taleofarmamento00magn_jp2%2Ftaleofarmamento00magn_0083.jp2&ext=jpg",
+    "https://archive.org/stream/taleofarmamentof00magnuoft/taleofarmamentof00magnuoft_djvu.txt"
+   ],
+   "note": "Magnus translation diacritics restored from the printed 1915 page (scan leaf 0083): 'Ígoŕ, Ígoŕ Svyatoslávič'. Original matches ru.wikisource 1800 edition; Magnus 1879-1924, pub. 1915 Oxford: PD."
+  },
+  "ruthenian#identity": {
+   "hash": "b9be81fb89ca657d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ruthenian_language",
+    "https://en.wikipedia.org/wiki/Old_East_Slavic"
+   ]
+  },
+  "ruthenian#period": {
+   "hash": "34d2895d96bf1624",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ruthenian_language",
+    "https://en.wikipedia.org/wiki/Belarusian_language"
+   ]
+  },
+  "ruthenian#homeland": {
+   "hash": "3eb772dc7cb1d213",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ruthenian_language"
+   ]
+  },
+  "ruthenian#attestation:skaryna-prague-1517": {
+   "hash": "dc6d7a7975c7e377",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Francysk_Skaryna"
+   ]
+  },
+  "ruthenian#attestation:skaryna-vilnius-1522": {
+   "hash": "c47c11cec1436836",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Francysk_Skaryna"
+   ]
+  },
+  "ruthenian#scripts": {
+   "hash": "48cad5b3d09fc48a",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ruthenian_language",
+    "https://en.wikipedia.org/wiki/Statutes_of_Lithuania",
+    "https://en.wikipedia.org/wiki/Statutes_of_Lithuania"
+   ],
+   "note": "Ruthenian article never states the script; added Statutes of Lithuania source (1588 Statute printed in Ruthenian in Cyrillic)."
+  },
+  "ruthenian#story:0": {
+   "hash": "d50ea80dca8ecbe0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ruthenian_language",
+    "https://en.wikipedia.org/wiki/Statutes_of_Lithuania",
+    "https://en.wikipedia.org/wiki/Statutes_of_Lithuania"
+   ],
+   "note": "Added Statutes of Lithuania source to support 'written in Cyrillic'."
+  },
+  "ruthenian#story:1": {
+   "hash": "eb1cc6274dcc60ce",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ruthenian_language",
+    "https://en.wikipedia.org/wiki/Statutes_of_Lithuania",
+    "https://en.wikipedia.org/wiki/Belarusian_language",
+    "https://en.wikipedia.org/wiki/Statutes_of_Lithuania"
+   ],
+   "note": "Added Statutes of Lithuania source, which states all three Statutes (incl. 1588) were written in Ruthenian."
+  },
+  "russian#identity": {
+   "hash": "0d5cf877605841ff",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Russian_language",
+    "https://en.wikipedia.org/wiki/Old_East_Slavic",
+    "https://glottolog.org/resource/languoid/id/russ1263"
+   ]
+  },
+  "russian#period": {
+   "hash": "a61cdd5f6f272dbb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Russian_language"
+   ]
+  },
+  "russian#homeland": {
+   "hash": "14ffd2b697d4e96e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Russian_language"
+   ]
+  },
+  "russian#scripts": {
+   "hash": "19ec764dfc70c536",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Russian_language"
+   ]
+  },
+  "russian#speakers": {
+   "hash": "548d13e519bb9e9a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Russian_language"
+   ]
+  },
+  "russian#story:0": {
+   "hash": "9cba00fc0500f53c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Russian_language"
+   ]
+  },
+  "russian#story:1": {
+   "hash": "9f935c500cf1deaf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mikhail_Lomonosov",
+    "https://en.wikipedia.org/wiki/Russian_language"
+   ]
+  },
+  "russian#story:2": {
+   "hash": "0830f96f8754bd39",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Russian_language"
+   ]
+  },
+  "russian#work:the-bronze-horseman": {
+   "hash": "8c92f49a48d2a55e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/The_Bronze_Horseman_(poem)",
+    "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA_(%D0%BF%D0%BE%D1%8D%D0%BC%D0%B0)",
+    "https://ru.wikisource.org/wiki/%D0%9C%D0%B5%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA_(%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD)",
+    "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA_(%D0%BF%D0%BE%D1%8D%D0%BC%D0%B0)"
+   ],
+   "note": "Date 'published in full 1837' was wrong: the 1837 Sovremennik printing carried Zhukovsky's censorship changes (uncensored text only 1904). Date and significance corrected; ru.wikipedia source added. Excerpt matches ru.wikisource; literal translation checked line by line."
+  },
+  "ukrainian#identity": {
+   "hash": "3e6b276fbe9b6982",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ukrainian_language",
+    "https://glottolog.org/resource/languoid/id/ukra1253"
+   ]
+  },
+  "ukrainian#period": {
+   "hash": "052e4a5a8c282607",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ukrainian_language"
+   ]
+  },
+  "ukrainian#homeland": {
+   "hash": "dd0ffc7ae55cb9b3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ukrainian_language"
+   ]
+  },
+  "ukrainian#attestation:eneyida-1798": {
+   "hash": "e5536741521bb911",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eneyida"
+   ]
+  },
+  "ukrainian#scripts": {
+   "hash": "00991366f6d1b4c7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ukrainian_language"
+   ]
+  },
+  "ukrainian#speakers": {
+   "hash": "19dc50be2847bf19",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ukrainian_language"
+   ]
+  },
+  "ukrainian#story:0": {
+   "hash": "9d02fa93b276f6cd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ukrainian_language"
+   ]
+  },
+  "ukrainian#story:1": {
+   "hash": "06d3aa32c2a45101",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Eneyida",
+    "https://en.wikipedia.org/wiki/Kobzar_(poetry_collection)"
+   ]
+  },
+  "ukrainian#story:2": {
+   "hash": "107c209ffe384c5d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ukrainian_language"
+   ]
+  },
+  "ukrainian#work:kobzar-dumy-moi": {
+   "hash": "cfcf05ce71424c56",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kobzar_(poetry_collection)",
+    "https://uk.wikisource.org/wiki/%D0%9A%D0%BE%D0%B1%D0%B7%D0%B0%D1%80%D1%8C_(1840)/%D0%94%D1%83%D0%BC%D1%8B_%D0%BC%D0%BE%D0%B8,_%D0%B4%D1%83%D0%BC%D1%8B_%D0%BC%D0%BE%D0%B8%E2%80%A6"
+   ],
+   "note": "Excerpt matches uk.wikisource 1840 edition; literal translation faithful; Shevchenko d. 1861, pub. 1840: PD."
+  },
+  "belarusian#identity": {
+   "hash": "7b52d87fcd9caba6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Belarusian_language",
+    "https://glottolog.org/resource/languoid/id/bela1254"
+   ]
+  },
+  "belarusian#period": {
+   "hash": "9be8259ee268552b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Belarusian_language"
+   ]
+  },
+  "belarusian#homeland": {
+   "hash": "6f843b6f404b634d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Belarusian_language"
+   ]
+  },
+  "belarusian#attestation:nasha-niva-1906": {
+   "hash": "bc6d970d1ce8b596",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nasha_Niva",
+    "https://www.belarusjournal.com/node/55"
+   ],
+   "note": "Vilnius confirmed independently."
+  },
+  "belarusian#scripts": {
+   "hash": "6643d82cfc3b822b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Belarusian_language"
+   ]
+  },
+  "belarusian#speakers": {
+   "hash": "55d9c5a6b49348a5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Belarusian_language",
+    "https://en.wikipedia.org/wiki/Russian_language"
+   ],
+   "note": "Infobox 5.094 million, 2019 census, native language; also 5,094,928 in Russian-language article."
+  },
+  "belarusian#story:0": {
+   "hash": "8e943ff5c314ea01",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Belarusian_language"
+   ]
+  },
+  "belarusian#story:1": {
+   "hash": "819eaac1e92fc6c3",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nasha_Niva",
+    "https://en.wikipedia.org/wiki/Belarusian_language",
+    "https://www.belarusjournal.com/node/55"
+   ],
+   "note": "'still written in both scripts' overstated; now 'written mainly in Cyrillic, and the Belarusian Latin alphabet is also used'. Vilnius as place of first issue confirmed independently."
+  },
+  "west-slavic#identity": {
+   "hash": "1b6c83f735902314",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/west2792",
+    "https://en.wikipedia.org/wiki/Czech_language"
+   ]
+  },
+  "polish#identity": {
+   "hash": "62388a783a162354",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polish_language",
+    "https://glottolog.org/resource/languoid/id/poli1260"
+   ]
+  },
+  "polish#period": {
+   "hash": "93024e3d7fa9e9e3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polish_language"
+   ]
+  },
+  "polish#homeland": {
+   "hash": "3c7f909730c04cec",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polish_language"
+   ]
+  },
+  "polish#attestation:book-of-henrykow": {
+   "hash": "e9a8bc02d1fd573c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Book_of_Henryk%C3%B3w"
+   ]
+  },
+  "polish#scripts": {
+   "hash": "58a1f2cf184ffcc8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polish_language"
+   ]
+  },
+  "polish#speakers": {
+   "hash": "b1c88942af2d2723",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polish_language"
+   ]
+  },
+  "polish#story:0": {
+   "hash": "fcf76f1b7c3c8c73",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polish_language"
+   ]
+  },
+  "polish#story:1": {
+   "hash": "881dda4f2ef6b2eb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Book_of_Henryk%C3%B3w"
+   ]
+  },
+  "polish#story:2": {
+   "hash": "bb5aceec2692e101",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pan_Tadeusz",
+    "https://en.wikipedia.org/wiki/Polish_language"
+   ]
+  },
+  "polish#work:pan-tadeusz": {
+   "hash": "c368b7c055c86477",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pan_Tadeusz",
+    "https://pl.wikisource.org/wiki/Pan_Tadeusz_(wyd._1834)/Ksi%C4%99ga_pierwsza",
+    "https://archive.org/stream/pantadeuszorlast00mick/pantadeuszorlast00mick_djvu.txt",
+    "https://en.wikipedia.org/wiki/George_Rapall_Noyes_(Slavic_scholar)",
+    "https://archive.org/stream/pantadeuszorlast00mickuoft/pantadeuszorlast00mickuoft_djvu.txt",
+    "https://archive.org/details/pantadeuszorlast00mickuoft"
+   ],
+   "note": "Polish matches pl.wikisource 1834 edition (całéj). Noyes text matches two independent 1917 Dent scans exactly. Noyes 1873-1952, Mickiewicz d. 1855: PD."
+  },
+  "czech#identity": {
+   "hash": "9102b437db1829e9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Czech_language",
+    "https://glottolog.org/resource/languoid/id/czec1258"
+   ]
+  },
+  "czech#period": {
+   "hash": "f54b8a1184e00762",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Czech_language"
+   ]
+  },
+  "czech#homeland": {
+   "hash": "d5e318c3ed4b04e0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Czech_language"
+   ]
+  },
+  "czech#attestation:kralice-bible": {
+   "hash": "6ec23a5e82d344c7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kralice_Bible"
+   ]
+  },
+  "czech#scripts": {
+   "hash": "bd9152480288e108",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Czech_language"
+   ]
+  },
+  "czech#speakers": {
+   "hash": "c5d03a3e11d1c55c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Czech_language"
+   ]
+  },
+  "czech#story:0": {
+   "hash": "1737f61a17ea92a4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Czech_language"
+   ]
+  },
+  "czech#story:1": {
+   "hash": "ce7a940c6a4a75de",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bible_of_Kralice",
+    "https://en.wikipedia.org/wiki/Czech_language"
+   ],
+   "note": "'Became a model for standard Czech' appears in neither cited article. Replaced with Bible of Kralice article's statement: 1613 third edition is considered a classic and the most widely known Czech Bible translation."
+  },
+  "czech#story:2": {
+   "hash": "2d326df2df39ef59",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Czech_language"
+   ]
+  },
+  "slovak#identity": {
+   "hash": "bf60d5dc80a1f8b8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovak_language",
+    "https://glottolog.org/resource/languoid/id/slov1269"
+   ]
+  },
+  "slovak#period": {
+   "hash": "7aaa426103148aa0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovak_language"
+   ]
+  },
+  "slovak#homeland": {
+   "hash": "4028e6c3b0dffcfc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovak_language"
+   ]
+  },
+  "slovak#attestation:stur-1843": {
+   "hash": "bf58efa727814f7a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C5%A0t%C3%BAr"
+   ]
+  },
+  "slovak#scripts": {
+   "hash": "80f7aa546438f3a9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovak_language"
+   ]
+  },
+  "slovak#speakers": {
+   "hash": "dcd8b43aa5d98d11",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovak_language"
+   ]
+  },
+  "slovak#story:0": {
+   "hash": "968ccd2d90f97786",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovak_language"
+   ]
+  },
+  "slovak#story:1": {
+   "hash": "a8fb810b03a11034",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C5%A0t%C3%BAr",
+    "https://en.wikipedia.org/wiki/Slovak_language"
+   ]
+  },
+  "south-slavic#identity": {
+   "hash": "dcc7299f969eb732",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/sout3147",
+    "https://en.wikipedia.org/wiki/Serbo-Croatian",
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "old-church-slavonic#identity": {
+   "hash": "0de32dc4f26d20e2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+    "https://glottolog.org/resource/languoid/id/chur1257"
+   ]
+  },
+  "old-church-slavonic#period": {
+   "hash": "b0b810a53563c72f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "old-church-slavonic#homeland": {
+   "hash": "bb8b86747559710d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic"
+   ]
+  },
+  "old-church-slavonic#attestation:ohrid-literary-school": {
+   "hash": "78b9af03d75cf53e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ohrid_Literary_School"
+   ],
+   "note": "'wrote first in Glagolitic and then in Cyrillic' was inaccurate: source says Glagolitic until the 12th century and Cyrillic from the end of the 9th century (overlapping)."
+  },
+  "old-church-slavonic#attestation:preslav-literary-school": {
+   "hash": "3992fd71ebd96b8f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Preslav_Literary_School"
+   ]
+  },
+  "old-church-slavonic#scripts": {
+   "hash": "c55e9a6d5c27489e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic"
+   ]
+  },
+  "old-church-slavonic#story:0": {
+   "hash": "0796555692fb434a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+    "https://en.wikipedia.org/wiki/Glagolitic_script"
+   ]
+  },
+  "old-church-slavonic#story:1": {
+   "hash": "acfc35e92dec5d62",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kiev_Missal",
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic"
+   ]
+  },
+  "old-church-slavonic#story:2": {
+   "hash": "3084f67a3ea38cbb",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ohrid_Literary_School",
+    "https://en.wikipedia.org/wiki/Preslav_Literary_School",
+    "https://en.wikipedia.org/wiki/Glagolitic_script",
+    "https://en.wikipedia.org/wiki/Ba%C5%A1ka_tablet"
+   ],
+   "note": "Unsupported 'as far south as Dalmatia without interruption into the 20th century' replaced by source-supported 'in Croatia and Dalmatia ... its liturgical use survived into the 20th century'."
+  },
+  "old-church-slavonic#note:0": {
+   "hash": "e1f9aee1033dd749",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "old-church-slavonic#note:1": {
+   "hash": "607b4cd14779b2a1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic",
+    "https://en.wikipedia.org/wiki/Church_Slavonic_language"
+   ],
+   "note": "Cited Skopets 2017 page is behind a bot wall and could not be read, so it was dropped as a source. The claims are supported by the two Wikipedia articles (OCS 9th-11th c. manuscripts; Church Slavonic liturgical use incl. Russian Orthodox and Greek Catholic churches)."
+  },
+  "serbo-croatian#identity": {
+   "hash": "5ed4a3c7811bb3be",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Serbo-Croatian",
+    "https://glottolog.org/resource/languoid/id/sout1528"
+   ]
+  },
+  "serbo-croatian#period": {
+   "hash": "0fe58d18dbe3ed34",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Serbo-Croatian",
+    "https://en.wikipedia.org/wiki/Ba%C5%A1ka_tablet"
+   ],
+   "note": "from 1100 -> 1050: Wikipedia dates the oldest texts to the 11th century, and the Baška tablet article lists the Plomin, Valun and Krk inscriptions as older than Baška; note rewritten."
+  },
+  "serbo-croatian#homeland": {
+   "hash": "5232933cc1ea034c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Serbo-Croatian"
+   ]
+  },
+  "serbo-croatian#attestation:baska-tablet": {
+   "hash": "ada491045afa1f72",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ba%C5%A1ka_tablet"
+   ]
+  },
+  "serbo-croatian#scripts": {
+   "hash": "55442c0325047d1e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Serbo-Croatian"
+   ]
+  },
+  "serbo-croatian#speakers": {
+   "hash": "67384fbe5a9e3814",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Serbo-Croatian"
+   ]
+  },
+  "serbo-croatian#story:0": {
+   "hash": "4ef02739593f5ce9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Serbo-Croatian"
+   ]
+  },
+  "serbo-croatian#story:1": {
+   "hash": "46918586e7a82e76",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Ba%C5%A1ka_tablet",
+    "https://en.wikipedia.org/wiki/Vienna_Literary_Agreement"
+   ]
+  },
+  "serbo-croatian#note:0": {
+   "hash": "eb922009ef4f261b",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/sout1528",
+    "https://en.wikipedia.org/wiki/Serbo-Croatian",
+    "https://glottolog.org/resource/languoid/id/sout1528.json"
+   ],
+   "note": "Glottolog lists the Bosnian, Croatian, Montenegrin and Serbian standards as dialect-level under sout1528."
+  },
+  "slovene#identity": {
+   "hash": "5a1e45131b5c4049",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovene_language",
+    "https://glottolog.org/resource/languoid/id/slov1268"
+   ]
+  },
+  "slovene#period": {
+   "hash": "b234f69449b39b06",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Freising_manuscripts"
+   ]
+  },
+  "slovene#homeland": {
+   "hash": "f8df35ac5de6ac8e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovene_language"
+   ]
+  },
+  "slovene#attestation:freising-manuscripts": {
+   "hash": "ff20750c86cf9ee7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Freising_manuscripts"
+   ]
+  },
+  "slovene#attestation:trubar-1550": {
+   "hash": "0636ea70de5dd825",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Primo%C5%BE_Trubar"
+   ]
+  },
+  "slovene#scripts": {
+   "hash": "35f01753ede3097d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovene_language"
+   ]
+  },
+  "slovene#speakers": {
+   "hash": "180252747ee9d925",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovene_language"
+   ]
+  },
+  "slovene#story:0": {
+   "hash": "0eaf4bc313a72294",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Freising_manuscripts"
+   ],
+   "note": "'found ... at Freising' -> 'codex from Freising': Wikipedia says the manuscripts were identified in Munich in 1807 after the codex came there in 1803."
+  },
+  "slovene#story:1": {
+   "hash": "7ae4f5dcb16975d6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovene_language",
+    "https://en.wikipedia.org/wiki/Primo%C5%BE_Trubar"
+   ]
+  },
+  "slovene#story:2": {
+   "hash": "2adc4dc6a1ef0286",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Slovene_language"
+   ]
+  },
+  "bulgarian#identity": {
+   "hash": "41f034da0d0a844b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bulgarian_language",
+    "https://glottolog.org/resource/languoid/id/bulg1262"
+   ]
+  },
+  "bulgarian#period": {
+   "hash": "8e09519e20118436",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bulgarian_language",
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic"
+   ]
+  },
+  "bulgarian#homeland": {
+   "hash": "3c3141eab20865e1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bulgarian_language"
+   ]
+  },
+  "bulgarian#scripts": {
+   "hash": "08d1c3ca9d42e8d3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bulgarian_language"
+   ]
+  },
+  "bulgarian#speakers": {
+   "hash": "976886d1bd7e0a15",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bulgarian_language"
+   ]
+  },
+  "bulgarian#story:0": {
+   "hash": "fc3f9aac8f70d89e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bulgarian_language"
+   ]
+  },
+  "bulgarian#story:1": {
+   "hash": "7d27d8f8da8dbe5e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Bulgarian_language"
+   ]
+  },
+  "macedonian#identity": {
+   "hash": "a6ab8797c8bb4fbd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Macedonian_language",
+    "https://glottolog.org/resource/languoid/id/mace1250"
+   ]
+  },
+  "macedonian#period": {
+   "hash": "b29ff4de34df34f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "macedonian#homeland": {
+   "hash": "b20a564a36dc981e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "macedonian#attestation:misirkov-1903": {
+   "hash": "76a1d3ba2bfc0db3",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Krste_Misirkov",
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ],
+   "note": "'first attempt to formalise a separate literary language' is in the Macedonian article, not the Misirkov article; added wp-macedonian source."
+  },
+  "macedonian#attestation:asnom-1944": {
+   "hash": "3c7bbb0268dc5602",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Anti-Fascist_Assembly_for_the_National_Liberation_of_Macedonia",
+    "https://latitude.to/articles-by-country/rs/serbia/87091/prohor-pcinjski"
+   ],
+   "note": "Point 42.33,21.9 matches the monastery (42.329,21.895), Klenike, Serbia."
+  },
+  "macedonian#scripts": {
+   "hash": "d18302ab33e92cdb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "macedonian#speakers": {
+   "hash": "c9b0d8661449f094",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "macedonian#story:0": {
+   "hash": "b789117d1aadc203",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ],
+   "note": "Removed unsupported claim that Macedonian is one of the only IE languages with a narrative mood (not in cited source); replaced with sourced note on Turkish loanwords."
+  },
+  "macedonian#story:1": {
+   "hash": "944b4bb5423f37a7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Krste_Misirkov",
+    "https://en.wikipedia.org/wiki/Anti-Fascist_Assembly_for_the_National_Liberation_of_Macedonia",
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "macedonian#note:0": {
+   "hash": "6f262d0f703f5cc2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+   ]
+  },
+  "proto-baltic#identity": {
+   "hash": "238e1c04c862c106",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Baltic_languages",
+    "https://glottolog.org/resource/languoid/id/balt1263.json"
+   ],
+   "note": "Glottolog Balto-Slavic tree has Eastern Baltic and Old Prussian directly under Balto-Slavic; no Baltic node, so null glottocode is correct."
+  },
+  "proto-baltic#period": {
+   "hash": "7b05c5f74c4862d1",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Baltic_languages"
+   ],
+   "note": "period.note now says the dates are approximate, follow the traditional view reported by Wikipedia, and that some scholars doubt a unified Proto-Baltic stage."
+  },
+  "proto-baltic#homeland": {
+   "hash": "5af623dc9f5e8afe",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Baltic_languages"
+   ]
+  },
+  "proto-baltic#story:0": {
+   "hash": "7f663f3e206b6761",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Baltic_languages"
+   ]
+  },
+  "proto-baltic#note:0": {
+   "hash": "ad513a2b353bef60",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Baltic_languages",
+    "https://glottolog.org/resource/languoid/id/balt1263",
+    "https://glottolog.org/resource/languoid/id/balt1263.json"
+   ],
+   "note": "Kortlandt 2009 and Derksen 2008 cited in the Baltic article; Glottolog tree checked."
+  },
+  "lithuanian#identity": {
+   "hash": "c423e067be9524c0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lithuanian_language",
+    "https://glottolog.org/resource/languoid/id/lith1251"
+   ]
+  },
+  "lithuanian#period": {
+   "hash": "1475efed97f54d90",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lithuanian_language"
+   ]
+  },
+  "lithuanian#homeland": {
+   "hash": "2a349667135f46e0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lithuanian_language"
+   ]
+  },
+  "lithuanian#attestation:mazvydas-catechism": {
+   "hash": "f196cc851718aa66",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Catechism_of_Martynas_Ma%C5%BEvydas"
+   ]
+  },
+  "lithuanian#scripts": {
+   "hash": "f964884c0977e64a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lithuanian_language"
+   ]
+  },
+  "lithuanian#speakers": {
+   "hash": "e95ff795600f4222",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lithuanian_language",
+    "https://www.ebsco.com/research-starters/language-and-linguistics/lithuanian-language"
+   ],
+   "note": "Wikipedia infobox shows Native speakers 4.0 million (2022), matching the data. Its cited EBSCO page says 'about four million people worldwide speak Lithuanian'; lead gives 2.8M native in Lithuania + c.1.5M elsewhere, consistent with L1."
+  },
+  "lithuanian#story:0": {
+   "hash": "5587bdc4d92afe08",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lithuanian_language"
+   ],
+   "note": "Removed the Meillet quotation (not in the cited source); replaced with sourced sentence on Latvian and PIE reconstruction to keep paragraph length."
+  },
+  "lithuanian#story:1": {
+   "hash": "76d7afec1f92d7c0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lithuanian_language",
+    "https://en.wikipedia.org/wiki/Catechism_of_Martynas_Ma%C5%BEvydas"
+   ]
+  },
+  "lithuanian#story:2": {
+   "hash": "aa3b660aead5b57b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lithuanian_language"
+   ]
+  },
+  "latvian#identity": {
+   "hash": "76e599edb27bf606",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latvian_language",
+    "https://glottolog.org/resource/languoid/id/latv1249"
+   ]
+  },
+  "latvian#period": {
+   "hash": "a3c3f0e698deb274",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latvian_language"
+   ]
+  },
+  "latvian#homeland": {
+   "hash": "8dcf490806296107",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latvian_language"
+   ]
+  },
+  "latvian#attestation:ramm-hymn-1530": {
+   "hash": "3c5967fb4f91950d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latvian_language"
+   ]
+  },
+  "latvian#scripts": {
+   "hash": "98211bec808cf30c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latvian_language"
+   ]
+  },
+  "latvian#speakers": {
+   "hash": "82761c99e6ff83fb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latvian_language"
+   ]
+  },
+  "latvian#story:0": {
+   "hash": "792d010c00fd8b88",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latvian_language"
+   ]
+  },
+  "latvian#story:1": {
+   "hash": "d4aa4a85ba67305a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Latvian_language"
+   ]
+  },
+  "old-prussian#identity": {
+   "hash": "699ba5a36e47110c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Prussian_language",
+    "https://glottolog.org/resource/languoid/id/prus1238"
+   ]
+  },
+  "old-prussian#period": {
+   "hash": "109271bbfdd1ce63",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Prussian_language"
+   ]
+  },
+  "old-prussian#homeland": {
+   "hash": "6d862c06afa998ac",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Prussian_language"
+   ]
+  },
+  "old-prussian#attestation:enchiridion-1561": {
+   "hash": "62addb2b9b7bd347",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Prussian_language"
+   ]
+  },
+  "old-prussian#scripts": {
+   "hash": "a1609b217573cbc4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Prussian_language"
+   ]
+  },
+  "old-prussian#story:0": {
+   "hash": "55f81b7a452c7bd6",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Prussian_language"
+   ]
+  },
+  "old-prussian#story:1": {
+   "hash": "5d777b722f886899",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Prussian_language"
+   ]
+  },
+  "old-prussian#note:0": {
+   "hash": "e543ad7ebd59dce8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Prussian_language"
+   ],
+   "note": "'families using it as a first language' overstated; source says 'a few children are native' in Revived Prussian. Rephrased."
+  }
+ },
+ "verifiedAt": "2026-11-23T21:05:51.707Z",
+ "verifier": "auditor-north-eurasia"
+}

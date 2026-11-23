@@ -1,0 +1,316 @@
+{
+ "file": "data/families/anatolian.json",
+ "claims": {
+  "anatolian#identity": {
+   "hash": "b037bf04d0f6b278",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/anat1257",
+    "https://en.wikipedia.org/wiki/Anatolian_languages"
+   ]
+  },
+  "anatolian#story:0": {
+   "hash": "d83c57bda551ac19",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Anatolian_languages",
+    "https://en.wikipedia.org/wiki/Hittite_language"
+   ]
+  },
+  "anatolian#story:1": {
+   "hash": "a26709658fa0d1d7",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Anatolian_languages",
+    "https://en.wikipedia.org/wiki/Hittite_language"
+   ],
+   "note": "Removed 'recovered from 1906 onwards' and the vowel-quality detail, which the cited pages do not state."
+  },
+  "anatolian#note:0": {
+   "hash": "1732a517b160ba77",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language"
+   ]
+  },
+  "anatolian#note:1": {
+   "hash": "38b30eb1d3e96890",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Anatolian_languages",
+    "https://en.wikipedia.org/wiki/Proto-Anatolian_language"
+   ]
+  },
+  "hittite#identity": {
+   "hash": "d614f400e9f88a02",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/hitt1242",
+    "https://en.wikipedia.org/wiki/Hittite_language",
+    "https://en.wikipedia.org/wiki/Anatolian_languages"
+   ]
+  },
+  "hittite#period": {
+   "hash": "2600f4698f3959b0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language",
+    "https://en.wikipedia.org/wiki/Luwian_language"
+   ],
+   "note": "End date changed from 1180 to c. 1200 BC (Wikipedia infobox end of attestation); note reworded."
+  },
+  "hittite#homeland": {
+   "hash": "b0dd95bb01c9fc13",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language",
+    "https://en.wikipedia.org/wiki/Anatolian_languages",
+    "https://en.wikipedia.org/wiki/K%C3%BCltepe"
+   ]
+  },
+  "hittite#attestation:kanesh-merchant-records": {
+   "hash": "6ddb38cca39f93c5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Anatolian_languages",
+    "https://en.wikipedia.org/wiki/Hittite_language",
+    "https://en.wikipedia.org/wiki/K%C3%BCltepe"
+   ]
+  },
+  "hittite#attestation:hattusa-archives": {
+   "hash": "5d5157520a51459c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language",
+    "https://en.wikipedia.org/wiki/Anatolian_languages",
+    "https://en.wikipedia.org/wiki/Hattusa"
+   ],
+   "note": "Removed 'mostly 13th century' and 'medical writings', not stated by sources."
+  },
+  "hittite#scripts": {
+   "hash": "725cc2b894833b7a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language"
+   ]
+  },
+  "hittite#story:0": {
+   "hash": "3b832b042008e841",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language",
+    "https://en.wikipedia.org/wiki/Anatolian_languages"
+   ],
+   "note": "Removed 'Assyrian merchants of the 20th and 19th centuries'; source says only that Hittite words and names appear in Akkadian documents at Kanesh from as early as the 20th century BC."
+  },
+  "hittite#story:1": {
+   "hash": "995213d1cffca86a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language"
+   ]
+  },
+  "hittite#story:2": {
+   "hash": "9cb0d0c9f2f585fc",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language",
+    "https://en.wikipedia.org/wiki/Anatolian_languages"
+   ],
+   "note": "Replaced Fortson stage dates (not in source) with the page's c. 1750-1500/1500-1430/1430-1180 BC; end of writing c. 1200 BC."
+  },
+  "hittite#work:anitta-text": {
+   "hash": "5adc9f6a67fb806c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Anitta_text",
+    "https://lrc.la.utexas.edu/eieol/hitol/10"
+   ],
+   "note": "Date 'Oldest copy c. late 17th - mid-16th century BCE' (year -1600) was not supported by any fetched source; changed to 'c. 1700 BCE' (year -1700), the dating given by the Anitta text article. Excerpt, translation and significance match the Hittite Online lesson and Wikipedia."
+  },
+  "luwian#identity": {
+   "hash": "8f536513b09fb81d",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/luvi1235",
+    "https://en.wikipedia.org/wiki/Luwian_language"
+   ]
+  },
+  "luwian#period": {
+   "hash": "221a2c1f61e3f2cb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Luwian_language"
+   ]
+  },
+  "luwian#homeland": {
+   "hash": "f99a292473dfe2d7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Luwian_language",
+    "https://en.wikipedia.org/wiki/Kizzuwatna"
+   ]
+  },
+  "luwian#attestation:karatepe-bilingual": {
+   "hash": "6ecdda6728ac64db",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Karatepe",
+    "https://en.wikipedia.org/wiki/Luwian_language"
+   ]
+  },
+  "luwian#scripts": {
+   "hash": "47cba9936a8482cf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Luwian_language"
+   ]
+  },
+  "luwian#story:0": {
+   "hash": "0fccb3615fe368e1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Luwian_language"
+   ]
+  },
+  "luwian#story:1": {
+   "hash": "5738cce0ca11f077",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Luwian_language",
+    "https://en.wikipedia.org/wiki/Karatepe"
+   ],
+   "note": "Removed 'of Syria' (Tabal and Milid are in Anatolia)."
+  },
+  "lydian#identity": {
+   "hash": "5b98ed3b3b713089",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/lydi1241",
+    "https://en.wikipedia.org/wiki/Lydian_language",
+    "https://en.wikipedia.org/wiki/Anatolian_languages"
+   ]
+  },
+  "lydian#period": {
+   "hash": "3433d80f65048ab3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lydian_language"
+   ]
+  },
+  "lydian#homeland": {
+   "hash": "c276643b89e30e37",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lydian_language",
+    "https://en.wikipedia.org/wiki/Sardis"
+   ]
+  },
+  "lydian#attestation:sardis-inscriptions": {
+   "hash": "514deb2e42482c2c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lydian_language",
+    "https://en.wikipedia.org/wiki/Sardis"
+   ],
+   "note": "'Nearly all' reworded to 'all but a few', per source."
+  },
+  "lydian#scripts": {
+   "hash": "33d39ccb35bdb5f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lydian_language"
+   ]
+  },
+  "lydian#story:0": {
+   "hash": "9659855a0dc4dfa8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lydian_language"
+   ]
+  },
+  "lydian#story:1": {
+   "hash": "ec7c01caf56d7148",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lydian_language"
+   ],
+   "note": "Softened 'sits awkwardly... features shared with no other' to source wording 'unique and problematic position'."
+  },
+  "lycian#identity": {
+   "hash": "dc2bb684abcca45c",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/lyci1241",
+    "https://en.wikipedia.org/wiki/Lycian_language",
+    "https://en.wikipedia.org/wiki/Anatolian_languages"
+   ]
+  },
+  "lycian#period": {
+   "hash": "e7d1dc4a95323afc",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lycian_language"
+   ]
+  },
+  "lycian#homeland": {
+   "hash": "e41cd2bb8d034ec4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lycian_language",
+    "https://en.wikipedia.org/wiki/Xanthos"
+   ]
+  },
+  "lycian#attestation:xanthos-coins": {
+   "hash": "365a88d1aab33fe0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lycian_language",
+    "https://en.wikipedia.org/wiki/Xanthos"
+   ]
+  },
+  "lycian#attestation:letoon-trilingual": {
+   "hash": "e0619676ac6f379b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Letoon_trilingual",
+    "https://en.wikipedia.org/wiki/Letoon"
+   ]
+  },
+  "lycian#scripts": {
+   "hash": "76a07ce57e850594",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lycian_language"
+   ]
+  },
+  "lycian#story:0": {
+   "hash": "3dfba4cd837632ce",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lycian_language"
+   ],
+   "note": "Removed unsupported 'mountainous coast'."
+  },
+  "lycian#story:1": {
+   "hash": "6c3ce53ef13acc3c",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lycian_language",
+    "https://en.wikipedia.org/wiki/Letoon_trilingual"
+   ],
+   "note": "Removed unsupported claim that progress followed Hittite decipherment."
+  },
+  "luwian#note:0": {
+   "hash": "589993067b1aa751",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/luvi1235",
+    "https://en.wikipedia.org/wiki/Luwian_language"
+   ],
+   "note": "New note added explaining the family-level Glottolog code luvi1235 (Cuneiform and Hieroglyphic Luwian are separate Glottolog languages, cune1239 and hier1240)."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:57:53.405Z",
+ "verifier": "auditor-east-ie"
+}

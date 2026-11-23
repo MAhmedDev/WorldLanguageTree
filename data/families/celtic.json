@@ -1,0 +1,1647 @@
+{
+  "family": {
+    "id": "celtic",
+    "name": "Celtic",
+    "root": "proto-celtic"
+  },
+  "sources": [
+    {
+      "id": "glotto-celt1248",
+      "title": "Glottolog 5.4: Celtic",
+      "url": "https://glottolog.org/resource/languoid/id/celt1248",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-tran1282",
+      "title": "Glottolog 5.4: Transalpine Gaulish",
+      "url": "https://glottolog.org/resource/languoid/id/tran1282",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-celt1247",
+      "title": "Glottolog 5.4: Celtiberian",
+      "url": "https://glottolog.org/resource/languoid/id/celt1247",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-prim1243",
+      "title": "Glottolog 5.4: Primitive Irish (4-6th century)",
+      "url": "https://glottolog.org/resource/languoid/id/prim1243",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldi1246",
+      "title": "Glottolog 5.4: Old Irish (8-9th century)",
+      "url": "https://glottolog.org/resource/languoid/id/oldi1246",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-midd1360",
+      "title": "Glottolog 5.4: Middle Irish (10-12th century)",
+      "url": "https://glottolog.org/resource/languoid/id/midd1360",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-iris1253",
+      "title": "Glottolog 5.4: Irish",
+      "url": "https://glottolog.org/resource/languoid/id/iris1253",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-scot1245",
+      "title": "Glottolog 5.4: Scottish Gaelic",
+      "url": "https://glottolog.org/resource/languoid/id/scot1245",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-manx1243",
+      "title": "Glottolog 5.4: Manx",
+      "url": "https://glottolog.org/resource/languoid/id/manx1243",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-bryt1239",
+      "title": "Glottolog 5.4: Brythonic",
+      "url": "https://glottolog.org/resource/languoid/id/bryt1239",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-oldw1241",
+      "title": "Glottolog 5.4: Old Welsh",
+      "url": "https://glottolog.org/resource/languoid/id/oldw1241",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-midd1363",
+      "title": "Glottolog 5.4: Middle Welsh",
+      "url": "https://glottolog.org/resource/languoid/id/midd1363",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-wels1247",
+      "title": "Glottolog 5.4: Welsh",
+      "url": "https://glottolog.org/resource/languoid/id/wels1247",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-corn1251",
+      "title": "Glottolog 5.4: Cornish",
+      "url": "https://glottolog.org/resource/languoid/id/corn1251",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "glotto-bret1244",
+      "title": "Glottolog 5.4: Breton",
+      "url": "https://glottolog.org/resource/languoid/id/bret1244",
+      "publisher": "Glottolog"
+    },
+    {
+      "id": "wp-proto-celtic",
+      "title": "Proto-Celtic language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Proto-Celtic_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-celtic-languages",
+      "title": "Celtic languages (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Celtic_languages",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "sims-williams-2020",
+      "title": "An Alternative to 'Celtic from the East' and 'Celtic from the West'",
+      "author": "Patrick Sims-Williams",
+      "year": 2020,
+      "publisher": "Cambridge Archaeological Journal 30(3)",
+      "url": "https://www.cambridge.org/core/product/identifier/S0959774320000098/type/journal_article"
+    },
+    {
+      "id": "wp-gaulish",
+      "title": "Gaulish (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gaulish",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-larzac",
+      "title": "Larzac tablet (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Larzac_tablet",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-coligny",
+      "title": "Coligny calendar (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Coligny_calendar",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-celtiberian",
+      "title": "Celtiberian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Celtiberian_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-botorrita",
+      "title": "Botorrita plaque (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Botorrita_plaque",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "jra-novallas",
+      "title": "The Novallas bronze tablet: An inscription in the Celtiberian language and the Latin alphabet from Spain",
+      "author": "Francisco Beltrán Lloris, Carlos Jordán Cólera, Borja Díaz Ariño, Ignacio Simón Cornago",
+      "year": 2021,
+      "publisher": "Journal of Roman Archaeology 34(2)",
+      "url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/novallas-bronze-tablet-an-inscription-in-the-celtiberian-language-and-the-latin-alphabet-from-spain/780074C0BFB10B6ADA1D308E30344449"
+    },
+    {
+      "id": "wp-primitive-irish",
+      "title": "Primitive Irish (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Primitive_Irish",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "heritage-ratass",
+      "title": "Ratass Church and Ogham Stone",
+      "publisher": "Heritage Ireland (Office of Public Works)",
+      "url": "https://heritageireland.ie/unguided-sites/ratass-church-and-ogham-stone/"
+    },
+    {
+      "id": "wp-ratass",
+      "title": "Ratass Church (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ratass_Church",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-irish",
+      "title": "Old Irish (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_Irish",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-book-of-armagh",
+      "title": "Book of Armagh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Armagh",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ecodices-csg904",
+      "title": "St. Gallen, Stiftsbibliothek, Cod. Sang. 904: Priscianus, Institutiones grammaticae",
+      "publisher": "e-codices – Virtual Manuscript Library of Switzerland",
+      "url": "https://www.e-codices.unifr.ch/en/list/one/csg/0904"
+    },
+    {
+      "id": "wp-middle-irish",
+      "title": "Middle Irish (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Middle_Irish",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-lebor-na-huidre",
+      "title": "Lebor na hUidre (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lebor_na_hUidre",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-book-of-leinster",
+      "title": "Book of Leinster (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Leinster",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-book-of-deer",
+      "title": "Book of Deer (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Deer",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-tain",
+      "title": "Táin Bó Cúailnge (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/T%C3%A1in_B%C3%B3_C%C3%BAailnge",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "celt-tain-ll",
+      "title": "Táin Bó Cúalnge from the Book of Leinster (CELT G301035)",
+      "author": "Cecile O'Rahilly (ed.)",
+      "publisher": "CELT: Corpus of Electronic Texts, University College Cork",
+      "url": "https://celt.ucc.ie/published/G301035.html"
+    },
+    {
+      "id": "mythopedia-dunn",
+      "title": "Táin Bó Cúailnge, trans. Joseph Dunn (1914): 1. The Pillow-talk",
+      "publisher": "Mythopedia",
+      "url": "https://mythopedia.com/library/tain-bo-cuailnge-dunn-1914/1-the-pillow-talk/"
+    },
+    {
+      "id": "ia-dunn",
+      "title": "The ancient Irish epic tale Táin bó Cúalnge, \"The Cualnge cattle-raid\"",
+      "author": "Joseph Dunn (trans.)",
+      "year": 1914,
+      "publisher": "David Nutt, London (Internet Archive scan)",
+      "url": "https://archive.org/details/ancientirishepic00dunnuoft"
+    },
+    {
+      "id": "wp-irish",
+      "title": "Irish language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Irish_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "cso-2022-irish",
+      "title": "Census of Population 2022 Profile 8: Irish Language and the Gaeltacht",
+      "publisher": "Central Statistics Office (Ireland)",
+      "year": 2023,
+      "url": "https://www.cso.ie/en/releasesandpublications/ep/p-cpp8/censusofpopulation2022profile8-theirishlanguageandeducation/irishlanguageandthegaeltacht/"
+    },
+    {
+      "id": "wp-four-masters",
+      "title": "Annals of the Four Masters (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Annals_of_the_Four_Masters",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "tcd-four-masters",
+      "title": "The Annals of the Four Masters reunited for first time since 1636",
+      "publisher": "Trinity College Dublin",
+      "url": "https://www.tcd.ie/news_events/articles/the-annals-of-the-four-masters-reunited-for-first-time-since-1636-in-landmark-exhibition/"
+    },
+    {
+      "id": "wp-scottish-gaelic",
+      "title": "Scottish Gaelic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Scottish_Gaelic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "govscot-gaelic",
+      "title": "Gaelic",
+      "publisher": "Scottish Government",
+      "url": "https://www.gov.scot/policies/languages/gaelic/"
+    },
+    {
+      "id": "wp-dean-of-lismore",
+      "title": "Book of the Dean of Lismore (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Book_of_the_Dean_of_Lismore",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-manx",
+      "title": "Manx language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Manx_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-john-phillips",
+      "title": "John Phillips (bishop of Sodor and Man) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/John_Phillips_(bishop_of_Sodor_and_Man)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-common-brittonic",
+      "title": "Common Brittonic (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Common_Brittonic",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-old-welsh",
+      "title": "Old Welsh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Old_Welsh",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-juvencus",
+      "title": "Juvencus Manuscript (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Juvencus_Manuscript",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-middle-welsh",
+      "title": "Middle Welsh (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Middle_Welsh",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-white-book",
+      "title": "White Book of Rhydderch (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/White_Book_of_Rhydderch",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-red-book",
+      "title": "Red Book of Hergest (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Red_Book_of_Hergest",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-mabinogion",
+      "title": "Mabinogion (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mabinogion",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ws-pwyll-cy",
+      "title": "Pwyll Pendeuic Dyuet",
+      "publisher": "Wicidestun (Welsh Wikisource)",
+      "url": "https://cy.wikisource.org/wiki/Pwyll_Pendeuic_Dyuet"
+    },
+    {
+      "id": "st-guest-pwyll",
+      "title": "The Mabinogion: Pwyll Prince of Dyved, trans. Lady Charlotte Guest (1877)",
+      "publisher": "Internet Sacred Text Archive",
+      "url": "https://sacred-texts.com/neu/celt/mab/mab20.htm"
+    },
+    {
+      "id": "wp-welsh",
+      "title": "Welsh language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Welsh_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ons-welsh-2021",
+      "title": "Welsh language in Wales (Census 2021)",
+      "publisher": "Office for National Statistics",
+      "year": 2022,
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/welshlanguagewales/census2021"
+    },
+    {
+      "id": "nlw-1588-bible",
+      "title": "1588 Welsh Bible",
+      "publisher": "National Library of Wales",
+      "url": "https://www.library.wales/discover/digital-gallery/printed-material/1588-welsh-bible/"
+    },
+    {
+      "id": "nt-william-morgan",
+      "title": "History of Bishop William Morgan",
+      "publisher": "National Trust (Tŷ Mawr Wybrnant)",
+      "url": "https://www.nationaltrust.org.uk/visit/wales/ty-mawr-wybrnant/history-of-bishop-william-morgan"
+    },
+    {
+      "id": "wp-cornish",
+      "title": "Cornish language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cornish_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-ordinalia",
+      "title": "Ordinalia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ordinalia",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-bodmin",
+      "title": "Bodmin manumissions (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bodmin_manumissions",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "bl-bodmin-gospels",
+      "title": "Gospel-book with added Cornish records of manumissions ('The Bodmin Gospels'), Add MS 9381",
+      "publisher": "British Library",
+      "url": "https://searcharchives.bl.uk/catalog/032-002737386"
+    },
+    {
+      "id": "wp-breton",
+      "title": "Breton language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Breton_language",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "wp-catholicon",
+      "title": "Catholicon (trilingual dictionary) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Catholicon_(trilingual_dictionary)",
+      "publisher": "Wikipedia"
+    },
+    {
+      "id": "ubo-breton-2025",
+      "title": "Dossier de presse: Mois du breton 2025",
+      "publisher": "Université de Bretagne Occidentale",
+      "year": 2025,
+      "url": "https://univ-brest.fr/sites/nouveau.univ-brest.fr/files/2025-03/Ubo-dp-mois-du-breton-2025.pdf"
+    },
+    {
+      "id": "ia-windisch-1905",
+      "title": "Die altirische Heldensage Táin Bó Cúalnge nach dem Buch von Leinster (text of the Book of Leinster)",
+      "author": "Ernst Windisch (ed.)",
+      "year": 1905,
+      "publisher": "S. Hirzel, Leipzig (Internet Archive scan)",
+      "url": "https://archive.org/details/diealtirischehel00wind"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-celtic",
+      "name": "Proto-Celtic",
+      "glottocode": "celt1248",
+      "parent": "proto-indo-european",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-proto-celtic",
+        "glotto-celt1248"
+      ],
+      "period": {
+        "from": -1300,
+        "to": -800,
+        "approx": true,
+        "note": "Generally thought to have been spoken between about 1300 and 800 BCE, after which it began to split into separate languages.",
+        "sources": [
+          "wp-proto-celtic"
+        ]
+      },
+      "homeland": {
+        "lat": 48.0,
+        "lng": 10.0,
+        "label": "West-central Europe (area of the Urnfield and Hallstatt cultures)",
+        "sources": [
+          "wp-proto-celtic",
+          "wp-gaulish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Proto-Celtic, also called Common Celtic, is the reconstructed ancestor of every known Celtic language. No text in it survives. Linguists rebuild it with the comparative method, relying mainly on Old Irish and Middle Welsh, because the ancient Continental languages such as Gaulish and Celtiberian are recorded too scantily. It is generally thought to have been spoken between about 1300 and 800 BCE, and it is often associated with the Urnfield culture and particularly with the Hallstatt culture.",
+          "sources": [
+            "wp-proto-celtic"
+          ]
+        },
+        {
+          "text": "A reconstructable word for iron, *īsarnom, has long been read as a sign that the Celtic languages did not separate until the Iron Age, since otherwise the daughter languages might have coined unrelated words for the metal. Some scholars, including Schumacher and Schrijver, place Proto-Celtic as early as the 13th century BCE. Celtic also shares sound changes with the Italic languages that are cited in support of an earlier Italo-Celtic unity.",
+          "sources": [
+            "wp-proto-celtic"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "How the family first split is disputed. Cowgill, McCone and Schrijver treat the primary division as Continental Celtic versus Insular Celtic (Goidelic plus Brittonic), and this has been the more widely held view since the 1970s. Others, such as Lambert after the 1983 find of the Larzac tablet, prefer a P-Celtic versus Q-Celtic division based on the outcome of the old *kʷ sound, which groups Gaulish with Brittonic.",
+          "sources": [
+            "wp-celtic-languages",
+            "wp-proto-celtic"
+          ]
+        },
+        {
+          "text": "Where Celtic began is also debated. One long-standing view links Proto-Celtic with central Europe and the Urnfield and Hallstatt cultures. The 'Celtic from the West' hypothesis, explored in volumes on Atlantic Europe in the Metal Ages, looks instead to the Atlantic west and draws on south-western Iberian inscriptions. Patrick Sims-Williams has criticised both 'Celtic from the East' and 'Celtic from the West' and argues that a spread of Celtic from France in the first millennium BCE explains the evidence more simply.",
+          "sources": [
+            "sims-williams-2020",
+            "wp-proto-celtic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaulish",
+      "name": "Gaulish",
+      "glottocode": "tran1282",
+      "iso639_3": "xtg",
+      "parent": "proto-celtic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-gaulish",
+        "glotto-tran1282"
+      ],
+      "period": {
+        "from": -300,
+        "to": 500,
+        "approx": true,
+        "note": "Dated from its first inscriptions (Cisalpine Gaul, 4th–3rd centuries BCE; Greek-alphabet texts around Massalia from the 3rd century BCE). Its disappearance is estimated around or after the middle of the 1st millennium CE.",
+        "sources": [
+          "wp-gaulish"
+        ]
+      },
+      "homeland": {
+        "lat": 46.8,
+        "lng": 3.0,
+        "label": "Gaul (modern France)",
+        "sources": [
+          "wp-gaulish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "larzac-tablet",
+          "year": 100,
+          "approx": true,
+          "lat": 43.9786,
+          "lng": 3.2128,
+          "place": "L'Hospitalet-du-Larzac, Aveyron, France",
+          "description": "A lead curse tablet in Roman cursive, dated to about 100 CE and found in a grave in 1983; with more than 1,000 letters it is the longest preserved Gaulish text.",
+          "sources": [
+            "wp-larzac",
+            "wp-gaulish"
+          ]
+        },
+        {
+          "id": "coligny-calendar",
+          "year": 150,
+          "approx": true,
+          "lat": 46.3831,
+          "lng": 5.3478,
+          "place": "Coligny, Ain, France",
+          "description": "A bronze plaque of the 2nd century CE, found in 1897, laying out a five-year Gaulish lunisolar calendar with Gaulish month names and Roman numerals.",
+          "sources": [
+            "wp-coligny",
+            "wp-gaulish"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Old Italic (Lugano alphabet)",
+            "code": "Ital"
+          },
+          {
+            "name": "Greek",
+            "code": "Grek"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-gaulish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Gaulish was the Celtic language of the tribes of Gaul, roughly modern France and neighbouring lands up to the Rhine, before and during Roman rule. It is known from hundreds of short inscriptions on religious monuments, coins, stamps and spindle whorls, and from a smaller number of longer texts such as curse tablets, accounting records and the Coligny calendar. Its legacy survives in place names such as Paris and the River Seine.",
+          "sources": [
+            "wp-gaulish"
+          ]
+        },
+        {
+          "text": "In Cisalpine Gaul, in northern Italy, Gaulish was written in an Old Italic alphabet after the Gaulish invasions of the 4th to 3rd centuries BCE, and around Massalia it appears in the Greek alphabet from the 3rd century BCE. After the Gallic Wars it was written in Roman capitals and cursive. Latin gradually displaced it: in a letter of 474 CE Sidonius Apollinaris recalled nobles resolving to forsake 'the barbarous Celtic dialect'.",
+          "sources": [
+            "wp-gaulish"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Glottolog has no single Gaulish languoid. It lists Cisalpine Gaulish (northern Italy) and Transalpine Gaulish (Gaul) separately, and this entry uses the Transalpine code, tran1282.",
+          "sources": [
+            "glotto-tran1282"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "celtiberian",
+      "name": "Celtiberian",
+      "glottocode": "celt1247",
+      "iso639_3": "xce",
+      "parent": "proto-celtic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-celtiberian",
+        "glotto-celt1247"
+      ],
+      "period": {
+        "from": -200,
+        "to": 200,
+        "approx": true,
+        "note": "Dated from its first direct attestation in the 2nd century BCE; it is believed to have died out before or around 200 CE.",
+        "sources": [
+          "wp-celtiberian"
+        ]
+      },
+      "homeland": {
+        "lat": 41.5,
+        "lng": -2.2,
+        "label": "Celtiberia, around the Iberian System (north-east-central Spain)",
+        "sources": [
+          "wp-celtiberian"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "botorrita-plaques",
+          "year": -100,
+          "approx": true,
+          "lat": 41.5069,
+          "lng": -1.0322,
+          "place": "Botorrita (ancient Contrebia Belaisca), near Zaragoza, Spain",
+          "description": "Bronze plaques in the Celtiberian script, dated between the late 2nd and early 1st century BCE; Botorrita I, found in 1970, is the longest Celtiberian inscription.",
+          "sources": [
+            "wp-botorrita",
+            "jra-novallas"
+          ]
+        },
+        {
+          "id": "novallas-bronze",
+          "year": -20,
+          "approx": true,
+          "lat": 41.9436,
+          "lng": -1.6939,
+          "place": "Novallas, Zaragoza, Spain",
+          "description": "A fragment of a public document of the last decades of the 1st century BCE, in Celtiberian but written in Latin capitals: the longest Celtiberian text in the Latin alphabet.",
+          "sources": [
+            "jra-novallas"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Celtiberian script (north-eastern Palaeohispanic; no ISO 15924 code)",
+            "code": "Zzzz"
+          },
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-celtiberian"
+        ]
+      },
+      "story": [
+        {
+          "text": "Celtiberian was spoken by the Celtiberians in the interior of the Iberian Peninsula, in the region around the Iberian System between the headwaters of the Douro, Tagus, Júcar and Turia rivers and the Ebro. It is known directly from nearly 200 inscriptions and 300 smaller records, dated from the 2nd century BCE to the 1st century CE and written mainly in the Celtiberian script, an adaptation of the north-eastern Iberian script, but also in the Latin alphabet.",
+          "sources": [
+            "wp-celtiberian"
+          ]
+        },
+        {
+          "text": "The language keeps archaic features lost elsewhere in Celtic, such as a fully inflected relative pronoun, ios. The longest inscriptions are bronze plaques from Botorrita near Zaragoza, dating to the early 1st century BCE. One of the latest, the Novallas bronze, is a public text of the late 1st century BCE in Latin capitals. The last texts date from the late 1st century CE, and the language is believed to have died out before or around 200 CE.",
+          "sources": [
+            "wp-celtiberian",
+            "jra-novallas"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Under the P/Q-Celtic scheme Celtiberian is classed as Q-Celtic, alongside Goidelic. Under the Insular/Continental scheme it is sometimes grouped with Gaulish as Continental Celtic, but that grouping is paraphyletic: no evidence shows the two sharing any innovation apart from Insular Celtic. Ranko Matasović regards Celtiberian as almost certainly an independent branch that separated from the others very early.",
+          "sources": [
+            "wp-celtiberian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primitive-irish",
+      "name": "Primitive Irish",
+      "glottocode": "prim1243",
+      "iso639_3": "pgl",
+      "parent": "proto-celtic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-primitive-irish",
+        "glotto-prim1243"
+      ],
+      "period": {
+        "from": 300,
+        "to": 600,
+        "approx": true,
+        "note": "Known from Ogham inscriptions of the 4th to 6th centuries CE; it evolved into Old Irish around the 6th century.",
+        "sources": [
+          "wp-primitive-irish"
+        ]
+      },
+      "homeland": {
+        "lat": 53.4,
+        "lng": -8.0,
+        "label": "Ireland",
+        "sources": [
+          "wp-primitive-irish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "ratass-ogham-stone",
+          "year": 575,
+          "approx": true,
+          "lat": 52.267,
+          "lng": -9.682,
+          "place": "Ratass Church, Tralee, County Kerry, Ireland",
+          "description": "A 6th-century Ogham stone (estimated c. 550–600) reading [A]NM SILLANN MAQ VATTILLOGG, '[in the] name of Sílán son of Fáithloga'; it was uncovered in 1975.",
+          "sources": [
+            "heritage-ratass",
+            "wp-ratass"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Ogham",
+            "code": "Ogam"
+          }
+        ],
+        "sources": [
+          "wp-primitive-irish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Primitive Irish is the oldest known form of the Goidelic languages and the ancestor of all of them. It survives only in fragments, mostly personal names, cut in the Ogham alphabet on stones in Ireland and western Britain between the 4th and 6th centuries CE. Ogham letters are groups of one to five strokes or notches set against a stem-line, normally the edge of the stone, and are usually read upwards from the lower left.",
+          "sources": [
+            "wp-primitive-irish"
+          ]
+        },
+        {
+          "text": "More than 300 Ogham inscriptions are known in Ireland, including 121 in County Kerry and 81 in County Cork, and more than 75 in western Britain and the Isle of Man, including more than 40 in Wales, where Irish colonists settled in the 3rd century. Most are memorials naming the dead in the genitive, followed by MAQI, '[the stone] of the son', and the father's name, as in DALAGNI MAQI DALI.",
+          "sources": [
+            "wp-primitive-irish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-irish",
+      "name": "Old Irish",
+      "nativeName": "Goídelc",
+      "nativeScript": "Latn",
+      "glottocode": "oldi1246",
+      "iso639_3": "sga",
+      "parent": "primitive-irish",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-irish",
+        "glotto-oldi1246"
+      ],
+      "period": {
+        "from": 600,
+        "to": 900,
+        "approx": true,
+        "note": "Used from about 600 to about 900; the main contemporary texts date from about 700 to 850.",
+        "sources": [
+          "wp-old-irish"
+        ]
+      },
+      "homeland": {
+        "lat": 53.4,
+        "lng": -8.0,
+        "label": "Ireland",
+        "sources": [
+          "wp-old-irish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "wurzburg-glosses",
+          "year": 800,
+          "approx": true,
+          "lat": 49.7913,
+          "lng": 9.9534,
+          "place": "Würzburg, Germany",
+          "description": "The Würzburg Glosses, mainly on the Pauline Epistles, are one of the important Continental collections of Old Irish glosses from the 8th and 9th centuries.",
+          "sources": [
+            "wp-old-irish"
+          ]
+        },
+        {
+          "id": "book-of-armagh",
+          "year": 807,
+          "approx": true,
+          "lat": 54.3503,
+          "lng": -6.6528,
+          "place": "Armagh, Ireland",
+          "description": "The Book of Armagh, begun in 807 or 808 by the scribe Ferdomnach for the abbot of Armagh, contains some of the oldest surviving specimens of Old Irish.",
+          "sources": [
+            "wp-book-of-armagh"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Ogham",
+            "code": "Ogam"
+          }
+        ],
+        "sources": [
+          "wp-old-irish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Irish, which called itself Goídelc, is the oldest form of Gaelic with extensive written texts. It was used from about 600 to about 900 CE and is the direct ancestor of Irish, Scottish Gaelic and Manx. It preserves much of the complex Indo-European system of inflection, with three genders, three numbers and five cases, and it developed grammatically significant mutations of the first consonant of a word.",
+          "sources": [
+            "wp-old-irish"
+          ]
+        },
+        {
+          "text": "Much contemporary Old Irish survives as glosses written in the margins and between the lines of Latin manuscripts, many preserved in monasteries in Germany, Italy, Switzerland, France and Austria after Irish missionaries took them there. A copy of Priscian's Latin grammar, written in an Irish scriptorium around 845–851 and now at St Gallen, carries over 9,000 glosses, 3,478 of them in Old Irish.",
+          "sources": [
+            "wp-old-irish",
+            "ecodices-csg904"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "middle-irish",
+      "name": "Middle Irish",
+      "nativeName": "Gaoidhealg",
+      "nativeScript": "Latn",
+      "glottocode": "midd1360",
+      "iso639_3": "mga",
+      "parent": "old-irish",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-middle-irish",
+        "glotto-midd1360"
+      ],
+      "period": {
+        "from": 900,
+        "to": 1200,
+        "approx": true,
+        "sources": [
+          "wp-middle-irish"
+        ]
+      },
+      "homeland": {
+        "lat": 53.4,
+        "lng": -8.0,
+        "label": "Ireland",
+        "sources": [
+          "wp-middle-irish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "lebor-na-huidre",
+          "year": 1100,
+          "approx": true,
+          "lat": 53.3264,
+          "lng": -7.9867,
+          "place": "Clonmacnoise, County Offaly, Ireland",
+          "description": "Lebor na hUidre (the Book of the Dun Cow), written at Clonmacnoise before 1106, is the oldest surviving manuscript in Irish.",
+          "sources": [
+            "wp-lebor-na-huidre"
+          ]
+        },
+        {
+          "id": "book-of-deer-notes",
+          "year": 1130,
+          "approx": true,
+          "lat": 57.5167,
+          "lng": -2.0333,
+          "place": "Old Deer, Aberdeenshire, Scotland",
+          "description": "Gaelic notes added in the early 12th century to the Book of Deer, recording the founding of the monastery at Deer and its land grants: the earliest surviving Gaelic writing from Scotland.",
+          "sources": [
+            "wp-book-of-deer"
+          ]
+        },
+        {
+          "id": "book-of-leinster",
+          "year": 1160,
+          "approx": true,
+          "lat": 53.0544,
+          "lng": -8.1983,
+          "place": "Terryglass, County Tipperary, Ireland",
+          "description": "The Book of Leinster, compiled around 1160 probably by Áed Ua Crimthainn, abbot of Terryglass; it contains the Middle Irish recension of the Táin Bó Cúailnge.",
+          "sources": [
+            "wp-book-of-leinster",
+            "celt-tain-ll",
+            "wp-tain"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin (Gaelic/Insular hand)",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-middle-irish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Middle Irish, also called Middle Gaelic, is the Goidelic language spoken in Ireland, most of Scotland and the Isle of Man from about 900 to 1200, which makes it a contemporary of late Old English and early Middle English. The oldest surviving Gaelic writing from Scotland belongs to this period: notes added in the early 12th century to the Book of Deer, a Gospel book thought to have been at Deer in Aberdeenshire.",
+          "sources": [
+            "wp-middle-irish",
+            "wp-book-of-deer"
+          ]
+        },
+        {
+          "text": "Two great manuscripts of the period preserve much of early Irish literature. Lebor na hUidre, written at Clonmacnoise before 1106, is the oldest surviving manuscript in Irish and holds the oldest version of the Táin Bó Cúailnge. The Book of Leinster, compiled around 1160, probably by Áed Ua Crimthainn, abbot of Terryglass, is now kept at Trinity College Dublin.",
+          "sources": [
+            "wp-lebor-na-huidre",
+            "wp-book-of-leinster"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "tain-bo-cuailnge",
+          "title": "Táin Bó Cúailnge (The Cattle Raid of Cooley)",
+          "titleOriginal": "Táin Bó Cúalnge",
+          "author": "Anonymous",
+          "date": "Book of Leinster recension, c. 1160",
+          "year": 1160,
+          "significance": "The central text of the Ulster Cycle, often called 'the Irish Iliad' and considered Ireland's national epic. Its second recension, preserved in the Book of Leinster, is a more consistent work in Middle Irish.",
+          "original": "Fect n-oen do Ailill 7 do Meidb, íar n-dergud a rígleptha doib i Cruachanráith Chonnacht, arrecaim comrad chind-cherchailli etirru. Fírbríathar, a ingen, bar Ailill, is maith ben ben dagfir. Maith omm, bar ind ingen. Cid diatá lat-su ón.",
+          "originalScript": "Latn",
+          "translation": "Once of a time, that Ailill and Medb had spread their royal bed in Cruachan, the stronghold of Connacht, such was the pillow-talk that befell betwixt them: Quoth Ailill: “True is the saying, lady, ‘She is a well-off woman that is a rich man’s wife.’” “Aye,that she is,” answered the wife; “but wherefore opin’st thou so?”",
+          "translator": "Joseph Dunn",
+          "translationYear": 1914,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://archive.org/details/ancientirishepic00dunnuoft",
+          "sources": [
+            "wp-tain",
+            "ia-windisch-1905",
+            "mythopedia-dunn",
+            "ia-dunn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irish",
+      "name": "Irish",
+      "nativeName": "Gaeilge",
+      "nativeScript": "Latn",
+      "glottocode": "iris1253",
+      "iso639_3": "gle",
+      "parent": "middle-irish",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-irish",
+        "glotto-iris1253"
+      ],
+      "period": {
+        "from": 1200,
+        "to": null,
+        "approx": true,
+        "note": "Middle Irish is dated to c. 900–1200; the following stage (Early Modern Irish or Classical Gaelic) is dated from about 1200.",
+        "sources": [
+          "wp-middle-irish"
+        ]
+      },
+      "homeland": {
+        "lat": 53.4,
+        "lng": -8.0,
+        "label": "Ireland",
+        "sources": [
+          "wp-irish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "annals-of-the-four-masters",
+          "year": 1632,
+          "approx": false,
+          "lat": 54.47,
+          "lng": -8.27,
+          "place": "Bundrowes, near Bundoran, County Donegal, Ireland",
+          "description": "Irish Franciscans led by Mícheál Ó Cléirigh began compiling the Annals of the Four Masters (Annála Ríoghachta Éireann) at the friary of Bundrowes in 1632; the work was completed in 1636.",
+          "sources": [
+            "tcd-four-masters",
+            "wp-four-masters"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          },
+          {
+            "name": "Ogham (historically)",
+            "code": "Ogam"
+          }
+        ],
+        "sources": [
+          "wp-irish"
+        ]
+      },
+      "speakers": {
+        "count": 1873997,
+        "year": 2022,
+        "scope": "L1+L2",
+        "sources": [
+          "cso-2022-irish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Irish (Gaeilge) is the Celtic language of the island of Ireland. Its writing goes back to Ogham, dating to at least the 4th century CE, which was gradually replaced by the Latin script from the 5th century, and Irish has one of the oldest vernacular literatures in Western Europe. It has three major dialects, Connacht, Munster and Ulster, and the Constitution recognises it as the national and first official language of the Republic of Ireland.",
+          "sources": [
+            "wp-irish"
+          ]
+        },
+        {
+          "text": "In the first half of the 19th century there were still around three million people for whom Irish was the primary language, but English became the language of social advancement. One estimate puts monoglot Irish speakers at 800,000 in 1800, 320,000 by the end of the Famine and under 17,000 by 1911. The Gaelic League, founded in 1893 by Eoin MacNeill and others with Douglas Hyde as its first president, campaigned to restore Irish to everyday life.",
+          "sources": [
+            "wp-irish"
+          ]
+        },
+        {
+          "text": "In the 2022 census 1,873,997 people aged three and over said they could speak Irish, but many used it rarely or only in school, and just 71,968 spoke it daily outside the education system. Irish remains a community language in the Gaeltacht regions, where 2% of the population of Ireland lived in 2022.",
+          "sources": [
+            "cso-2022-irish",
+            "wp-irish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scottish-gaelic",
+      "name": "Scottish Gaelic",
+      "nativeName": "Gàidhlig",
+      "nativeScript": "Latn",
+      "glottocode": "scot1245",
+      "iso639_3": "gla",
+      "parent": "middle-irish",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-scottish-gaelic",
+        "glotto-scot1245"
+      ],
+      "period": {
+        "from": 1200,
+        "to": null,
+        "approx": true,
+        "note": "Became a distinct spoken language sometime in the 13th century; a common literary language was shared with Ireland until well into the 17th century.",
+        "sources": [
+          "wp-scottish-gaelic"
+        ]
+      },
+      "homeland": {
+        "lat": 56.2,
+        "lng": -5.3,
+        "label": "Western Scotland (Argyll, the former kingdom of Dál Riata)",
+        "sources": [
+          "wp-scottish-gaelic"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "book-of-the-dean-of-lismore",
+          "year": 1520,
+          "approx": true,
+          "lat": 56.5985,
+          "lng": -4.0507,
+          "place": "Fortingall, Perthshire, Scotland",
+          "description": "The Book of the Dean of Lismore, compiled in eastern Perthshire in the first half of the 16th century chiefly by James MacGregor, vicar of Fortingall, writes Gaelic verse in a spelling based on that of Lowland Scots.",
+          "sources": [
+            "wp-dean-of-lismore"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-scottish-gaelic"
+        ]
+      },
+      "speakers": {
+        "count": 69701,
+        "year": 2022,
+        "scope": "L1+L2",
+        "sources": [
+          "govscot-gaelic"
+        ]
+      },
+      "story": [
+        {
+          "text": "Scottish Gaelic (Gàidhlig) developed, like Irish and Manx, out of Old Irish. It became a distinct spoken language sometime in the 13th century, although the Gaels of Ireland and Scotland shared a common literary language until well into the 17th century. It has commonly been believed that Gaelic was brought to Scotland in the 4th and 5th centuries by settlers from Ireland who founded the kingdom of Dál Riata in what is now Argyll.",
+          "sources": [
+            "wp-scottish-gaelic"
+          ]
+        },
+        {
+          "text": "The Book of the Dean of Lismore, compiled in Perthshire in the first half of the 16th century, records Gaelic verse in a spelling based on Lowland Scots and includes poems by at least four women. Most of modern Scotland was once Gaelic-speaking, as place names show. In Scotland's 2022 census, 69,701 people could speak Gaelic and 130,161 had some skill in it.",
+          "sources": [
+            "wp-dean-of-lismore",
+            "wp-scottish-gaelic",
+            "govscot-gaelic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manx",
+      "name": "Manx",
+      "nativeName": "Gaelg",
+      "nativeScript": "Latn",
+      "glottocode": "manx1243",
+      "iso639_3": "glv",
+      "parent": "middle-irish",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-manx",
+        "glotto-manx1243"
+      ],
+      "period": {
+        "from": 1400,
+        "to": null,
+        "approx": true,
+        "note": "Middle Irish was spoken on the Isle of Man until about 1200; Manx diverged considerably from the Gaelic of Ireland and Scotland between 1400 and 1900. The last speaker raised in a Manx-speaking community died in 1974, but the language has been revived.",
+        "sources": [
+          "wp-manx",
+          "wp-middle-irish"
+        ]
+      },
+      "homeland": {
+        "lat": 54.23,
+        "lng": -4.53,
+        "label": "Isle of Man",
+        "sources": [
+          "wp-manx"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "phillips-prayer-book",
+          "year": 1610,
+          "approx": false,
+          "lat": 54.23,
+          "lng": -4.53,
+          "place": "Isle of Man",
+          "description": "John Phillips, Bishop of Sodor and Man, translated the Book of Common Prayer into Manx in 1610: the first dateable text in Manx. It was not published at the time.",
+          "sources": [
+            "wp-john-phillips"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-manx"
+        ]
+      },
+      "story": [
+        {
+          "text": "Manx (Gaelg) is the Gaelic language of the Isle of Man, descended, like Irish and Scottish Gaelic, from Old Irish. Middle Irish was spoken on the island by the 10th century, and between 1400 and 1900 Manx diverged considerably from the Gaelic of Ireland and Scotland, helped by its own spelling system. The first dateable Manx text is Bishop John Phillips's translation of the Book of Common Prayer, made in 1610, and a complete Manx Bible was printed in 1775.",
+          "sources": [
+            "wp-manx",
+            "wp-old-irish",
+            "wp-john-phillips"
+          ]
+        },
+        {
+          "text": "English displaced Manx during the 19th century: 9.1% of islanders claimed to speak it in the 1901 census and 1.1% in 1921. Ned Maddrell, considered the last speaker to grow up in a Manx-speaking community, died on 27 December 1974. By then a revival had begun, helped by a well-recorded language. UNESCO declared Manx extinct in 2009 but has since reclassified it as critically endangered.",
+          "sources": [
+            "wp-manx"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-brittonic",
+      "name": "Common Brittonic",
+      "glottocode": "bryt1239",
+      "parent": "proto-celtic",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": [
+        "wp-common-brittonic",
+        "glotto-bryt1239"
+      ],
+      "period": {
+        "from": -600,
+        "to": 550,
+        "approx": true,
+        "note": "Dated c. 6th century BCE to the mid-6th century CE, when it was diverging into Welsh, Cumbric, Cornish and Breton.",
+        "sources": [
+          "wp-common-brittonic"
+        ]
+      },
+      "homeland": {
+        "lat": 52.5,
+        "lng": -1.8,
+        "label": "Britain",
+        "sources": [
+          "wp-common-brittonic"
+        ]
+      },
+      "story": [
+        {
+          "text": "Common Brittonic, also called British or Proto-Brittonic, is the reconstructed Celtic language thought to have been spoken by the Celtic Britons, and the common ancestor of Welsh, Cornish, Breton and the extinct Cumbric. No documents in it survive. It is known from place names recorded by Ptolemy, from tribal and personal names written down by Greeks and Romans, and from a few inscriptions, such as a possible curse on a metal pendant found at Bath in 1979.",
+          "sources": [
+            "wp-common-brittonic"
+          ]
+        },
+        {
+          "text": "Tacitus, in his Agricola, says the language differed little from that of Gaul. During the Roman period it absorbed Latin words, especially for the church and Christianity. By the 6th century CE it was quickly diverging into Welsh, Cumbric, Cornish and Breton, and over the next three centuries it was replaced by Old English across most of England and by Gaelic in most of Scotland.",
+          "sources": [
+            "wp-common-brittonic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-welsh",
+      "name": "Old Welsh",
+      "glottocode": "oldw1241",
+      "iso639_3": "owl",
+      "parent": "common-brittonic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-old-welsh",
+        "glotto-oldw1241"
+      ],
+      "period": {
+        "from": 800,
+        "to": 1100,
+        "approx": true,
+        "note": "From about 800 until the early 12th century, when it developed into Middle Welsh. The preceding stage, from about 550, is sometimes called Primitive or Archaic Welsh.",
+        "sources": [
+          "wp-old-welsh"
+        ]
+      },
+      "homeland": {
+        "lat": 52.3,
+        "lng": -3.7,
+        "label": "Wales",
+        "sources": [
+          "wp-old-welsh"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "cadfan-stone",
+          "year": 850,
+          "approx": true,
+          "lat": 52.5855,
+          "lng": -4.0879,
+          "place": "St Cadfan's Church, Tywyn, Gwynedd, Wales",
+          "description": "The Cadfan Stone carries what is understood to be the oldest surviving text entirely in Old Welsh; it was thought to date from the 7th century, but more recent scholarship places it in the 9th.",
+          "sources": [
+            "wp-old-welsh"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-old-welsh"
+        ]
+      },
+      "story": [
+        {
+          "text": "Old Welsh (Hen Gymraeg) is the stage of Welsh from about 800 CE until the early 12th century, when it developed into Middle Welsh. Welsh emerged gradually from the language of the Britons. The linguist Kenneth Jackson proposed the Battle of Dyrham in 577, which cut the south-western Britons off from those in Wales, as a watershed, and the stage from about 550 to 800 is sometimes called Primitive or Archaic Welsh.",
+          "sources": [
+            "wp-old-welsh",
+            "wp-welsh"
+          ]
+        },
+        {
+          "text": "The oldest text entirely in Old Welsh is thought to be the inscription on the Cadfan Stone at Tywyn. Around 900, more than ten scribes in Wales copied the Juvencus Manuscript, a Latin gospel poem, and added a large body of Latin and Old Welsh glosses. Two Old Welsh poems copied into its margins are the earliest surviving englynion, a Welsh verse form.",
+          "sources": [
+            "wp-old-welsh",
+            "wp-juvencus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "middle-welsh",
+      "name": "Middle Welsh",
+      "nativeName": "Kymraec",
+      "nativeScript": "Latn",
+      "glottocode": "midd1363",
+      "iso639_3": "wlm",
+      "parent": "old-welsh",
+      "kind": "language",
+      "status": "extinct",
+      "sources": [
+        "wp-middle-welsh",
+        "glotto-midd1363"
+      ],
+      "period": {
+        "from": 1100,
+        "to": 1400,
+        "approx": true,
+        "note": "Dated to the 12th–15th centuries in the Middle Welsh article and to the 12th–14th centuries in the Welsh language article; poets still used Middle Welsh forms until the early 15th century.",
+        "sources": [
+          "wp-middle-welsh",
+          "wp-welsh"
+        ]
+      },
+      "homeland": {
+        "lat": 52.3,
+        "lng": -3.7,
+        "label": "Wales",
+        "sources": [
+          "wp-middle-welsh"
+        ]
+      },
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-middle-welsh"
+        ]
+      },
+      "story": [
+        {
+          "text": "Middle Welsh (Kymraec) is the Welsh of the 12th to 15th centuries, of which much more survives than of any earlier stage. Nearly all early manuscripts of the Mabinogion are written in it, as are most manuscripts of medieval Welsh law, many adaptations of chivalric romances, mostly from French, and a translation of Geoffrey of Monmouth's Historia Regum Britanniae. It is reasonably intelligible, with some work, to a modern Welsh speaker.",
+          "sources": [
+            "wp-middle-welsh"
+          ]
+        },
+        {
+          "text": "Court poets known as the Gogynfeirdd composed praise and commemorative poems between 1100 and 1350, and in the 14th century a new style using the cywydd metre developed, whose most notable representative was Dafydd ap Gwilym. Two major manuscripts hold the Mabinogion and other prose: the White Book of Rhydderch, written mostly in south-west Wales around 1350, and the Red Book of Hergest, written between about 1382 and 1410.",
+          "sources": [
+            "wp-middle-welsh",
+            "wp-white-book",
+            "wp-red-book"
+          ]
+        }
+      ],
+      "works": [
+        {
+          "id": "mabinogion-pwyll",
+          "title": "Pwyll Prince of Dyfed (the First Branch of the Mabinogi)",
+          "titleOriginal": "Pwyll Pendeuic Dyuet",
+          "author": "Anonymous",
+          "date": "compiled 12th–13th century; manuscripts c. 1350–1410",
+          "year": 1200,
+          "significance": "The Mabinogion is the collection of the earliest Welsh prose stories, compiled in Middle Welsh in the 12th–13th centuries from earlier oral traditions; Pwyll opens the Four Branches of the Mabinogi, its main sequence of related tales.",
+          "original": "Pwyll Pendeuic Dyuet a oed yn arglwyd ar seith cantref Dyuet. A threigylgweith yd oed yn Arberth, prif lys idaw, a dyuot yn y uryt ac yn y uedwl uynet y hela. Sef kyueir o'y gyuoeth a uynnei y hela, Glynn Cuch.",
+          "originalScript": "Latn",
+          "translation": "Pwyll Prince of Dyved was lord of the seven Cantrevs of Dyved; and once upon a time he was at Narberth his chief palace, and he was minded to go and hunt, and the part of his dominions in which it pleased him to hunt was Glyn Cuch.",
+          "translator": "Lady Charlotte Guest",
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://sacred-texts.com/neu/celt/mab/mab20.htm",
+          "sources": [
+            "wp-mabinogion",
+            "ws-pwyll-cy",
+            "st-guest-pwyll"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welsh",
+      "name": "Welsh",
+      "nativeName": "Cymraeg",
+      "nativeScript": "Latn",
+      "glottocode": "wels1247",
+      "iso639_3": "cym",
+      "parent": "middle-welsh",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-welsh",
+        "glotto-wels1247"
+      ],
+      "period": {
+        "from": 1350,
+        "to": null,
+        "approx": true,
+        "note": "The Modern Welsh period is dated from the 14th century; Late Modern Welsh begins with William Morgan's Bible of 1588.",
+        "sources": [
+          "wp-welsh"
+        ]
+      },
+      "homeland": {
+        "lat": 52.3,
+        "lng": -3.7,
+        "label": "Wales",
+        "sources": [
+          "wp-welsh"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "william-morgan-bible",
+          "year": 1587,
+          "approx": false,
+          "lat": 52.8257,
+          "lng": -3.3013,
+          "place": "Llanrhaeadr-ym-Mochnant, Powys, Wales",
+          "description": "William Morgan, vicar of Llanrhaeadr-ym-Mochnant from 1578, completed his translation of the whole Bible into Welsh in 1587; it was published in 1588 as Y Beibl Cyssegr-lan.",
+          "sources": [
+            "nt-william-morgan",
+            "nlw-1588-bible"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-welsh"
+        ]
+      },
+      "speakers": {
+        "count": 538000,
+        "year": 2021,
+        "scope": "L1+L2",
+        "sources": [
+          "ons-welsh-2021"
+        ]
+      },
+      "story": [
+        {
+          "text": "Modern Welsh (Cymraeg) is dated from the 14th century, and its late modern form begins with William Morgan's translation of the whole Bible. Morgan, vicar of Llanrhaeadr-ym-Mochnant, finished it in 1587 and spent a year in London overseeing the printing; it appeared in 1588 as Y Beibl Cyssegr-lan, and about 1,000 copies went to churches. The National Library of Wales calls it the foundation stone of modern Welsh literature.",
+          "sources": [
+            "wp-welsh",
+            "nt-william-morgan",
+            "nlw-1588-bible"
+          ]
+        },
+        {
+          "text": "The Welsh Language (Wales) Measure 2011 gave Welsh official status in Wales, and the Welsh Government aims for one million speakers by 2050. UNESCO considers Welsh the least endangered Celtic language. In the 2021 census an estimated 538,000 residents of Wales aged three and over, 17.8% of the population, said they could speak Welsh, down from 562,000 (19.0%) in 2011.",
+          "sources": [
+            "wp-welsh",
+            "ons-welsh-2021"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cornish",
+      "name": "Cornish",
+      "nativeName": "Kernewek",
+      "nativeScript": "Latn",
+      "glottocode": "corn1251",
+      "iso639_3": "cor",
+      "parent": "common-brittonic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-cornish",
+        "glotto-corn1251"
+      ],
+      "period": {
+        "from": 800,
+        "to": null,
+        "approx": true,
+        "note": "Old Cornish is dated 800–1200, Middle Cornish 1200–1600 and Late Cornish 1600–c. 1800. Traditional Cornish died out by the end of the 18th century; a revival began in the early 20th century.",
+        "sources": [
+          "wp-cornish"
+        ]
+      },
+      "homeland": {
+        "lat": 50.4,
+        "lng": -4.9,
+        "label": "Cornwall",
+        "sources": [
+          "wp-cornish"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "bodmin-manumissions",
+          "year": 950,
+          "approx": true,
+          "lat": 50.4703,
+          "lng": -4.7195,
+          "place": "St Petroc's, Bodmin, Cornwall",
+          "description": "Records of the freeing of slaves, added in Latin and Old English with Cornish names to the Bodmin Gospels between the second quarter of the 10th century and the first quarter of the 11th; the Cornish names in them are among the earliest written Cornish.",
+          "sources": [
+            "bl-bodmin-gospels",
+            "wp-bodmin"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-cornish"
+        ]
+      },
+      "story": [
+        {
+          "text": "Cornish (Kernewek) is the Brittonic language of Cornwall, descended from Common Brittonic and especially close to Breton. Its earliest written record is a 9th-century gloss in a Latin manuscript of Boethius. Old Cornish (800–1200) gave way to Middle Cornish (1200–1600), which produced most of the traditional literature, above all the Ordinalia, three mystery plays of the late 14th century written mainly in Cornish with Latin stage directions.",
+          "sources": [
+            "wp-cornish",
+            "wp-breton",
+            "wp-ordinalia"
+          ]
+        },
+        {
+          "text": "The Book of Common Prayer was never translated into Cornish, and the language retreated west; by the mid-17th century it survived only in Penwith and Kerrier. In 1776 William Bodinar wrote what was probably the last prose in traditional Cornish. Dolly Pentreath, who died in 1777, is traditionally called the last native speaker, a claim since challenged. A revival began in the early 20th century, and in 2010 UNESCO reclassified Cornish from extinct to critically endangered.",
+          "sources": [
+            "wp-cornish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breton",
+      "name": "Breton",
+      "nativeName": "Brezhoneg",
+      "nativeScript": "Latn",
+      "glottocode": "bret1244",
+      "iso639_3": "bre",
+      "parent": "common-brittonic",
+      "kind": "language",
+      "status": "living",
+      "sources": [
+        "wp-breton",
+        "glotto-bret1244"
+      ],
+      "period": {
+        "from": 800,
+        "to": null,
+        "approx": true,
+        "note": "Old Breton c. 800–1100 (attested from the 9th century), Middle Breton c. 1100–1650, Modern Breton from c. 1650.",
+        "sources": [
+          "wp-breton"
+        ]
+      },
+      "homeland": {
+        "lat": 48.3,
+        "lng": -3.6,
+        "label": "Lower Brittany (western Brittany)",
+        "sources": [
+          "wp-breton"
+        ]
+      },
+      "attestations": [
+        {
+          "id": "catholicon",
+          "year": 1499,
+          "approx": false,
+          "lat": 48.7858,
+          "lng": -3.2328,
+          "place": "Tréguier, Brittany, France",
+          "description": "First printed edition of the Catholicon, the first Breton dictionary and also the first French dictionary, issued on 5 November 1499 by Jehan Calvez, a printer from Tréguier.",
+          "sources": [
+            "wp-catholicon"
+          ]
+        }
+      ],
+      "scripts": {
+        "list": [
+          {
+            "name": "Latin",
+            "code": "Latn"
+          }
+        ],
+        "sources": [
+          "wp-breton"
+        ]
+      },
+      "speakers": {
+        "count": 107000,
+        "year": 2024,
+        "scope": "L1+L2",
+        "sources": [
+          "ubo-breton-2025"
+        ]
+      },
+      "story": [
+        {
+          "text": "Breton (Brezhoneg) is a Southwestern Brittonic language that migrating Britons brought from Great Britain to Brittany in the early Middle Ages, which makes it the closest relative of Cornish and the only living Celtic language of continental Europe. Old Breton is attested from the 9th century; scholars recognise Old Breton (c. 800–1100), Middle Breton (c. 1100–1650) and Modern Breton (from c. 1650). It is spoken mainly in Lower Brittany.",
+          "sources": [
+            "wp-breton",
+            "wp-celtic-languages"
+          ]
+        },
+        {
+          "text": "The Catholicon, compiled in 1464 by Jehan Lagadeuc of Plougonven and printed in 1499, has six thousand entries, with Breton headwords followed by French and Latin translations. In the early 20th century Breton was the most widely spoken language of Lower Brittany, but it was banned from schools as French spread, and family transmission broke down in the 1950s. A survey in 2024 counted about 107,000 speakers.",
+          "sources": [
+            "wp-catholicon",
+            "ubo-breton-2025"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+ "file": "data/families/tocharian.json",
+ "claims": {
+  "proto-tocharian#identity": {
+   "hash": "3d05b2697259f0ee",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/tokh1241",
+    "https://en.wikipedia.org/wiki/Proto-Tocharian_language",
+    "https://en.wikipedia.org/wiki/Tocharian_languages"
+   ]
+  },
+  "proto-tocharian#period": {
+   "hash": "fa21a8bcb50e5491",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages"
+   ],
+   "note": "Note now says start is a proxy from Afanasievo culture, not a date for the language"
+  },
+  "proto-tocharian#homeland": {
+   "hash": "3f339eedf425a019",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://www.penn.museum/documents/publications/expedition/52-3/mallory.pdf"
+   ]
+  },
+  "proto-tocharian#story:0": {
+   "hash": "4e3a89a06deac159",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://en.wikipedia.org/wiki/Proto-Tocharian_language"
+   ]
+  },
+  "proto-tocharian#story:1": {
+   "hash": "3fa23a2d85cbf47e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Tocharian_language",
+    "https://lrc.la.utexas.edu/eieol/tokol/00",
+    "https://en.wikipedia.org/wiki/Tocharian_languages"
+   ]
+  },
+  "proto-tocharian#note:0": {
+   "hash": "8421d368f6acebc0",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://www.penn.museum/documents/publications/expedition/52-3/mallory.pdf"
+   ],
+   "note": "Removed unsupported 'from the north'"
+  },
+  "proto-tocharian#note:1": {
+   "hash": "5e5ba466005a3f9f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-a#identity": {
+   "hash": "34b4c5869bccf038",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/tokh1242",
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-a#period": {
+   "hash": "fbe0236d386553c7",
+   "verdict": "verified",
+   "evidence": [
+    "https://lrc.la.utexas.edu/eieol/tokol/00",
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://en.wikipedia.org/wiki/Kucha"
+   ]
+  },
+  "tocharian-a#homeland": {
+   "hash": "7500d296137091a0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-a#attestation:turfan-manuscripts": {
+   "hash": "e2e485086996fd57",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.penn.museum/documents/publications/expedition/52-3/mallory.pdf",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ],
+   "note": "Removed unsupported THT 677/Berlin and Gaochang details"
+  },
+  "tocharian-a#attestation:yanqi-maitreyasamiti": {
+   "hash": "75a82031b37c2970",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-a#scripts": {
+   "hash": "81c9554bd9b15816",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-a#story:0": {
+   "hash": "eb6b04b445fdc0d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-a#story:1": {
+   "hash": "b133d1d203ca3449",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-b#identity": {
+   "hash": "7e177be77b06760a",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/tokh1243",
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-b#period": {
+   "hash": "fb10c63ee0d38ef7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://en.wikipedia.org/wiki/Kucha"
+   ]
+  },
+  "tocharian-b#homeland": {
+   "hash": "cd77e53bf14a0278",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kucha",
+    "https://en.wikipedia.org/wiki/Tocharian_languages"
+   ]
+  },
+  "tocharian-b#attestation:kucha-oldest-stage": {
+   "hash": "ceeb9f6dce3e5181",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages"
+   ]
+  },
+  "tocharian-b#attestation:kizil-love-poem": {
+   "hash": "3b851380a484388d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://en.wikipedia.org/wiki/Kizil_Caves"
+   ]
+  },
+  "tocharian-b#attestation:tumshuq": {
+   "hash": "1e967dbb1505d51d",
+   "verdict": "corrected",
+   "evidence": [
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ],
+   "note": "Removed unsupported 'between Kucha and Kashgar'"
+  },
+  "tocharian-b#scripts": {
+   "hash": "15f714535b090fa4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-b#story:0": {
+   "hash": "db7ff4ab68bcfb4d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://en.wikipedia.org/wiki/Kucha",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-b#story:1": {
+   "hash": "3eb3f60689191d40",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages",
+    "https://lrc.la.utexas.edu/eieol/tokol/00"
+   ]
+  },
+  "tocharian-b#story:2": {
+   "hash": "5fe0eee784cebac2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kucha",
+    "https://en.wikipedia.org/wiki/Tocharian_languages"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:37:49.404Z",
+ "verifier": "verifier-east-ie"
+}

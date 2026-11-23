@@ -1,0 +1,92 @@
+{
+  "family": { "id": "indo-european", "name": "Indo-European", "root": "proto-indo-european" },
+  "sources": [
+    {
+      "id": "wp-pie",
+      "title": "Proto-Indo-European language",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proto-Indo-European_language"
+    },
+    {
+      "id": "wp-homeland",
+      "title": "Proto-Indo-European homeland",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Proto-Indo-European_homeland"
+    },
+    {
+      "id": "haak-2015",
+      "title": "Massive migration from the steppe is a source for Indo-European languages in Europe (arXiv preprint of Nature 522:207–211)",
+      "author": "Wolfgang Haak et al.",
+      "year": 2015,
+      "url": "https://arxiv.org/abs/1502.02783"
+    },
+    {
+      "id": "mpg-2023",
+      "title": "New insights into the origin of the Indo-European languages",
+      "publisher": "Max Planck Society",
+      "year": 2023,
+      "url": "https://www.mpg.de/20666229/0725-evan-origin-of-the-indo-european-languages-150495-x"
+    },
+    {
+      "id": "lazaridis-2025",
+      "title": "The genetic origin of the Indo-Europeans (Nature 639:132–142)",
+      "author": "Iosif Lazaridis et al.",
+      "year": 2025,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11922553/"
+    },
+    {
+      "id": "glottolog-indo1319",
+      "title": "Glottolog 5: Indo-European",
+      "publisher": "Glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/indo1319"
+    }
+  ],
+  "languoids": [
+    {
+      "id": "proto-indo-european",
+      "name": "Proto-Indo-European",
+      "glottocode": "indo1319",
+      "parent": null,
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-pie", "glottolog-indo1319"],
+      "period": {
+        "from": -4500,
+        "to": -2500,
+        "approx": true,
+        "note": "Spoken as a single language from about 4500 to 2500 BCE on the usual estimate; other estimates put the bounds more than a thousand years later.",
+        "sources": ["wp-pie"]
+      },
+      "homeland": {
+        "lat": 47.0,
+        "lng": 43.0,
+        "label": "Pontic–Caspian steppe (Steppe theory)",
+        "sources": ["wp-pie", "wp-homeland"]
+      },
+      "story": [
+        {
+          "text": "No direct record of Proto-Indo-European has ever been found. Linguists rebuilt it with the comparative method, matching regular sound correspondences such as Italian piede and English foot, or padre and father. Reconstructed words are marked with an asterisk: *wódr̥, *ḱwn̥tós and *tréyes are the ancestors of English water, hound and three. Far more work has gone into reconstructing PIE than any other proto-language, and many techniques of historical linguistics were developed along the way.",
+          "sources": ["wp-pie"]
+        },
+        {
+          "text": "In 1786 William Jones, a judge in Bengal, caused an academic sensation by proposing that Sanskrit, Greek, Latin, Gothic, the Celtic languages and Old Persian shared a common ancestor. He was not the first. Marcus Zuerius van Boxhorn had proposed such a proto-language in 1653, and the Jesuit Gaston-Laurent Coeurdoux had compared Sanskrit with European languages in a memoir of 1767. In 1818 the Danish linguist Rasmus Rask set out the correspondences in more detail.",
+          "sources": ["wp-pie"]
+        },
+        {
+          "text": "Under the prevailing Steppe (Kurgan) theory, PIE was spoken on the Pontic–Caspian steppe. Its reconstructed vocabulary points to people who kept cattle, horses and dogs, grew cereals and used wagons with solid wheels. In 2015 an ancient-DNA study of 69 Europeans found that Corded Ware people in Germany, about 4,500 years ago, traced roughly three-quarters of their ancestry to the Yamnaya steppe herders, which is consistent with a steppe origin for at least some Indo-European languages of Europe.",
+          "sources": ["wp-pie", "wp-homeland", "haak-2015"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The main alternative is the Anatolian hypothesis, advanced by the archaeologist Colin Renfrew in 1987, which ties the spread of Indo-European to the spread of farming from Anatolia from around 7000 BCE. Its critics, such as Anthony and Ringe (2015), say it needs an unrealistically early date, and point out that words for \"axle\", \"wheel\" and \"wagon-pole\" are shared by branches from Irish to Tocharian but are absent from Anatolian. A 2023 study by Heggarty and colleagues, using core vocabulary from 161 Indo-European languages, proposed a hybrid: divergence from about 8,100 years ago out of a homeland just south of the Caucasus, with one migration reaching the steppe about 7,000 years ago.",
+          "sources": ["wp-homeland", "mpg-2023"]
+        },
+        {
+          "text": "A third set of proposals puts an archaic PIE homeland south of the Caucasus. In the early 1980s Tamaz Gamkrelidze and Vyacheslav Ivanov placed it in eastern Anatolia, the southern Caucasus and northern Mesopotamia in the 5th to 4th millennia BCE (the Armenian hypothesis). In 2015 Haak and colleagues wrote that the Armenian plateau hypothesis gained plausibility from the evidence of admixture they had discovered. In 2025 Lazaridis, Patterson, Anthony, Vyazov and colleagues proposed that the final unity of 'proto-Indo-Anatolian', the language ancestral to both Anatolian and the rest of Indo-European, occurred among people of a Caucasus–lower Volga cline between 4400 and 4000 BCE.",
+          "sources": ["wp-homeland", "haak-2015", "lazaridis-2025"]
+        }
+      ]
+    }
+  ]
+}

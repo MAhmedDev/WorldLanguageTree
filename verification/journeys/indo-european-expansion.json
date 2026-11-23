@@ -1,0 +1,67 @@
+{
+ "file": "data/journeys/indo-european-expansion.json",
+ "claims": {
+  "indo-european-expansion#step:0": {
+   "hash": "1dcc44dde93838d3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Indo-European_homeland"
+   ]
+  },
+  "indo-european-expansion#step:1": {
+   "hash": "016da1f843ab02dd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hittite_language"
+   ]
+  },
+  "indo-european-expansion#step:2": {
+   "hash": "7b9a4cdd6eda1f11",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Linear_B"
+   ]
+  },
+  "indo-european-expansion#step:3": {
+   "hash": "37ef07b8d1e575e8",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Duenos_inscription"
+   ],
+   "note": "Workers found the kernos in 1880 and Dressel bought it; date is c. 550 BCE with estimates from the 7th to 5th century. Removed 'accepted' certainty overreach on early date."
+  },
+  "indo-european-expansion#step:4": {
+   "hash": "c04d423f6c487e8e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Gaulish_language"
+   ]
+  },
+  "indo-european-expansion#step:5": {
+   "hash": "fd98e793d290b0f6",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Codex_Argenteus"
+   ],
+   "note": "188 leaves is not stated by source; now 187 at Werden plus one found at Speyer in 1970."
+  },
+  "indo-european-expansion#step:6": {
+   "hash": "d4400d964a44eaa5",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tocharian_languages"
+   ],
+   "note": "Source says a large proportion, not most, are Buddhist translations; changed to 'many'."
+  },
+  "indo-european-expansion#step:7": {
+   "hash": "8797763fe91e3626",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Church_Slavonic"
+   ],
+   "note": "Dialect basis is 'thought to', not 'likely'; students brought the alphabet to Bulgaria."
+  }
+ },
+ "verifiedAt": "2026-11-23T20:40:47.640Z",
+ "verifier": "verifier-journeys"
+}

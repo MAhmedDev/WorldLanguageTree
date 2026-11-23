@@ -1,0 +1,1059 @@
+{
+ "file": "data/families/austronesian.json",
+ "claims": {
+  "proto-austronesian#identity": {
+   "hash": "0993a142dc032ca3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Austronesian_language",
+    "https://glottolog.org/resource/languoid/id/aust1307"
+   ]
+  },
+  "proto-austronesian#period": {
+   "hash": "d8819a8dbdc5fcc5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Austronesian_language",
+    "https://www.sciencedaily.com/releases/2009/01/090122141146.htm",
+    "https://en.wikipedia.org/wiki/Austronesian_peoples"
+   ]
+  },
+  "proto-austronesian#homeland": {
+   "hash": "68dd3549212b330a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Austronesian_language",
+    "https://en.wikipedia.org/wiki/Austronesian_languages",
+    "https://www.sciencedaily.com/releases/2009/01/090122141146.htm"
+   ]
+  },
+  "proto-austronesian#story:0": {
+   "hash": "23d39c0bc3c2e6dd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Austronesian_language",
+    "https://www.sciencedaily.com/releases/2009/01/090122141146.htm"
+   ]
+  },
+  "proto-austronesian#story:1": {
+   "hash": "f8fc8da50370146b",
+   "verdict": "verified",
+   "evidence": [
+    "https://www.sciencedaily.com/releases/2009/01/090122141146.htm",
+    "https://en.wikipedia.org/wiki/Austronesian_languages"
+   ]
+  },
+  "proto-austronesian#story:2": {
+   "hash": "67fc3721788f1b33",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austronesian_languages",
+    "https://en.wikipedia.org/wiki/Proto-Austronesian_language"
+   ]
+  },
+  "proto-austronesian#note:0": {
+   "hash": "ca541a55a369ac86",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austronesian_peoples"
+   ]
+  },
+  "proto-austronesian#note:1": {
+   "hash": "d55fd35b6d5c8106",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austronesian_languages"
+   ],
+   "note": "Reworded: the minority-view and spurious-methodology statements are Wikipedia reporting, not our own judgement."
+  },
+  "amis#identity": {
+   "hash": "79d13f4e54eee158",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/amis1246",
+    "https://en.wikipedia.org/wiki/Amis_language"
+   ]
+  },
+  "amis#period": {
+   "hash": "0241acbc058468f1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amis_language",
+    "https://en.wikipedia.org/wiki/Proto-Austronesian_language"
+   ],
+   "note": "Start date is a convention, disclosed in the note."
+  },
+  "amis#homeland": {
+   "hash": "855e028faf56530a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amis_language"
+   ]
+  },
+  "amis#scripts": {
+   "hash": "48c88ec354cc2931",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amis_language"
+   ]
+  },
+  "amis#speakers": {
+   "hash": "19a4d0df5ac799e3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amis_language"
+   ]
+  },
+  "amis#story:0": {
+   "hash": "ddd30138f866dc03",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Amis_language"
+   ]
+  },
+  "amis#story:1": {
+   "hash": "727d8216a6ff719a",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/amis1246",
+    "https://en.wikipedia.org/wiki/Austronesian_languages",
+    "https://en.wikipedia.org/wiki/Amis_language"
+   ],
+   "note": "East Formosan confirmed in the Glottolog tree (Central East Formosan)."
+  },
+  "proto-malayo-polynesian#identity": {
+   "hash": "4aff4c110bf6e6d9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Malayo-Polynesian_language",
+    "https://glottolog.org/resource/languoid/id/mala1545"
+   ]
+  },
+  "proto-malayo-polynesian#period": {
+   "hash": "0eebfb20152f44a7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austronesian_peoples"
+   ]
+  },
+  "proto-malayo-polynesian#homeland": {
+   "hash": "e723ef301fd718b8",
+   "verdict": "verified",
+   "evidence": [
+    "https://press-files.anu.edu.au/downloads/press/p69411/html/ch05s02.html",
+    "https://en.wikipedia.org/wiki/Austronesian_peoples"
+   ]
+  },
+  "proto-malayo-polynesian#story:0": {
+   "hash": "61b2933c80bfcc8e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Malayo-Polynesian_language"
+   ]
+  },
+  "proto-malayo-polynesian#story:1": {
+   "hash": "d845fc3fdacf6e9e",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Austronesian_peoples",
+    "https://press-files.anu.edu.au/downloads/press/p69411/html/ch05s02.html"
+   ],
+   "note": "Removed unsupported sentence attributing a PMP-in-the-Philippines suggestion to Bellwood; replaced with what the Bellwood chapter says."
+  },
+  "proto-malayo-polynesian#note:0": {
+   "hash": "715379a35612c2c3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Malayo-Polynesian_language"
+   ]
+  },
+  "old-malay#identity": {
+   "hash": "6e36bc5ab6b982f9",
+   "verdict": "verified",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/oldm1243",
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language"
+   ]
+  },
+  "old-malay#period": {
+   "hash": "f4f4f9d7bad21f38",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kedukan_Bukit_inscription",
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language"
+   ]
+  },
+  "old-malay#homeland": {
+   "hash": "ea37ea68c904c8b5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kedukan_Bukit_inscription",
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language"
+   ]
+  },
+  "old-malay#attestation:kedukan-bukit": {
+   "hash": "559a5bb83acddb4c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kedukan_Bukit_inscription"
+   ]
+  },
+  "old-malay#attestation:laguna-copperplate": {
+   "hash": "1c7087c253d812ae",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Laguna_Copperplate_Inscription"
+   ]
+  },
+  "old-malay#scripts": {
+   "hash": "d001b5d4dbde7637",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language"
+   ],
+   "note": "Source also lists Pallava (no separate ISO 15924 code), which is omitted; Kawi is correct."
+  },
+  "old-malay#story:0": {
+   "hash": "dc1e6ac9a2548fa8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kedukan_Bukit_inscription"
+   ]
+  },
+  "old-malay#story:1": {
+   "hash": "0a6745c6495b50b5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language",
+    "https://en.wikipedia.org/wiki/Laguna_Copperplate_Inscription"
+   ]
+  },
+  "old-malay#note:0": {
+   "hash": "48c1e6d887b86be7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language"
+   ]
+  },
+  "malay#identity": {
+   "hash": "511e3d8f3ecc4173",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malay_language",
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language",
+    "https://glottolog.org/resource/languoid/id/stan1306"
+   ]
+  },
+  "malay#period": {
+   "hash": "410ad690a0952784",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language",
+    "https://en.wikipedia.org/wiki/Terengganu_Inscription_Stone"
+   ],
+   "note": "Date stated as the source states it: possibly 1303 or 1387."
+  },
+  "malay#homeland": {
+   "hash": "3b351f3be0d985ae",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language",
+    "https://en.wikipedia.org/wiki/Malay_Annals"
+   ]
+  },
+  "malay#attestation:terengganu-inscription": {
+   "hash": "d1644a6ab967e2ef",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Terengganu_Inscription_Stone"
+   ],
+   "note": "Both dates stated; Blagden doubted the earlier one per Wikipedia."
+  },
+  "malay#scripts": {
+   "hash": "5af6f498c7b51b61",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malay_language",
+    "https://en.wikipedia.org/wiki/Malay_Annals"
+   ]
+  },
+  "malay#speakers": {
+   "hash": "f6f2938ef79b2b6f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malay_language"
+   ],
+   "note": "Source infobox dates the figure 2020-2023 (Ethnologue 28th ed.); 2023 lies in that range."
+  },
+  "malay#story:0": {
+   "hash": "e9ebe262976ed738",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Terengganu_Inscription_Stone"
+   ]
+  },
+  "malay#story:1": {
+   "hash": "8d69af2b02b8b2b2",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language",
+    "https://en.wikipedia.org/wiki/Malay_Annals"
+   ]
+  },
+  "malay#story:2": {
+   "hash": "f9b92b22c15697ff",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_the_Malay_language",
+    "https://en.wikipedia.org/wiki/Malay_language"
+   ]
+  },
+  "malay#note:0": {
+   "hash": "3e6b22c35e61124f",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/stan1306",
+    "https://glottolog.org/resource/languoid/id/mala1546"
+   ],
+   "note": "Added note explaining the Glottolog code choice (stan1306 vs retired mala1546)."
+  },
+  "indonesian#identity": {
+   "hash": "7e232c5ea4005cd7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language",
+    "https://glottolog.org/resource/languoid/id/indo1316"
+   ]
+  },
+  "indonesian#period": {
+   "hash": "55de1f3374a61576",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language"
+   ]
+  },
+  "indonesian#homeland": {
+   "hash": "2e66f62f222fc1fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language"
+   ]
+  },
+  "indonesian#attestation:youth-pledge": {
+   "hash": "8f73b0fa496cee27",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language"
+   ]
+  },
+  "indonesian#scripts": {
+   "hash": "cef32f7499e5ae5f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language"
+   ]
+  },
+  "indonesian#speakers": {
+   "hash": "ba5785340a364a4b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language"
+   ]
+  },
+  "indonesian#story:0": {
+   "hash": "525e7e14e0a62b85",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language"
+   ]
+  },
+  "indonesian#story:1": {
+   "hash": "fbac757a9b23af9a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Indonesian_language"
+   ]
+  },
+  "old-javanese#identity": {
+   "hash": "064bd01a54a80221",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Javanese",
+    "https://glottolog.org/resource/languoid/id/kawi1241"
+   ]
+  },
+  "old-javanese#period": {
+   "hash": "e7f017ca9b74986a",
+   "verdict": "verified",
+   "evidence": [
+    "https://scholarhub.ui.ac.id/wacana/vol26/iss3/3",
+    "https://en.wikipedia.org/wiki/Javanese_language"
+   ]
+  },
+  "old-javanese#homeland": {
+   "hash": "e52656cf3cd60f46",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Javanese"
+   ]
+  },
+  "old-javanese#attestation:harinjing-a": {
+   "hash": "bbc3469df70c52cc",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Javanese",
+    "https://scholarhub.ui.ac.id/wacana/vol26/iss3/3",
+    "https://id.wikipedia.org/wiki/Prasasti_Sukabumi",
+    "https://id.wikipedia.org/wiki/Kepung,_Kediri"
+   ],
+   "note": "Point moved from Pare (not in Kepung) to Kepung district centre; place and description corrected (found at Siman village, Kepung; also called Sukabumi inscription; no longer called the oldest, since Griffiths et al. 2025 report 743 and 787 CE documents); added Indonesian Wikipedia sources."
+  },
+  "old-javanese#scripts": {
+   "hash": "c4003ac28071be1f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Javanese"
+   ]
+  },
+  "old-javanese#story:0": {
+   "hash": "dc6e0b761ce8fe51",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Javanese",
+    "https://scholarhub.ui.ac.id/wacana/vol26/iss3/3"
+   ],
+   "note": "Removed the claim that Harinjing A is the oldest example; Griffiths et al. 2025 show older documents."
+  },
+  "old-javanese#story:1": {
+   "hash": "f6d77aa291536fd8",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Javanese"
+   ]
+  },
+  "old-javanese#story:2": {
+   "hash": "bbc540ebf0b8b857",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Old_Javanese"
+   ]
+  },
+  "javanese#identity": {
+   "hash": "4544a1d874cb5944",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Javanese_language",
+    "https://glottolog.org/resource/languoid/id/java1254"
+   ]
+  },
+  "javanese#period": {
+   "hash": "5a9643b3eb15ca57",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Javanese_language"
+   ]
+  },
+  "javanese#homeland": {
+   "hash": "5e9bf2e1ff855361",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Javanese_language"
+   ]
+  },
+  "javanese#scripts": {
+   "hash": "997a37ee51baa63d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Javanese_language"
+   ]
+  },
+  "javanese#speakers": {
+   "hash": "7402e3d293708aba",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Javanese_language"
+   ]
+  },
+  "javanese#story:0": {
+   "hash": "bc0f2b40261480ab",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Javanese_language"
+   ]
+  },
+  "javanese#story:1": {
+   "hash": "5919a5166647f0fa",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Javanese_language",
+    "https://en.wikipedia.org/wiki/Old_Javanese"
+   ]
+  },
+  "tagalog#identity": {
+   "hash": "fa61420113640a90",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language",
+    "https://glottolog.org/resource/languoid/id/taga1270"
+   ]
+  },
+  "tagalog#period": {
+   "hash": "a80130fc0f3afe50",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language",
+    "https://en.wikipedia.org/wiki/Laguna_Copperplate_Inscription"
+   ]
+  },
+  "tagalog#homeland": {
+   "hash": "aebc4a7f6b84e307",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language"
+   ]
+  },
+  "tagalog#attestation:doctrina-christiana": {
+   "hash": "480b044c1ad5324e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language",
+    "https://en.wikipedia.org/wiki/Doctrina_Christiana"
+   ]
+  },
+  "tagalog#attestation:vocabulario-1613": {
+   "hash": "6129e289c966dfc9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language"
+   ]
+  },
+  "tagalog#scripts": {
+   "hash": "3c0edfcc3803f08d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language"
+   ]
+  },
+  "tagalog#speakers": {
+   "hash": "d6a595d7e14ad545",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language"
+   ]
+  },
+  "tagalog#story:0": {
+   "hash": "26768892949d0b67",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language"
+   ]
+  },
+  "tagalog#story:1": {
+   "hash": "477a4887ead3a4f0",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language",
+    "https://en.wikipedia.org/wiki/Doctrina_Christiana"
+   ]
+  },
+  "tagalog#story:2": {
+   "hash": "3e01210b99452ef4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language"
+   ]
+  },
+  "tagalog#note:0": {
+   "hash": "7f4bea00e034c03b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tagalog_language"
+   ]
+  },
+  "malagasy#identity": {
+   "hash": "b966df6c40c23c84",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malagasy_language",
+    "https://glottolog.org/resource/languoid/id/mala1537"
+   ]
+  },
+  "malagasy#period": {
+   "hash": "b351e2c7f5f3f328",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malagasy_language"
+   ]
+  },
+  "malagasy#homeland": {
+   "hash": "96f0aa96289162de",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malagasy_language"
+   ],
+   "note": "Label changed from central highlands to central plateau, the basis of Standard Malagasy; the sources do not say where the language first arrived."
+  },
+  "malagasy#attestation:saint-augustin-1603": {
+   "hash": "2e5400b450b90403",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Documentation_of_the_Malagasy_language"
+   ]
+  },
+  "malagasy#scripts": {
+   "hash": "d0b9f5d7bd0ef571",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malagasy_language"
+   ]
+  },
+  "malagasy#story:0": {
+   "hash": "9edf9900aa3b0d38",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malagasy_language"
+   ]
+  },
+  "malagasy#story:1": {
+   "hash": "d147c07803531574",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malagasy_language"
+   ]
+  },
+  "malagasy#story:2": {
+   "hash": "bb27acbe051a78f4",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Documentation_of_the_Malagasy_language",
+    "https://en.wikipedia.org/wiki/Malagasy_language"
+   ]
+  },
+  "malagasy#note:0": {
+   "hash": "e7c0be0e9e565348",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Malagasy_language"
+   ]
+  },
+  "malagasy#note:1": {
+   "hash": "404c100f3b5418be",
+   "verdict": "corrected",
+   "evidence": [
+    "https://glottolog.org/resource/languoid/id/mala1537"
+   ],
+   "note": "Added note explaining that mala1537 is the Glottolog family Malagasic."
+  },
+  "proto-oceanic#identity": {
+   "hash": "0751f5db153cbe59",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Oceanic_language",
+    "https://glottolog.org/resource/languoid/id/ocea1241"
+   ]
+  },
+  "proto-oceanic#period": {
+   "hash": "bbc9b593de281770",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Oceanic_language",
+    "https://en.wikipedia.org/wiki/Lapita_culture"
+   ]
+  },
+  "proto-oceanic#homeland": {
+   "hash": "459cc165cd6645d9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Oceanic_language"
+   ]
+  },
+  "proto-oceanic#story:0": {
+   "hash": "e9216c3338a37740",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Oceanic_language",
+    "https://en.wikipedia.org/wiki/Proto-Austronesian_language"
+   ]
+  },
+  "proto-oceanic#story:1": {
+   "hash": "244be6db39c1a70f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lapita_culture"
+   ]
+  },
+  "proto-oceanic#note:0": {
+   "hash": "d02a85cd337b5977",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Oceanic_languages"
+   ]
+  },
+  "proto-oceanic#note:1": {
+   "hash": "7a064093321feb96",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lapita_culture"
+   ]
+  },
+  "fijian#identity": {
+   "hash": "c8b1941c268147d1",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fijian_language",
+    "https://glottolog.org/resource/languoid/id/fiji1243"
+   ]
+  },
+  "fijian#period": {
+   "hash": "a8bf4fead37aa579",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lapita_culture",
+    "https://en.wikipedia.org/wiki/Fijian_language"
+   ]
+  },
+  "fijian#homeland": {
+   "hash": "32dbb8790fccc2b7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fijian_language"
+   ]
+  },
+  "fijian#scripts": {
+   "hash": "2ab11fbc0ec1cd0a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fijian_language"
+   ]
+  },
+  "fijian#speakers": {
+   "hash": "1ab02c38f9a0fe43",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fijian_language"
+   ]
+  },
+  "fijian#story:0": {
+   "hash": "59555bf2a173c62d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fijian_language"
+   ]
+  },
+  "fijian#story:1": {
+   "hash": "1f6f0dbc67fe3569",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fijian_language",
+    "https://en.wikipedia.org/wiki/Lapita_culture"
+   ]
+  },
+  "proto-polynesian#identity": {
+   "hash": "2ddef45564389d63",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Polynesian_language",
+    "https://en.wikipedia.org/wiki/Polynesian_languages",
+    "https://glottolog.org/resource/languoid/id/poly1242"
+   ]
+  },
+  "proto-polynesian#period": {
+   "hash": "483734538c1f59a9",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polynesian_languages"
+   ]
+  },
+  "proto-polynesian#homeland": {
+   "hash": "55d059d2d8c1e614",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Polynesian_language",
+    "https://en.wikipedia.org/wiki/Polynesian_languages"
+   ]
+  },
+  "proto-polynesian#story:0": {
+   "hash": "517f7cc02dc3bd9d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Proto-Polynesian_language",
+    "https://en.wikipedia.org/wiki/Polynesian_languages",
+    "https://en.wikipedia.org/wiki/Lapita_culture"
+   ]
+  },
+  "proto-polynesian#story:1": {
+   "hash": "f7af5cbe8b7a6087",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polynesian_languages"
+   ]
+  },
+  "samoan#identity": {
+   "hash": "7ea6afe7e87016a7",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Samoan_language",
+    "https://glottolog.org/resource/languoid/id/samo1305"
+   ]
+  },
+  "samoan#period": {
+   "hash": "d61c3a36e5fc519b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polynesian_languages"
+   ]
+  },
+  "samoan#homeland": {
+   "hash": "3498fcf282559cba",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Samoan_language"
+   ]
+  },
+  "samoan#scripts": {
+   "hash": "05ac14dbd0a08c5e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Samoan_language"
+   ]
+  },
+  "samoan#speakers": {
+   "hash": "3bc3199d10d104a3",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Samoan_language"
+   ],
+   "note": "Source infobox dates the figure 2020-2022; 2022 lies in that range."
+  },
+  "samoan#story:0": {
+   "hash": "316395958240d05d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Samoan_language"
+   ]
+  },
+  "samoan#story:1": {
+   "hash": "c8d552b303525382",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Samoan_language"
+   ]
+  },
+  "tongan#identity": {
+   "hash": "abd3156a12366157",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tongan_language",
+    "https://glottolog.org/resource/languoid/id/tong1325"
+   ]
+  },
+  "tongan#period": {
+   "hash": "d61c3a36e5fc519b",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Polynesian_languages"
+   ]
+  },
+  "tongan#homeland": {
+   "hash": "0b56ad190e09b242",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tongan_language"
+   ]
+  },
+  "tongan#scripts": {
+   "hash": "59c938b645db0c84",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tongan_language"
+   ]
+  },
+  "tongan#speakers": {
+   "hash": "27eba962c694873d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tongan_language"
+   ]
+  },
+  "tongan#story:0": {
+   "hash": "d81127ad43de0ecd",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tongan_language"
+   ]
+  },
+  "tongan#story:1": {
+   "hash": "feaaafbdff4f2a89",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tongan_language"
+   ],
+   "note": "Reworded: source says the pre-1943 alphabet had j and vowels first, the post-1943 alphabet drops j."
+  },
+  "maori#identity": {
+   "hash": "aa22b0fbad40634a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language",
+    "https://glottolog.org/resource/languoid/id/maor1246"
+   ]
+  },
+  "maori#period": {
+   "hash": "205a126b4a25c841",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.hawaii.edu/news/article.php?aId=4097",
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language"
+   ],
+   "note": "Note now says 1250 is the midpoint of the 1190-1290 range."
+  },
+  "maori#homeland": {
+   "hash": "9d56c15fdbdbd6ee",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language",
+    "https://glottolog.org/resource/languoid/id/maor1246"
+   ]
+  },
+  "maori#attestation:treaty-of-waitangi": {
+   "hash": "560e8607bf1856bf",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Waitangi"
+   ]
+  },
+  "maori#scripts": {
+   "hash": "6d5992bde73ddefb",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language"
+   ]
+  },
+  "maori#speakers": {
+   "hash": "f29dfc0d51f13238",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language"
+   ],
+   "note": "Source labels 186,000 as people with some knowledge (2018 census); closest scope is L1+L2."
+  },
+  "maori#story:0": {
+   "hash": "bf0dafbf38bdad1e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language"
+   ]
+  },
+  "maori#story:1": {
+   "hash": "7348a09504734b0f",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/A_korao_no_New_Zealand",
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language"
+   ]
+  },
+  "maori#story:2": {
+   "hash": "a7b83b13b91dbaad",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Waitangi",
+    "https://en.wikipedia.org/wiki/M%C4%81ori_language"
+   ]
+  },
+  "hawaiian#identity": {
+   "hash": "ae21b3da5480373a",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaiian_language",
+    "https://glottolog.org/resource/languoid/id/hawa1245"
+   ]
+  },
+  "hawaiian#period": {
+   "hash": "4614b66a99d15dad",
+   "verdict": "corrected",
+   "evidence": [
+    "https://www.hawaii.edu/news/article.php?aId=4097",
+    "https://en.wikipedia.org/wiki/Hawaiian_language"
+   ],
+   "note": "Start changed from 1200 to 1250, the midpoint of the 1190-1290 range, matching Maori; note updated."
+  },
+  "hawaiian#homeland": {
+   "hash": "243365c6905f9b98",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaiian_language",
+    "https://glottolog.org/resource/languoid/id/hawa1245"
+   ]
+  },
+  "hawaiian#attestation:lahainaluna-press": {
+   "hash": "01c0a9838f9e259b",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Lahainaluna_High_School",
+    "https://en.wikipedia.org/wiki/Hawaiian_language",
+    "https://www.americanantiquarian.org/hawaiian-language-printing/early-printing-hawaiian"
+   ],
+   "note": "Added American Antiquarian Society source for Ka Lama Hawaii."
+  },
+  "hawaiian#scripts": {
+   "hash": "f73f0ff1db768bb5",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaiian_language"
+   ]
+  },
+  "hawaiian#speakers": {
+   "hash": "0cee8c8de1d6b53c",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaiian_language"
+   ]
+  },
+  "hawaiian#story:0": {
+   "hash": "8a306e08c0b6fe5e",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaiian_language"
+   ]
+  },
+  "hawaiian#story:1": {
+   "hash": "3808811247398f85",
+   "verdict": "corrected",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaiian_language",
+    "https://en.wikipedia.org/wiki/Lahainaluna_High_School",
+    "https://www.americanantiquarian.org/hawaiian-language-printing/early-printing-hawaiian"
+   ],
+   "note": "Added American Antiquarian Society source, which supports the name Ka Lama Hawaii (Lahainaluna, 1834); the cited Wikipedia pages did not name it."
+  },
+  "hawaiian#story:2": {
+   "hash": "f258d85ddb13ce20",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaiian_language"
+   ]
+  },
+  "hawaiian#work:kumulipo": {
+   "hash": "0c774d4ca989b47d",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kumulipo",
+    "https://www.sacred-texts.com/pac/ku/ku31.htm",
+    "https://www.sacred-texts.com/pac/lku/lku02.htm",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/pac/ku/ku31.htm",
+    "https://neonvagabond.xyz/mirrors/sacred-texts/pac/lku/lku02.htm"
+   ],
+   "note": "Original matches the Kalakaua text as printed in Beckwith 1951 appendix (sacred-texts says copyright not renewed; Kalakaua 1889 text is PD; the okina marks are Beckwith's). Translation matches Liliuokalani 1897 verbatim. Sacred-texts.com blocked automated access, so the texts were read from a mirror of the same pages."
+  },
+  "hawaiian#note:0": {
+   "hash": "7f5de254d5606b46",
+   "verdict": "verified",
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaiian_language",
+    "https://www.hawaii.edu/news/article.php?aId=4097"
+   ]
+  }
+ },
+ "verifiedAt": "2026-11-23T20:27:04.905Z",
+ "verifier": "verifier-pacific-africa-americas"
+}

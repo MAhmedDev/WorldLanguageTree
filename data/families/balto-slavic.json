@@ -1,0 +1,1217 @@
+{
+  "family": { "id": "balto-slavic", "name": "Balto-Slavic", "root": "proto-balto-slavic" },
+  "sources": [
+    { "id": "glotto-balt1263", "title": "Glottolog: Balto-Slavic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/balt1263" },
+    { "id": "glotto-slav1255", "title": "Glottolog: Slavic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/slav1255" },
+    { "id": "glotto-east1426", "title": "Glottolog: East Slavic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/east1426" },
+    { "id": "glotto-west2792", "title": "Glottolog: West Slavic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/west2792" },
+    { "id": "glotto-sout3147", "title": "Glottolog: South Slavic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/sout3147" },
+    { "id": "glotto-chur1257", "title": "Glottolog: Church Slavic", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/chur1257" },
+    { "id": "glotto-oldr1238", "title": "Glottolog: Old Russian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/oldr1238" },
+    { "id": "glotto-russ1263", "title": "Glottolog: Russian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/russ1263" },
+    { "id": "glotto-ukra1253", "title": "Glottolog: Ukrainian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/ukra1253" },
+    { "id": "glotto-bela1254", "title": "Glottolog: Belarusian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/bela1254" },
+    { "id": "glotto-poli1260", "title": "Glottolog: Polish", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/poli1260" },
+    { "id": "glotto-czec1258", "title": "Glottolog: Czech", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/czec1258" },
+    { "id": "glotto-slov1269", "title": "Glottolog: Slovak", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/slov1269" },
+    { "id": "glotto-sout1528", "title": "Glottolog: Serbian-Croatian-Bosnian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/sout1528" },
+    { "id": "glotto-slov1268", "title": "Glottolog: Slovenian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/slov1268" },
+    { "id": "glotto-bulg1262", "title": "Glottolog: Bulgarian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/bulg1262" },
+    { "id": "glotto-mace1250", "title": "Glottolog: Macedonian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/mace1250" },
+    { "id": "glotto-lith1251", "title": "Glottolog: Lithuanian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/lith1251" },
+    { "id": "glotto-latv1249", "title": "Glottolog: Latvian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/latv1249" },
+    { "id": "glotto-prus1238", "title": "Glottolog: Old Prussian", "publisher": "Glottolog", "url": "https://glottolog.org/resource/languoid/id/prus1238" },
+
+    { "id": "wp-pbs", "title": "Proto-Balto-Slavic language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proto-Balto-Slavic_language" },
+    { "id": "wp-baltic", "title": "Baltic languages", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Baltic_languages" },
+    { "id": "wp-psl", "title": "Proto-Slavic language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Proto-Slavic_language" },
+    { "id": "wp-slavic-homeland", "title": "Slavic homeland", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Slavic_homeland" },
+    { "id": "wp-ocs", "title": "Old Church Slavonic", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Church_Slavonic" },
+    { "id": "wp-kiev-missal", "title": "Kiev Missal", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kiev_Missal" },
+    { "id": "wp-glagolitic", "title": "Glagolitic script", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Glagolitic_script" },
+    { "id": "wp-preslav", "title": "Preslav Literary School", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Preslav_Literary_School" },
+    { "id": "wp-ohrid", "title": "Ohrid Literary School", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ohrid_Literary_School" },
+    { "id": "wp-oes", "title": "Old East Slavic", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_East_Slavic" },
+    { "id": "wp-birchbark", "title": "Birch bark manuscript", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Birch_bark_manuscript" },
+    { "id": "wp-onfim", "title": "Onfim", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Onfim" },
+    { "id": "wp-ostromir", "title": "Ostromir Gospels", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ostromir_Gospels" },
+    { "id": "wp-igor", "title": "The Tale of Igor's Campaign", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Tale_of_Igor%27s_Campaign" },
+    { "id": "ws-igor-1800", "title": "Слово о пълку Игоревѣ (text of the 1800 Musin-Pushkin edition)", "publisher": "Wikisource (ru)", "url": "https://ru.wikisource.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE_%D0%BE_%D0%BF%D0%BE%D0%BB%D0%BA%D1%83_%D0%98%D0%B3%D0%BE%D1%80%D0%B5%D0%B2%D0%B5/%D0%A2%D0%B5%D0%BA%D1%81%D1%82" },
+    { "id": "ia-magnus", "title": "The Tale of the Armament of Igor, A.D. 1185 (full text)", "author": "Leonard A. Magnus (ed. and trans.)", "year": 1915, "publisher": "Oxford University Press / Internet Archive", "url": "https://archive.org/stream/taleofarmamento00magn/taleofarmamento00magn_djvu.txt" },
+    { "id": "wp-magnus", "title": "Leonard Arthur Magnus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Leonard_Arthur_Magnus" },
+    { "id": "wp-ruthenian", "title": "Ruthenian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ruthenian_language" },
+    { "id": "wp-skaryna", "title": "Francysk Skaryna", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Francysk_Skaryna" },
+    { "id": "wp-russian", "title": "Russian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Russian_language" },
+    { "id": "wp-lomonosov", "title": "Mikhail Lomonosov", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mikhail_Lomonosov" },
+    { "id": "wp-bronze-horseman", "title": "The Bronze Horseman (poem)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Bronze_Horseman_(poem)" },
+    { "id": "ws-bronze-horseman", "title": "Медный всадник (Пушкин)", "author": "Alexander Pushkin", "publisher": "Wikisource (ru)", "url": "https://ru.wikisource.org/wiki/%D0%9C%D0%B5%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA_(%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD)" },
+    { "id": "wp-ukrainian", "title": "Ukrainian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ukrainian_language" },
+    { "id": "wp-eneyida", "title": "Eneyida", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Eneyida" },
+    { "id": "wp-kobzar", "title": "Kobzar (poetry collection)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kobzar_(poetry_collection)" },
+    { "id": "ws-kobzar-1840", "title": "Кобзарь (1840) / Думы мои, думы мои…", "author": "Taras Shevchenko", "publisher": "Wikisource (uk)", "url": "https://uk.wikisource.org/wiki/%D0%9A%D0%BE%D0%B1%D0%B7%D0%B0%D1%80%D1%8C_(1840)/%D0%94%D1%83%D0%BC%D1%8B_%D0%BC%D0%BE%D0%B8,_%D0%B4%D1%83%D0%BC%D1%8B_%D0%BC%D0%BE%D0%B8%E2%80%A6" },
+    { "id": "wp-belarusian", "title": "Belarusian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Belarusian_language" },
+    { "id": "wp-nasha-niva", "title": "Nasha Niva", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Nasha_Niva" },
+    { "id": "wp-polish", "title": "Polish language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Polish_language" },
+    { "id": "wp-henrykow", "title": "Book of Henryków", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Book_of_Henryk%C3%B3w" },
+    { "id": "wp-pan-tadeusz", "title": "Pan Tadeusz", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pan_Tadeusz" },
+    { "id": "ws-pan-tadeusz", "title": "Pan Tadeusz (wyd. 1834) / Księga pierwsza", "author": "Adam Mickiewicz", "publisher": "Wikisource (pl)", "url": "https://pl.wikisource.org/wiki/Pan_Tadeusz_(wyd._1834)/Ksi%C4%99ga_pierwsza" },
+    { "id": "ia-noyes", "title": "Pan Tadeusz; or, The Last Foray in Lithuania (full text)", "author": "Adam Mickiewicz, trans. George Rapall Noyes", "year": 1917, "publisher": "J. M. Dent & Sons / Internet Archive", "url": "https://archive.org/stream/pantadeuszorlast00mick/pantadeuszorlast00mick_djvu.txt" },
+    { "id": "wp-noyes", "title": "George Rapall Noyes (Slavic scholar)", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/George_Rapall_Noyes_(Slavic_scholar)" },
+    { "id": "wp-czech", "title": "Czech language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Czech_language" },
+    { "id": "wp-kralice", "title": "Kralice Bible", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kralice_Bible" },
+    { "id": "wp-slovak", "title": "Slovak language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Slovak_language" },
+    { "id": "wp-stur", "title": "Ľudovít Štúr", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C5%A0t%C3%BAr" },
+    { "id": "wp-sc", "title": "Serbo-Croatian", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Serbo-Croatian" },
+    { "id": "wp-vienna", "title": "Vienna Literary Agreement", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Vienna_Literary_Agreement" },
+    { "id": "wp-baska", "title": "Baška tablet", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ba%C5%A1ka_tablet" },
+    { "id": "wp-slovene", "title": "Slovene language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Slovene_language" },
+    { "id": "wp-freising", "title": "Freising manuscripts", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Freising_manuscripts" },
+    { "id": "wp-trubar", "title": "Primož Trubar", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Primo%C5%BE_Trubar" },
+    { "id": "wp-bulgarian", "title": "Bulgarian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bulgarian_language" },
+    { "id": "wp-macedonian", "title": "Macedonian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Macedonian_language" },
+    { "id": "wp-misirkov", "title": "Krste Misirkov", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Krste_Misirkov" },
+    { "id": "wp-asnom", "title": "Anti-Fascist Assembly for the National Liberation of Macedonia", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Anti-Fascist_Assembly_for_the_National_Liberation_of_Macedonia" },
+    { "id": "wp-lithuanian", "title": "Lithuanian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lithuanian_language" },
+    { "id": "wp-mazvydas", "title": "Catechism of Martynas Mažvydas", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Catechism_of_Martynas_Ma%C5%BEvydas" },
+    { "id": "wp-latvian", "title": "Latvian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Latvian_language" },
+    { "id": "wp-statutes-lithuania", "title": "Statutes of Lithuania", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Statutes_of_Lithuania" },
+    { "id": "wp-ru-bronze-horseman", "title": "Медный всадник (поэма)", "publisher": "Wikipedia (Russian)", "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA_(%D0%BF%D0%BE%D1%8D%D0%BC%D0%B0)" },
+    { "id": "wp-church-slavonic", "title": "Church Slavonic", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Church_Slavonic" },
+    { "id": "wp-old-prussian", "title": "Old Prussian language", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Old_Prussian_language" }
+  ],
+  "languoids": [
+    {
+      "id": "proto-balto-slavic",
+      "name": "Proto-Balto-Slavic",
+      "glottocode": "balt1263",
+      "parent": "proto-indo-european",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-pbs", "glotto-balt1263"],
+      "period": {
+        "from": -2000,
+        "to": -800,
+        "approx": true,
+        "note": "Dates follow the Wikipedia infobox (2000 BC – c. 800 BC). Pronk argues the period of Balto-Slavic unity may have lasted up to 1,500 years, ending in the early 2nd millennium BC.",
+        "sources": ["wp-pbs"]
+      },
+      "homeland": {
+        "lat": 50.5,
+        "lng": 30.5,
+        "label": "Eastern Europe, Middle Dnieper region",
+        "sources": ["wp-pbs"]
+      },
+      "story": [
+        {
+          "text": "Proto-Balto-Slavic is a reconstructed language descending from Proto-Indo-European. No text in it survives. Linguists work it out by comparing its descendants, the Baltic and Slavic languages, which include Latvian, Lithuanian, Polish, Russian and Serbo-Croatian. One common dating places it at roughly 2000–800 BC, in Central and Eastern Europe.",
+          "sources": ["wp-pbs"]
+        },
+        {
+          "text": "The linguist Tijmen Pronk has argued that the Balto-Slavic period of unity may have lasted as long as 1,500 years, from the earliest stages after Proto-Indo-European to the early 2nd millennium BC, after which the Baltic and Slavic branches developed independently. He considers it plausible to associate Proto-Balto-Slavic with the early phases of the Middle Dnieper culture (c. 2500–1800 BC).",
+          "sources": ["wp-pbs"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Most scholars treat Balto-Slavic as a genetic branch of Indo-European that split into Baltic and Slavic. A minority argues that Baltic descended directly from Proto-Indo-European and that the features it shares with Slavic come from long contact rather than common ancestry.",
+          "sources": ["wp-baltic"]
+        },
+        {
+          "text": "No single homeland is agreed. Wikipedia gives the region as Central and Eastern Europe; the point on the map follows Pronk's association with the Middle Dnieper culture and should be read as one proposal, not a consensus.",
+          "sources": ["wp-pbs"]
+        }
+      ]
+    },
+    {
+      "id": "proto-slavic",
+      "name": "Proto-Slavic",
+      "glottocode": "slav1255",
+      "parent": "proto-balto-slavic",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-psl", "glotto-slav1255"],
+      "period": {
+        "from": -2000,
+        "to": 500,
+        "approx": true,
+        "note": "Wikipedia's infobox gives 2000 BC – AD 500; the lead says it represents Slavic speech from about the 2nd millennium BC through the 6th century AD.",
+        "sources": ["wp-psl"]
+      },
+      "homeland": {
+        "lat": 52.0,
+        "lng": 27.5,
+        "label": "Polesia (Pripet Marshes), present-day Belarus and Ukraine",
+        "sources": ["wp-slavic-homeland"]
+      },
+      "story": [
+        {
+          "text": "Proto-Slavic, also called Common Slavic, is the unattested, reconstructed ancestor of all the Slavic languages. It descends from Proto-Balto-Slavic and represents Slavic speech from about the 2nd millennium BC through the 6th century AD. As with most proto-languages, no writings in it have been found.",
+          "sources": ["wp-psl"]
+        },
+        {
+          "text": "During the second half of the first millennium AD, Proto-Slavic gradually evolved into the separate Slavic languages. Even so, overall linguistic unity and mutual intelligibility continued for several centuries, into the 10th century or later.",
+          "sources": ["wp-psl"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "The Slavic homeland is still debated because historical records are lacking. Most scholars consider Polesia, around the Pripet Marshes, the homeland. The botanist Józef Rostafiński argued for the Pripet Marshes from Germanic loanwords for beech, larch and yew, which do not grow there. Marija Gimbutas instead identified the Chernoles culture as the Proto-Slavic homeland.",
+          "sources": ["wp-slavic-homeland"]
+        }
+      ]
+    },
+    {
+      "id": "east-slavic",
+      "name": "East Slavic",
+      "glottocode": "east1426",
+      "parent": "proto-slavic",
+      "kind": "group",
+      "status": "living",
+      "sources": ["glotto-east1426", "wp-oes"]
+    },
+    {
+      "id": "old-east-slavic",
+      "name": "Old East Slavic",
+      "nativeName": "рѹсьскъ ꙗзыкъ",
+      "nativeScript": "Cyrs",
+      "glottocode": "oldr1238",
+      "parent": "east-slavic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-oes", "glotto-oldr1238"],
+      "period": {
+        "from": 700,
+        "to": 1400,
+        "approx": true,
+        "note": "Used by the East Slavs from the 7th or 8th century to the 13th or 14th century.",
+        "sources": ["wp-oes"]
+      },
+      "homeland": {
+        "lat": 50.45,
+        "lng": 30.52,
+        "label": "Kievan Rus' (point at Kyiv)",
+        "sources": ["wp-ukrainian", "wp-oes"]
+      },
+      "attestations": [
+        {
+          "id": "onfim-birch-bark",
+          "year": 1250,
+          "approx": true,
+          "lat": 58.52,
+          "lng": 31.275,
+          "place": "Novgorod",
+          "description": "Birch-bark pieces with the writing exercises and drawings of a boy named Onfim, dated to about 1240–1260 and first found at Novgorod's Nerevsky excavation site in 1956.",
+          "sources": ["wp-onfim"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Early Cyrillic", "code": "Cyrs" },
+          { "name": "Glagolitic", "code": "Glag" }
+        ],
+        "sources": ["wp-oes"]
+      },
+      "story": [
+        {
+          "text": "Old East Slavic was the language, or group of dialects, of the East Slavs from about the 7th or 8th century to the 13th or 14th century. It was the language of the medieval state of Kievan Rus'. It developed into Middle Russian and Ruthenian, and Ruthenian in turn into Belarusian, Rusyn and Ukrainian. Glagolitic was briefly introduced, but Cyrillic soon replaced it entirely.",
+          "sources": ["wp-oes", "wp-ukrainian"]
+        },
+        {
+          "text": "On 26 July 1951, during excavations in Novgorod, Nina Akulova found the first birch-bark document. By 2018, 1,222 had been found in 12 cities, 1,113 of them in Novgorod. They date from about the 11th to the 15th centuries, and most are ordinary letters written in a vernacular dialect. Among them are the spelling lessons and drawings of a boy named Onfim, from about 1240–1260.",
+          "sources": ["wp-birchbark", "wp-onfim"]
+        },
+        {
+          "text": "The oldest dated book of Kievan Rus' is the Ostromir Gospels of 1056 or 1057, made by the deacon Gregory for Ostromir, posadnik of Novgorod. It is written in the local version of Church Slavonic and shows Old Russian phonological features. The surviving literature of Old East Slavic includes the law code Russkaya Pravda and The Tale of Igor's Campaign.",
+          "sources": ["wp-ostromir", "wp-oes"]
+        }
+      ],
+      "works": [
+        {
+          "id": "tale-of-igors-campaign",
+          "title": "The Tale of Igor's Campaign",
+          "titleOriginal": "Слово о пълку Игоревѣ",
+          "author": "Anonymous",
+          "date": "late 12th century",
+          "year": 1187,
+          "significance": "An anonymous epic about the failed 1185 raid of Igor Svyatoslavich against the Polovtsians. Its only manuscript was found in 1795 in Yaroslavl, published in 1800, and reportedly burned in the Moscow fire of 1812. The current scholarly consensus is that the poem is authentic and dates to the late 12th century.",
+          "original": "Не лѣполи ны бяшетъ, братіе, начяти старыми словесы трудныхъ повѣстій о пълку Игоревѣ, Игоря Святъславлича! начати же ся тъй пѣсни по былинамь сего времени, а не по замышленію Бояню.",
+          "originalScript": "Cyrl",
+          "translation": "Were it not seemly to us, brothers, to begin in ancient diction the tales of the toils of the army of Ígoŕ, Ígoŕ Svyatoslávič? [Or] to begin this song in accordance with the ballads of this time, and not like the invention of Boyán?",
+          "translator": "Leonard A. Magnus",
+          "translationYear": 1915,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://ru.wikisource.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE_%D0%BE_%D0%BF%D0%BE%D0%BB%D0%BA%D1%83_%D0%98%D0%B3%D0%BE%D1%80%D0%B5%D0%B2%D0%B5/%D0%A2%D0%B5%D0%BA%D1%81%D1%82",
+          "sources": ["wp-igor", "ws-igor-1800", "ia-magnus", "wp-magnus"]
+        }
+      ]
+    },
+    {
+      "id": "ruthenian",
+      "name": "Ruthenian",
+      "nativeName": "ру́скаꙗ мо́ва",
+      "nativeScript": "Cyrl",
+      "glottocode": null,
+      "parent": "old-east-slavic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-ruthenian", "wp-oes"],
+      "period": {
+        "from": 1300,
+        "to": 1800,
+        "approx": true,
+        "note": "A written language used from the 14th to the 18th centuries (the Belarusian language article gives the 13th to 18th centuries). Glottolog has no separate entry for it.",
+        "sources": ["wp-ruthenian", "wp-belarusian"]
+      },
+      "homeland": {
+        "lat": 54.69,
+        "lng": 25.28,
+        "label": "Grand Duchy of Lithuania (point at the chancery in Vilnius)",
+        "sources": ["wp-ruthenian"]
+      },
+      "attestations": [
+        {
+          "id": "skaryna-prague-1517",
+          "year": 1517,
+          "approx": false,
+          "lat": 50.087,
+          "lng": 14.421,
+          "place": "Prague",
+          "description": "Francysk Skaryna begins printing his Biblia Ruska, starting with the Psalter of 6 August 1517, in Church Slavonic with many Ruthenian words.",
+          "sources": ["wp-skaryna"]
+        },
+        {
+          "id": "skaryna-vilnius-1522",
+          "year": 1522,
+          "approx": false,
+          "lat": 54.687,
+          "lng": 25.28,
+          "place": "Vilnius",
+          "description": "Skaryna opens the first printing house in Vilnius.",
+          "sources": ["wp-skaryna"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Cyrillic", "code": "Cyrl" }],
+        "sources": ["wp-ruthenian", "wp-statutes-lithuania"]
+      },
+      "story": [
+        {
+          "text": "Ruthenian was a written language used from the 14th to the 18th centuries in the East Slavic lands of the Grand Duchy of Lithuania and later the Polish–Lithuanian Commonwealth. The linguist Andrii Danylenko describes it as an administrative language shaped by the Grand Duchy's chancery in Vilnius. It was written in Cyrillic, and its users called it ruska(ja) mova.",
+          "sources": ["wp-ruthenian", "wp-statutes-lithuania"]
+        },
+        {
+          "text": "The third Statute of Lithuania, the law code of 1588, was written in Ruthenian and regulated the official use of the 'rusky' language. Ruthenian is regarded as a precursor of Belarusian and Ukrainian, and occasionally Rusyn, although neither standard language directly continues its written tradition.",
+          "sources": ["wp-ruthenian", "wp-statutes-lithuania", "wp-belarusian"]
+        }
+      ]
+    },
+    {
+      "id": "russian",
+      "name": "Russian",
+      "nativeName": "русский язык",
+      "nativeScript": "Cyrl",
+      "glottocode": "russ1263",
+      "iso639_3": "rus",
+      "parent": "old-east-slavic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-russian", "wp-oes", "glotto-russ1263"],
+      "period": {
+        "from": 1300,
+        "to": null,
+        "approx": true,
+        "note": "Approximate. Wikipedia dates Middle Russian from the 14th–15th centuries, as Moscow rose as the political centre in the 14th–16th centuries.",
+        "sources": ["wp-russian"]
+      },
+      "homeland": {
+        "lat": 55.75,
+        "lng": 37.62,
+        "label": "Moscow region (Muscovy)",
+        "sources": ["wp-russian"]
+      },
+      "scripts": {
+        "list": [{ "name": "Cyrillic", "code": "Cyrl" }],
+        "sources": ["wp-russian"]
+      },
+      "speakers": { "count": 145000000, "year": 2026, "scope": "L1", "sources": ["wp-russian"] },
+      "story": [
+        {
+          "text": "Russian grew out of Old East Slavic. During the rise of Moscow as the political centre of Russia in the 14th–16th centuries, speakers moving in from the southern dialect areas produced a hybrid Moscow dialect, and this became the basis of the standard language. In the modern view, Church Slavonic and Old Russian were perceived as different registers of the same language, and over the following centuries Church Slavonic became increasingly Russianized.",
+          "sources": ["wp-russian"]
+        },
+        {
+          "text": "Mikhail Lomonosov's Russian grammar, written in 1755, distinguished Church Slavonic forms from colloquial Russian. The modern literary language was established by the time of Alexander Pushkin in the first third of the 19th century; Pushkin rejected archaic grammar and vocabulary. The last major reform of the alphabet was carried out in 1917–1918.",
+          "sources": ["wp-lomonosov", "wp-russian"]
+        },
+        {
+          "text": "Russian has about 145 million native speakers and 65.2 million second-language speakers (2026 figures). It is an official language in Russia, Belarus, Kazakhstan and Kyrgyzstan.",
+          "sources": ["wp-russian"]
+        }
+      ],
+      "works": [
+        {
+          "id": "the-bronze-horseman",
+          "title": "The Bronze Horseman",
+          "titleOriginal": "Медный всадник",
+          "author": "Alexander Pushkin",
+          "date": "written 1833; first published, with censorship changes, 1837",
+          "year": 1833,
+          "significance": "Pushkin's poem about the great flood of 1824 and a poor young man, Evgenii, set against Falconet's statue of Peter the Great. Censorship kept it from publication in Pushkin's lifetime; it first appeared in 1837, after his death, with changes made for the censor by Vasily Zhukovsky, and it is considered one of the most influential works in Russian literature.",
+          "original": "На берегу пустынных волн\nСтоял он, дум великих полн,\nИ вдаль глядел. Пред ним широ́ко\nРека неслася; бедный чёлн\nПо ней стремился одиноко.",
+          "originalScript": "Cyrl",
+          "transliteration": "Na beregu pustynnykh voln\nStoyal on, dum velikikh poln,\nI vdal' glyadel. Pred nim shiroko\nReka neslasya; bednyy chyoln\nPo ney stremilsya odinoko.",
+          "translation": "On the shore of desolate waves\nstood he, full of great thoughts,\nand gazed into the distance. Before him, wide,\nthe river rushed along; a poor skiff\nsped down it, alone.",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://ru.wikisource.org/wiki/%D0%9C%D0%B5%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B2%D1%81%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA_(%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD)",
+          "sources": ["wp-bronze-horseman", "wp-ru-bronze-horseman", "ws-bronze-horseman"]
+        }
+      ]
+    },
+    {
+      "id": "ukrainian",
+      "name": "Ukrainian",
+      "nativeName": "українська мова",
+      "nativeScript": "Cyrl",
+      "glottocode": "ukra1253",
+      "iso639_3": "ukr",
+      "parent": "ruthenian",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-ukrainian", "glotto-ukra1253"],
+      "period": {
+        "from": 1700,
+        "to": null,
+        "approx": true,
+        "note": "Approximate. By the 18th century Ruthenian had split into regional variants, and modern Ukrainian developed on the territory of present-day Ukraine.",
+        "sources": ["wp-ukrainian"]
+      },
+      "homeland": {
+        "lat": 49.6,
+        "lng": 32.0,
+        "label": "Present-day Ukraine",
+        "sources": ["wp-ukrainian"]
+      },
+      "attestations": [
+        {
+          "id": "eneyida-1798",
+          "year": 1798,
+          "approx": false,
+          "lat": 59.94,
+          "lng": 30.31,
+          "place": "St Petersburg",
+          "description": "The first three parts of Ivan Kotliarevsky's Eneida, the first literary work published wholly in the Ukrainian vernacular, are printed without the author's knowledge.",
+          "sources": ["wp-eneyida"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Cyrillic (Ukrainian alphabet)", "code": "Cyrl" }],
+        "sources": ["wp-ukrainian"]
+      },
+      "speakers": { "count": 32000000, "year": 2023, "scope": "L1", "sources": ["wp-ukrainian"] },
+      "story": [
+        {
+          "text": "Ukrainian descends from Old East Slavic, a language of the medieval state of Kievan Rus'. In the Grand Duchy of Lithuania that language developed into Ruthenian, which became an official language there. By the 18th century Ruthenian had split into regional variants, and modern Ukrainian developed on the territory of present-day Ukraine.",
+          "sources": ["wp-ukrainian"]
+        },
+        {
+          "text": "In 1798 the first three parts of Ivan Kotliarevsky's Eneida, a parody of Virgil's Aeneid in which the Trojan heroes become Zaporozhian Cossacks, were published in St Petersburg without his knowledge. It was the first literary work published wholly in the Ukrainian vernacular. In 1840 Taras Shevchenko published Kobzar, eight poems whose title came to stand for the Ukrainian national and literary revival.",
+          "sources": ["wp-eneyida", "wp-kobzar"]
+        },
+        {
+          "text": "The Russian Empire restricted the language. Valuyev's decree of 1863 declared that 'there never has been, is not, and never can be a separate Little Russian language', and Alexander II's secret Ems Ukaz prohibited the publication and import of most Ukrainian-language books. Ukrainian is written in a variant of Cyrillic and has about 32 million native speakers (2023).",
+          "sources": ["wp-ukrainian"]
+        }
+      ],
+      "works": [
+        {
+          "id": "kobzar-dumy-moi",
+          "title": "Kobzar: “My thoughts, my thoughts”",
+          "titleOriginal": "Кобзарь: Думы мои, думы мои…",
+          "author": "Taras Shevchenko",
+          "date": "1840",
+          "year": 1840,
+          "significance": "The opening poem of Kobzar, Shevchenko's first collection, published in St Petersburg in 1840 with eight poems. The title Kobzar has acquired a symbolic meaning of the Ukrainian national and literary revival. The excerpt keeps the spelling of the 1840 edition.",
+          "original": "Думы мои, думы мои,\nЛыхо мени зъ вамы!\nНа що сталы на папири\nСумнымы рядамы?…",
+          "originalScript": "Cyrl",
+          "translation": "My thoughts, my thoughts,\nwoe is me with you!\nWhy have you stood upon the paper\nin sorrowful rows?…",
+          "translator": "World Language Tree (literal)",
+          "translationKind": "project-literal",
+          "license": "public-domain",
+          "fullTextUrl": "https://uk.wikisource.org/wiki/%D0%9A%D0%BE%D0%B1%D0%B7%D0%B0%D1%80%D1%8C_(1840)/%D0%94%D1%83%D0%BC%D1%8B_%D0%BC%D0%BE%D0%B8,_%D0%B4%D1%83%D0%BC%D1%8B_%D0%BC%D0%BE%D0%B8%E2%80%A6",
+          "sources": ["wp-kobzar", "ws-kobzar-1840"]
+        }
+      ]
+    },
+    {
+      "id": "belarusian",
+      "name": "Belarusian",
+      "nativeName": "беларуская мова",
+      "nativeScript": "Cyrl",
+      "glottocode": "bela1254",
+      "iso639_3": "bel",
+      "parent": "ruthenian",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-belarusian", "glotto-bela1254"],
+      "period": {
+        "from": 1790,
+        "to": null,
+        "approx": true,
+        "note": "The end of the 18th century is the usual conventional borderline between the Ruthenian and modern Belarusian stages.",
+        "sources": ["wp-belarusian"]
+      },
+      "homeland": {
+        "lat": 53.9,
+        "lng": 27.56,
+        "label": "Present-day Belarus",
+        "sources": ["wp-belarusian"]
+      },
+      "attestations": [
+        {
+          "id": "nasha-niva-1906",
+          "year": 1906,
+          "approx": false,
+          "lat": 54.687,
+          "lng": 25.28,
+          "place": "Vilnius",
+          "description": "First issue (23 November 1906) of the newspaper Nasha Niva, which introduced standards of usage into literary Belarusian and until 1912 appeared in both Cyrillic and Latin script.",
+          "sources": ["wp-nasha-niva"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Cyrillic (Belarusian alphabet)", "code": "Cyrl" },
+          { "name": "Belarusian Latin alphabet", "code": "Latn" }
+        ],
+        "sources": ["wp-belarusian"]
+      },
+      "speakers": { "count": 5094000, "year": 2019, "scope": "L1", "sources": ["wp-belarusian"] },
+      "story": [
+        {
+          "text": "Belarusian descends from Ruthenian, which in turn came from Old East Slavic. The modern language was redeveloped from the spoken remnants of Ruthenian, and the end of the 18th century is the usual conventional line between the two stages.",
+          "sources": ["wp-belarusian"]
+        },
+        {
+          "text": "The newspaper Nasha Niva, first issued in Vilnius on 23 November 1906, introduced standards of usage into the Belarusian literary language. The poet Janka Kupała became its editor in March 1914, and Jakub Kołas was an active contributor. Until 1912 it was printed in both Cyrillic and Latin letters. Belarusian is written mainly in Cyrillic, and the Belarusian Latin alphabet is also used; the 2019 census counted 5.094 million native speakers.",
+          "sources": ["wp-nasha-niva", "wp-belarusian"]
+        }
+      ]
+    },
+    {
+      "id": "west-slavic",
+      "name": "West Slavic",
+      "glottocode": "west2792",
+      "parent": "proto-slavic",
+      "kind": "group",
+      "status": "living",
+      "sources": ["glotto-west2792", "wp-czech"]
+    },
+    {
+      "id": "polish",
+      "name": "Polish",
+      "nativeName": "język polski",
+      "nativeScript": "Latn",
+      "glottocode": "poli1260",
+      "iso639_3": "pol",
+      "parent": "west-slavic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-polish", "glotto-poli1260"],
+      "period": {
+        "from": 950,
+        "to": null,
+        "approx": true,
+        "note": "Polish began to emerge as a distinct language around the 10th century.",
+        "sources": ["wp-polish"]
+      },
+      "homeland": {
+        "lat": 52.0,
+        "lng": 19.0,
+        "label": "Present-day Poland",
+        "sources": ["wp-polish"]
+      },
+      "attestations": [
+        {
+          "id": "book-of-henrykow",
+          "year": 1270,
+          "approx": true,
+          "lat": 50.65,
+          "lng": 17.02,
+          "place": "Henryków Abbey, Lower Silesia",
+          "description": "The Book of Henryków, a Latin chronicle of the Cistercian abbey, records the earliest known sentence in Polish under the year 1270.",
+          "sources": ["wp-henrykow"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-polish"]
+      },
+      "speakers": { "count": 40000000, "year": 2021, "scope": "L1", "sources": ["wp-polish"] },
+      "story": [
+        {
+          "text": "Polish began to emerge as a distinct language around the 10th century, a process largely triggered by the establishment and development of the Polish state. Its history is divided into Old Polish (10th–16th centuries) and Middle Polish (16th–18th centuries), with contemporary Polish developing in the 1700s.",
+          "sources": ["wp-polish"]
+        },
+        {
+          "text": "The earliest known sentence in Polish is in the Book of Henryków, a Latin chronicle of the Cistercian abbey at Henryków in Lower Silesia. Under the year 1270 the monk Peter recorded 'Day, ut ia pobrusa, a ti poziwai' ('Let me, I shall grind, and you take a rest'), introducing it with 'Hoc est in polonico' ('This is in Polish'). The book is on UNESCO's Memory of the World register and is kept in the Archdiocesan Museum in Wrocław.",
+          "sources": ["wp-henrykow"]
+        },
+        {
+          "text": "Adam Mickiewicz's Pan Tadeusz, written in Polish alexandrines and first published in Paris on 28 June 1834, is called Poland's national epic and is compulsory reading in Polish schools. Polish has about 40 million native speakers (2021).",
+          "sources": ["wp-pan-tadeusz", "wp-polish"]
+        }
+      ],
+      "works": [
+        {
+          "id": "pan-tadeusz",
+          "title": "Pan Tadeusz",
+          "titleOriginal": "Pan Tadeusz, czyli ostatni zajazd na Litwie",
+          "author": "Adam Mickiewicz",
+          "date": "1834",
+          "year": 1834,
+          "significance": "Written in Polish alexandrines and first published in Paris in 1834, it tells a story set in Lithuania in 1811 and 1812. It is called Poland's national epic and is compulsory reading in Polish schools.",
+          "original": "Litwo! Ojczyzno moja! ty jesteś jak zdrowie;\nIle cię trzeba cenić, ten tylko się dowie\nKto cię stracił. Dziś piękność twą w całéj ozdobie\nWidzę i opisuję, bo tęsknię po tobie.",
+          "originalScript": "Latn",
+          "translation": "Lithuania, my country, thou art like health; how much thou shouldst be prized only he can learn who has lost thee. To-day thy beauty in all its splendour I see and describe, for I yearn for thee.",
+          "translator": "George Rapall Noyes",
+          "translationYear": 1917,
+          "translationKind": "public-domain",
+          "license": "public-domain",
+          "fullTextUrl": "https://pl.wikisource.org/wiki/Pan_Tadeusz_(wyd._1834)/Ksi%C4%99ga_pierwsza",
+          "sources": ["wp-pan-tadeusz", "ws-pan-tadeusz", "ia-noyes", "wp-noyes"]
+        }
+      ]
+    },
+    {
+      "id": "czech",
+      "name": "Czech",
+      "nativeName": "čeština",
+      "nativeScript": "Latn",
+      "glottocode": "czec1258",
+      "iso639_3": "ces",
+      "parent": "west-slavic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-czech", "glotto-czec1258"],
+      "period": {
+        "from": 1100,
+        "to": null,
+        "approx": true,
+        "note": "Approximate. The Czech–Slovak group developed within West Slavic in the high medieval period; Czech is first recorded in glosses and short notes of the 12th–13th centuries.",
+        "sources": ["wp-czech"]
+      },
+      "homeland": {
+        "lat": 50.0,
+        "lng": 14.8,
+        "label": "Bohemia",
+        "sources": ["wp-czech"]
+      },
+      "attestations": [
+        {
+          "id": "kralice-bible",
+          "year": 1579,
+          "approx": false,
+          "lat": 49.198,
+          "lng": 16.203,
+          "place": "Kralice nad Oslavou",
+          "description": "Printing begins of the Kralice Bible (1579–1593), the first complete Czech Bible translated from the original languages, made by the Unity of the Brethren.",
+          "sources": ["wp-kralice"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-czech"]
+      },
+      "speakers": { "count": 9800000, "year": 2021, "scope": "L1", "sources": ["wp-czech"] },
+      "story": [
+        {
+          "text": "Czech belongs to the Czech–Slovak group, which developed within West Slavic in the high medieval period. Czech, also called Bohemian, is first recorded in glosses and short notes of the 12th and 13th centuries, and literary works in Czech appear in the late 13th and early 14th centuries.",
+          "sources": ["wp-czech"]
+        },
+        {
+          "text": "The reformer Jan Hus contributed significantly to standardizing Czech spelling and made early efforts to model written Czech on the spoken language. The Kralice Bible, printed in Kralice nad Oslavou between 1579 and 1593 by the Unity of the Brethren, was the first complete Czech Bible translated from the original languages; its third edition of 1613 is considered a classic and remains the most widely known Czech translation of the Bible.",
+          "sources": ["wp-czech", "wp-kralice"]
+        },
+        {
+          "text": "During the national revival that began in the mid-18th century, Josef Jungmann and others used Josef Dobrovský's 1809 grammar of Old Czech to argue for a Czech linguistic revival, and Jungmann's Czech–German dictionary (1834–1839) influenced standard Czech. Czech is highly mutually intelligible with Slovak and has about 9.8 million native speakers (2021).",
+          "sources": ["wp-czech"]
+        }
+      ]
+    },
+    {
+      "id": "slovak",
+      "name": "Slovak",
+      "nativeName": "slovenčina",
+      "nativeScript": "Latn",
+      "glottocode": "slov1269",
+      "iso639_3": "slk",
+      "parent": "west-slavic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-slovak", "glotto-slov1269"],
+      "period": {
+        "from": 1100,
+        "to": null,
+        "approx": true,
+        "note": "Approximate. The Czech–Slovak group developed within West Slavic in the high medieval period; the Czech and Slovak standards emerged in the early modern period.",
+        "sources": ["wp-slovak"]
+      },
+      "homeland": {
+        "lat": 48.7,
+        "lng": 19.5,
+        "label": "Present-day Slovakia",
+        "sources": ["wp-slovak"]
+      },
+      "attestations": [
+        {
+          "id": "stur-1843",
+          "year": 1843,
+          "approx": false,
+          "lat": 48.145,
+          "lng": 17.107,
+          "place": "Pressburg (Bratislava)",
+          "description": "On 2 February 1843 Ľudovít Štúr and his friends decide to create a new written standard based on central Slovak dialects.",
+          "sources": ["wp-stur"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-slovak"]
+      },
+      "speakers": { "count": 5000000, "year": 2021, "scope": "L1", "sources": ["wp-slovak"] },
+      "story": [
+        {
+          "text": "Slovak is closely related to Czech, to the point of very high mutual intelligibility. Both belong to the Czech–Slovak group, which developed within West Slavic in the high medieval period, and their written standards emerged in the early modern period. Slovak is written in the Latin alphabet with added diacritics.",
+          "sources": ["wp-slovak"]
+        },
+        {
+          "text": "The modern written standard was codified by Ľudovít Štúr (1815–1856). On 2 February 1843 in Pressburg, Štúr and his friends decided to create a new standard based on central Slovak dialects, and at Hlboké in July 1843 the movement's leaders agreed how to codify it. Central Slovak remains the basis of the standard language, which has about 5 million native speakers.",
+          "sources": ["wp-stur", "wp-slovak"]
+        }
+      ]
+    },
+    {
+      "id": "south-slavic",
+      "name": "South Slavic",
+      "glottocode": "sout3147",
+      "parent": "proto-slavic",
+      "kind": "group",
+      "status": "living",
+      "sources": ["glotto-sout3147", "wp-sc", "wp-macedonian"]
+    },
+    {
+      "id": "old-church-slavonic",
+      "name": "Old Church Slavonic",
+      "nativeName": "словѣньскъ ѩꙁꙑкъ",
+      "nativeScript": "Cyrs",
+      "glottocode": "chur1257",
+      "parent": "south-slavic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-ocs", "glotto-chur1257"],
+      "period": {
+        "from": 863,
+        "to": 1050,
+        "approx": true,
+        "note": "The Glagolitic alphabet was devised in 862/863 for the Moravian mission; the canonical Old Church Slavonic period runs from the 9th century to the first half of the 11th.",
+        "sources": ["wp-ocs", "wp-macedonian"]
+      },
+      "homeland": {
+        "lat": 40.64,
+        "lng": 22.94,
+        "label": "Byzantine theme of Thessalonica (its dialect basis)",
+        "sources": ["wp-ocs"]
+      },
+      "attestations": [
+        {
+          "id": "ohrid-literary-school",
+          "year": 886,
+          "approx": false,
+          "lat": 41.117,
+          "lng": 20.8,
+          "place": "Ohrid",
+          "description": "Saint Clement of Ohrid founds the Ohrid Literary School, which used the Glagolitic alphabet until the 12th century and Cyrillic from the end of the 9th century.",
+          "sources": ["wp-ohrid"]
+        },
+        {
+          "id": "preslav-literary-school",
+          "year": 893,
+          "approx": false,
+          "lat": 43.16,
+          "lng": 26.81,
+          "place": "Preslav",
+          "description": "Simeon I moves the literary school from Pliska to the new Bulgarian capital, Preslav; the Preslav school developed the Cyrillic script.",
+          "sources": ["wp-preslav"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Glagolitic", "code": "Glag" },
+          { "name": "Early Cyrillic", "code": "Cyrs" }
+        ],
+        "sources": ["wp-ocs"]
+      },
+      "story": [
+        {
+          "text": "Old Church Slavonic is the first Slavic literary language and the oldest Slavic language attested in literary sources. In 862 the Byzantine emperor sent the brothers Cyril and Methodius to Great Moravia, and in preparation, in 862/863, they developed the Glagolitic alphabet. The language they standardized was based mainly on the dialect of the Slavs living in the Byzantine theme of Thessalonica.",
+          "sources": ["wp-ocs", "wp-glagolitic"]
+        },
+        {
+          "text": "The oldest manuscript is usually thought to be the Kiev Missal: seven Glagolitic folios of Roman-rite liturgy, dated no later than the latter half of the 10th century, whose West Slavic features place them at the start of the Bohemian-Moravian recension. Most other early manuscripts were written in the First Bulgarian Empire in the late 10th and early 11th centuries.",
+          "sources": ["wp-kiev-missal", "wp-ocs"]
+        },
+        {
+          "text": "In Bulgaria, Saint Clement founded the Ohrid Literary School in 886, and the Preslav Literary School, moved to the capital Preslav in 893, developed the Cyrillic script, which later replaced Glagolitic there. In Croatia and Dalmatia Glagolitic remained in use alongside Cyrillic and Latin, and its liturgical use survived into the 20th century; the Baška tablet of about 1100 is one of its notable monuments.",
+          "sources": ["wp-ohrid", "wp-preslav", "wp-glagolitic", "wp-baska"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Its users called the language simply 'Slavic' (slověnĭskŭ językŭ). 'Old Bulgarian' is the name used by most Bulgarian-language writers, while the Macedonian recension of the language is linked to the Ohrid Literary School.",
+          "sources": ["wp-ocs", "wp-macedonian"]
+        },
+        {
+          "text": "Old Church Slavonic is the name for the earliest, classical form of the language, found in manuscripts of the 9th to 11th centuries. Its later forms, which took on features of local Slavic vernaculars, are collectively called Church Slavonic. Church Slavonic is still used as a liturgical language by Eastern Orthodox churches, including the Russian Orthodox Church, and by some Greek Catholic churches in Slavic countries.",
+          "sources": ["wp-ocs", "wp-church-slavonic"]
+        }
+      ]
+    },
+    {
+      "id": "serbo-croatian",
+      "name": "Serbo-Croatian",
+      "nativeName": "srpskohrvatski",
+      "nativeScript": "Latn",
+      "glottocode": "sout1528",
+      "iso639_3": "hbs",
+      "parent": "south-slavic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-sc", "glotto-sout1528"],
+      "period": {
+        "from": 1050,
+        "to": null,
+        "approx": true,
+        "note": "Approximate date of first attestation, not emergence: the oldest texts date from the 11th century and are in Glagolitic. The Baška tablet (c. 1100), in Church Slavonic of Croatian recension with Chakavian features, is not the oldest; the Plomin and Valun tablets and the Krk inscription are earlier, from the 11th century.",
+        "sources": ["wp-sc", "wp-baska"]
+      },
+      "homeland": {
+        "lat": 44.0,
+        "lng": 18.0,
+        "label": "Western Balkans (Serbia, Croatia, Bosnia and Herzegovina, Montenegro)",
+        "sources": ["wp-sc"]
+      },
+      "attestations": [
+        {
+          "id": "baska-tablet",
+          "year": 1100,
+          "approx": true,
+          "lat": 44.97,
+          "lng": 14.75,
+          "place": "Jurandvor, near Baška, island of Krk",
+          "description": "The Baška tablet, a Glagolitic inscription in Church Slavonic of Croatian recension influenced by the Chakavian dialect; it is the first text in Croatian to name Croatia and King Zvonimir.",
+          "sources": ["wp-baska"]
+        }
+      ],
+      "scripts": {
+        "list": [
+          { "name": "Latin (Gaj's alphabet)", "code": "Latn" },
+          { "name": "Cyrillic (Serbian Cyrillic)", "code": "Cyrl" }
+        ],
+        "sources": ["wp-sc"]
+      },
+      "speakers": { "count": 17000000, "year": 2023, "scope": "L1", "sources": ["wp-sc"] },
+      "story": [
+        {
+          "text": "Serbo-Croatian, also called Bosnian-Croatian-Montenegrin-Serbian (BCMS), is a Western South Slavic language of Serbia, Croatia, Bosnia and Herzegovina and Montenegro. It is pluricentric, with four mutually intelligible standard varieties: Serbian, Croatian, Bosnian and Montenegrin. It is written in both Latin and Cyrillic, and its main dialects, Shtokavian, Chakavian and Kajkavian, are named after their words for 'what'.",
+          "sources": ["wp-sc"]
+        },
+        {
+          "text": "The Baška tablet from the island of Krk, dated to about 1100, is written in Glagolitic and is the first text in Croatian to name Croatia and King Zvonimir. In March 1850 Vuk Karadžić, Đuro Daničić and Croatian writers including Ivan Mažuranić agreed in the Vienna Literary Agreement to base a common literary language on the Shtokavian dialect with Ijekavian pronunciation.",
+          "sources": ["wp-baska", "wp-vienna"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "This atlas follows Glottolog, which treats the Serbian, Croatian, Bosnian and Montenegrin standards as varieties of one language, Serbian-Croatian-Bosnian. Linguists disagree: John Bailyn calls BCS 'clearly a single language with a single grammatical system', while the prevailing view among Croatian linguists is that there was never a single Serbo-Croatian language. In 2017 public figures from the four countries signed the Declaration on the Common Language.",
+          "sources": ["glotto-sout1528", "wp-sc"]
+        }
+      ]
+    },
+    {
+      "id": "slovene",
+      "name": "Slovene",
+      "nativeName": "slovenščina",
+      "nativeScript": "Latn",
+      "glottocode": "slov1268",
+      "iso639_3": "slv",
+      "parent": "south-slavic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-slovene", "glotto-slov1268"],
+      "period": {
+        "from": 1000,
+        "to": null,
+        "approx": true,
+        "note": "Date of first attestation: the Freising manuscripts, written between 972 and 1039, are the oldest documents in Slovene.",
+        "sources": ["wp-freising"]
+      },
+      "homeland": {
+        "lat": 46.15,
+        "lng": 14.99,
+        "label": "Present-day Slovenia",
+        "sources": ["wp-slovene"]
+      },
+      "attestations": [
+        {
+          "id": "freising-manuscripts",
+          "year": 1000,
+          "approx": true,
+          "lat": 46.9,
+          "lng": 13.1,
+          "place": "Möll Valley, Carinthia (probable place of writing)",
+          "description": "The Freising manuscripts, three church texts written between 972 and 1039: the oldest document in Slovene and the first Latin-script continuous text in a Slavic language.",
+          "sources": ["wp-freising"]
+        },
+        {
+          "id": "trubar-1550",
+          "year": 1550,
+          "approx": false,
+          "lat": 49.112,
+          "lng": 9.737,
+          "place": "Schwäbisch Hall",
+          "description": "Primož Trubar's Catechismus and Abecedarium, the first Slovene books, are printed by Peter Frentz.",
+          "sources": ["wp-trubar"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-slovene"]
+      },
+      "speakers": { "count": 2500000, "year": 2010, "scope": "L1", "sources": ["wp-slovene"] },
+      "story": [
+        {
+          "text": "The Freising manuscripts, three church texts written between 972 and 1039, probably in the Möll Valley of Carinthia, are the oldest documents in Slovene and the first Latin-script continuous text in a Slavic language. They were found bound into a Latin codex from Freising in Bavaria and are kept in the Bavarian State Library in Munich.",
+          "sources": ["wp-freising"]
+        },
+        {
+          "text": "Standard Slovene emerged in the second half of the 16th century through the works of Slovene Lutheran authors. Primož Trubar wrote the first Slovene books, Catechismus and Abecedarium, printed in 1550 in Schwäbisch Hall, and took the language of Ljubljana as the foundation of what later became standard Slovene. The modern alphabet was derived in the mid-1840s from the system of the Croatian linguist Ljudevit Gaj.",
+          "sources": ["wp-slovene", "wp-trubar"]
+        },
+        {
+          "text": "Slovene keeps a dual grammatical number, an archaic feature shared with some other Indo-European languages. Estimates of the number of its dialects range from as few as seven to as many as 50. It has about 2.5 million speakers (2010).",
+          "sources": ["wp-slovene"]
+        }
+      ]
+    },
+    {
+      "id": "bulgarian",
+      "name": "Bulgarian",
+      "nativeName": "български език",
+      "nativeScript": "Cyrl",
+      "glottocode": "bulg1262",
+      "iso639_3": "bul",
+      "parent": "south-slavic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-bulgarian", "glotto-bulg1262"],
+      "period": {
+        "from": 1100,
+        "to": null,
+        "approx": true,
+        "note": "Bulgarian scholarship counts Old Church Slavonic as Old Bulgarian (9th–11th centuries). This atlas models Old Church Slavonic separately, so Bulgarian starts here with Middle Bulgarian (12th–15th centuries); Modern Bulgarian dates from the 16th century.",
+        "sources": ["wp-bulgarian", "wp-ocs"]
+      },
+      "homeland": {
+        "lat": 42.7,
+        "lng": 25.3,
+        "label": "Present-day Bulgaria",
+        "sources": ["wp-bulgarian"]
+      },
+      "scripts": {
+        "list": [{ "name": "Cyrillic (Bulgarian alphabet)", "code": "Cyrl" }],
+        "sources": ["wp-bulgarian"]
+      },
+      "speakers": { "count": 6800000, "year": 2023, "scope": "L1", "sources": ["wp-bulgarian"] },
+      "story": [
+        {
+          "text": "Bulgarian was the first Slavic language attested in writing. Its history is divided into Old Bulgarian (9th–11th centuries), Middle Bulgarian (12th–15th centuries) and Modern Bulgarian, from the 16th century on. In the Middle Bulgarian period the language lost the Slavonic case system and developed a definite article, and the texts called damaskini mark the transition to New Bulgarian.",
+          "sources": ["wp-bulgarian"]
+        },
+        {
+          "text": "Between 1835 and 1878 more than 25 proposals for a standard were put forward, with reformers such as Neofit Rilski and Ivan Bogorov, until the eastern dialects prevailed. In 1899 the Bulgarian Ministry of Education officially codified a standard based on the Drinov-Ivanchev orthography, and the 1945 spelling reform abolished the letter yat (Ѣ). Bulgarian has about 6.8 million native speakers.",
+          "sources": ["wp-bulgarian"]
+        }
+      ]
+    },
+    {
+      "id": "macedonian",
+      "name": "Macedonian",
+      "nativeName": "македонски јазик",
+      "nativeScript": "Cyrl",
+      "glottocode": "mace1250",
+      "iso639_3": "mkd",
+      "parent": "south-slavic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-macedonian", "glotto-mace1250"],
+      "period": {
+        "from": 1750,
+        "to": null,
+        "approx": true,
+        "note": "Approximate, and later than the spoken dialects: Wikipedia dates the rise of modern literary Macedonian to the latter half of the 18th century. Macedonian developed from the western dialects of the Eastern South Slavic continuum, whose earliest recorded form is Old Church Slavonic.",
+        "sources": ["wp-macedonian"]
+      },
+      "homeland": {
+        "lat": 41.6,
+        "lng": 21.7,
+        "label": "Present-day North Macedonia",
+        "sources": ["wp-macedonian"]
+      },
+      "attestations": [
+        {
+          "id": "misirkov-1903",
+          "year": 1903,
+          "approx": false,
+          "lat": 42.698,
+          "lng": 23.322,
+          "place": "Sofia",
+          "description": "Krste Misirkov publishes On Macedonian Matters (За македонцките работи), the first attempt to formalise a separate Macedonian literary language.",
+          "sources": ["wp-misirkov", "wp-macedonian"]
+        },
+        {
+          "id": "asnom-1944",
+          "year": 1944,
+          "approx": false,
+          "lat": 42.33,
+          "lng": 21.9,
+          "place": "St. Prohor Pčinjski Monastery (now in Serbia)",
+          "description": "The first session of ASNOM, held on 2 August 1944, makes Macedonian the official language of the Macedonian state.",
+          "sources": ["wp-asnom"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Cyrillic (Macedonian alphabet)", "code": "Cyrl" }],
+        "sources": ["wp-macedonian"]
+      },
+      "speakers": { "count": 1700000, "year": 2022, "scope": "L1", "sources": ["wp-macedonian"] },
+      "story": [
+        {
+          "text": "Macedonian developed out of the western dialects of the Eastern South Slavic dialect continuum, whose earliest recorded form is Old Church Slavonic. During five centuries of Ottoman rule the vernacular changed in ways that place it in the Balkan sprachbund, sharing features with Greek, Aromanian, Albanian and Romani. Many Turkish loanwords entered the language in this period.",
+          "sources": ["wp-macedonian"]
+        },
+        {
+          "text": "Krste Misirkov's On Macedonian Matters, published in Sofia in 1903, was the first attempt to formalise a separate literary language, based on the dialects between Prilep and Bitola. On 2 August 1944 the first session of ASNOM made Macedonian an official language, and the standard was codified in 1945. It is written in a 31-letter version of Cyrillic and has about 1.7 million native speakers (2022).",
+          "sources": ["wp-misirkov", "wp-asnom", "wp-macedonian"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Macedonian and Bulgarian are part of one Eastern South Slavic dialect continuum with high mutual intelligibility. Outside Bulgaria, the international consensus treats Macedonian as an autonomous language.",
+          "sources": ["wp-macedonian"]
+        }
+      ]
+    },
+    {
+      "id": "proto-baltic",
+      "name": "Proto-Baltic",
+      "glottocode": null,
+      "parent": "proto-balto-slavic",
+      "kind": "proto",
+      "status": "extinct",
+      "sources": ["wp-baltic"],
+      "period": {
+        "from": -2000,
+        "to": -500,
+        "approx": true,
+        "note": "Approximate. Follows the traditional view, reported by Wikipedia, that Proto-Baltic and Proto-Slavic coexisted from the 2nd millennium BC to about the 5th century BC. Some scholars doubt that a unified Proto-Baltic stage existed at all (see notes).",
+        "sources": ["wp-baltic"]
+      },
+      "homeland": {
+        "lat": 54.5,
+        "lng": 27.0,
+        "label": "South-eastern Baltic to the upper Dnieper (area of Baltic river names)",
+        "sources": ["wp-baltic"]
+      },
+      "story": [
+        {
+          "text": "Proto-Baltic is the reconstructed ancestor traditionally assumed for the Baltic languages. These are usually divided into West Baltic, which contains only extinct languages such as Old Prussian, and East Baltic, which includes Lithuanian and Latvian. River names of Baltic origin show that Baltic speech once reached at least as far east as the Dnieper in present-day Belarus, and one estimate puts the Proto-Baltic area at about six times the present ethnic territory of the Balts.",
+          "sources": ["wp-baltic"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Some scholars, including Frederik Kortlandt and Rick Derksen, argue there was never a unified Proto-Baltic stage and that Balto-Slavic split directly into Slavic, East Baltic and West Baltic. Glottolog has no Baltic node: it places Eastern Baltic (Lithuanian and Latvian) and Old Prussian directly under Balto-Slavic. This atlas keeps the traditional Proto-Baltic node, without a glottocode.",
+          "sources": ["wp-baltic", "glotto-balt1263"]
+        }
+      ]
+    },
+    {
+      "id": "lithuanian",
+      "name": "Lithuanian",
+      "nativeName": "lietuvių kalba",
+      "nativeScript": "Latn",
+      "glottocode": "lith1251",
+      "iso639_3": "lit",
+      "parent": "proto-baltic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-lithuanian", "glotto-lith1251"],
+      "period": {
+        "from": 800,
+        "to": null,
+        "approx": true,
+        "note": "Lithuanian and Latvian began to differentiate after about AD 800.",
+        "sources": ["wp-lithuanian"]
+      },
+      "homeland": {
+        "lat": 55.2,
+        "lng": 23.9,
+        "label": "Present-day Lithuania",
+        "sources": ["wp-lithuanian"]
+      },
+      "attestations": [
+        {
+          "id": "mazvydas-catechism",
+          "year": 1547,
+          "approx": false,
+          "lat": 54.71,
+          "lng": 20.51,
+          "place": "Königsberg",
+          "description": "Hans Weinreich prints Martynas Mažvydas's Catechism on 8 January 1547, the first printed book in Lithuanian, which includes the first Lithuanian poem.",
+          "sources": ["wp-mazvydas"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-lithuanian"]
+      },
+      "speakers": { "count": 4000000, "year": 2022, "scope": "L1", "sources": ["wp-lithuanian"] },
+      "story": [
+        {
+          "text": "Lithuanian is an East Baltic language. Some linguists consider it, in some respects, the most conservative of the living Indo-European languages, since it keeps archaic features otherwise found mainly in ancient languages such as Sanskrit and Ancient Greek. It is closely related to neighbouring Latvian, though the two are not mutually intelligible, and despite its late attestation it is an important source for reconstructing Proto-Indo-European.",
+          "sources": ["wp-lithuanian"]
+        },
+        {
+          "text": "The earliest surviving Lithuanian text, a translation of the Lord's Prayer, the Hail Mary and the Nicene Creed, dates from about 1503–1525. The first printed book, Martynas Mažvydas's Catechism, came off Hans Weinreich's press in Königsberg on 8 January 1547; only two copies survive, in Vilnius University Library and in the Nicolaus Copernicus University Library in Toruń.",
+          "sources": ["wp-lithuanian", "wp-mazvydas"]
+        },
+        {
+          "text": "After the January Uprising, the Russian Governor General banned Lithuanian texts in the Latin alphabet; books printed in East Prussia and the United States were carried in by book smugglers (knygnešiai) until the ban was lifted in 1904. Jonas Jablonskis (1860–1930) shaped the standard language, basing it mainly on his native Western Aukštaitian dialect. Lithuanian has about 4.0 million native speakers (2022).",
+          "sources": ["wp-lithuanian"]
+        }
+      ]
+    },
+    {
+      "id": "latvian",
+      "name": "Latvian",
+      "nativeName": "latviešu valoda",
+      "nativeScript": "Latn",
+      "glottocode": "latv1249",
+      "iso639_3": "lav",
+      "parent": "proto-baltic",
+      "kind": "language",
+      "status": "living",
+      "sources": ["wp-latvian", "glotto-latv1249"],
+      "period": {
+        "from": 800,
+        "to": null,
+        "approx": true,
+        "note": "The differentiation between Lithuanian and Latvian started after AD 800.",
+        "sources": ["wp-latvian"]
+      },
+      "homeland": {
+        "lat": 56.9,
+        "lng": 24.3,
+        "label": "Present-day Latvia",
+        "sources": ["wp-latvian"]
+      },
+      "attestations": [
+        {
+          "id": "ramm-hymn-1530",
+          "year": 1530,
+          "approx": false,
+          "lat": 56.95,
+          "lng": 24.11,
+          "place": "Riga",
+          "description": "Nikolaus Ramm's hymn translation, the oldest known written Latvian.",
+          "sources": ["wp-latvian"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-latvian"]
+      },
+      "speakers": { "count": 1500000, "year": 2023, "scope": "L1", "sources": ["wp-latvian"] },
+      "story": [
+        {
+          "text": "Latvian is an East Baltic language whose differentiation from Lithuanian started after AD 800. Contact with Finnic languages left about 500–600 Finnic loanwords, and the Livonic dialect was especially affected by a Livonian substratum. Standard Latvian and all its dialects have fixed initial stress, with some exceptions.",
+          "sources": ["wp-latvian"]
+        },
+        {
+          "text": "The oldest known written Latvian is a hymn translated by Nikolaus Ramm in Riga in 1530, and the oldest preserved Latvian book is a Catholic catechism by Petrus Canisius from 1585, now in Uppsala University Library. In 1908 Kārlis Mīlenbahs and Jānis Endzelīns worked out the modern Latvian alphabet. Latvian has about 1.5 million native speakers (2023).",
+          "sources": ["wp-latvian"]
+        }
+      ]
+    },
+    {
+      "id": "old-prussian",
+      "name": "Old Prussian",
+      "nativeName": "Prūsiskai",
+      "nativeScript": "Latn",
+      "glottocode": "prus1238",
+      "iso639_3": "prg",
+      "parent": "proto-baltic",
+      "kind": "language",
+      "status": "extinct",
+      "sources": ["wp-old-prussian", "glotto-prus1238"],
+      "period": {
+        "from": 1300,
+        "to": 1710,
+        "approx": true,
+        "note": "Date of first attestation: the original of the Elbing Vocabulary is dated to the late 13th or early 14th century. The language probably ceased to be spoken around the beginning of the 18th century.",
+        "sources": ["wp-old-prussian"]
+      },
+      "homeland": {
+        "lat": 54.3,
+        "lng": 20.5,
+        "label": "Prussia, on the south-eastern Baltic coast",
+        "sources": ["wp-old-prussian"]
+      },
+      "attestations": [
+        {
+          "id": "enchiridion-1561",
+          "year": 1561,
+          "approx": false,
+          "lat": 54.71,
+          "lng": 20.51,
+          "place": "Königsberg",
+          "description": "The third Old Prussian catechism, a 132-page translation of Luther's Small Catechism by Abel Will with Paul Megott, the longest Old Prussian text.",
+          "sources": ["wp-old-prussian"]
+        }
+      ],
+      "scripts": {
+        "list": [{ "name": "Latin", "code": "Latn" }],
+        "sources": ["wp-old-prussian"]
+      },
+      "story": [
+        {
+          "text": "Old Prussian was a West Baltic language spoken by the Baltic peoples of the Prussian region, and it began to be written in the Latin alphabet in about the 13th century. The Elbing Vocabulary, 802 thematically sorted words with German equivalents, survives in a copy made around 1400 by Peter Holcwesscher from Marienburg. The Basel Epigram of 1369, probably written by a Prussian student in Prague, is the oldest written Prussian sentence.",
+          "sources": ["wp-old-prussian"]
+        },
+        {
+          "text": "The longest texts are three catechisms printed in Königsberg. The first two, both from 1545, contain only six pages of Prussian text; the third, from 1561, is a 132-page translation of Luther's Small Catechism by Abel Will with the help of Paul Megott. The language probably ceased to be spoken around the beginning of the 18th century, its decline linked to the famines and plague of 1709–1711 in East Prussia.",
+          "sources": ["wp-old-prussian"]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the 1980s the linguists Vladimir Toporov and Vytautas Mažiulis began reconstructing Prussian as a scientific project. Enthusiasts have since revived the language on the basis of that reconstruction, and a few children are native speakers of Revived Prussian; Wikipedia gives 3 first-language speakers (2021) and about 50 second-language speakers.",
+          "sources": ["wp-old-prussian"]
+        }
+      ]
+    }
+  ]
+}
