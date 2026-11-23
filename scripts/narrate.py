@@ -10,13 +10,15 @@ Renders the Story of Language narration to audio with a local neural voice
   only plays a clip that matches the current (verified) narration, and
   re-running regenerates only clips whose text changed.
 """
-import hashlib, json, os, re, subprocess, sys, tempfile, urllib.request
+import hashlib, json, os, re, subprocess, sys, tempfile, unicodedata, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".cache", "kokoro")
 OUT = os.path.join(ROOT, "public", "audio", "narration")
 STORY = os.path.join(ROOT, "data", "story", "story-of-language.json")
 VOICE, LANG, SPEED = "bm_george", "en-gb", 0.92
+# bump when the spoken-form rules change in ways the spoken text alone doesn't capture
+RULES_VERSION = 2
 MODEL_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
 
 
@@ -30,15 +32,43 @@ def ensure_model():
     return os.path.join(CACHE, "kokoro-v1.0.onnx"), os.path.join(CACHE, "voices-v1.0.bin")
 
 
+# Hand-tuned spoken forms (checked against the voice's phonemes). Display text is never changed.
+LEXICON = {
+    "Aṣṭādhyāyī": "Ashtadhyayi",
+    "Pāṇini": "Panini",
+    "Meroë": "Meroe",
+}
+
+
 def speakable(text: str) -> str:
-    """Spoken form only: the displayed, verified text is never changed."""
+    """Spoken form only: the displayed, verified text is never changed.
+
+    Notes from testing the voice's phonemes:
+    - plain "BCE"/"CE" read smoothly ("bee-see-ee"); "B.C.E." made it pause after every letter
+    - letters with diacritics below (ṇ ṣ ṭ) get spelled out as symbol names, so fold them to ASCII
+    """
     t = text
+    for word, spoken in LEXICON.items():
+        t = t.replace(word, spoken)
     t = re.sub(r"\bc\.\s*(?=\d)", "circa ", t)
-    t = re.sub(r"\bBCE\b", "B.C.E.", t)
-    t = re.sub(r"\bCE\b", "C.E.", t)
     t = re.sub(r"(\d)\s*[–-]\s*(\d)", r"\1 to \2", t)
     t = t.replace("–", ", ").replace("—", ", ")
-    return t
+    t = t.replace("ʻ", "").replace("ʼ", "'").replace("’", "'")
+    # fold remaining accented letters to their base letter (Göktürks -> Gokturks, Sahagún -> Sahagun)
+    t = unicodedata.normalize("NFKD", t)
+    t = "".join(ch for ch in t if not unicodedata.combining(ch))
+    return unicodedata.normalize("NFC", t)
+
+
+# phoneme fragments that mean the voice is spelling out a symbol instead of saying a word
+SPELLED_OUT = ("lˌɛtəw", "lˈɛtəw", "mˈakɹˌɒn", "mˈakɹɒn")  # "letter one…", "…macron": a symbol being spelled out
+
+
+def check_pronunciation(k, cid: str, spoken: str):
+    ph = k.tokenizer.phonemize(spoken, LANG)
+    bad = [f for f in SPELLED_OUT if f in ph]
+    if bad:
+        raise SystemExit(f"pronunciation guard: clip {cid} would spell out a symbol ({bad}).\n  spoken: {spoken}\n  phonemes: {ph}\n  add a LEXICON entry for the word.")
 
 
 def clips(story):
@@ -64,12 +94,15 @@ def main():
     wanted = {}
     made = 0
     for cid, text in clips(story):
-        h = hashlib.sha256(f"{VOICE}|{SPEED}|{text}".encode()).hexdigest()[:16]
+        spoken = speakable(text)
+        # the hash covers the spoken form, so pronunciation fixes re-render the affected clips
+        h = hashlib.sha256(f"{VOICE}|{SPEED}|r{RULES_VERSION}|{spoken}".encode()).hexdigest()[:16]
         # `text` lets the app play a clip only when it matches the current verified narration
         wanted[cid] = {"file": f"{cid}.mp3", "hash": h, "text": text}
         if manifest.get(cid, {}).get("hash") == h and os.path.exists(os.path.join(OUT, f"{cid}.mp3")):
             continue
-        samples, sr = k.create(speakable(text), voice=VOICE, speed=SPEED, lang=LANG)
+        check_pronunciation(k, cid, spoken)
+        samples, sr = k.create(spoken, voice=VOICE, speed=SPEED, lang=LANG)
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
             sf.write(tmp.name, samples, sr)
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", tmp.name, "-ac", "1", "-c:a", "libmp3lame", "-b:a", "64k", os.path.join(OUT, f"{cid}.mp3")], check=True)
