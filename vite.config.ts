@@ -3,6 +3,7 @@ import solid from "@solidjs/vite-plugin";
 
 export default defineConfig({
   plugins: [solid()],
+  define: { __BUILD_ID__: JSON.stringify(Date.now().toString(36)) },
   // NO_HMR=1: a stable server for automated screenshots while data files are being written
   server: process.env.NO_HMR ? { hmr: false, watch: null } : undefined,
   build: {

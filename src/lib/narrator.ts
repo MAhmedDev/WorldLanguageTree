@@ -32,7 +32,8 @@ export function resumeSpeaking() {
 }
 
 const loadManifest = () =>
-  (manifest ??= fetch("/audio/narration/manifest.json")
+  // the build id busts the browser cache for the index on every deploy
+  (manifest ??= fetch(`/audio/narration/manifest.json?v=${__BUILD_ID__}`)
     .then(r => (r.ok ? (r.json() as Promise<Manifest>) : ({} as Manifest)))
     .catch(() => ({}) as Manifest));
 
@@ -45,7 +46,8 @@ export function speak(id: string, text: string) {
   void loadManifest().then(m => {
     const clip = m[id];
     if (mine !== token || !clip || clip.text !== text) return;
-    audio = new Audio(`/audio/narration/${clip.file}`);
+    // the clip's hash changes whenever its audio is re-rendered, so fixed clips are never served stale
+    audio = new Audio(`/audio/narration/${clip.file}?v=${clip.hash}`);
     audio.volume = volume;
     void audio
       .play()
