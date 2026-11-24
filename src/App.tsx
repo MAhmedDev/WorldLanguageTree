@@ -98,7 +98,15 @@ function Shell(props: { issues: number }) {
       } else if (e.key.toLowerCase() === "t") actions.toggleTree();
     };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    // spinning or zooming the globe from the intro is choosing to explore
+    const onGlobe = () => {
+      if (intro()) begin("explore");
+    };
+    window.addEventListener("globe-interact", onGlobe);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("globe-interact", onGlobe);
+    };
   });
 
   createEffect(
@@ -180,15 +188,18 @@ function Shell(props: { issues: number }) {
       </Show>
 
       <Show when={intro()}>
-        <div class="intro">
+        <div class="hero">
           <div class="intro-inner">
             <h2 class="intro-title">World Language Tree</h2>
             <p class="intro-lede">The story of human speech, across the globe and through time.</p>
             <button class="intro-begin" onClick={() => begin(atlas.story ? "story" : "explore")}>
-              Begin
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 5.5v13l11-6.5z" />
+              </svg>
+              <span>Begin the story</span>
             </button>
             <div class="intro-alt">
-              <button onClick={() => begin("explore")}>or explore on your own</button>
+              <button onClick={() => begin("explore")}>or spin the globe and explore</button>
             </div>
           </div>
         </div>

@@ -18,6 +18,9 @@ const PATHS: Record<string, string[]> = {
   "skip-next": ["M6 6.5l8 5.5l-8 5.5z", "M17.5 6.5v11"],
   "skip-prev": ["M18 6.5l-8 5.5l8 5.5z", "M6.5 6.5v11"],
   mute: ["M4 9.5v5h3.5L12 18V6L7.5 9.5z", "M16 9.5l5 5", "M21 9.5l-5 5"],
+  "zoom-in": ["M12 5v14", "M5 12h14"],
+  "zoom-out": ["M5 12h14"],
+  recenter: ["M12 3a9 9 0 1 1 0 18a9 9 0 0 1 0-18z", "M12 7l2.2 5L12 17l-2.2-5z"],
   expand: ["M14 4h6v6", "M10 20H4v-6", "M20 4l-6 6", "M4 20l6-6"]
 };
 

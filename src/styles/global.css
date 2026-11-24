@@ -1267,7 +1267,7 @@ kbd {
 }
 
 /* ---------- intro: the globe is the hero ---------- */
-.intro {
+.hero {
   position: fixed;
   inset: 0;
   z-index: 50;
@@ -1343,6 +1343,10 @@ kbd {
 
 /* story chapter openings: a title card over the globe, one line at a time, no box */
 .story-card.intro {
+  top: 0;
+  display: grid;
+  place-items: center;
+  z-index: 50;
   background: none;
   border: 0;
   box-shadow: none;
@@ -2436,4 +2440,303 @@ kbd {
 /* smoother card arrival */
 .story-card {
   transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s;
+}
+
+/* ======================================================================
+   The globe is the experience: always touchable, on every screen
+   ====================================================================== */
+/* the intro floats over a live globe; only its words and buttons take touches */
+.hero {
+  pointer-events: none;
+  background: radial-gradient(ellipse at 50% 50%, rgba(4, 7, 13, 0) 40%, rgba(4, 7, 13, 0.45) 85%);
+}
+.hero .intro-inner > * {
+  pointer-events: auto;
+}
+.intro-title,
+.intro-lede {
+  pointer-events: none !important;
+}
+.intro-begin {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 34px 15px 26px;
+}
+.intro-begin svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.globe-ctrls {
+  position: absolute;
+  right: var(--gutter);
+  bottom: calc(var(--river-h) + 60px);
+  z-index: 14;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 4px;
+  border-radius: 999px;
+  transition: opacity 0.6s ease, right 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.globe-ctrls .icon-btn {
+  width: 40px;
+  height: 40px;
+}
+.globe-ctrls .icon-btn[data-tip]::after {
+  top: 50%;
+  bottom: auto;
+  left: auto;
+  right: calc(100% + 10px);
+  transform: translateY(-50%);
+}
+.app.panel-open .globe-ctrls {
+  right: calc(min(460px, 92vw) + 2 * var(--gutter));
+}
+.app.at-intro .globe-ctrls {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ---------- phones ---------- */
+.sheet-grip {
+  display: none;
+}
+@media (max-width: 860px) {
+  :root {
+    --river-h: 100px;
+  }
+
+  /* intro: the globe in the middle, words above, the play button under the thumb */
+  .hero {
+    place-items: stretch;
+    padding: calc(env(safe-area-inset-top) + 56px) 20px calc(env(safe-area-inset-bottom) + 40px);
+    background: linear-gradient(180deg, rgba(4, 7, 13, 0.7) 0%, rgba(4, 7, 13, 0) 28%, rgba(4, 7, 13, 0) 62%, rgba(4, 7, 13, 0.8) 100%);
+  }
+  .intro-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .intro-title {
+    font-size: clamp(40px, 12vw, 58px);
+  }
+  .intro-lede {
+    margin-top: 12px;
+    font-size: 17px;
+    max-width: 22em;
+  }
+  .intro-begin {
+    margin-top: auto;
+    font-size: 20px;
+  }
+
+  /* globe controls: a slim column on the right, clear of thumbs and sheets */
+  .globe-ctrls {
+    top: calc(var(--top-h) + 8px);
+    bottom: auto;
+  }
+  .globe-ctrls .icon-btn {
+    width: 38px;
+    height: 38px;
+  }
+  .app.guided .globe-ctrls {
+    top: calc(var(--top-h) + 40px);
+  }
+  .app.panel-open .globe-ctrls {
+    right: var(--gutter);
+  }
+  .app.panel-open .globe-ctrls,
+  .app.tree-open .globe-ctrls {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* the time river: one compact card, scrubber always on screen */
+  .river {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    height: var(--river-h);
+    bottom: calc(env(safe-area-inset-bottom) + 10px);
+    padding: 6px 14px 4px 8px;
+  }
+  .river-head {
+    gap: 8px;
+  }
+  .transport {
+    gap: 0;
+  }
+  .volume-slider {
+    display: none;
+  }
+  .river-play {
+    width: 42px;
+    height: 42px;
+  }
+  .river-year {
+    flex: 1;
+    min-width: 0;
+    align-items: flex-end;
+    text-align: right;
+  }
+  .river-year-num {
+    font-size: 22px;
+    min-width: 0;
+  }
+  .river-era {
+    margin-top: 2px;
+    max-width: 100%;
+    font-size: 9.5px;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .river-track {
+    height: 34px;
+    flex: none;
+  }
+  .river-handle {
+    height: 24px;
+  }
+
+  /* language page: a bottom sheet that peeks over the globe */
+  .panel {
+    top: auto;
+    left: var(--gutter);
+    right: var(--gutter);
+    bottom: calc(var(--river-h) + 18px);
+    width: auto;
+    height: 46dvh;
+    transform: translateY(calc(100% + var(--river-h) + 40px));
+    opacity: 1;
+    transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), height 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+    border-radius: 22px;
+  }
+  .panel.open {
+    transform: translateY(max(0px, var(--drag, 0px)));
+  }
+  .panel.full {
+    height: calc(100dvh - var(--top-h) - var(--river-h) - 36px);
+  }
+  .panel.dragging {
+    transition: none;
+  }
+  .sheet-grip {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 48px;
+    height: 26px;
+    z-index: 2;
+    touch-action: none;
+    cursor: grab;
+  }
+  .sheet-grip i {
+    width: 42px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgba(236, 228, 212, 0.35);
+    margin-left: 48px;
+  }
+  .panel-body {
+    padding: 26px 20px 32px;
+  }
+  .panel-title {
+    font-size: 30px;
+  }
+  .map-label-name {
+    font-size: 10.5px;
+  }
+  .map-label-native {
+    font-size: 11px;
+  }
+
+  /* the story: a compact card at the bottom, the globe alive above it */
+  .story-card {
+    bottom: calc(var(--river-h) + 18px);
+    max-height: 44dvh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 12px 16px 8px;
+    border-radius: 20px;
+  }
+  .story-card h3 {
+    font-size: 22px;
+  }
+  .caption-text,
+  .story-para {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .story-card.intro {
+    top: auto;
+    display: block;
+    max-height: 46dvh;
+  }
+  .story-card.intro .story-title {
+    font-size: 34px;
+  }
+  .story-card.intro .story-para {
+    font-size: 17px;
+    margin-top: 8px;
+  }
+  /* on a phone the chapter opening is a card like every other step, so the globe stays clear above it */
+  .story-card.intro {
+    background: var(--glass-strong);
+    border: 1px solid var(--line-soft);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    text-shadow: none;
+  }
+  .story-card.intro::before {
+    display: none;
+  }
+  .story-card.intro .story-para {
+    text-shadow: none;
+  }
+  .app.guided .globe-ctrls {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .specimen {
+    top: calc(var(--top-h) + 22px);
+  }
+  .specimen-text {
+    font-size: 20px;
+    line-height: 1.35;
+  }
+  .specimen-lang {
+    margin-bottom: 6px;
+  }
+  .story-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-top: 10px;
+    padding-bottom: 2px;
+  }
+  .story-chip {
+    flex: none;
+  }
+}
+/* pinches on the globe zoom the globe, never the page */
+.globe,
+.hero {
+  touch-action: none;
+}
+/* touch screens have no hover: a tap must not leave a tooltip behind */
+@media (hover: none) {
+  [data-tip]::after,
+  [data-tip]::before {
+    display: none !important;
+  }
 }

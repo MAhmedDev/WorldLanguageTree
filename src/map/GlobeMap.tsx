@@ -6,8 +6,12 @@ import { useAtlas } from "../state/atlas.tsx";
 import { aliveAt, ancestors } from "../data/model.ts";
 import { buildStyle } from "./style.ts";
 import { fontFor } from "../lib/scripts.ts";
+import { IconButton } from "../ui/Icon.tsx";
 
 const INTERACTIVE = ["presence-core", "presence-glow"];
+/** a phone in portrait: the globe fills the width and pages become bottom sheets */
+const narrow = () => window.innerWidth <= 860;
+const homeZoom = () => (window.innerWidth < 500 ? 1.25 : window.innerWidth < 700 ? 1.1 : 1.9);
 maplibregl.setWorkerUrl(workerUrl);
 
 export function GlobeMap() {
@@ -16,6 +20,7 @@ export function GlobeMap() {
   const [zoom, setZoom] = createSignal(1.6);
   let container: HTMLDivElement | undefined;
   let stopIdle = () => {};
+  let controls = { zoomIn: () => {}, zoomOut: () => {}, home: () => {} };
   /** plain mirror: a guided mode (story or journey) owns the camera */
   let guided = false;
 
@@ -25,40 +30,65 @@ export function GlobeMap() {
       container,
       style: buildStyle(atlas),
       center: [35, 28],
-      zoom: window.innerWidth < 700 ? 1.0 : 1.9,
+      zoom: homeZoom(),
       minZoom: 0.6,
       maxZoom: 8,
+      maxPitch: 60,
       attributionControl: { compact: true, customAttribution: "Natural Earth · Glottolog (CC-BY 4.0)" },
       renderWorldCopies: false,
       fadeDuration: 0
     });
-    m.dragRotate.disable();
-    m.touchZoomRotate.disableRotation();
+    // the globe is the reader's: drag to spin, pinch or scroll to zoom, two fingers to tilt and turn
+    m.touchZoomRotate.enable();
+    m.touchPitch.enable();
 
     let idleSince = performance.now();
     let userActive = false;
-    const markActive = () => {
+    const touched = () => {
       userActive = true;
       idleSince = performance.now();
-      // the reader took the wheel: autoplay steps aside
-      actions.setAutoplay(false);
     };
-    m.on("mousedown", markActive);
-    m.on("touchstart", markActive);
-    m.on("wheel", markActive);
-    m.on("dragend", () => {
+    m.on("mousedown", touched);
+    m.on("touchstart", touched);
+    m.on("wheel", touched);
+    const released = () => {
       userActive = false;
       idleSince = performance.now();
-    });
+    };
+    m.on("dragend", released);
+    m.on("touchend", released);
     m.on("zoom", () => setZoom(m.getZoom()));
     m.on("move", () => declutter());
     m.on("moveend", () => declutter(true));
 
     m.on("load", () => setMap(m));
 
+    // fingers are broad: a tap picks the nearest point within reach
     m.on("click", (e: maplibregl.MapMouseEvent) => {
-      const f = m.queryRenderedFeatures(e.point, { layers: INTERACTIVE })[0];
-      if (f) actions.visit(String(f.properties.languoid));
+      const r = matchMedia("(pointer: coarse)").matches ? 16 : 5;
+      const { x, y } = e.point;
+      const hits = m.queryRenderedFeatures(
+        [
+          [x - r, y - r],
+          [x + r, y + r]
+        ],
+        { layers: INTERACTIVE }
+      );
+      let best: (typeof hits)[number] | undefined;
+      let bestD = Infinity;
+      for (const f of hits) {
+        if (f.geometry.type !== "Point") continue;
+        const p = m.project(f.geometry.coordinates as [number, number]);
+        const d = (p.x - x) ** 2 + (p.y - y) ** 2;
+        if (d < bestD) {
+          bestD = d;
+          best = f;
+        }
+      }
+      if (best) {
+        navigator.vibrate?.(8);
+        actions.visit(String(best.properties.languoid));
+      }
     });
     m.on("mousemove", (e: maplibregl.MapMouseEvent) => {
       const f = m.queryRenderedFeatures(e.point, { layers: INTERACTIVE })[0];
@@ -80,9 +110,22 @@ export function GlobeMap() {
     };
     raf = requestAnimationFrame(spin);
     stopIdle = () => (idleSince = performance.now() + 60000);
+    // the reader moved the globe themselves: the story steps aside until play is pressed again
     m.on("movestart", (e: { originalEvent?: Event }) => {
-      if (e.originalEvent) markActive();
+      if (!e.originalEvent) return;
+      touched();
+      actions.setAutoplay(false);
+      window.dispatchEvent(new Event("globe-interact"));
     });
+    controls = {
+      zoomIn: () => m.zoomIn({ duration: 400 }),
+      zoomOut: () => m.zoomOut({ duration: 400 }),
+      home: () => {
+        idleSince = performance.now();
+        if (state.story || state.journey || state.selected) actions.refocus();
+        else m.easeTo({ zoom: homeZoom(), pitch: 0, bearing: 0, duration: reducedMotion ? 0 : 1200 });
+      }
+    };
 
     return () => {
       cancelAnimationFrame(raf);
@@ -172,13 +215,16 @@ export function GlobeMap() {
   let lastTick = -1;
   createEffect(
     () => {
-      const wide = window.innerWidth > 860;
+      const wide = !narrow();
       const dock = wide && state.treeOpen && !state.treeExpanded ? Math.min(430, window.innerWidth * 0.34) + 20 : 0;
       const isGuided = !!(state.story || state.journey);
       const panel = wide && state.selected ? Math.min(460, window.innerWidth * 0.36) + 20 : 0;
-      // guided modes keep the tree out of the way and a caption card at the bottom
+      const h = window.innerHeight;
+      // guided modes keep the tree out of the way and a caption card at the bottom;
+      // on a phone the page is a bottom sheet, so the globe uses the space above it
       const left = dock;
-      const bottom = isGuided ? (wide ? 330 : 360) : 130;
+      const sheet = !wide && state.selected ? h * 0.46 + 110 : 0;
+      const bottom = Math.max(sheet, isGuided ? (wide ? 330 : Math.min(h * 0.5, 420)) : wide ? 130 : 120);
       return {
         m: map(),
         tick: state.focusTick,
@@ -199,14 +245,14 @@ export function GlobeMap() {
       const point = id ? atlas.nodes.get(id)?.point : null;
       if (point || spot.length || isGuided) stopIdle();
       if (point) {
-        const target = { center: [point.lng, point.lat] as [number, number], zoom: Math.max(m.getZoom(), 3.1), padding };
+        const target = { center: [point.lng, point.lat] as [number, number], zoom: Math.max(m.getZoom(), 3.1), padding, ...(isGuided ? { pitch: 0, bearing: 0 } : {}) };
         if (reducedMotion) m.jumpTo(target);
         else m.flyTo({ ...target, speed: 0.7, curve: 1.5, essential: false });
         return;
       }
       const pts = spot.map(s => atlas.nodes.get(s)?.point).filter((p): p is { lat: number; lng: number } => !!p);
       if (pts.length === 1) {
-        m.flyTo({ center: [pts[0].lng, pts[0].lat], zoom: 3.3, padding, duration, essential: true });
+        m.flyTo({ center: [pts[0].lng, pts[0].lat], zoom: 3.3, pitch: 0, bearing: 0, padding, duration, essential: true });
       } else if (pts.length > 1) {
         const lngs = pts.map(p => p.lng);
         const lats = pts.map(p => p.lat);
@@ -214,10 +260,10 @@ export function GlobeMap() {
           [Math.min(...lngs), Math.min(...lats)],
           [Math.max(...lngs), Math.max(...lats)]
         ];
-        m.fitBounds(bounds, { padding: { ...padding, left: padding.left + 80, right: padding.right + 80, top: padding.top + 60 }, maxZoom: 3.6, duration, essential: true });
+        m.fitBounds(bounds, { padding: { ...padding, left: padding.left + 80, right: padding.right + 80, top: padding.top + 60 }, maxZoom: 3.6, pitch: 0, bearing: 0, duration, essential: true });
       } else if (isGuided) {
         // a chapter opening: pull back to see the whole world
-        m.easeTo({ zoom: window.innerWidth < 700 ? 1.0 : 1.7, padding, duration: duration ?? 2000 });
+        m.easeTo({ zoom: narrow() ? homeZoom() - 0.1 : 1.7, pitch: 0, bearing: 0, padding, duration: duration ?? 2000 });
       }
     }
   );
@@ -350,5 +396,14 @@ export function GlobeMap() {
     }
   );
 
-  return <div class="globe" ref={el => (container = el)} aria-label="Globe of the world's languages" />;
+  return (
+    <>
+      <div class="globe" ref={el => (container = el)} aria-label="Globe of the world's languages" />
+      <div class="globe-ctrls glass" role="group" aria-label="Globe controls">
+        <IconButton icon="zoom-in" label="Zoom in" onClick={() => controls.zoomIn()} />
+        <IconButton icon="zoom-out" label="Zoom out" onClick={() => controls.zoomOut()} />
+        <IconButton icon="recenter" label="Recentre" onClick={() => controls.home()} />
+      </div>
+    </>
+  );
 }

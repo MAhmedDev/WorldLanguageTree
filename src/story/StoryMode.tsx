@@ -67,6 +67,8 @@ export function storyPlayPause(ctx: AtlasContextValue) {
     return;
   }
   if (!state.story) storyJumpToYear(ctx, state.year);
+  // the reader may have wandered the globe while paused: the story takes the camera back
+  else actions.refocus();
   actions.setAutoplay(true);
 }
 

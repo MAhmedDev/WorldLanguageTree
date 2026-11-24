@@ -1,4 +1,4 @@
-import { For, Show, createMemo } from "solid-js";
+import { For, Show, createMemo, createSignal } from "solid-js";
 import { useAtlas } from "../state/atlas.tsx";
 import { ancestors, type AtlasNode, type ClaimStatus } from "../data/model.ts";
 import type { Source } from "../data/schema.ts";
@@ -35,10 +35,58 @@ export function LanguagePanel() {
   const { atlas, state, actions } = useAtlas();
   const node = createMemo(() => (state.selected ? atlas.nodes.get(state.selected) ?? null : null));
 
+  // On a phone the page is a bottom sheet: it peeks, a swipe up opens it fully, a swipe down closes it.
+  const [full, setFull] = createSignal(false);
+  const [drag, setDrag] = createSignal(0);
+  let startY = 0;
+  let dragging = false;
+  const onDown = (e: PointerEvent) => {
+    dragging = true;
+    startY = e.clientY;
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+  };
+  const onMove = (e: PointerEvent) => {
+    if (dragging) setDrag(e.clientY - startY);
+  };
+  const onUp = (e: PointerEvent) => {
+    if (!dragging) return;
+    dragging = false;
+    const dy = e.clientY - startY;
+    setDrag(0);
+    if (Math.abs(dy) < 6) setFull(f => !f);
+    else if (dy < -40) setFull(true);
+    else if (dy > 70) {
+      if (full()) setFull(false);
+      else {
+        setFull(false);
+        actions.select(null);
+      }
+    }
+  };
+  const onCancel = () => {
+    dragging = false;
+    setDrag(0);
+  };
+
   return (
-    <aside class={["panel glass", { open: !!node() }]} aria-label="Language details" aria-hidden={node() ? "false" : "true"}>
+    <aside
+      class={["panel glass", { open: !!node(), full: full(), dragging: drag() !== 0 }]}
+      style={{ "--drag": `${drag()}px` }}
+      aria-label="Language details"
+      aria-hidden={node() ? "false" : "true"}
+    >
+      <div class="sheet-grip" aria-hidden="true" onPointerDown={onDown} onPointerMove={onMove} onPointerUp={onUp} onPointerCancel={onCancel}>
+        <i />
+      </div>
       <Show when={node()}>{n => <PanelBody node={n()} />}</Show>
-      <button class="panel-close" aria-label="Close" onClick={() => actions.select(null)}>
+      <button
+        class="panel-close"
+        aria-label="Close"
+        onClick={() => {
+          setFull(false);
+          actions.select(null);
+        }}
+      >
         ×
       </button>
     </aside>

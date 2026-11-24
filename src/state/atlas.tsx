@@ -41,6 +41,8 @@ export interface AtlasActions {
   journeyArrived(id: string, step: number): void;
   endJourney(): void;
   setAutoplay(on: boolean): void;
+  /** fly the camera back to whatever the current view is about */
+  refocus(): void;
   storyGo(chapter: number, beat: number, para: number, languoids: string[]): void;
   storyArrived(chapter: number, beat: number): void;
   endStory(): void;
@@ -166,7 +168,13 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
       cancelTween();
       setState(s => {
         const sameView = s.story && s.story.chapter === chapter && s.story.beat === beat;
-        s.story = { chapter, beat, para, arrived: sameView ? s.story!.arrived : false };
+        // assign leaves on an open story, so only readers of what moved re-run
+        if (s.story) {
+          s.story.chapter = chapter;
+          s.story.beat = beat;
+          s.story.para = para;
+          if (!sameView) s.story.arrived = false;
+        } else s.story = { chapter, beat, para, arrived: false };
         s.journey = null;
         s.selected = null;
         s.journeysOpen = false;
@@ -193,6 +201,10 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
     setAutoplay: on =>
       setState(s => {
         s.autoplay = on;
+      }),
+    refocus: () =>
+      setState(s => {
+        s.focusTick++;
       }),
     setVolume: v => {
       setState(s => {
