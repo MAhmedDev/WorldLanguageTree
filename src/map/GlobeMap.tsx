@@ -21,6 +21,8 @@ export function GlobeMap() {
   let container: HTMLDivElement | undefined;
   let stopIdle = () => {};
   let controls = { zoomIn: () => {}, zoomOut: () => {}, home: () => {} };
+  /** the next camera flight also levels the globe (Recentre) */
+  let levelNext = false;
   /** plain mirror: a guided mode (story or journey) owns the camera */
   let guided = false;
 
@@ -57,16 +59,19 @@ export function GlobeMap() {
     };
     m.on("dragend", released);
     m.on("touchend", released);
+    m.on("moveend", (e: { originalEvent?: Event }) => {
+      if (e.originalEvent) released();
+    });
     m.on("zoom", () => setZoom(m.getZoom()));
     m.on("move", () => declutter());
     m.on("moveend", () => declutter(true));
 
     m.on("load", () => setMap(m));
 
-    // fingers are broad: a tap picks the nearest point within reach
-    m.on("click", (e: maplibregl.MapMouseEvent) => {
-      const r = matchMedia("(pointer: coarse)").matches ? 16 : 5;
-      const { x, y } = e.point;
+    // fingers are broad: a tap picks the nearest point within reach that exists at this moment
+    const coarse = matchMedia("(pointer: coarse)").matches;
+    const pick = (pt: maplibregl.Point, r: number) => {
+      const { x, y } = pt;
       const hits = m.queryRenderedFeatures(
         [
           [x - r, y - r],
@@ -77,7 +82,7 @@ export function GlobeMap() {
       let best: (typeof hits)[number] | undefined;
       let bestD = Infinity;
       for (const f of hits) {
-        if (f.geometry.type !== "Point") continue;
+        if (f.geometry.type !== "Point" || pState[Number(f.id)]?.b !== 1) continue;
         const p = m.project(f.geometry.coordinates as [number, number]);
         const d = (p.x - x) ** 2 + (p.y - y) ** 2;
         if (d < bestD) {
@@ -85,15 +90,19 @@ export function GlobeMap() {
           best = f;
         }
       }
-      if (best) {
-        navigator.vibrate?.(8);
-        actions.visit(String(best.properties.languoid));
-      }
+      return best ? String(best.properties.languoid) : null;
+    };
+    m.on("click", (e: maplibregl.MapMouseEvent) => {
+      const id = pick(e.point, coarse ? 16 : 5);
+      if (!id) return;
+      navigator.vibrate?.(8);
+      window.dispatchEvent(new CustomEvent("globe-interact", { detail: { tap: true } }));
+      actions.visit(id);
     });
     m.on("mousemove", (e: maplibregl.MapMouseEvent) => {
-      const f = m.queryRenderedFeatures(e.point, { layers: INTERACTIVE })[0];
-      m.getCanvas().style.cursor = f ? "pointer" : "";
-      actions.hover(f ? String(f.properties.languoid) : null);
+      const id = pick(e.point, 5);
+      m.getCanvas().style.cursor = id ? "pointer" : "";
+      actions.hover(id);
     });
 
     // slow ambient rotation while idle
@@ -122,7 +131,10 @@ export function GlobeMap() {
       zoomOut: () => m.zoomOut({ duration: 400 }),
       home: () => {
         idleSince = performance.now();
-        if (state.story || state.journey || state.selected) actions.refocus();
+        if (state.story || state.journey || state.selected) {
+          levelNext = true;
+          actions.refocus();
+        }
         else m.easeTo({ zoom: homeZoom(), pitch: 0, bearing: 0, duration: reducedMotion ? 0 : 1200 });
       }
     };
@@ -223,7 +235,7 @@ export function GlobeMap() {
       // guided modes keep the tree out of the way and a caption card at the bottom;
       // on a phone the page is a bottom sheet, so the globe uses the space above it
       const left = dock;
-      const sheet = !wide && state.selected ? h * 0.46 + 110 : 0;
+      const sheet = !wide && state.selected ? (state.sheetFull ? h - 70 : h * 0.46 + 110) : 0;
       const bottom = Math.max(sheet, isGuided ? (wide ? 330 : Math.min(h * 0.5, 420)) : wide ? 130 : 120);
       return {
         m: map(),
@@ -241,11 +253,13 @@ export function GlobeMap() {
         return;
       }
       lastTick = tick;
+      const level = isGuided || levelNext ? { pitch: 0, bearing: 0 } : {};
+      levelNext = false;
       const duration = reducedMotion ? 0 : isGuided ? 2800 : undefined;
       const point = id ? atlas.nodes.get(id)?.point : null;
       if (point || spot.length || isGuided) stopIdle();
       if (point) {
-        const target = { center: [point.lng, point.lat] as [number, number], zoom: Math.max(m.getZoom(), 3.1), padding, ...(isGuided ? { pitch: 0, bearing: 0 } : {}) };
+        const target = { center: [point.lng, point.lat] as [number, number], zoom: Math.max(m.getZoom(), 3.1), padding, ...level };
         if (reducedMotion) m.jumpTo(target);
         else m.flyTo({ ...target, speed: 0.7, curve: 1.5, essential: false });
         return;
@@ -358,6 +372,7 @@ export function GlobeMap() {
     }
     el.addEventListener("click", ev => {
       ev.stopPropagation();
+      window.dispatchEvent(new CustomEvent("globe-interact", { detail: { tap: true } }));
       actions.visit(id);
     });
     el.addEventListener("mouseenter", () => actions.hover(id));

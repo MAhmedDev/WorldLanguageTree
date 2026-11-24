@@ -152,7 +152,8 @@ export function StoryMode() {
       const v = view();
       if (!v) return;
       const text = narration().text || (v.kind === "outro" ? "outro" : "");
-      const key = `${v.s.chapter}:${v.s.beat}:${v.s.para}:${v.s.arrived}`;
+      // resuming restarts the step's clock, so a long pause never skips straight past it
+      const key = `${v.s.chapter}:${v.s.beat}:${v.s.para}:${v.s.arrived}:${state.autoplay}`;
       if (key !== seen) {
         seen = key;
         shownAt = performance.now();

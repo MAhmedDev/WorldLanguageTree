@@ -36,7 +36,6 @@ export function LanguagePanel() {
   const node = createMemo(() => (state.selected ? atlas.nodes.get(state.selected) ?? null : null));
 
   // On a phone the page is a bottom sheet: it peeks, a swipe up opens it fully, a swipe down closes it.
-  const [full, setFull] = createSignal(false);
   const [drag, setDrag] = createSignal(0);
   let startY = 0;
   let dragging = false;
@@ -53,14 +52,11 @@ export function LanguagePanel() {
     dragging = false;
     const dy = e.clientY - startY;
     setDrag(0);
-    if (Math.abs(dy) < 6) setFull(f => !f);
-    else if (dy < -40) setFull(true);
+    if (Math.abs(dy) < 6) actions.setSheetFull(!state.sheetFull);
+    else if (dy < -40) actions.setSheetFull(true);
     else if (dy > 70) {
-      if (full()) setFull(false);
-      else {
-        setFull(false);
-        actions.select(null);
-      }
+      if (state.sheetFull) actions.setSheetFull(false);
+      else actions.select(null);
     }
   };
   const onCancel = () => {
@@ -70,7 +66,7 @@ export function LanguagePanel() {
 
   return (
     <aside
-      class={["panel glass", { open: !!node(), full: full(), dragging: drag() !== 0 }]}
+      class={["panel glass", { open: !!node(), full: state.sheetFull, dragging: drag() !== 0 }]}
       style={{ "--drag": `${drag()}px` }}
       aria-label="Language details"
       aria-hidden={node() ? "false" : "true"}
@@ -82,10 +78,7 @@ export function LanguagePanel() {
       <button
         class="panel-close"
         aria-label="Close"
-        onClick={() => {
-          setFull(false);
-          actions.select(null);
-        }}
+        onClick={() => actions.select(null)}
       >
         ×
       </button>

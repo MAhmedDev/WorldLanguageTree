@@ -2735,8 +2735,8 @@ kbd {
 }
 /* touch screens have no hover: a tap must not leave a tooltip behind */
 @media (hover: none) {
-  [data-tip]::after,
-  [data-tip]::before {
+  .icon-btn[data-tip]::after,
+  .story-rail button[data-tip]::after {
     display: none !important;
   }
 }

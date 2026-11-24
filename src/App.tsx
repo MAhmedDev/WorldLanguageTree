@@ -99,8 +99,11 @@ function Shell(props: { issues: number }) {
     };
     window.addEventListener("keydown", onKey);
     // spinning or zooming the globe from the intro is choosing to explore
-    const onGlobe = () => {
-      if (intro()) begin("explore");
+    // (a tap on a language only lifts the intro: the language page sets its own year)
+    const onGlobe = (e: Event) => {
+      if (!intro()) return;
+      if ((e as CustomEvent<{ tap?: boolean }>).detail?.tap) setIntro(false);
+      else begin("explore");
     };
     window.addEventListener("globe-interact", onGlobe);
     return () => {
@@ -196,7 +199,7 @@ function Shell(props: { issues: number }) {
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M8 5.5v13l11-6.5z" />
               </svg>
-              <span>Begin the story</span>
+              <span>{atlas.story ? "Begin the story" : "Begin"}</span>
             </button>
             <div class="intro-alt">
               <button onClick={() => begin("explore")}>or spin the globe and explore</button>

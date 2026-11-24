@@ -8,6 +8,8 @@ export interface AtlasState {
   hovered: string | null;
   treeOpen: boolean;
   treeExpanded: boolean;
+  /** phone: the language sheet is pulled up to full height */
+  sheetFull: boolean;
   /** active guided journey; `arrived` flips once the camera and time have finished travelling */
   journey: { id: string; step: number; arrived: boolean } | null;
   /** languoids a guided mode is focused on (map highlight + camera), without opening a page */
@@ -43,6 +45,7 @@ export interface AtlasActions {
   setAutoplay(on: boolean): void;
   /** fly the camera back to whatever the current view is about */
   refocus(): void;
+  setSheetFull(on: boolean): void;
   storyGo(chapter: number, beat: number, para: number, languoids: string[]): void;
   storyArrived(chapter: number, beat: number): void;
   endStory(): void;
@@ -91,6 +94,7 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
     // one focal point: the globe. The tree is a click away.
     treeOpen: false,
     treeExpanded: false,
+    sheetFull: false,
     journey: null,
     spotlight: [],
     story: null,
@@ -115,6 +119,7 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
     select: (id, opts) =>
       setState(s => {
         s.selected = id;
+        if (!id) s.sheetFull = false;
         if (id && opts?.fly !== false) s.focusTick++;
       }),
     visit: id => {
@@ -150,6 +155,7 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
         s.story = null;
         s.spotlight = [languoid];
         s.selected = null;
+        s.sheetFull = false;
         s.journeysOpen = false;
         s.focusTick++;
       });
@@ -177,6 +183,7 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
         } else s.story = { chapter, beat, para, arrived: false };
         s.journey = null;
         s.selected = null;
+        s.sheetFull = false;
         s.journeysOpen = false;
         if (!sameView) {
           s.spotlight = languoids;
@@ -201,6 +208,10 @@ export function createAtlasState(atlas: Atlas, initialYear: number): AtlasContex
     setAutoplay: on =>
       setState(s => {
         s.autoplay = on;
+      }),
+    setSheetFull: on =>
+      setState(s => {
+        s.sheetFull = on;
       }),
     refocus: () =>
       setState(s => {
